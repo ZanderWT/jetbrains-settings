@@ -1,44 +1,7 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
-  <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="shift meta w" />
-  </action>
-  <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="meta f4" />
-    <keyboard-shortcut first-keystroke="meta w" />
-  </action>
-  <action id="EditorSelectWord" />
-  <action id="EditorUnSelectWord" />
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift meta a" />
-    <keyboard-shortcut first-keystroke="alt comma" />
-  </action>
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift meta n" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
     <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
-  <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="shift alt l" />
-  </action>
-  <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="alt l" />
-  </action>
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-  </action>
-  <action id="OptimizeImports">
-    <keyboard-shortcut first-keystroke="meta alt o" />
-    <keyboard-shortcut first-keystroke="alt i" />
-  </action>
-  <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="alt h" />
-  </action>
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
-  </action>
-  <action id="VimWindowSplitHorizontal">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="j" />
-  </action>
-  <action id="VimWindowSplitVertical">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="l" />
   </action>
 </keymap>
