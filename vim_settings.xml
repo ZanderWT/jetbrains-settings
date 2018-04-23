@@ -25,21 +25,21 @@
         <mark key="^" line="175" column="0" />
         <mark key="." line="175" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" timestamp="1524524852956">
-        <mark key="'" line="107" column="0" />
+      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" timestamp="1524526082286">
+        <mark key="'" line="88" column="82" />
         <mark key="[" line="16" column="0" />
         <mark key="]" line="20" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" timestamp="1524525233998">
+      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" timestamp="1524526131364">
         <mark key="a" line="911" column="8" />
         <mark key="b" line="970" column="8" />
         <mark key="c" line="992" column="8" />
-        <mark key="d" line="1036" column="8" />
+        <mark key="d" line="1037" column="8" />
         <mark key="'" line="939" column="15" />
-        <mark key="[" line="949" column="17" />
-        <mark key="]" line="949" column="23" />
-        <mark key="." line="949" column="23" />
-        <mark key="^" line="949" column="23" />
+        <mark key="[" line="1026" column="47" />
+        <mark key="]" line="1027" column="32" />
+        <mark key="." line="1027" column="32" />
+        <mark key="^" line="1027" column="32" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/venues/venue_settings.py" timestamp="1524503947029">
         <mark key="[" line="21" column="33" />
@@ -68,7 +68,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="156" column="30" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/integration_tests/README.md" />
       <jump line="2" column="0" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
       <jump line="224" column="0" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/integration_tests/README.md" />
       <jump line="94" column="43" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
@@ -168,6 +167,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" />
       <jump line="939" column="15" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="107" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" />
+      <jump line="88" column="82" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -180,7 +180,7 @@
         <text>r.get('option_name')</text>
       </register>
       <register name="/" type="4">
-        <text>history</text>
+        <text>set_org</text>
       </register>
       <register name="0" type="4">
         <text>[s for s in venue_settings if s.get('option_name') == o.name]</text>
@@ -217,15 +217,14 @@
       </register>
     </registers>
     <search>
-      <last-search>history</last-search>
+      <last-search>set_org</last-search>
       <last-offset />
-      <last-pattern>history</last-pattern>
+      <last-pattern>set_org</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>VenueOption</entry>
         <entry>venue\.name</entry>
         <entry>by</entry>
         <entry encoding="base64">XDxnZXRfb25lX2Zyb21fbGlzdFw+</entry>
@@ -245,6 +244,7 @@
         <entry>s.get(o</entry>
         <entry encoding="base64">XDxnZXRfdmVudWVfbmFtZVw+</entry>
         <entry>history</entry>
+        <entry>set_org</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>
