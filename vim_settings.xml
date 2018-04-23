@@ -6,8 +6,11 @@
       <file name="/Dummy.txt" timestamp="1524157471700">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1524519750506">
+      <file name="/Python Console" timestamp="1524525276890">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/validation/schema/organizations.py" timestamp="1524524794685">
+        <mark key="'" line="2" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1524507202553">
         <mark key="[" line="0" column="0" />
@@ -22,27 +25,30 @@
         <mark key="^" line="175" column="0" />
         <mark key="." line="175" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" timestamp="1524176662997">
-        <mark key="'" line="69" column="27" />
+      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" timestamp="1524524852956">
+        <mark key="'" line="107" column="0" />
         <mark key="[" line="16" column="0" />
         <mark key="]" line="20" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" timestamp="1524519683502">
+      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" timestamp="1524525233998">
         <mark key="a" line="911" column="8" />
         <mark key="b" line="970" column="8" />
         <mark key="c" line="992" column="8" />
         <mark key="d" line="1036" column="8" />
-        <mark key="'" line="909" column="72" />
-        <mark key="[" line="929" column="9" />
-        <mark key="]" line="929" column="9" />
-        <mark key="." line="929" column="9" />
-        <mark key="^" line="929" column="9" />
+        <mark key="'" line="939" column="15" />
+        <mark key="[" line="949" column="17" />
+        <mark key="]" line="949" column="23" />
+        <mark key="." line="949" column="23" />
+        <mark key="^" line="949" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/venues/venue_settings.py" timestamp="1524503947029">
         <mark key="[" line="21" column="33" />
         <mark key="]" line="22" column="27" />
         <mark key="^" line="22" column="27" />
         <mark key="." line="22" column="27" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" timestamp="1524524814342">
+        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/README.md" timestamp="1524157218324">
         <mark key="'" line="107" column="124" />
@@ -62,10 +68,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="13" filename="$USER_HOME$/cp-projects/classpass-api/README.md" />
-      <jump line="189" column="2" filename="$USER_HOME$/cp-projects/classpass-api/README.md" />
-      <jump line="233" column="83" filename="$USER_HOME$/cp-projects/classpass-api/README.md" />
-      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/integration_tests/README.md" />
       <jump line="156" column="30" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/integration_tests/README.md" />
       <jump line="2" column="0" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
       <jump line="224" column="0" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/integration_tests/README.md" />
@@ -162,6 +164,10 @@
       <jump line="907" column="8" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="921" column="30" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="910" column="72" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/validation/schema/organizations.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" />
+      <jump line="939" column="15" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
+      <jump line="107" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -171,49 +177,49 @@
         <text>o.name</text>
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>r.get('option_name')</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRfdmVudWVfbmFtZVw+</text>
+        <text>history</text>
       </register>
       <register name="0" type="4">
         <text>[s for s in venue_settings if s.get('option_name') == o.name]</text>
       </register>
-      <register name="1" type="4">
-        <text>o.name</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmVudWVfbmFtZSA9IHNlbGYuZ2V0X3ZlbnVlX25hbWUodmVudWVfaWQpCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZW4odmVudWVfc2V0dGluZ3MpIDwgbGVuKGFsbF9vcHRpb25zKToKIHNlbGYuZ2V0X3ZlbnVlX25hbWUodmVudWVfaWQpCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHQgPSAK</text>
-      </register>
-      <register name="6" type="2">
+      <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gdmVudWVfc2V0dGluZ3MK</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgVmVudWUudmVudWVfbmFtZSwK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVmVudQo=</text>
+      <register name="3" type="4">
+        <text>o.name</text>
       </register>
-      <register name="9" type="2">
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdmVudWVfbmFtZSA9IHNlbGYuZ2V0X3ZlbnVlX25hbWUodmVudWVfaWQpCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBsZW4odmVudWVfc2V0dGluZ3MpIDwgbGVuKGFsbF9vcHRpb25zKToKIHNlbGYuZ2V0X3ZlbnVlX25hbWUodmVudWVfaWQpCg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICByZXN1bHQgPSAK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdmVudWVfc2V0dGluZ3MK</text>
+      </register>
       <register name=":" type="4">
-        <text>.m .-2</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxnZXRfdmVudWVfbmFtZVw+</last-search>
+      <last-search>history</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRfdmVudWVfbmFtZVw+</last-pattern>
+      <last-pattern>history</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
@@ -233,12 +239,12 @@
         <entry>\.c</entry>
         <entry>loggin</entry>
         <entry>nul</entry>
-        <entry>history</entry>
         <entry>debug</entry>
         <entry>_seria</entry>
         <entry encoding="base64">XDxfc2VyaWFsaXplX3ZlbnVlX3NldHRpbmdfcmVzdWx0c1w+</entry>
         <entry>s.get(o</entry>
         <entry encoding="base64">XDxnZXRfdmVudWVfbmFtZVw+</entry>
+        <entry>history</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>
@@ -249,9 +255,9 @@
         <entry>pwd</entry>
         <entry>Gread|w</entry>
         <entry>q</entry>
-        <entry>w</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>.m .-2</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -274,6 +280,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed CLOSE_BRACKET</text>
       </shortcut-conflict>
     </shortcut-conflicts>
     <editor>
