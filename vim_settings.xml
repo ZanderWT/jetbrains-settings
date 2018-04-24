@@ -12,7 +12,7 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/validation/schema/organizations.py" timestamp="1524524794685">
         <mark key="'" line="2" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1524597163627">
+      <file name="/fragment.py" timestamp="1524601761031">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="21" />
         <mark key="^" line="0" column="21" />
@@ -30,21 +30,24 @@
         <mark key="[" line="16" column="0" />
         <mark key="]" line="20" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" timestamp="1524600358489">
+      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" timestamp="1524601889418">
         <mark key="b" line="972" column="8" />
         <mark key="c" line="994" column="8" />
         <mark key="d" line="1039" column="8" />
         <mark key="'" line="960" column="22" />
-        <mark key="[" line="946" column="0" />
-        <mark key="]" line="946" column="20" />
+        <mark key="[" line="934" column="0" />
+        <mark key="]" line="934" column="0" />
         <mark key="^" line="948" column="42" />
-        <mark key="." line="946" column="20" />
+        <mark key="." line="934" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/venues/venue_settings.py" timestamp="1524503947029">
         <mark key="[" line="21" column="33" />
         <mark key="]" line="22" column="27" />
         <mark key="^" line="22" column="27" />
         <mark key="." line="22" column="27" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" timestamp="1524601632779">
+        <mark key="'" line="157" column="21" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" timestamp="1524524814342">
         <mark key="'" line="0" column="0" />
@@ -67,12 +70,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="94" column="43" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="325" column="16" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="40" column="5" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="41" column="5" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="57" column="5" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
       <jump line="63" column="0" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
       <jump line="65" column="11" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
       <jump line="69" column="58" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
@@ -167,6 +164,12 @@
       <jump line="947" column="55" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="960" column="22" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
+      <jump line="45" column="35" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
+      <jump line="649" column="27" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
+      <jump line="4" column="29" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
+      <jump line="109" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
+      <jump line="137" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
+      <jump line="157" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -179,53 +182,52 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>iso</text>
+        <text>unauthen</text>
       </register>
       <register name="0" type="4">
-        <text>[s for s in venue_settings if s.get('option_name') == o.name]</text>
+        <text>d
+            )</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGNsYXNzIFZlbnVlT3B0aW9uUmVjb3JkKG9iamVjdCk6CiAgICAgICAgIiIiRGVzY3JpYmVzIGEgc2luZ2xlIHZlbnVlIG9wdGlvbi4gQ29udGFpbnMgdGhlIG9wdGlvbiBuYW1lIGFuZCBhbiBpZGVudGlmZXIiIiIKICAgICAgICBkZWYgX19pbml0X18oc2VsZiwgaWQsIG5hbWUpOgogICAgICAgICAgICBzZWxmLmlkID0gaWQKICAgICAgICAgICAgc2VsZi5uYW1lID0gbmFtZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgVmVudWVTZXR0aW5nLnVzZXJfaWQsCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICd1c2VyX2lkJzogci5nZXQoJ3VzZXJfaWQnKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVmVudWUudmVudWVfbmFtZSwK</text>
+        <text encoding="base64">ICAgIGNsYXNzIFZlbnVlT3B0aW9uUmVjb3JkKG9iamVjdCk6CiAgICAgICAgIiIiRGVzY3JpYmVzIGEgc2luZ2xlIHZlbnVlIG9wdGlvbi4gQ29udGFpbnMgdGhlIG9wdGlvbiBuYW1lIGFuZCBhbiBpZGVudGlmZXIiIiIKICAgICAgICBkZWYgX19pbml0X18oc2VsZiwgaWQsIG5hbWUpOgogICAgICAgICAgICBzZWxmLmlkID0gaWQKICAgICAgICAgICAgc2VsZi5uYW1lID0gbmFtZQo=</text>
       </register>
-      <register name="4" type="4">
-        <text>o.name</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmVudWVfbmFtZSA9IHNlbGYuZ2V0X3ZlbnVlX25hbWUodmVudWVfaWQpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgVmVudWUudmVudWVfbmFtZSwK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBsZW4odmVudWVfc2V0dGluZ3MpIDwgbGVuKGFsbF9vcHRpb25zKToKIHNlbGYuZ2V0X3ZlbnVlX25hbWUodmVudWVfaWQpCg==</text>
+      <register name="6" type="4">
+        <text>o.name</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmVudWVfbmFtZSA9IHNlbGYuZ2V0X3ZlbnVlX25hbWUodmVudWVfaWQpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHQgPSAK</text>
+        <text encoding="base64">ICAgICAgICBpZiBsZW4odmVudWVfc2V0dGluZ3MpIDwgbGVuKGFsbF9vcHRpb25zKToKIHNlbGYuZ2V0X3ZlbnVlX25hbWUodmVudWVfaWQpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>iso</last-search>
+      <last-search>unauthen</last-search>
       <last-offset />
-      <last-pattern>iso</last-pattern>
-      <last-dir>-1</last-dir>
+      <last-pattern>unauthen</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>venue name</entry>
-        <entry>Venue Name</entry>
         <entry>VenueSett</entry>
         <entry>created_by</entry>
         <entry encoding="base64">XDxzXD4=</entry>
@@ -244,6 +246,8 @@
         <entry>fromtim</entry>
         <entry>date</entry>
         <entry>iso</entry>
+        <entry encoding="base64">XDx1bmF1dGhlbnRpY2F0ZWRfdXNlcmlkXD4=</entry>
+        <entry>unauthen</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>
