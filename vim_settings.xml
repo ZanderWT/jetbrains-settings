@@ -55,12 +55,13 @@
         <mark key="^" line="40" column="52" />
         <mark key="." line="40" column="52" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1524592765781">
-        <mark key="'" line="31" column="12" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="66" />
-        <mark key="." line="33" column="12" />
-        <mark key="^" line="33" column="12" />
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1524668690842">
+        <mark key="'" line="279" column="21" />
+        <mark key="[" line="278" column="9" />
+        <mark key="]" line="279" column="21" />
+        <mark key="." line="279" column="21" />
+        <mark key="^" line="279" column="21" />
+        <mark key="n" line="92" column="4" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/FirstClassFreeDao.sql.stg" timestamp="1524495274060">
         <mark key="'" line="30" column="27" />
@@ -136,11 +137,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="69" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
-      <jump line="294" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
-      <jump line="270" column="14" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
-      <jump line="282" column="28" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
-      <jump line="50" column="56" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="20" column="36" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="52" column="13" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="16" column="44" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
@@ -236,6 +232,11 @@
       <jump line="30" column="34" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="91" column="74" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="31" column="4" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
+      <jump line="107" column="27" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="91" column="21" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="92" column="4" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="279" column="21" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -248,7 +249,7 @@
         <text>earlier</text>
       </register>
       <register name="/" type="4">
-        <text>ear</text>
+        <text>protected</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIC8vIERhdGUgd2hlbiBGQ0Ygd2FzIHNldCBvbiBhbiBvcmcgb3IgYSB2ZW51ZSwgZWFybGllciB0aGFuIHRoZSBkZWZhdWx0IHJlc2VydmF0aW9uIGRhdGUK</text>
@@ -285,9 +286,9 @@
       </register>
     </registers>
     <search>
-      <last-search>ear</last-search>
+      <last-search>protected</last-search>
       <last-offset />
-      <last-pattern>ear</last-pattern>
+      <last-pattern>protected</last-pattern>
       <last-replace>venue</last-replace>
       <last-substitute>org</last-substitute>
       <last-dir>1</last-dir>
@@ -295,7 +296,6 @@
     </search>
     <history>
       <history-search>
-        <entry>eq</entry>
         <entry>list</entry>
         <entry>bef</entry>
         <entry>BEFORE</entry>
@@ -315,6 +315,7 @@
         <entry>assertnul</entry>
         <entry encoding="base64">XDxGQ0ZfQkVGT1JFX1JFU1w+</entry>
         <entry>ear</entry>
+        <entry>protected</entry>
       </history-search>
       <history-cmd>
         <entry>help</entry>
