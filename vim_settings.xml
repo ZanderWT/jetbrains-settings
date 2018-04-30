@@ -18,6 +18,11 @@
         <mark key="^" line="0" column="21" />
         <mark key="." line="0" column="21" />
       </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" timestamp="1525124822859">
+        <mark key="[" line="201" column="0" />
+        <mark key="]" line="201" column="0" />
+        <mark key="." line="201" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525123622989">
         <mark key="[" line="107" column="0" />
         <mark key="]" line="107" column="0" />
@@ -78,13 +83,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="11" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="69" column="58" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="70" column="10" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="71" column="10" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="37" column="76" filename="$USER_HOME$/cp-projects/classpass-api/migration/local.ini" />
-      <jump line="47" column="19" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
-      <jump line="61" column="9" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
       <jump line="62" column="44" filename="$USER_HOME$/cp-projects/classpass-api/config/local.ini" />
       <jump line="236" column="0" filename="$USER_HOME$/cp-projects/classpass-api/README.md" />
       <jump line="55" column="2" filename="$USER_HOME$/cp-projects/classpass-api/README.md" />
@@ -178,6 +176,13 @@
       <jump line="137" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="157" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="909" column="89" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
+      <jump line="56" column="4" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
+      <jump line="203" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
+      <jump line="211" column="7" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
+      <jump line="198" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
+      <jump line="201" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
+      <jump line="207" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
+      <jump line="210" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -187,57 +192,54 @@
         <text>o.name</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>0</text>
+        <text>assertnull</text>
       </register>
-      <register name="0" type="4">
-        <text>d
-            )</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBhc3NlcnROdWxsKHJlc0luZm9zLmdldCgwKS5nZXRSZXMoKS5nZXRPdmVycmlkZVByaWNlKCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByLmdldFJlcygpLmdldAo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBJZiBhbiB2ZW51ZSBkb2VzIG5vdCBoYXZlIGEgc2V0dGluZyBmb3IgYW4gb3B0aW9uLCB0aGUgZGVmYXVsdCBvcHRpb24gdmFsdWUgb2YgJzAnIGlzIHVzZWQgaW5zdGVhZCIiIgo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIEZpbGwgb3V0IHRoZSB2ZW51ZSBzZXR0aW5ncyB3aXRoIGVudHJpZXMgZm9yIGV2ZXJ5IG9wdGlvbiAtIHRoaXMgaXMgZXhwZWN0ZWQgYnkgdGhlIGFkbWluIHBhZ2UKICAgICAgICAjIHNvIGl0IHdpbGwga25vdyBhYm91dCBhbGwgdGhlIG9wdGlvbnMuCiAgICAgICAgYWxsX29wdGlvbnMgPSBzZWxmLmdldF92ZW51ZV9vcHRpb25zKCkKICAgICAgICBpZiBsZW4odmVudWVfc2V0dGluZ3MpIDwgbGVuKGFsbF9vcHRpb25zKToKICAgICAgICAgICAgZm9yIG8gaW4gYWxsX29wdGlvbnM6CiAgICAgICAgICAgICAgICBjdXJyZW50X3NldHRpbmcgPSBbcyBmb3IgcyBpbiB2ZW51ZV9zZXR0aW5ncyBpZiBzLmdldCgnb3B0aW9uX25hbWUnKSA9PSBvLm5hbWVdCiAgICAgICAgICAgICAgICBpZiBub3QgY3VycmVudF9zZXR0aW5nOgogICAgICAgICAgICAgICAgICAgIHZlbnVlX3NldHRpbmdzLmFwcGVuZChzZWxmLl9zZXJpYWxpemVfdmVudWVfc2V0dGluZ19yZXN1bHRzKG8ubmFtZSwgMCkpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVmVudWVTZXR0aW5nLnVzZXJfaWQsCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICd1c2VyX2lkJzogci5nZXQoJ3VzZXJfaWQnKQo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGNsYXNzIFZlbnVlT3B0aW9uUmVjb3JkKG9iamVjdCk6CiAgICAgICAgIiIiRGVzY3JpYmVzIGEgc2luZ2xlIHZlbnVlIG9wdGlvbi4gQ29udGFpbnMgdGhlIG9wdGlvbiBuYW1lIGFuZCBhbiBpZGVudGlmZXIiIiIKICAgICAgICBkZWYgX19pbml0X18oc2VsZiwgaWQsIG5hbWUpOgogICAgICAgICAgICBzZWxmLmlkID0gaWQKICAgICAgICAgICAgc2VsZi5uYW1lID0gbmFtZQo=</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBub0ZDRk9uUHJlbWl1bVJlc2VydmF0aW9ucygpIHsKICAgICAgICBMaXN0PEZDRlNldHRpbmc+IG9yZ1NldHRpbmdzID0gTGlzdC5vZihuZXcgRkNGU2V0dGluZyhPUkdfSUQsIEZDRl9CRUZPUkVfUkVTLCB0cnVlKSk7CiAgICAgICAgTGlzdDxGQ0ZTZXR0aW5nPiB2ZW51ZVNldHRpbmdzID0gTGlzdC5vZihuZXcgRkNGU2V0dGluZyhWRU5VRV9JRCwgRkNGX0JFRk9SRV9SRVMsIHRydWUpKTsKICAgICAgICB3aGVuKGZpcnN0Q2xhc3NGcmVlRGFvLmdldEZDRk9yZ1NldHRpbmdzKCkpLnRoZW5SZXR1cm4ob3JnU2V0dGluZ3MpOwogICAgICAgIHdoZW4oZmlyc3RDbGFzc0ZyZWVEYW8uZ2V0RkNGVmVudWVTZXR0aW5ncygpKS50aGVuUmV0dXJuKHZlbnVlU2V0dGluZ3MpOwoKICAgICAgICBMaXN0PFJlc2VydmF0aW9uSW5mbz4gcmVzSW5mb3MgPSBMaXN0Lm9mKHJlc0luZm8oYnVpbGRQYXlhYmxlUmVzZXJ2YXRpb24oKSkpOwogICAgICAgIHJlc0luZm9zLmdldCgwKS5nZXRSZXMoKS5zZXRTdGF0dXMoUGF5YWJsZVJlc2VydmF0aW9uLlBheWFibGVTdGF0dXMucHJlbWl1bSk7CgogICAgICAgIGZjZkxvZ2ljLmFkanVzdEZvckZpcnN0Q2xhc3NGcmVlKHJlc0luZm9zKTsKICAgICAgICBhc3NlcnROdWxsKHJlc0luZm9zLmdldCgwKS5nZXRSZXMoKS5nZXRPdmVycmlkZVByaWNlKCkpOwogICAgfQoK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByLmdldFJlcygpLmdldAo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBJZiBhbiB2ZW51ZSBkb2VzIG5vdCBoYXZlIGEgc2V0dGluZyBmb3IgYW4gb3B0aW9uLCB0aGUgZGVmYXVsdCBvcHRpb24gdmFsdWUgb2YgJzAnIGlzIHVzZWQgaW5zdGVhZCIiIgo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAjIEZpbGwgb3V0IHRoZSB2ZW51ZSBzZXR0aW5ncyB3aXRoIGVudHJpZXMgZm9yIGV2ZXJ5IG9wdGlvbiAtIHRoaXMgaXMgZXhwZWN0ZWQgYnkgdGhlIGFkbWluIHBhZ2UKICAgICAgICAjIHNvIGl0IHdpbGwga25vdyBhYm91dCBhbGwgdGhlIG9wdGlvbnMuCiAgICAgICAgYWxsX29wdGlvbnMgPSBzZWxmLmdldF92ZW51ZV9vcHRpb25zKCkKICAgICAgICBpZiBsZW4odmVudWVfc2V0dGluZ3MpIDwgbGVuKGFsbF9vcHRpb25zKToKICAgICAgICAgICAgZm9yIG8gaW4gYWxsX29wdGlvbnM6CiAgICAgICAgICAgICAgICBjdXJyZW50X3NldHRpbmcgPSBbcyBmb3IgcyBpbiB2ZW51ZV9zZXR0aW5ncyBpZiBzLmdldCgnb3B0aW9uX25hbWUnKSA9PSBvLm5hbWVdCiAgICAgICAgICAgICAgICBpZiBub3QgY3VycmVudF9zZXR0aW5nOgogICAgICAgICAgICAgICAgICAgIHZlbnVlX3NldHRpbmdzLmFwcGVuZChzZWxmLl9zZXJpYWxpemVfdmVudWVfc2V0dGluZ19yZXN1bHRzKG8ubmFtZSwgMCkpCg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgVmVudWVTZXR0aW5nLnVzZXJfaWQsCg==</text>
+      </register>
       <register name=":" type="4">
-        <text>142</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>0</last-search>
+      <last-search>assertnull</last-search>
       <last-offset />
-      <last-pattern>0</last-pattern>
-      <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <last-pattern>assertnull</last-pattern>
+      <last-dir>-1</last-dir>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>created_by</entry>
-        <entry encoding="base64">XDxzXD4=</entry>
         <entry encoding="base64">XDxzZXR0aW5nX2lkc1w+</entry>
         <entry>.c</entry>
         <entry>\.c</entry>
@@ -256,6 +258,8 @@
         <entry encoding="base64">XDx1bmF1dGhlbnRpY2F0ZWRfdXNlcmlkXD4=</entry>
         <entry>unauthen</entry>
         <entry>0</entry>
+        <entry>fal</entry>
+        <entry>assertnull</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>
@@ -267,7 +271,6 @@
         <entry>Gread|w</entry>
         <entry>q</entry>
         <entry>.m .-2</entry>
-        <entry>w</entry>
         <entry>setlocal invwrap</entry>
         <entry>setlocal invlinebreak</entry>
         <entry>setlocal invlist</entry>
@@ -276,6 +279,7 @@
         <entry>17</entry>
         <entry>188</entry>
         <entry>142</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
