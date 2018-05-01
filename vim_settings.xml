@@ -21,6 +21,13 @@
         <mark key="]" line="329" column="69" />
         <mark key="." line="329" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/classpass-api/automated_tests/integration_tests/README.md" timestamp="1523917360300">
+        <mark key="'" line="224" column="0" />
+        <mark key="[" line="175" column="3" />
+        <mark key="]" line="175" column="0" />
+        <mark key="^" line="175" column="0" />
+        <mark key="." line="175" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" timestamp="1525189510288">
         <mark key="[" line="41" column="8" />
         <mark key="]" line="41" column="44" />
@@ -31,11 +38,19 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" timestamp="1524524814342">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/venue_settings.feature" timestamp="1525207644932">
-        <mark key="[" line="7" column="56" />
-        <mark key="]" line="7" column="56" />
-        <mark key="." line="7" column="56" />
-        <mark key="^" line="7" column="46" />
+      <file name="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/venue_settings.feature" timestamp="1525210017398">
+        <mark key="'" line="31" column="7" />
+        <mark key="[" line="31" column="39" />
+        <mark key="]" line="31" column="43" />
+        <mark key="." line="31" column="43" />
+        <mark key="^" line="31" column="43" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/classpass-api/config/local.ini" timestamp="1523918256778">
+        <mark key="'" line="62" column="44" />
+        <mark key="[" line="64" column="20" />
+        <mark key="]" line="64" column="99" />
+        <mark key="^" line="70" column="7" />
+        <mark key="." line="70" column="7" />
       </file>
       <file name="/Dummy.txt" timestamp="1525194450292">
         <mark key="[" line="0" column="0" />
@@ -119,9 +134,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="960" column="22" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="45" column="35" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
-      <jump line="649" column="27" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="4" column="29" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="109" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="137" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
@@ -219,6 +231,9 @@
       <jump line="45" column="0" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" />
       <jump line="44" column="20" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" />
       <jump line="32" column="47" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" />
+      <jump line="7" column="41" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/venue_settings.feature" />
+      <jump line="30" column="22" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/venue_settings.feature" />
+      <jump line="31" column="7" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/venue_settings.feature" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -228,57 +243,54 @@
         <text>o.name</text>
       </register>
       <register name="-" type="4">
-        <text>b</text>
+        <text>True</text>
       </register>
       <register name="/" type="4">
-        <text>bool</text>
+        <text>tr</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CkB0aGVuKCJ0aGUgYWRtaW4gc2VlcyB0aGF0IGlzX3NldCBpcyB7dmFsdWU6Qm9vbGVhblR5cGV9IGZvciB7c2V0dGluZ30iKQpkZWYgc3RlcF9pbXBsKGNvbnRleHQsIHNldHRpbmcsIHZhbHVlKToKICAgIGVuc3VyZShbCiAgICAgICAgcyBmb3IgcyBpbiBjb250ZXh0LnZlbnVlX3NldHRpbmdzLmdldCgnc2V0dGluZycpIGlmIHMuZ2V0KCJvcHRpb25fbmFtZSIpID09IHNldHRpbmcgYW5kIHMuZ2V0KCJpc19zZXQiKSA9PSB2YWx1ZQogICAgXSkK</text>
+        <text encoding="base64">ICAgIEFuZCB0aGUgYWRtaW4gc2VlcyB0aGF0IGlzX3NldCBpcyBUcnVlIGZvciA8c2V0dGluZz4K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIFRoZW4gdGhlIGFkbWluIHNlZXMgbm8gcmVzdWx0cyBmb3IgPHNldHRpbmc+Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">QHRoZW4oInRoZSBhZG1pbiBzZWVzIHRoYXQge3NldHRpbmd9IGlzIHt2YWx1ZTpkfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQudmVudWVfc2V0dGluZ3MuZ2V0KCdzZXR0aW5nJykgaWYgcy5nZXQoImVuYWJsZWQiKSA9PSBpbnQodmFsdWUpIGFuZCBzLmdldCgib3B0aW9uX25hbWUiKSA9PSBzZXR0aW5nCiAgICBdKS5pc19ub25lbXB0eSgpCgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QHRoZW4oInRoZSBhZG1pbiBzZWVzIHRoYXQge3NldHRpbmd9IGlzIHt2YWx1ZTpkfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQudmVudWVfc2V0dGluZ3MuZ2V0KCdzZXR0aW5nJykgaWYgcy5nZXQoImVuYWJsZWQiKSA9PSBpbnQodmFsdWUpIGFuZCBzLmdldCgib3B0aW9uX25hbWUiKSA9PSBzZXR0aW5nCiAgICBdKS5pc19ub25lbXB0eSgpCgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CkB0aGVuKCJ0aGUgYWRtaW4gc2VlcyBmb3Ige3ZlbnVlX25hbWV9LCB7c2V0dGluZ30gaXMge3ZhbHVlfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgdmVudWVfbmFtZSwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQuYWxsX3ZlbnVlX3NldHRpbmdzIGlmIHMuZ2V0KHNldHRpbmcpID09IGludCh2YWx1ZSkgaWYgc1snbmFtZSddID09IHZlbnVlX25hbWUKICAgIF0pLmlzX25vbmVtcHR5KCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CkB0aGVuKCJ0aGUgYWRtaW4gc2VlcyBmb3Ige3ZlbnVlX25hbWV9LCB7c2V0dGluZ30gaXMge3ZhbHVlfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgdmVudWVfbmFtZSwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQuYWxsX3ZlbnVlX3NldHRpbmdzIGlmIHMuZ2V0KHNldHRpbmcpID09IGludCh2YWx1ZSkgaWYgc1snbmFtZSddID09IHZlbnVlX25hbWUKICAgIF0pLmlzX25vbmVtcHR5KCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CkB0aGVuKCJ0aGUgYWRtaW4gc2VlcyB0aGF0IGlzX3NldCBpcyB7dmFsdWU6Qm9vbGVhblR5cGV9IGZvciB7c2V0dGluZ30iKQpkZWYgc3RlcF9pbXBsKGNvbnRleHQsIHNldHRpbmcsIHZhbHVlKToKICAgIGVuc3VyZShbCiAgICAgICAgcyBmb3IgcyBpbiBjb250ZXh0LnZlbnVlX3NldHRpbmdzLmdldCgnc2V0dGluZycpIGlmIHMuZ2V0KCJvcHRpb25fbmFtZSIpID09IHNldHRpbmcgYW5kIHMuZ2V0KCJpc19zZXQiKSA9PSB2YWx1ZQogICAgXSkK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">QHRoZW4oInRoZSBhZG1pbiBzZWVzIHRoYXQgaXNfc2V0IGlzIHt2YWx1ZTpCb29sZWFuVHlwZX0gZm9yIHtzZXR0aW5nfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQudmVudWVfc2V0dGluZ3MuZ2V0KCdzZXR0aW5nJykgaWYgcy5nZXQoIm9wdGlvbl9uYW1lIikgPT0gc2V0dGluZyBhbmQgcy5nZXQoImlzX3NldCIpID09IHZhbHVlCiAgICBdKQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">CkB0aGVuKCJ0aGUgYWRtaW4gc2VlcyB0aGF0IGlzX3NldCBpcyB7dmFsdWU6Qm9vbGVhblR5cGV9IGZvciB7c2V0dGluZ30iKQpkZWYgc3RlcF9pbXBsKGNvbnRleHQsIHNldHRpbmcsIHZhbHVlKToKICAgIGVuc3VyZShbCiAgICAgICAgcyBmb3IgcyBpbiBjb250ZXh0LnZlbnVlX3NldHRpbmdzLmdldCgnc2V0dGluZycpIGlmIHMuZ2V0KCJvcHRpb25fbmFtZSIpID09IHNldHRpbmcgYW5kIHMuZ2V0KCJpc19zZXQiKSA9PSB2YWx1ZQogICAgXSkK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">QHRoZW4oInRoZSBhZG1pbiBzZWVzIHRoYXQgaXNfc2V0IGlzIHt2YWx1ZTpCb29sZWFuVHlwZX0gZm9yIHtzZXR0aW5nfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQudmVudWVfc2V0dGluZ3MuZ2V0KCdzZXR0aW5nJykgaWYgcy5nZXQoIm9wdGlvbl9uYW1lIikgPT0gc2V0dGluZyBhbmQgcy5nZXQoImlzX3NldCIpID09IHZhbHVlCiAgICBdKQo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>36</text>
       </register>
     </registers>
     <search>
-      <last-search>bool</last-search>
+      <last-search>tr</last-search>
       <last-offset />
-      <last-pattern>bool</last-pattern>
+      <last-pattern>tr</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzZXR0aW5nX2lkc1w+</entry>
-        <entry>.c</entry>
-        <entry>\.c</entry>
         <entry>loggin</entry>
         <entry>nul</entry>
         <entry>debug</entry>
@@ -296,6 +308,9 @@
         <entry>0</entry>
         <entry>ena</entry>
         <entry>bool</entry>
+        <entry>no re</entry>
+        <entry>is_set</entry>
+        <entry>tr</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>
