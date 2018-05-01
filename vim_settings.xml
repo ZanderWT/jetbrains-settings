@@ -44,17 +44,14 @@
         <mark key="." line="19" column="33" />
         <mark key="^" line="19" column="33" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/automated_tests/integration_tests/README.md" timestamp="1523917360300">
-        <mark key="'" line="224" column="0" />
-        <mark key="[" line="175" column="3" />
-        <mark key="]" line="175" column="0" />
-        <mark key="^" line="175" column="0" />
-        <mark key="." line="175" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" timestamp="1524526082286">
         <mark key="'" line="88" column="82" />
         <mark key="[" line="16" column="0" />
         <mark key="]" line="20" column="23" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" timestamp="1525187821173">
+        <mark key="[" line="21" column="8" />
+        <mark key="]" line="21" column="33" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" timestamp="1524670786619">
         <mark key="b" line="1119" column="8" />
@@ -72,9 +69,9 @@
         <mark key="^" line="22" column="27" />
         <mark key="." line="22" column="27" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525186849124">
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525187806605">
         <mark key="a" line="382" column="49" />
-        <mark key="'" line="461" column="0" />
+        <mark key="'" line="251" column="17" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" timestamp="1524524814342">
         <mark key="'" line="0" column="0" />
@@ -91,18 +88,8 @@
       <file name="/fragment.java" timestamp="1525128453263">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/config/local.ini" timestamp="1523918256778">
-        <mark key="'" line="62" column="44" />
-        <mark key="[" line="64" column="20" />
-        <mark key="]" line="64" column="99" />
-        <mark key="^" line="70" column="7" />
-        <mark key="." line="70" column="7" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="238" column="15" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="246" column="15" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="260" column="15" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="282" column="15" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="287" column="17" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="307" column="17" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
@@ -200,6 +187,9 @@
       <jump line="379" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="368" column="18" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="461" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="95" column="5" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="15" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" />
+      <jump line="251" column="17" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -212,10 +202,10 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwYXlhYmxlUmVzZXJ2YXRpb25zXD4=</text>
+        <text>upda</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnROdWxsKHJlc0luZm9zLmdldCgwKS5nZXRSZXMoKS5nZXRPdmVycmlkZVByaWNlKCkpOwo=</text>
+      <register name="0" type="4">
+        <text>update_reservation_payable</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -249,15 +239,14 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwYXlhYmxlUmVzZXJ2YXRpb25zXD4=</last-search>
+      <last-search>upda</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwYXlhYmxlUmVzZXJ2YXRpb25zXD4=</last-pattern>
-      <last-dir>-1</last-dir>
+      <last-pattern>upda</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>s.get(o</entry>
         <entry encoding="base64">XDxnZXRfdmVudWVfbmFtZVw+</entry>
         <entry>set_org</entry>
         <entry>history</entry>
@@ -277,6 +266,7 @@
         <entry>over</entry>
         <entry encoding="base64">XDxvdmVycmlkZVByaWNlXD4=</entry>
         <entry encoding="base64">XDxwYXlhYmxlUmVzZXJ2YXRpb25zXD4=</entry>
+        <entry>upda</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>
