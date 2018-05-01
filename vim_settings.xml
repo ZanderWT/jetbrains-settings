@@ -32,8 +32,8 @@
         <mark key="]" line="201" column="0" />
         <mark key="." line="201" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" timestamp="1525189542501">
-        <mark key="'" line="402" column="0" />
+      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" timestamp="1525191683904">
+        <mark key="'" line="502" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525129014109">
         <mark key="'" line="252" column="4" />
@@ -87,12 +87,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="572" column="17" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="1004" column="32" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="1018" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="904" column="82" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="895" column="98" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="902" column="35" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="957" column="27" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="970" column="8" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="991" column="27" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
@@ -185,8 +179,14 @@
       <jump line="15" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" />
       <jump line="251" column="17" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="8" column="13" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/configurations/StudioReservationPriceConfiguration.java" />
-      <jump line="402" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="402" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="458" column="22" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="453" column="22" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="487" column="40" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="475" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="450" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="502" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -199,7 +199,7 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>upda</text>
+        <text>select</text>
       </register>
       <register name="0" type="4">
         <text>update_reservations_price_adjustments</text>
@@ -232,21 +232,18 @@
         <text encoding="base64">ICAgICAgICAgICAgVmVudWVTZXR0aW5nLnVzZXJfaWQsCg==</text>
       </register>
       <register name=":" type="4">
-        <text>166</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>upda</last-search>
+      <last-search>select</last-search>
       <last-offset />
-      <last-pattern>upda</last-pattern>
-      <last-dir>1</last-dir>
+      <last-pattern>select</last-pattern>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxnZXRfdmVudWVfbmFtZVw+</entry>
-        <entry>set_org</entry>
-        <entry>history</entry>
         <entry>fromtim</entry>
         <entry>date</entry>
         <entry>iso</entry>
@@ -264,6 +261,9 @@
         <entry encoding="base64">XDxvdmVycmlkZVByaWNlXD4=</entry>
         <entry encoding="base64">XDxwYXlhYmxlUmVzZXJ2YXRpb25zXD4=</entry>
         <entry>upda</entry>
+        <entry>getre</entry>
+        <entry encoding="base64">XDxkaXNxdWFsaWZ5aW5nX3Jlc2VydmF0aW9uXD4=</entry>
+        <entry>select</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">dW5tYXAgPGMtdz48Yy1oPg==</entry>
@@ -282,10 +282,10 @@
         <entry>188</entry>
         <entry>142</entry>
         <entry>w</entry>
-        <entry>q</entry>
         <entry>1151</entry>
         <entry>385</entry>
         <entry>166</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -314,6 +314,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed 2</text>
       </shortcut-conflict>
     </shortcut-conflicts>
     <editor>
