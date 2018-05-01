@@ -31,6 +31,12 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" timestamp="1524524814342">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/venue_settings.feature" timestamp="1525207644932">
+        <mark key="[" line="7" column="56" />
+        <mark key="]" line="7" column="56" />
+        <mark key="." line="7" column="56" />
+        <mark key="^" line="7" column="46" />
+      </file>
       <file name="/Dummy.txt" timestamp="1525194450292">
         <mark key="[" line="0" column="0" />
       </file>
@@ -43,11 +49,11 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/validation/schema/organizations.py" timestamp="1524524794685">
         <mark key="'" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" timestamp="1525199113948">
-        <mark key="[" line="9" column="36" />
-        <mark key="]" line="9" column="36" />
-        <mark key="^" line="4" column="25" />
-        <mark key="." line="9" column="36" />
+      <file name="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" timestamp="1525209298472">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="^" line="25" column="3" />
+        <mark key="." line="31" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/PayoutLogic.java" timestamp="1525125575982">
         <mark key="'" line="263" column="0" />
@@ -73,11 +79,6 @@
         <mark key="]" line="19" column="33" />
         <mark key="." line="19" column="33" />
         <mark key="^" line="19" column="33" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" timestamp="1524526082286">
-        <mark key="'" line="88" column="82" />
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="20" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/TestingStudioDao.java" timestamp="1525193199635">
         <mark key="[" line="34" column="8" />
@@ -118,11 +119,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="82" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" />
-      <jump line="1007" column="32" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="965" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="947" column="55" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="960" column="22" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="45" column="35" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="649" column="27" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
@@ -218,6 +214,11 @@
       <jump line="345" column="92" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="394" column="39" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="1044" column="17" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
+      <jump line="49" column="14" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" />
+      <jump line="46" column="54" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" />
+      <jump line="45" column="0" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" />
+      <jump line="44" column="20" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" />
+      <jump line="32" column="47" filename="$USER_HOME$/cp-projects/classpass-api/automated_tests/general_tests/features/steps/venue_settings.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -227,56 +228,54 @@
         <text>o.name</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>b</text>
       </register>
       <register name="/" type="4">
-        <text>Fetching network payout rates for</text>
+        <text>bool</text>
       </register>
-      <register name="0" type="4">
-        <text>createTestVenuePriceRule</text>
+      <register name="0" type="2">
+        <text encoding="base64">CkB0aGVuKCJ0aGUgYWRtaW4gc2VlcyB0aGF0IGlzX3NldCBpcyB7dmFsdWU6Qm9vbGVhblR5cGV9IGZvciB7c2V0dGluZ30iKQpkZWYgc3RlcF9pbXBsKGNvbnRleHQsIHNldHRpbmcsIHZhbHVlKToKICAgIGVuc3VyZShbCiAgICAgICAgcyBmb3IgcyBpbiBjb250ZXh0LnZlbnVlX3NldHRpbmdzLmdldCgnc2V0dGluZycpIGlmIHMuZ2V0KCJvcHRpb25fbmFtZSIpID09IHNldHRpbmcgYW5kIHMuZ2V0KCJpc19zZXQiKSA9PSB2YWx1ZQogICAgXSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIEZpbGwgb3V0IHRoZSB2ZW51ZSBzZXR0aW5ncyB3aXRoIGVudHJpZXMgZm9yIGV2ZXJ5IG9wdGlvbiAtIHRoaXMgaXMgZXhwZWN0ZWQgYnkgdGhlIGFkbWluIHBhZ2UKICAgICAgICAjIHNvIGl0IHdpbGwga25vdyBhYm91dCBhbGwgdGhlIG9wdGlvbnMuCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QHRoZW4oInRoZSBhZG1pbiBzZWVzIHRoYXQge3NldHRpbmd9IGlzIHt2YWx1ZTpkfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQudmVudWVfc2V0dGluZ3MuZ2V0KCdzZXR0aW5nJykgaWYgcy5nZXQoImVuYWJsZWQiKSA9PSBpbnQodmFsdWUpIGFuZCBzLmdldCgib3B0aW9uX25hbWUiKSA9PSBzZXR0aW5nCiAgICBdKS5pc19ub25lbXB0eSgpCgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBub0ZDRk9uUHJlbWl1bVJlc2VydmF0aW9ucygpIHsKICAgICAgICBMaXN0PEZDRlNldHRpbmc+IG9yZ1NldHRpbmdzID0gTGlzdC5vZihuZXcgRkNGU2V0dGluZyhPUkdfSUQsIEZDRl9CRUZPUkVfUkVTLCB0cnVlKSk7CiAgICAgICAgTGlzdDxGQ0ZTZXR0aW5nPiB2ZW51ZVNldHRpbmdzID0gTGlzdC5vZihuZXcgRkNGU2V0dGluZyhWRU5VRV9JRCwgRkNGX0JFRk9SRV9SRVMsIHRydWUpKTsKICAgICAgICB3aGVuKGZpcnN0Q2xhc3NGcmVlRGFvLmdldEZDRk9yZ1NldHRpbmdzKCkpLnRoZW5SZXR1cm4ob3JnU2V0dGluZ3MpOwogICAgICAgIHdoZW4oZmlyc3RDbGFzc0ZyZWVEYW8uZ2V0RkNGVmVudWVTZXR0aW5ncygpKS50aGVuUmV0dXJuKHZlbnVlU2V0dGluZ3MpOwoKICAgICAgICBMaXN0PFJlc2VydmF0aW9uSW5mbz4gcmVzSW5mb3MgPSBMaXN0Lm9mKHJlc0luZm8oYnVpbGRQYXlhYmxlUmVzZXJ2YXRpb24oKSkpOwogICAgICAgIHJlc0luZm9zLmdldCgwKS5nZXRSZXMoKS5zZXRTdGF0dXMoUGF5YWJsZVJlc2VydmF0aW9uLlBheWFibGVTdGF0dXMucHJlbWl1bSk7CgogICAgICAgIGZjZkxvZ2ljLmFkanVzdEZvckZpcnN0Q2xhc3NGcmVlKHJlc0luZm9zKTsKICAgICAgICBhc3NlcnROdWxsKHJlc0luZm9zLmdldCgwKS5nZXRSZXMoKS5nZXRPdmVycmlkZVByaWNlKCkpOwogICAgfQoK</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">CkB0aGVuKCJ0aGUgYWRtaW4gc2VlcyBmb3Ige3ZlbnVlX25hbWV9LCB7c2V0dGluZ30gaXMge3ZhbHVlfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgdmVudWVfbmFtZSwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQuYWxsX3ZlbnVlX3NldHRpbmdzIGlmIHMuZ2V0KHNldHRpbmcpID09IGludCh2YWx1ZSkgaWYgc1snbmFtZSddID09IHZlbnVlX25hbWUKICAgIF0pLmlzX25vbmVtcHR5KCkK</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByLmdldFJlcygpLmdldAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">CkB0aGVuKCJ0aGUgYWRtaW4gc2VlcyB0aGF0IGlzX3NldCBpcyB7dmFsdWU6Qm9vbGVhblR5cGV9IGZvciB7c2V0dGluZ30iKQpkZWYgc3RlcF9pbXBsKGNvbnRleHQsIHNldHRpbmcsIHZhbHVlKToKICAgIGVuc3VyZShbCiAgICAgICAgcyBmb3IgcyBpbiBjb250ZXh0LnZlbnVlX3NldHRpbmdzLmdldCgnc2V0dGluZycpIGlmIHMuZ2V0KCJvcHRpb25fbmFtZSIpID09IHNldHRpbmcgYW5kIHMuZ2V0KCJpc19zZXQiKSA9PSB2YWx1ZQogICAgXSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">QHRoZW4oInRoZSBhZG1pbiBzZWVzIHRoYXQgaXNfc2V0IGlzIHt2YWx1ZTpCb29sZWFuVHlwZX0gZm9yIHtzZXR0aW5nfSIpCmRlZiBzdGVwX2ltcGwoY29udGV4dCwgc2V0dGluZywgdmFsdWUpOgogICAgZW5zdXJlKFsKICAgICAgICBzIGZvciBzIGluIGNvbnRleHQudmVudWVfc2V0dGluZ3MuZ2V0KCdzZXR0aW5nJykgaWYgcy5nZXQoIm9wdGlvbl9uYW1lIikgPT0gc2V0dGluZyBhbmQgcy5nZXQoImlzX3NldCIpID09IHZhbHVlCiAgICBdKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBJZiBhbiB2ZW51ZSBkb2VzIG5vdCBoYXZlIGEgc2V0dGluZyBmb3IgYW4gb3B0aW9uLCB0aGUgZGVmYXVsdCBvcHRpb24gdmFsdWUgb2YgJzAnIGlzIHVzZWQgaW5zdGVhZCIiIgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIEZpbGwgb3V0IHRoZSB2ZW51ZSBzZXR0aW5ncyB3aXRoIGVudHJpZXMgZm9yIGV2ZXJ5IG9wdGlvbiAtIHRoaXMgaXMgZXhwZWN0ZWQgYnkgdGhlIGFkbWluIHBhZ2UKICAgICAgICAjIHNvIGl0IHdpbGwga25vdyBhYm91dCBhbGwgdGhlIG9wdGlvbnMuCiAgICAgICAgYWxsX29wdGlvbnMgPSBzZWxmLmdldF92ZW51ZV9vcHRpb25zKCkKICAgICAgICBpZiBsZW4odmVudWVfc2V0dGluZ3MpIDwgbGVuKGFsbF9vcHRpb25zKToKICAgICAgICAgICAgZm9yIG8gaW4gYWxsX29wdGlvbnM6CiAgICAgICAgICAgICAgICBjdXJyZW50X3NldHRpbmcgPSBbcyBmb3IgcyBpbiB2ZW51ZV9zZXR0aW5ncyBpZiBzLmdldCgnb3B0aW9uX25hbWUnKSA9PSBvLm5hbWVdCiAgICAgICAgICAgICAgICBpZiBub3QgY3VycmVudF9zZXR0aW5nOgogICAgICAgICAgICAgICAgICAgIHZlbnVlX3NldHRpbmdzLmFwcGVuZChzZWxmLl9zZXJpYWxpemVfdmVudWVfc2V0dGluZ19yZXN1bHRzKG8ubmFtZSwgMCkpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>.m .+1</text>
+        <text>36</text>
       </register>
     </registers>
     <search>
-      <last-search>Fetching network payout rates for</last-search>
+      <last-search>bool</last-search>
       <last-offset />
-      <last-pattern>Fetching network payout rates for</last-pattern>
+      <last-pattern>bool</last-pattern>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>created_by</entry>
-        <entry encoding="base64">XDxzXD4=</entry>
         <entry encoding="base64">XDxzZXR0aW5nX2lkc1w+</entry>
         <entry>.c</entry>
         <entry>\.c</entry>
@@ -295,6 +294,8 @@
         <entry encoding="base64">XDx1bmF1dGhlbnRpY2F0ZWRfdXNlcmlkXD4=</entry>
         <entry>unauthen</entry>
         <entry>0</entry>
+        <entry>ena</entry>
+        <entry>bool</entry>
       </history-search>
       <history-cmd>
         <entry>map</entry>
@@ -311,9 +312,10 @@
         <entry>setlocal invlist</entry>
         <entry>155</entry>
         <entry>911</entry>
-        <entry>w</entry>
         <entry>.m .-2</entry>
         <entry>.m .+1</entry>
+        <entry>w</entry>
+        <entry>36</entry>
       </history-cmd>
       <history-expr />
       <history-input />
