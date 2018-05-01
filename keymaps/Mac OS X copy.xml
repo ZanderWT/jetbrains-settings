@@ -40,6 +40,11 @@
     <keyboard-shortcut first-keystroke="shift meta 9" />
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
@@ -47,8 +52,16 @@
     <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="EditorDown" />
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
+  <action id="EditorUp" />
+  <action id="ExportToTextFile" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="alt comma" />
