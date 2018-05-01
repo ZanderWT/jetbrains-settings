@@ -32,6 +32,9 @@
         <mark key="]" line="201" column="0" />
         <mark key="." line="201" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" timestamp="1525189542501">
+        <mark key="'" line="402" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525129014109">
         <mark key="'" line="252" column="4" />
         <mark key="[" line="107" column="0" />
@@ -49,9 +52,9 @@
         <mark key="[" line="16" column="0" />
         <mark key="]" line="20" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" timestamp="1525187821173">
-        <mark key="[" line="21" column="8" />
-        <mark key="]" line="21" column="33" />
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" timestamp="1525189510288">
+        <mark key="[" line="41" column="8" />
+        <mark key="]" line="41" column="44" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" timestamp="1524670786619">
         <mark key="b" line="1119" column="8" />
@@ -79,20 +82,11 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/README.md" timestamp="1524157218324">
         <mark key="'" line="107" column="124" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/migration/local.ini" timestamp="1523918273549">
-        <mark key="'" line="37" column="76" />
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
-      </file>
       <file name="/fragment.java" timestamp="1525128453263">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="282" column="15" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="287" column="17" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="307" column="17" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="572" column="17" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="1004" column="32" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
       <jump line="1018" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
@@ -190,6 +184,9 @@
       <jump line="95" column="5" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="15" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" />
       <jump line="251" column="17" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="8" column="13" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/configurations/StudioReservationPriceConfiguration.java" />
+      <jump line="402" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -205,7 +202,7 @@
         <text>upda</text>
       </register>
       <register name="0" type="4">
-        <text>update_reservation_payable</text>
+        <text>update_reservations_price_adjustments</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -235,7 +232,7 @@
         <text encoding="base64">ICAgICAgICAgICAgVmVudWVTZXR0aW5nLnVzZXJfaWQsCg==</text>
       </register>
       <register name=":" type="4">
-        <text>385</text>
+        <text>166</text>
       </register>
     </registers>
     <search>
@@ -269,7 +266,6 @@
         <entry>upda</entry>
       </history-search>
       <history-cmd>
-        <entry>map</entry>
         <entry encoding="base64">dW5tYXAgPGMtdz48Yy1oPg==</entry>
         <entry encoding="base64">bWFwIDxjLXc+PGMtbD4gPGMtdz48Yy1sPg==</entry>
         <entry>spliut</entry>
@@ -289,6 +285,7 @@
         <entry>q</entry>
         <entry>1151</entry>
         <entry>385</entry>
+        <entry>166</entry>
       </history-cmd>
       <history-expr />
       <history-input />
