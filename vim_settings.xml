@@ -21,9 +21,9 @@
         <mark key="]" line="329" column="69" />
         <mark key="." line="329" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" timestamp="1525189510288">
-        <mark key="[" line="41" column="8" />
-        <mark key="]" line="41" column="44" />
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" timestamp="1525278805375">
+        <mark key="[" line="15" column="8" />
+        <mark key="]" line="15" column="51" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" timestamp="1524524814342">
         <mark key="'" line="0" column="0" />
@@ -51,8 +51,8 @@
         <mark key="]" line="201" column="0" />
         <mark key="." line="201" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" timestamp="1525193543305">
-        <mark key="'" line="402" column="0" />
+      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" timestamp="1525279035980">
+        <mark key="'" line="19" column="34" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525195023034">
         <mark key="a" line="164" column="39" />
@@ -93,9 +93,10 @@
         <mark key="^" line="22" column="27" />
         <mark key="." line="22" column="27" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525276830218">
-        <mark key="a" line="382" column="49" />
-        <mark key="'" line="85" column="10" />
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525279015036">
+        <mark key="a" line="114" column="27" />
+        <mark key="b" line="361" column="30" />
+        <mark key="'" line="132" column="20" />
         <mark key="[" line="105" column="17" />
         <mark key="]" line="105" column="56" />
       </file>
@@ -113,13 +114,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="109" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
-      <jump line="137" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
-      <jump line="157" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
-      <jump line="909" column="89" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="56" column="4" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
-      <jump line="203" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
-      <jump line="211" column="7" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="198" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="201" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="207" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
@@ -213,6 +207,13 @@
       <jump line="9" column="17" filename="$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/JobDetail.class" />
       <jump line="344" column="6" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/Module.java" />
       <jump line="85" column="10" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="114" column="50" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="361" column="30" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="288" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="330" column="18" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="132" column="20" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="287" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="19" column="34" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -225,10 +226,10 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>windo</text>
+        <text>update_reser</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;- Windowed Pricing Task start date: {}&quot;</text>
+        <text>identifyEarlyAndLateCancellationsBasedOnTime</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -262,19 +263,14 @@
       </register>
     </registers>
     <search>
-      <last-search>windo</last-search>
+      <last-search>update_reser</last-search>
       <last-offset />
-      <last-pattern>windo</last-pattern>
+      <last-pattern>update_reser</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxwYXlhYmxlUmVzZXJ2YXRpb25zXD4=</entry>
-        <entry>upda</entry>
-        <entry>getre</entry>
-        <entry encoding="base64">XDxkaXNxdWFsaWZ5aW5nX3Jlc2VydmF0aW9uXD4=</entry>
-        <entry>select</entry>
         <entry>scheduleprice</entry>
         <entry>adjustmissed</entry>
         <entry>executepriceupdatetask</entry>
@@ -290,6 +286,11 @@
         <entry encoding="base64">XDx2ZW51ZVByaWNlVXBkYXRlVGFza0pvYlRyaWdnZXJcPg==</entry>
         <entry>windfo</entry>
         <entry>windo</entry>
+        <entry>fetching network payou</entry>
+        <entry>starting processpayab</entry>
+        <entry>insert</entry>
+        <entry>proc</entry>
+        <entry>update_reser</entry>
       </history-search>
       <history-cmd>
         <entry>spliut</entry>
