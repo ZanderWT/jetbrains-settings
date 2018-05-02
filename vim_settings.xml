@@ -54,11 +54,11 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" timestamp="1525279035980">
         <mark key="'" line="19" column="34" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525195023034">
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525283225740">
         <mark key="a" line="164" column="39" />
-        <mark key="'" line="35" column="0" />
-        <mark key="[" line="51" column="103" />
-        <mark key="]" line="51" column="130" />
+        <mark key="'" line="70" column="23" />
+        <mark key="[" line="94" column="23" />
+        <mark key="]" line="94" column="45" />
         <mark key="." line="51" column="130" />
         <mark key="^" line="51" column="130" />
       </file>
@@ -114,8 +114,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="198" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
-      <jump line="201" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="207" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="210" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="252" column="4" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
@@ -214,6 +212,8 @@
       <jump line="132" column="20" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="287" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="19" column="34" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="47" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="70" column="23" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -226,10 +226,10 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>update_reser</text>
+        <text>fcf</text>
       </register>
       <register name="0" type="4">
-        <text>identifyEarlyAndLateCancellationsBasedOnTime</text>
+        <text>adjustForFirstClassFree</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -263,15 +263,14 @@
       </register>
     </registers>
     <search>
-      <last-search>update_reser</last-search>
+      <last-search>fcf</last-search>
       <last-offset />
-      <last-pattern>update_reser</last-pattern>
+      <last-pattern>fcf</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>scheduleprice</entry>
         <entry>adjustmissed</entry>
         <entry>executepriceupdatetask</entry>
         <entry>price.*rule</entry>
@@ -291,6 +290,7 @@
         <entry>insert</entry>
         <entry>proc</entry>
         <entry>update_reser</entry>
+        <entry>fcf</entry>
       </history-search>
       <history-cmd>
         <entry>spliut</entry>
