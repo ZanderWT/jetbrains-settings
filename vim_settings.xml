@@ -28,6 +28,14 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" timestamp="1524524814342">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/Module.java" timestamp="1525276559793">
+        <mark key="'" line="344" column="6" />
+        <mark key="[" line="364" column="42" />
+        <mark key="]" line="364" column="64" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/TaskScheduler.java" timestamp="1525276273073">
+        <mark key="'" line="50" column="46" />
+      </file>
       <file name="/Dummy.txt" timestamp="1525194450292">
         <mark key="[" line="0" column="0" />
       </file>
@@ -85,9 +93,11 @@
         <mark key="^" line="22" column="27" />
         <mark key="." line="22" column="27" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525195673524">
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525276830218">
         <mark key="a" line="382" column="49" />
-        <mark key="'" line="394" column="39" />
+        <mark key="'" line="85" column="10" />
+        <mark key="[" line="105" column="17" />
+        <mark key="]" line="105" column="56" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/README.md" timestamp="1524157218324">
         <mark key="'" line="107" column="124" />
@@ -103,16 +113,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="107" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" />
-      <jump line="88" column="82" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" />
-      <jump line="1007" column="32" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="965" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="947" column="55" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="960" column="22" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/venues.py" />
-      <jump line="45" column="35" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
-      <jump line="649" column="27" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
-      <jump line="4" column="29" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="109" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="137" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
       <jump line="157" column="21" filename="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/venues.py" />
@@ -203,6 +203,16 @@
       <jump line="286" column="91" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="345" column="92" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="394" column="39" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="120" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="83" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="35" column="42" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/configurations/Config.java" />
+      <jump line="57" column="61" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/TaskScheduler.java" />
+      <jump line="36" column="26" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/TaskScheduler.java" />
+      <jump line="44" column="61" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/TaskScheduler.java" />
+      <jump line="50" column="46" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/TaskScheduler.java" />
+      <jump line="9" column="17" filename="$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/JobDetail.class" />
+      <jump line="344" column="6" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/Module.java" />
+      <jump line="85" column="10" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -215,10 +225,10 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>Fetching network payout rates for</text>
+        <text>windo</text>
       </register>
       <register name="0" type="4">
-        <text>createTestVenuePriceRule</text>
+        <text>&quot;- Windowed Pricing Task start date: {}&quot;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -252,19 +262,14 @@
       </register>
     </registers>
     <search>
-      <last-search>Fetching network payout rates for</last-search>
+      <last-search>windo</last-search>
       <last-offset />
-      <last-pattern>Fetching network payout rates for</last-pattern>
+      <last-pattern>windo</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>rates</entry>
-        <entry>override</entry>
-        <entry>overrideprice</entry>
-        <entry>over</entry>
-        <entry encoding="base64">XDxvdmVycmlkZVByaWNlXD4=</entry>
         <entry encoding="base64">XDxwYXlhYmxlUmVzZXJ2YXRpb25zXD4=</entry>
         <entry>upda</entry>
         <entry>getre</entry>
@@ -280,9 +285,13 @@
         <entry>status</entry>
         <entry>miss</entry>
         <entry>Fetching network payout rates for</entry>
+        <entry>Inserting reservations into venue_payment_history</entry>
+        <entry encoding="base64">XDxleGVjdXRlQW5kVHJhY2tcPg==</entry>
+        <entry encoding="base64">XDx2ZW51ZVByaWNlVXBkYXRlVGFza0pvYlRyaWdnZXJcPg==</entry>
+        <entry>windfo</entry>
+        <entry>windo</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">bWFwIDxjLXc+PGMtbD4gPGMtdz48Yy1sPg==</entry>
         <entry>spliut</entry>
         <entry>split</entry>
         <entry>pwd</entry>
@@ -302,6 +311,7 @@
         <entry>q</entry>
         <entry>.m .-2</entry>
         <entry>.m .+1</entry>
+        <entry>Ack</entry>
       </history-cmd>
       <history-expr />
       <history-input />
