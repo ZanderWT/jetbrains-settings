@@ -15,8 +15,8 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/models/pricing/task/PayableReservation.java" timestamp="1525195151287">
         <mark key="'" line="36" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" timestamp="1525194739391">
-        <mark key="'" line="87" column="52" />
+      <file name="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" timestamp="1525294668499">
+        <mark key="'" line="65" column="0" />
         <mark key="[" line="329" column="0" />
         <mark key="]" line="329" column="69" />
         <mark key="." line="329" column="0" />
@@ -27,6 +27,10 @@
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/data_access/data_access/organizations/organization_settings.py" timestamp="1524524814342">
         <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/db/DBTests.java" timestamp="1525294617495">
+        <mark key="a" line="184" column="35" />
+        <mark key="'" line="37" column="13" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/Module.java" timestamp="1525276559793">
         <mark key="'" line="344" column="6" />
@@ -118,10 +122,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="318" column="27" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
-      <jump line="394" column="29" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
-      <jump line="468" column="29" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
-      <jump line="548" column="29" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="619" column="12" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="629" column="12" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="678" column="29" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
@@ -218,6 +218,10 @@
       <jump line="385" column="24" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="379" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="361" column="8" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="184" column="35" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/db/DBTests.java" />
+      <jump line="37" column="13" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/db/DBTests.java" />
+      <jump line="138" column="65" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
+      <jump line="65" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -230,7 +234,7 @@
         <text>d</text>
       </register>
       <register name="/" type="4">
-        <text>part</text>
+        <text>setup</text>
       </register>
       <register name="0" type="4">
         <text>adjustForFirstClassFree</text>
@@ -267,15 +271,14 @@
       </register>
     </registers>
     <search>
-      <last-search>part</last-search>
+      <last-search>setup</last-search>
       <last-offset />
-      <last-pattern>part</last-pattern>
+      <last-pattern>setup</last-pattern>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>setup</entry>
         <entry>status</entry>
         <entry>miss</entry>
         <entry>Fetching network payout rates for</entry>
@@ -295,6 +298,7 @@
         <entry encoding="base64">XDxhcHBsaWVkTmV0d29ya1ByaWNlc1w+</entry>
         <entry encoding="base64">XDxwYXlhYmxlUmVzZXJ2YXRpb25zXD4=</entry>
         <entry>part</entry>
+        <entry>setup</entry>
       </history-search>
       <history-cmd>
         <entry>setlocal invlist</entry>
