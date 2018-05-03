@@ -56,8 +56,8 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/validation/schema/organizations.py" timestamp="1524524794685">
         <mark key="'" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" timestamp="1525370414266">
-        <mark key="'" line="144" column="13" />
+      <file name="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" timestamp="1525371209814">
+        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/PayoutLogic.java" timestamp="1525125575982">
         <mark key="'" line="263" column="0" />
@@ -131,9 +131,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="736" column="8" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
-      <jump line="779" column="8" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
-      <jump line="832" column="8" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="876" column="8" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="925" column="8" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="568" column="8" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
@@ -195,7 +192,6 @@
       <jump line="231" column="119" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="77" column="24" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
       <jump line="52" column="13" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
-      <jump line="94" column="5" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
       <jump line="60" column="25" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
       <jump line="53" column="120" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
       <jump line="134" column="28" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
@@ -231,6 +227,10 @@
       <jump line="376" column="31" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="325" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="328" column="9" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="89" column="33" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
+      <jump line="90" column="6" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
+      <jump line="94" column="14" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -243,7 +243,7 @@
         <text>SchedulePriceUpdateTask</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxycHNcPg==</text>
+        <text>reservation</text>
       </register>
       <register name="0" type="4">
         <text>createTestReservation</text>
@@ -280,15 +280,14 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxycHNcPg==</last-search>
+      <last-search>reservation</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxycHNcPg==</last-pattern>
+      <last-pattern>reservation</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>prio</entry>
         <entry encoding="base64">XDxwcmlvcml0eVw+</entry>
         <entry>firstclassfree</entry>
         <entry>ERROR</entry>
@@ -308,6 +307,7 @@
         <entry>select_payabl</entry>
         <entry>status</entry>
         <entry encoding="base64">XDxycHNcPg==</entry>
+        <entry>reservation</entry>
       </history-search>
       <history-cmd>
         <entry>.m .-2</entry>
