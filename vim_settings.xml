@@ -117,12 +117,12 @@
         <mark key="^" line="22" column="27" />
         <mark key="." line="22" column="27" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525451211051">
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525455091124">
         <mark key="a" line="309" column="8" />
         <mark key="b" line="393" column="17" />
         <mark key="c" line="345" column="17" />
         <mark key="d" line="393" column="17" />
-        <mark key="'" line="411" column="20" />
+        <mark key="'" line="156" column="15" />
         <mark key="[" line="414" column="59" />
         <mark key="]" line="414" column="65" />
         <mark key="^" line="414" column="65" />
@@ -150,7 +150,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1984" column="33" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="11" column="27" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="2031" column="13" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="69" column="50" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
@@ -250,6 +249,7 @@
       <jump line="379" column="38" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="325" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="328" column="35" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="156" column="15" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -265,7 +265,7 @@
         <text>class</text>
       </register>
       <register name="/" type="4">
-        <text>status</text>
+        <text>update_reser</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB3aGVuKGZpcnN0Q2xhc3NGcmVlRGFvLmdldEZDRk9yZ1NldHRpbmdzKCkpLnRoZW5SZXR1cm4oamF2YXNsYW5nLmNvbGxlY3Rpb24uTGlzdC5vZihmY2ZPbikpOwo=</text>
@@ -302,16 +302,14 @@
       </register>
     </registers>
     <search>
-      <last-search>status</last-search>
+      <last-search>update_reser</last-search>
       <last-offset />
-      <last-pattern>status</last-pattern>
+      <last-pattern>update_reser</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>zone</entry>
-        <entry>time</entry>
         <entry>java.util.</entry>
         <entry>fcfon</entry>
         <entry>2054</entry>
@@ -330,6 +328,8 @@
         <entry>usu</entry>
         <entry>select_payable</entry>
         <entry>status</entry>
+        <entry>getreservationsreq</entry>
+        <entry>update_reser</entry>
       </history-search>
       <history-cmd>
         <entry>action Git.fetch</entry>
