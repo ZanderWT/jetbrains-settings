@@ -86,13 +86,13 @@
         <mark key="^" line="406" column="14" />
         <mark key="." line="406" column="14" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525722942911">
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525724630066">
         <mark key="a" line="166" column="39" />
-        <mark key="'" line="82" column="0" />
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="52" column="0" />
-        <mark key="." line="52" column="0" />
-        <mark key="^" line="51" column="93" />
+        <mark key="'" line="80" column="1" />
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="86" column="46" />
+        <mark key="." line="86" column="0" />
+        <mark key="^" line="90" column="53" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" timestamp="1524526082286">
         <mark key="'" line="88" column="82" />
@@ -146,7 +146,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="177" column="8" filename="$USER_HOME$/cp-projects/payments/docker/environment/development/config/production.yml.tmpl" />
       <jump line="99" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
       <jump line="41" column="4" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/network/clients/PlusClient.java" />
       <jump line="49" column="29" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/network/clients/PlusClient.java" />
@@ -246,6 +245,7 @@
       <jump line="79" column="27" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="117" column="4" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
       <jump line="114" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" />
+      <jump line="80" column="1" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -258,58 +258,56 @@
         <text encoding="base64">IGV4cGVjdGVkUHJpY2VEb2xsYXJz</text>
       </register>
       <register name="-" type="4">
-        <text>List.ofAll</text>
+        <text>/</text>
       </register>
       <register name="/" type="4">
-        <text>Before</text>
+        <text>asdfasd</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBBZnRlck1ldGhvZAogICAgcHJvdGVjdGVkIHZvaWQgdGVhcmRvd24oKSB7CiAgICAgICAgCg==</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIExpc3Q8SW50ZWdlcj4gcHJlbWl1bVJlc2VydmF0aW9uSWRzID0gCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAqIEBwYXJhbSBwYXlhYmxlcwogICAgICogQHJldHVybgo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAvLyBOZWl0aGVyIHJlYm9va2VkIChPbmUgU3BvdCBPbmUgUGF5bWVudCkgbm9yIFByZW1pdW0gKFN0dWRpbyBEaXJlY3QgLyBQbHVzIC8gQSBMYSBDYXJ0ZSkKICAgICAgICAvLyBhcmUgZWxpZ2libGUgZm9yIFNwb3RsaWdodCAvIEZpcnN0LUNsYXNzLUZyZWUK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBTZXQ8UGF5YWJsZVN0YXR1cz4gaW52YWxpZFJlc2VydmF0aW9uU3RhdGVzID0gU2V0KFBheWFibGVTdGF0dXMucmVib29rZWQpOwo=</text>
+      </register>
+      <register name="6" type="4">
         <text>else if (res.getStatus().equals(PayableStatus.missed_class)){
                         res.setStatus(PayableStatus.missed_premium);
                     }</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmZpbHRlcihwciAtPiBwci51c2VySWQgIT0gbnVsbCAmJiBwci5tc2FJZCAhPSBudWxsKQogICAgICAgICAgICAuZmlsdGVyKHByIC0+ICEgaW52YWxpZFJlc2VydmF0aW9uU3RhdGVzLmNvbnRhaW5zKHByLnN0YXR1cykpOwo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmZpbHRlcihwciAtPiBwci51c2VySWQgIT0gbnVsbCAmJiBwci5tc2FJZCAhPSBudWxsKQogICAgICAgICAgICAuZmlsdGVyKHByIC0+ICEgaW52YWxpZFJlc2VydmF0aW9uU3RhdGVzLmNvbnRhaW5zKHByLnN0YXR1cykpOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBOZWl0aGVyIHJlYm9va2VkIChPbmUgU3BvdCBPbmUgUGF5bWVudCkgbm9yIFByZW1pdW0gKFN0dWRpbyBEaXJlY3QgLyBQbHVzIC8gQSBMYSBDYXJ0ZSkKICAgICAgICAvLyBhcmUgZWxpZ2libGUgZm9yIFNwb3RsaWdodCAvIEZpcnN0LUNsYXNzLUZyZWUKICAgICAgICBTZXQ8UGF5YWJsZVN0YXR1cz4gaW52YWxpZFJlc2VydmF0aW9uU3RhdGVzID0gU2V0KFBheWFibGVTdGF0dXMucmVib29rZWQsIFBheWFibGVTdGF0dXMucHJlbWl1bSk7Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmZpbHRlcihwciAtPiBwci51c2VySWQgIT0gbnVsbCAmJiBwci5tc2FJZCAhPSBudWxsKQogICAgICAgICAgICAuZmlsdGVyKHByIC0+ICEgaW52YWxpZFJlc2VydmF0aW9uU3RhdGVzLmNvbnRhaW5zKHByLnN0YXR1cykpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmZpbHRlcihwciAtPiBwci51c2VySWQgIT0gbnVsbCAmJiBwci5tc2FJZCAhPSBudWxsKQogICAgICAgICAgICAuZmlsdGVyKHByIC0+ICEgaW52YWxpZFJlc2VydmF0aW9uU3RhdGVzLmNvbnRhaW5zKHByLnN0YXR1cykpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBASnNvblByb3BlcnR5KCJyZXNlcnZhdGlvbklkcyIpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>Before</last-search>
+      <last-search>asdfasd</last-search>
       <last-offset />
-      <last-pattern>Before</last-pattern>
-      <last-dir>-1</last-dir>
+      <last-pattern>asdfasd</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>r.</entry>
-        <entry>asdfasdf</entry>
         <entry>get</entry>
         <entry>\.req</entry>
         <entry>link</entry>
@@ -328,6 +326,8 @@
         <entry>After</entry>
         <entry>AfterMetho</entry>
         <entry>Before</entry>
+        <entry>as we</entry>
+        <entry>asdfasd</entry>
       </history-search>
       <history-cmd>
         <entry>qa</entry>
