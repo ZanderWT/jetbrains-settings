@@ -102,7 +102,8 @@
         <mark key="^" line="406" column="14" />
         <mark key="." line="406" column="14" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525813643207">
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525814756291">
+        <mark key="'" line="35" column="0" />
         <mark key="[" line="35" column="0" />
         <mark key="]" line="35" column="0" />
         <mark key="^" line="85" column="107" />
@@ -162,7 +163,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="58" column="33" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="75" column="41" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="76" column="41" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="77" column="45" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
@@ -262,6 +262,7 @@
       <jump line="12" column="37" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
       <jump line="116" column="56" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/FirstClassFreeDaoTest.java" />
       <jump line="63" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/TestingStudioDao.java" />
+      <jump line="35" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -277,7 +278,7 @@
         <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>testuser</text>
+        <text>validpayables</text>
       </register>
       <register name="0" type="4">
         <text>irstClassFreeDao.identifyPremiumReservations(allReservationIds)</text>
@@ -314,15 +315,14 @@
       </register>
     </registers>
     <search>
-      <last-search>testuser</last-search>
+      <last-search>validpayables</last-search>
       <last-offset />
-      <last-pattern>testuser</last-pattern>
+      <last-pattern>validpayables</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PA==</entry>
         <entry>createtestreser</entry>
         <entry>reservation_purchase</entry>
         <entry>addpurchasetype</entry>
@@ -342,6 +342,7 @@
         <entry>plusclient</entry>
         <entry>wat =</entry>
         <entry>testuser</entry>
+        <entry>validpayables</entry>
       </history-search>
       <history-cmd>
         <entry>bnext</entry>
