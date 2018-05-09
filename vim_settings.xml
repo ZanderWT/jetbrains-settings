@@ -140,12 +140,12 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/README.md" timestamp="1524157218324">
         <mark key="'" line="107" column="124" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" timestamp="1525812481468">
-        <mark key="'" line="57" column="83" />
-        <mark key="[" line="59" column="18" />
-        <mark key="]" line="59" column="44" />
-        <mark key="^" line="59" column="44" />
-        <mark key="." line="59" column="44" />
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" timestamp="1525897200419">
+        <mark key="'" line="22" column="0" />
+        <mark key="[" line="54" column="4" />
+        <mark key="]" line="54" column="12" />
+        <mark key="^" line="54" column="12" />
+        <mark key="." line="54" column="12" />
       </file>
       <file name="/fragment.java" timestamp="1525812141554">
         <mark key="[" line="0" column="0" />
@@ -164,12 +164,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="41" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
-      <jump line="77" column="45" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
-      <jump line="100" column="33" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
-      <jump line="356" column="37" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
-      <jump line="358" column="37" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
-      <jump line="60" column="9" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/PricingRuleDao.java" />
       <jump line="378" column="40" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="31" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/FirstClassFreeDaoTest.java" />
       <jump line="61" column="57" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/FirstClassFreeDaoTest.java" />
@@ -205,7 +199,6 @@
       <jump line="581" column="18" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/logic/BillingLogicTest.java" />
       <jump line="27" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
       <jump line="23" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
-      <jump line="24" column="15" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
       <jump line="55" column="15" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
       <jump line="26" column="58" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
       <jump line="67" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
@@ -264,6 +257,13 @@
       <jump line="63" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/TestingStudioDao.java" />
       <jump line="35" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
       <jump line="391" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
+      <jump line="24" column="7" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
+      <jump line="54" column="9" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
+      <jump line="64" column="12" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
+      <jump line="4" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
+      <jump line="12" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
+      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
+      <jump line="22" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -276,56 +276,54 @@
         <text encoding="base64">ICAgICAgICAvKgogICAgICAgICAqIEZpbHRlciAjNQogICAgICAgICAqIFJlbW92ZSBhbnkgcmVzZXJ2YXRpb25zIHRoYXQgYXJlIHByZW1pdW0gcHVyY2hhc2VzLiBOb3RlIHRoYXQgd2UndmUgYWxyZWFkeSByZW1vdmVkIGFueSByZXNlcnZhdGlvbiB3aG9zZQogICAgICAgICAqIFBheWFibGVTdGF0dXMgPT0gJ3ByZW1pdW0nLCBob3dldmVyIHRoaXMgZG9lcyBub3QgY2F0Y2ggZXZlcnkgcHJlbWl1bSByZXNlcnZhdGlvbi4KICAgICAgICAgKiBQcmVtaXVtIHJlc2VydmF0aW9ucyB0aGF0IHRoZSB1c2VyIG1pc3NlZCB3aWxsIGhhdmUgYSBQYXlhYmxlU3RhdHVzIG9mICdtaXNzZWQnIGFuZCB3aWxsIHN0aWxsIGJlIGluIHRoZQogICAgICAgICAqIGxpc3Qgb2YgUGF5YWJsZXMgYXQgdGhpcyBwb2ludC4gU28gd2UgZmlsdGVyIHRoZW0gb3V0IGhlcmUuCiAgICAgICAgICovCgogICAgICAgIExpc3Q8SW50ZWdlcj4gcGF5YWJsZVJlc2VydmF0aW9uSWRzID0gCiAgICAgICAgICAgICAgICBmY2ZDYW5kaWRhdGVzUHQ0Lm1hcChSZXNlcnZhdGlvbkluZm86OmdldFJlcykubWFwKFBheWFibGVSZXNlcnZhdGlvbjo6Z2V0UmVzZXJ2YXRpb25JZCk7CiAgICAgICAgU2V0PEludGVnZXI+IHByZW1pdW1SZXNlcnZhdGlvbklkcyA9IAogICAgICAgICAgICAgICAgZmlyc3RDbGFzc0ZyZWVEYW8uaWRlbnRpZnlQcmVtaXVtUmVzZXJ2YXRpb25zKHBheWFibGVSZXNlcnZhdGlvbklkcykudG9TZXQoKTsKICAgICAgICBMaXN0PFJlc2VydmF0aW9uSW5mbz4gZmNmQ2FuZGlkYXRlc1B0NSA9IAogICAgICAgICAgICAgICAgZmNmQ2FuZGlkYXRlc1B0NC5maWx0ZXIocGF5YWJsZSAtPiBwcmVtaXVtUmVzZXJ2YXRpb25JZHMuY29udGFpbnMocGF5YWJsZS5nZXRSZXMoKS5nZXRSZXNlcnZhdGlvbklkKCkpKTsKICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>AdjustmentStartDate(), ymdPattern);</text>
+        <text>public</text>
       </register>
       <register name="/" type="4">
-        <text>big payof</text>
+        <text>priv</text>
       </register>
-      <register name="0" type="4">
-        <text>irstClassFreeDao.identifyPremiumReservations(allReservationIds)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbigibm90IGltcGxlbWVudGVkIik7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAgICAgYQo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYQo=</text>
+      </register>
+      <register name="4" type="4">
         <text encoding="base64">ZmluYWwgaW50IHBheWFibGVfcmVzX3BlcmlvZCA9IDI7CiAgICAgICAg</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBEYQo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBmaQo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBqYXZhLnV0aWwuTGlzdDxNYXA8U3RyaW5nLCBPYmplY3Q+PiB3YXQgPSBoLnNlbGVjdCgic2VsZWN0IGNvdW50KCopIGZyb20gcmVzZXJ2YXRpb25fcHVyY2hhc2UiKTsK</text>
+        <text encoding="base64">ICAgICAgICBmaQo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBqYXZhLnV0aWwuTGlzdDxNYXA8U3RyaW5nLCBPYmplY3Q+PiB3YXQgPSBoLnNlbGVjdCgic2VsZWN0IGNvdW50KCopIGZyb20gcmVzZXJ2YXRpb25fcHVyY2hhc2UiKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBJbmplY3QgcHVibGljIFBsdXNDbGllbnQgcGx1c0NsaWVudDsK</text>
+        <text encoding="base64">ICAgICAgICBqYXZhLnV0aWwuTGlzdDxNYXA8U3RyaW5nLCBPYmplY3Q+PiB3YXQgPSBoLnNlbGVjdCgic2VsZWN0IGNvdW50KCopIGZyb20gcmVzZXJ2YXRpb25fcHVyY2hhc2UiKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0ZXN0aW5nU3R1ZGlvRGFvLmFkZFB1cmNoYXNlVHlwZVByZW1pdW1Gb3JMYXN0UmVzZXJ2YXRpb24oKTsK</text>
+        <text encoding="base64">ICAgIEBJbmplY3QgcHVibGljIFBsdXNDbGllbnQgcGx1c0NsaWVudDsK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">aW1hcCA8Yy1qPiA6YWN0aW9uIEVkaXRvckRvd248Q1I+</text>
       </register>
     </registers>
     <search>
-      <last-search>big payof</last-search>
+      <last-search>priv</last-search>
       <last-offset />
-      <last-pattern>big payof</last-pattern>
-      <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <last-pattern>priv</last-pattern>
+      <last-dir>-1</last-dir>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>reservation_purchase</entry>
-        <entry>addpurchasetype</entry>
         <entry>open</entry>
         <entry>'</entry>
         <entry>dao\.</entry>
@@ -344,6 +342,8 @@
         <entry>testuser</entry>
         <entry>validpayables</entry>
         <entry>big payof</entry>
+        <entry>@sql</entry>
+        <entry>priv</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
