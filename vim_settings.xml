@@ -102,12 +102,12 @@
         <mark key="^" line="406" column="14" />
         <mark key="." line="406" column="14" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525814756291">
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1525881222143">
         <mark key="'" line="35" column="0" />
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="^" line="85" column="107" />
-        <mark key="." line="35" column="0" />
+        <mark key="[" line="62" column="83" />
+        <mark key="]" line="62" column="90" />
+        <mark key="^" line="62" column="90" />
+        <mark key="." line="62" column="90" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/venues/orgs.py" timestamp="1524526082286">
         <mark key="'" line="88" column="82" />
@@ -123,12 +123,12 @@
       <file name="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/BillingDaoTest.java" timestamp="1525800344717">
         <mark key="'" line="395" column="37" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525723013602">
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" timestamp="1525881672083">
         <mark key="a" line="309" column="8" />
         <mark key="b" line="393" column="17" />
         <mark key="c" line="345" column="17" />
         <mark key="d" line="393" column="17" />
-        <mark key="'" line="406" column="25" />
+        <mark key="'" line="391" column="0" />
         <mark key="[" line="417" column="22" />
         <mark key="]" line="417" column="22" />
         <mark key="." line="417" column="22" />
@@ -163,7 +163,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="41" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="76" column="41" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="77" column="45" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="100" column="33" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
@@ -263,6 +262,7 @@
       <jump line="116" column="56" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/FirstClassFreeDaoTest.java" />
       <jump line="63" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/TestingStudioDao.java" />
       <jump line="35" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="391" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/tasks/SchedulePriceUpdateTask.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -278,7 +278,7 @@
         <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>validpayables</text>
+        <text>big payof</text>
       </register>
       <register name="0" type="4">
         <text>irstClassFreeDao.identifyPremiumReservations(allReservationIds)</text>
@@ -311,19 +311,18 @@
         <text encoding="base64">ICAgICAgICAvKgogICAgICAgICAqIEZpbHRlciAjNQogICAgICAgICAqIFJlbW92ZSBhbnkgcmVzZXJ2YXRpb25zIHRoYXQgYXJlIHByZW1pdW0gcHVyY2hhc2VzLiBOb3RlIHRoYXQgd2UndmUgYWxyZWFkeSByZW1vdmVkIGFueSByZXNlcnZhdGlvbiB3aG9zZQogICAgICAgICAqIFBheWFibGVTdGF0dXMgPT0gJ3ByZW1pdW0nLCBob3dldmVyIHRoaXMgZG9lcyBub3QgY2F0Y2ggZXZlcnkgcHJlbWl1bSByZXNlcnZhdGlvbi4KICAgICAgICAgKiBQcmVtaXVtIHJlc2VydmF0aW9ucyB0aGF0IHRoZSB1c2VyIG1pc3NlZCB3aWxsIGhhdmUgYSBQYXlhYmxlU3RhdHVzIG9mICdtaXNzZWQnIGFuZCB3aWxsIHN0aWxsIGJlIGluIHRoZQogICAgICAgICAqIGxpc3Qgb2YgUGF5YWJsZXMgYXQgdGhpcyBwb2ludC4gU28gd2UgZmlsdGVyIHRoZW0gb3V0IGhlcmUuCiAgICAgICAgICovCgogICAgICAgIExpc3Q8SW50ZWdlcj4gcGF5YWJsZVJlc2VydmF0aW9uSWRzID0KICAgICAgICAgICAgICAgIGZjZkNhbmRpZGF0ZXNQdDQubWFwKFJlc2VydmF0aW9uSW5mbzo6Z2V0UmVzKS5tYXAoUGF5YWJsZVJlc2VydmF0aW9uOjpnZXRSZXNlcnZhdGlvbklkKTsKICAgICAgICBTZXQ8SW50ZWdlcj4gcHJlbWl1bVJlc2VydmF0aW9uSWRzID0KICAgICAgICAgICAgICAgIGZpcnN0Q2xhc3NGcmVlRGFvLmlkZW50aWZ5UHJlbWl1bVJlc2VydmF0aW9ucyhwYXlhYmxlUmVzZXJ2YXRpb25JZHMpLnRvU2V0KCk7CiAgICAgICAgTGlzdDxSZXNlcnZhdGlvbkluZm8+IGZjZkNhbmRpZGF0ZXNQdDUgPQogICAgICAgICAgICAgICAgZmNmQ2FuZGlkYXRlc1B0NC5maWx0ZXIocGF5YWJsZSAtPiBwcmVtaXVtUmVzZXJ2YXRpb25JZHMuY29udGFpbnMocGF5YWJsZS5nZXRSZXMoKS5nZXRSZXNlcnZhdGlvbklkKCkpKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>validpayables</last-search>
+      <last-search>big payof</last-search>
       <last-offset />
-      <last-pattern>validpayables</last-pattern>
+      <last-pattern>big payof</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>createtestreser</entry>
         <entry>reservation_purchase</entry>
         <entry>addpurchasetype</entry>
         <entry>open</entry>
@@ -343,6 +342,7 @@
         <entry>wat =</entry>
         <entry>testuser</entry>
         <entry>validpayables</entry>
+        <entry>big payof</entry>
       </history-search>
       <history-cmd>
         <entry>bnext</entry>
@@ -362,9 +362,9 @@
         <entry>.m .-2</entry>
         <entry>.m .+1</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>qa</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
