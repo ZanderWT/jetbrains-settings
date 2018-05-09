@@ -1,5 +1,4 @@
 <code_scheme name="Default" version="173">
-  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
@@ -52,11 +51,13 @@
     </formatting-settings>
   </DBN-SQL>
   <codeStyleSettings language="JAVA">
+    <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="1" />
     <option name="METHOD_PARAMETERS_WRAP" value="1" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
     <option name="IF_BRACE_FORCE" value="1" />
+    <option name="WRAP_ON_TYPING" value="0" />
   </codeStyleSettings>
 </code_scheme>
