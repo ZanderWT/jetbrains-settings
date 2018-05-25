@@ -23,6 +23,9 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/models/ClassPassReservation.java" timestamp="1525369495676">
         <mark key="'" line="132" column="11" />
       </file>
+      <file name="$USER_HOME$/cp-projects/subscriptions/pom.xml" timestamp="1527279176057">
+        <mark key="'" line="120" column="18" />
+      </file>
       <file name="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" timestamp="1526056036801">
         <mark key="w" line="2057" column="35" />
         <mark key="[" line="344" column="0" />
@@ -77,7 +80,7 @@
       <file name="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/dao/LegacySubscriptionsDao.java" timestamp="1527277237085">
         <mark key="'" line="24" column="17" />
       </file>
-      <file name="/Dummy.txt" timestamp="1527265928712">
+      <file name="/Dummy.txt" timestamp="1527279326614">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/validation/schema/organizations.py" timestamp="1524524794685">
@@ -170,11 +173,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/FirstClassFreeDao.java" />
-      <jump line="105" column="4" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/FirstClassFreeDaoTest.java" />
-      <jump line="114" column="4" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/FirstClassFreeDaoTest.java" />
-      <jump line="48" column="14" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/TestingStudioDao.java" />
-      <jump line="30" column="4" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/TestingStudioDao.java" />
       <jump line="83" column="17" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/TestingStudioDao.java" />
       <jump line="125" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" />
       <jump line="120" column="8" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/FirstClassFreeDaoTest.java" />
@@ -270,6 +268,11 @@
       <jump line="6" column="28" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
       <jump line="42" column="36" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
       <jump line="47" column="22" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/subscriptions/pom.xml" />
+      <jump line="121" column="18" filename="$USER_HOME$/cp-projects/subscriptions/pom.xml" />
+      <jump line="189" column="16" filename="$USER_HOME$/cp-projects/subscriptions/pom.xml" />
+      <jump line="195" column="38" filename="$USER_HOME$/cp-projects/subscriptions/pom.xml" />
+      <jump line="120" column="18" filename="$USER_HOME$/cp-projects/subscriptions/pom.xml" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -338,7 +341,7 @@
         <text>a</text>
       </register>
       <register name="/" type="4">
-        <text>minimal</text>
+        <text>swag</text>
       </register>
       <register name="0" type="4">
         <text>current_and_next_for_users</text>
@@ -381,15 +384,14 @@
       </register>
     </registers>
     <search>
-      <last-search>minimal</last-search>
+      <last-search>swag</last-search>
       <last-offset />
-      <last-pattern>minimal</last-pattern>
+      <last-pattern>swag</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>[&quot;'']\zs.\\{-0,}[&quot;'']</entry>
         <entry>ub</entry>
         <entry>[&quot;'']\zs.\{-0,}[&quot;'']</entry>
         <entry>tost</entry>
@@ -409,6 +411,7 @@
         <entry>from</entry>
         <entry>currentand</entry>
         <entry>minimal</entry>
+        <entry>swag</entry>
       </history-search>
       <history-cmd>
         <entry>set leader?</entry>
