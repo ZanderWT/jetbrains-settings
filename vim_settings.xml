@@ -23,8 +23,21 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/models/ClassPassReservation.java" timestamp="1525369495676">
         <mark key="'" line="132" column="11" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/cp_config.yaml" timestamp="1528235204694">
+        <mark key="'" line="1" column="8" />
+        <mark key="[" line="15" column="7" />
+        <mark key="]" line="15" column="13" />
+        <mark key="." line="15" column="13" />
+        <mark key="^" line="15" column="13" />
+      </file>
       <file name="$USER_HOME$/cp-projects/subscriptions/pom.xml" timestamp="1527279176057">
         <mark key="'" line="120" column="18" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/docker-compose.yml" timestamp="1528235268022">
+        <mark key="[" line="43" column="26" />
+        <mark key="]" line="43" column="32" />
+        <mark key="." line="43" column="32" />
+        <mark key="^" line="43" column="32" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/README.md" timestamp="1528214717393">
         <mark key="'" line="12" column="181" />
@@ -218,7 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="4" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="85" column="4" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="87" column="4" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
       <jump line="2049" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/tasks/ReservationPriceUpdateTests.java" />
@@ -318,6 +330,7 @@
       <jump line="26" column="1" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="103" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
       <jump line="42" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/Module.java" />
+      <jump line="1" column="8" filename="$USER_HOME$/cp-projects/lead-generation/cp_config.yaml" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -383,62 +396,60 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>package</text>
+        <text>payadjust</text>
       </register>
       <register name="/" type="4">
-        <text>log</text>
+        <text>asd</text>
       </register>
       <register name="0" type="4">
-        <text>current_and_next_for_users</text>
+        <text>https://github.com/classpass/deployer/blob/master/docs/SERVICES.md</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vcHJvdGVjdGVkIExvZ2dlciBsb2cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcih0aGlzLmdldENsYXNzKCkpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>f(di(</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vcHJvdGVjdGVkIExvZ2dlciBsb2cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcih0aGlzLmdldENsYXNzKCkpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC8vcHJpdmF0ZSBMb2dnZXIgbG9nID0gTG9nZ2VyRmFjdG9yeS5nZXRMb2dnZXIoZ2V0Q2xhc3MoKSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vcHJpdmF0ZSBMb2dnZXIgbG9nID0gTG9nZ2VyRmFjdG9yeS5nZXRMb2dnZXIoZ2V0Q2xhc3MoKSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgPCEtLSBodHRwczovL212bnJlcG9zaXRvcnkuY29tL2FydGlmYWN0L2lvLnZhdnIvdmF2ciAtLT4K</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgPCEtLSBodHRwczovL212bnJlcG9zaXRvcnkuY29tL2FydGlmYWN0L2lvLnZhdnIvdmF2ciAtLT4K</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">IyMgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPGdvYWxzPgogICAgICAgICAgICAgIDxnb2FsPmNoZWNrPC9nb2FsPgogICAgICAgICAgICA8L2dvYWxzPgo=</text>
+        <text encoding="base64">IyMgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIDxwbHVnaW4+CiAgICAgIDxncm91cElkPmNvbS5naXRodWIuc3BvdGJ1Z3M8L2dyb3VwSWQ+CiAgICAgIDxhcnRpZmFjdElkPnNwb3RidWdzLW1hdmVuLXBsdWdpbjwvYXJ0aWZhY3RJZD4KICAgICAgPHZlcnNpb24+My4xLjM8L3ZlcnNpb24+CiAgICA8L3BsdWdpbj4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgPGdvYWxzPgogICAgICAgICAgICAgIDxnb2FsPmNoZWNrPC9nb2FsPgogICAgICAgICAgICA8L2dvYWxzPgo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>log</last-search>
+      <last-search>asd</last-search>
       <last-offset />
-      <last-pattern>log</last-pattern>
-      <last-dir>-1</last-dir>
+      <last-pattern>asd</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx1c2VySWRUZXh0XD4=</entry>
-        <entry>value</entry>
         <entry>datetx</entry>
         <entry>localda</entry>
         <entry>getminimala</entry>
@@ -457,6 +468,8 @@
         <entry>con</entry>
         <entry>anal</entry>
         <entry>log</entry>
+        <entry>leadgen</entry>
+        <entry>asd</entry>
       </history-search>
       <history-cmd>
         <entry>map \ !</entry>
