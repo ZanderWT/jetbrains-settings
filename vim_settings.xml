@@ -338,7 +338,7 @@
         <text>a</text>
       </register>
       <register name="/" type="4">
-        <text>minimal</text>
+        <text>service_types</text>
       </register>
       <register name="0" type="4">
         <text>current_and_next_for_users</text>
@@ -377,19 +377,18 @@
         <text encoding="base64">ICAgICAgICB3aGVuKG1vY2tGQ0ZEYW8uaWRlbnRpZnlQcmVtaXVtUmVzZXJ2YXRpb25zKGFueU9iamVjdCgpKSkudGhlblJldHVybihqYXZhc2xhbmcuY29sbGVjdGlvbi5MaXN0Lm9mKHJlc2VydmF0aW9uSWQuaW50VmFsdWUoKSkpOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>259</text>
       </register>
     </registers>
     <search>
-      <last-search>minimal</last-search>
+      <last-search>service_types</last-search>
       <last-offset />
-      <last-pattern>minimal</last-pattern>
+      <last-pattern>service_types</last-pattern>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>[&quot;'']\zs.\\{-0,}[&quot;'']</entry>
         <entry>ub</entry>
         <entry>[&quot;'']\zs.\{-0,}[&quot;'']</entry>
         <entry>tost</entry>
@@ -409,9 +408,9 @@
         <entry>from</entry>
         <entry>currentand</entry>
         <entry>minimal</entry>
+        <entry>service_types</entry>
       </history-search>
       <history-cmd>
-        <entry>set leader?</entry>
         <entry>map \ !</entry>
         <entry>map \ \</entry>
         <entry>e $MYVIMRC</entry>
@@ -431,6 +430,7 @@
         <entry>w</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ReformatCode</entry>
+        <entry>259</entry>
       </history-cmd>
       <history-expr />
       <history-input />
