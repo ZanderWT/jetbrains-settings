@@ -54,7 +54,7 @@
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryDao.java" timestamp="1529357587865">
         <mark key="'" line="5" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/test/java/com/classpass/tests/BaseIntegrationTest.java" timestamp="1529360810807">
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/test/java/com/classpass/tests/BaseIntegrationTest.java" timestamp="1529420320320">
         <mark key="[" line="32" column="52" />
         <mark key="]" line="32" column="52" />
         <mark key="." line="32" column="52" />
@@ -156,11 +156,20 @@
         <mark key="." line="11" column="30" />
         <mark key="^" line="11" column="30" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1529421111854">
+        <mark key="[" line="1" column="32" />
+        <mark key="]" line="1" column="30" />
+        <mark key="." line="1" column="30" />
+        <mark key="^" line="1" column="30" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/package-info.java" timestamp="1528488448257">
         <mark key="[" line="3" column="45" />
         <mark key="]" line="3" column="45" />
         <mark key="." line="3" column="45" />
         <mark key="^" line="3" column="45" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00001_create_country_table.sql" timestamp="1529420838930">
+        <mark key="'" line="256" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/LeadGeneration.java" timestamp="1529082526174">
         <mark key="[" line="66" column="0" />
@@ -197,7 +206,8 @@
         <mark key="." line="30" column="3" />
         <mark key="^" line="30" column="3" />
       </file>
-      <file name="/Dummy.txt" timestamp="1529360775214">
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/test/java/com/classpass/tests/TestUtils.java" timestamp="1529420347792" />
+      <file name="/Dummy.txt" timestamp="1529420543175">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/com/classpass/venues/logic/AddressNormalizer.java" timestamp="1529010401624">
@@ -260,7 +270,7 @@
         <mark key="^" line="29" column="46" />
         <mark key="." line="29" column="46" />
       </file>
-      <file name="/fragment.java" timestamp="1529360775227">
+      <file name="/fragment.java" timestamp="1529420543184">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -279,8 +289,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="97" column="26" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
-      <jump line="390" column="0" filename="$USER_HOME$/cp-projects/subscriptions/src/main/resources/com/classpass/dao/LegacySubscriptionsDao.sql.stg" />
       <jump line="31" column="43" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/dao/LegacySubscriptionsDao.java" />
       <jump line="75" column="54" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
       <jump line="56" column="53" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
@@ -379,6 +387,8 @@
       <jump line="55" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/pom.xml" />
       <jump line="87" column="14" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/pom.xml" />
       <jump line="76" column="18" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/pom.xml" />
+      <jump line="41" column="20" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00001_create_country_table.sql" />
+      <jump line="256" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00001_create_country_table.sql" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -453,7 +463,7 @@
         <text encoding="base64">ICAgIGRlZmF1bHQgT3B0aW9uYWw8U2NyYXBlckNvdW50cnk+IGxvYWRTY3JhcGVyQ291bnRyeShpbnQgc2NyYXBlcklkKSB7CiAgICAgICAgTWFwPFNjcmFwZXIsIExpc3Q8Sm9pblJvdz4+IHNjTWFwID0gZ2V0U2NyYXBlckNvdW50cnkoc2NyYXBlcklkKS5jb2xsZWN0KAogICAgICAgICAgICAgICAgQ29sbGVjdG9ycy5ncm91cGluZ0J5KGpvaW5Sb3cgLT4gam9pblJvdy5nZXQoU2NyYXBlci5jbGFzcykpKTsKICAgICAgICByZXR1cm4gc2NNYXAua2V5U2V0KCkuc3RyZWFtKCkuZmluZEZpcnN0KCkubWFwKHNjcmFwZXIgLT4gewogICAgICAgICAgICBMaXN0PENvdW50cnk+IGNvdW50cmllcyA9IHNjTWFwLmdldChzY3JhcGVyKS5zdHJlYW0oKQogICAgICAgICAgICAgICAgICAgIC5tYXAoam9pblJvdyAtPiBqb2luUm93LmdldChDb3VudHJ5LmNsYXNzKSkKICAgICAgICAgICAgICAgICAgICAuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsKICAgICAgICAgICAgcmV0dXJuIG5ldyBTY3JhcGVyQ291bnRyeShzY3JhcGVyLCBjb3VudHJpZXMpOwogICAgICAgIH0pOwogICAgfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGpkay5uYXNob3JuLmludGVybmFsLnJ1bnRpbWUub3B0aW9ucy5PcHRpb247Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -480,34 +490,34 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGlvLnZhdnIuY29sbGVjdGlvbi5NYXA7CmltcG9ydCBpby52YXZyLmNvbnRyb2wuT3B0aW9uOwo=</text>
+        <text encoding="base64">aW1wb3J0IGpkay5uYXNob3JuLmludGVybmFsLnJ1bnRpbWUub3B0aW9ucy5PcHRpb247Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">aW1wb3J0IGlvLnZhdnIuY29sbGVjdGlvbi5NYXA7CmltcG9ydCBpby52YXZyLmNvbnRyb2wuT3B0aW9uOwo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="5" type="4">
         <text encoding="base64">PGRlcGVuZGVuY3k+CiAgICAgIDxncm91cElkPmlvLnZhdnI8L2dyb3VwSWQ+CiAgICAgIDxhcnRpZmFjdElkPnZhdnI8L2FydGlmYWN0SWQ+CiAgICAgIDx2ZXJzaW9uPjAuOS4yPC92ZXJzaW9uPgogICAgPC9kZXBlbmRlbmN5Pg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBpZiBzY01hcC5rZXlTZXQoKS5zaXplID4gMSAK</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNjCg==</text>
-      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>48</text>
       </register>
     </registers>
     <search>
@@ -543,7 +553,6 @@
         <entry>guava</entry>
       </history-search>
       <history-cmd>
-        <entry>map</entry>
         <entry>action QuickDocumentation</entry>
         <entry>actionlist quick</entry>
         <entry>source ~/.ideavimrc</entry>
@@ -563,6 +572,7 @@
         <entry>q</entry>
         <entry>action ReformatCode</entry>
         <entry>w</entry>
+        <entry>48</entry>
       </history-cmd>
       <history-expr />
       <history-input />
