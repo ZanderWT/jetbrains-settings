@@ -156,12 +156,11 @@
         <mark key="." line="11" column="30" />
         <mark key="^" line="11" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1529431324110">
-        <mark key="'" line="61" column="1" />
-        <mark key="[" line="53" column="12" />
-        <mark key="]" line="53" column="24" />
-        <mark key="." line="53" column="24" />
-        <mark key="^" line="53" column="24" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1529433866724">
+        <mark key="'" line="61" column="0" />
+        <mark key="[" line="18" column="16" />
+        <mark key="]" line="18" column="16" />
+        <mark key="." line="18" column="16" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/package-info.java" timestamp="1528488448257">
         <mark key="[" line="3" column="45" />
@@ -289,14 +288,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="53" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
-      <jump line="10" column="8" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/models/LegacySubscriptionV2.java" />
-      <jump line="30" column="30" filename="$USER_HOME$/cp-projects/prospect-generation/src/main/java/com/classpass/ProspectGeneration.java" />
-      <jump line="32" column="22" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
-      <jump line="42" column="25" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
-      <jump line="12" column="50" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
-      <jump line="30" column="29" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
-      <jump line="31" column="28" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="11" column="28" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/lead-generation-microservice.iml" />
       <jump line="1" column="1" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/lead-generation-microservice.iml" />
@@ -389,6 +380,14 @@
       <jump line="38" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="34" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="55" column="1" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="71" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="75" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="15" column="16" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="19" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="76" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="72" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="67" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="61" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -454,16 +453,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>_l</text>
+        <text encoding="base64">dGFibGUg</text>
       </register>
       <register name="/" type="4">
-        <text>scra</text>
+        <text>genre_id</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Y3JlYXRlIHRhYmxlIHZlbnVlX3NvdXJjZV9zY3JhcGVyICgKICAgIHZlbnVlX3NvdXJjZV9zY3JhcGVyX2lkIGludCBwcmltYXJ5IGtleSwKICAgIHNjcmFwZXJfaWQgaW50IG5vdCBudWxsCikK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -490,48 +489,47 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y3JlYXRlIHRhYmxlIHZlbnVlX3dvcmtmbG93Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW5zZXJ0IGludG8gdmVudWVfdGFncyAodmVudWVfdGFnc19uYW1lKSB2YWx1ZXMgKCcnKTsK</text>
+        <text encoding="base64">CmNyZWF0ZSB0YWJsZSBhZGRyZXNzICgKICAgIGFkZHJlc3NfaWQgaW50LAogICAgYWRkcmVzc19jb21wb25lbnRfbmFtZSB0ZXh0LAogICAgYWRkcmVzc19jb21wb25lbnRfdmFsdWUgdGV4dAopOwo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">Y3JlYXRlIHRhYmxlIGdlbnJlICgKICAgIGdlbnJlX2lkIGludCBwcmltYXJ5IGtleSwKICAgIGdlbnJlX25hbWUgdGV4dCBub3QgbnVsbAopOwoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cmV2b2tlIGFsbCBvbiB0YWJsZSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyBmcm9tIGFwcF91c2VyOwpncmFudCBpbnNlcnQgb24gdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cgdG8gYXBwX3VzZXI7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CmNyZWF0ZSB0YWJsZSBpbnZlbnRvcnlfdHlwZSAoCiAgICBpbnZlbnRvcnlfdHlwZV9pZCBpbnQgcHJpbWFyeSBrZXksCiAgICBpbnZlbnRvcnlfdHlwZV9uYW1lIHRleHQgbm90IG51bGwKKQo=</text>
+        <text encoding="base64">aW5zZXJ0IGludG8gdmVudWVfdGFncyAodmVudWVfdGFnc19uYW1lKSB2YWx1ZXMgKCcnKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">cmV2b2tlIGFsbCBvbiB0YWJsZSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyBmcm9tIGFwcF91c2VyOwpncmFudCBpbnNlcnQgb24gdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cgdG8gYXBwX3VzZXI7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>scra</last-search>
+      <last-search>genre_id</last-search>
       <last-offset />
-      <last-pattern>scra</last-pattern>
+      <last-pattern>genre_id</last-pattern>
       <last-replace>scheduling_software</last-replace>
       <last-substitute>inventory_type</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>admin</entry>
         <entry>on</entry>
         <entry>\/</entry>
         <entry>new</entry>
@@ -551,6 +549,7 @@
         <entry>asdf</entry>
         <entry>fo</entry>
         <entry>scra</entry>
+        <entry>genre_id</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist quick</entry>
@@ -567,12 +566,12 @@
         <entry>s/;/();/</entry>
         <entry encoding="base64">JzwsJz5zLzsvKCk7Lw==</entry>
         <entry>bnext</entry>
-        <entry>q</entry>
         <entry>action ReformatCode</entry>
         <entry>48</entry>
         <entry encoding="base64">JzwsJz5zO2ludmVudG9yeV90eXBlO3NjaGVkdWxpbmdfc29mdHdhcmU7Zw==</entry>
         <entry>w</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
