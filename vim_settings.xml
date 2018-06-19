@@ -16,11 +16,11 @@
         <mark key="." line="28" column="16" />
         <mark key="^" line="28" column="16" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/Venue.java" timestamp="1528995822255">
-        <mark key="[" line="6" column="30" />
-        <mark key="]" line="7" column="33" />
-        <mark key="." line="7" column="33" />
-        <mark key="^" line="7" column="33" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/Venue.java" timestamp="1529434756060">
+        <mark key="[" line="17" column="37" />
+        <mark key="]" line="19" column="41" />
+        <mark key="^" line="19" column="41" />
+        <mark key="." line="19" column="41" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountry.java" timestamp="1529344285645">
         <mark key="[" line="10" column="0" />
@@ -53,6 +53,12 @@
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryDao.java" timestamp="1529357587865">
         <mark key="'" line="5" column="3" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/VenueSource.java" timestamp="1529435091163">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="16" column="101" />
+        <mark key="^" line="16" column="101" />
+        <mark key="." line="16" column="101" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/test/java/com/classpass/tests/BaseIntegrationTest.java" timestamp="1529420320320">
         <mark key="[" line="32" column="52" />
@@ -156,8 +162,8 @@
         <mark key="." line="11" column="30" />
         <mark key="^" line="11" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1529433866724">
-        <mark key="'" line="61" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1529434394845">
+        <mark key="'" line="28" column="13" />
         <mark key="[" line="18" column="16" />
         <mark key="]" line="18" column="16" />
         <mark key="." line="18" column="16" />
@@ -288,7 +294,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="11" column="28" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/lead-generation-microservice.iml" />
       <jump line="1" column="1" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/lead-generation-microservice.iml" />
       <jump line="34" column="37" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
@@ -388,6 +393,7 @@
       <jump line="72" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="67" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="61" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="28" column="13" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -453,7 +459,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">dGFibGUg</text>
+        <text encoding="base64">SWYgdGhlIHNvdXJjZSA=</text>
       </register>
       <register name="/" type="4">
         <text>genre_id</text>
@@ -462,7 +468,7 @@
         <text encoding="base64">Y3JlYXRlIHRhYmxlIHZlbnVlX3NvdXJjZV9zY3JhcGVyICgKICAgIHZlbnVlX3NvdXJjZV9zY3JhcGVyX2lkIGludCBwcmltYXJ5IGtleSwKICAgIHNjcmFwZXJfaWQgaW50IG5vdCBudWxsCikK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -489,34 +495,34 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y3JlYXRlIHRhYmxlIHZlbnVlX3dvcmtmbG93Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CmNyZWF0ZSB0YWJsZSBhZGRyZXNzICgKICAgIGFkZHJlc3NfaWQgaW50LAogICAgYWRkcmVzc19jb21wb25lbnRfbmFtZSB0ZXh0LAogICAgYWRkcmVzc19jb21wb25lbnRfdmFsdWUgdGV4dAopOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y3JlYXRlIHRhYmxlIGdlbnJlICgKICAgIGdlbnJlX2lkIGludCBwcmltYXJ5IGtleSwKICAgIGdlbnJlX25hbWUgdGV4dCBub3QgbnVsbAopOwoK</text>
+        <text encoding="base64">QFZhbHVlCkBCdWlsZGVyCg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAogICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW5zZXJ0IGludG8gdmVudWVfdGFncyAodmVudWVfdGFnc19uYW1lKSB2YWx1ZXMgKCcnKTsK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ICAgIHAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">cmV2b2tlIGFsbCBvbiB0YWJsZSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyBmcm9tIGFwcF91c2VyOwpncmFudCBpbnNlcnQgb24gdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cgdG8gYXBwX3VzZXI7Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -566,12 +572,12 @@
         <entry>s/;/();/</entry>
         <entry encoding="base64">JzwsJz5zLzsvKCk7Lw==</entry>
         <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>48</entry>
         <entry encoding="base64">JzwsJz5zO2ludmVudG9yeV90eXBlO3NjaGVkdWxpbmdfc29mdHdhcmU7Zw==</entry>
         <entry>w</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>q</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
