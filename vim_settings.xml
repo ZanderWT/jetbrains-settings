@@ -156,11 +156,12 @@
         <mark key="." line="11" column="30" />
         <mark key="^" line="11" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1529426259104">
-        <mark key="'" line="16" column="4" />
-        <mark key="[" line="11" column="16" />
-        <mark key="]" line="11" column="16" />
-        <mark key="." line="11" column="16" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1529429746481">
+        <mark key="'" line="24" column="4" />
+        <mark key="[" line="22" column="13" />
+        <mark key="]" line="22" column="31" />
+        <mark key="." line="22" column="31" />
+        <mark key="^" line="22" column="31" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/package-info.java" timestamp="1528488448257">
         <mark key="[" line="3" column="45" />
@@ -206,7 +207,6 @@
         <mark key="." line="30" column="3" />
         <mark key="^" line="30" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/test/java/com/classpass/tests/TestUtils.java" timestamp="1529420347792" />
       <file name="/Dummy.txt" timestamp="1529420543175">
         <mark key="[" line="0" column="0" />
       </file>
@@ -289,9 +289,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="54" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
-      <jump line="56" column="53" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
       <jump line="49" column="9" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
       <jump line="50" column="9" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
       <jump line="70" column="13" filename="$USER_HOME$/cp-projects/subscriptions/src/main/java/com/classpass/resource/LegacySubscriptionsResource.java" />
@@ -389,6 +386,9 @@
       <jump line="41" column="20" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00001_create_country_table.sql" />
       <jump line="256" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00001_create_country_table.sql" />
       <jump line="9" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="17" column="28" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="16" column="13" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="24" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00004_create_venue_tables.sql" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -454,16 +454,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">VEFCTEUg</text>
+        <text>inventory_type</text>
       </register>
       <register name="/" type="4">
-        <text>na</text>
+        <text>asdf</text>
       </register>
-      <register name="0" type="4">
-        <text>venue_parameters_log</text>
+      <register name="0" type="2">
+        <text encoding="base64">Y3JlYXRlIHRhYmxlIGludmVudG9yeV90eXBlICgKICAgIGludmVudG9yeV90eXBlX2lkIGludCBwcmltYXJ5IGtleSwKICAgIGludmVudG9yeV90eXBlX25hbWUgdGV4dCBub3QgbnVsbAopCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">R1JBTlQgSU5TRVJUIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -490,7 +490,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CmNyZWF0ZSB0YWJsZSBpbnZlbnRvcnlfdHlwZSAoCiAgICBpbnZlbnRvcnlfdHlwZV9pZCBpbnQgcHJpbWFyeSBrZXksCiAgICBpbnZlbnRvcnlfdHlwZV9uYW1lIHRleHQgbm90IG51bGwKKQo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -499,10 +499,10 @@
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Y3JlcWF0ZSB0YQo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -511,28 +511,26 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHZlbnVlX25hbWUgVEVYVCwK</text>
+      </register>
       <register name=":" type="4">
-        <text>48</text>
+        <text encoding="base64">JzwsJz5zO2ludmVudG9yeV90eXBlO3NjaGVkdWxpbmdfc29mdHdhcmU7Zw==</text>
       </register>
     </registers>
     <search>
-      <last-search>na</last-search>
+      <last-search>asdf</last-search>
       <last-offset />
-      <last-pattern>na</last-pattern>
-      <last-replace>();</last-replace>
-      <last-substitute>;</last-substitute>
+      <last-pattern>asdf</last-pattern>
+      <last-replace>scheduling_software</last-replace>
+      <last-substitute>inventory_type</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>diff</entry>
-        <entry>local</entry>
         <entry>str</entry>
         <entry>thisad</entry>
         <entry>admin</entry>
@@ -551,9 +549,10 @@
         <entry>com.google</entry>
         <entry>guava</entry>
         <entry>na</entry>
+        <entry>inventory_type</entry>
+        <entry>asdf</entry>
       </history-search>
       <history-cmd>
-        <entry>action QuickDocumentation</entry>
         <entry>actionlist quick</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry>action QuickJavaDoc</entry>
@@ -573,6 +572,7 @@
         <entry>action ReformatCode</entry>
         <entry>w</entry>
         <entry>48</entry>
+        <entry encoding="base64">JzwsJz5zO2ludmVudG9yeV90eXBlO3NjaGVkdWxpbmdfc29mdHdhcmU7Zw==</entry>
       </history-cmd>
       <history-expr />
       <history-input />
