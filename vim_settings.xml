@@ -22,11 +22,11 @@
         <mark key="." line="28" column="16" />
         <mark key="^" line="28" column="16" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1529616910906">
-        <mark key="[" line="8" column="55" />
-        <mark key="]" line="8" column="55" />
-        <mark key="^" line="7" column="61" />
-        <mark key="." line="8" column="71" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1529618419245">
+        <mark key="[" line="7" column="4" />
+        <mark key="]" line="7" column="10" />
+        <mark key="^" line="7" column="10" />
+        <mark key="." line="7" column="10" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/Venue.java" timestamp="1529444423216">
         <mark key="'" line="8" column="35" />
@@ -95,6 +95,12 @@
         <mark key="]" line="11" column="65" />
         <mark key="^" line="11" column="65" />
         <mark key="." line="11" column="65" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GoogleAddressNormalizer.java" timestamp="1529618708032">
+        <mark key="[" line="2" column="37" />
+        <mark key="]" line="2" column="65" />
+        <mark key="^" line="2" column="65" />
+        <mark key="." line="2" column="65" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/pom.xml" timestamp="1529359286220">
         <mark key="'" line="76" column="18" />
@@ -182,6 +188,12 @@
         <mark key="." line="43" column="32" />
         <mark key="^" line="43" column="32" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/NormalizedAddress.java" timestamp="1529619356446">
+        <mark key="[" line="21" column="31" />
+        <mark key="]" line="22" column="3" />
+        <mark key="." line="22" column="3" />
+        <mark key="^" line="22" column="3" />
+      </file>
       <file name="$USER_HOME$/cp-projects/venuegen-spike/code/api/src/main/java/com/classpass/venuegen/common/models/Foo.java" timestamp="1525982284804">
         <mark key="[" line="3" column="15" />
         <mark key="]" line="3" column="15" />
@@ -215,6 +227,12 @@
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00001_create_country_table.sql" timestamp="1529420838930">
         <mark key="'" line="256" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1529619380415">
+        <mark key="[" line="18" column="8" />
+        <mark key="]" line="18" column="24" />
+        <mark key="." line="18" column="24" />
+        <mark key="^" line="18" column="24" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/LeadGeneration.java" timestamp="1529082526174">
         <mark key="[" line="66" column="0" />
         <mark key="]" line="66" column="5" />
@@ -246,6 +264,11 @@
         <mark key="]" line="8" column="23" />
         <mark key="." line="8" column="23" />
         <mark key="^" line="8" column="12" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/AddressNormalizer.java" timestamp="1529618599950">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" timestamp="1529014835487">
         <mark key="'" line="29" column="6" />
@@ -523,7 +546,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>venueAddress</text>
+        <text>String</text>
       </register>
       <register name="/" type="4">
         <text>inter</text>
@@ -532,7 +555,7 @@
         <text>addressComponentName</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MudmVudWVzLm1vZGVscy5BZGRyZXNzOwppbXBvcnQgY29tLmNsYXNzcGFzcy52ZW51ZXMubW9kZWxzLlZlbnVlOwo=</text>
+        <text encoding="base64">ICogCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -559,31 +582,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAK</text>
+        <text encoding="base64">ICAgIG5ldyBOb3JtCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBib290c3RyYXAuCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBib290c3RyYXAuZ2V0Q29tbWFuZHMoKQo=</text>
+        <text encoding="base64">ICAgIGRlZmF1bHQK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5jZmc0ai5wcm92aWRlci5Db25maWd1cmF0aW9uUHJvdmlkZXI7CmltcG9ydCBvcmcuY2ZnNGoucHJvdmlkZXIuQ29uZmlndXJhdGlvblByb3ZpZGVyQnVpbGRlcjsKaW1wb3J0IG9yZy5jZmc0ai5zb3VyY2UuQ29uZmlndXJhdGlvblNvdXJjZTsKaW1wb3J0IG9yZy5jZmc0ai5zb3VyY2UuY2xhc3NwYXRoLkNsYXNzcGF0aENvbmZpZ3VyYXRpb25Tb3VyY2U7CmltcG9ydCBvcmcuY2ZnNGouc291cmNlLmNvbnRleHQuZmlsZXNwcm92aWRlci5Db25maWdGaWxlc1Byb3ZpZGVyOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoICgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBqZGJpLgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmYWlsKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbigiTm90IHlldCBpbXBsZW1lbnRlZCEiKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBJbmplY3RvciBpbmplY3RvciA9IEd1aWNlLmNyZWF0ZUluamVjdG9yKG5ldyBWZW51ZXNBcHAoKSk7CiAgICAgICAgSmRiaSBqZGJpID0gaW5qZWN0b3IuZ2V0SW5zdGFuY2UoSmRiaS5jbGFzcyk7CiAgICAgICAgamRiaS5vcGVuKCk7Cg==</text>
+        <text encoding="base64">QE5hbWVkKCJWZW51ZVdyaXRlciIpCg==</text>
       </register>
       <register name=":" type="4">
         <text>24</text>
