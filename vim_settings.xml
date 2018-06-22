@@ -64,11 +64,11 @@
         <mark key="]" line="20" column="0" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/NormalizedAddressTest.java" timestamp="1529679554526">
-        <mark key="[" line="13" column="54" />
-        <mark key="]" line="13" column="54" />
-        <mark key="." line="13" column="54" />
-        <mark key="^" line="13" column="54" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/NormalizedAddressTest.java" timestamp="1529680924953">
+        <mark key="[" line="18" column="7" />
+        <mark key="]" line="18" column="63" />
+        <mark key="." line="18" column="63" />
+        <mark key="^" line="18" column="63" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryDao.java" timestamp="1529357587865">
         <mark key="'" line="5" column="3" />
@@ -553,16 +553,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>, equalTo(expectedHash));</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>add</text>
       </register>
       <register name="0" type="4">
-        <text>addressComponentName</text>
+        <text>123 fake street</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KGFjdHVhbEhhc2gK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -588,32 +588,32 @@
           <key char="87" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>()</text>
+      <register name="2" type="2">
+        <text encoding="base64">Ly8gICAgICAgIGFzc2VydFRoYXQobmV3IE5vcm1hbGl6ZWRBZGRyZXNzKG51bGwpKQo=</text>
       </register>
-      <register name="3" type="4">
-        <text>equalTo(expectedHash)</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaHIK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICogCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGEK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIG5ldyBOb3JtCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KGFjdHVhbEhhc2gK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="6" type="4">
+        <text>()</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGRlZmF1bHQK</text>
+      <register name="7" type="4">
+        <text>equalTo(expectedHash)</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICogCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIG5ldyBOb3JtCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -666,12 +666,12 @@
         <entry encoding="base64">JzwsJz5zLzsvKCk7Lw==</entry>
         <entry>48</entry>
         <entry encoding="base64">JzwsJz5zO2ludmVudG9yeV90eXBlO3NjaGVkdWxpbmdfc29mdHdhcmU7Zw==</entry>
-        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>q</entry>
         <entry>action ReformatCode</entry>
         <entry>24</entry>
         <entry>bnext</entry>
         <entry>w</entry>
+        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
       </history-cmd>
       <history-expr />
       <history-input />
