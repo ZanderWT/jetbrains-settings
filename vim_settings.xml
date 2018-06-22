@@ -176,6 +176,13 @@
         <mark key="^" line="13" column="48" />
         <mark key="." line="13" column="48" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" timestamp="1529709192855">
+        <mark key="'" line="19" column="47" />
+        <mark key="[" line="24" column="41" />
+        <mark key="]" line="24" column="56" />
+        <mark key="." line="24" column="56" />
+        <mark key="^" line="24" column="56" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryResource.java" timestamp="1528987864622">
         <mark key="[" line="27" column="31" />
         <mark key="]" line="27" column="31" />
@@ -422,8 +429,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
-      <jump line="21" column="6" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="23" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="25" column="6" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="27" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
@@ -522,6 +527,8 @@
       <jump line="74" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="77" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="78" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
+      <jump line="17" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
+      <jump line="19" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -587,10 +594,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y3Qg</text>
+        <text>String</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxlbnZcPg==</text>
+        <text>string</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQocmVwbHkuYm9keSgpLmdldFN0YXRlKCkpLmFwcGVuZCgiLCAiKQo=</text>
@@ -661,9 +668,9 @@ final</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxlbnZcPg==</last-search>
+      <last-search>string</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxlbnZcPg==</last-pattern>
+      <last-pattern>string</last-pattern>
       <last-replace>scheduling_software</last-replace>
       <last-substitute>inventory_type</last-substitute>
       <last-dir>1</last-dir>
@@ -671,7 +678,6 @@ final</text>
     </search>
     <history>
       <history-search>
-        <entry>we g</entry>
         <entry>val</entry>
         <entry>config</entry>
         <entry>migrat</entry>
@@ -691,6 +697,7 @@ final</text>
         <entry>baseur</entry>
         <entry encoding="base64">XDxjb25maWd1cmVNYXBwZXJcPg==</entry>
         <entry encoding="base64">XDxlbnZcPg==</entry>
+        <entry>string</entry>
       </history-search>
       <history-cmd>
         <entry>source ~/.ideavimrc</entry>
