@@ -22,11 +22,12 @@
         <mark key="." line="28" column="16" />
         <mark key="^" line="28" column="16" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1529618419245">
-        <mark key="[" line="7" column="4" />
-        <mark key="]" line="7" column="10" />
-        <mark key="^" line="7" column="10" />
-        <mark key="." line="7" column="10" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1529679430499">
+        <mark key="'" line="7" column="15" />
+        <mark key="[" line="8" column="47" />
+        <mark key="]" line="8" column="47" />
+        <mark key="^" line="8" column="47" />
+        <mark key="." line="8" column="47" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/Venue.java" timestamp="1529444423216">
         <mark key="'" line="8" column="35" />
@@ -62,6 +63,12 @@
         <mark key="[" line="20" column="0" />
         <mark key="]" line="20" column="0" />
         <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/NormalizedAddressTest.java" timestamp="1529679554526">
+        <mark key="[" line="13" column="54" />
+        <mark key="]" line="13" column="54" />
+        <mark key="." line="13" column="54" />
+        <mark key="^" line="13" column="54" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryDao.java" timestamp="1529357587865">
         <mark key="'" line="5" column="3" />
@@ -227,11 +234,11 @@
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/resources/migrations/00001_create_country_table.sql" timestamp="1529420838930">
         <mark key="'" line="256" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1529619380415">
-        <mark key="[" line="18" column="8" />
-        <mark key="]" line="18" column="24" />
-        <mark key="." line="18" column="24" />
-        <mark key="^" line="18" column="24" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1529679406815">
+        <mark key="[" line="19" column="51" />
+        <mark key="]" line="19" column="54" />
+        <mark key="." line="19" column="54" />
+        <mark key="^" line="19" column="54" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/LeadGeneration.java" timestamp="1529082526174">
         <mark key="[" line="66" column="0" />
@@ -357,7 +364,7 @@
         <mark key="^" line="29" column="46" />
         <mark key="." line="29" column="46" />
       </file>
-      <file name="/fragment.java" timestamp="1529606288373">
+      <file name="/fragment.java" timestamp="1529679252235">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -381,7 +388,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="5" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/CountryMapper.java" />
       <jump line="24" column="10" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryDao.java" />
       <jump line="137" column="20" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/pom.xml" />
       <jump line="41" column="107" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
@@ -481,6 +487,7 @@
       <jump line="46" column="30" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueSource.java" />
       <jump line="4" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueSource.java" />
+      <jump line="7" column="15" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -489,8 +496,8 @@
       <register name="&quot;" type="4">
         <text encoding="base64">IA==</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gcHJvdmlkZXIuYWxsQ29uZmlndXJhdGlvbkFzUHJvcGVydGllcygpOwo=</text>
+      <register name="*" type="4">
+        <text>()</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -546,16 +553,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>String</text>
+        <text>, equalTo(expectedHash));</text>
       </register>
       <register name="/" type="4">
-        <text>inter</text>
+        <text>add</text>
       </register>
       <register name="0" type="4">
         <text>addressComponentName</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICogCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KGFjdHVhbEhhc2gK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -581,41 +588,41 @@
           <key char="87" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIG5ldyBOb3JtCg==</text>
+      <register name="2" type="4">
+        <text>()</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="3" type="4">
+        <text>equalTo(expectedHash)</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlZmF1bHQK</text>
+        <text encoding="base64">ICogCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIG5ldyBOb3JtCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGRlZmF1bHQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbigiTm90IHlldCBpbXBsZW1lbnRlZCEiKTsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">QE5hbWVkKCJWZW51ZVdyaXRlciIpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
-        <text>24</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>inter</last-search>
+      <last-search>add</last-search>
       <last-offset />
-      <last-pattern>inter</last-pattern>
+      <last-pattern>add</last-pattern>
       <last-replace>scheduling_software</last-replace>
       <last-substitute>inventory_type</last-substitute>
       <last-dir>1</last-dir>
@@ -623,7 +630,6 @@
     </search>
     <history>
       <history-search>
-        <entry>com.google</entry>
         <entry>guava</entry>
         <entry>na</entry>
         <entry>inventory_type</entry>
@@ -643,6 +649,7 @@
         <entry>application</entry>
         <entry>module</entry>
         <entry>inter</entry>
+        <entry>add</entry>
       </history-search>
       <history-cmd>
         <entry>source ~/.ideavimrc</entry>
@@ -657,14 +664,14 @@
         <entry>%s;:.*;;</entry>
         <entry>s/;/();/</entry>
         <entry encoding="base64">JzwsJz5zLzsvKCk7Lw==</entry>
-        <entry>bnext</entry>
         <entry>48</entry>
         <entry encoding="base64">JzwsJz5zO2ludmVudG9yeV90eXBlO3NjaGVkdWxpbmdfc29mdHdhcmU7Zw==</entry>
-        <entry>w</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>q</entry>
         <entry>action ReformatCode</entry>
         <entry>24</entry>
+        <entry>bnext</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
