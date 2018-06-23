@@ -194,11 +194,12 @@
         <mark key="^" line="15" column="30" />
         <mark key="." line="15" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" timestamp="1529708184285">
-        <mark key="[" line="21" column="95" />
-        <mark key="]" line="21" column="95" />
-        <mark key="." line="21" column="95" />
-        <mark key="^" line="21" column="95" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" timestamp="1529709901575">
+        <mark key="'" line="24" column="16" />
+        <mark key="[" line="25" column="81" />
+        <mark key="]" line="26" column="24" />
+        <mark key="." line="26" column="24" />
+        <mark key="^" line="26" column="24" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" timestamp="1529707113394">
         <mark key="[" line="15" column="0" />
@@ -429,7 +430,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="25" column="6" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="27" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="29" column="6" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
@@ -529,6 +529,7 @@
       <jump line="78" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="17" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
       <jump line="19" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
+      <jump line="24" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -594,16 +595,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>String</text>
+        <text>STREET_ADDRESS</text>
       </register>
       <register name="/" type="4">
-        <text>string</text>
+        <text>STREET</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQocmVwbHkuYm9keSgpLmdldFN0YXRlKCkpLmFwcGVuZCgiLCAiKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5TVFJFRVRfQUREUkVTUykpLmFwcGVuZCgiICIpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpbnQgeCA9MDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -630,47 +631,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICBpbnQgeCA9MDsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQocmVwbHkuYm9keSgpLmdldEFkZHJlc3MoKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyIHJlc3VsdAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQocmVwbHkuYm9keSgpLmdldEFkZHJlc3MoKSkK</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyIHJlc3VsdAo=</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIEBKc29uU25ha2VDYXNlCg==</text>
       </register>
-      <register name="8" type="8">
-        <text encoding="base64">IAogCiAKIAogCiAKIAog</text>
-      </register>
       <register name="9" type="8">
-        <text>final
-final
-final
-final
-final
-final
-final
-final</text>
+        <text encoding="base64">IAogCiAKIAogCiAKIAog</text>
       </register>
       <register name=":" type="4">
         <text>action QuickJavaDoc</text>
       </register>
     </registers>
     <search>
-      <last-search>string</last-search>
+      <last-search>STREET</last-search>
       <last-offset />
-      <last-pattern>string</last-pattern>
+      <last-pattern>STREET</last-pattern>
       <last-replace>scheduling_software</last-replace>
       <last-substitute>inventory_type</last-substitute>
       <last-dir>1</last-dir>
@@ -678,7 +672,6 @@ final</text>
     </search>
     <history>
       <history-search>
-        <entry>val</entry>
         <entry>config</entry>
         <entry>migrat</entry>
         <entry encoding="base64">XDxNaWdyYXRpb25zQnVuZGxlXD4=</entry>
@@ -698,6 +691,7 @@ final</text>
         <entry encoding="base64">XDxjb25maWd1cmVNYXBwZXJcPg==</entry>
         <entry encoding="base64">XDxlbnZcPg==</entry>
         <entry>string</entry>
+        <entry>STREET</entry>
       </history-search>
       <history-cmd>
         <entry>source ~/.ideavimrc</entry>
