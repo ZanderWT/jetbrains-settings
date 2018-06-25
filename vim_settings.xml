@@ -194,12 +194,12 @@
         <mark key="^" line="15" column="30" />
         <mark key="." line="15" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" timestamp="1529938360924">
-        <mark key="'" line="26" column="16" />
-        <mark key="[" line="26" column="53" />
-        <mark key="]" line="26" column="57" />
-        <mark key="." line="26" column="57" />
-        <mark key="^" line="26" column="57" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" timestamp="1529939512590">
+        <mark key="'" line="30" column="16" />
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="." line="32" column="0" />
+        <mark key="^" line="33" column="83" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" timestamp="1529707113394">
         <mark key="[" line="15" column="0" />
@@ -429,9 +429,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
-      <jump line="29" column="6" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
-      <jump line="17" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/VenuesApp.java" />
       <jump line="74" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/pom.xml" />
       <jump line="36" column="15" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/pom.xml" />
       <jump line="3" column="8" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/VenuesApp.java" />
@@ -529,6 +526,9 @@
       <jump line="19" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
       <jump line="24" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" />
       <jump line="26" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" />
+      <jump line="29" column="85" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" />
+      <jump line="31" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" />
+      <jump line="30" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -594,16 +594,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>STREET_ADDRESS</text>
+        <text>&quot;westport 6 Rainey lane 06880 ct &quot;</text>
       </register>
       <register name="/" type="4">
-        <text>STR</text>
+        <text>loc</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5TVFJFRVRfQUREUkVTUykpLmFwcGVuZCgiICIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoZ2V0Q29tcG9uZW50U3RyaW5nKGFkZHJlc3MsIEFkZHJlc3NDb21wb25lbnQuTE9DQUxJVFksIE9wdGlvbmFsLm9mKCIgIikpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoZ2V0Q29tcG9uZW50U3RyaW5nKGFkZHJlc3MsIEFkZHJlc3NDb21wb25lbnQuQ09VTlRSWSwgT3B0aW9uYWwub2YoIiAiKSkpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -630,40 +630,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5TVFJFRVRfQUREUkVTUykpLmFwcGVuZCgiICIpCiAgICAgICAgICAgICAgICAuYXBwZW5kKCJmbG9vciAiKS5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5GTE9PUikpLmFwcGVuZCgiICIpCiAgICAgICAgICAgICAgICAuYXBwZW5kKGFkZHJlc3MuZ2V0KEFkZHJlc3NDb21wb25lbnQuTE9DQUxJVFkpKS5hcHBlbmQoIiAiKQogICAgICAgICAgICAgICAgLmFwcGVuZChhZGRyZXNzLmdldChBZGRyZXNzQ29tcG9uZW50LkFETUlOSVNUUkFUSVZFX0FSRUFfTEVWRUxfMSkpLmFwcGVuZCgiICIpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5MT0NBTElUWSkpLmFwcGVuZCgiICIpCg==</text>
+        <text encoding="base64">ICAgICAgICBGdW5jdGlvbgo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC4pKQo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcudmFsdWUK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vZG8gbW9yZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoImZsb29yICIpLmFwcGVuZChhZGRyZXNzLmdldChBZGRyZXNzQ29tcG9uZW50LkZMT09SKSkuYXBwZW5kKCIgIikK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpbnQgeCA9MDsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5MT0NBTElUWSkpLmFwcGVuZCgiICIpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC4pKQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>STR</last-search>
+      <last-search>loc</last-search>
       <last-offset />
-      <last-pattern>STR</last-pattern>
+      <last-pattern>loc</last-pattern>
       <last-replace>scheduling_software</last-replace>
       <last-substitute>inventory_type</last-substitute>
       <last-dir>1</last-dir>
@@ -671,9 +671,6 @@
     </search>
     <history>
       <history-search>
-        <entry>migrat</entry>
-        <entry encoding="base64">XDxNaWdyYXRpb25zQnVuZGxlXD4=</entry>
-        <entry>getinj</entry>
         <entry encoding="base64">Y2xhc3Mg</entry>
         <entry>application</entry>
         <entry>module</entry>
@@ -691,6 +688,9 @@
         <entry>string</entry>
         <entry>STREET</entry>
         <entry>STR</entry>
+        <entry>loca</entry>
+        <entry>adm</entry>
+        <entry>loc</entry>
       </history-search>
       <history-cmd>
         <entry>source ~/.ideavimrc</entry>
