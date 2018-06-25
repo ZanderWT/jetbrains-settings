@@ -194,19 +194,18 @@
         <mark key="^" line="15" column="30" />
         <mark key="." line="15" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" timestamp="1529709901575">
-        <mark key="'" line="24" column="16" />
-        <mark key="[" line="25" column="81" />
-        <mark key="]" line="26" column="24" />
-        <mark key="." line="26" column="24" />
-        <mark key="^" line="26" column="24" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" timestamp="1529938360924">
+        <mark key="'" line="26" column="16" />
+        <mark key="[" line="26" column="53" />
+        <mark key="]" line="26" column="57" />
+        <mark key="." line="26" column="57" />
+        <mark key="^" line="26" column="57" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" timestamp="1529707113394">
         <mark key="[" line="15" column="0" />
         <mark key="]" line="15" column="0" />
         <mark key="." line="15" column="0" />
       </file>
-      <file name="$MAVEN_REPOSITORY$/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar!/retrofit2/ServiceMethod.class" timestamp="1529705546330" />
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/config/local.yml" timestamp="1529081435560">
         <mark key="[" line="11" column="29" />
         <mark key="]" line="12" column="1" />
@@ -430,7 +429,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="6" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="27" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="29" column="6" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/AddressComponent.java" />
       <jump line="17" column="4" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/VenuesApp.java" />
@@ -530,6 +528,7 @@
       <jump line="17" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
       <jump line="19" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
       <jump line="24" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" />
+      <jump line="26" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -598,7 +597,7 @@
         <text>STREET_ADDRESS</text>
       </register>
       <register name="/" type="4">
-        <text>STREET</text>
+        <text>STR</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5TVFJFRVRfQUREUkVTUykpLmFwcGVuZCgiICIpCg==</text>
@@ -631,40 +630,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbnQgeCA9MDsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5MT0NBTElUWSkpLmFwcGVuZCgiICIpCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoYWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC4pKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vZG8gbW9yZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQocmVwbHkuYm9keSgpLmdldEFkZHJlc3MoKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdCdWlsZGVyIHJlc3VsdAo=</text>
+        <text encoding="base64">ICAgICAgICBpbnQgeCA9MDsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBKc29uU25ha2VDYXNlCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
-      <register name="9" type="8">
-        <text encoding="base64">IAogCiAKIAogCiAKIAog</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5hcHBlbmQoKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action QuickJavaDoc</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>STREET</last-search>
+      <last-search>STR</last-search>
       <last-offset />
-      <last-pattern>STREET</last-pattern>
+      <last-pattern>STR</last-pattern>
       <last-replace>scheduling_software</last-replace>
       <last-substitute>inventory_type</last-substitute>
       <last-dir>1</last-dir>
@@ -672,7 +671,6 @@
     </search>
     <history>
       <history-search>
-        <entry>config</entry>
         <entry>migrat</entry>
         <entry encoding="base64">XDxNaWdyYXRpb25zQnVuZGxlXD4=</entry>
         <entry>getinj</entry>
@@ -692,6 +690,7 @@
         <entry encoding="base64">XDxlbnZcPg==</entry>
         <entry>string</entry>
         <entry>STREET</entry>
+        <entry>STR</entry>
       </history-search>
       <history-cmd>
         <entry>source ~/.ideavimrc</entry>
@@ -708,12 +707,12 @@
         <entry>48</entry>
         <entry encoding="base64">JzwsJz5zO2ludmVudG9yeV90eXBlO3NjaGVkdWxpbmdfc29mdHdhcmU7Zw==</entry>
         <entry>q</entry>
-        <entry>action ReformatCode</entry>
         <entry>24</entry>
         <entry>w</entry>
         <entry>bnext</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
