@@ -206,12 +206,12 @@
         <mark key="." line="17" column="18" />
         <mark key="^" line="17" column="18" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" timestamp="1529946260223">
-        <mark key="'" line="34" column="0" />
-        <mark key="[" line="25" column="16" />
-        <mark key="]" line="25" column="17" />
-        <mark key="^" line="25" column="37" />
-        <mark key="." line="25" column="17" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" timestamp="1529946963513">
+        <mark key="'" line="32" column="0" />
+        <mark key="[" line="32" column="63" />
+        <mark key="]" line="32" column="63" />
+        <mark key="." line="32" column="63" />
+        <mark key="^" line="32" column="63" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/config/local.yml" timestamp="1529081435560">
         <mark key="[" line="11" column="29" />
@@ -436,7 +436,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="0" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/VenuesApp.java" />
       <jump line="28" column="26" filename="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/Module.java" />
       <jump line="38" column="27" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/VenuesApp.java" />
       <jump line="33" column="5" filename="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/VenuesApp.java" />
@@ -536,6 +535,7 @@
       <jump line="21" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" />
       <jump line="25" column="33" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationApi.java" />
       <jump line="33" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" />
+      <jump line="32" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -601,16 +601,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>fuuuu</text>
+        <text>Throw(new RuntimeException(&quot;wazaaaaaa&quot;));</text>
       </register>
       <register name="/" type="4">
-        <text>fuu</text>
+        <text>thr</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQWRkcmVzc0NvbXBvbmVudC5BRE1JTklTVFJBVElWRV9BUkVBX0xFVkVMXzEsICJDVCIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQWRkcmVzc0NvbXBvbmVudC5BRE1JTklTVFJBVElWRV9BUkVBX0xFVkVMXzEsICJDVCIK</text>
+        <text encoding="base64">ICAgICAgICB3aGVuKGdlb0FwaS5nZW9jb2RlKGFueSgpLCApKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -637,48 +637,47 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuKGdlb0FwaS5nZW9jb2RlKGFueSgpLCBhbnkoKSkpLnRoZW5UaHJvdyhuZXcgUnVudGltZUV4Y2VwdGlvbigid2F6YWFhYWFhIikpOwo=</text>
+        <text encoding="base64">ICAgIEBNb2NrCiAgICBHZW9sb2NhdGlvbkFwaS5HZW9Db2RlUmVwbHkgcmVzcG9uc2VCb2R5Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBBZGRyZXNzIHJhd0FkZHJlc3MgPSBuZXcgQWRkcmVzcygidXMiLCBJbW11dGFibGVNYXAub2YoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQWRkcmVzc0NvbXBvbmVudC5BRE1JTklTVFJBVElWRV9BUkVBX0xFVkVMXzEsICJDVCIK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBCZWZvcmUK</text>
+        <text encoding="base64">ICAgICAgICB3aGVuKGdlb0FwaS5nZW9jb2RlKGFueSgpLCBhbnkoKSkpLnRoZW5UaHJvdyhuZXcgUnVudGltZUV4Y2VwdGlvbigid2F6YWFhYWFhIikpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyBTdHJpbmcgZ2V0KE9iamVjdCBrZXkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIGludCBzaXplKCkgewogICAgICAgICAgICAgICAgcmV0dXJuIDA7CiAgICAgICAgICAgIH0KICAgICAgICB9KQo=</text>
+        <text encoding="base64">ICAgICAgICBBZGRyZXNzIHJhd0FkZHJlc3MgPSBuZXcgQWRkcmVzcygidXMiLCBJbW11dGFibGVNYXAub2YoKSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIEBCZWZvcmUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBJbmplY3QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyBTdHJpbmcgZ2V0KE9iamVjdCBrZXkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIGludCBzaXplKCkgewogICAgICAgICAgICAgICAgcmV0dXJuIDA7CiAgICAgICAgICAgIH0KICAgICAgICB9KQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAogICAgcHJpdmF0ZSBmaW5hbCBTdHJpbmcgc2hvcnRDb3VudHJ5Q29kZTsK</text>
+        <text encoding="base64">ICAgIEBJbmplY3QK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>fuu</last-search>
+      <last-search>thr</last-search>
       <last-offset />
-      <last-pattern>fuu</last-pattern>
+      <last-pattern>thr</last-pattern>
       <last-replace>scheduling_software</last-replace>
       <last-substitute>inventory_type</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>asdf</entry>
         <entry>depend</entry>
         <entry>&quot;:</entry>
         <entry>baseur</entry>
@@ -698,6 +697,7 @@
         <entry>any</entry>
         <entry>new</entry>
         <entry>fuu</entry>
+        <entry>thr</entry>
       </history-search>
       <history-cmd>
         <entry>source ~/.ideavimrc</entry>
