@@ -734,7 +734,7 @@
         <text>RawVenue</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjcmVhdGVWZW51ZVBhcmFtZXRlckxvZ1JlY29yZFw+</text>
+        <text>source</text>
       </register>
       <register name="0" type="4">
         <text>dao.findVenue(rawVenue.getName(), normalizedAddress.getHash())</text>
@@ -784,9 +784,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjcmVhdGVWZW51ZVBhcmFtZXRlckxvZ1JlY29yZFw+</last-search>
+      <last-search>source</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjcmVhdGVWZW51ZVBhcmFtZXRlckxvZ1JlY29yZFw+</last-pattern>
+      <last-pattern>source</last-pattern>
       <last-replace>venueData</last-replace>
       <last-substitute>getVenueData()</last-substitute>
       <last-dir>1</last-dir>
@@ -794,7 +794,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxTdHJpbmdcPg==</entry>
         <entry>compiler-p[</entry>
         <entry>compiler</entry>
         <entry>dao.c</entry>
@@ -814,6 +813,7 @@
         <entry>id</entry>
         <entry>.orel</entry>
         <entry encoding="base64">XDxjcmVhdGVWZW51ZVBhcmFtZXRlckxvZ1JlY29yZFw+</entry>
+        <entry>source</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;\r;g</entry>
