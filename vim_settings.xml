@@ -174,11 +174,11 @@
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeolocationAddressNormalizer.java" timestamp="1529955668912">
-        <mark key="[" line="26" column="36" />
-        <mark key="]" line="26" column="60" />
-        <mark key="." line="26" column="60" />
-        <mark key="^" line="26" column="60" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeolocationAddressNormalizer.java" timestamp="1530139767345">
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="44" column="0" />
+        <mark key="." line="44" column="0" />
+        <mark key="^" line="41" column="111" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" timestamp="1530136634965">
         <mark key="[" line="25" column="4" />
@@ -243,7 +243,7 @@
         <mark key="." line="13" column="48" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" timestamp="1530131947905">
-        <mark key="'" line="38" column="0" />
+        <mark key="'" line="34" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryResource.java" timestamp="1528987864622">
         <mark key="[" line="27" column="31" />
@@ -332,10 +332,10 @@
         <mark key="'" line="256" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1530138696563">
-        <mark key="[" line="17" column="53" />
-        <mark key="]" line="17" column="53" />
-        <mark key="." line="17" column="53" />
-        <mark key="^" line="17" column="53" />
+        <mark key="[" line="2" column="53" />
+        <mark key="]" line="2" column="53" />
+        <mark key="." line="2" column="53" />
+        <mark key="^" line="2" column="53" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/LeadGeneration.java" timestamp="1529082526174">
         <mark key="[" line="66" column="0" />
@@ -493,11 +493,6 @@
         <mark key="[" line="30" column="13" />
         <mark key="]" line="30" column="13" />
         <mark key="." line="30" column="13" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/VenueDaoTest.java" timestamp="1530031955782">
-        <mark key="]" line="10" column="17" />
-        <mark key="^" line="10" column="17" />
-        <mark key="." line="10" column="17" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeolocationApi.java" timestamp="1529952754861">
         <mark key="[" line="7" column="0" />
@@ -720,11 +715,11 @@
       <register name="/" type="4">
         <text>.or</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Ly8gICAgICAgIGxvbmcgdmVudWVJZCA9IGRhby5maW5kVmVudWUocmF3VmVudWUuZ2V0TmFtZSgpLCBub3JtYWxpemVkQWRkcmVzcy5nZXRIYXNoKCkpLm9yRWxzZSgKLy8gICAgICAgICAgICAgICAgZGFvLmNyZWF0ZVZlbnVlKHJhd1ZlbnVlLmdldE5hbWUoKSwgbm9ybWFsaXplZEFkZHJlc3MuZ2V0VmFsdWUoKSwgbm9ybWFsaXplZEFkZHJlc3MuZ2V0SGFzaCgpKSk7Cg==</text>
+      <register name="0" type="4">
+        <text>The service is quite liberal in what it accepts so this does not need to be a strictly formatted address</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBOb3JtYWxpemVkQWRkcmVzcyBhZGRyZXNzID0gYWRkcmVzc05vcm1hbGl6ZXIubm9ybWFsaXplKHZlbnVlLmdldEFkZHJlc3MoKSk7Cg==</text>
+        <text encoding="base64">ICAgIC8vIFRoZSBhZGRyZXNzIHN0cmluZyB0byBzZW5kIHRvIHRoZSBnZW9sb2NhdGlvbiBzZXJ2aWNlLgogICAgLy8gVGhlIHNlcnZpY2UgaXMgcXVpdGUgbGliZXJhbCBpbiB3aGF0IGl0IGFjY2VwdHMgc28gdGhpcyBkb2VzIG5vdCBuZWVkIHRvIGJlIGEgc3RyaWN0bHkgZm9ybWF0dGVkIGFkZHJlc3MK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -736,33 +731,33 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="8">
-        <text>//
-//</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAqIEBwYXJhbSBhZGRyZXNzCiAgICAgKiBAcmV0dXJuCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBPcHRpb25hbDxMb25nPiBvcHQgPSBkYW8uZmluZFZlbnVlKHJhd1ZlbnVlLmdldE5hbWUoKSwgbm9ybWFsaXplZEFkZHJlc3MuZ2V0SGFzaCgpKTsKICAgICAgICBsb25nIHZlbnVlSWQgPSAwOwogICAgICAgIGlmICghb3B0LmlzUHJlc2VudCgpKSB7CiAgICAgICAgICAgIHZlbnVlSWQgPSBkYW8uY3JlYXRlVmVudWUocmF3VmVudWUuZ2V0TmFtZSgpLCBub3JtYWxpemVkQWRkcmVzcy5nZXRWYWx1ZSgpLCBub3JtYWxpemVkQWRkcmVzcy5nZXRIYXNoKCkpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHZlbnVlSWQgPSBvcHQuZ2V0KCk7CiAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICBOb3JtYWxpemVkQWRkcmVzcyBhZGRyZXNzID0gYWRkcmVzc05vcm1hbGl6ZXIubm9ybWFsaXplKHZlbnVlLmdldEFkZHJlc3MoKSk7Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBvcHQuCg==</text>
+      <register name="4" type="8">
+        <text>//
+//</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsb25nIHZlbnVlSWQgPSBvcHQuCg==</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb25hbDxMb25nPiBvcHQgPSBkYW8uZmluZFZlbnVlKHJhd1ZlbnVlLmdldE5hbWUoKSwgbm9ybWFsaXplZEFkZHJlc3MuZ2V0SGFzaCgpKTsKICAgICAgICBsb25nIHZlbnVlSWQgPSAwOwogICAgICAgIGlmICghb3B0LmlzUHJlc2VudCgpKSB7CiAgICAgICAgICAgIHZlbnVlSWQgPSBkYW8uY3JlYXRlVmVudWUocmF3VmVudWUuZ2V0TmFtZSgpLCBub3JtYWxpemVkQWRkcmVzcy5nZXRWYWx1ZSgpLCBub3JtYWxpemVkQWRkcmVzcy5nZXRIYXNoKCkpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHZlbnVlSWQgPSBvcHQuZ2V0KCk7CiAgICAgICAgfQoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">W10K</text>
+        <text encoding="base64">ICAgICAgICBvcHQuCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAub3JFbHNlKAo=</text>
+        <text encoding="base64">ICAgICAgICBsb25nIHZlbnVlSWQgPSBvcHQuCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">W10K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAub3JFbHNlKAo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
