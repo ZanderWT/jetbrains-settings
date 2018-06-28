@@ -33,11 +33,11 @@
         <mark key="." line="18" column="63" />
         <mark key="^" line="18" column="63" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/GeolocationAddressNormalizerIntegrationTest.java" timestamp="1530206525205">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/GeolocationAddressNormalizerIntegrationTest.java" timestamp="1530213641965">
         <mark key="'" line="32" column="34" />
-        <mark key="[" line="29" column="72" />
-        <mark key="]" line="30" column="71" />
-        <mark key="." line="30" column="71" />
+        <mark key="[" line="21" column="16" />
+        <mark key="]" line="21" column="16" />
+        <mark key="." line="21" column="16" />
         <mark key="^" line="30" column="71" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/test/java/com/classpass/tests/BaseIntegrationTest.java" timestamp="1529420320320">
@@ -233,12 +233,6 @@
         <mark key="]" line="30" column="13" />
         <mark key="." line="30" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodeResult.java" timestamp="1530207223690">
-        <mark key="[" line="8" column="18" />
-        <mark key="]" line="8" column="18" />
-        <mark key="." line="8" column="18" />
-        <mark key="^" line="8" column="19" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/VenuesApp.java" timestamp="1529601452901">
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
@@ -250,12 +244,12 @@
         <mark key="^" line="5" column="12" />
         <mark key="." line="5" column="12" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" timestamp="1530207063249">
-        <mark key="'" line="53" column="0" />
-        <mark key="[" line="46" column="81" />
-        <mark key="]" line="46" column="81" />
-        <mark key="." line="46" column="81" />
-        <mark key="^" line="46" column="81" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" timestamp="1530213362610">
+        <mark key="'" line="51" column="0" />
+        <mark key="[" line="9" column="57" />
+        <mark key="]" line="9" column="57" />
+        <mark key="." line="9" column="57" />
+        <mark key="^" line="9" column="57" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/logic/AddressComparator.java" timestamp="1529009310029">
         <mark key="'" line="28" column="0" />
@@ -559,8 +553,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="42" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperDao.java" />
       <jump line="21" column="3" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" />
       <jump line="22" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" />
       <jump line="40" column="9" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" />
@@ -659,6 +651,8 @@
       <jump line="23" column="43" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeolocationAddressNormalizer.java" />
       <jump line="213" column="12" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="169" column="28" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
+      <jump line="18" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodeResult.java" />
+      <jump line="10" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodeResult.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -724,16 +718,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>tryIt</text>
       </register>
       <register name="/" type="4">
-        <text>jackson</text>
+        <text>paran</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJbW11dGFibGVNYXAub2YoQWRkcmVzc0NvbXBvbmVudC5TVFJFRVRfQUREUkVTUywgIjYgcmFpbmV5IGxhbmUiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBZGRyZXNzQ29tcG9uZW50LkxPQ0FMSVRZLCAiV2VzdHBvcnQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBZGRyZXNzQ29tcG9uZW50LlBPU1RBTF9DT0RFLCAiMDY4ODAiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBZGRyZXNzQ29tcG9uZW50LkFETUlOSVNUUkFUSVZFX0FSRUFfTEVWRUxfMSwgIkNUIgo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">QEpzb25Qcm9wZXJ0eSA=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">QEFsbEFyZ3NDb25zdHJ1Y3RvcihzdXBwcmVzc0NvbnN0cnVjdG9yUHJvcGVydGllcyA9IHRydWUpCg==</text>
+        <text encoding="base64">ICAgIEBKc29uQ3JlYXRvcgogICAgcHVibGljIEdlb2NvZGVSZXN1bHQoU3RyaW5nIGFkZHJlc3MsIFN0cmluZyBhZGRyZXNzMCwgU3RyaW5nIGNpdHksIFN0cmluZyBjb3VudHJ5LCBTdHJpbmcgbGF0aXR1ZGUsCiAgICAgICAgICAgICAgICAgICAgICAgICBTdHJpbmcgbG9uZ2l0dWRlLCBTdHJpbmcgcG9zdGFsQ29kZSwgU3RyaW5nIHN0YXRlKSB7CiAgICAgICAgdGhpcy5hZGRyZXNzID0gYWRkcmVzczsKICAgICAgICB0aGlzLmFkZHJlc3MwID0gYWRkcmVzczA7CiAgICAgICAgdGhpcy5jaXR5ID0gY2l0eTsKICAgICAgICB0aGlzLmNvdW50cnkgPSBjb3VudHJ5OwogICAgICAgIHRoaXMubGF0aXR1ZGUgPSBsYXRpdHVkZTsKICAgICAgICB0aGlzLmxvbmdpdHVkZSA9IGxvbmdpdHVkZTsKICAgICAgICB0aGlzLnBvc3RhbENvZGUgPSBwb3N0YWxDb2RlOwogICAgICAgIHRoaXMuc3RhdGUgPSBzdGF0ZTsKICAgIH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -746,43 +740,41 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">QFNuYQo=</text>
+        <text encoding="base64">ICAgIEBKc29uQ3JlYXRvcihtb2RlID0gSnNvbkNyZWF0b3IuTW9kZS5QUk9QRVJUSUVTKQogICAgcHVibGljIEdlb2NvZGVSZXN1bHQoKSB7CiAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBtYXBwZXIuY29uZmlndXJlKERlc2VyaWFsaXphdGlvbkZlYXR1cmUuLCApCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmFkZHJlc3MgPSBhZGRyZXNzOwogICAgICAgIHRoaXMuYWRkcmVzczAgPSBhZGRyZXNzMDsKICAgICAgICB0aGlzLmNpdHkgPSBjaXR5OwogICAgICAgIHRoaXMuY291bnRyeSA9IGNvdW50cnk7CiAgICAgICAgdGhpcy5sYXRpdHVkZSA9IGxhdGl0dWRlOwogICAgICAgIHRoaXMubG9uZ2l0dWRlID0gbG9uZ2l0dWRlOwogICAgICAgIHRoaXMucG9zdGFsQ29kZSA9IHBvc3RhbENvZGU7CiAgICAgICAgdGhpcy5zdGF0ZSA9IHN0YXRlOwo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">QEpzb25TbmFrZUNhc2UK</text>
+      <register name="4" type="4">
+        <text>String address, String address0, String city, String country, String latitude,
+                         String longitude, String postalCode, String state</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5kb2VzTm90Q29udGFpbigibnVsbCIpCg==</text>
+        <text encoding="base64">QEpzb25DcmVhdG9yKG1vZGUgPSBKc29uQ3JlYXRvci5Nb2RlLlBST1BFUlRJRVMpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5jb250YWluc0lnbm9yaW5nQ2FzZSgiQ1QiKQogICAgICAgICAgICAgICAgLmRvZXNOb3RDb250YWluKCJudWxsIik7Cg==</text>
+        <text encoding="base64">QE5vQXJnc0NvbnN0cnVjdG9yCg==</text>
       </register>
-      <register name="7" type="8">
-        <text>AddressComponent.
-AddressComponent.
-AddressComponent.
-AddressComponent.</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4obm9ybWFsaXplZEFkZHJlc3MuZ2V0VmFsdWUoKSk7Cg==</text>
+        <text encoding="base64">QEFsbEFyZ3NDb25zdHJ1Y3RvcihzdXBwcmVzc0NvbnN0cnVjdG9yUHJvcGVydGllcyA9IHRydWUpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QFNuYQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>jackson</last-search>
+      <last-search>paran</last-search>
       <last-offset />
-      <last-pattern>jackson</last-pattern>
+      <last-pattern>paran</last-pattern>
       <last-replace>genre</last-replace>
       <last-substitute>scheduling_software</last-substitute>
       <last-dir>1</last-dir>
@@ -790,7 +782,6 @@ AddressComponent.</text>
     </search>
     <history>
       <history-search>
-        <entry>key</entry>
         <entry>address</entry>
         <entry encoding="base64">XDxjcmVhdGVBZGRyZXNzXD4=</entry>
         <entry>addressId</entry>
@@ -810,6 +801,7 @@ AddressComponent.</text>
         <entry>asdfasdf</entry>
         <entry>module</entry>
         <entry>jackson</entry>
+        <entry>paran</entry>
       </history-search>
       <history-cmd>
         <entry>48</entry>
@@ -830,8 +822,8 @@ AddressComponent.</text>
         <entry encoding="base64">JzwsJz5zO2dlbnJlO3NjaGVkdWxpbmdTb2Z0d2FyZTtn</entry>
         <entry>s;scheduling_software;genre;g</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
-        <entry>action ReformatCode</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
