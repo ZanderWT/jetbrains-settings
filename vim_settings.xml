@@ -84,10 +84,10 @@
         <mark key="^" line="12" column="59" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/ServiceBootstrap.java" timestamp="1530657105787">
-        <mark key="'" line="42" column="8" />
-        <mark key="[" line="43" column="52" />
-        <mark key="]" line="43" column="52" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/ServiceBootstrap.java" timestamp="1530659145591">
+        <mark key="'" line="43" column="0" />
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="46" column="70" />
         <mark key="." line="43" column="52" />
         <mark key="^" line="43" column="79" />
       </file>
@@ -215,12 +215,6 @@
         <mark key="." line="66" column="5" />
         <mark key="^" line="66" column="5" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1530207139614">
-        <mark key="'" line="169" column="28" />
-        <mark key="[" line="213" column="0" />
-        <mark key="]" line="213" column="34" />
-        <mark key="." line="213" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/venuegen-spike/code/api/src/main/java/com/classpass/venuegen/annotations/NonNullByDefault.java" timestamp="1525984212640">
         <mark key="[" line="10" column="4" />
         <mark key="]" line="10" column="5" />
@@ -346,12 +340,6 @@
         <mark key="^" line="14" column="16" />
         <mark key="." line="7" column="22" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/config/local.yml.tmpl" timestamp="1530556523916">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="21" column="38" />
-        <mark key="." line="20" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/VenueSource.java" timestamp="1529443418227">
         <mark key="[" line="20" column="0" />
         <mark key="]" line="20" column="0" />
@@ -441,11 +429,12 @@
         <mark key="." line="18" column="50" />
         <mark key="^" line="18" column="50" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" timestamp="1530656644460">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" timestamp="1530658581900">
         <mark key="'" line="108" column="19" />
-        <mark key="[" line="109" column="0" />
-        <mark key="]" line="109" column="0" />
-        <mark key="." line="109" column="0" />
+        <mark key="[" line="101" column="18" />
+        <mark key="]" line="101" column="26" />
+        <mark key="." line="101" column="26" />
+        <mark key="^" line="101" column="26" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeolocationAddressNormalizerTest.java" timestamp="1529955772392">
         <mark key="[" line="14" column="0" />
@@ -650,7 +639,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="38" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="58" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
@@ -750,6 +738,7 @@
       <jump line="53" column="52" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="108" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
       <jump line="42" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/ServiceBootstrap.java" />
+      <jump line="43" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/ServiceBootstrap.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -815,16 +804,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IG5ldyBEZWZhdWx0QVdTQ3JlZGVudGlhbHNQcm92aWRlckNoYWluKCk7</text>
+        <text>amazonSqs</text>
       </register>
       <register name="/" type="4">
         <text>sys</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgYXdzRW5kcG9pbnQgPSBTeXN0ZW0uZ2V0ZW52KCJBV1NfRU5EUE9JTlQiKTsK</text>
+        <text encoding="base64">ICAgICAgICBBV1NDcmVkZW50aWFsc1Byb3ZpZGVyIGNyZWRlbnRpYWxzUHJvdmlkZXIgPSBuZXcgQVdTU3RhdGljQ3JlZGVudGlhbHNQcm92aWRlcigKICAgICAgICAgICAgICAgIG5ldyBCYXNpY0FXU0NyZWRlbnRpYWxzKCJub3QgdXNlZCIsICJub3QgdXNlZCIpKTsKCiAgICAgICAgQW1hem9uU1FTIGFtYXpvblNxcyA9IG5ldyBBbWF6b25TUVNDbGllbnQoY3JlZGVudGlhbHNQcm92aWRlcik7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBjcmVkZW50aWFsc1Byb3ZpZGVyLgo=</text>
+        <text encoding="base64">ICAgICAgICAvLyBXb3JrcyB0aHJvdWdoIHRoZSBkaWZmZXJlbnQgd2F5cyBvZiBzcGVjaWZ5aW5nIEFXUyBjcmVkZW50aWFscy4KICAgICAgICAvLyBTZWUgaHR0cHM6Ly9kb2NzLmF3cy5hbWF6b24uY29tL3Nkay1mb3ItamF2YS92MS9kZXZlbG9wZXItZ3VpZGUvY3JlZGVudGlhbHMuaHRtbAogICAgICAgIEFXU0NyZWRlbnRpYWxzUHJvdmlkZXIgY3JlZGVudGlhbHNQcm92aWRlciA9IG5ldyBEZWZhdWx0QVdTQ3JlZGVudGlhbHNQcm92aWRlckNoYWluKCk7CgogICAgICAgIEFtYXpvblNRUyBzcXNDbGllbnQgPSBuZXcgQW1hem9uU1FTQ2xpZW50KGNyZWRlbnRpYWxzUHJvdmlkZXIpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -837,31 +826,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgYXdzRW5kcG9pbnQgPSBTeXN0ZW0uZ2V0ZW52KCJBV1NfRU5EUE9JTlQiKTsK</text>
+        <text encoding="base64">ICAgICAgICBjcmVkZW50aWFsc1Byb3ZpZGVyLgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uZmlnLmdldAo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgYXdzRW5kcG9pbnQgPSBTeXN0ZW0uZ2V0ZW52KCJBV1NfRU5EUE9JTlQiKTsK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uZmlnLmdldAo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9uZyBhZGRyZXNzSWQgPSAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBAVHJhbnNhY3Rpb24oVHJhbnNhY3Rpb25Jc29sYXRpb25MZXZlbC5SRUFEX0NPTU1JVFRFRCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9uZyBhZGRyZXNzSWQgPSAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBAVHJhbnNhY3Rpb24oVHJhbnNhY3Rpb25Jc29sYXRpb25MZXZlbC5SRUFEX1VOQ09NTUlUVEVEKQo=</text>
+        <text encoding="base64">ICAgICAgICBAVHJhbnNhY3Rpb24oVHJhbnNhY3Rpb25Jc29sYXRpb25MZXZlbC5SRUFEX0NPTU1JVFRFRCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBAVHJhbnNhY3Rpb24oVHJhbnNhY3Rpb25Jc29sYXRpb25MZXZlbC5SRVBFQVRBQkxFX1JFQUQpCg==</text>
+        <text encoding="base64">ICAgICAgICBAVHJhbnNhY3Rpb24oVHJhbnNhY3Rpb25Jc29sYXRpb25MZXZlbC5SRUFEX1VOQ09NTUlUVEVEKQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
