@@ -431,12 +431,12 @@
         <mark key="." line="18" column="50" />
         <mark key="^" line="18" column="50" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" timestamp="1530808067787">
-        <mark key="'" line="93" column="0" />
-        <mark key="[" line="103" column="0" />
-        <mark key="]" line="103" column="0" />
-        <mark key="." line="103" column="0" />
-        <mark key="^" line="101" column="26" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" timestamp="1530809238567">
+        <mark key="'" line="102" column="19" />
+        <mark key="[" line="104" column="34" />
+        <mark key="]" line="104" column="44" />
+        <mark key="." line="104" column="44" />
+        <mark key="^" line="104" column="44" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeolocationAddressNormalizerTest.java" timestamp="1529955772392">
         <mark key="[" line="14" column="0" />
@@ -635,7 +635,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="46" column="36" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" />
       <jump line="42" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" />
       <jump line="37" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" />
       <jump line="30" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" />
@@ -735,6 +734,7 @@
       <jump line="75" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
       <jump line="86" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
       <jump line="93" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
+      <jump line="102" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -800,7 +800,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>localhost:5433</text>
+        <text>config.getAwsEndpoint()</text>
       </register>
       <register name="/" type="4">
         <text>loc</text>
@@ -822,31 +822,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb25hbC5vZk51bGxhYmxlKGNvbmZpZy5nZXRBd3NFbmRwb2ludCgpKS5pZlByZXNlbnQoZW5kcG9pbnQgLT4gc3FzQ2xpZW50LnNldEVuZHBvaW50KGVuZHBvaW50KSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBzcXNDbGllbnQuc2V0RW5kcG9pbnQoY29uZmlnLmdldEF3c0VuZHBvaW50KCkpOwo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBGb3IgbG9jYWwgZG9ja2VyIGNvbnRhaW5lciwgdXNlIEFXU19FTkRQT0lOVCBlbnZpcm9ubWVudCB2YXJpYWJsZS4gSWYgdGhhdCBoYXNuJ3QgYmVlbiBzZXQsIHVzZSB2YWx1ZSBmcm9tCiAgICAgICAgLy8gbG9jYWwgb3IgdGVzdCB5YW1sIGlmIGl0IGV4aXN0cy4KICAgICAgICBTdHJpbmcgYXdzRW5kcG9pbnQgPSBTeXN0ZW0uZ2V0ZW52KCJBV1NfRU5EUE9JTlQiKTsKICAgICAgICBpZiAoYXdzRW5kcG9pbnQgIT0gbnVsbCkgewogICAgICAgICAgICBzcXNDbGllbnQuc2V0RW5kcG9pbnQoYXdzRW5kcG9pbnQpOwogICAgICAgIH0gZWxzZSBpZiAoY29uZmlnLmdldEF3c0VuZHBvaW50KCkgIT0gbnVsbCkgewo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgQVdTX0VORFBPSU5UOiBodHRwOi8vZ29hd3M6NDEwMAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgQVdTX0VORFBPSU5UOiBodHRwOi8vZ29hd3M6NDEwMAo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgQVdTX0VOCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBGb3IgbG9jYWwgZG9ja2VyIGNvbnRhaW5lciwgdXNlIEFXU19FTkRQT0lOVCBlbnZpcm9ubWVudCB2YXJpYWJsZS4gSWYgdGhhdCBoYXNuJ3QgYmVlbiBzZXQsIHVzZSB2YWx1ZSBmcm9tCiAgICAgICAgLy8gbG9jYWwgb3IgdGVzdCB5YW1sIGlmIGl0IGV4aXN0cy4KICAgICAgICBTdHJpbmcgYXdzRW5kcG9pbnQgPSBTeXN0ZW0uZ2V0ZW52KCJBV1NfRU5EUE9JTlQiKTsKICAgICAgICBpZiAoYXdzRW5kcG9pbnQgIT0gbnVsbCkgewogICAgICAgICAgICBzcXNDbGllbnQuc2V0RW5kcG9pbnQoYXdzRW5kcG9pbnQpOwogICAgICAgIH0gZWxzZSBpZiAoY29uZmlnLmdldEF3c0VuZHBvaW50KCkgIT0gbnVsbCkgewo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBXb3JrcyB0aHJvdWdoIHRoZSBkaWZmZXJlbnQgd2F5cyBvZiBzcGVjaWZ5aW5nIEFXUyBjcmVkZW50aWFscy4KICAgICAgICAvLyBTZWUgaHR0cHM6Ly9kb2NzLmF3cy5hbWF6b24uY29tL3Nkay1mb3ItamF2YS92MS9kZXZlbG9wZXItZ3VpZGUvY3JlZGVudGlhbHMuaHRtbAogICAgICAgIEFXU0NyZWRlbnRpYWxzUHJvdmlkZXIgY3JlZGVudGlhbHNQcm92aWRlciA9IG5ldyBEZWZhdWx0QVdTQ3JlZGVudGlhbHNQcm92aWRlckNoYWluKCk7CgogICAgICAgIEFtYXpvblNRUyBzcXNDbGllbnQgPSBuZXcgQW1hem9uU1FTQ2xpZW50KGNyZWRlbnRpYWxzUHJvdmlkZXIpOwo=</text>
+        <text encoding="base64">ICAgICAgQVdTX0VORFBPSU5UOiBodHRwOi8vZ29hd3M6NDEwMAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjcmVkZW50aWFsc1Byb3ZpZGVyLgo=</text>
+        <text encoding="base64">ICAgICAgQVdTX0VORFBPSU5UOiBodHRwOi8vZ29hd3M6NDEwMAo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
