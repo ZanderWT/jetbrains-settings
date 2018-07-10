@@ -394,12 +394,11 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" timestamp="1531179431364">
-        <mark key="'" line="153" column="87" />
-        <mark key="[" line="153" column="87" />
-        <mark key="]" line="153" column="87" />
-        <mark key="." line="153" column="87" />
-        <mark key="^" line="153" column="87" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" timestamp="1531237645643">
+        <mark key="'" line="26" column="96" />
+        <mark key="[" line="152" column="0" />
+        <mark key="]" line="152" column="0" />
+        <mark key="." line="152" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/prospect-generation/code/api/src/test/java/com/classpass/demo/resource/DemoResourcesTest.java" timestamp="1528140593994">
         <mark key="[" line="26" column="80" />
@@ -665,12 +664,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="35" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/RawVenue.java" />
-      <jump line="61" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="77" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="129" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="117" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="79" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="108" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="83" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="85" column="10" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
@@ -761,10 +754,16 @@
       <jump line="159" column="128" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="160" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="162" column="41" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
-      <jump line="153" column="87" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="81" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="66" column="11" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="69" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="145" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="153" column="86" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="173" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="149" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="157" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="163" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="175" column="96" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -830,16 +829,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>String</text>
+        <text>A</text>
       </register>
       <register name="/" type="4">
-        <text>resolvedvenue</text>
+        <text>is</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLy8gQ2hlY2sgdmVudWUgY29sdW1ucwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgawo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYXNzZXJ0VGhhdChyZXN1bHRTZXQuZ2V0SW50KCJhZGRyZXNzX2lkIikpLmlzRXF1YWxUbyhhZGRyZXNzSWQpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -852,50 +851,47 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9uZyBhZGRyZXNzSWQgPSByZXNvbHZlZFZlbnVlLmdldEFkZHJlc3MoKS5nZXRJZCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9uZyBhZGRyZXNzSWQgPSByZXNvbHZlZFZlbnVlLmdldEFkZHJlc3MoKS5nZXRJZCgpLmdldCgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYWRkcmVzc0lkLgo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIDA7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgT3B0aW9uYWw8TG9uZz4gYWRkcmVzc0lkID0gT3B0aW9uYWwuZW1wdHkoKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYWRkcmVzc0lkLgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgIHJldHVybiByZXN1bHRTZXQuZ2V0TG9uZygiYWRkcmVzc19pZCIpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9uZyBhZGRyZXNzSWQgPQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnRUaGF0KHJlc3VsdFNldC5nZXRJbnQoInZlbnVlX3NvdXJjZV9pZCIpKS5pc05vdE51bGwoKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>167</text>
       </register>
     </registers>
     <search>
-      <last-search>resolvedvenue</last-search>
+      <last-search>is</last-search>
       <last-offset />
-      <last-pattern>resolvedvenue</last-pattern>
+      <last-pattern>is</last-pattern>
       <last-replace>(\1)</last-replace>
       <last-substitute>create index on \w\+ \zs\(\w\+\)\ze</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>mapper</entry>
-        <entry encoding="base64">XDxjb25maWd1cmVNYXBwZXJcPg==</entry>
-        <entry>address_id</entry>
         <entry encoding="base64">XDxnZXROZXh0QWRkcmVzc0lkXD4=</entry>
         <entry>class venue</entry>
         <entry encoding="base64">XDxjcmVhdGVBZGRyZXNzXD4=</entry>
@@ -913,6 +909,9 @@
         <entry>str</entry>
         <entry>int</entry>
         <entry>resolvedvenue</entry>
+        <entry>selectadd</entry>
+        <entry>.col</entry>
+        <entry>is</entry>
       </history-search>
       <history-cmd>
         <entry>bnext</entry>
