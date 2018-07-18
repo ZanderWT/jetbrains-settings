@@ -40,13 +40,6 @@
         <mark key="]" line="29" column="0" />
         <mark key="." line="29" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ScraperVenueSource.java" timestamp="1531782110055">
-        <mark key="'" line="41" column="12" />
-        <mark key="[" line="14" column="13" />
-        <mark key="]" line="15" column="10" />
-        <mark key="^" line="15" column="10" />
-        <mark key="." line="15" column="10" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/NormalizedAddressTest.java" timestamp="1529680924953">
         <mark key="[" line="18" column="7" />
         <mark key="]" line="18" column="63" />
@@ -419,12 +412,12 @@
         <mark key="^" line="6" column="63" />
         <mark key="." line="6" column="63" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueSource.java" timestamp="1531780960889">
-        <mark key="'" line="30" column="0" />
-        <mark key="[" line="9" column="7" />
-        <mark key="]" line="9" column="7" />
-        <mark key="." line="9" column="7" />
-        <mark key="^" line="11" column="11" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueSource.java" timestamp="1531935782327">
+        <mark key="'" line="10" column="6" />
+        <mark key="[" line="18" column="52" />
+        <mark key="]" line="18" column="63" />
+        <mark key="." line="18" column="63" />
+        <mark key="^" line="18" column="63" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobCreateRequest.java" timestamp="1531503531659">
         <mark key="[" line="21" column="0" />
@@ -456,10 +449,10 @@
         <mark key="." line="31" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" timestamp="1531781887458">
-        <mark key="[" line="105" column="65" />
-        <mark key="]" line="105" column="79" />
-        <mark key="." line="105" column="79" />
-        <mark key="^" line="105" column="79" />
+        <mark key="[" line="100" column="65" />
+        <mark key="]" line="100" column="79" />
+        <mark key="." line="100" column="79" />
+        <mark key="^" line="100" column="79" />
       </file>
       <file name="$USER_HOME$/cp-projects/prospect-generation/code/api/src/test/java/com/classpass/demo/resource/DemoResourcesTest.java" timestamp="1528140593994">
         <mark key="[" line="26" column="80" />
@@ -580,6 +573,12 @@
         <mark key="]" line="3" column="45" />
         <mark key="." line="3" column="45" />
         <mark key="^" line="3" column="45" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/AdminVenueSource.java" timestamp="1531935886024">
+        <mark key="[" line="9" column="42" />
+        <mark key="]" line="10" column="34" />
+        <mark key="." line="10" column="34" />
+        <mark key="^" line="10" column="34" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1531521428179">
         <mark key="[" line="20" column="8" />
@@ -767,10 +766,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="119" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
-      <jump line="12" column="38" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
-      <jump line="37" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ScraperVenueSource.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ScraperVenueSource.java" />
       <jump line="4" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ScraperVenueSource.java" />
       <jump line="3" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/JobConfigurationEvent.java" />
       <jump line="3" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/GoogleJobConfiguration.java" />
@@ -867,6 +862,10 @@
       <jump line="109" column="59" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="108" column="39" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="96" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
+      <jump line="11" column="3" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/AdminVenueSource.java" />
+      <jump line="15" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/AdminVenueSource.java" />
+      <jump line="10" column="6" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueSource.java" />
+      <jump line="10" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/AdminVenueSource.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -932,16 +931,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>String</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>str</text>
+        <text>cre</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBKc29uUHJvcGVydHkoIndlYnNpdGVVcmxzIikKICAgIHByaXZhdGUgTXVsdGltYXA8U3RyaW5nLCBJbnRlZ2VyPiBnZXRXZWJzaXRlVXJsc1RvU291cmNlSWRzKCkgewogICAgICAgIHJldHVybiBnZXRGaWVsZFZhbHVlVG9Tb3VyY2VJZHModGhpcy5nZXRXZWJzaXRlVXJscygpKTsKICAgIH0K</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTG9jYWxEYXRlVGltZSBjcmVhdGVkT247Cg==</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICBJbW11dGFibGVMaXN0TXVsdGltYXAuQnVpbGRlcjxTdHJpbmcsIEludGVnZXI+IGJ1aWxkZXIgPSBJbW11dGFibGVMaXN0TXVsdGltYXAuYnVpbGRlcigpOwogICAgICAgIHRoaXMud2Vic2l0ZVVybHMuZm9yRWFjaCgod2Vic2l0ZVVybCwgc291cmNlKSAtPiB7CiAgICAgICAgICAgIGJ1aWxkZXIucHV0KHdlYnNpdGVVcmwsIHNvdXJjZS5nZXRJZCgpLm9yRWxzZVRocm93KAogICAgICAgICAgICAgICAgICAgICgpIC0+IG5ldyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkNhbm5vdCBzZXJpYWxpemUgYSBWZW51ZSBpZiBhbnkgb2YgaXRzIFNvdXJjZSBJRHMgYXJlIG51bGwiKSkpOwogICAgICAgIH0pOwogICAgICAgIHJldHVybiBidWlsZGVyLmJ1aWxkKCk7</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -953,50 +952,48 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>WebsiteUrls</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTG9jYWxEYXRlVGltZSBsYXN0T247Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIExvY2FsRGF0ZVRpbWUgZ2V0Q3JlYXRlZE9uKCkgewogICAgICAgIHJldHVybiBudWxsOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIExvY2FsRGF0ZVRpbWUgZ2V0TGFzdFN5bmNlZE9uKCkgewogICAgICAgIHJldHVybiBudWxsOwogICAgfQoK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICBJbW11dGFibGVMaXN0TXVsdGltYXAuQnVpbGRlcjxTdHJpbmcsIEludGVnZXI+IGJ1aWxkZXIgPSBJbW11dGFibGVMaXN0TXVsdGltYXAuYnVpbGRlcigpOwogICAgICAgIHRoaXMud2Vic2l0ZVVybHMuZm9yRWFjaCgod2Vic2l0ZVVybCwgc291cmNlKSAtPiB7CiAgICAgICAgICAgIGJ1aWxkZXIucHV0KHdlYnNpdGVVcmwsIHNvdXJjZS5nZXRJZCgpLm9yRWxzZVRocm93KAogICAgICAgICAgICAgICAgICAgICgpIC0+IG5ldyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkNhbm5vdCBzZXJpYWxpemUgYSBWZW51ZSBpZiBhbnkgb2YgaXRzIFNvdXJjZSBJRHMgYXJlIG51bGwiKSkpOwogICAgICAgIH0pOwogICAgICAgIHJldHVybiBidWlsZGVyLmJ1aWxkKCk7</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      <register name="5" type="4">
+        <text>WebsiteUrls</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBNdWx0aW1hcDxTdHJpbmcsIEludGVnZXI+IHJlc3VsdCA9IG5ldyBJbW11dGFibGVMaXN0TXVsdGltYXA8PigpOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gImZvbyI7Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBKc29uR2V0dGVyCg==</text>
+        <text encoding="base64">ICAgICAgICBNdWx0aW1hcDxTdHJpbmcsIEludGVnZXI+IHJlc3VsdCA9IG5ldyBJbW11dGFibGVMaXN0TXVsdGltYXA8PigpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>str</last-search>
+      <last-search>cre</last-search>
       <last-offset />
-      <last-pattern>str</last-pattern>
+      <last-pattern>cre</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>stream</entry>
-        <entry>jsonpr</entry>
         <entry>jsonig</entry>
         <entry encoding="base64">VmVudWVEYXRhQ29uZmxpY3Q8XChcd1wrXCk+</entry>
         <entry>VenueSource</entry>
@@ -1015,6 +1012,8 @@
         <entry>toso</entry>
         <entry>websiteurls</entry>
         <entry>str</entry>
+        <entry>an a</entry>
+        <entry>cre</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
