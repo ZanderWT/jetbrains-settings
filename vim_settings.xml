@@ -453,6 +453,12 @@
         <mark key="." line="13" column="14" />
         <mark key="^" line="13" column="14" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GlsAddressNormalizerTest.java" timestamp="1532033095316">
+        <mark key="[" line="25" column="4" />
+        <mark key="]" line="25" column="23" />
+        <mark key="." line="25" column="23" />
+        <mark key="^" line="25" column="23" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" timestamp="1531781887458">
         <mark key="[" line="100" column="65" />
         <mark key="]" line="100" column="79" />
@@ -579,11 +585,11 @@
         <mark key="." line="10" column="34" />
         <mark key="^" line="10" column="34" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/web/GlsClientIT.java" timestamp="1532032286113">
-        <mark key="[" line="13" column="85" />
-        <mark key="]" line="13" column="85" />
-        <mark key="^" line="13" column="85" />
-        <mark key="." line="13" column="85" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/web/GlsClientIT.java" timestamp="1532033270561">
+        <mark key="[" line="13" column="72" />
+        <mark key="]" line="13" column="81" />
+        <mark key="^" line="13" column="81" />
+        <mark key="." line="13" column="81" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1531521428179">
         <mark key="[" line="20" column="8" />
@@ -944,16 +950,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>GeolocationAddressNormalizer</text>
       </register>
       <register name="/" type="4">
-        <text>geolo</text>
+        <text encoding="base64">XDw7XD4=</text>
       </register>
       <register name="0" type="4">
         <text>api.geocode(rawAddress).execute()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cHVibGljIGNsYXNzIEdlb2xvY2F0aW9uQWRkcmVzc05vcm1hbGl6ZXJUZXN0IHsKICAgIEBNb2NrKGFuc3dlciA9IEFuc3dlcnMuUkVUVVJOU19ERUVQX1NUVUJTKQogICAgR2VvbG9jYXRpb25BcGkgYXBpOwoKICAgIEBJbmplY3RNb2NrcwogICAgR2VvY29kaW5nQ2xpZW50IGdlb1NlcnZpY2U7CgogICAgQEluamVjdE1vY2tzCiAgICBHZW9sb2NhdGlvbkFkZHJlc3NOb3JtYWxpemVyIG5vcm1pZTsKCiAgICBAVGVzdAogICAgQFNuZWFreVRocm93cwogICAgcHVibGljIHZvaWQgdGVzdEJ1aWxkUmF3QWRkcmVzc05vRmxvb3JOb1Jvb20oKSB7CiAgICAgICAgQWRkcmVzcyBhZGRyZXNzID0gbmV3IEFkZHJlc3MoSW1tdXRhYmxlTWFwLm9mKEFkZHJlc3NDb21wb25lbnQuU1RSRUVUX0FERFJFU1MsICI2IHJhaW5leSBsYW5lIiwKICAgICAgICAgICAgICAgIEFkZHJlc3NDb21wb25lbnQuTE9DQUxJVFksICJXZXN0cG9ydCIsCiAgICAgICAgICAgICAgICBBZGRyZXNzQ29tcG9uZW50LlBPU1RBTF9DT0RFLCAiMDY4ODAiLAogICAgICAgICAgICAgICAgQWRkcmVzc0NvbXBvbmVudC5BRE1JTklTVFJBVElWRV9BUkVBX0xFVkVMXzEsICJDVCIKICAgICAgICApKTsKICAgICAgICBTdHJpbmcgYWN0dWFsID0gbm9ybWllLmJ1aWxkUmF3QWRkcmVzcyhhZGRyZXNzKTsKICAgICAgICBBc3NlcnRpb25zLmFzc2VydFRoYXQoYWN0dWFsKQogICAgICAgICAgICAgICAgLmNvbnRhaW5zKCI2IHJhaW5leSBsYW5lIikKICAgICAgICAgICAgICAgIC5jb250YWlucygiV2VzdHBvcnQiKQogICAgICAgICAgICAgICAgLmNvbnRhaW5zKCIwNjg4MCIpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoIkNUIikKICAgICAgICAgICAgICAgIC5kb2VzTm90Q29udGFpbigiZmxvb3IiKQogICAgICAgICAgICAgICAgLmRvZXNOb3RDb250YWluKCJyb29tIik7CgogICAgfQoKICAgIEBUZXN0CiAgICBAU25lYWt5VGhyb3dzCiAgICBwdWJsaWMgdm9pZCB0ZXN0QnVpbGRSYXdBZGRyZXNzWWVzRmxvb3JZZXNSb29tKCkgewogICAgICAgIEFkZHJlc3MgYWRkcmVzcyA9IG5ldyBBZGRyZXNzKEltbXV0YWJsZU1hcC48QWRkcmVzc0NvbXBvbmVudCwgU3RyaW5nPmJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLnB1dChBZGRyZXNzQ29tcG9uZW50LlNUUkVFVF9BRERSRVNTLCAiNiByYWluZXkgbGFuZSIpCiAgICAgICAgICAgICAgICAucHV0KEFkZHJlc3NDb21wb25lbnQuRkxPT1IsICIyIikKICAgICAgICAgICAgICAgIC5wdXQoQWRkcmVzc0NvbXBvbmVudC5ST09NLCAiMjA0IikKICAgICAgICAgICAgICAgIC5wdXQoQWRkcmVzc0NvbXBvbmVudC5MT0NBTElUWSwgIldlc3Rwb3J0IikKICAgICAgICAgICAgICAgIC5wdXQoQWRkcmVzc0NvbXBvbmVudC5QT1NUQUxfQ09ERSwgIjA2ODgwIikKICAgICAgICAgICAgICAgIC5wdXQoQWRkcmVzc0NvbXBvbmVudC5BRE1JTklTVFJBVElWRV9BUkVBX0xFVkVMXzEsICJDVCIpCiAgICAgICAgICAgICAgICAuYnVpbGQoKSk7CiAgICAgICAgU3RyaW5nIGFjdHVhbCA9IG5vcm1pZS5idWlsZFJhd0FkZHJlc3MoYWRkcmVzcyk7CiAgICAgICAgQXNzZXJ0aW9ucy5hc3NlcnRUaGF0KGFjdHVhbCkKICAgICAgICAgICAgICAgIC5jb250YWlucygiNiByYWluZXkgbGFuZSIpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoIldlc3Rwb3J0IikKICAgICAgICAgICAgICAgIC5jb250YWlucygiMDY4ODAiKQogICAgICAgICAgICAgICAgLmNvbnRhaW5zKCJDVCIpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoImZsb29yIikKICAgICAgICAgICAgICAgIC5jb250YWlucygicm9vbSIpOwoKICAgIH0KfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -966,10 +972,10 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cHVibGljIGNsYXNzIEdsc0FkZHJlc3NOb3JtYWxpemVyVGVzdCB7Cn0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgU3RyaW5nIGZvcm1hdHRlZEFkZHJlc3M7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
@@ -978,29 +984,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Z2xzOgo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgU3RyaW5nIGZvcm1hdHRlZEFkZHJlc3M7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmYWlsKCk7Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IE5vcm1hbGl6ZWRBZGRyZXNzKGFkZHJlc3NWYWx1ZSk7Cg==</text>
+      <register name="7" type="2">
+        <text encoding="base64">Z2xzOgo=</text>
       </register>
-      <register name="9" type="4">
-        <text>OkHttpClient clie)
-}</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBmYWlsKCk7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>geolo</last-search>
+      <last-search encoding="base64">XDw7XD4=</last-search>
       <last-offset />
-      <last-pattern>geolo</last-pattern>
+      <last-pattern encoding="base64">XDw7XD4=</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1008,7 +1013,6 @@
     </search>
     <history>
       <history-search>
-        <entry>web</entry>
         <entry>conf</entry>
         <entry>conflict</entry>
         <entry>sour</entry>
@@ -1028,6 +1032,7 @@
         <entry>failsafe</entry>
         <entry>pri</entry>
         <entry>geolo</entry>
+        <entry encoding="base64">XDw7XD4=</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
