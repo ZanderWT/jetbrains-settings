@@ -132,6 +132,13 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/web/GlsClientTest.java" timestamp="1532035880855">
+        <mark key="'" line="8" column="0" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="46" />
+        <mark key="^" line="14" column="3" />
+        <mark key="." line="8" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/common/WithId.java" timestamp="1531155429542">
         <mark key="[" line="7" column="13" />
         <mark key="]" line="7" column="49" />
@@ -453,9 +460,9 @@
         <mark key="." line="13" column="14" />
         <mark key="^" line="13" column="14" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GlsAddressNormalizerTest.java" timestamp="1532033095316">
-        <mark key="[" line="25" column="4" />
-        <mark key="]" line="25" column="23" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GlsAddressNormalizerTest.java" timestamp="1532035874451">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="46" />
         <mark key="." line="25" column="23" />
         <mark key="^" line="25" column="23" />
       </file>
@@ -785,7 +792,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="108" column="38" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" />
       <jump line="15" column="40" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" />
       <jump line="41" column="35" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" />
       <jump line="107" column="63" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" />
@@ -885,6 +891,7 @@
       <jump line="19" column="56" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" />
       <jump line="23" column="43" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" />
       <jump line="14" column="0" filename="$USER_HOME$/cp-projects/lead-generation/config/test.yml" />
+      <jump line="8" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/web/GlsClientTest.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -953,10 +960,10 @@
         <text>GeolocationAddressNormalizer</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDw7XD4=</text>
+        <text>str</text>
       </register>
-      <register name="0" type="4">
-        <text>api.geocode(rawAddress).execute()</text>
+      <register name="0" type="2">
+        <text encoding="base64">QFJ1bldpdGgoTW9ja2l0b0pVbml0UnVubmVyLlN0cmljdFN0dWJzLmNsYXNzKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">cHVibGljIGNsYXNzIEdlb2xvY2F0aW9uQWRkcmVzc05vcm1hbGl6ZXJUZXN0IHsKICAgIEBNb2NrKGFuc3dlciA9IEFuc3dlcnMuUkVUVVJOU19ERUVQX1NUVUJTKQogICAgR2VvbG9jYXRpb25BcGkgYXBpOwoKICAgIEBJbmplY3RNb2NrcwogICAgR2VvY29kaW5nQ2xpZW50IGdlb1NlcnZpY2U7CgogICAgQEluamVjdE1vY2tzCiAgICBHZW9sb2NhdGlvbkFkZHJlc3NOb3JtYWxpemVyIG5vcm1pZTsKCiAgICBAVGVzdAogICAgQFNuZWFreVRocm93cwogICAgcHVibGljIHZvaWQgdGVzdEJ1aWxkUmF3QWRkcmVzc05vRmxvb3JOb1Jvb20oKSB7CiAgICAgICAgQWRkcmVzcyBhZGRyZXNzID0gbmV3IEFkZHJlc3MoSW1tdXRhYmxlTWFwLm9mKEFkZHJlc3NDb21wb25lbnQuU1RSRUVUX0FERFJFU1MsICI2IHJhaW5leSBsYW5lIiwKICAgICAgICAgICAgICAgIEFkZHJlc3NDb21wb25lbnQuTE9DQUxJVFksICJXZXN0cG9ydCIsCiAgICAgICAgICAgICAgICBBZGRyZXNzQ29tcG9uZW50LlBPU1RBTF9DT0RFLCAiMDY4ODAiLAogICAgICAgICAgICAgICAgQWRkcmVzc0NvbXBvbmVudC5BRE1JTklTVFJBVElWRV9BUkVBX0xFVkVMXzEsICJDVCIKICAgICAgICApKTsKICAgICAgICBTdHJpbmcgYWN0dWFsID0gbm9ybWllLmJ1aWxkUmF3QWRkcmVzcyhhZGRyZXNzKTsKICAgICAgICBBc3NlcnRpb25zLmFzc2VydFRoYXQoYWN0dWFsKQogICAgICAgICAgICAgICAgLmNvbnRhaW5zKCI2IHJhaW5leSBsYW5lIikKICAgICAgICAgICAgICAgIC5jb250YWlucygiV2VzdHBvcnQiKQogICAgICAgICAgICAgICAgLmNvbnRhaW5zKCIwNjg4MCIpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoIkNUIikKICAgICAgICAgICAgICAgIC5kb2VzTm90Q29udGFpbigiZmxvb3IiKQogICAgICAgICAgICAgICAgLmRvZXNOb3RDb250YWluKCJyb29tIik7CgogICAgfQoKICAgIEBUZXN0CiAgICBAU25lYWt5VGhyb3dzCiAgICBwdWJsaWMgdm9pZCB0ZXN0QnVpbGRSYXdBZGRyZXNzWWVzRmxvb3JZZXNSb29tKCkgewogICAgICAgIEFkZHJlc3MgYWRkcmVzcyA9IG5ldyBBZGRyZXNzKEltbXV0YWJsZU1hcC48QWRkcmVzc0NvbXBvbmVudCwgU3RyaW5nPmJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLnB1dChBZGRyZXNzQ29tcG9uZW50LlNUUkVFVF9BRERSRVNTLCAiNiByYWluZXkgbGFuZSIpCiAgICAgICAgICAgICAgICAucHV0KEFkZHJlc3NDb21wb25lbnQuRkxPT1IsICIyIikKICAgICAgICAgICAgICAgIC5wdXQoQWRkcmVzc0NvbXBvbmVudC5ST09NLCAiMjA0IikKICAgICAgICAgICAgICAgIC5wdXQoQWRkcmVzc0NvbXBvbmVudC5MT0NBTElUWSwgIldlc3Rwb3J0IikKICAgICAgICAgICAgICAgIC5wdXQoQWRkcmVzc0NvbXBvbmVudC5QT1NUQUxfQ09ERSwgIjA2ODgwIikKICAgICAgICAgICAgICAgIC5wdXQoQWRkcmVzc0NvbXBvbmVudC5BRE1JTklTVFJBVElWRV9BUkVBX0xFVkVMXzEsICJDVCIpCiAgICAgICAgICAgICAgICAuYnVpbGQoKSk7CiAgICAgICAgU3RyaW5nIGFjdHVhbCA9IG5vcm1pZS5idWlsZFJhd0FkZHJlc3MoYWRkcmVzcyk7CiAgICAgICAgQXNzZXJ0aW9ucy5hc3NlcnRUaGF0KGFjdHVhbCkKICAgICAgICAgICAgICAgIC5jb250YWlucygiNiByYWluZXkgbGFuZSIpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoIldlc3Rwb3J0IikKICAgICAgICAgICAgICAgIC5jb250YWlucygiMDY4ODAiKQogICAgICAgICAgICAgICAgLmNvbnRhaW5zKCJDVCIpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoImZsb29yIikKICAgICAgICAgICAgICAgIC5jb250YWlucygicm9vbSIpOwoKICAgIH0KfQo=</text>
@@ -1003,9 +1010,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDw7XD4=</last-search>
+      <last-search>str</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDw7XD4=</last-pattern>
+      <last-pattern>str</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1025,7 +1032,6 @@
         <entry>builder</entry>
         <entry>toso</entry>
         <entry>websiteurls</entry>
-        <entry>str</entry>
         <entry>an a</entry>
         <entry>cre</entry>
         <entry>surefire</entry>
@@ -1033,6 +1039,7 @@
         <entry>pri</entry>
         <entry>geolo</entry>
         <entry encoding="base64">XDw7XD4=</entry>
+        <entry>str</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
