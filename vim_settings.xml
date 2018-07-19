@@ -157,11 +157,12 @@
         <mark key="^" line="24" column="23" />
         <mark key="." line="24" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" timestamp="1531500602404">
-        <mark key="'" line="12" column="0" />
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="53" />
-        <mark key="." line="14" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" timestamp="1532019183191">
+        <mark key="'" line="14" column="4" />
+        <mark key="[" line="20" column="136" />
+        <mark key="]" line="23" column="30" />
+        <mark key="." line="23" column="30" />
+        <mark key="^" line="23" column="30" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/logic/AddressNormalizer.java" timestamp="1529337559930">
         <mark key="[" line="8" column="72" />
@@ -243,6 +244,9 @@
         <mark key="]" line="66" column="5" />
         <mark key="." line="66" column="5" />
         <mark key="^" line="66" column="5" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1532019188916">
+        <mark key="'" line="218" column="16" />
       </file>
       <file name="$USER_HOME$/cp-projects/venuegen-spike/code/api/src/main/java/com/classpass/venuegen/annotations/NonNullByDefault.java" timestamp="1525984212640">
         <mark key="[" line="10" column="4" />
@@ -759,8 +763,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="4" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ScraperVenueSource.java" />
-      <jump line="3" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/JobConfigurationEvent.java" />
       <jump line="3" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/GoogleJobConfiguration.java" />
       <jump line="15" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobCreateRequest.java" />
       <jump line="4" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobFinishRequest.java" />
@@ -859,6 +861,8 @@
       <jump line="15" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/AdminVenueSource.java" />
       <jump line="10" column="6" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueSource.java" />
       <jump line="10" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/AdminVenueSource.java" />
+      <jump line="14" column="4" filename="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" />
+      <jump line="218" column="16" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -927,7 +931,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>cre</text>
+        <text>failsafe</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTG9jYWxEYXRlVGltZSBjcmVhdGVkT247Cg==</text>
@@ -977,9 +981,9 @@
       </register>
     </registers>
     <search>
-      <last-search>cre</last-search>
+      <last-search>failsafe</last-search>
       <last-offset />
-      <last-pattern>cre</last-pattern>
+      <last-pattern>failsafe</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -987,8 +991,6 @@
     </search>
     <history>
       <history-search>
-        <entry>jsonig</entry>
-        <entry encoding="base64">VmVudWVEYXRhQ29uZmxpY3Q8XChcd1wrXCk+</entry>
         <entry>VenueSource</entry>
         <entry>&quot; + &quot;</entry>
         <entry>web</entry>
@@ -1007,6 +1009,8 @@
         <entry>str</entry>
         <entry>an a</entry>
         <entry>cre</entry>
+        <entry>surefire</entry>
+        <entry>failsafe</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
