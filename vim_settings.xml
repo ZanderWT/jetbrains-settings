@@ -259,12 +259,12 @@
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" timestamp="1531782021694">
-        <mark key="'" line="36" column="35" />
-        <mark key="[" line="36" column="13" />
-        <mark key="]" line="36" column="13" />
-        <mark key="." line="36" column="13" />
-        <mark key="^" line="107" column="27" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" timestamp="1532120562910">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="23" column="24" />
+        <mark key="]" line="23" column="49" />
+        <mark key="^" line="23" column="49" />
+        <mark key="." line="23" column="49" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/VenueDao.sql.stg" timestamp="1530033919454">
         <mark key="[" line="8" column="83" />
@@ -662,9 +662,6 @@
         <mark key="." line="30" column="3" />
         <mark key="^" line="30" column="3" />
       </file>
-      <file name="/Dummy.txt" timestamp="1531932049388">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationApi.java" timestamp="1529952686010">
         <mark key="'" line="26" column="36" />
         <mark key="[" line="13" column="7" />
@@ -762,7 +759,7 @@
         <mark key="." line="47" column="38" />
         <mark key="^" line="28" column="75" />
       </file>
-      <file name="/fragment.java" timestamp="1532037908133">
+      <file name="/fragment.java" timestamp="1532121481989">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -788,7 +785,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ConflictBearingVenue.java" />
       <jump line="92" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" />
       <jump line="0" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" />
       <jump line="12" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" />
@@ -888,6 +884,7 @@
       <jump line="26" column="53" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/web/GlsClient.java" />
       <jump line="21" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodingException.java" />
       <jump line="14" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodingException.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -953,7 +950,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>, String shortCountryCode</text>
+        <text>venueWriter.writeRawVenueData(rawVenue)</text>
       </register>
       <register name="/" type="4">
         <text>shor</text>
@@ -962,7 +959,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHRocm93IG5ldyBHZW9jb2RpbmdFeGNlcHRpb24oZXhjZXB0aW9uTXNnKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -974,8 +971,13 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIFN0cmluZyBjb250ZXh0aWZ5KFN0cmluZyBhZGRyZXNzLCBTdHJpbmcgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAiR2VvY29kaW5nIGFkZHJlc3MgJyIgKyBhZGRyZXNzICsgIicsICIKICAgICAgICAgICAgICAgICsgImZhaWxlZCB3aXRoIG1lc3NhZ2U6ICIgKyBtZXNzYWdlOwogICAgfQo=</text>
+      <register name="2" type="8">
+        <text>+
++
++
++
++
++</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -984,25 +986,25 @@
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBHZW9jb2RpbmdFeGNlcHRpb24oU3RyaW5nIGFkZHJlc3MsIFN0cmluZyBtZXNzYWdlKSB7CiAgICAgICAgc3VwZXIoY29udGV4dGlmeShhZGRyZXNzLCBtZXNzYWdlKSk7CiAgICB9CgogICAgcHVibGljIEdlb2NvZGluZ0V4Y2VwdGlvbihTdHJpbmcgYWRkcmVzcywgU3RyaW5nIG1lc3NhZ2UsIFRocm93YWJsZSBjYXVzZSkgewogICAgICAgIHN1cGVyKGNvbnRleHRpZnkoYWRkcmVzcywgbWVzc2FnZSksIGNhdXNlKTsKICAgIH0K</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIFN0cmluZyBjb250ZXh0aWZ5KFN0cmluZyBhZGRyZXNzLCBTdHJpbmcgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAiR2VvY29kaW5nIGFkZHJlc3MgJyIgKyBhZGRyZXNzICsgIicsICIKICAgICAgICAgICAgICAgICsgImZhaWxlZCB3aXRoIG1lc3NhZ2U6ICIgKyBtZXNzYWdlOwogICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBHZW9jb2RpbmdFeGNlcHRpb24oU3RyaW5nIGFkZHJlc3MsIFN0cmluZyBtZXNzYWdlKSB7Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN0cmluZyBleGNlcHRpb25Nc2cgPSBTdHJpbmcuZm9ybWF0KCJHTFMgcmV0dXJuZWQgIikK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHB1YmxpYyBHZW9jb2RpbmdFeGNlcHRpb24oU3RyaW5nIGFkZHJlc3MsIFN0cmluZyBtZXNzYWdlKSB7CiAgICAgICAgc3VwZXIoY29udGV4dGlmeShhZGRyZXNzLCBtZXNzYWdlKSk7CiAgICB9CgogICAgcHVibGljIEdlb2NvZGluZ0V4Y2VwdGlvbihTdHJpbmcgYWRkcmVzcywgU3RyaW5nIG1lc3NhZ2UsIFRocm93YWJsZSBjYXVzZSkgewogICAgICAgIHN1cGVyKGNvbnRleHRpZnkoYWRkcmVzcywgbWVzc2FnZSksIGNhdXNlKTsKICAgIH0K</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHB1YmxpYyBHZW9jb2RpbmdFeGNlcHRpb24oU3RyaW5nIGFkZHJlc3MsIFN0cmluZyBtZXNzYWdlKSB7Cg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKHJlc3BvbnNlLmNjKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN0cmluZyBleGNlcHRpb25Nc2cgPSBTdHJpbmcuZm9ybWF0KCJHTFMgcmV0dXJuZWQgIikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3RyaW5nIGV4Y2VwdGlvbk1zZyA9IFN0cmluZy5mb3JtYXQoIkZhaWxlZCB0byBnZW9jb2RlIGFkZHJlc3MgJyVzJy4gR0xTIGFwaSByZXR1cm5lZCBIVFRQICVkOiAlcyIsCiAgICAgICAgICAgICAgICAgICAgcmF3QWRkcmVzcywgcmVzcG9uc2UuY29kZSgpLCByZXNwb25zZS5lcnJvckJvZHkoKS5zdHJpbmcoKSk7CiAgICAgICAgICAgIHRocm93IG5ldyBHZW9jb2RpbmdFeGNlcHRpb24oZXhjZXB0aW9uTXNnKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -1042,7 +1044,6 @@
         <entry>3</entry>
         <entry>91</entry>
         <entry>q</entry>
-        <entry>w</entry>
         <entry>Ack @Path</entry>
         <entry>bnext</entry>
         <entry>action PreviousOccurence</entry>
@@ -1058,6 +1059,7 @@
         <entry>s;&quot; + &quot;;;g</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ReformatCode</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
