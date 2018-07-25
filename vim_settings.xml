@@ -109,6 +109,11 @@
         <mark key="." line="94" column="0" />
         <mark key="^" line="96" column="7" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/schedule.py" timestamp="1532553776749">
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1531776170403">
         <mark key="'" line="14" column="10" />
         <mark key="[" line="19" column="18" />
@@ -791,10 +796,10 @@
         <mark key="^" line="13" column="53" />
         <mark key="." line="13" column="53" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" timestamp="1532552705163">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" timestamp="1532553442431">
         <mark key="'" line="138" column="34" />
-        <mark key="[" line="150" column="31" />
-        <mark key="]" line="150" column="33" />
+        <mark key="[" line="120" column="15" />
+        <mark key="]" line="120" column="56" />
         <mark key="." line="150" column="33" />
         <mark key="^" line="150" column="33" />
       </file>
@@ -812,7 +817,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="3" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="94" column="59" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="95" column="53" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="103" column="32" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
@@ -912,6 +916,7 @@
       <jump line="138" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="301" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" />
       <jump line="55" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/schedule.py" />
+      <jump line="52" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/schedule.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -983,10 +988,10 @@
         <text>turn_on</text>
       </register>
       <register name="0" type="4">
-        <text>sample_class.class_id</text>
+        <text>/api/{venue_id}/managespot/schedule/update</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGNvbnZlcnRfZGlzYWJsZWRfY2xhc3NfdG9fc2NoZWR1bGVfbGV2ZWxfZGlzYWJsZShjbHMsIGNsYXNzX2lkKToKICAgICAgICBxID0gJycnCiAgICAgICAgICAgIElOU0VSVCBJTlRPIHBhc3Nwb3J0X3NjaGVkdWxlc19ydWxlcwogICAgICAgICAgICAoY2xhc3NfaWQsIHZlbnVlX2lkLCBkYXlfb2Zfd2Vlaywgc3RhcnRfdGltZSwgY2xhc3NwYXNzX2Rpc2FibGVkKQogICAgICAgICAgICBTRUxFQ1QKICAgICAgICAgICAgICAgIGNjLmNsYXNzX2lkLAogICAgICAgICAgICAgICAgY2MudmVudWVfaWQsCiAgICAgICAgICAgICAgICBHUk9VUF9DT05DQVQoRElTVElOQ1QgREFZTkFNRShjY3Quc3RhcnRfZGF0ZSkgU0VQQVJBVE9SICcsJyksCiAgICAgICAgICAgICAgICBjY3Quc3RhcnRfdGltZSwKICAgICAgICAgICAgICAgIDEKICAgICAgICAgICAgRlJPTQogICAgICAgICAgICAgICAgY2xhc3N0aXZpdHlfY2xhc3NlcyBjYyBKT0lOIHBhc3Nwb3J0X2NsYXNzZXMgcGMgT04gY2MuY2xhc3NfaWQgPSBwYy5jbGFzc19pZAogICAgICAgICAgICAgICAgSk9JTiBjbGFzc3Rpdml0eV9jbGFzc2VzX3RpbWV0YWJsZSBjY3QgT04gY2N0LmNsYXNzX2lkID0gY2MuY2xhc3NfaWQKICAgICAgICAgICAgICAgIExFRlQgSk9JTiBwYXNzcG9ydF9zY2hlZHVsZXMgcHMgT04gcHMuc2NoZWR1bGVfaWQgPSBjY3QuaWQKICAgICAgICAgICAgV0hFUkUKICAgICAgICAgICAgICAgIGNjLmNsYXNzX2lkID0gJShjbGFzc19pZClzCiAgICAgICAgICAgIEdST1VQIEJZCiAgICAgICAgICAgICAgICBjY3Quc3RhcnRfdGltZQogICAgICAgICAgICBPTiBEVVBMSUNBVEUgS0VZIFVQREFURSBjbGFzc3Bhc3NfZGlzYWJsZWQgPSAxOwogICAgICAgICcnJwoKICAgICAgICB3aXRoIGNvbm5lY3Rpb24uY3Vyc29yKCkgYXMgYzoKICAgICAgICAgICAgYy5leGVjdXRlKHEsIHsnY2xhc3NfaWQnOiBjbGFzc19pZH0pCgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -999,31 +1004,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIFVwZGF0ZSBwYXNzcG9ydF9zY2hlZHVsZXNfcnVsZXMKICAgICAgICAKICAgICAgICBTY2hlZHVsZVByaWNlUnVsZXMuY29udmVydF9kaXNhYmxlZF9jbGFzc190b19zY2hlZHVsZV9sZXZlbF9kaXNhYmxlKGNsYXNzX2lkPXNlbGYucGspCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIFVwZGF0ZSBwYXNzcG9ydF9zY2hlZHVsZXNfcnVsZXMKICAgICAgICAKICAgICAgICBTY2hlZHVsZVByaWNlUnVsZXMuY29udmVydF9kaXNhYmxlZF9jbGFzc190b19zY2hlZHVsZV9sZXZlbF9kaXNhYmxlKGNsYXNzX2lkPXNlbGYucGspCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBtYXAobGFtYmRhIHI6IHNlbGYuYXNzZXJ0RXF1YWxzKHIsIDApLCByZXN1bHQpCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBmb3IgCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBtYXAobGFtYmRhIHI6IHNlbGYuYXNzZXJ0RXF1YWxzKHIsIDApLCByZXN1bHQpCg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHQubWFwCiAgICAgICAgaXNfZGlzYWJsZWQgPSByZXN1bHRbMF0KICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGlzX2Rpc2FibGVkLCAwKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICAgICAgIyBVcGRhdGUgcGFzc3BvcnRfc2NoZWR1bGVzX3J1bGVzCiAgICAgICAgU2NoZWR1bGVQcmljZVJ1bGVzLmNvbnZlcnRfZGlzYWJsZWRfY2xhc3NfdG9fc2NoZWR1bGVfbGV2ZWxfZGlzYWJsZShjbGFzc19pZD1zZWxmLnBrKQo=</text>
+        <text encoding="base64">ICAgICAgICByZXN1bHQubWFwCiAgICAgICAgaXNfZGlzYWJsZWQgPSByZXN1bHRbMF0KICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGlzX2Rpc2FibGVkLCAwKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiByZXN1bHQ6Cg==</text>
+        <text encoding="base64">CiAgICAgICAgIyBVcGRhdGUgcGFzc3BvcnRfc2NoZWR1bGVzX3J1bGVzCiAgICAgICAgU2NoZWR1bGVQcmljZVJ1bGVzLmNvbnZlcnRfZGlzYWJsZWRfY2xhc3NfdG9fc2NoZWR1bGVfbGV2ZWxfZGlzYWJsZShjbGFzc19pZD1zZWxmLnBrKQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
