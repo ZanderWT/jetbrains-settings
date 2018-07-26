@@ -438,12 +438,12 @@
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1531174394926">
-        <mark key="'" line="30" column="32" />
-        <mark key="[" line="29" column="120" />
-        <mark key="]" line="30" column="19" />
-        <mark key="." line="30" column="19" />
-        <mark key="^" line="30" column="19" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1532623085645">
+        <mark key="'" line="62" column="20" />
+        <mark key="[" line="35" column="6" />
+        <mark key="]" line="35" column="6" />
+        <mark key="." line="35" column="6" />
+        <mark key="^" line="33" column="5" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperCountryResource.java" timestamp="1531347300624">
         <mark key="[" line="33" column="34" />
@@ -804,8 +804,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
-      <jump line="21" column="30" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ConflictBearingVenue.java" />
       <jump line="46" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
       <jump line="10" column="15" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ConflictBearingVenue.java" />
       <jump line="45" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
@@ -904,6 +902,8 @@
       <jump line="84" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
       <jump line="83" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
+      <jump line="32" column="14" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="61" column="20" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -972,13 +972,13 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>metad</text>
+        <text>asdf</text>
       </register>
       <register name="0" type="4">
         <text>alter table venue_parameters_log alter column is_complete set</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIGJvb2xlYW4gaXNDb21wbGV0ZSgpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -990,25 +990,31 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICAKICAgIH0=</text>
+      <register name="2" type="8">
+        <text encoding="base64">IAogCiA=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cgYWx0ZXIgY29sdW1uIGlzX2NvbXBsZXRlIHNldCBkZWZhdWx0IGZhbHNlOwo=</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIGJvb2xlYW4gaXNDb21wbGV0ZSgpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">YWx0ZXIgdGEK</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICAKICAgIH0=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">YWx0ZXIgdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cgYWx0ZXIgY29sdW1uIGlzX2NvbXBsZXRlIHNldCBkZWZhdWx0IGZhbHNlOwo=</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">YWx0ZXIgdGEK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICsK</text>
       </register>
-      <register name="7" type="8">
+      <register name="9" type="8">
         <text>+
 +
 +
@@ -1016,20 +1022,14 @@
 +
 +</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIFN0cmluZyBjb250ZXh0aWZ5KFN0cmluZyBhZGRyZXNzLCBTdHJpbmcgbWVzc2FnZSkgewogICAgICAgIHJldHVybiAiR2VvY29kaW5nIGFkZHJlc3MgJyIgKyBhZGRyZXNzICsgIicsICIKICAgICAgICAgICAgICAgICsgImZhaWxlZCB3aXRoIG1lc3NhZ2U6ICIgKyBtZXNzYWdlOwogICAgfQo=</text>
-      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>metad</last-search>
+      <last-search>asdf</last-search>
       <last-offset />
-      <last-pattern>metad</last-pattern>
+      <last-pattern>asdf</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1037,8 +1037,6 @@
     </search>
     <history>
       <history-search>
-        <entry>failsafe</entry>
-        <entry>pri</entry>
         <entry>geolo</entry>
         <entry encoding="base64">XDw7XD4=</entry>
         <entry>str</entry>
@@ -1057,6 +1055,8 @@
         <entry>shor</entry>
         <entry>set</entry>
         <entry>metad</entry>
+        <entry encoding="base64">XDx2ZW51ZV9wYXJhbWV0ZXJzX2xvZ1w+</entry>
+        <entry>asdf</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
@@ -1075,10 +1075,10 @@
         <entry encoding="base64">JzwsJz5zO1ZlbnVlRGF0YUNvbmZsaWN0PFwoXHdcK1wpPjtNdWx0aW1hcDxcMSwgVmVudWVTb3VyY2U+O2c=</entry>
         <entry encoding="base64">JzwsJz5zO1ZlbnVlU291cmNlO0ludGVnZXI7Zw==</entry>
         <entry>s;&quot; + &quot;;;g</entry>
-        <entry>action ReformatCode</entry>
         <entry>w</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>bnext</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
