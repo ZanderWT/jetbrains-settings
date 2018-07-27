@@ -158,11 +158,11 @@
         <mark key="^" line="24" column="23" />
         <mark key="." line="24" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" timestamp="1532031502012">
-        <mark key="'" line="18" column="4" />
-        <mark key="[" line="28" column="78" />
-        <mark key="]" line="28" column="78" />
-        <mark key="." line="28" column="78" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" timestamp="1532728083179">
+        <mark key="'" line="28" column="78" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="46" />
+        <mark key="." line="0" column="0" />
         <mark key="^" line="28" column="80" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/logic/AddressNormalizer.java" timestamp="1529337559930">
@@ -579,6 +579,9 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" timestamp="1532727698162">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ResolvedVenue.java" timestamp="1531329318507">
         <mark key="'" line="18" column="0" />
         <mark key="[" line="13" column="19" />
@@ -753,12 +756,12 @@
         <mark key="^" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/config/local.yml" timestamp="1531500601493">
+      <file name="$USER_HOME$/cp-projects/lead-generation/config/local.yml" timestamp="1532728080744">
         <mark key="'" line="17" column="0" />
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="53" />
-        <mark key="." line="14" column="33" />
-        <mark key="^" line="14" column="33" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="46" />
+        <mark key="." line="0" column="44" />
+        <mark key="^" line="0" column="44" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00007_add_venue_is_complete_column.sql" timestamp="1532559618165">
         <mark key="[" line="0" column="0" />
@@ -815,8 +818,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="15" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ConflictBearingVenue.java" />
-      <jump line="45" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="55" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="37" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="30" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
@@ -915,6 +916,8 @@
       <jump line="32" column="14" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="61" column="20" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
+      <jump line="28" column="78" filename="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -983,13 +986,13 @@
         <text>isBlank</text>
       </register>
       <register name="/" type="4">
-        <text>cleanand</text>
+        <text>place</text>
       </register>
-      <register name="0" type="4">
-        <text>alter table venue_parameters_log alter column is_complete set</text>
+      <register name="0" type="2">
+        <text encoding="base64">Z29vZ2xlUGxhY2VzQXBpS2V5OiAke0NQX0dPT0dMRV9QTEFDRV9LRVk6LSIifQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KG51bGwpOwo=</text>
+        <text encoding="base64">Z29vZ2xlUGxhY2VzQXBpS2V5OiAke0NQX0dPT0dMRV9QTEFDRV9LRVl9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1001,41 +1004,41 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KG51bGwpOwo=</text>
       </register>
       <register name="3" type="8">
-        <text encoding="base64">IAogCiA=</text>
+        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
+      <register name="4" type="8">
+        <text encoding="base64">IAogCiA=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIGJvb2xlYW4gaXNDb21wbGV0ZSgpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ICAgICAgICAKICAgIH0=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">YWx0ZXIgdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cgYWx0ZXIgY29sdW1uIGlzX2NvbXBsZXRlIHNldCBkZWZhdWx0IGZhbHNlOwo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">YWx0ZXIgdGEK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>cleanand</last-search>
+      <last-search>place</last-search>
       <last-offset />
-      <last-pattern>cleanand</last-pattern>
+      <last-pattern>place</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1043,7 +1046,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDw7XD4=</entry>
         <entry>str</entry>
         <entry>api\.</entry>
         <entry>api</entry>
@@ -1063,6 +1065,7 @@
         <entry encoding="base64">XDx2ZW51ZV9wYXJhbWV0ZXJzX2xvZ1w+</entry>
         <entry>asdf</entry>
         <entry>cleanand</entry>
+        <entry>place</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
