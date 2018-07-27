@@ -103,6 +103,11 @@
         <mark key="." line="28" column="8" />
         <mark key="^" line="4" column="8" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/misc.py" timestamp="1532717030356">
+        <mark key="'" line="63" column="12" />
+        <mark key="[" line="71" column="11" />
+        <mark key="]" line="71" column="27" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1532554802300">
         <mark key="'" line="81" column="7" />
         <mark key="[" line="73" column="73" />
@@ -495,12 +500,12 @@
         <mark key="." line="26" column="80" />
         <mark key="^" line="26" column="80" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" timestamp="1532551911103">
-        <mark key="'" line="301" column="50" />
-        <mark key="[" line="301" column="61" />
-        <mark key="]" line="301" column="12" />
-        <mark key="." line="301" column="12" />
-        <mark key="^" line="301" column="12" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" timestamp="1532716884416">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="328" column="17" />
+        <mark key="]" line="328" column="16" />
+        <mark key="." line="328" column="16" />
+        <mark key="^" line="328" column="16" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Genre.java" timestamp="1531244361273">
         <mark key="'" line="2" column="7" />
@@ -818,11 +823,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="95" column="53" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="103" column="32" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="104" column="54" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="106" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="109" column="59" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="108" column="39" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="96" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="11" column="3" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/AdminVenueSource.java" />
@@ -918,6 +918,11 @@
       <jump line="52" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/schedule.py" />
       <jump line="81" column="7" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="144" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
+      <jump line="328" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" />
+      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/misc.py" />
+      <jump line="22" column="48" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/misc.py" />
+      <jump line="63" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/misc.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -986,10 +991,10 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>turn_on</text>
+        <text>usermanagespot</text>
       </register>
       <register name="0" type="4">
-        <text>/api/{venue_id}/managespot/schedule/update</text>
+        <text>UserManageSpotLog</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1032,13 +1037,13 @@
         <text encoding="base64">ICAgICAgICByZXN1bHQubWFwCiAgICAgICAgaXNfZGlzYWJsZWQgPSByZXN1bHRbMF0KICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGlzX2Rpc2FibGVkLCAwKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>144</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>turn_on</last-search>
+      <last-search>usermanagespot</last-search>
       <last-offset />
-      <last-pattern>turn_on</last-pattern>
+      <last-pattern>usermanagespot</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1046,8 +1051,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxNZWRpYVR5cGVcPg==</entry>
-        <entry>.bo</entry>
         <entry>ret</entry>
         <entry encoding="base64">XDxyZXNwb25zZVw+</entry>
         <entry>when</entry>
@@ -1066,6 +1069,8 @@
         <entry>request</entry>
         <entry>tab</entry>
         <entry>turn_on</entry>
+        <entry>misc_dal</entry>
+        <entry>usermanagespot</entry>
       </history-search>
       <history-cmd>
         <entry>Ack @Path</entry>
@@ -1082,12 +1087,12 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>w</entry>
         <entry>197</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ReformatCode</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>1</entry>
         <entry>74</entry>
         <entry>144</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
