@@ -15,8 +15,8 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1531521098136">
-        <mark key="'" line="47" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1532732405701">
+        <mark key="'" line="0" column="0" />
         <mark key="[" line="64" column="56" />
         <mark key="]" line="65" column="19" />
         <mark key="." line="65" column="19" />
@@ -818,11 +818,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="36" column="41" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="40" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="38" column="45" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="56" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="18" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" />
       <jump line="13" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ScraperVenueSource.java" />
       <jump line="41" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ScraperVenueSource.java" />
       <jump line="27" column="54" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
@@ -918,6 +913,11 @@
       <jump line="88" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="94" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="14" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="14" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/RawVenue.java" />
+      <jump line="215" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="58" column="23" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="126" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -986,7 +986,7 @@
         <text>isBlank</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx2ZW51ZV9zb3VyY2VfaWRcPg==</text>
+        <text>updatevenue</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Z29vZ2xlUGxhY2VzQXBpS2V5OiAke0NQX0dPT0dMRV9QTEFDRV9LRVk6LSIifQo=</text>
@@ -1036,9 +1036,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx2ZW51ZV9zb3VyY2VfaWRcPg==</last-search>
+      <last-search>updatevenue</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx2ZW51ZV9zb3VyY2VfaWRcPg==</last-pattern>
+      <last-pattern>updatevenue</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1046,8 +1046,6 @@
     </search>
     <history>
       <history-search>
-        <entry>api</entry>
-        <entry encoding="base64">XDxnbHNDbGllbnRcPg==</entry>
         <entry>exe</entry>
         <entry encoding="base64">XDxub3JtaWVcPg==</entry>
         <entry>suc</entry>
@@ -1066,6 +1064,8 @@
         <entry>place</entry>
         <entry>source</entry>
         <entry encoding="base64">XDx2ZW51ZV9zb3VyY2VfaWRcPg==</entry>
+        <entry>createven</entry>
+        <entry>updatevenue</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
@@ -1102,7 +1102,7 @@
       <shortcut-conflict owner="ide">
         <text>pressed F9</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed O</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
