@@ -103,8 +103,8 @@
         <mark key="." line="28" column="8" />
         <mark key="^" line="4" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1531776170403">
-        <mark key="'" line="14" column="10" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" timestamp="1532728728987">
+        <mark key="'" line="14" column="4" />
         <mark key="[" line="19" column="18" />
         <mark key="]" line="19" column="26" />
         <mark key="." line="19" column="26" />
@@ -158,12 +158,12 @@
         <mark key="^" line="24" column="23" />
         <mark key="." line="24" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" timestamp="1532728083179">
+      <file name="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" timestamp="1532729109888">
         <mark key="'" line="28" column="78" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="46" />
-        <mark key="." line="0" column="0" />
-        <mark key="^" line="28" column="80" />
+        <mark key="[" line="0" column="44" />
+        <mark key="]" line="0" column="50" />
+        <mark key="." line="0" column="50" />
+        <mark key="^" line="0" column="50" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/logic/AddressNormalizer.java" timestamp="1529337559930">
         <mark key="[" line="8" column="72" />
@@ -756,12 +756,12 @@
         <mark key="^" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/config/local.yml" timestamp="1532728080744">
+      <file name="$USER_HOME$/cp-projects/lead-generation/config/local.yml" timestamp="1532729124871">
         <mark key="'" line="17" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="46" />
-        <mark key="." line="0" column="44" />
-        <mark key="^" line="0" column="44" />
+        <mark key="[" line="0" column="44" />
+        <mark key="]" line="0" column="50" />
+        <mark key="." line="0" column="50" />
+        <mark key="^" line="0" column="50" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00007_add_venue_is_complete_column.sql" timestamp="1532559618165">
         <mark key="[" line="0" column="0" />
@@ -818,9 +818,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="37" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
-      <jump line="30" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="36" column="41" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="40" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
       <jump line="38" column="45" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Venue.java" />
@@ -918,6 +915,9 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
       <jump line="28" column="78" filename="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" />
+      <jump line="88" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="94" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
+      <jump line="14" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -986,7 +986,7 @@
         <text>isBlank</text>
       </register>
       <register name="/" type="4">
-        <text>place</text>
+        <text encoding="base64">XDx2ZW51ZV9zb3VyY2VfaWRcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Z29vZ2xlUGxhY2VzQXBpS2V5OiAke0NQX0dPT0dMRV9QTEFDRV9LRVk6LSIifQo=</text>
@@ -1036,9 +1036,9 @@
       </register>
     </registers>
     <search>
-      <last-search>place</last-search>
+      <last-search encoding="base64">XDx2ZW51ZV9zb3VyY2VfaWRcPg==</last-search>
       <last-offset />
-      <last-pattern>place</last-pattern>
+      <last-pattern encoding="base64">XDx2ZW51ZV9zb3VyY2VfaWRcPg==</last-pattern>
       <last-replace />
       <last-substitute>&quot; + &quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1046,8 +1046,6 @@
     </search>
     <history>
       <history-search>
-        <entry>str</entry>
-        <entry>api\.</entry>
         <entry>api</entry>
         <entry encoding="base64">XDxnbHNDbGllbnRcPg==</entry>
         <entry>exe</entry>
@@ -1066,6 +1064,8 @@
         <entry>asdf</entry>
         <entry>cleanand</entry>
         <entry>place</entry>
+        <entry>source</entry>
+        <entry encoding="base64">XDx2ZW51ZV9zb3VyY2VfaWRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>167</entry>
