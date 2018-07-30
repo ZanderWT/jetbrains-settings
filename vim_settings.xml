@@ -15,10 +15,10 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1532979270092">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1532985920899">
         <mark key="'" line="143" column="0" />
-        <mark key="[" line="147" column="57" />
-        <mark key="]" line="147" column="80" />
+        <mark key="[" line="144" column="0" />
+        <mark key="]" line="149" column="28" />
         <mark key="." line="147" column="80" />
         <mark key="^" line="147" column="80" />
       </file>
@@ -797,12 +797,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" timestamp="1530120970265">
-        <mark key="'" line="12" column="23" />
-        <mark key="[" line="13" column="53" />
-        <mark key="]" line="13" column="53" />
-        <mark key="^" line="13" column="53" />
-        <mark key="." line="13" column="53" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" timestamp="1532985976477">
+        <mark key="'" line="22" column="0" />
+        <mark key="[" line="45" column="61" />
+        <mark key="]" line="45" column="61" />
+        <mark key="." line="45" column="61" />
+        <mark key="^" line="45" column="61" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/dao/package-info.java" timestamp="1528488318734">
         <mark key="[" line="0" column="0" />
@@ -818,7 +818,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="41" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
       <jump line="79" column="40" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
       <jump line="38" column="54" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
       <jump line="50" column="46" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
@@ -918,6 +917,7 @@
       <jump line="139" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="141" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="143" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="22" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -983,16 +983,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>venueMetadataFigureOuter.isVenueComplete(venueData)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxrZXlTZXRcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text>rawVenue.withAddress(rawVenue.getAddress().withId(addressId))</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIFZlbnVlRW50aXR5LmJ1aWxkZXIoKQogICAgICAgICAgICAgICAgICAgIC5pZCh2ZW51ZUlkKQogICAgICAgICAgICAgICAgICAgIC5ub3JtYWxpemVkQWRkcmVzcyhub3JtYWxpemVkQWRkcmVzcykKICAgICAgICAgICAgICAgICAgICAuaXNDb21wbGV0ZSh2ZW51ZU1ldGFkYXRhRmlndXJlT3V0ZXIuaXNWZW51ZUNvbXBsZXRlKHJhd1ZlbnVlKSkKICAgICAgICAgICAgICAgICAgICAudmVudWVEYXRhKHJhd1ZlbnVlLndpdGhBZGRyZXNzKHJhd1ZlbnVlLmdldEFkZHJlc3MoKS53aXRoSWQoYWRkcmVzc0lkKSkpCiAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIG5ldyBWZW51ZUVudGl0eSgKICAgICAgICAgICAgICAgICAgICB2ZW51ZUlkLCBub3JtYWxpemVkQWRkcmVzcywgcmF3VmVudWUud2l0aEFkZHJlc3MocmF3VmVudWUuZ2V0QWRkcmVzcygpLndpdGhJZChhZGRyZXNzSWQpKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IFZlbnVlRW50aXR5LmJ1aWxkZXIoKSh2ZW51ZUlkLCBub3JtYWxpemVkQWRkcmVzcywgdmVudWVEYXRhKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1005,31 +1005,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdHMuYWRkKG5ldyBWZW51ZUVudGl0eSh2ZW51ZS5nZXRJZCgpLCB2ZW51ZS5nZXROb3JtYWxpemVkQWRkcmVzcygpLCB2ZW51ZURhdGEpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIG5ldyBWZW51ZUVudGl0eSgKICAgICAgICAgICAgICAgICAgICB2ZW51ZUlkLCBub3JtYWxpemVkQWRkcmVzcywgcmF3VmVudWUud2l0aEFkZHJlc3MocmF3VmVudWUuZ2V0QWRkcmVzcygpLndpdGhJZChhZGRyZXNzSWQpKSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdHMuYWRkKG5ldyBWZW51ZUVudGl0eSh2ZW51ZS5nZXRJZCgpLCB2ZW51ZS5nZXROb3JtYWxpemVkQWRkcmVzcygpLCB2ZW51ZURhdGEpKTsK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogVHJ1ZSBpZiB0aGlzIHZlbnVlIGhhcyBkYXRhIGluIGFsbCBpdHMgcmVxdWlyZWQgZmllbGRzCiAgICAgKi8KICAgIHByaXZhdGUgZmluYWwgYm9vbGVhbiBpc0NvbXBsZXRlOwogICAgLyoqCiAgICAgKiBUcnVlIGlmIHRoaXMgcHJvc3BlY3RpdmUgdmVudWUgcXVhbGlmaWVzIGFzIGEgdmVudWUgd2Ugd2FudCB0byBzZWxsLgogICAgICovCiAgICBwcml2YXRlIGZpbmFsIGJvb2xlYW4gaXNRdWFsaWZpZWQ7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8qKgogICAgICogVHJ1ZSBpZiB0aGlzIHZlbnVlIGhhcyBkYXRhIGluIGFsbCBpdHMgcmVxdWlyZWQgZmllbGRzCiAgICAgKi8KICAgIHByaXZhdGUgZmluYWwgYm9vbGVhbiBpc0NvbXBsZXRlOwogICAgLyoqCiAgICAgKiBUcnVlIGlmIHRoaXMgcHJvc3BlY3RpdmUgdmVudWUgcXVhbGlmaWVzIGFzIGEgdmVudWUgd2Ugd2FudCB0byBzZWxsLgogICAgICovCiAgICBwcml2YXRlIGZpbmFsIGJvb2xlYW4gaXNRdWFsaWZpZWQ7Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">YXNzb2NpYXRlZCB3aXRoIGEgcmVjb3JkIGluIA==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Z29vZ2xlUGxhY2VzQXBpS2V5OiAke0NQX0dPT0dMRV9QTEFDRV9LRVl9Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmdVdGlscy5pc0VtcHR5KG51bGwpOwo=</text>
+        <text encoding="base64">Z29vZ2xlUGxhY2VzQXBpS2V5OiAke0NQX0dPT0dMRV9QTEFDRV9LRVl9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
