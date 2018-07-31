@@ -329,8 +329,8 @@
         <mark key="^" line="3" column="45" />
         <mark key="." line="3" column="45" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" timestamp="1532725709576">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" timestamp="1533078763821">
+        <mark key="'" line="57" column="15" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/common/src/main/java/com/classpass/common/package-info.java" timestamp="1528488425035">
         <mark key="[" line="1" column="29" />
@@ -585,9 +585,9 @@
         <mark key="^" line="28" column="36" />
         <mark key="." line="28" column="36" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/resource/HealthcheckResourceTest.java" timestamp="1528151512180">
-        <mark key="[" line="18" column="35" />
-        <mark key="]" line="18" column="50" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/resource/HealthcheckResourceTest.java" timestamp="1533078651853">
+        <mark key="[" line="16" column="31" />
+        <mark key="]" line="16" column="53" />
         <mark key="." line="18" column="50" />
         <mark key="^" line="18" column="50" />
       </file>
@@ -691,12 +691,12 @@
         <mark key="." line="14" column="66" />
         <mark key="^" line="14" column="66" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/config/test.yml" timestamp="1532031504348">
+      <file name="$USER_HOME$/cp-projects/lead-generation/config/test.yml" timestamp="1533078939572">
         <mark key="'" line="14" column="0" />
-        <mark key="[" line="29" column="78" />
-        <mark key="]" line="29" column="78" />
-        <mark key="^" line="29" column="80" />
-        <mark key="." line="29" column="78" />
+        <mark key="[" line="17" column="10" />
+        <mark key="]" line="17" column="13" />
+        <mark key="^" line="17" column="13" />
+        <mark key="." line="17" column="13" />
       </file>
       <file name="$USER_HOME$/cp-projects/prospect-generation/code/api/src/main/java/com/classpass/demo/utils/CachedConsumerApiClient.java" timestamp="1528140546254">
         <mark key="[" line="13" column="13" />
@@ -838,7 +838,7 @@
         <mark key="." line="47" column="38" />
         <mark key="^" line="28" column="75" />
       </file>
-      <file name="/fragment.java" timestamp="1533053243772">
+      <file name="/fragment.java" timestamp="1533078655126">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -857,8 +857,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" />
-      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" />
       <jump line="15" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" />
       <jump line="17" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" />
       <jump line="19" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" />
@@ -957,6 +955,8 @@
       <jump line="98" column="10" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
       <jump line="11" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
       <jump line="33" column="5" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
+      <jump line="38" column="26" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
+      <jump line="57" column="15" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1022,13 +1022,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>10</text>
+        <text>NFO</text>
       </register>
       <register name="/" type="4">
-        <text>executenearb</text>
+        <text encoding="base64">XDxsb2NhbENsaWVudFw+</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Z29vZ2xlUGxhY2VzQXBpS2V5OiAke0NQX0NPTkZJR19HT09HTEVfUExBQ0VfQVBJX0tFWTotIk1JU1NJTkcifQo=</text>
+      <register name="0" type="4">
+        <text>request(&quot;/healthcheck&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Z29vZ2xlUGxhY2VzQXBpS2V5OiAke0NQX0dPT0dMRV9QTEFDRV9LRVk6LSJNSVNTSU5HIn0KCg==</text>
@@ -1075,9 +1075,9 @@
       </register>
     </registers>
     <search>
-      <last-search>executenearb</last-search>
+      <last-search encoding="base64">XDxsb2NhbENsaWVudFw+</last-search>
       <last-offset />
-      <last-pattern>executenearb</last-pattern>
+      <last-pattern encoding="base64">XDxsb2NhbENsaWVudFw+</last-pattern>
       <last-replace>admin</last-replace>
       <last-substitute>scraper</last-substitute>
       <last-dir>1</last-dir>
@@ -1085,7 +1085,6 @@
     </search>
     <history>
       <history-search>
-        <entry>we</entry>
         <entry>the &quot;</entry>
         <entry encoding="base64">XDxjcmVhdGVWZW51ZVw+</entry>
         <entry encoding="base64">XDxnZXRWZW51ZUVudGl0eVw+</entry>
@@ -1105,6 +1104,7 @@
         <entry>post</entry>
         <entry>apikey</entry>
         <entry>executenearb</entry>
+        <entry encoding="base64">XDxsb2NhbENsaWVudFw+</entry>
       </history-search>
       <history-cmd>
         <entry>3</entry>
