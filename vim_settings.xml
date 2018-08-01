@@ -45,6 +45,9 @@
         <mark key="." line="18" column="63" />
         <mark key="^" line="18" column="63" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/PlacesVenueTranslator.java" timestamp="1533152441129">
+        <mark key="'" line="81" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/GeolocationAddressNormalizerIntegrationTest.java" timestamp="1530629977812">
         <mark key="'" line="30" column="34" />
         <mark key="[" line="22" column="38" />
@@ -480,6 +483,9 @@
         <mark key="^" line="16" column="101" />
         <mark key="." line="20" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobCreateProcessor.java" timestamp="1533152746141">
+        <mark key="'" line="24" column="18" />
+      </file>
       <file name="$USER_HOME$/cp-projects/venuegen-spike/code/api/src/main/java/com/classpass/package-info.java" timestamp="1525982128482">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="16" />
@@ -854,7 +860,7 @@
         <mark key="." line="47" column="38" />
         <mark key="^" line="28" column="75" />
       </file>
-      <file name="/fragment.java" timestamp="1533078655126">
+      <file name="/fragment.java" timestamp="1533152350983">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -873,13 +879,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
-      <jump line="14" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/RawVenue.java" />
-      <jump line="215" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="58" column="23" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="126" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="77" column="73" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="99" column="32" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="98" column="30" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="94" column="36" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
@@ -973,6 +972,13 @@
       <jump line="192" column="44" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
       <jump line="93" column="40" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
       <jump line="155" column="33" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
+      <jump line="85" column="76" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/PlacesVenueTranslator.java" />
+      <jump line="84" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/PlacesVenueTranslator.java" />
+      <jump line="81" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/PlacesVenueTranslator.java" />
+      <jump line="20" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobCreateProcessor.java" />
+      <jump line="22" column="84" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobCreateProcessor.java" />
+      <jump line="52" column="36" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobCreateProcessor.java" />
+      <jump line="24" column="18" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobCreateProcessor.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1041,7 +1047,7 @@
         <text>000000</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</text>
+        <text>target</text>
       </register>
       <register name="0" type="4">
         <text>request(&quot;/healthcheck&quot;)</text>
@@ -1091,9 +1097,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</last-search>
+      <last-search>target</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</last-pattern>
+      <last-pattern>target</last-pattern>
       <last-replace>admin</last-replace>
       <last-substitute>scraper</last-substitute>
       <last-dir>1</last-dir>
@@ -1101,8 +1107,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxsb2NhbENsaWVudFw+</entry>
-        <entry>executenearby</entry>
         <entry encoding="base64">XDxnb29nbGVQbGFjZU5lYXJieVNlYXJjaFw+</entry>
         <entry encoding="base64">XDxwcm9jZXNzVGFza1w+</entry>
         <entry>named</entry>
@@ -1121,6 +1125,8 @@
         <entry>timeout</entry>
         <entry>sleep</entry>
         <entry encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</entry>
+        <entry>event</entry>
+        <entry>target</entry>
       </history-search>
       <history-cmd>
         <entry>3</entry>
