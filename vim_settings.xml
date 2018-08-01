@@ -539,8 +539,8 @@
         <mark key="." line="26" column="80" />
         <mark key="^" line="26" column="80" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobExecutionProcessor.java" timestamp="1533140255033">
-        <mark key="'" line="67" column="12" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobExecutionProcessor.java" timestamp="1533147450880">
+        <mark key="'" line="43" column="4" />
         <mark key="[" line="78" column="0" />
         <mark key="]" line="79" column="36" />
         <mark key="." line="78" column="0" />
@@ -763,8 +763,8 @@
         <mark key="." line="15" column="29" />
         <mark key="^" line="15" column="29" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" timestamp="1533145434799">
-        <mark key="'" line="176" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" timestamp="1533147658175">
+        <mark key="'" line="155" column="33" />
         <mark key="[" line="189" column="16" />
         <mark key="]" line="189" column="16" />
         <mark key="." line="189" column="16" />
@@ -872,10 +872,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
-      <jump line="28" column="78" filename="$USER_HOME$/cp-projects/lead-generation/config/config.yml.tmpl" />
-      <jump line="88" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
-      <jump line="94" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="14" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="14" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/RawVenue.java" />
       <jump line="215" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
@@ -970,8 +966,12 @@
       <jump line="81" column="138" filename="$MAVEN_REPOSITORY$/com/google/maps/google-maps-services/0.2.9/google-maps-services-0.2.9.jar!/com/google/maps/NearbySearchRequest.class" />
       <jump line="79" column="138" filename="$MAVEN_REPOSITORY$/com/google/maps/google-maps-services/0.2.9/google-maps-services-0.2.9.jar!/com/google/maps/NearbySearchRequest.class" />
       <jump line="154" column="33" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
-      <jump line="192" column="44" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
       <jump line="176" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
+      <jump line="43" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobExecutionProcessor.java" />
+      <jump line="186" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
+      <jump line="192" column="44" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
+      <jump line="93" column="40" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
+      <jump line="155" column="33" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/PlacesJobExecutor.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1040,7 +1040,7 @@
         <text>/</text>
       </register>
       <register name="/" type="4">
-        <text>executing</text>
+        <text encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</text>
       </register>
       <register name="0" type="4">
         <text>request(&quot;/healthcheck&quot;)</text>
@@ -1090,9 +1090,9 @@
       </register>
     </registers>
     <search>
-      <last-search>executing</last-search>
+      <last-search encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</last-search>
       <last-offset />
-      <last-pattern>executing</last-pattern>
+      <last-pattern encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</last-pattern>
       <last-replace>admin</last-replace>
       <last-substitute>scraper</last-substitute>
       <last-dir>1</last-dir>
@@ -1100,13 +1100,11 @@
     </search>
     <history>
       <history-search>
-        <entry>executenearb</entry>
         <entry encoding="base64">XDxsb2NhbENsaWVudFw+</entry>
         <entry>executenearby</entry>
         <entry encoding="base64">XDxnb29nbGVQbGFjZU5lYXJieVNlYXJjaFw+</entry>
         <entry encoding="base64">XDxwcm9jZXNzVGFza1w+</entry>
         <entry>named</entry>
-        <entry>timeout</entry>
         <entry encoding="base64">XDx0aW1lb3V0XD4=</entry>
         <entry>tra</entry>
         <entry>writer</entry>
@@ -1118,8 +1116,10 @@
         <entry>resp</entry>
         <entry encoding="base64">XDxyZXRyaWV2ZUFsbFBhZ2VzXD4=</entry>
         <entry>tostring</entry>
-        <entry encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</entry>
         <entry>executing</entry>
+        <entry>timeout</entry>
+        <entry>sleep</entry>
+        <entry encoding="base64">XDxleGVjdXRlTmVhcmJ5UmVxdWVzdFw+</entry>
       </history-search>
       <history-cmd>
         <entry>3</entry>
