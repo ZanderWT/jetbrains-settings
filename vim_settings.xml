@@ -744,12 +744,11 @@
         <mark key="." line="18" column="50" />
         <mark key="^" line="18" column="50" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" timestamp="1533680382940">
-        <mark key="'" line="39" column="48" />
-        <mark key="[" line="29" column="52" />
-        <mark key="]" line="29" column="52" />
-        <mark key="." line="29" column="52" />
-        <mark key="^" line="29" column="67" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" timestamp="1533681749030">
+        <mark key="[" line="24" column="34" />
+        <mark key="]" line="24" column="34" />
+        <mark key="." line="24" column="34" />
+        <mark key="^" line="24" column="34" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" timestamp="1531780811442">
         <mark key="'" line="17" column="12" />
@@ -971,6 +970,11 @@
         <mark key="^" line="9" column="34" />
         <mark key="." line="9" column="34" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/JobConfigurationEvent.java" timestamp="1533595827675">
+        <mark key="[" line="16" column="13" />
+        <mark key="]" line="16" column="13" />
+        <mark key="." line="16" column="13" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/models/ScraperTarget.java" timestamp="1533664865293">
         <mark key="[" line="16" column="18" />
         <mark key="]" line="16" column="36" />
@@ -1066,11 +1070,10 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" timestamp="1533584381377">
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="0" />
-        <mark key="." line="51" column="0" />
-        <mark key="^" line="51" column="23" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" timestamp="1533681500166">
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="0" />
+        <mark key="." line="58" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/dao/package-info.java" timestamp="1528488318734">
         <mark key="[" line="0" column="0" />
@@ -1086,7 +1089,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="77" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="61" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="55" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
@@ -1160,7 +1162,6 @@
       <jump line="21" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="26" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="37" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="42" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="47" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="52" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="70" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
@@ -1186,6 +1187,8 @@
       <jump line="41" column="46" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="15" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="39" column="48" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
+      <jump line="43" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
+      <jump line="42" column="25" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1254,16 +1257,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>ExecutorService.</text>
+        <text>stream</text>
       </register>
       <register name="/" type="4">
-        <text>executor</text>
+        <text encoding="base64">XDxzY3JhcGVySm9ic1F1ZXVlVXJsXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBKc29uTm9kZSBub2RlID0ganAucmVhZFZhbHVlQXNUcmVlKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmRldGFpbHNBdWdtZW50ZXIgPSBkZXRhaWxzQXVnbWVudGVyOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VhcmNoQ2lyY2xlcy5wYXJhbGxlbFN0cmVhbSgpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1276,28 +1279,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgRXhlY3V0b3JTZXJ2aWNlIGV4ZWN1dG9yU2VydmljZSA9IEV4ZWN1dG9ycy4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgRGV0YWlsc0F1Z21lbnRlciBkZXRhaWxzQXVnbWVudGVyOwo=</text>
+        <text encoding="base64">ICAgICAgICBzdXBlcihzcXNDbGllbnQsIHNjcmFwZXJKb2JzUXVldWVVcmwsIGV4ZWN1dG9yLCBTY3JhcGVySm9iRXhlY3V0aW9uUHJvY2Vzc29yLmNsYXNzLCBtYXBwZXIpOwo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvZy5kZWJ1ZygiU2xlZXBpbmcgYmVmb3JlIGdldHRpbmcgdGhlIG5leHQgcGFnZSBvZiByZXN1bHRzLi4uIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmRldGFpbHNBdWdtZW50ZXIgPSBkZXRhaWxzQXVnbWVudGVyOwo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgRGV0YWlsc0F1Z21lbnRlciBkZXRhaWxzQXVnbWVudGVyOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUaGlzIGlzIHRoZSBub24tYm9pbGVycGxhdGUgcGFydCBvZiB0aGlzIGNsYXNzIHdoaWNoIGFjdHVhbGx5IGRlY2lkZXMgd2hhdCB0eXBlIHRvIGRlc2VyaWFsaXplIHRvLgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvZy5kZWJ1ZygiU2xlZXBpbmcgYmVmb3JlIGdldHRpbmcgdGhlIG5leHQgcGFnZSBvZiByZXN1bHRzLi4uIik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -1307,17 +1310,16 @@
       </register>
     </registers>
     <search>
-      <last-search>executor</last-search>
+      <last-search encoding="base64">XDxzY3JhcGVySm9ic1F1ZXVlVXJsXD4=</last-search>
       <last-offset />
-      <last-pattern>executor</last-pattern>
+      <last-pattern encoding="base64">XDxzY3JhcGVySm9ic1F1ZXVlVXJsXD4=</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>compiler</entry>
         <entry>lombok</entry>
         <entry encoding="base64">XDxHb29nbGVGaW5kVmVudWVzSm9iXD4=</entry>
         <entry>GoogleJobConfiguration</entry>
@@ -1337,6 +1339,7 @@
         <entry>lat</entry>
         <entry>venueEvent</entry>
         <entry>executor</entry>
+        <entry encoding="base64">XDxzY3JhcGVySm9ic1F1ZXVlVXJsXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s;scraper;admin;g</entry>
