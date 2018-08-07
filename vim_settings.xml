@@ -740,8 +740,12 @@
         <mark key="." line="18" column="50" />
         <mark key="^" line="18" column="50" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" timestamp="1533664540531">
-        <mark key="'" line="49" column="28" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" timestamp="1533669100448">
+        <mark key="'" line="65" column="0" />
+        <mark key="[" line="84" column="14" />
+        <mark key="]" line="84" column="18" />
+        <mark key="^" line="84" column="18" />
+        <mark key="." line="84" column="18" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" timestamp="1531780811442">
         <mark key="'" line="17" column="12" />
@@ -1081,9 +1085,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
-      <jump line="60" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
-      <jump line="77" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
       <jump line="59" column="18" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
       <jump line="46" column="59" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
       <jump line="48" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
@@ -1181,6 +1182,9 @@
       <jump line="59" column="30" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessorTest.java" />
       <jump line="68" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessorTest.java" />
       <jump line="60" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
+      <jump line="76" column="26" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
+      <jump line="67" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
+      <jump line="65" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1249,16 +1253,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>scraperJobQueueEvent</text>
+        <text>void</text>
       </register>
       <register name="/" type="4">
-        <text>GoogleJobConfiguration</text>
+        <text>void</text>
       </register>
       <register name="0" type="4">
         <text>GoogleJobConfiguration</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBTY3JhcGVySm9iUXVldWVFdmVudCBzY3JhcGVySm9iUXVldWVFdmVudCA9IG51bGw7CiAgICAgICAgICAgICAgICAvL1NjcmFwZXJKb2JRdWV1ZUV2ZW50LmNyZWF0ZShqb2JDb25maWd1cmF0aW9uKTsK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdHJ1ZTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1271,40 +1275,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMucXVldWVpbmcuR29vZ2xlRmluZFZlbnVlc0pvYjsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMuZ29vZ2xlcGxhY2VzLkdvb2dsZUZpbmRWZW51ZXNKb2I7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMuZ29vZ2xlcGxhY2VzLkdvb2dsZUZpbmRWZW51ZXNKb2I7Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIEBqYXZhLmJlYW5zLkNvbnN0cnVjdG9yUHJvcGVydGllcyh7ImNlbnRlciIsICJyYWRpdXNNZXRlcnMifSkKICAgIHB1YmxpYyBHb29nbGVGaW5kVmVudWVzSm9iKExhdExuZyBjZW50ZXIsIGludCByYWRpdXNNZXRlcnMpIHsKICAgICAgICB0aGlzLmNlbnRlciA9IGNlbnRlcjsKICAgICAgICB0aGlzLnJhZGl1c01ldGVycyA9IHJhZGl1c01ldGVyczsKICAgIH0KCiAgICBwdWJsaWMgR29vZ2xlRmluZFZlbnVlc0pvYigpIHsKICAgIH0K</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Ly8gZm9yIGphY2tzb24K</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBHb29nbGVKb2JDb25maWd1cmF0aW9uIGpvYkNvbmZpZ3VyYXRpb24gPSBldmVudC5nZXRKb2JDb25maWd1cmF0aW9uKCk7Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAvLyBzdGVwIDE6IHJlYWQgdGhlIG1lc3NhZ2UgZnJvbSB0aGUgU1FTIHNjcmFwZXIgam9iIHF1ZXVlCi8vICAgICAgICBHb29nbGVKb2JDb25maWd1cmF0aW9uIGpvYkNvbmZpZ3VyYXRpb24gPSBldmVudC5nZXRKb2JDb25maWd1cmF0aW9uKCk7Ci8vICAgICAgICBpbnQgcmFkaXVzID0gam9iQ29uZmlndXJhdGlvbi5nZXRSYWRpdXNNZXRlcnMoKTsKLy8gICAgICAgIExhdExuZyBsYXRMbmcgPSBqb2JDb25maWd1cmF0aW9uLmdldENlbnRlcigpOwoKCi8vICAgICAgICAvLyBzdGVwIDI6IENhbGwgZ29vZ2xlIHBsYWNlcyBhcGkgdG8gZmluZCBhbGwgdGhlIHZlbnVlcy4KLy8gICAgICAgIEltbXV0YWJsZUxpc3Q8UGxhY2VzU2VhcmNoUmVzdWx0PiB2ZW51ZXMgPSBnb29nbGVQbGFjZXNDbGllbnQuZmluZEFsbFZlbnVlcyhsYXRMbmcsIHJhZGl1cyk7CgoKLy8gICAgICAgIC8vIHN0ZXAgMzogZGVkdXBsaWNhdGUgdmVudWVzIGFuZCBhdWdtZW50IHdpdGggQWRkcmVzc0NvbXBvbmVudHMKLy8gICAgICAgIExpc3Q8UGxhY2VzVmVudWU+IHBsYWNlc1ZlbnVlcyA9Ci8vICAgICAgICAgICAgICAgIGRldGFpbHNBdWdtZW50ZXIuYXVnbWVudGVkRGVkdXBsaWNhdGVkKHZlbnVlcyk7Ci8vICAgICAgICBMaXN0PFZlbnVlRXZlbnQ+IHZlbnVlRXZlbnRzID0KLy8gICAgICAgICAgICAgICAgcGxhY2VzVmVudWVzLnN0cmVhbSgpLm1hcChjIC0+IG5ldyBWZW51ZUV2ZW50KGMpKS5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwoKLy8gICAgICAgIC8vIHN0ZXAgNDogcHV0IHRoZSB2ZW51ZXMgb250byB0aGUgVmVudWVXcml0ZXJRdWV1ZQovLyAgICAgICAgSW1tdXRhYmxlTGlzdDxRdWV1ZUV2ZW50PiBldmVudHMgPSBJbW11dGFibGVMaXN0LmNvcHlPZih2ZW51ZUV2ZW50cyk7Ci8vICAgICAgICBxdWV1ZVNlbmRlci5zZW5kRXZlbnRzKHZlbnVlUXVldWVVcmwsIGV2ZW50cyk7CgovLyAgICAgICAgcmV0dXJuIHRydWU7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgaGFuZGxlCiAgICBAT3ZlcnJpZGUKICAgIHZvaWQgaGFuZGxlKFNjcmFwZXJKb2JFeGVjdXRpb25Qcm9jZXNzb3IgcHJvY2Vzc29yKSB7CgoKICAgIH0=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBTY3JhcGVySm9iUXVldWVFdmVudCBzY3JhcGVySm9iUXVldWVFdmVudCA9IG51bGw7CiAgICAgICAgICAgICAgICAvL1NjcmFwZXJKb2JRdWV1ZUV2ZW50LmNyZWF0ZShqb2JDb25maWd1cmF0aW9uKTsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMucXVldWVpbmcuR29vZ2xlRmluZFZlbnVlc0pvYjsK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMuZ29vZ2xlcGxhY2VzLkdvb2dsZUZpbmRWZW51ZXNKb2I7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMuZ29vZ2xlcGxhY2VzLkdvb2dsZUZpbmRWZW51ZXNKb2I7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>%s;GoogleJobConfiguration;GoogleFindVenuesJob;g</text>
       </register>
     </registers>
     <search>
-      <last-search>GoogleJobConfiguration</last-search>
+      <last-search>void</last-search>
       <last-offset />
-      <last-pattern>GoogleJobConfiguration</last-pattern>
+      <last-pattern>void</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1312,8 +1316,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxTY3JhcGVySm9iQ3JlYXRlUHJvY2Vzc29yXD4=</entry>
-        <entry>ex</entry>
         <entry>mapper</entry>
         <entry>executor</entry>
         <entry encoding="base64">XDxyZWNlaXZlQ291bnRcPg==</entry>
@@ -1332,6 +1334,8 @@
         <entry>lombok</entry>
         <entry encoding="base64">XDxHb29nbGVGaW5kVmVudWVzSm9iXD4=</entry>
         <entry>GoogleJobConfiguration</entry>
+        <entry>true</entry>
+        <entry>void</entry>
       </history-search>
       <history-cmd>
         <entry>s;scraper;admin;g</entry>
