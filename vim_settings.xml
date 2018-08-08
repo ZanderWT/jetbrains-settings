@@ -743,6 +743,12 @@
         <mark key="." line="2" column="23" />
         <mark key="^" line="2" column="15" />
       </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" timestamp="1533747628673">
+        <mark key="'" line="31" column="119" />
+        <mark key="[" line="70" column="90" />
+        <mark key="]" line="70" column="91" />
+        <mark key="." line="70" column="91" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/scrapers/ScraperCountryDao$Dao/getAllScraperCountries.sql" timestamp="1531329656557">
         <mark key="[" line="7" column="27" />
         <mark key="]" line="7" column="46" />
@@ -971,7 +977,7 @@
         <mark key="." line="30" column="3" />
         <mark key="^" line="30" column="3" />
       </file>
-      <file name="/Dummy.txt" timestamp="1533746301878">
+      <file name="/Dummy.txt" timestamp="1533747924955">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GooglePlacesClient.java" timestamp="1533224680703">
@@ -1097,7 +1103,7 @@
         <mark key="." line="47" column="38" />
         <mark key="^" line="28" column="75" />
       </file>
-      <file name="/fragment.java" timestamp="1533746301890">
+      <file name="/fragment.java" timestamp="1533747924966">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -1122,12 +1128,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessorTest.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/models/ScraperTargetLocationTest.java" />
-      <jump line="59" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
-      <jump line="57" column="80" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessor.java" />
-      <jump line="104" column="21" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
-      <jump line="219" column="26" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="269" column="13" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="102" column="26" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="103" column="18" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
@@ -1222,6 +1222,12 @@
       <jump line="53" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="54" column="48" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientIntegrationTest.java" />
+      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="14" column="36" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="78" column="44" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="70" column="94" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="9" column="85" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="31" column="119" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1293,7 +1299,7 @@
         <text encoding="base64">IHJhZGl1cywgc3RhcnRMb2NhdGlvbg==</text>
       </register>
       <register name="/" type="4">
-        <text>new sea</text>
+        <text>asdfasdf</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2cuZGVidWcoIkNhbGxpbmcgZ29vZ2xlIHBsYWNlcyBuZWFyYnkgc2VhcmNoIGZvciBhIHt9IG1ldGVyIHJhZGl1cyBhcm91bmQge30iLCByYWRpdXMsIHN0YXJ0TG9jYXRpb24pOwo=</text>
@@ -1339,24 +1345,20 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>3</text>
       </register>
     </registers>
     <search>
-      <last-search>new sea</last-search>
+      <last-search>asdfasdf</last-search>
       <last-offset />
-      <last-pattern>new sea</last-pattern>
+      <last-pattern>asdfasdf</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>GoogleJobConfiguration</entry>
-        <entry>true</entry>
-        <entry>void</entry>
-        <entry>pro</entry>
         <entry>eq</entry>
         <entry>tostr</entry>
         <entry>googlefind</entry>
@@ -1373,9 +1375,12 @@
         <entry encoding="base64">XDxzY3JhcGVySm9ic1F1ZXVlVXJsXD4=</entry>
         <entry>new searh</entry>
         <entry>new sea</entry>
+        <entry>timez</entry>
+        <entry encoding="base64">XDxjdlw+</entry>
+        <entry>timezon</entry>
+        <entry>asdfasdf</entry>
       </history-search>
       <history-cmd>
-        <entry>s;scraper;admin;g</entry>
         <entry>w</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','b')</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
@@ -1395,6 +1400,7 @@
         <entry>%s;GoogleJobConfiguration;GoogleFindVenuesJob;g</entry>
         <entry>q</entry>
         <entry>action ReformatCode</entry>
+        <entry>3</entry>
       </history-cmd>
       <history-expr />
       <history-input />
