@@ -312,6 +312,13 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="37" column="25" />
       </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/test/resources/mysql_init/0000__shared_0000_classtivityprd_reduced.sql" timestamp="1533749982690">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="1148" column="11" />
+        <mark key="]" line="1148" column="11" />
+        <mark key="." line="1148" column="11" />
+        <mark key="^" line="1148" column="11" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTests.java" timestamp="1530558314714">
         <mark key="[" line="24" column="37" />
         <mark key="]" line="25" column="0" />
@@ -1128,8 +1135,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="269" column="13" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
-      <jump line="102" column="26" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="103" column="18" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="42" column="26" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/salesforce/SalesforceVenue.java" />
       <jump line="16" column="64" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleJobConfiguration.java" />
@@ -1228,6 +1233,8 @@
       <jump line="70" column="94" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="9" column="85" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="31" column="119" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
+      <jump line="7956" column="1" filename="$USER_HOME$/cp-projects/payments/src/test/resources/mysql_init/0000__shared_0000_classtivityprd_reduced.sql" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/resources/mysql_init/0000__shared_0000_classtivityprd_reduced.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1296,10 +1303,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHJhZGl1cywgc3RhcnRMb2NhdGlvbg==</text>
+        <text encoding="base64">CQ==</text>
       </register>
       <register name="/" type="4">
-        <text>asdfasdf</text>
+        <text>service_types</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2cuZGVidWcoIkNhbGxpbmcgZ29vZ2xlIHBsYWNlcyBuZWFyYnkgc2VhcmNoIGZvciBhIHt9IG1ldGVyIHJhZGl1cyBhcm91bmQge30iLCByYWRpdXMsIHN0YXJ0TG9jYXRpb24pOwo=</text>
@@ -1349,9 +1356,9 @@
       </register>
     </registers>
     <search>
-      <last-search>asdfasdf</last-search>
+      <last-search>service_types</last-search>
       <last-offset />
-      <last-pattern>asdfasdf</last-pattern>
+      <last-pattern>service_types</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1359,8 +1366,6 @@
     </search>
     <history>
       <history-search>
-        <entry>eq</entry>
-        <entry>tostr</entry>
         <entry>googlefind</entry>
         <entry>queueUrl</entry>
         <entry>clas</entry>
@@ -1379,6 +1384,8 @@
         <entry encoding="base64">XDxjdlw+</entry>
         <entry>timezon</entry>
         <entry>asdfasdf</entry>
+        <entry>classtivity_venues</entry>
+        <entry>service_types</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
