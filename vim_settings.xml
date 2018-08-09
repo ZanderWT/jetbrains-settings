@@ -273,11 +273,11 @@
         <mark key="^" line="5" column="12" />
         <mark key="." line="5" column="12" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobQueueEvent.java" timestamp="1533843417347">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobQueueEvent.java" timestamp="1533855801701">
         <mark key="'" line="8" column="0" />
-        <mark key="[" line="8" column="31" />
-        <mark key="]" line="8" column="38" />
-        <mark key="." line="8" column="38" />
+        <mark key="[" line="6" column="47" />
+        <mark key="]" line="6" column="47" />
+        <mark key="." line="6" column="47" />
         <mark key="^" line="8" column="38" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/web/GlsClient.java" timestamp="1532463303470">
@@ -524,6 +524,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" timestamp="1533855421216">
+        <mark key="[" line="41" column="36" />
+        <mark key="]" line="42" column="76" />
+        <mark key="^" line="40" column="190" />
+        <mark key="." line="39" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" timestamp="1532989794481">
         <mark key="'" line="70" column="49" />
@@ -1328,13 +1334,14 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text encoding="base64">R29vZ2xlIA==</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwcm9jZXNzVGFza1w+</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsb2cuZGVidWcoIlNlbmRpbmcgb24gcXVldWUgJyIgKyBxdWV1ZVVybCArICInIGV2ZW50czogIiArIGV2ZW50cyk7Cg==</text>
+      <register name="0" type="4">
+        <text>representing the venues found, OR a GoogleScrapeResult representing a subdivided set
+     * of search circles if there were too many results returned from google.</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBQbGFjZXNTZWFyY2hSZXNwb25zZSByZXNwb25zZSA9IAo=</text>
