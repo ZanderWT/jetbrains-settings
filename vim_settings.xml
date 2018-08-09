@@ -385,6 +385,12 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" timestamp="1533833456163">
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="0" />
+        <mark key="." line="55" column="0" />
+        <mark key="^" line="55" column="53" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleScraperDetailsRequest.java" timestamp="1533593400106">
         <mark key="[" line="6" column="53" />
         <mark key="]" line="7" column="28" />
@@ -1116,12 +1122,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" timestamp="1533831123598">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" timestamp="1533833486111">
         <mark key="'" line="74" column="49" />
-        <mark key="[" line="61" column="31" />
-        <mark key="]" line="61" column="31" />
-        <mark key="." line="61" column="36" />
-        <mark key="^" line="74" column="49" />
+        <mark key="[" line="49" column="11" />
+        <mark key="]" line="49" column="22" />
+        <mark key="." line="49" column="22" />
+        <mark key="^" line="49" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/dao/package-info.java" timestamp="1528488318734">
         <mark key="[" line="0" column="0" />
@@ -1137,14 +1143,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
-      <jump line="80" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
-      <jump line="48" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
-      <jump line="36" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
-      <jump line="39" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
-      <jump line="43" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
-      <jump line="47" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
-      <jump line="25" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
       <jump line="27" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
       <jump line="32" column="35" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
       <jump line="53" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
@@ -1237,6 +1235,14 @@
       <jump line="88" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
       <jump line="61" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="74" column="49" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
+      <jump line="16" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" />
+      <jump line="36" column="51" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" />
+      <jump line="25" column="41" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" />
+      <jump line="51" column="48" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" />
+      <jump line="37" column="51" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" />
+      <jump line="39" column="33" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" />
+      <jump line="34" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" />
+      <jump line="9" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleScrapeResult.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1305,72 +1311,62 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text encoding="base64">SW1tdXRhYmxlTGlzdDxQbGFjZXNTZWFyY2hSZXN1bHQ+</text>
       </register>
       <register name="/" type="4">
-        <text>cirlc</text>
+        <text encoding="base64">XDxMaXN0XD4=</text>
       </register>
       <register name="0" type="4">
-        <text>GooglePlacesClient.SearchCircle</text>
+        <text encoding="base64">SW1tdXRhYmxlTGlzdDxTY3JhcGVySm9iUXVldWVFdmVudD4=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgR29vZ2xlU2NyYXBlUmVzdWx0KCkgewogICAgfQo=</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICByZXR1cm4gc2VhcmNoQ2lyY2xlcwovLyAgICAgICAgICAgICAgICAgICAgLnN0cmVhbSgpCi8vICAgICAgICAgICAgICAgICAgICAuY29sbGVjdChJbW11dGFibGVMaXN0LnRvSW1tdXRhYmxlTGlzdCgpKTsK</text>
       </register>
       <register name="q" type="4">
-        <keys>
-          <key char="36" code="0" mods="0" />
-          <key char="67" code="0" mods="0" />
-          <key char="41" code="0" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="103" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-        </keys>
+        <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBOdWxsYWJsZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBOdWxsYWJsZQo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9uOwppbXBvcnQgamF2YS51dGlsLkltbXV0YWJsZUxpc3Q7Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHNlYXJjaENpcmNsZXMuc3RyZWFtKCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAubWFwCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgY2xhc3MK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIG51bGw7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIDsK</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">cHVibGljIGNsYXNzIEdvb2dsZUZpbmRWZW51ZXNSZXN1bHQgewp9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgQXJyYXlMaXN0Lgo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text encoding="base64">JXM7XDxMaXN0XD47SW1tdXRhYmxlTGlzdDtn</text>
       </register>
     </registers>
     <search>
-      <last-search>cirlc</last-search>
+      <last-search encoding="base64">XDxMaXN0XD4=</last-search>
       <last-offset />
-      <last-pattern>cirlc</last-pattern>
-      <last-replace>GoogleSearchCircle</last-replace>
-      <last-substitute>GooglePlacesClient.SearchCircle</last-substitute>
+      <last-pattern encoding="base64">XDxMaXN0XD4=</last-pattern>
+      <last-replace>ImmutableList</last-replace>
+      <last-substitute encoding="base64">XDxMaXN0XD4=</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzY3JhcGVySm9ic1F1ZXVlVXJsXD4=</entry>
-        <entry>new searh</entry>
-        <entry>new sea</entry>
         <entry>timez</entry>
         <entry encoding="base64">XDxjdlw+</entry>
         <entry>timezon</entry>
@@ -1388,9 +1384,11 @@
         <entry>GooglePlacesClient.SearchCircle</entry>
         <entry encoding="base64">XDxzdWJkaXZpZGVHb29nbGVGaW5kVmVudWVzSm9iXD4=</entry>
         <entry>cirlc</entry>
+        <entry>tosc</entry>
+        <entry>toscra</entry>
+        <entry encoding="base64">XDxMaXN0XD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>55</entry>
         <entry>79</entry>
         <entry>%s;12500;6250;g</entry>
         <entry>%s;6250;3125;g</entry>
@@ -1410,6 +1408,7 @@
         <entry>%s;searchCircle\.\zsradiusMeters;getRadiusMeters()</entry>
         <entry>%s;GooglePlacesClient.SearchCircle;GoogleSearchCircle;g</entry>
         <entry>action ReformatCode</entry>
+        <entry encoding="base64">JXM7XDxMaXN0XD47SW1tdXRhYmxlTGlzdDtn</entry>
       </history-cmd>
       <history-expr />
       <history-input />
