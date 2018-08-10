@@ -720,8 +720,8 @@
         <mark key="." line="66" column="5" />
         <mark key="^" line="66" column="5" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1533663976174">
-        <mark key="'" line="103" column="18" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1533914357355">
+        <mark key="'" line="105" column="13" />
         <mark key="[" line="243" column="0" />
         <mark key="]" line="243" column="0" />
         <mark key="." line="243" column="0" />
@@ -1116,12 +1116,12 @@
         <mark key="." line="8" column="39" />
         <mark key="^" line="8" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleSearchCircle.java" timestamp="1533844312974">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleSearchCircle.java" timestamp="1533914261686">
         <mark key="'" line="38" column="0" />
-        <mark key="[" line="27" column="70" />
-        <mark key="]" line="27" column="97" />
-        <mark key="." line="27" column="97" />
-        <mark key="^" line="27" column="97" />
+        <mark key="[" line="28" column="12" />
+        <mark key="]" line="28" column="42" />
+        <mark key="." line="28" column="42" />
+        <mark key="^" line="28" column="42" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1529358563282">
         <mark key="[" line="4" column="7" />
@@ -1161,10 +1161,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="70" column="94" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
-      <jump line="9" column="85" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
-      <jump line="31" column="119" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
-      <jump line="7956" column="1" filename="$USER_HOME$/cp-projects/payments/src/test/resources/mysql_init/0000__shared_0000_classtivityprd_reduced.sql" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/resources/mysql_init/0000__shared_0000_classtivityprd_reduced.sql" />
       <jump line="39" column="62" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="53" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
@@ -1261,6 +1257,10 @@
       <jump line="1" column="22" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00009_venue_is_qualified_column.sql" />
       <jump line="3" column="43" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00009_venue_is_qualified_column.sql" />
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
+      <jump line="178" column="28" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
+      <jump line="183" column="29" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
+      <jump line="105" column="13" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1332,7 +1332,7 @@
         <text>complete</text>
       </register>
       <register name="/" type="4">
-        <text>createvenu</text>
+        <text>provided</text>
       </register>
       <register name="0" type="4">
         <text>representing the venues found, OR a GoogleScrapeResult representing a subdivided set
@@ -1376,9 +1376,9 @@
       </register>
     </registers>
     <search>
-      <last-search>createvenu</last-search>
+      <last-search>provided</last-search>
       <last-offset />
-      <last-pattern>createvenu</last-pattern>
+      <last-pattern>provided</last-pattern>
       <last-replace encoding="base64">ID0g</last-replace>
       <last-substitute>=</last-substitute>
       <last-dir>1</last-dir>
@@ -1386,8 +1386,6 @@
     </search>
     <history>
       <history-search>
-        <entry>=</entry>
-        <entry>test</entry>
         <entry>;</entry>
         <entry>allar</entry>
         <entry>inf</entry>
@@ -1406,6 +1404,8 @@
         <entry encoding="base64">XDxwcm9jZXNzVGFza1w+</entry>
         <entry>comp</entry>
         <entry>createvenu</entry>
+        <entry>jackson</entry>
+        <entry>provided</entry>
       </history-search>
       <history-cmd>
         <entry>%s;6250;3125;g</entry>
