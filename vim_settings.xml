@@ -557,6 +557,9 @@
         <mark key="^" line="5" column="28" />
         <mark key="." line="5" column="26" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/PlacesVenueTranslator.java" timestamp="1533943770173">
+        <mark key="'" line="71" column="48" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesApi.java" timestamp="1533852728425">
         <mark key="[" line="69" column="54" />
         <mark key="]" line="69" column="54" />
@@ -963,6 +966,9 @@
         <mark key="." line="18" column="50" />
         <mark key="^" line="18" column="50" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" timestamp="1533943678796">
+        <mark key="'" line="46" column="2" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/salesforce/SalesforceTranslator.java" timestamp="1533661924513">
         <mark key="'" line="4" column="68" />
         <mark key="[" line="6" column="46" />
@@ -1161,10 +1167,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/test/resources/mysql_init/0000__shared_0000_classtivityprd_reduced.sql" />
-      <jump line="39" column="62" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="53" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="54" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="148" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="147" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="144" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
@@ -1261,6 +1263,10 @@
       <jump line="178" column="28" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="183" column="29" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
       <jump line="105" column="13" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
+      <jump line="46" column="2" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/PlacesVenueTranslator.java" />
+      <jump line="48" column="23" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/PlacesVenueTranslator.java" />
+      <jump line="71" column="48" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/PlacesVenueTranslator.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1332,7 +1338,7 @@
         <text>complete</text>
       </register>
       <register name="/" type="4">
-        <text>provided</text>
+        <text encoding="base64">XDxtYXBDb21wb25lbnRcPg==</text>
       </register>
       <register name="0" type="4">
         <text>representing the venues found, OR a GoogleScrapeResult representing a subdivided set
@@ -1376,19 +1382,16 @@
       </register>
     </registers>
     <search>
-      <last-search>provided</last-search>
+      <last-search encoding="base64">XDxtYXBDb21wb25lbnRcPg==</last-search>
       <last-offset />
-      <last-pattern>provided</last-pattern>
+      <last-pattern encoding="base64">XDxtYXBDb21wb25lbnRcPg==</last-pattern>
       <last-replace encoding="base64">ID0g</last-replace>
       <last-substitute>=</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>;</entry>
-        <entry>allar</entry>
-        <entry>inf</entry>
         <entry>retrieved a</entry>
         <entry encoding="base64">cmV0cmlldmVkIGEg</entry>
         <entry encoding="base64">XDxyZXN1bHRzXD4=</entry>
@@ -1406,6 +1409,9 @@
         <entry>createvenu</entry>
         <entry>jackson</entry>
         <entry>provided</entry>
+        <entry>some comp</entry>
+        <entry>mapcomp</entry>
+        <entry encoding="base64">XDxtYXBDb21wb25lbnRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>%s;6250;3125;g</entry>
