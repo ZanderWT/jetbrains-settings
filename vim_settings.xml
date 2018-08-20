@@ -101,9 +101,6 @@
         <mark key="^" line="16" column="11" />
         <mark key="." line="16" column="11" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1534784239063">
-        <mark key="'" line="55" column="27" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" timestamp="1533242742058">
         <mark key="'" line="6" column="19" />
         <mark key="[" line="18" column="0" />
@@ -1213,12 +1210,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="146" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="150" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="58" column="14" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="59" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="141" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="63" column="93" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="81" column="55" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="95" column="20" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="88" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
@@ -1313,6 +1304,12 @@
       <jump line="40" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
       <jump line="50" column="61" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
       <jump line="55" column="27" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="66" column="62" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="78" column="54" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="65" column="76" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="73" column="63" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="84" column="7" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
+      <jump line="92" column="61" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1381,64 +1378,62 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>msa</text>
+        <text>venueIds</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtc2FJbmZvTWFwXD4=</text>
+        <text>msa</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHNlbGVjdCB2LnZlbnVlX2lkLCB2LnRpbWV6b25lLCBsLmN1cnJlbmN5X2NvZGUKICAgIGZyb20gbG9jYWxlIGwKICAgIGlubmVyIGpvaW4gY2xhc3N0aXZpdHlfbXNhIG0gb24gbC5jb3VudHJ5X2lkID0gbS5jb3VudHJ5X2lkCiAgICBpbm5lciBqb2luIGNsYXNzdGl2aXR5X3ZlbnVlcyB2IG9uIHYubXNhX2lkID0gbS5tc2FfaWQ7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3RyaW5nIHZlbnVlSWRzID0gdmVudWVJbmZvTWFwLnZhbHVlcygpLm1hcChtaSAtPiBtaS52ZW51ZUlkKQogICAgICAgICAgICAgICAgICAgIC5yZW1vdmVBbGwocGF5YWJsZXMubWFwKHAgLT4gcC5nZXRSZXMoKS5nZXRWZW51ZUlkKCkpKQogICAgICAgICAgICAgICAgICAgIC5zb3J0ZWQoKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBQbGFjZXNTZWFyY2hSZXNwb25zZSByZXNwb25zZSA9IAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAubWtTdHJpbmcoIiwiKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBQbGFjZXNTZWFyY2hSZXNwb25zZSByZXNwb25zZSA9IAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsYXN0UmVzcG9uc2UubmV4dFBhZ2VUb2tlbik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAqIEByZXR1cm4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAqIEBwYXJhbSBuZXh0UGFnZVRva2VuCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsYXN0UmVzcG9uc2UubmV4dFBhZ2VUb2tlbik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAqIEByZXR1cm4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB9IGNhdGNoIChJbnRlcnJ1cHRlZEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHRocm93CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAqIEBwYXJhbSBuZXh0UGFnZVRva2VuCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxtc2FJbmZvTWFwXD4=</last-search>
+      <last-search>msa</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtc2FJbmZvTWFwXD4=</last-pattern>
+      <last-pattern>msa</last-pattern>
       <last-replace encoding="base64">ID0g</last-replace>
       <last-substitute>=</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>throws</entry>
-        <entry>req</entry>
         <entry>named</entry>
         <entry>task</entry>
         <entry>processtask</entry>
@@ -1457,6 +1452,8 @@
         <entry>msainfo</entry>
         <entry>curren</entry>
         <entry encoding="base64">XDxtc2FJbmZvTWFwXD4=</entry>
+        <entry>fil</entry>
+        <entry>msa</entry>
       </history-search>
       <history-cmd>
         <entry>action ShowBookmarks</entry>
