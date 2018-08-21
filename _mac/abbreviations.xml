@@ -1,11 +1,13 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="FindNext">
-        <abbreviation name="]q" />
-      </action>
-      <action id="FindPrevious">
+      <action id="PreviousOccurence">
         <abbreviation name="[q" />
+      </action>
+      <action id="FindNext" />
+      <action id="FindPrevious" />
+      <action id="NextOccurence">
+        <abbreviation name="]q" />
       </action>
     </abbreviations>
   </component>
