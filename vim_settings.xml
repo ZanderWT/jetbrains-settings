@@ -14,12 +14,12 @@
         <mark key="." line="23" column="7" />
         <mark key="^" line="23" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1534959953641">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1535056441866">
         <mark key="'" line="104" column="29" />
-        <mark key="[" line="121" column="49" />
-        <mark key="]" line="121" column="65" />
-        <mark key="^" line="121" column="65" />
-        <mark key="." line="121" column="65" />
+        <mark key="[" line="158" column="0" />
+        <mark key="]" line="159" column="19" />
+        <mark key="^" line="159" column="19" />
+        <mark key="." line="159" column="19" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/PlacesJobExecutor.java" timestamp="1533163450250">
         <mark key="[" line="26" column="13" />
@@ -354,12 +354,12 @@
         <mark key="^" line="34" column="72" />
         <mark key="." line="34" column="72" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1534958795598">
-        <mark key="'" line="67" column="24" />
-        <mark key="[" line="85" column="17" />
-        <mark key="]" line="86" column="17" />
-        <mark key="^" line="86" column="17" />
-        <mark key="." line="86" column="17" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1535056640074">
+        <mark key="'" line="38" column="34" />
+        <mark key="[" line="38" column="64" />
+        <mark key="]" line="38" column="71" />
+        <mark key="^" line="38" column="34" />
+        <mark key="." line="38" column="64" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" timestamp="1532031103321">
         <mark key="'" line="29" column="8" />
@@ -1259,8 +1259,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" />
-      <jump line="42" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenuePropertiesUpdate.java" />
       <jump line="37" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenuePropertiesUpdate.java" />
       <jump line="27" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenuePropertiesUpdate.java" />
       <jump line="32" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenuePropertiesUpdate.java" />
@@ -1359,6 +1357,8 @@
       <jump line="35" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/validation/PhoneNumberValidator.java" />
       <jump line="44" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/validation/PhoneNumberValidator.java" />
       <jump line="29" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/validation/PhoneNumberValidator.java" />
+      <jump line="86" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="38" column="34" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1371,7 +1371,7 @@
         <text encoding="base64">Y3JlYXRlKExhdExuZyBjZW50ZXIsIEludGVnZXIgcmFkaXVzTWV0ZXJzLCBMaXN0PFBsYWNlc1NlYXJjaFJlc3VsdD4gdmVudWVzKQ==</text>
       </register>
       <register name="*" type="4">
-        <text>rawPhoneNumber</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -1427,55 +1427,55 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>value</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>value</text>
+        <text>phon</text>
       </register>
       <register name="0" type="4">
         <text>555111</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmF3UGhvbmVOdW1iZXIgPSB2YWx1ZTsK</text>
+      <register name="1" type="4">
+        <text>&quot;&quot;</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>FIXME</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhCg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmF3UGhvbmVOdW1iZXIgPSB2YWx1ZTsK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICogYW5kIGhhdmUgdGhlIGNvcnJlY3QgbnVtYmVyIG9mIGRpZ2l0cy4K</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuKGNvbnN0cmFpbnQuYWxsb3dCbGFuaygpKS50aGVuUmV0dXJuKGZhbHNlKTsKICAgICAgICB2YWxpZGF0b3IgPSBuZXcgUGhvbmVOdW1iZXJWYWxpZGF0b3IoKTsKICAgICAgICB2YWxpZGF0b3IuaW5pdGlhbGl6ZShjb25zdHJhaW50KTsK</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBhCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICogYW5kIGhhdmUgdGhlIGNvcnJlY3QgbnVtYmVyIG9mIGRpZ2l0cy4K</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWxpZGF0b3IgPSBuZXcgUGhvbmVOdW1iZXJWYWxpZGF0b3IoKTsKICAgICAgICB2YWxpZGF0b3IuaW5pdGlhbGl6ZShjb25zdHJhaW50KTsK</text>
+        <text encoding="base64">ICAgICAgICB3aGVuKGNvbnN0cmFpbnQuYWxsb3dCbGFuaygpKS50aGVuUmV0dXJuKGZhbHNlKTsKICAgICAgICB2YWxpZGF0b3IgPSBuZXcgUGhvbmVOdW1iZXJWYWxpZGF0b3IoKTsKICAgICAgICB2YWxpZGF0b3IuaW5pdGlhbGl6ZShjb25zdHJhaW50KTsK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuKGNvbnN0cmFpbnQuYWxsb3dCbGFuaygpKS50aGVuUmV0dXJuKGZhbHNlKTsKICAgICAgICB2YWxpZGF0b3IgPSBuZXcgUGhvbmVOdW1iZXJWYWxpZGF0b3IoKTsKICAgICAgICB2YWxpZGF0b3IuaW5pdGlhbGl6ZShjb25zdHJhaW50KTsK</text>
+        <text encoding="base64">ICAgICAgICB2YWxpZGF0b3IgPSBuZXcgUGhvbmVOdW1iZXJWYWxpZGF0b3IoKTsKICAgICAgICB2YWxpZGF0b3IuaW5pdGlhbGl6ZShjb25zdHJhaW50KTsK</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zO3ZhbHVlO3Jhd1Bob25lTnVtYmVyO2c=</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>value</last-search>
+      <last-search>phon</last-search>
       <last-offset />
-      <last-pattern>value</last-pattern>
+      <last-pattern>phon</last-pattern>
       <last-replace>rawPhoneNumber</last-replace>
       <last-substitute>value</last-substitute>
       <last-dir>1</last-dir>
@@ -1483,8 +1483,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzZWxlY3RlZF92ZW51ZV9wYXJhbWV0ZXJzXD4=</entry>
-        <entry encoding="base64">XDxyYW5rZWRfdmVudWVfcGFyYW1ldGVyc1w+</entry>
         <entry>log\.</entry>
         <entry>builder</entry>
         <entry encoding="base64">XDx2ZW51ZVw+</entry>
@@ -1503,9 +1501,10 @@
         <entry>class</entry>
         <entry encoding="base64">XDx2YWx1ZVw+</entry>
         <entry>value</entry>
+        <entry>createvenueparam</entry>
+        <entry>phon</entry>
       </history-search>
       <history-cmd>
-        <entry>s;=; = ;g</entry>
         <entry>58</entry>
         <entry>340</entry>
         <entry>67</entry>
@@ -1523,8 +1522,9 @@
         <entry>action ShowBookmarks</entry>
         <entry>action QuickImplementations</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
-        <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5zO3ZhbHVlO3Jhd1Bob25lTnVtYmVyO2c=</entry>
+        <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
