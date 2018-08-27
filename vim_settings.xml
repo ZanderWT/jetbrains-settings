@@ -359,11 +359,11 @@
         <mark key="^" line="34" column="72" />
         <mark key="." line="34" column="72" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1535386958815">
-        <mark key="'" line="39" column="82" />
-        <mark key="[" line="38" column="91" />
-        <mark key="]" line="38" column="91" />
-        <mark key="." line="38" column="91" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1535395260105">
+        <mark key="'" line="33" column="30" />
+        <mark key="[" line="33" column="100" />
+        <mark key="]" line="33" column="100" />
+        <mark key="." line="33" column="100" />
         <mark key="^" line="38" column="91" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" timestamp="1532031103321">
@@ -1258,7 +1258,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
       <jump line="35" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="63" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="51" column="5" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
@@ -1346,7 +1345,6 @@
       <jump line="40" column="58" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" />
       <jump line="42" column="64" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" />
       <jump line="43" column="57" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" />
-      <jump line="38" column="82" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="206" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="98" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" />
       <jump line="113" column="30" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" />
@@ -1358,6 +1356,8 @@
       <jump line="135" column="50" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" />
       <jump line="178" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" />
       <jump line="61" column="16" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" />
+      <jump line="38" column="91" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="33" column="30" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1426,10 +1426,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Me'Shell Jones</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>testwriteraw</text>
+        <text>contact_title</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIC52ZW51ZUVtYWlsKCJhZG1pbkBnbG9iby1neW0uY29tIikKICAgICAgICAgICAgICAgIC52ZW51ZVBob25lTnVtYmVyKCIxMjM0NTY3ODkwIikKICAgICAgICAgICAgICAgIC5jb250YWN0RW1haWwoIm1qb25lc0BnbG9iby1neW0uY29tIikKICAgICAgICAgICAgICAgIC5jb250YWN0TmFtZSgiTWUnU2hlbGwgSm9uZXMiKQogICAgICAgICAgICAgICAgLmNvbnRhY3RQaG9uZU51bWJlcigiMDk4NzY1NDMyMSIpCg==</text>
@@ -1472,9 +1472,9 @@
       </register>
     </registers>
     <search>
-      <last-search>testwriteraw</last-search>
+      <last-search>contact_title</last-search>
       <last-offset />
-      <last-pattern>testwriteraw</last-pattern>
+      <last-pattern>contact_title</last-pattern>
       <last-replace>rawPhoneNumber</last-replace>
       <last-substitute>value</last-substitute>
       <last-dir>1</last-dir>
@@ -1482,7 +1482,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ph</entry>
         <entry>@</entry>
         <entry>notnul</entry>
         <entry>phone</entry>
@@ -1502,6 +1501,7 @@
         <entry>genre</entry>
         <entry>withoutgen</entry>
         <entry>testwriteraw</entry>
+        <entry>contact_title</entry>
       </history-search>
       <history-cmd>
         <entry>340</entry>
