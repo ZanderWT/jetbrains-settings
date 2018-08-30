@@ -437,6 +437,13 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" timestamp="1535667083683">
+        <mark key="'" line="25" column="24" />
+        <mark key="[" line="55" column="12" />
+        <mark key="]" line="55" column="13" />
+        <mark key="^" line="55" column="13" />
+        <mark key="." line="55" column="13" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ResolvedVenue.java" timestamp="1531329318507">
         <mark key="'" line="18" column="0" />
         <mark key="[" line="13" column="19" />
@@ -1283,9 +1290,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="323" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
-      <jump line="298" column="37" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
-      <jump line="299" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="302" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="19" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueMapperTest.java" />
       <jump line="21" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueMapperTest.java" />
@@ -1383,6 +1387,9 @@
       <jump line="194" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="196" column="41" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="103" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
+      <jump line="23" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
+      <jump line="25" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1451,55 +1458,55 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>factory.build(env, config.getDatabase(), &quot;mainJdbi&quot;)</text>
       </register>
       <register name="/" type="4">
-        <text>createunique</text>
+        <text>asdf</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLkdFVDsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVHlwZXMuCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA7Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgVHlwZXMuCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTGF0TG5nIGdlb2xvY2F0aW9uOwo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTGF0TG5nIGdlb2xvY2F0aW9uOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIEdlb2wK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBQQVRDSAo=</text>
+        <text encoding="base64">ICAgIEdlb2wK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBBcGlPcGVyYXRpb24odmFsdWUgPSAiaGkgdGhlcmUiKQo=</text>
+        <text encoding="base64">ICAgIEBQQVRDSAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLjsK</text>
+        <text encoding="base64">ICAgIEBBcGlPcGVyYXRpb24odmFsdWUgPSAiaGkgdGhlcmUiKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBqYXZheC53eC4K</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLjsK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>createunique</last-search>
+      <last-search>asdf</last-search>
       <last-offset />
-      <last-pattern>createunique</last-pattern>
+      <last-pattern>asdf</last-pattern>
       <last-replace>null</last-replace>
       <last-substitute>thenReturn(\zs\w\+\ze)</last-substitute>
       <last-dir>1</last-dir>
@@ -1507,8 +1514,6 @@
     </search>
     <history>
       <history-search>
-        <entry>as</entry>
-        <entry>\w\+\u</entry>
         <entry>\U\u</entry>
         <entry>&quot;\U\+\u</entry>
         <entry>&quot;\U\+\u\w*&quot;</entry>
@@ -1527,6 +1532,8 @@
         <entry>geoloca</entry>
         <entry>rawven</entry>
         <entry>createunique</entry>
+        <entry>jdbi</entry>
+        <entry>asdf</entry>
       </history-search>
       <history-cmd>
         <entry>23</entry>
