@@ -48,12 +48,6 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueData.java" timestamp="1532986451665">
-        <mark key="[" line="3" column="70" />
-        <mark key="]" line="3" column="134" />
-        <mark key="." line="3" column="134" />
-        <mark key="^" line="3" column="134" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" timestamp="1535412242544">
         <mark key="'" line="61" column="16" />
         <mark key="[" line="57" column="0" />
@@ -502,12 +496,12 @@
         <mark key="^" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/RawVenue.java" timestamp="1534976101883">
-        <mark key="'" line="28" column="4" />
-        <mark key="[" line="28" column="0" />
-        <mark key="]" line="28" column="13" />
-        <mark key="^" line="13" column="7" />
-        <mark key="." line="28" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/RawVenue.java" timestamp="1535649757953">
+        <mark key="'" line="29" column="4" />
+        <mark key="[" line="19" column="25" />
+        <mark key="]" line="19" column="35" />
+        <mark key="." line="19" column="35" />
+        <mark key="^" line="19" column="35" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/AddressNormalizer.java" timestamp="1531523685892">
         <mark key="[" line="6" column="0" />
@@ -589,6 +583,12 @@
         <mark key="]" line="16" column="25" />
         <mark key="^" line="11" column="5" />
         <mark key="." line="16" column="25" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/LatLng.java" timestamp="1535649511472">
+        <mark key="[" line="5" column="74" />
+        <mark key="]" line="5" column="74" />
+        <mark key="^" line="5" column="74" />
+        <mark key="." line="5" column="74" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/ScraperJob.java" timestamp="1533593423839">
         <mark key="[" line="15" column="24" />
@@ -940,6 +940,12 @@
         <mark key="^" line="16" column="101" />
         <mark key="." line="20" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00013_add_venue_lat_lng.sql" timestamp="1535650552837">
+        <mark key="[" line="1" column="31" />
+        <mark key="]" line="1" column="35" />
+        <mark key="^" line="1" column="35" />
+        <mark key="." line="1" column="35" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodingException.java" timestamp="1532042477223">
         <mark key="[" line="13" column="0" />
         <mark key="]" line="13" column="0" />
@@ -1012,8 +1018,9 @@
       <file name="$USER_HOME$/cp-projects/payments/src/test/resources/com/classpass/db/TestingStudioDao.sql.stg" timestamp="1534788974194">
         <mark key="'" line="28" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" timestamp="1535413713193">
-        <mark key="'" line="106" column="8" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" timestamp="1535649732094">
+        <mark key="'" line="41" column="0" />
+        <mark key="[" line="106" column="36" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/scrapers/ScraperCountryDao$Dao/getAllScraperCountries.sql" timestamp="1531329656557">
         <mark key="[" line="7" column="27" />
@@ -1122,9 +1129,6 @@
         <mark key="]" line="8" column="21" />
         <mark key="." line="8" column="21" />
         <mark key="^" line="8" column="21" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/models/ScraperTargetCountry.java" timestamp="1535133318164">
-        <mark key="^" line="2" column="48" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/Address.java" timestamp="1529595753801">
         <mark key="'" line="26" column="78" />
@@ -1276,9 +1280,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
-      <jump line="26" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/SingularVenueResolutionResource.java" />
-      <jump line="26" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
       <jump line="229" column="22" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="82" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="223" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
@@ -1376,6 +1377,9 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/resources/ScraperJobResource.java" />
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
       <jump line="40" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
+      <jump line="27" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
+      <jump line="107" column="41" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
+      <jump line="41" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1444,63 +1448,62 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Path</text>
+        <text>geolocation</text>
       </register>
       <register name="/" type="4">
-        <text>asdfa</text>
+        <text>geoloca</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLkdFVDsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBQQVRDSAo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBBcGlPcGVyYXRpb24odmFsdWUgPSAiaGkgdGhlcmUiKQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTGF0TG5nIGdlb2xvY2F0aW9uOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLjsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBqYXZheC53eC4K</text>
+        <text encoding="base64">ICAgIEdlb2wK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgIEBQQVRDSAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGlvLmRyb3B3aXphcmQuamVyc2V5LlBBVENIOwo=</text>
+        <text encoding="base64">ICAgIEBBcGlPcGVyYXRpb24odmFsdWUgPSAiaGkgdGhlcmUiKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHJldHJvZml0Mi5odHRwLkdFVDsK</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLjsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBHRVQK</text>
+        <text encoding="base64">ICAgIEBqYXZheC53eC4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgZm9vID0gImZvbyI7Cg==</text>
+        <text encoding="base64">ICAgIEBQQVRDSAo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>asdfa</last-search>
+      <last-search>geoloca</last-search>
       <last-offset />
-      <last-pattern>asdfa</last-pattern>
+      <last-pattern>geoloca</last-pattern>
       <last-replace>null</last-replace>
       <last-substitute>thenReturn(\zs\w\+\ze)</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>venue</entry>
         <entry>class</entry>
         <entry encoding="base64">XDxzb3VyY2VUeXBlXD4=</entry>
         <entry>as</entry>
@@ -1520,6 +1523,7 @@
         <entry encoding="base64">XDxpbXBvcnRcPg==</entry>
         <entry>resolved</entry>
         <entry>asdfa</entry>
+        <entry>geoloca</entry>
       </history-search>
       <history-cmd>
         <entry>23</entry>
