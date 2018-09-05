@@ -19,12 +19,12 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/models/pricing/task/PayableReservation.java" timestamp="1534784033391">
         <mark key="'" line="51" column="59" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" timestamp="1536102150868">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" timestamp="1536160354045">
         <mark key="'" line="17" column="0" />
-        <mark key="[" line="23" column="58" />
-        <mark key="]" line="23" column="58" />
-        <mark key="." line="23" column="58" />
-        <mark key="^" line="23" column="55" />
+        <mark key="[" line="24" column="25" />
+        <mark key="]" line="24" column="27" />
+        <mark key="." line="24" column="27" />
+        <mark key="^" line="24" column="27" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleScraperRequest.java" timestamp="1533593616843">
         <mark key="[" line="14" column="12" />
@@ -187,11 +187,11 @@
         <mark key="." line="19" column="26" />
         <mark key="^" line="19" column="26" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatch.java" timestamp="1536102860821">
-        <mark key="[" line="12" column="2" />
-        <mark key="]" line="12" column="4" />
-        <mark key="." line="12" column="4" />
-        <mark key="^" line="12" column="4" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatch.java" timestamp="1536160338937">
+        <mark key="[" line="14" column="51" />
+        <mark key="]" line="14" column="3" />
+        <mark key="." line="14" column="3" />
+        <mark key="^" line="14" column="3" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogicTest.java" timestamp="1534789413084">
         <mark key="'" line="263" column="17" />
@@ -523,12 +523,12 @@
         <mark key="^" line="2" column="16" />
         <mark key="." line="2" column="16" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" timestamp="1536102998917">
-        <mark key="'" line="57" column="34" />
-        <mark key="[" line="59" column="20" />
-        <mark key="]" line="59" column="21" />
-        <mark key="." line="59" column="21" />
-        <mark key="^" line="59" column="21" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" timestamp="1536160500300">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="22" column="6" />
+        <mark key="]" line="22" column="18" />
+        <mark key="." line="22" column="18" />
+        <mark key="^" line="22" column="18" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1529014589320">
         <mark key="[" line="5" column="7" />
@@ -1154,9 +1154,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="100" column="32" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
-      <jump line="105" column="56" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
-      <jump line="106" column="25" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="41" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" />
       <jump line="39" column="25" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" />
       <jump line="57" column="35" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" />
@@ -1254,6 +1251,9 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="46" column="9" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00004_create_venue_tables.sql" />
       <jump line="57" column="34" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
+      <jump line="59" column="21" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
+      <jump line="60" column="94" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1322,10 +1322,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>+</text>
+        <text>List</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">ICw=</text>
+        <text>v1</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdmFsdWUgPSAiQ3VycmVudGx5IHVuaW1wbGVtZW50ZWQuIFdoZW4gbXVsdGlwbGUgYmF0Y2hlcyBhcmUgaW1wbGVtZW50ZWQsIHRoaXMgcGFyYW1ldGVyIHNwZWNpZmllcyB0aGUgSUQgIgogICAgICAgICAgICAgICAgICAgICsgIm9mIHRoZSBiYXRjaCB0byB1cGRhdGUiKSBAUGF0aFBhcmFtKCJiYXRjaElkIikgTG9uZyBiYXRjaElkLAo=</text>
@@ -1366,13 +1366,13 @@
         <text encoding="base64">ICAgICAgICAgICAgaW50IGxpbWl0LCBpbnQgb2Zmc2V0KSB7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action NextOccurence</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">ICw=</last-search>
+      <last-search>v1</last-search>
       <last-offset />
-      <last-pattern encoding="base64">ICw=</last-pattern>
+      <last-pattern>v1</last-pattern>
       <last-replace>null</last-replace>
       <last-substitute>thenReturn(\zs\w\+\ze)</last-substitute>
       <last-dir>1</last-dir>
@@ -1380,8 +1380,6 @@
     </search>
     <history>
       <history-search>
-        <entry>rrdd</entry>
-        <entry>coordin</entry>
         <entry>new</entry>
         <entry encoding="base64">XDxMYXRMbmdcPg==</entry>
         <entry>produces</entry>
@@ -1400,13 +1398,14 @@
         <entry>forei</entry>
         <entry>refern</entry>
         <entry encoding="base64">ICw=</entry>
+        <entry>list</entry>
+        <entry>v1</entry>
       </history-search>
       <history-cmd>
         <entry>23</entry>
         <entry>68</entry>
         <entry>48</entry>
         <entry>24</entry>
-        <entry>action NextOccurence</entry>
         <entry>action QuickImplementations</entry>
         <entry encoding="base64">JzwsJz5zO3ZhbHVlO3Jhd1Bob25lTnVtYmVyO2c=</entry>
         <entry>bnext</entry>
@@ -1422,6 +1421,7 @@
         <entry>action ShowBookmarks</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ReformatCode</entry>
+        <entry>action NextOccurence</entry>
       </history-cmd>
       <history-expr />
       <history-input />
