@@ -12,11 +12,11 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/models/pricing/task/PayableReservation.java" timestamp="1534784033391">
         <mark key="'" line="51" column="59" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" timestamp="1536269368949">
-        <mark key="[" line="13" column="5" />
-        <mark key="]" line="14" column="3" />
-        <mark key="." line="14" column="3" />
-        <mark key="^" line="14" column="3" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" timestamp="1536270298046">
+        <mark key="[" line="20" column="7" />
+        <mark key="]" line="20" column="60" />
+        <mark key="." line="20" column="60" />
+        <mark key="^" line="20" column="60" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1536269325265">
         <mark key="'" line="95" column="42" />
@@ -786,12 +786,12 @@
         <mark key="^" line="5" column="40" />
         <mark key="." line="5" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" timestamp="1536269257225">
-        <mark key="'" line="22" column="18" />
-        <mark key="[" line="22" column="6" />
-        <mark key="]" line="22" column="18" />
-        <mark key="." line="22" column="18" />
-        <mark key="^" line="22" column="18" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" timestamp="1536270343630">
+        <mark key="'" line="32" column="0" />
+        <mark key="[" line="37" column="48" />
+        <mark key="]" line="37" column="48" />
+        <mark key="." line="37" column="48" />
+        <mark key="^" line="37" column="63" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" timestamp="1536254323068">
         <mark key="[" line="2" column="31" />
@@ -892,11 +892,11 @@
         <mark key="." line="5" column="57" />
         <mark key="^" line="1" column="22" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchDao.java" timestamp="1536264393236">
-        <mark key="[" line="12" column="15" />
-        <mark key="]" line="12" column="30" />
-        <mark key="^" line="12" column="30" />
-        <mark key="." line="12" column="30" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchDao.java" timestamp="1536270255837">
+        <mark key="[" line="12" column="61" />
+        <mark key="]" line="12" column="61" />
+        <mark key="^" line="12" column="83" />
+        <mark key="." line="12" column="61" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/logic/ScraperJobQueueEventDeserializer.java" timestamp="1533679627760">
         <mark key="[" line="49" column="22" />
@@ -1214,8 +1214,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="48" column="11" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
-      <jump line="53" column="11" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
       <jump line="45" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
       <jump line="54" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" />
@@ -1314,6 +1312,8 @@
       <jump line="294" column="76" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="91" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="95" column="42" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="35" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
+      <jump line="33" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1382,7 +1382,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>augmentation_batch</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>getsingularvenues</text>
@@ -1391,37 +1391,37 @@
         <text encoding="base64">Y3JlYXRlIGluZGV4IG9uIGF1Z21lbnRhdGlvbl9iYXRjaCAoYXVnbWVudGF0aW9uX2JhdGNoX2lkKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICBwdWJsaWMgQXVnbWVudGF0aW9uQmF0Y2hMb2dpYyhWZW51ZURhbyB2ZW51ZURhbykgewogICAgICAgIHRoaXMudmVudWVEYW8gPSB2ZW51ZURhbzsKICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgQFF1ZXJ5UGFyYW0oImxpbWl0IikgQERlZmF1bHRWYWx1ZSgiMSIpIEludGVnZXIgbGltaXQsCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsb25nIHZlbnVlSWQgPSAxMjM7CiAgICAgICAgTm9ybWFsaXplZEFkZHJlc3Mgbm9ybWllID0gbmV3IE5vcm1hbGl6ZWRBZGRyZXNzKCIxMjMgZmFrZSBzdHJlZXQiKTsKICAgICAgICBWZW51ZURhdGEgdmVudWVEYXRhID0gUmF3VmVudWUuYnVpbGRlcigpCiAgICAgICAgICAgICAgICAubmFtZSgiUHVtcGluZyBVcCBXaXRoIEhhbnMgQW5kIEZyYW56IikKICAgICAgICAgICAgICAgIC5pbnZlbnRvcnlUeXBlKEludmVudG9yeVR5cGUuR1lNKQogICAgICAgICAgICAgICAgLndlYnNpdGVVcmwoInd3dy5oYW5zYW5kZnJhbnouY29tIikKICAgICAgICAgICAgICAgIC5idWlsZCgpOwogICAgICAgIHJldHVybiBuZXcgQXVnbWVudGF0aW9uQmF0Y2goCiAgICAgICAgICAgICAgICBJbW11dGFibGVTZXQuY29weU9mKENvbGxlY3Rpb25zLm5Db3BpZXMobGltaXQsIG5ldyBWZW51ZUVudGl0eSh2ZW51ZUlkLCBub3JtaWUsIHZlbnVlRGF0YSkpKSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogVGhpcyBtZXRob2QgaXMgYSBtb2NrIGZvciBub3cuCiAgICAgKi8K</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>augmentation_batch</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIEBJbmplY3QK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICAgICAgQFNxbFF1ZXJ5CiAgICAgICAgQFJlZ2lzdGVyUm93TWFwcGVyKFZlbnVlTWFwcGVyLmNsYXNzKQogICAgICAgIEBSZWdpc3RlclJvd01hcHBlcihHZW5yZU1hcHBlci5jbGFzcykKICAgICAgICBAUmVnaXN0ZXJSb3dNYXBwZXIoQWRkcmVzc1Jvd01hcHBlci5jbGFzcykKICAgICAgICBAUmVnaXN0ZXJKb2luUm93TWFwcGVyKHtWZW51ZUVudGl0eS5jbGFzcywgR2VucmUuY2xhc3MsIEFkZHJlc3NSb3cuY2xhc3N9KQogICAgICAgIExpc3Q8Sm9pblJvdz4gZ2V0U2luZ3VsYXJWZW51ZXMoQEJpbmQoImxpbWl0IikgaW50IGxpbWl0LCBAQmluZCgib2Zmc2V0IikgaW50IG9mZnNldCk7Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBBdWdtZW50YXRpb25CYXRjaExvZ2ljKFZlbnVlRGFvIHZlbnVlRGFvKSB7CiAgICAgICAgdGhpcy52ZW51ZURhbyA9IHZlbnVlRGFvOwogICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB2ZW51ZURhby5nZXRTaW5ndWxhclZlbnVlcyhsaW1pdCwgb2Zmc2V0LCBCQVRDSF9JRCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIEBBcGlSZXNwb25zZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KENvbGxlY3Rpb25zLnNvcnQpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
