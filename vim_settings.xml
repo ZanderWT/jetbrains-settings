@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" timestamp="1536610357361">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" timestamp="1536694020803">
         <mark key="'" line="27" column="0" />
-        <mark key="[" line="57" column="68" />
-        <mark key="]" line="57" column="82" />
-        <mark key="." line="57" column="82" />
-        <mark key="^" line="57" column="82" />
+        <mark key="[" line="53" column="39" />
+        <mark key="]" line="53" column="46" />
+        <mark key="." line="53" column="46" />
+        <mark key="^" line="53" column="46" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/PlacesJobExecutorTest.java" timestamp="1533136791958">
         <mark key="[" line="20" column="5" />
@@ -23,12 +23,12 @@
         <mark key="." line="25" column="33" />
         <mark key="^" line="25" column="33" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1536689634340">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1536693828732">
         <mark key="'" line="246" column="40" />
-        <mark key="[" line="166" column="31" />
-        <mark key="]" line="166" column="31" />
-        <mark key="." line="166" column="31" />
-        <mark key="^" line="160" column="99" />
+        <mark key="[" line="162" column="33" />
+        <mark key="]" line="162" column="31" />
+        <mark key="." line="162" column="31" />
+        <mark key="^" line="162" column="31" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table" timestamp="1536350377942">
         <mark key="[" line="0" column="0" />
@@ -446,12 +446,12 @@
         <mark key="^" line="8" column="82" />
         <mark key="." line="8" column="82" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/VenueEntityTest.java" timestamp="1532990188765">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/VenueEntityTest.java" timestamp="1536693909423">
         <mark key="'" line="60" column="81" />
-        <mark key="[" line="58" column="87" />
-        <mark key="]" line="32" column="87" />
-        <mark key="." line="32" column="87" />
-        <mark key="^" line="32" column="87" />
+        <mark key="[" line="35" column="24" />
+        <mark key="]" line="35" column="25" />
+        <mark key="." line="35" column="25" />
+        <mark key="^" line="35" column="25" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/AddressRowMapper.java" timestamp="1530570598745">
         <mark key="'" line="12" column="56" />
@@ -744,12 +744,12 @@
         <mark key="^" line="33" column="22" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" timestamp="1536690876689">
-        <mark key="'" line="63" column="8" />
-        <mark key="[" line="63" column="0" />
-        <mark key="]" line="63" column="0" />
-        <mark key="." line="63" column="0" />
-        <mark key="^" line="405" column="7" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" timestamp="1536694004158">
+        <mark key="'" line="206" column="20" />
+        <mark key="[" line="415" column="23" />
+        <mark key="]" line="415" column="36" />
+        <mark key="." line="415" column="36" />
+        <mark key="^" line="415" column="36" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/DetailsAugmenter.java" timestamp="1533577003461">
         <mark key="[" line="30" column="0" />
@@ -1193,7 +1193,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="165" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="293" column="22" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="288" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="320" column="32" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
@@ -1293,6 +1292,7 @@
       <jump line="1" column="2" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table.sql" />
       <jump line="403" column="55" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="63" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="206" column="20" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1361,25 +1361,25 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>pointer</text>
+        <text>Resolution</text>
       </register>
       <register name="/" type="4">
-        <text>crashand</text>
+        <text>ret</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAvLyByZXZpZXcgZWFjaCB2ZW51ZSB0d2ljZQogICAgICAgIFZhcmlhYmxlVmVudWVQcm9wZXJ0aWVzIHZlbnVlUHJvcGVydGllcyA9IFZlbnVlUHJvcGVydGllc1VwZGF0ZS5idWlsZGVyKCkKICAgICAgICAgICAgICAgIC53ZWJzaXRlVXJsKCJ3d3cuc2ljay13ZWItc2l0ZS5jb20iKQogICAgICAgICAgICAgICAgLmdlbnJlcyhJbW11dGFibGVTZXQub2YoR2VucmUuSElJVCkpCiAgICAgICAgICAgICAgICAuaW52ZW50b3J5VHlwZShJbnZlbnRvcnlUeXBlLkdZTSkKICAgICAgICAgICAgICAgIC5zY2hlZHVsaW5nU29mdHdhcmUoU2NoZWR1bGluZ1NvZnR3YXJlLk1JTkRCT0RZKQogICAgICAgICAgICAgICAgLnF1YWxpZmljYXRpb24ocmF3VmVudWUuZ2V0UXVhbGlmaWNhdGlvbigpKQogICAgICAgICAgICAgICAgLmJ1aWxkKCk7CiAgICAgICAgdmVudWVEYW8udXBkYXRlVmVudWUodmVudWUxLmdldElkKCksIDEyMywgdmVudWUxLmdldEFkZHJlc3MoKS5nZXRJZCgpLmdldCgpLCB2ZW51ZVByb3BlcnRpZXMsIHRydWUpOwogICAgICAgIHZlbnVlRGFvLnVwZGF0ZVZlbnVlKHZlbnVlMS5nZXRJZCgpLCAzNDUsIHZlbnVlMS5nZXRBZGRyZXNzKCkuZ2V0SWQoKS5nZXQoKSwgdmVudWVQcm9wZXJ0aWVzLCB0cnVlKTsKICAgICAgICB2ZW51ZURhby51cGRhdGVWZW51ZSh2ZW51ZTIuZ2V0SWQoKSwgMTIzLCB2ZW51ZTIuZ2V0QWRkcmVzcygpLmdldElkKCkuZ2V0KCksIHZlbnVlUHJvcGVydGllcywgdHJ1ZSk7CiAgICAgICAgdmVudWVEYW8udXBkYXRlVmVudWUodmVudWUyLmdldElkKCksIDM0NSwgdmVudWUyLmdldEFkZHJlc3MoKS5nZXRJZCgpLmdldCgpLCB2ZW51ZVByb3BlcnRpZXMsIHRydWUpOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIG9yZy5wb3N0Z3Jlc3FsLmNvcmUudjMuUXVlcnlFeGVjdXRvckltcGw6IFRSQUNFCg==</text>
+      <register name="1" type="4">
+        <text>GetSingularVenue</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBpdERvZXNudENyYXNoQW5kQnVybigpIHsKICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4odmVudWVEYW8uZ2V0VmVudWVzKDEwMCwgMCwgbnVsbCwgbnVsbCwgbnVsbCkpOwogICAgfQoK</text>
+        <text encoding="base64">ICAgIG9yZy5wb3N0Z3Jlc3FsLmNvcmUudjMuUXVlcnlFeGVjdXRvckltcGw6IFRSQUNFCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBpdERvZXNudENyYXNoQW5kQnVybigpIHsKICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4odmVudWVEYW8uZ2V0VmVudWVzKDEwMCwgMCwgbnVsbCwgbnVsbCwgbnVsbCkpOwogICAgfQoK</text>
       </register>
       <register name="s" type="4">
         <text />
@@ -1388,28 +1388,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Z2V0U2luZ3VsYXJWZW51ZXMobGltaXQsIG9mZnNldCkgOjo9IDw8CldJVEggcmFua2VkX3ZlbnVlX3BhcmFtZXRlcnMgQVMgKAogIFNFTEVDVAogICAgbG9nLnZlbnVlX2lkLAogICAgbG9nLnZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkLAogICAgc291cmNlLmNyZWF0ZWRfb24sCiAgICBST1dfTlVNQkVSKCkgT1ZFUihQQVJUSVRJT04gQlkgbG9nLnZlbnVlX2lkIE9SREVSIEJZIHNvdXJjZV90eXBlLnByaW9yaXR5LCBsb2cuY3JlYXRlZF9vbiBERVNDKSBBUyByYW5rLAogICAgU1VNKENBU0UgV0hFTiBzb3VyY2VfdHlwZS5kZXNjcmlwdGlvbiA9ICdBZG1pbicgVEhFTiAxIEVMU0UgMCBFTkQpIE9WRVIoUEFSVElUSU9OIEJZIGxvZy52ZW51ZV9pZCkgQVMgYWRtaW5fcmV2aWV3X2NvdW50CiAgRlJPTSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyBBUyBsb2cKICBKT0lOIHZlbnVlX3NvdXJjZSBBUyBzb3VyY2UgT04gc291cmNlLnZlbnVlX3NvdXJjZV9pZCA9IGxvZy52ZW51ZV9zb3VyY2VfaWQKICBKT0lOIHZlbnVlX3NvdXJjZV90eXBlIEFTIHNvdXJjZV90eXBlIE9OIHNvdXJjZV90eXBlLnZlbnVlX3NvdXJjZV90eXBlX2lkID0gc291cmNlLnZlbnVlX3NvdXJjZV90eXBlX2lkCiksCgpzZWxlY3RlZF92ZW51ZV9wYXJhbWV0ZXJzIEFTICgKICBTRUxFQ1QKICAgIHJhbmtlZF92ZW51ZV9wYXJhbWV0ZXJzLnZlbnVlX2lkLAogICAgcmFua2VkX3ZlbnVlX3BhcmFtZXRlcnMudmVudWVfcGFyYW1ldGVyc19sb2dfaWQKICBGUk9NIHJhbmtlZF92ZW51ZV9wYXJhbWV0ZXJzCiAgV0hFUkUgcmFua2VkX3ZlbnVlX3BhcmFtZXRlcnMucmFuayA9IDEKICBBTkQgcmFua2VkX3ZlbnVlX3BhcmFtZXRlcnMuYWRtaW5fcmV2aWV3X2NvdW50IFw8IDIKICBPUkRFUiBCWSByYW5rZWRfdmVudWVfcGFyYW1ldGVycy5jcmVhdGVkX29uIEFTQwogIExJTUlUIDpsaW1pdAogIE9GRlNFVCA6b2Zmc2V0CikKClNFTEVDVAogIHZlbnVlLnZlbnVlX2lkLAogIGxvZy52ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCwKICB2ZW51ZS52ZW51ZV9uYW1lLAogIHZlbnVlLm5vcm1hbGl6ZWRfYWRkcmVzcywKICB2ZW51ZS5hZGRyZXNzX2hhc2gsCiAgdmVudWUuY29vcmRpbmF0ZXMsCiAgbG9nLnZlbnVlX3NvdXJjZV9pZCwKICBsb2cudXJsLAogIGludmVudG9yeS5pbnZlbnRvcnlfdHlwZV9uYW1lIEFTIGludmVudG9yeV90eXBlLAogIHNvZnR3YXJlLnNjaGVkdWxpbmdfc29mdHdhcmVfbmFtZSBhcyBzY2hlZHVsaW5nX3NvZnR3YXJlLAogIGxvZy5hZGRyZXNzX2lkLAogIGxvZy52ZW51ZV9waG9uZSwKICBsb2cudmVudWVfZW1haWwsCiAgbG9nLmNvbnRhY3RfcGhvbmUsCiAgbG9nLmNvbnRhY3RfZW1haWwsCiAgbG9nLmNvbnRhY3RfbmFtZSwKICBjb250YWN0X3RpdGxlLmNvbnRhY3RfdGl0bGVfbmFtZSBhcyBjb250YWN0X3RpdGxlLAogIHNvdXJjZS5zb3VyY2VfaWQgYXMgc291cmNlX2lkLAogIHNvdXJjZV90eXBlLnZlbnVlX3NvdXJjZV90eXBlX2lkIGFzIHNvdXJjZV90eXBlLAogIHNvdXJjZS5jcmVhdGVkX29uIGFzIGNyZWF0ZWRfb24sCiAgc291cmNlLmxhc3Rfc3luY2VkX29uIGFzIGxhc3Rfc3luY2VkX29uLAogIGdlbnJlLmdlbnJlX25hbWUsCiAgYWRkcmVzcy5hZGRyZXNzX2lkLAogIGFkZHJlc3MuYWRkcmVzc19jb21wb25lbnRfbmFtZSwKICBhZGRyZXNzLmFkZHJlc3NfY29tcG9uZW50X3ZhbHVlLAogIGxvZy52ZW51ZV9hbHJlYWR5X2xpdmUsCiAgbG9nLnZlbnVlX2lzX2Nsb3NlZCwKICBsb2cudmVudWVfZHVwbGljYXRlLAogIGxvZy52ZW51ZV9ub19ncm91cF9jbGFzcwpGUk9NIHZlbnVlCkpPSU4gc2VsZWN0ZWRfdmVudWVfcGFyYW1ldGVycyBPTiBzZWxlY3RlZF92ZW51ZV9wYXJhbWV0ZXJzLnZlbnVlX2lkID0gdmVudWUudmVudWVfaWQKSk9JTiB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyBsb2cgT04gbG9nLnZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkID0gc2VsZWN0ZWRfdmVudWVfcGFyYW1ldGVycy52ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZApKT0lOIHZlbnVlX3NvdXJjZSBBUyBzb3VyY2UgT04gc291cmNlLnZlbnVlX3NvdXJjZV9pZCA9IGxvZy52ZW51ZV9zb3VyY2VfaWQKTEVGVCBKT0lOIHZlbnVlX3NvdXJjZV90eXBlIEFTIHNvdXJjZV90eXBlIE9OIHNvdXJjZV90eXBlLnZlbnVlX3NvdXJjZV90eXBlX2lkID0gc291cmNlLnZlbnVlX3NvdXJjZV90eXBlX2lkCkxFRlQgSk9JTiBpbnZlbnRvcnlfdHlwZSBBUyBpbnZlbnRvcnkgT04gaW52ZW50b3J5LmludmVudG9yeV90eXBlX2lkID0gbG9nLmludmVudG9yeV90eXBlX2lkCkxFRlQgSk9JTiBzY2hlZHVsaW5nX3NvZnR3YXJlIEFTIHNvZnR3YXJlIE9OIHNvZnR3YXJlLnNjaGVkdWxpbmdfc29mdHdhcmVfaWQgPSBsb2cuc2NoZWR1bGluZ19zb2Z0d2FyZV9pZApMRUZUIEpPSU4gY29udGFjdF90aXRsZSBBUyBjb250YWN0X3RpdGxlIE9OIGNvbnRhY3RfdGl0bGUuY29udGFjdF90aXRsZV9pZCA9IGxvZy5jb250YWN0X3RpdGxlX2lkCkxFRlQgSk9JTiB2ZW51ZV9nZW5yZSBPTiB2ZW51ZV9nZW5yZS52ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCA9IGxvZy52ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZApMRUZUIEpPSU4gZ2VucmUgT04gZ2VucmUuZ2VucmVfaWQgPSB2ZW51ZV9nZW5yZS5nZW5yZV9pZApMRUZUIEpPSU4gYWRkcmVzcyBPTiBhZGRyZXNzLmFkZHJlc3NfaWQgPSBsb2cuYWRkcmVzc19pZAoKPj4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">Z2V0U2luZ3VsYXJWZW51ZXMobGltaXQsIG9mZnNldCkgOjo9IDw8CldJVEggcmFua2VkX3ZlbnVlX3BhcmFtZXRlcnMgQVMgKAogIFNFTEVDVAogICAgbG9nLnZlbnVlX2lkLAogICAgbG9nLnZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkLAogICAgc291cmNlLmNyZWF0ZWRfb24sCiAgICBST1dfTlVNQkVSKCkgT1ZFUihQQVJUSVRJT04gQlkgbG9nLnZlbnVlX2lkIE9SREVSIEJZIHNvdXJjZV90eXBlLnByaW9yaXR5LCBsb2cuY3JlYXRlZF9vbiBERVNDKSBBUyByYW5rLAogICAgU1VNKENBU0UgV0hFTiBzb3VyY2VfdHlwZS5kZXNjcmlwdGlvbiA9ICdBZG1pbicgVEhFTiAxIEVMU0UgMCBFTkQpIE9WRVIoUEFSVElUSU9OIEJZIGxvZy52ZW51ZV9pZCkgQVMgYWRtaW5fcmV2aWV3X2NvdW50CiAgRlJPTSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyBBUyBsb2cKICBKT0lOIHZlbnVlX3NvdXJjZSBBUyBzb3VyY2UgT04gc291cmNlLnZlbnVlX3NvdXJjZV9pZCA9IGxvZy52ZW51ZV9zb3VyY2VfaWQKICBKT0lOIHZlbnVlX3NvdXJjZV90eXBlIEFTIHNvdXJjZV90eXBlIE9OIHNvdXJjZV90eXBlLnZlbnVlX3NvdXJjZV90eXBlX2lkID0gc291cmNlLnZlbnVlX3NvdXJjZV90eXBlX2lkCiksCgpzZWxlY3RlZF92ZW51ZV9wYXJhbWV0ZXJzIEFTICgKICBTRUxFQ1QKICAgIHJhbmtlZF92ZW51ZV9wYXJhbWV0ZXJzLnZlbnVlX2lkLAogICAgcmFua2VkX3ZlbnVlX3BhcmFtZXRlcnMudmVudWVfcGFyYW1ldGVyc19sb2dfaWQKICBGUk9NIHJhbmtlZF92ZW51ZV9wYXJhbWV0ZXJzCiAgV0hFUkUgcmFua2VkX3ZlbnVlX3BhcmFtZXRlcnMucmFuayA9IDEKICBBTkQgcmFua2VkX3ZlbnVlX3BhcmFtZXRlcnMuYWRtaW5fcmV2aWV3X2NvdW50IFw8IDIKICBPUkRFUiBCWSByYW5rZWRfdmVudWVfcGFyYW1ldGVycy5jcmVhdGVkX29uIEFTQwogIExJTUlUIDpsaW1pdAogIE9GRlNFVCA6b2Zmc2V0CikKClNFTEVDVAogIHZlbnVlLnZlbnVlX2lkLAogIGxvZy52ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCwKICB2ZW51ZS52ZW51ZV9uYW1lLAogIHZlbnVlLm5vcm1hbGl6ZWRfYWRkcmVzcywKICB2ZW51ZS5hZGRyZXNzX2hhc2gsCiAgdmVudWUuY29vcmRpbmF0ZXMsCiAgbG9nLnZlbnVlX3NvdXJjZV9pZCwKICBsb2cudXJsLAogIGludmVudG9yeS5pbnZlbnRvcnlfdHlwZV9uYW1lIEFTIGludmVudG9yeV90eXBlLAogIHNvZnR3YXJlLnNjaGVkdWxpbmdfc29mdHdhcmVfbmFtZSBhcyBzY2hlZHVsaW5nX3NvZnR3YXJlLAogIGxvZy5hZGRyZXNzX2lkLAogIGxvZy52ZW51ZV9waG9uZSwKICBsb2cudmVudWVfZW1haWwsCiAgbG9nLmNvbnRhY3RfcGhvbmUsCiAgbG9nLmNvbnRhY3RfZW1haWwsCiAgbG9nLmNvbnRhY3RfbmFtZSwKICBjb250YWN0X3RpdGxlLmNvbnRhY3RfdGl0bGVfbmFtZSBhcyBjb250YWN0X3RpdGxlLAogIHNvdXJjZS5zb3VyY2VfaWQgYXMgc291cmNlX2lkLAogIHNvdXJjZV90eXBlLnZlbnVlX3NvdXJjZV90eXBlX2lkIGFzIHNvdXJjZV90eXBlLAogIHNvdXJjZS5jcmVhdGVkX29uIGFzIGNyZWF0ZWRfb24sCiAgc291cmNlLmxhc3Rfc3luY2VkX29uIGFzIGxhc3Rfc3luY2VkX29uLAogIGdlbnJlLmdlbnJlX25hbWUsCiAgYWRkcmVzcy5hZGRyZXNzX2lkLAogIGFkZHJlc3MuYWRkcmVzc19jb21wb25lbnRfbmFtZSwKICBhZGRyZXNzLmFkZHJlc3NfY29tcG9uZW50X3ZhbHVlLAogIGxvZy52ZW51ZV9hbHJlYWR5X2xpdmUsCiAgbG9nLnZlbnVlX2lzX2Nsb3NlZCwKICBsb2cudmVudWVfZHVwbGljYXRlLAogIGxvZy52ZW51ZV9ub19ncm91cF9jbGFzcwpGUk9NIHZlbnVlCkpPSU4gc2VsZWN0ZWRfdmVudWVfcGFyYW1ldGVycyBPTiBzZWxlY3RlZF92ZW51ZV9wYXJhbWV0ZXJzLnZlbnVlX2lkID0gdmVudWUudmVudWVfaWQKSk9JTiB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyBsb2cgT04gbG9nLnZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkID0gc2VsZWN0ZWRfdmVudWVfcGFyYW1ldGVycy52ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZApKT0lOIHZlbnVlX3NvdXJjZSBBUyBzb3VyY2UgT04gc291cmNlLnZlbnVlX3NvdXJjZV9pZCA9IGxvZy52ZW51ZV9zb3VyY2VfaWQKTEVGVCBKT0lOIHZlbnVlX3NvdXJjZV90eXBlIEFTIHNvdXJjZV90eXBlIE9OIHNvdXJjZV90eXBlLnZlbnVlX3NvdXJjZV90eXBlX2lkID0gc291cmNlLnZlbnVlX3NvdXJjZV90eXBlX2lkCkxFRlQgSk9JTiBpbnZlbnRvcnlfdHlwZSBBUyBpbnZlbnRvcnkgT04gaW52ZW50b3J5LmludmVudG9yeV90eXBlX2lkID0gbG9nLmludmVudG9yeV90eXBlX2lkCkxFRlQgSk9JTiBzY2hlZHVsaW5nX3NvZnR3YXJlIEFTIHNvZnR3YXJlIE9OIHNvZnR3YXJlLnNjaGVkdWxpbmdfc29mdHdhcmVfaWQgPSBsb2cuc2NoZWR1bGluZ19zb2Z0d2FyZV9pZApMRUZUIEpPSU4gY29udGFjdF90aXRsZSBBUyBjb250YWN0X3RpdGxlIE9OIGNvbnRhY3RfdGl0bGUuY29udGFjdF90aXRsZV9pZCA9IGxvZy5jb250YWN0X3RpdGxlX2lkCkxFRlQgSk9JTiB2ZW51ZV9nZW5yZSBPTiB2ZW51ZV9nZW5yZS52ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCA9IGxvZy52ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZApMRUZUIEpPSU4gZ2VucmUgT04gZ2VucmUuZ2VucmVfaWQgPSB2ZW51ZV9nZW5yZS5nZW5yZV9pZApMRUZUIEpPSU4gYWRkcmVzcyBPTiBhZGRyZXNzLmFkZHJlc3NfaWQgPSBsb2cuYWRkcmVzc19pZAoKPj4K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5xdWFsaWZpY2F0aW9uKHF1YWxpZmljYXRpb24pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByYXdWZW51ZS5nZXRRdQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5xdWFsaWZpY2F0aW9uKHF1YWxpZmljYXRpb24pCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBWZW51ZVF1YWxpZmljYXRpb24gcXVhbGlmaWNhdGlvbiA9IFZlbnVlUXVhbGlmaWNhdGlvbi5idWlsZGVyKCkKICAgICAgICAgICAgICAgIC5hbHJlYWR5TGl2ZShmYWxzZSkKICAgICAgICAgICAgICAgIC52ZW51ZUNsb3NlZChmYWxzZSkKICAgICAgICAgICAgICAgIC5kdXBsaWNhdGVkVmVudWUoZmFsc2UpCiAgICAgICAgICAgICAgICAubm9Hcm91cENsYXNzKGZhbHNlKQogICAgICAgICAgICAgICAgLmJ1aWxkKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICByYXdWZW51ZS5nZXRRdQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action NextOccurence</text>
       </register>
     </registers>
     <search>
-      <last-search>crashand</last-search>
+      <last-search>ret</last-search>
       <last-offset />
-      <last-pattern>crashand</last-pattern>
+      <last-pattern>ret</last-pattern>
       <last-replace>venue2</last-replace>
       <last-substitute>venue1</last-substitute>
       <last-dir>1</last-dir>
@@ -1417,7 +1417,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxsb2dcPg==</entry>
         <entry>min</entry>
         <entry>todo</entry>
         <entry>with selec</entry>
@@ -1437,15 +1436,14 @@
         <entry>getsing</entry>
         <entry>is t</entry>
         <entry>crashand</entry>
+        <entry>ret</entry>
       </history-search>
       <history-cmd>
-        <entry>setlocal invlist</entry>
         <entry encoding="base64">JzwsJz5zO3RoZW5SZXR1cm4oXHpzXHdcK1x6ZSk7bnVsbDs=</entry>
         <entry>122</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
-        <entry>action NextOccurence</entry>
         <entry>s;Size;Count;g</entry>
         <entry>s;int;Integer;g</entry>
         <entry>s;long;Long;g</entry>
@@ -1459,6 +1457,8 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
+        <entry>action PreviousOccurence</entry>
+        <entry>action NextOccurence</entry>
       </history-cmd>
       <history-expr />
       <history-input />
