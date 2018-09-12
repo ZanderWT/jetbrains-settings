@@ -16,11 +16,12 @@
         <mark key="." line="23" column="7" />
         <mark key="^" line="23" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" timestamp="1536783308427">
-        <mark key="[" line="26" column="5" />
-        <mark key="]" line="27" column="3" />
-        <mark key="." line="27" column="3" />
-        <mark key="^" line="27" column="3" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" timestamp="1536784014406">
+        <mark key="'" line="41" column="27" />
+        <mark key="[" line="39" column="56" />
+        <mark key="]" line="40" column="7" />
+        <mark key="." line="40" column="7" />
+        <mark key="^" line="40" column="7" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1536706214176">
         <mark key="'" line="169" column="0" />
@@ -874,6 +875,12 @@
         <mark key="." line="11" column="26" />
         <mark key="^" line="11" column="26" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueFilterLogic.java" timestamp="1536784153087">
+        <mark key="[" line="32" column="12" />
+        <mark key="]" line="32" column="29" />
+        <mark key="^" line="32" column="29" />
+        <mark key="." line="32" column="29" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/ResolvedVenue.java" timestamp="1531329318507">
         <mark key="'" line="18" column="0" />
         <mark key="[" line="13" column="19" />
@@ -1197,11 +1204,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="147" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="124" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="115" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="102" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="198" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="194" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="168" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="162" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
@@ -1297,6 +1299,11 @@
       <jump line="61" column="33" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
       <jump line="45" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
       <jump line="53" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchResource.java" />
+      <jump line="18" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" />
+      <jump line="19" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" />
+      <jump line="26" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" />
+      <jump line="34" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" />
+      <jump line="41" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1365,25 +1372,25 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>venueIds</text>
+        <text>return</text>
       </register>
       <register name="/" type="4">
-        <text>by</text>
+        <text>venuedao</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAvLyByZXZpZXcgZWFjaCB2ZW51ZSB0d2ljZQogICAgICAgIFZhcmlhYmxlVmVudWVQcm9wZXJ0aWVzIHZlbnVlUHJvcGVydGllcyA9IFZlbnVlUHJvcGVydGllc1VwZGF0ZS5idWlsZGVyKCkKICAgICAgICAgICAgICAgIC53ZWJzaXRlVXJsKCJ3d3cuc2ljay13ZWItc2l0ZS5jb20iKQogICAgICAgICAgICAgICAgLmdlbnJlcyhJbW11dGFibGVTZXQub2YoR2VucmUuSElJVCkpCiAgICAgICAgICAgICAgICAuaW52ZW50b3J5VHlwZShJbnZlbnRvcnlUeXBlLkdZTSkKICAgICAgICAgICAgICAgIC5zY2hlZHVsaW5nU29mdHdhcmUoU2NoZWR1bGluZ1NvZnR3YXJlLk1JTkRCT0RZKQogICAgICAgICAgICAgICAgLnF1YWxpZmljYXRpb24ocmF3VmVudWUuZ2V0UXVhbGlmaWNhdGlvbigpKQogICAgICAgICAgICAgICAgLmJ1aWxkKCk7CiAgICAgICAgdmVudWVEYW8udXBkYXRlVmVudWUodmVudWUxLmdldElkKCksIDEyMywgdmVudWUxLmdldEFkZHJlc3MoKS5nZXRJZCgpLmdldCgpLCB2ZW51ZVByb3BlcnRpZXMsIHRydWUpOwogICAgICAgIHZlbnVlRGFvLnVwZGF0ZVZlbnVlKHZlbnVlMS5nZXRJZCgpLCAzNDUsIHZlbnVlMS5nZXRBZGRyZXNzKCkuZ2V0SWQoKS5nZXQoKSwgdmVudWVQcm9wZXJ0aWVzLCB0cnVlKTsKICAgICAgICB2ZW51ZURhby51cGRhdGVWZW51ZSh2ZW51ZTIuZ2V0SWQoKSwgMTIzLCB2ZW51ZTIuZ2V0QWRkcmVzcygpLmdldElkKCkuZ2V0KCksIHZlbnVlUHJvcGVydGllcywgdHJ1ZSk7CiAgICAgICAgdmVudWVEYW8udXBkYXRlVmVudWUodmVudWUyLmdldElkKCksIDM0NSwgdmVudWUyLmdldEFkZHJlc3MoKS5nZXRJZCgpLmdldCgpLCB2ZW51ZVByb3BlcnRpZXMsIHRydWUpOwo=</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBMaXN0PFZlbnVlRW50aXR5PiBnZXRGaWx0ZXJlZFZlbnVlcyhWZW51ZUZpbHRlclJlcXVlc3QgcmVxdWVzdCwgaW50IGxpbWl0LCBpbnQgb2Zmc2V0KSB7CiAgICAgICAgcmV0dXJuIHZlbnVlRGFvLmdldEZpbHRlcmVkVmVudWVzKHJlcXVlc3QuZ2V0Q291bnRyeSgpLCByZXF1ZXN0LmdldFN0YXRlKCksIHJlcXVlc3QuZ2V0Q2l0eSgpLAogICAgICAgICAgICAgICAgcmVxdWVzdC5nZXRQb3N0YWxDb2RlKCksIHJlcXVlc3QuZ2V0QWZ0ZXJEYXRlKCksIHJlcXVlc3QuZ2V0QmVmb3JlRGF0ZSgpLCBsaW1pdCwgb2Zmc2V0KTsKICAgIH0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICBAQXBpT3BlcmF0aW9uKHZhbHVlID0gIkFkZCB2ZW51ZXMgbWF0Y2hpbmcgZmlsdGVycyB0byBhIGJhdGNoLiIpCiAgICBAUFVUCiAgICBAUGF0aCgiL3tiYXRjaElkfSIpCiAgICBwdWJsaWMgUmVzcG9uc2UgYWRkVG9CYXRjaChAQXBpUGFyYW0ocmVxdWlyZWQgPSB0cnVlLAogICAgICAgICAgICB2YWx1ZSA9ICJDdXJyZW50bHkgdW5pbXBsZW1lbnRlZC4gV2hlbiBtdWx0aXBsZSBiYXRjaGVzIGFyZSBpbXBsZW1lbnRlZCwgdGhpcyBwYXJhbWV0ZXIgc3BlY2lmaWVzIHRoZSBJRCAiCiAgICAgICAgICAgICAgICAgICAgKyAib2YgdGhlIGJhdGNoIHRvIHVwZGF0ZSIpIEBQYXRoUGFyYW0oImJhdGNoSWQiKSBMb25nIGJhdGNoSWQsCiAgICAgICAgICAgIEBCZWFuUGFyYW0gVmVudWVGaWx0ZXJSZXF1ZXN0IHJlcSkgewogICAgICAgIGJhdGNoTG9naWMuYWRkVG9CYXRjaChyZXEpOwogICAgICAgIHJldHVybiBSZXNwb25zZS5ub0NvbnRlbnQoKS5idWlsZCgpOwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgKCkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyAK</text>
+        <text encoding="base64">ICAgICAqIEByZXR1cm4K</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">IEBQYXRoUGFyYW0oImJhdGNoSWQiKSBMb25nIGJhdGNoSWQsCiAgICAgICAgICAgIEBBcGlQYXJhbShyZXF1aXJlZCA9IHRydWUsIHZhbHVlID0gIkxpc3Qgb2YgdmVudWUgaWRzIHRvIGFkZCB0byB0aGUgYmF0Y2guIikgTGlzdDxMb25nPiB2ZW51ZUlkcw==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICB2ZW51ZURhby5nZXRGaWx0ZXJlZFZlbnVlcygsICwgLCAsICwgLCAsICkK</text>
       </register>
       <register name="s" type="4">
         <text />
@@ -1391,39 +1398,36 @@
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="4">
-        <text>@ApiParam(required = true,
-            value = &quot;Currently unimplemented. When multiple batches are implemented, this parameter specifies the ID &quot;
-                    + &quot;of the batch to update&quot;)</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPIHdyaXRlIGEgd3JhcHBlciBtZXRob2QgaW4gVmVudWVMb2dpYyBmb3IgdGhpcwo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAocmVxdWVzdCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAvL3RvZG8gaW1wbGVtZW50IG1lIHBscy4K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvL2JhdGNoRGFvLmFkZFZlbnVlc1RvQXVnbWVudGF0aW9uQmF0Y2goQkFUQ0hfSUQpOwo=</text>
+        <text encoding="base64">CiAgICBAQXBpT3BlcmF0aW9uKHZhbHVlID0gIkFkZCB2ZW51ZXMgbWF0Y2hpbmcgZmlsdGVycyB0byBhIGJhdGNoLiIpCiAgICBAUFVUCiAgICBAUGF0aCgiL3tiYXRjaElkfSIpCiAgICBwdWJsaWMgUmVzcG9uc2UgYWRkVG9CYXRjaChAQXBpUGFyYW0ocmVxdWlyZWQgPSB0cnVlLAogICAgICAgICAgICB2YWx1ZSA9ICJDdXJyZW50bHkgdW5pbXBsZW1lbnRlZC4gV2hlbiBtdWx0aXBsZSBiYXRjaGVzIGFyZSBpbXBsZW1lbnRlZCwgdGhpcyBwYXJhbWV0ZXIgc3BlY2lmaWVzIHRoZSBJRCAiCiAgICAgICAgICAgICAgICAgICAgKyAib2YgdGhlIGJhdGNoIHRvIHVwZGF0ZSIpIEBQYXRoUGFyYW0oImJhdGNoSWQiKSBMb25nIGJhdGNoSWQsCiAgICAgICAgICAgIEBCZWFuUGFyYW0gVmVudWVGaWx0ZXJSZXF1ZXN0IHJlcSkgewogICAgICAgIGJhdGNoTG9naWMuYWRkVG9CYXRjaChyZXEpOwogICAgICAgIHJldHVybiBSZXNwb25zZS5ub0NvbnRlbnQoKS5idWlsZCgpOwogICAgfQoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAvKioKICAgICAqIFJldHVybiBhIGxpc3Qgb2YgdmVudWVzIGZpbHRlcmVkIGJ5IGEgc2V0IG9mIG9wdGlvbmFsLCBudWxsYWJsZSBwYXJhbWV0ZXJzLiBGb3IgZXhhbXBsZSwgaWYKICAgICAqIGNvdW50cnk9U2luZ2Fwb3JlLCBhbmQgcG9zdGFsQ29kZT0xMjM0NTYsIHJldHVybiBvbmx5IHRoZSB2ZW51ZXMgdGhhdCBhcmUgaW4gU2luZ2Fwb3JlIHRoYXQgYWxzbyBoYXZlIGEgcG9zdGFsCiAgICAgKiBjb2RlIG9mIDEyMzQ1Ni4gVGhpcyBtZXRob2Qgb25seSByZXR1cm5zIHZlbnVlcyB0aGF0IGhhdmUgYmVlbiBhZG1pbi1yZXZpZXdlZCBhdCBsZWFzdCB0d2ljZS4KICAgICAqLwogICAgcHVibGljIExpc3Q8VmVudWVFbnRpdHk+IGdldEZpbHRlcmVkVmVudWVzKEBOdWxsYWJsZSBTdHJpbmcgY291bnRyeSwgQE51bGxhYmxlIFN0cmluZyBzdGF0ZSwKICAgICAgICAgICAgQE51bGxhYmxlIFN0cmluZyBjaXR5LCBATnVsbGFibGUgU3RyaW5nIHBvc3RhbENvZGUsCiAgICAgICAgICAgIEBOdWxsYWJsZSBMb2NhbERhdGVUaW1lIGFmdGVyRGF0ZSwKICAgICAgICAgICAgQE51bGxhYmxlIExvY2FsRGF0ZVRpbWUgYmVmb3JlRGF0ZSwgaW50IGxpbWl0LCBpbnQgb2Zmc2V0KSB7CiAgICAgICAgaW50IG1pblJldmlld0NvdW50ID0gMjsKICAgICAgICBMaXN0PFZlbnVlRW50aXR5PiB2ZW51ZUVudGl0aWVzID0gdGhpcy5nZXRWZW51ZXMobGltaXQsIG9mZnNldCwgbWluUmV2aWV3Q291bnQsIG51bGwsIG51bGwpOwogICAgICAgIExpc3Q8VmVudWVFbnRpdHk+IGZpbHRlcmVkVmVudWVFbnRpdGllcyA9IG5ldyBBcnJheUxpc3Q8PigpOwoKICAgICAgICBpZiAoIXZlbnVlRW50aXRpZXMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIGZpbHRlcmVkVmVudWVFbnRpdGllcyA9IGZpbHRlclZlbnVlRW50aXRpZXMoY291bnRyeSwgc3RhdGUsIGNpdHksIHBvc3RhbENvZGUsIGFmdGVyRGF0ZSwgYmVmb3JlRGF0ZSwKICAgICAgICAgICAgICAgICAgICB2ZW51ZUVudGl0aWVzKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiBmaWx0ZXJlZFZlbnVlRW50aXRpZXM7CiAgICB9CgogICAgcHJpdmF0ZSBMaXN0PFZlbnVlRW50aXR5PiBmaWx0ZXJWZW51ZUVudGl0aWVzKEBOdWxsYWJsZSBTdHJpbmcgY291bnRyeSwgQE51bGxhYmxlIFN0cmluZyBzdGF0ZSwKICAgICAgICAgICAgQE51bGxhYmxlIFN0cmluZyBjaXR5LCBATnVsbGFibGUgU3RyaW5nIHBvc3RhbENvZGUsCiAgICAgICAgICAgIEBOdWxsYWJsZSBMb2NhbERhdGVUaW1lIGFmdGVyRGF0ZSwgQE51bGxhYmxlIExvY2FsRGF0ZVRpbWUgYmVmb3JlRGF0ZSwKICAgICAgICAgICAgTGlzdDxWZW51ZUVudGl0eT4gdmVudWVFbnRpdGllcykgewogICAgICAgIHJldHVybiB2ZW51ZUVudGl0aWVzLnN0cmVhbSgpLmZpbHRlcigKICAgICAgICAgICAgICAgIHZlbnVlRW50aXR5IC0+IHsKICAgICAgICAgICAgICAgICAgICBNYXA8QWRkcmVzc0NvbXBvbmVudCwgU3RyaW5nPiBjb21wb25lbnRzID0gdmVudWVFbnRpdHkuZ2V0QWRkcmVzcygpLmdldENvbXBvbmVudHMoKTsKICAgICAgICAgICAgICAgICAgICBTdHJpbmcgY29tcG9uZW50Q291bnRyeSA9IGNvbXBvbmVudHMuZ2V0KEFkZHJlc3NDb21wb25lbnQuQ09VTlRSWSk7CiAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGNvbXBvbmVudFN0YXRlID0gY29tcG9uZW50cy5nZXQoQWRkcmVzc0NvbXBvbmVudC5BRE1JTklTVFJBVElWRV9BUkVBX0xFVkVMXzEpOwogICAgICAgICAgICAgICAgICAgIFN0cmluZyBjb21wb25lbnRDaXR5ID0gY29tcG9uZW50cy5nZXQoQWRkcmVzc0NvbXBvbmVudC5MT0NBTElUWSk7CiAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGNvbXBvbmVudFBvc3RhbENvZGUgPSBjb21wb25lbnRzLmdldChBZGRyZXNzQ29tcG9uZW50LlBPU1RBTF9DT0RFKTsKICAgICAgICAgICAgICAgICAgICBMb2NhbERhdGVUaW1lIGxhc3RTeW5jZWRPbiA9IHZlbnVlRW50aXR5LmdldFNvdXJjZSgpLmdldExhc3RTeW5jZWRPbigpOwogICAgICAgICAgICAgICAgICAgIEJpRnVuY3Rpb248T2JqZWN0LCBPYmplY3QsIEJvb2xlYW4+IGRvRmlsdGVyID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIChmaWx0ZXJWYWx1ZSwgYWN0dWFsVmFsdWUpIC0+IGFjdHVhbFZhbHVlID09IG51bGwgfHwgZmlsdGVyVmFsdWUuZXF1YWxzKGFjdHVhbFZhbHVlKTsKICAgICAgICAgICAgICAgICAgICBCb29sZWFuIHJlc3VsdCA9IGRvRmlsdGVyLmFwcGx5KGNvbXBvbmVudENvdW50cnksIGNvdW50cnkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmJiBkb0ZpbHRlci5hcHBseShjb21wb25lbnRTdGF0ZSwgc3RhdGUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmJiBkb0ZpbHRlci5hcHBseShjb21wb25lbnRDaXR5LCBjaXR5KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgJiYgZG9GaWx0ZXIuYXBwbHkoY29tcG9uZW50UG9zdGFsQ29kZSwgcG9zdGFsQ29kZSk7CiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0ICYmIChiZWZvcmVEYXRlID09IG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHx8IGxhc3RTeW5jZWRPbi5pc0JlZm9yZShiZWZvcmVEYXRlKSk7CiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0ICYmIChhZnRlckRhdGUgPT0gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfHwgbGFzdFN5bmNlZE9uLmlzQWZ0ZXIoYWZ0ZXJEYXRlKSk7CgogICAgICAgICAgICAgICAgICAgIHJldHVybiByZXN1bHQ7CiAgICAgICAgICAgICAgICB9KS5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwogICAgfQo=</text>
+        <text encoding="base64">ICAgIHB1YmxpYyAK</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>by</last-search>
+      <last-search>venuedao</last-search>
       <last-offset />
-      <last-pattern>by</last-pattern>
+      <last-pattern>venuedao</last-pattern>
       <last-replace>venue2</last-replace>
       <last-substitute>venue1</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx1cGRhdGVWZW51ZVw+</entry>
         <entry>update venu</entry>
         <entry encoding="base64">XDxjcmVhdGVWZW51ZVBhcmFtZXRlckxvZ1JlY29yZFw+</entry>
         <entry>createvenuepara</entry>
@@ -1443,6 +1447,7 @@
         <entry>aug</entry>
         <entry encoding="base64">XDxQVVRcPg==</entry>
         <entry>by</entry>
+        <entry>venuedao</entry>
       </history-search>
       <history-cmd>
         <entry>action VcsShowPrevChangeMarker</entry>
@@ -1457,14 +1462,14 @@
         <entry>87</entry>
         <entry>143</entry>
         <entry encoding="base64">JzwsJz5zO3ZlbnVlMTt2ZW51ZTI7Zw==</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action NextOccurence</entry>
         <entry>280</entry>
         <entry>w</entry>
         <entry>31</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
