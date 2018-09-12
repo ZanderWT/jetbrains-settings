@@ -743,12 +743,12 @@
         <mark key="^" line="33" column="22" />
         <mark key="." line="38" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" timestamp="1536694004158">
-        <mark key="'" line="206" column="20" />
-        <mark key="[" line="415" column="23" />
-        <mark key="]" line="415" column="36" />
-        <mark key="." line="415" column="36" />
-        <mark key="^" line="415" column="36" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" timestamp="1536766252040">
+        <mark key="'" line="279" column="8" />
+        <mark key="[" line="443" column="31" />
+        <mark key="]" line="443" column="32" />
+        <mark key="." line="443" column="32" />
+        <mark key="^" line="443" column="32" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/DetailsAugmenter.java" timestamp="1533577003461">
         <mark key="[" line="30" column="0" />
@@ -1192,9 +1192,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="63" column="66" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
-      <jump line="166" column="34" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
-      <jump line="116" column="34" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="123" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="132" column="2" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="118" column="48" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
@@ -1292,6 +1289,9 @@
       <jump line="150" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="128" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="119" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="433" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="439" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
+      <jump line="279" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1360,7 +1360,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>joinRows</text>
+        <text>adminId</text>
       </register>
       <register name="/" type="4">
         <text>read v</text>
@@ -1402,7 +1402,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name=":" type="4">
-        <text>action NextOccurence</text>
+        <text>280</text>
       </register>
     </registers>
     <search>
@@ -1438,7 +1438,6 @@
         <entry>read v</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zO3RoZW5SZXR1cm4oXHpzXHdcK1x6ZSk7bnVsbDs=</entry>
         <entry>122</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
@@ -1458,6 +1457,7 @@
         <entry>action ReformatCode</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action NextOccurence</entry>
+        <entry>280</entry>
       </history-cmd>
       <history-expr />
       <history-input />
