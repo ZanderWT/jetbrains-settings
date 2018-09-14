@@ -264,6 +264,9 @@
         <mark key="^" line="71" column="56" />
         <mark key="." line="71" column="56" />
       </file>
+      <file name="$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-core/4.0.2/metrics-core-4.0.2-sources.jar!/com/codahale/metrics/MetricRegistry.java" timestamp="1536786155035">
+        <mark key="'" line="29" column="13" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/CsvExportResource.java" timestamp="1536871291895">
         <mark key="[" line="35" column="75" />
         <mark key="]" line="35" column="78" />
@@ -632,6 +635,9 @@
         <mark key="^" line="17" column="46" />
         <mark key="." line="17" column="46" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/persistence/ScraperJobDao.java" timestamp="1536945534794">
+        <mark key="'" line="67" column="15" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/ServiceBootstrap.java" timestamp="1533160288316">
         <mark key="'" line="43" column="0" />
         <mark key="[" line="12" column="39" />
@@ -756,6 +762,12 @@
         <mark key="]" line="255" column="34" />
         <mark key="." line="255" column="34" />
         <mark key="^" line="255" column="34" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/logic/ScraperJobLogic.java" timestamp="1536945427948">
+        <mark key="'" line="41" column="46" />
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/ConflictBearingVenueResource.java" timestamp="1532120562910">
         <mark key="'" line="1" column="0" />
@@ -974,12 +986,18 @@
         <mark key="." line="15" column="17" />
         <mark key="^" line="15" column="17" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/models/ScraperJob.java" timestamp="1536791536501">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00016_unique_batch_rows.sql" timestamp="1536789150464">
         <mark key="'" line="0" column="104" />
         <mark key="[" line="0" column="74" />
         <mark key="]" line="0" column="86" />
         <mark key="." line="0" column="86" />
         <mark key="^" line="0" column="86" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/resources/ScraperJobResource.java" timestamp="1536786803000">
+        <mark key="'" line="36" column="71" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/ScraperJobExecutionProcessor.java" timestamp="1533153371514">
         <mark key="'" line="56" column="16" />
@@ -1259,9 +1277,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="44" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" />
-      <jump line="43" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" />
-      <jump line="42" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" />
       <jump line="33" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" />
       <jump line="367" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="343" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
@@ -1359,6 +1374,9 @@
       <jump line="44" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" />
       <jump line="69" column="63" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/augmentation/AugmentationBatchDaoTest.java" />
       <jump line="79" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueLogicTest.java" />
+      <jump line="43" column="46" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/logic/ScraperJobLogic.java" />
+      <jump line="45" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/persistence/ScraperJobDao.java" />
+      <jump line="67" column="15" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/persistence/ScraperJobDao.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1430,13 +1448,13 @@
         <text>i</text>
       </register>
       <register name="/" type="4">
-        <text>asdf</text>
+        <text encoding="base64">XDxnZXRTY3JhcGVySm9iXD4=</text>
       </register>
       <register name="0" type="4">
         <text>new VenueEntity(789L, normie, rawVenue);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vIEluIHRoZSBmdXR1cmUgd2Ugd2lsbCBzdXBwb3J0IG11bHRpcGxlIGJhdGNoZXMuIHVudGlsIHRoZW4sIHdlIGhhcmRjb2RlIHRoZSBiYXRjaCBpZCBoZXJlLgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgTG9uZyBCQVRDSF9JRCA9IDFMOwo=</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -1444,40 +1462,39 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>venueIds.stream().distinct().collect(
-                    Collectors.toList())</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgcHVibGljIExpc3Q8VmVudWVFbnRpdHk+IGdldEZpbHRlcmVkVmVudWVzKEBOdWxsYWJsZSBTdHJpbmcgY291bnRyeSwgQE51bGxhYmxlIFN0cmluZyBzdGF0ZSwKLy8gICAgICAgICAgICBATnVsbGFibGUgU3RyaW5nIGNpdHksIEBOdWxsYWJsZSBTdHJpbmcgcG9zdGFsQ29kZSwKLy8gICAgICAgICAgICBATnVsbGFibGUgTG9jYWxEYXRlVGltZSBhZnRlckRhdGUsCi8vICAgICAgICAgICAgQE51bGxhYmxlIExvY2FsRGF0ZVRpbWUgYmVmb3JlRGF0ZSwgaW50IGxpbWl0LCBpbnQgb2Zmc2V0KSB7Ci8vICAgICAgICBpbnQgbWluUmV2aWV3Q291bnQgPSAyOwovLyAgICAgICAgTGlzdDxWZW51ZUVudGl0eT4gdmVudWVFbnRpdGllcyA9IHRoaXMuZ2V0VmVudWVzKGxpbWl0LCBvZmZzZXQsIG1pblJldmlld0NvdW50LCBudWxsLCBudWxsKTsKLy8gICAgICAgIExpc3Q8VmVudWVFbnRpdHk+IGZpbHRlcmVkVmVudWVFbnRpdGllcyA9IG5ldyBBcnJheUxpc3Q8PigpOwovLwovLyAgICAgICAgaWYgKCF2ZW51ZUVudGl0aWVzLmlzRW1wdHkoKSkgewovLyAgICAgICAgICAgIGZpbHRlcmVkVmVudWVFbnRpdGllcyA9IGZpbHRlclZlbnVlRW50aXRpZXMoY291bnRyeSwgc3RhdGUsIGNpdHksIHBvc3RhbENvZGUsIGFmdGVyRGF0ZSwgYmVmb3JlRGF0ZSwKLy8gICAgICAgICAgICAgICAgICAgIHZlbnVlRW50aXRpZXMpOwovLyAgICAgICAgfQovLwovLyAgICAgICAgcmV0dXJuIGZpbHRlcmVkVmVudWVFbnRpdGllczsKLy8gICAgfQoK</text>
+      <register name="4" type="4">
+        <text>venueIds.stream().distinct().collect(
+                    Collectors.toList())</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogUmV0dXJuIGEgbGlzdCBvZiB2ZW51ZXMgZmlsdGVyZWQgYnkgYSBzZXQgb2Ygb3B0aW9uYWwsIG51bGxhYmxlIHBhcmFtZXRlcnMuIEZvciBleGFtcGxlLCBpZgogICAgICogY291bnRyeT1TaW5nYXBvcmUsIGFuZCBwb3N0YWxDb2RlPTEyMzQ1NiwgcmV0dXJuIG9ubHkgdGhlIHZlbnVlcyB0aGF0IGFyZSBpbiBTaW5nYXBvcmUgdGhhdCBhbHNvIGhhdmUgYSBwb3N0YWwKICAgICAqIGNvZGUgb2YgMTIzNDU2LiBUaGlzIG1ldGhvZCBvbmx5IHJldHVybnMgdmVudWVzIHRoYXQgaGF2ZSBiZWVuIGFkbWluLXJldmlld2VkIGF0IGxlYXN0IHR3aWNlLgogICAgICovCg==</text>
+        <text encoding="base64">Ly8gICAgcHVibGljIExpc3Q8VmVudWVFbnRpdHk+IGdldEZpbHRlcmVkVmVudWVzKEBOdWxsYWJsZSBTdHJpbmcgY291bnRyeSwgQE51bGxhYmxlIFN0cmluZyBzdGF0ZSwKLy8gICAgICAgICAgICBATnVsbGFibGUgU3RyaW5nIGNpdHksIEBOdWxsYWJsZSBTdHJpbmcgcG9zdGFsQ29kZSwKLy8gICAgICAgICAgICBATnVsbGFibGUgTG9jYWxEYXRlVGltZSBhZnRlckRhdGUsCi8vICAgICAgICAgICAgQE51bGxhYmxlIExvY2FsRGF0ZVRpbWUgYmVmb3JlRGF0ZSwgaW50IGxpbWl0LCBpbnQgb2Zmc2V0KSB7Ci8vICAgICAgICBpbnQgbWluUmV2aWV3Q291bnQgPSAyOwovLyAgICAgICAgTGlzdDxWZW51ZUVudGl0eT4gdmVudWVFbnRpdGllcyA9IHRoaXMuZ2V0VmVudWVzKGxpbWl0LCBvZmZzZXQsIG1pblJldmlld0NvdW50LCBudWxsLCBudWxsKTsKLy8gICAgICAgIExpc3Q8VmVudWVFbnRpdHk+IGZpbHRlcmVkVmVudWVFbnRpdGllcyA9IG5ldyBBcnJheUxpc3Q8PigpOwovLwovLyAgICAgICAgaWYgKCF2ZW51ZUVudGl0aWVzLmlzRW1wdHkoKSkgewovLyAgICAgICAgICAgIGZpbHRlcmVkVmVudWVFbnRpdGllcyA9IGZpbHRlclZlbnVlRW50aXRpZXMoY291bnRyeSwgc3RhdGUsIGNpdHksIHBvc3RhbENvZGUsIGFmdGVyRGF0ZSwgYmVmb3JlRGF0ZSwKLy8gICAgICAgICAgICAgICAgICAgIHZlbnVlRW50aXRpZXMpOwovLyAgICAgICAgfQovLwovLyAgICAgICAgcmV0dXJuIGZpbHRlcmVkVmVudWVFbnRpdGllczsKLy8gICAgfQoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG51bGwsICwKICAgICAgICAgICAgICAgICwgMiwgMCk7Cg==</text>
+        <text encoding="base64">ICAgIC8qKgogICAgICogUmV0dXJuIGEgbGlzdCBvZiB2ZW51ZXMgZmlsdGVyZWQgYnkgYSBzZXQgb2Ygb3B0aW9uYWwsIG51bGxhYmxlIHBhcmFtZXRlcnMuIEZvciBleGFtcGxlLCBpZgogICAgICogY291bnRyeT1TaW5nYXBvcmUsIGFuZCBwb3N0YWxDb2RlPTEyMzQ1NiwgcmV0dXJuIG9ubHkgdGhlIHZlbnVlcyB0aGF0IGFyZSBpbiBTaW5nYXBvcmUgdGhhdCBhbHNvIGhhdmUgYSBwb3N0YWwKICAgICAqIGNvZGUgb2YgMTIzNDU2LiBUaGlzIG1ldGhvZCBvbmx5IHJldHVybnMgdmVudWVzIHRoYXQgaGF2ZSBiZWVuIGFkbWluLXJldmlld2VkIGF0IGxlYXN0IHR3aWNlLgogICAgICovCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAvLyByZXZpZXcgdGhlIHZlbnVlIHR3aWNlCiAgICAgICAgVmFyaWFibGVWZW51ZVByb3BlcnRpZXMgdmVudWVQcm9wZXJ0aWVzID0gVmVudWVQcm9wZXJ0aWVzVXBkYXRlLmJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLndlYnNpdGVVcmwoInd3dy5zaWNrLXdlYi1zaXRlLmNvbSIpCiAgICAgICAgICAgICAgICAuZ2VucmVzKEltbXV0YWJsZVNldC5vZihHZW5yZS5ISUlUKSkKICAgICAgICAgICAgICAgIC5pbnZlbnRvcnlUeXBlKEludmVudG9yeVR5cGUuR1lNKQogICAgICAgICAgICAgICAgLnNjaGVkdWxpbmdTb2Z0d2FyZShTY2hlZHVsaW5nU29mdHdhcmUuTUlOREJPRFkpCiAgICAgICAgICAgICAgICAucXVhbGlmaWNhdGlvbihyYXdWZW51ZS5nZXRRdWFsaWZpY2F0aW9uKCkpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsKICAgICAgICB2ZW51ZURhby51cGRhdGVWZW51ZSh2ZW51ZS5nZXRJZCgpLCAxMjMsIHZlbnVlLmdldEFkZHJlc3MoKS5nZXRJZCgpLmdldCgpLCB2ZW51ZVByb3BlcnRpZXMsIHRydWUpOwogICAgICAgIHZlbnVlRGFvLnVwZGF0ZVZlbnVlKHZlbnVlLmdldElkKCksIDM0NSwgdmVudWUuZ2V0QWRkcmVzcygpLmdldElkKCkuZ2V0KCksIHZlbnVlUHJvcGVydGllcywgdHJ1ZSk7Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG51bGwsICwKICAgICAgICAgICAgICAgICwgMiwgMCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyByZXZpZXcgdGhlIHZlbnVlIHR3aWNlCiAgICAgICAgVmFyaWFibGVWZW51ZVByb3BlcnRpZXMgdmVudWVQcm9wZXJ0aWVzID0gVmVudWVQcm9wZXJ0aWVzVXBkYXRlLmJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLndlYnNpdGVVcmwoInd3dy5zaWNrLXdlYi1zaXRlLmNvbSIpCiAgICAgICAgICAgICAgICAuZ2VucmVzKEltbXV0YWJsZVNldC5vZihHZW5yZS5ISUlUKSkKICAgICAgICAgICAgICAgIC5pbnZlbnRvcnlUeXBlKEludmVudG9yeVR5cGUuR1lNKQogICAgICAgICAgICAgICAgLnNjaGVkdWxpbmdTb2Z0d2FyZShTY2hlZHVsaW5nU29mdHdhcmUuTUlOREJPRFkpCiAgICAgICAgICAgICAgICAucXVhbGlmaWNhdGlvbihyYXdWZW51ZS5nZXRRdWFsaWZpY2F0aW9uKCkpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsKICAgICAgICB2ZW51ZURhby51cGRhdGVWZW51ZSh2ZW51ZS5nZXRJZCgpLCAxMjMsIHZlbnVlLmdldEFkZHJlc3MoKS5nZXRJZCgpLmdldCgpLCB2ZW51ZVByb3BlcnRpZXMsIHRydWUpOwogICAgICAgIHZlbnVlRGFvLnVwZGF0ZVZlbnVlKHZlbnVlLmdldElkKCksIDM0NSwgdmVudWUuZ2V0QWRkcmVzcygpLmdldElkKCkuZ2V0KCksIHZlbnVlUHJvcGVydGllcywgdHJ1ZSk7Cgo=</text>
       </register>
-      <register name="9" type="4">
-        <text>country, state, city, postalCode, afterDate,
-                beforeDate, 2, 0</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>asdf</last-search>
+      <last-search encoding="base64">XDxnZXRTY3JhcGVySm9iXD4=</last-search>
       <last-offset />
-      <last-pattern>asdf</last-pattern>
+      <last-pattern encoding="base64">XDxnZXRTY3JhcGVySm9iXD4=</last-pattern>
       <last-replace>L</last-replace>
       <last-substitute>l</last-substitute>
       <last-dir>1</last-dir>
@@ -1485,9 +1502,6 @@
     </search>
     <history>
       <history-search>
-        <entry>country</entry>
-        <entry>testname</entry>
-        <entry>todo</entry>
         <entry>createraw</entry>
         <entry>priva</entry>
         <entry>eq(</entry>
@@ -1505,6 +1519,9 @@
         <entry encoding="base64">XDxiaW5kXD4=</entry>
         <entry>l</entry>
         <entry>asdf</entry>
+        <entry>hardco</entry>
+        <entry>batch</entry>
+        <entry encoding="base64">XDxnZXRTY3JhcGVySm9iXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>129</entry>
