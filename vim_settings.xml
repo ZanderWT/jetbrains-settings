@@ -399,6 +399,12 @@
         <mark key="^" line="73" column="53" />
         <mark key="." line="73" column="53" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/resources/ScraperJobCreateRequestTest.java" timestamp="1537227680185">
+        <mark key="[" line="10" column="9" />
+        <mark key="]" line="11" column="16" />
+        <mark key="." line="11" column="16" />
+        <mark key="^" line="11" column="16" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/Address.java" timestamp="1531780811442">
         <mark key="'" line="17" column="12" />
         <mark key="[" line="18" column="26" />
@@ -464,6 +470,12 @@
         <mark key="." line="16" column="15" />
         <mark key="^" line="16" column="15" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/resources/ScraperJobCreateRequest.java" timestamp="1537227589500">
+        <mark key="[" line="2" column="29" />
+        <mark key="]" line="3" column="3" />
+        <mark key="^" line="3" column="3" />
+        <mark key="." line="3" column="3" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenuePropertiesUpdate.java" timestamp="1535388523719">
         <mark key="[" line="32" column="12" />
         <mark key="]" line="33" column="12" />
@@ -514,14 +526,11 @@
         <mark key="^" line="5" column="5" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1536876245159">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/resources/ScraperJobCreateRequest.java" timestamp="1537205415602">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="^" line="24" column="30" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/resources/ScraperJobCreateRequest.java" timestamp="1537227567855">
+        <mark key="[" line="25" column="13" />
+        <mark key="]" line="25" column="14" />
+        <mark key="^" line="25" column="14" />
+        <mark key="." line="25" column="14" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryRow.java" timestamp="1528987433044">
         <mark key="[" line="9" column="34" />
@@ -554,9 +563,6 @@
         <mark key="]" line="14" column="46" />
         <mark key="." line="47" column="38" />
         <mark key="^" line="28" column="75" />
-      </file>
-      <file name="/fragment.java" timestamp="1537204208596">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" timestamp="1536877936390">
         <mark key="'" line="32" column="32" />
@@ -738,6 +744,10 @@
         <mark key="]" line="76" column="65" />
         <mark key="." line="76" column="65" />
         <mark key="^" line="76" column="65" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/LeadGenerationApplicationTest.java" timestamp="1537227603095">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="24" column="63" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/NormalizedAddress.java" timestamp="1529691372325">
         <mark key="[" line="19" column="54" />
@@ -1483,46 +1493,46 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Long</text>
+        <text>writeValueAsString(new ScraperJobCreateRequest())</text>
       </register>
       <register name="/" type="4">
         <text>of</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBWZW51ZUVudGl0eSB2ZW51ZUVudGl0eSA9IG5ldyBWZW51ZUVudGl0eShWRU5VRV9JRCwgbnVsbCwgbnVsbCk7CiAgICAgICAgd2hlbihzY3JhcGVySm9iLmdldEJhdGNoSWQoKSkudGhlblJldHVybihPcHRpb25hbC5vZihCQVRDSF9JRCkpOwogICAgICAgIHdoZW4odmVudWVXcml0ZXIud3JpdGVSYXdWZW51ZURhdGEocmF3VmVudWUpKS50aGVuUmV0dXJuKHZlbnVlRW50aXR5KTsKICAgICAgICBwcm9jZXNzb3IucHJvY2Vzc1Rhc2sodmVudWVzRXZlbnQsIDEpOwogICAgICAgIEFyZ3VtZW50Q2FwdG9yPENvbGxlY3Rpb248TG9uZz4+IHZlbnVlSWRDYXB0b3IgPSBBcmd1bWVudENhcHRvci5mb3JDbGFzcyhDb2xsZWN0aW9uLmNsYXNzKTsKICAgICAgICB2ZXJpZnkoYXVnbWVudGF0aW9uQmF0Y2hMb2dpYykuYWRkVG9CYXRjaCh2ZW51ZUlkQ2FwdG9yLmNhcHR1cmUoKSk7CiAgICAgICAgYXNzZXJ0VGhhdCh2ZW51ZUlkQ2FwdG9yLmdldFZhbHVlKCkpLmNvbnRhaW5zRXhhY3RseShWRU5VRV9JRCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBPYmplY3RNYXBwZXIgb2JqZWN0TWFwcGVyID0gSmFja3Nvbi5uZXdPYmplY3RNYXBwZXIoKTsKICAgICAgICBMZWFkR2VuZXJhdGlvbkFwcGxpY2F0aW9uLmNvbmZpZ3VyZU1hcHBlcihvYmplY3RNYXBwZXIpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KHZlbnVlSWRDYXB0b3IuZ2V0VmFsdWUoKSkuY29udGFpbnNFeGFjdGx5KFZFTlVFX0lEKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBBcmd1bWVudENhcHRvcjxDb2xsZWN0aW9uPExvbmc+PiB2ZW51ZUlkQ2FwdG9yID0gQXJndW1lbnRDYXB0b3IuZm9yQ2xhc3MoQ29sbGVjdGlvbi5jbGFzcyk7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KHZlbnVlSWRDYXB0b3IuZ2V0VmFsdWUoKSkuY29udGFpbnNFeGFjdGx5KFZFTlVFX0lEKTsK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBBcmd1bWVudENhcHRvcjxDb2xsZWN0aW9uPExvbmc+PiB2ZW51ZUlkQ2FwdG9yID0gQXJndW1lbnRDYXB0b3IuZm9yQ2xhc3MoQ29sbGVjdGlvbi5jbGFzcyk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcml2YXRlIAo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgVmUK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBwcml2YXRlIAo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgVmUK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuKHRyYW5zbGF0b3IudHJhbnNsYXRlKHBsYWNlc1ZlbnVlKSkudGhlblJldHVybihyYXdWZW51ZSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
@@ -1561,7 +1571,6 @@
         <entry>of</entry>
       </history-search>
       <history-cmd>
-        <entry>103</entry>
         <entry>bnext</entry>
         <entry>87</entry>
         <entry>143</entry>
@@ -1581,6 +1590,7 @@
         <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
       </history-cmd>
       <history-expr />
       <history-input />
