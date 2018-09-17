@@ -874,11 +874,8 @@
         <mark key="^" line="20" column="23" />
         <mark key="." line="52" column="12" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" timestamp="1537210967077">
-        <mark key="'" line="145" column="0" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" timestamp="1537212181716">
+        <mark key="'" line="148" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/logic/AddressComparator.java" timestamp="1529009310029">
         <mark key="'" line="28" column="0" />
@@ -1170,11 +1167,10 @@
         <mark key="." line="14" column="66" />
         <mark key="^" line="14" column="66" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/config/test.yml" timestamp="1536860038910">
-        <mark key="'" line="2" column="13" />
-        <mark key="[" line="21" column="4" />
-        <mark key="]" line="21" column="4" />
-        <mark key="." line="21" column="4" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/config/test.yml" timestamp="1537212108604">
+        <mark key="[" line="46" column="0" />
+        <mark key="]" line="46" column="0" />
+        <mark key="." line="46" column="0" />
         <mark key="^" line="21" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesScrapeResult.java" timestamp="1533574217840">
@@ -1317,11 +1313,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueLogicTest.java" />
-      <jump line="38" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueLogicTest.java" />
-      <jump line="44" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueLogicTest.java" />
-      <jump line="50" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueLogicTest.java" />
-      <jump line="56" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueLogicTest.java" />
       <jump line="61" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueLogicTest.java" />
       <jump line="63" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueLogicTest.java" />
       <jump line="114" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
@@ -1417,6 +1408,11 @@
       <jump line="158" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="153" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="145" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
+      <jump line="9" column="15" filename="$USER_HOME$/cp-projects/lead-generation/config/test.yml" />
+      <jump line="71" column="8" filename="$USER_HOME$/cp-projects/lead-generation/config/test.yml" />
+      <jump line="60" column="0" filename="$USER_HOME$/cp-projects/lead-generation/config/test.yml" />
+      <jump line="56" column="0" filename="$USER_HOME$/cp-projects/lead-generation/config/test.yml" />
+      <jump line="50" column="0" filename="$USER_HOME$/cp-projects/lead-generation/config/test.yml" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1488,34 +1484,34 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>datado</text>
+        <text>freq</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBPcHRpb25hbDxMb25nPiBnZXRCYXRjaElkKCkgewogICAgICAgIHJldHVybiBPcHRpb25hbC5vZk51bGxhYmxlKHRoaXMuYmF0Y2hJZCk7CiAgICB9Cg==</text>
+      <register name="0" type="4">
+        <text>guice.getInjector().getInstance(DatadogReporter.class)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">IyBEYXRhZG9nIGNvbmZpZ3VyYXRpb24KZGF0YWRvZ0tleTogJHtDUF9DT05GSUdfREFUQURPR19BUElfS0VZOi1kaXNhYmxlZF9sb2NhbGx5fQpzZXJ2aWNlTmFtZTogbGVhZEdlbmVyYXRpb24KCiMgRGF0YWRvZyBtZXRyaWNzIGNvbmZpZ3VyYXRpb24KbWV0cmljczoKICBmcmVxdWVuY3k6IDEwIHNlY29uZCAgICAgICAgICAgICAgICAgICAgICAgIyBEZWZhdWx0IGlzIDEgc2Vjb25kLgogIHJlcG9ydGVyczoKICAgIC0gdHlwZTogZGF0YWRvZwoKICAgICAgIyBUYWdnaW5nIHRoZSBlbnZpcm9ubWVudCBhbGxvd3MgdXMgdG8gY3JlYXRlIDEgZGFzaGJvYXJkIHdoaWNoIGNhbiBmaWx0ZXIgYmV0d2VlbiBlbnZzCiAgICAgIHRhZ3M6CiAgICAgICAgLSBlbnZpcm9ubWVudDoke0NQX0NPTkZJR19FTlY6LSJsb2NhbCJ9CgogICAgICBwcmVmaXg6IGNwLmxlYWRHZW5lcmF0aW9uCiAgICAgIHVzZVJlZ2V4RmlsdGVyczogdHJ1ZQogICAgICBleGNsdWRlczoKICAgICAgICAtIC4qanZtLioKICAgICAgICAtIC4qbG9nYmFjay4qCiAgICAgICAgLSAuKmpldHR5LioKICAgICAgdHJhbnNwb3J0OgogICAgICAgIHR5cGU6IGh0dHAKICAgICAgICBhcGlLZXk6ICR7Q1BfQ09ORklHX0RBVEFET0dfQVBJX0tFWTotZGlzYWJsZWRfbG9jYWxseX0KICAgICAgICBjb25uZWN0VGltZW91dDogNSBzZWNvbmRzICAgICAgICAgIyBPcHRpb25hbC4gRGVmYXVsdCBpcyA1IHNlY29uZHMKICAgICAgICBzb2NrZXRUaW1lb3V0OiA1IHNlY29uZHMgICAgICAgICAgIyBPcHRpb25hbC4gRGVmYXVsdCBpcyA1IHNlY29uZHMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgRGF0YWRvZ1JlcG9ydGVyIHJlcG9ydGVyID0gZ3VpY2UuZ2V0SW5qZWN0b3IoKS5nZXRJbnN0YW5jZShEYXRhZG9nUmVwb3J0ZXIuY2xhc3MpOwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LnZhbGlkYXRpb24uVmFsaWQ7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICByZXBvcnRlci4gCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMucXVldWVpbmcuR29vZ2xlU2VhcmNoQ2lyY2xlUHJvY2Vzc29yOwo=</text>
+        <text encoding="base64">CiMgRGF0YWRvZyBjb25maWd1cmF0aW9uCmRhdGFkb2dLZXk6ICR7Q1BfQ09ORklHX0RBVEFET0dfQVBJX0tFWTotIiJ9CnNlcnZpY2VOYW1lOiBsZWFkR2VuZXJhdGlvbgoKIyBEYXRhZG9nIG1ldHJpY3MgY29uZmlndXJhdGlvbgptZXRyaWNzOgogIGZyZXF1ZW5jeTogMTAgbWludXRlICAgICAgICAgICAgICAgICAgICAgICAjIERlZmF1bHQgaXMgMSBzZWNvbmQuCiAgcmVwb3J0ZXJzOgogICAgLSB0eXBlOiBkYXRhZG9nCgogICAgICAjIFRhZ2dpbmcgdGhlIGVudmlyb25tZW50IGFsbG93cyB1cyB0byBjcmVhdGUgMSBkYXNoYm9hcmQgd2hpY2ggY2FuIGZpbHRlciBiZXR3ZWVuIGVudnMKICAgICAgdGFnczoKICAgICAgICAtIGVudmlyb25tZW50OiR7Q1BfQ09ORklHX0VOVn0KCiAgICAgIHByZWZpeDogY3AubGVhZEdlbmVyYXRpb24KICAgICAgdXNlUmVnZXhGaWx0ZXJzOiB0cnVlCiAgICAgIGV4Y2x1ZGVzOgogICAgICAgIC0gLipqdm0uKgogICAgICAgIC0gLipsb2diYWNrLioKICAgICAgICAtIC4qamV0dHkuKgogICAgICB0cmFuc3BvcnQ6CiAgICAgICAgdHlwZTogaHR0cAogICAgICAgIGFwaUtleTogJHtDUF9DT05GSUdfREFUQURPR19BUElfS0VZOi0iIn0KICAgICAgICBjb25uZWN0VGltZW91dDogNSBzZWNvbmRzICAgICAgICAgIyBPcHRpb25hbC4gRGVmYXVsdCBpcyA1IHNlY29uZHMKICAgICAgICBzb2NrZXRUaW1lb3V0OiA1IHNlY29uZHMgICAgICAgICAgIyBPcHRpb25hbC4gRGVmYXVsdCBpcyA1IHNlY29uZHMK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMucXVldWVpbmcuR29vZ2xlU2VhcmNoQ2lyY2xlRXZlbnQ7Cg==</text>
+        <text encoding="base64">ICAgICAgICBlbnYuZ2V0Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LnZhbGlkYXRpb24uVmFsaWQ7Cg==</text>
+        <text encoding="base64">IyBEYXRhZG9nIGNvbmZpZ3VyYXRpb24KZGF0YWRvZ0tleTogJHtDUF9DT05GSUdfREFUQURPR19BUElfS0VZOi1kaXNhYmxlZF9sb2NhbGx5fQpzZXJ2aWNlTmFtZTogbGVhZEdlbmVyYXRpb24KCiMgRGF0YWRvZyBtZXRyaWNzIGNvbmZpZ3VyYXRpb24KbWV0cmljczoKICBmcmVxdWVuY3k6IDEwIHNlY29uZCAgICAgICAgICAgICAgICAgICAgICAgIyBEZWZhdWx0IGlzIDEgc2Vjb25kLgogIHJlcG9ydGVyczoKICAgIC0gdHlwZTogZGF0YWRvZwoKICAgICAgIyBUYWdnaW5nIHRoZSBlbnZpcm9ubWVudCBhbGxvd3MgdXMgdG8gY3JlYXRlIDEgZGFzaGJvYXJkIHdoaWNoIGNhbiBmaWx0ZXIgYmV0d2VlbiBlbnZzCiAgICAgIHRhZ3M6CiAgICAgICAgLSBlbnZpcm9ubWVudDoke0NQX0NPTkZJR19FTlY6LSJsb2NhbCJ9CgogICAgICBwcmVmaXg6IGNwLmxlYWRHZW5lcmF0aW9uCiAgICAgIHVzZVJlZ2V4RmlsdGVyczogdHJ1ZQogICAgICBleGNsdWRlczoKICAgICAgICAtIC4qanZtLioKICAgICAgICAtIC4qbG9nYmFjay4qCiAgICAgICAgLSAuKmpldHR5LioKICAgICAgdHJhbnNwb3J0OgogICAgICAgIHR5cGU6IGh0dHAKICAgICAgICBhcGlLZXk6ICR7Q1BfQ09ORklHX0RBVEFET0dfQVBJX0tFWTotZGlzYWJsZWRfbG9jYWxseX0KICAgICAgICBjb25uZWN0VGltZW91dDogNSBzZWNvbmRzICAgICAgICAgIyBPcHRpb25hbC4gRGVmYXVsdCBpcyA1IHNlY29uZHMKICAgICAgICBzb2NrZXRUaW1lb3V0OiA1IHNlY29uZHMgICAgICAgICAgIyBPcHRpb25hbC4gRGVmYXVsdCBpcyA1IHNlY29uZHMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMucXVldWVpbmcuVmVudWVzRXZlbnQ7Cg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LnZhbGlkYXRpb24uVmFsaWQ7Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMucXVldWVpbmcuR29vZ2xlU2VhcmNoQ2lyY2xlUHJvY2Vzc29yOwo=</text>
@@ -1524,16 +1520,16 @@
         <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2NyYXBlcnMucXVldWVpbmcuR29vZ2xlU2VhcmNoQ2lyY2xlRXZlbnQ7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBJbmplY3RNb2Nrcwo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LnZhbGlkYXRpb24uVmFsaWQ7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>datado</last-search>
+      <last-search>freq</last-search>
       <last-offset />
-      <last-pattern>datado</last-pattern>
+      <last-pattern>freq</last-pattern>
       <last-replace>L</last-replace>
       <last-substitute>l</last-substitute>
       <last-dir>1</last-dir>
@@ -1541,7 +1537,6 @@
     </search>
     <history>
       <history-search>
-        <entry>venu</entry>
         <entry encoding="base64">XDx2ZW51ZUxvZ1w+</entry>
         <entry>filter</entry>
         <entry>bind</entry>
@@ -1561,6 +1556,7 @@
         <entry encoding="base64">XDxzY3JhcGVySm9iT3JpZ2luMFw+</entry>
         <entry>batch</entry>
         <entry>datado</entry>
+        <entry>freq</entry>
       </history-search>
       <history-cmd>
         <entry>103</entry>
