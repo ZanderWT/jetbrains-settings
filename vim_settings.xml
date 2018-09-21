@@ -41,12 +41,11 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" timestamp="1537550192575">
-        <mark key="'" line="72" column="37" />
-        <mark key="[" line="30" column="30" />
-        <mark key="]" line="62" column="48" />
-        <mark key="^" line="61" column="44" />
-        <mark key="." line="61" column="44" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" timestamp="1537552570490">
+        <mark key="[" line="39" column="22" />
+        <mark key="]" line="38" column="0" />
+        <mark key="^" line="63" column="64" />
+        <mark key="." line="38" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/NormalizedAddressTest.java" timestamp="1529680924953">
         <mark key="[" line="18" column="7" />
@@ -1339,8 +1338,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/VenueWriterProcessorTest.java" />
-      <jump line="31" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/VenueWriterProcessorTest.java" />
       <jump line="32" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/VenueWriterProcessorTest.java" />
       <jump line="33" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/VenueWriterProcessorTest.java" />
       <jump line="40" column="3" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/VenueWriterProcessorTest.java" />
@@ -1439,6 +1436,8 @@
       <jump line="73" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" />
       <jump line="96" column="49" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/VenueWriterProcessorTest.java" />
       <jump line="71" column="37" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" />
+      <jump line="72" column="54" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" />
+      <jump line="70" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/VenueWriterTest.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1510,7 +1509,7 @@
         <text>rawVenue</text>
       </register>
       <register name="/" type="4">
-        <text>public cl</text>
+        <text encoding="base64">XDxyYXdWZW51ZVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBPUkRFUiBCWSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZy5jcmVhdGVkX29uIEFTQwo=</text>
@@ -1522,28 +1521,28 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNjcmF0aCgpIHsKCiAgICAgICAgUmF3VmVudWUgcmF3VmVudWUgPSB0cmFuc2xhdG9yLnRyYW5zbGF0ZSh2ZW51ZSk7CiAgICAgICAgdHJ5IHsKICAgICAgICB9IGNhdGNoIChHZW9jb2RpbmdFeGNlcHRpb24gZSkgewogICAgICAgIH0KICAgIH0K</text>
+        <text encoding="base64">CiAgICBATW9jawo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBXZSBkbyBhbiB1bmNoZWNrZWQgT3B0aW9uYWwuZ2V0KCkgaGVyZSBiZWNhdXNlIGl0IGlzICJpbXBvc3NpYmxlIiBmb3IgYSB2ZW51ZSB0byBiZSBzY3JhcGVkIGFuZCBtYWtlIGl0IHRvCiAgICAgICAgLy8gdGhpcyBtZXRob2Qgd2l0aG91dCBhIGNvcnJlc3BvbmRpbmcgc2NyYXBlciBqb2IgaW4gdGhlIERCLgo=</text>
+        <text encoding="base64">CiAgICAgICAgUmF3VmVudWUgcmF3VmVudWUgPSBSYXdWZW51ZS5idWlsZGVyKCkKICAgICAgICAgICAgICAgIC5uYW1lKCJSb3VuZGhvdXNlIFJpY2sncyBEaXNjb3VudCBEb2pvIikKICAgICAgICAgICAgICAgIC53ZWJzaXRlVXJsKCJ3d3cucnJkZC5jb20iKQogICAgICAgICAgICAgICAgLnNvdXJjZShuZXcgU2NyYXBlclZlbnVlU291cmNlKG5ldyBTY3JhcGVyKDAsICJNb2NrIFNjcmFwZXIiKSkpCiAgICAgICAgICAgICAgICAuaW52ZW50b3J5VHlwZShJbnZlbnRvcnlUeXBlLlNUVURJTykKICAgICAgICAgICAgICAgIC5zY2hlZHVsaW5nU29mdHdhcmUoU2NoZWR1bGluZ1NvZnR3YXJlLk1JTkRCT0RZKQogICAgICAgICAgICAgICAgLnZlbnVlRW1haWwoImFkbWluQHJyZGQuY29tIikKICAgICAgICAgICAgICAgIC52ZW51ZVBob25lTnVtYmVyKCIxMjM0NTY3ODkwIikKICAgICAgICAgICAgICAgIC5jb250YWN0RW1haWwoInJpY2tAZ2xvYm8tZ3ltLmNvbSIpCiAgICAgICAgICAgICAgICAuY29udGFjdE5hbWUoIlJvdW5kaG91c2UgUmljayIpCiAgICAgICAgICAgICAgICAuY29udGFjdFBob25lTnVtYmVyKCIwOTg3NjU0MzIxIikKICAgICAgICAgICAgICAgIC5nZW5yZXMoSW1tdXRhYmxlU2V0Lm9mKEdlbnJlLkJPWElORywgR2VucmUuWU9HQSkpCiAgICAgICAgICAgICAgICAuYWRkcmVzcyhhZGRyZXNzKQogICAgICAgICAgICAgICAgLmRlc2NyaXB0aW9uKCJDb21lIGFuZCByb3VuZGhvdXNlIGtpY2sgUmljayBmb3IgYSBkaXNjb3VudC4iKQogICAgICAgICAgICAgICAgLmJ1aWxkKCk7Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAqCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAqIEBwYXJhbSBzY3JhcGVySm9iSWQKICAgICAqIEBwYXJhbSB2ZW51ZUlkCg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNjcmF0aCgpIHsKCiAgICAgICAgUmF3VmVudWUgcmF3VmVudWUgPSB0cmFuc2xhdG9yLnRyYW5zbGF0ZSh2ZW51ZSk7CiAgICAgICAgdHJ5IHsKICAgICAgICB9IGNhdGNoIChHZW9jb2RpbmdFeGNlcHRpb24gZSkgewogICAgICAgIH0KICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAvLyBXZSBkbyBhbiB1bmNoZWNrZWQgT3B0aW9uYWwuZ2V0KCkgaGVyZSBiZWNhdXNlIGl0IGlzICJpbXBvc3NpYmxlIiBmb3IgYSB2ZW51ZSB0byBiZSBzY3JhcGVkIGFuZCBtYWtlIGl0IHRvCiAgICAgICAgLy8gdGhpcyBtZXRob2Qgd2l0aG91dCBhIGNvcnJlc3BvbmRpbmcgc2NyYXBlciBqb2IgaW4gdGhlIERCLgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAqCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzY3JhcGVySm9iLmdldEJhdGNoSWQoKS5pZlByZXNlbnQoCiAgICAgICAgICAgICAgICBiYXRjaElkIC0+IGF1Z21lbnRhdGlvbkJhdGNoTG9naWMuYWRkVG9CYXRjaChDb2xsZWN0aW9ucy5zaW5nbGV0b25MaXN0KG5ld1ZlbnVlLmdldElkKCkpKSk7Cg==</text>
+        <text encoding="base64">ICAgICAqIEBwYXJhbSBzY3JhcGVySm9iSWQKICAgICAqIEBwYXJhbSB2ZW51ZUlkCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
@@ -1553,9 +1552,9 @@
       </register>
     </registers>
     <search>
-      <last-search>public cl</last-search>
+      <last-search encoding="base64">XDxyYXdWZW51ZVw+</last-search>
       <last-offset />
-      <last-pattern>public cl</last-pattern>
+      <last-pattern encoding="base64">XDxyYXdWZW51ZVw+</last-pattern>
       <last-replace>L</last-replace>
       <last-substitute>l</last-substitute>
       <last-dir>-1</last-dir>
@@ -1581,8 +1580,8 @@
         <entry>we do</entry>
         <entry>batch</entry>
         <entry>overr</entry>
-        <entry encoding="base64">XDxyYXdWZW51ZVw+</entry>
         <entry>public cl</entry>
+        <entry encoding="base64">XDxyYXdWZW51ZVw+</entry>
       </history-search>
       <history-cmd>
         <entry>87</entry>
