@@ -9,12 +9,12 @@
         <mark key="." line="23" column="7" />
         <mark key="^" line="23" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1537823897298">
-        <mark key="'" line="64" column="44" />
-        <mark key="[" line="165" column="34" />
-        <mark key="]" line="166" column="10" />
-        <mark key="." line="166" column="10" />
-        <mark key="^" line="166" column="10" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1537826208780">
+        <mark key="'" line="177" column="49" />
+        <mark key="[" line="179" column="0" />
+        <mark key="]" line="185" column="111" />
+        <mark key="." line="179" column="0" />
+        <mark key="^" line="174" column="25" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table" timestamp="1536350377942">
         <mark key="[" line="0" column="0" />
@@ -347,8 +347,8 @@
         <mark key="^" line="34" column="72" />
         <mark key="." line="34" column="72" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1537475911924">
-        <mark key="'" line="111" column="4" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1537826212669">
+        <mark key="'" line="75" column="24" />
         <mark key="[" line="66" column="0" />
         <mark key="]" line="66" column="52" />
         <mark key="." line="66" column="0" />
@@ -1327,9 +1327,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="81" column="42" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/resources/ScraperJobResource.java" />
-      <jump line="40" column="37" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/resources/ScraperJobResource.java" />
-      <jump line="61" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessor.java" />
       <jump line="37" column="37" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessor.java" />
       <jump line="69" column="15" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterProcessor.java" />
       <jump line="29" column="76" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" />
@@ -1427,6 +1424,9 @@
       <jump line="46" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="58" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/augmentation/AugmentationBatchLogicTest.java" />
       <jump line="64" column="44" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="238" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="177" column="49" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="75" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1495,56 +1495,55 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PHA+</text>
+        <text>long venueId =</text>
       </register>
       <register name="/" type="4">
-        <text>@return</text>
+        <text>createscraper</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIC8qKgogICAgICogQ3JlYXRlIG9yIHVwZGF0ZSBhIHZlbnVlIHJlY29yZCBpbiB0aGUgZGIgZnJvbSBhIHNjcmFwZXIuCiAgICAgKiBAcmV0dXJuIFRoZSBjcmVhdGVkIHZlbnVlIHdpdGggaXQncyBpZC4KICAgICAqLwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB2ZXJpZnkoYXVnbWVudGF0aW9uQmF0Y2hEYW8sIHRpbWVzKDApKS5hZGRWZW51ZXNUb0F1Z21lbnRhdGlvbkJhdGNoKEJBVENIX0lELAogICAgICAgICAgICAgICAgQ29sbGVjdGlvbnMuc2luZ2xldG9uTGlzdChWRU5VRV9JRCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbG9uZyBzb3VyY2VJZCA9IHJhd1ZlbnVlLmdldFNvdXJjZSgpLnNhdmUodGhpcyk7CiAgICAgICAgICAgICAgICAgICAgICAgIGxvbmcgYWRkcmVzc0lkID0gc2F2ZUFkZHJlc3MocmF3VmVudWUuZ2V0QWRkcmVzcygpKTsKICAgICAgICAgICAgICAgICAgICAgICAgbG9uZyB2ZW51ZVBhcmFtZXRlcnNMb2dJZCA9IGNyZWF0ZVZlbnVlUGFyYW1ldGVyTG9nUmVjb3JkKHJhd1ZlbnVlLCB2ZW51ZUlkLCBzb3VyY2VJZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZGRyZXNzSWQsIGNvbXBsZXRlKTsKICAgICAgICAgICAgICAgICAgICAgICAgc2F2ZUdlbnJlcyh2ZW51ZVBhcmFtZXRlcnNMb2dJZCwgcmF3VmVudWUuZ2V0R2VucmVzKCkpOwogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gbmV3IFZlbnVlRW50aXR5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZlbnVlSWQsIG5vcm1hbGl6ZWRBZGRyZXNzLCByYXdWZW51ZS53aXRoQWRkcmVzcyhyYXdWZW51ZS5nZXRBZGRyZXNzKCkud2l0aElkKGFkZHJlc3NJZCkpKTsK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2ZXJpZnkoYXVnbWVudGF0aW9uQmF0Y2hEYW8sIHRpbWVzKDApKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAubWFwKHZlbnVlSWQgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAvLyBnZXQgVlBMIHJlY29yZCBhbmQgY29tcGFyZQogICAgICAgICAgICAgICAgICAgICAgICAvLyBpZiBzYW1lOiAKICAgICAgICAgICAgICAgICAgICAgICAgLy8gIHVwZGF0ZSBzb3VyY2UKICAgICAgICAgICAgICAgICAgICB9KQo=</text>
       </register>
-      <register name="3" type="4">
-        <text>.addVenuesToAugmentationBatch(BATCH_ID,
-                Collections.singletonList(VENUE_ID))</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAqIEBwYXJhbSByYXdWZW51ZQogICAgICogQHBhcmFtIG5vcm1hbGl6ZWRBZGRyZXNzCiAgICAgKiBAcGFyYW0gY29tcGxldGUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHZlbnVlRW50aXR5Owo=</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">IFRoZSB2ZW51ZSdzIG9yaWdpbmF0aW5nIHNjcmFwZXIgam9iIHdpbGwgYmUgY2hlY2tlZAogICAgICogaGVyZSB0byBzZWUgaWYgdGhlIHZlbnVlIHNob3VsZCBiZSBhZGRlZCB0byBhbiBhdWdtZW50YXRpb24gYmF0Y2gu</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAqIFNhdmUgdmVudWUgZGF0YSBmcm9tIGEgc2NyYXBlciAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIG5ldyBWZW51ZUVudGl0eSgKICAgICAgICAgICAgICAgICAgICB2ZW51ZUlkLCBub3JtYWxpemVkQWRkcmVzcywgcmF3VmVudWUud2l0aEFkZHJlc3MocmF3VmVudWUuZ2V0QWRkcmVzcygpLndpdGhJZChhZGRyZXNzSWQpKSk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHdoZW4odHJhbnNsYXRvci50cmFuc2xhdGUocGxhY2VzVmVudWUpKS50aGVuUmV0dXJuKHJhd1ZlbnVlKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgQXVnbWVudGF0aW9uQmF0Y2hMb2dpYyBhdWdtZW50YXRpb25CYXRjaExvZ2ljOwogICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEF1Z21lbnRhdGlvbkJhdGNoTG9naWMgYXVnbWVudGF0aW9uQmF0Y2hMb2dpYzsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
     </registers>
     <search>
-      <last-search>@return</last-search>
+      <last-search>createscraper</last-search>
       <last-offset />
-      <last-pattern>@return</last-pattern>
+      <last-pattern>createscraper</last-pattern>
       <last-replace>L</last-replace>
       <last-substitute>l</last-substitute>
       <last-dir>1</last-dir>
@@ -1552,7 +1551,6 @@
     </search>
     <history>
       <history-search>
-        <entry>batch</entry>
         <entry>overr</entry>
         <entry>public cl</entry>
         <entry encoding="base64">XDxyYXdWZW51ZVw+</entry>
@@ -1572,6 +1570,7 @@
         <entry>;</entry>
         <entry>asdf</entry>
         <entry>@return</entry>
+        <entry>createscraper</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO3ZlbnVlMTt2ZW51ZTI7Zw==</entry>
@@ -1590,10 +1589,10 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>qa</entry>
         <entry>218</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>65</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
