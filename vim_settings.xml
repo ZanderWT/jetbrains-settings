@@ -467,10 +467,12 @@
         <mark key="." line="107" column="28" />
         <mark key="^" line="107" column="28" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/augmentation/AugmentationBatchLogicTest.java" timestamp="1537817907251">
-        <mark key="[" line="57" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="." line="34" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/augmentation/AugmentationBatchLogicTest.java" timestamp="1537818545740">
+        <mark key="'" line="58" column="47" />
+        <mark key="[" line="59" column="0" />
+        <mark key="]" line="59" column="0" />
+        <mark key="^" line="58" column="50" />
+        <mark key="." line="59" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/resources/ScraperJobCreateRequest.java" timestamp="1537227589500">
         <mark key="[" line="2" column="29" />
@@ -1324,7 +1326,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="40" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="110" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="81" column="42" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/resources/ScraperJobResource.java" />
       <jump line="40" column="37" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/resources/ScraperJobResource.java" />
@@ -1424,6 +1425,7 @@
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="35" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="46" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="58" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/augmentation/AugmentationBatchLogicTest.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1495,61 +1497,60 @@
         <text>createVenue</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1cGRhdGVWZW51ZVw+</text>
+        <text>asdf</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIC8qKgogICAgICogQ3JlYXRlIG9yIHVwZGF0ZSBhIHZlbnVlIHJlY29yZCBpbiB0aGUgZGIgZnJvbSBhIHNjcmFwZXIuCiAgICAgKiBAcmV0dXJuIFRoZSBjcmVhdGVkIHZlbnVlIHdpdGggaXQncyBpZC4KICAgICAqLwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAqIEBwYXJhbSByYXdWZW51ZQogICAgICogQHBhcmFtIG5vcm1hbGl6ZWRBZGRyZXNzCiAgICAgKiBAcGFyYW0gY29tcGxldGUK</text>
+        <text encoding="base64">ICAgICAgICB2ZXJpZnkoYXVnbWVudGF0aW9uQmF0Y2hEYW8sIHRpbWVzKDApKS5hZGRWZW51ZXNUb0F1Z21lbnRhdGlvbkJhdGNoKEJBVENIX0lELAogICAgICAgICAgICAgICAgQ29sbGVjdGlvbnMuc2luZ2xldG9uTGlzdChWRU5VRV9JRCkpOwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">IFRoZSB2ZW51ZSdzIG9yaWdpbmF0aW5nIHNjcmFwZXIgam9iIHdpbGwgYmUgY2hlY2tlZAogICAgICogaGVyZSB0byBzZWUgaWYgdGhlIHZlbnVlIHNob3VsZCBiZSBhZGRlZCB0byBhbiBhdWdtZW50YXRpb24gYmF0Y2gu</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICB2ZXJpZnkoYXVnbWVudGF0aW9uQmF0Y2hEYW8sIHRpbWVzKDApKTsK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAqIFNhdmUgdmVudWUgZGF0YSBmcm9tIGEgc2NyYXBlciAK</text>
+      <register name="3" type="4">
+        <text>.addVenuesToAugmentationBatch(BATCH_ID,
+                Collections.singletonList(VENUE_ID))</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHdoZW4odHJhbnNsYXRvci50cmFuc2xhdGUocGxhY2VzVmVudWUpKS50aGVuUmV0dXJuKHJhd1ZlbnVlKTsK</text>
+        <text encoding="base64">ICAgICAqIEBwYXJhbSByYXdWZW51ZQogICAgICogQHBhcmFtIG5vcm1hbGl6ZWRBZGRyZXNzCiAgICAgKiBAcGFyYW0gY29tcGxldGUK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgQXVnbWVudGF0aW9uQmF0Y2hMb2dpYyBhdWdtZW50YXRpb25CYXRjaExvZ2ljOwogICAK</text>
+      <register name="5" type="4">
+        <text encoding="base64">IFRoZSB2ZW51ZSdzIG9yaWdpbmF0aW5nIHNjcmFwZXIgam9iIHdpbGwgYmUgY2hlY2tlZAogICAgICogaGVyZSB0byBzZWUgaWYgdGhlIHZlbnVlIHNob3VsZCBiZSBhZGRlZCB0byBhbiBhdWdtZW50YXRpb24gYmF0Y2gu</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEF1Z21lbnRhdGlvbkJhdGNoTG9naWMgYXVnbWVudGF0aW9uQmF0Y2hMb2dpYzsK</text>
+        <text encoding="base64">ICAgICAqIFNhdmUgdmVudWUgZGF0YSBmcm9tIGEgc2NyYXBlciAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgIFZlbnVlRW50aXR5IHZlbnVlRW50aXR5ID0gbmV3IFZlbnVlRW50aXR5KFZFTlVFX0lELCBudWxsLCBudWxsKTsKLy8gICAgICAgIHdoZW4oc2NyYXBlckpvYi5nZXRCYXRjaElkKCkpLnRoZW5SZXR1cm4oT3B0aW9uYWwuZW1wdHkoKSk7Ci8vICAgICAgICB3aGVuKHZlbnVlV3JpdGVyLndyaXRlU2NyYXBlZFZlbnVlKGFueSgpLCBwbGFjZXNWZW51ZSkpLnRoZW5SZXR1cm4odmVudWVFbnRpdHkpOwovLyAgICAgICAgcHJvY2Vzc29yLnByb2Nlc3NUYXNrKHZlbnVlc0V2ZW50LCAxKTsKLy8gICAgICAgIHZlcmlmeShhdWdtZW50YXRpb25CYXRjaExvZ2ljLCB0aW1lcygwKSkuYWRkVG9CYXRjaChhbnlDb2xsZWN0aW9uKCkpOwo=</text>
+        <text encoding="base64">Ly8gICAgICAgIHdoZW4odHJhbnNsYXRvci50cmFuc2xhdGUocGxhY2VzVmVudWUpKS50aGVuUmV0dXJuKHJhd1ZlbnVlKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBTcHkK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgQXVnbWVudGF0aW9uQmF0Y2hMb2dpYyBhdWdtZW50YXRpb25CYXRjaExvZ2ljOwogICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBWZW51ZUVudGl0eSB2ZW51ZUVudGl0eSA9IG5ldyBWZW51ZUVudGl0eShWRU5VRV9JRCwgbnVsbCwgbnVsbCk7Cg==</text>
+        <text encoding="base64">ICAgIEF1Z21lbnRhdGlvbkJhdGNoTG9naWMgYXVnbWVudGF0aW9uQmF0Y2hMb2dpYzsK</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx1cGRhdGVWZW51ZVw+</last-search>
+      <last-search>asdf</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1cGRhdGVWZW51ZVw+</last-pattern>
+      <last-pattern>asdf</last-pattern>
       <last-replace>L</last-replace>
       <last-substitute>l</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>geocodingex</entry>
-        <entry encoding="base64">XDx2ZW51ZVw+</entry>
         <entry>we do</entry>
         <entry>batch</entry>
         <entry>overr</entry>
@@ -1568,6 +1569,8 @@
         <entry>source_id</entry>
         <entry encoding="base64">XDxzb3VyY2VJZFw+</entry>
         <entry encoding="base64">XDx1cGRhdGVWZW51ZVw+</entry>
+        <entry>;</entry>
+        <entry>asdf</entry>
       </history-search>
       <history-cmd>
         <entry>143</entry>
