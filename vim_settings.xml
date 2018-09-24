@@ -9,12 +9,11 @@
         <mark key="." line="23" column="7" />
         <mark key="^" line="23" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/augmentation/AugmentationBatchLogic.java" timestamp="1537563818472">
-        <mark key="'" line="28" column="26" />
-        <mark key="[" line="89" column="69" />
-        <mark key="]" line="89" column="69" />
-        <mark key="." line="89" column="69" />
-        <mark key="^" line="89" column="69" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1537804825380">
+        <mark key="'" line="184" column="21" />
+        <mark key="[" line="62" column="23" />
+        <mark key="]" line="62" column="23" />
+        <mark key="." line="62" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table" timestamp="1536350377942">
         <mark key="[" line="0" column="0" />
@@ -461,13 +460,6 @@
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/salesforce/SalesforceCsvFileProducer.java" timestamp="1537384062307">
         <mark key="'" line="25" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1537568710995">
-        <mark key="'" line="26" column="0" />
-        <mark key="[" line="70" column="0" />
-        <mark key="]" line="70" column="24" />
-        <mark key="^" line="62" column="0" />
-        <mark key="." line="70" column="24" />
-      </file>
       <file name="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/FirstClassFreeDaoTest.java" timestamp="1534789000152">
         <mark key="'" line="117" column="8" />
         <mark key="[" line="107" column="24" />
@@ -682,13 +674,6 @@
         <mark key="]" line="13" column="19" />
         <mark key="^" line="8" column="71" />
         <mark key="." line="13" column="19" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterProcessor.java" timestamp="1537563670507">
-        <mark key="'" line="52" column="0" />
-        <mark key="[" line="45" column="92" />
-        <mark key="]" line="45" column="94" />
-        <mark key="^" line="45" column="94" />
-        <mark key="." line="45" column="94" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/web/GlsClientTest.java" timestamp="1532040810732">
         <mark key="'" line="49" column="8" />
@@ -1339,10 +1324,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="156" column="37" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="159" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="161" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="163" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="165" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="167" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="171" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
@@ -1439,6 +1420,10 @@
       <jump line="26" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" />
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" />
       <jump line="39" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" />
+      <jump line="217" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="214" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="201" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="184" column="21" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1507,10 +1492,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>of(BATCH_ID)</text>
+        <text>createVenue</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzb3VyY2VJZFw+</text>
+        <text encoding="base64">XDx1cGRhdGVWZW51ZVw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB3aGVuKHNjcmFwZXJKb2JMb2dpYy5nZXRTY3JhcGVySm9iKFNDUkFQRVJfSk9CX0lEKSkudGhlblJldHVybihPcHRpb25hbC5vZihzY3JhcGVySm9iKSk7CiAgICAgICAgd2hlbihzY3JhcGVySm9iLmdldEJhdGNoSWQoKSkudGhlblJldHVybihPcHRpb25hbC5vZihCQVRDSF9JRCkpOwogICAgICAgIGF1Z21lbnRhdGlvbkJhdGNoTG9naWMuc2NyYXBlVG9CYXRjaChTQ1JBUEVSX0pPQl9JRCwgVkVOVUVfSUQpOwoKICAgICAgICB2ZXJpZnkoYXVnbWVudGF0aW9uQmF0Y2hEYW8sIHRpbWVzKDEpKS5hZGRWZW51ZXNUb0F1Z21lbnRhdGlvbkJhdGNoKEJBVENIX0lELAogICAgICAgICAgICAgICAgQ29sbGVjdGlvbnMuc2luZ2xldG9uTGlzdChWRU5VRV9JRCkpOwo=</text>
@@ -1549,21 +1534,20 @@
         <text encoding="base64">ICAgICAgICB3aGVuKHNjcmFwZXJKb2IuZ2V0QmF0Y2hJZCgpKS50aGVuUmV0dXJuKE9wdGlvbmFsLm9mKEJBVENIX0lEKSk7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>218</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzb3VyY2VJZFw+</last-search>
+      <last-search encoding="base64">XDx1cGRhdGVWZW51ZVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzb3VyY2VJZFw+</last-pattern>
+      <last-pattern encoding="base64">XDx1cGRhdGVWZW51ZVw+</last-pattern>
       <last-replace>L</last-replace>
       <last-substitute>l</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>return</entry>
         <entry>geocodingex</entry>
         <entry encoding="base64">XDx2ZW51ZVw+</entry>
         <entry>we do</entry>
@@ -1583,9 +1567,9 @@
         <entry encoding="base64">JiY=</entry>
         <entry>source_id</entry>
         <entry encoding="base64">XDxzb3VyY2VJZFw+</entry>
+        <entry encoding="base64">XDx1cGRhdGVWZW51ZVw+</entry>
       </history-search>
       <history-cmd>
-        <entry>87</entry>
         <entry>143</entry>
         <entry encoding="base64">JzwsJz5zO3ZlbnVlMTt2ZW51ZTI7Zw==</entry>
         <entry>action PreviousOccurence</entry>
@@ -1605,6 +1589,7 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
+        <entry>218</entry>
       </history-cmd>
       <history-expr />
       <history-input />
