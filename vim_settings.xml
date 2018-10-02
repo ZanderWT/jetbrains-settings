@@ -109,11 +109,11 @@
         <mark key="." line="13" column="35" />
         <mark key="^" line="13" column="34" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" timestamp="1538501480331">
-        <mark key="[" line="5" column="11" />
-        <mark key="]" line="5" column="20" />
-        <mark key="^" line="5" column="20" />
-        <mark key="." line="5" column="20" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" timestamp="1538511799581">
+        <mark key="[" line="6" column="120" />
+        <mark key="]" line="7" column="4" />
+        <mark key="^" line="7" column="4" />
+        <mark key="." line="7" column="4" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1534866000044">
         <mark key="[" line="69" column="57" />
@@ -1518,7 +1518,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>INFO</text>
+        <text>hashed_parameters</text>
       </register>
       <register name="/" type="4">
         <text>web</text>
@@ -1527,37 +1527,37 @@
         <text encoding="base64">ICAgIG9yZy5nbGFzc2Zpc2guamVyc2V5LmxvZ2dpbmcuTG9nZ2luZ0ZlYXR1cmU6IERFQlVHCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5sb2dnaW5nLkxldmVsOwppbXBvcnQgamF2YS51dGlsLmxvZ2dpbmcuTG9nZ2VyOwoK</text>
+        <text encoding="base64">YWx0ZXIgdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cgYWRkIGNvbHVtbiBoYXNoZWRfcGFyYW1ldGVycyB0ZXh0Owo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5sb2dnaW5nLkxldmVsOwppbXBvcnQgamF2YS51dGlsLmxvZ2dpbmcuTG9nZ2VyOwoK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5sb2dnaW5nLkxldmVsOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5qYm9zcy5sb2dnaW5nLkxvZ2dlcjsK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5sb2dnaW5nLkxldmVsOwo=</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5qYm9zcy5sb2dnaW5nLkxvZ2dlcjsK</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUubG9nNGouTG9nZ2VyOwo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5sb2dnaW5nLkxldmVsOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBlbnYuamVyc2V5KCkucmVnaXN0ZXIobmV3IExvZ2dpbmdGZWF0dXJlKExvZ2dlci5nZXRMb2dnZXIoTG9nZ2luZ0ZlYXR1cmUuY2xhc3MuZ2V0TmFtZSgpKQo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUubG9nNGouTG9nZ2VyOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBlbnYuamVyc2V5KCkucmVnaXN0ZXIobmV3IExvZ2dpbmdGZWF0dXJlKExvZ2dlci5nZXRMb2dnZXIoTG9nZ2luZ0ZlYXR1cmUuY2xhc3MuZ2V0TmFtZSgpKSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBlbnYuamVyc2V5KCkucmVnaXN0ZXIobmV3IExvZ2dpbmdGZWF0dXJlKExvZ2dlci5nZXRMb2dnZXIoTG9nZ2luZ0ZlYXR1cmUuY2xhc3MuZ2V0TmFtZSgpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIG9yZy5hcGFjaGUuaHR0cDogREVCVUcKICAgIG9yZy5hcGFjaGUuaHR0cC53aXJlOiBERUJVRwo=</text>
+        <text encoding="base64">ICAgICAgICBlbnYuamVyc2V5KCkucmVnaXN0ZXIobmV3IExvZ2dpbmdGZWF0dXJlKExvZ2dlci5nZXRMb2dnZXIoTG9nZ2luZ0ZlYXR1cmUuY2xhc3MuZ2V0TmFtZSgpKSkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
