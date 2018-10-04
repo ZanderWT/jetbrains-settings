@@ -347,8 +347,12 @@
         <mark key="^" line="34" column="72" />
         <mark key="." line="34" column="72" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1538172867121">
-        <mark key="'" line="117" column="45" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1538689612548">
+        <mark key="'" line="162" column="0" />
+        <mark key="[" line="165" column="101" />
+        <mark key="]" line="166" column="45" />
+        <mark key="." line="166" column="45" />
+        <mark key="^" line="166" column="45" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" timestamp="1532031103321">
         <mark key="'" line="29" column="8" />
@@ -1230,10 +1234,10 @@
         <mark key="." line="14" column="66" />
         <mark key="^" line="14" column="66" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" timestamp="1538687727296">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" timestamp="1538689511105">
         <mark key="'" line="27" column="0" />
-        <mark key="[" line="13" column="78" />
-        <mark key="]" line="13" column="79" />
+        <mark key="[" line="20" column="19" />
+        <mark key="]" line="23" column="103" />
         <mark key="^" line="9" column="1" />
         <mark key="." line="13" column="79" />
       </file>
@@ -1375,9 +1379,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="248" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="241" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="238" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="225" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="222" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="219" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
@@ -1475,6 +1476,9 @@
       <jump line="3" column="39" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
       <jump line="12" column="44" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
       <jump line="27" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
+      <jump line="145" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="160" column="59" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="161" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1546,61 +1550,62 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>parem</text>
+        <text>row\.</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">LS0gRmlyc3QgZGVsZXRlIGR1cGxpY2F0ZSBzY3JhcGVkIHJlY29yZHMgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwpkZWxldGUgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwp3aGVyZSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCBub3QgaW4gKAogICAgc2VsZWN0IG1pbih2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCksIHZlbnVlX2lkIGZyb20gdmVudWVfcGFyYW1ldGVyc19sb2cKICAgIGlubmVyIGpvaW4gdmVudWVfc291cmNlIG9uIHZlbnVlX3BhcmFtZXRlcnNfbG9nLnZlbnVlX3NvdXJjZV9pZCA9IHZlbnVlX3NvdXJjZS52ZW51ZV9zb3VyY2VfaWQKICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQogICAgZ3JvdXAgYnkgKHZlbnVlX2lkLCB1cmwsIGludmVudG9yeV90eXBlX2lkLCBzY2hlZHVsaW5nX3NvZnR3YXJlX2lkLCBpc19jb21wbGV0ZSwgdmVudWVfcGhvbmUsIHZlbnVlX2VtYWlsLCBjb250YWN0X25hbWUsIGNvbnRhY3RfcGhvbmUsIGNvbnRhY3RfZW1haWwsIGlzX3F1YWxpZmllZCwgY29udGFjdF90aXRsZV9pZCwgdmVudWVfYWxyZWFkeV9saXZlLCB2ZW51ZV9pc19jbG9zZWQsIHZlbnVlX2R1cGxpY2F0ZSwgdmVudWVfbm9fZ3JvdXBfY2xhc3MsIGRlc2NyaXB0aW9uKQopCg==</text>
+      <register name="0" type="4">
+        <text>vpl_row.venue_id, vpl_row.url, vpl_row.inventory_type_id, vpl_row.scheduling_software_id,
+     vpl_row.is_complete, vpl_row.venue_phone, vpl_row.venue_email, vpl_row.contact_name, vpl_row.contact_phone,
+     vpl_row.contact_email, vpl_row.is_qualified, vpl_row.contact_title_id, vpl_row.venue_already_live,
+     vpl_row.venue_is_closed, vpl_row.venue_duplicate, vpl_row.venue_no_group_class, vpl_row.description</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">LS0gTmV4dCBhZGQgb3VyIG5ldyBoYXNoIGNvbHVtbgo=</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">LS0gTmV4dCBhZGQgb3VyIG5ldyBoYXNoIGNvbHVtbgo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">LS0gRmlyc3QgZGVsZXRlIGR1cGxpY2F0ZSBzY3JhcGVkIHJlY29yZHMgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwpkZWxldGUgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwp3aGVyZSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCBub3QgaW4gKAogICAgc2VsZWN0IG1pbih2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCksIHZlbnVlX2lkIGZyb20gdmVudWVfcGFyYW1ldGVyc19sb2cKICAgIGlubmVyIGpvaW4gdmVudWVfc291cmNlIG9uIHZlbnVlX3BhcmFtZXRlcnNfbG9nLnZlbnVlX3NvdXJjZV9pZCA9IHZlbnVlX3NvdXJjZS52ZW51ZV9zb3VyY2VfaWQKICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQogICAgZ3JvdXAgYnkgKHZlbnVlX2lkLCB1cmwsIGludmVudG9yeV90eXBlX2lkLCBzY2hlZHVsaW5nX3NvZnR3YXJlX2lkLCBpc19jb21wbGV0ZSwgdmVudWVfcGhvbmUsIHZlbnVlX2VtYWlsLCBjb250YWN0X25hbWUsIGNvbnRhY3RfcGhvbmUsIGNvbnRhY3RfZW1haWwsIGlzX3F1YWxpZmllZCwgY29udGFjdF90aXRsZV9pZCwgdmVudWVfYWxyZWFkeV9saXZlLCB2ZW51ZV9pc19jbG9zZWQsIHZlbnVlX2R1cGxpY2F0ZSwgdmVudWVfbm9fZ3JvdXBfY2xhc3MsIGRlc2NyaXB0aW9uKQopCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">LS0gRmlyc3QgZGVsZXRlIGR1cGxpY2F0ZSBzY3JhcGVkIHJlY29yZHMgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwpkZWxldGUgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwp3aGVyZSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCBub3QgaW4gKAogICAgc2VsZWN0IG1pbih2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCksIHZlbnVlX2lkIGZyb20gdmVudWVfcGFyYW1ldGVyc19sb2cKICAgIGlubmVyIGpvaW4gdmVudWVfc291cmNlIG9uIHZlbnVlX3BhcmFtZXRlcnNfbG9nLnZlbnVlX3NvdXJjZV9pZCA9IHZlbnVlX3NvdXJjZS52ZW51ZV9zb3VyY2VfaWQKICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQogICAgZ3JvdXAgYnkgKHZlbnVlX2lkLCB1cmwsIGludmVudG9yeV90eXBlX2lkLCBzY2hlZHVsaW5nX3NvZnR3YXJlX2lkLCBpc19jb21wbGV0ZSwgdmVudWVfcGhvbmUsIHZlbnVlX2VtYWlsLCBjb250YWN0X25hbWUsIGNvbnRhY3RfcGhvbmUsIGNvbnRhY3RfZW1haWwsIGlzX3F1YWxpZmllZCwgY29udGFjdF90aXRsZV9pZCwgdmVudWVfYWxyZWFkeV9saXZlLCB2ZW51ZV9pc19jbG9zZWQsIHZlbnVlX2R1cGxpY2F0ZSwgdmVudWVfbm9fZ3JvdXBfY2xhc3MsIGRlc2NyaXB0aW9uKQopCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG9yZGVyIGJ5IHZlbnVlX2lkCg==</text>
+        <text encoding="base64">LS0gRmlyc3QgZGVsZXRlIGR1cGxpY2F0ZSBzY3JhcGVkIHJlY29yZHMgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwpkZWxldGUgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwp3aGVyZSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCBub3QgaW4gKAogICAgc2VsZWN0IG1pbih2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCksIHZlbnVlX2lkIGZyb20gdmVudWVfcGFyYW1ldGVyc19sb2cKICAgIGlubmVyIGpvaW4gdmVudWVfc291cmNlIG9uIHZlbnVlX3BhcmFtZXRlcnNfbG9nLnZlbnVlX3NvdXJjZV9pZCA9IHZlbnVlX3NvdXJjZS52ZW51ZV9zb3VyY2VfaWQKICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQogICAgZ3JvdXAgYnkgKHZlbnVlX2lkLCB1cmwsIGludmVudG9yeV90eXBlX2lkLCBzY2hlZHVsaW5nX3NvZnR3YXJlX2lkLCBpc19jb21wbGV0ZSwgdmVudWVfcGhvbmUsIHZlbnVlX2VtYWlsLCBjb250YWN0X25hbWUsIGNvbnRhY3RfcGhvbmUsIGNvbnRhY3RfZW1haWwsIGlzX3F1YWxpZmllZCwgY29udGFjdF90aXRsZV9pZCwgdmVudWVfYWxyZWFkeV9saXZlLCB2ZW51ZV9pc19jbG9zZWQsIHZlbnVlX2R1cGxpY2F0ZSwgdmVudWVfbm9fZ3JvdXBfY2xhc3MsIGRlc2NyaXB0aW9uKQopCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQo=</text>
+        <text encoding="base64">ICAgIG9yZGVyIGJ5IHZlbnVlX2lkCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHdoZXJlIAo=</text>
+        <text encoding="base64">ICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHdoZXJlIAo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>parem</last-search>
+      <last-search>row\.</last-search>
       <last-offset />
-      <last-pattern>parem</last-pattern>
-      <last-replace>vpl_row.</last-replace>
-      <last-substitute>, \zs</last-substitute>
+      <last-pattern>row\.</last-pattern>
+      <last-replace>venue.</last-replace>
+      <last-substitute>row\.</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>rawve</entry>
-        <entry>createven</entry>
         <entry encoding="base64">XDxzYXZlVmVudWVcPg==</entry>
         <entry>or</entry>
         <entry>asdf</entry>
@@ -1619,10 +1624,10 @@
         <entry encoding="base64">XDxoYXNoZWRfcGFyYW1ldGVyc1w+</entry>
         <entry>prem</entry>
         <entry>parem</entry>
+        <entry>vpl_</entry>
+        <entry>row\.</entry>
       </history-search>
       <history-cmd>
-        <entry>w</entry>
-        <entry>setlocal invwrap</entry>
         <entry>setlocal invlinebreak</entry>
         <entry>setlocal invlist</entry>
         <entry>91</entry>
@@ -1639,8 +1644,10 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>s;, \zs;vpl_row.;g</entry>
         <entry encoding="base64">JzwsJz5zOywgXHpzO3ZwbF9yb3cuO2c=</entry>
-        <entry>action ReformatCode</entry>
         <entry>bnext</entry>
+        <entry encoding="base64">JzwsJz5zO3ZwbF87O2c=</entry>
+        <entry encoding="base64">JzwsJz5zO3Jvd1wuO3ZlbnVlLjtn</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
