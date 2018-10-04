@@ -427,11 +427,11 @@
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleDetailsAugmenter.java" timestamp="1537375680890">
         <mark key="'" line="39" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_venue_parameters_log_unique_constraint.sql" timestamp="1538666301045">
-        <mark key="[" line="0" column="32" />
-        <mark key="]" line="0" column="31" />
-        <mark key="^" line="0" column="31" />
-        <mark key="." line="0" column="31" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_venue_parameters_log_unique_constraint.sql" timestamp="1538669824398">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="^" line="4" column="13" />
+        <mark key="." line="4" column="14" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueFilterLogic.java" timestamp="1536868337679">
         <mark key="'" line="28" column="28" />
@@ -1536,55 +1536,53 @@
       <register name="/" type="4">
         <text encoding="base64">XDxnZXRfdmVudWVfcGFyYW1ldGVyc19oYXNoXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>md5(ROW(venue_id, url, inventory_type_id, scheduling_software_id,
-     is_complete, venue_phone, venue_email, contact_name, contact_phone, contact_email, is_qualified, contact_title_id,
-     venue_already_live, venue_is_closed, venue_duplicate, venue_no_group_class, description)::TEXT)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ZGVsZXRlIGZyb20gdmVudWVfcGFyYW1ldGVyc19sb2cKd2hlcmUgdmVudWVfcGFyYW1ldGVyc19sb2dfaWQgbm90IGluICgKICAgIHNlbGVjdCBtaW4odmVudWVfcGFyYW1ldGVyc19sb2dfaWQpIGZyb20gdmVudWVfcGFyYW1ldGVyc19sb2cKICAgIGdyb3VwIGJ5ICh2ZW51ZV9pZCwgdXJsLCBpbnZlbnRvcnlfdHlwZV9pZCwgc2NoZWR1bGluZ19zb2Z0d2FyZV9pZCwgaXNfY29tcGxldGUsIHZlbnVlX3Bob25lLCB2ZW51ZV9lbWFpbCwgY29udGFjdF9uYW1lLCBjb250YWN0X3Bob25lLCBjb250YWN0X2VtYWlsLCBpc19xdWFsaWZpZWQsIGNvbnRhY3RfdGl0bGVfaWQsIHZlbnVlX2FscmVhZHlfbGl2ZSwgdmVudWVfaXNfY2xvc2VkLCB2ZW51ZV9kdXBsaWNhdGUsIHZlbnVlX25vX2dyb3VwX2NsYXNzLCBkZXNjcmlwdGlvbikKKQo=</text>
       </register>
-      <register name="1" type="8">
-        <text>--
---
---
---
---</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHdoZXJlIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text>--
---
---
---
---
---</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>md5(ROW(venue_id, url, inventory_type_id, scheduling_software_id,
-     is_complete, venue_phone, venue_email, contact_name, contact_phone, contact_email,
-     is_qualified, contact_title_id, venue_already_live, venue_is_closed, venue_duplicate,
-     venue_no_group_class, description)::TEXT);</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">YWx0ZXIgdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">dXBkYXRlIHZlbnVlX3BhcmFtZXRlcnNfbG9nCnNldCBoYXNoZWRfcGFyYW1ldGVycyA9IG1kNShST1codmVudWVfaWQsIHVybCwgaW52ZW50b3J5X3R5cGVfaWQsIHNjaGVkdWxpbmdfc29mdHdhcmVfaWQsCiAgICAgaXNfY29tcGxldGUsIHZlbnVlX3Bob25lLCB2ZW51ZV9lbWFpbCwgY29udGFjdF9uYW1lLCBjb250YWN0X3Bob25lLCBjb250YWN0X2VtYWlsLAogICAgIGlzX3F1YWxpZmllZCwgY29udGFjdF90aXRsZV9pZCwgdmVudWVfYWxyZWFkeV9saXZlLCB2ZW51ZV9pc19jbG9zZWQsIHZlbnVlX2R1cGxpY2F0ZSwKICAgICB2ZW51ZV9ub19ncm91cF9jbGFzcywgZGVzY3JpcHRpb24pOjpURVhUKTsK</text>
+      <register name="5" type="8">
+        <text>--
+--
+--
+--
+--</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Y3JlYXRlIHRyaWdnZXIgaW5zZXJ0X2hhc2hlZF9wYXJhbWV0ZXJzX3RvX3ZlbnVlX3BhcmFtZXRlcnNfbG9nIGJlZm9yZSBpbnNlcnQgb3IgdXBkYXRlIG9uIHZlbnVlX3BhcmFtZXRlcnNfbG9nCmZvciBlYWNoIHJvdyBleGVjdXRlIHByb2NlZHVyZSBmaWxsX3ZlbnVlX3BhcmFtZXRlcnNfaGFzaCgpOwo=</text>
+      <register name="6" type="8">
+        <text>--
+--
+--
+--
+--
+--</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICByZXR1cm4gTkVXOwo=</text>
+      <register name="7" type="4">
+        <text>md5(ROW(venue_id, url, inventory_type_id, scheduling_software_id,
+     is_complete, venue_phone, venue_email, contact_name, contact_phone, contact_email,
+     is_qualified, contact_title_id, venue_already_live, venue_is_closed, venue_duplicate,
+     venue_no_group_class, description)::TEXT);</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dXBkYXRlIHZlbnVlX3BhcmFtZXRlcnNfbG9nCnNldCBoYXNoZWRfcGFyYW1ldGVycyA9IG1kNShST1codmVudWVfaWQsIHVybCwgaW52ZW50b3J5X3R5cGVfaWQsIHNjaGVkdWxpbmdfc29mdHdhcmVfaWQsCiAgICAgaXNfY29tcGxldGUsIHZlbnVlX3Bob25lLCB2ZW51ZV9lbWFpbCwgY29udGFjdF9uYW1lLCBjb250YWN0X3Bob25lLCBjb250YWN0X2VtYWlsLAogICAgIGlzX3F1YWxpZmllZCwgY29udGFjdF90aXRsZV9pZCwgdmVudWVfYWxyZWFkeV9saXZlLCB2ZW51ZV9pc19jbG9zZWQsIHZlbnVlX2R1cGxpY2F0ZSwKICAgICB2ZW51ZV9ub19ncm91cF9jbGFzcywgZGVzY3JpcHRpb24pOjpURVhUKTsK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
