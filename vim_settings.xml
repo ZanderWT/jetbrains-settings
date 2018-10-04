@@ -427,11 +427,11 @@
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleDetailsAugmenter.java" timestamp="1537375680890">
         <mark key="'" line="39" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_venue_parameters_log_unique_constraint.sql" timestamp="1538672140314">
-        <mark key="[" line="7" column="21" />
-        <mark key="]" line="7" column="21" />
-        <mark key="." line="7" column="21" />
-        <mark key="^" line="7" column="21" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_venue_parameters_log_unique_constraint.sql" timestamp="1538672793980">
+        <mark key="[" line="0" column="26" />
+        <mark key="]" line="0" column="33" />
+        <mark key="." line="0" column="33" />
+        <mark key="^" line="0" column="33" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueFilterLogic.java" timestamp="1536868337679">
         <mark key="'" line="28" column="28" />
@@ -1540,16 +1540,16 @@
         <text encoding="base64">ICAgIHNlbGVjdCBtaW4odmVudWVfcGFyYW1ldGVyc19sb2dfaWQpLCB2ZW51ZV9pZCBmcm9tIHZlbnVlX3BhcmFtZXRlcnNfbG9nCiAgICBpbm5lciBqb2luIHZlbnVlX3NvdXJjZSBvbiB2ZW51ZV9wYXJhbWV0ZXJzX2xvZy52ZW51ZV9zb3VyY2VfaWQgPSB2ZW51ZV9zb3VyY2UudmVudWVfc291cmNlX2lkCiAgICB3aGVyZSB2ZW51ZV9zb3VyY2VfdHlwZV9pZCA9IDEKICAgIGdyb3VwIGJ5ICh2ZW51ZV9pZCwgdXJsLCBpbnZlbnRvcnlfdHlwZV9pZCwgc2NoZWR1bGluZ19zb2Z0d2FyZV9pZCwgaXNfY29tcGxldGUsIHZlbnVlX3Bob25lLCB2ZW51ZV9lbWFpbCwgY29udGFjdF9uYW1lLCBjb250YWN0X3Bob25lLCBjb250YWN0X2VtYWlsLCBpc19xdWFsaWZpZWQsIGNvbnRhY3RfdGl0bGVfaWQsIHZlbnVlX2FscmVhZHlfbGl2ZSwgdmVudWVfaXNfY2xvc2VkLCB2ZW51ZV9kdXBsaWNhdGUsIHZlbnVlX25vX2dyb3VwX2NsYXNzLCBkZXNjcmlwdGlvbikKICAgIG9yZGVyIGJ5IHZlbnVlX2lkOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQo=</text>
+        <text encoding="base64">ICAgIG9yZGVyIGJ5IHZlbnVlX2lkCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHdoZXJlIAo=</text>
+        <text encoding="base64">ICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHdoZXJlIAo=</text>
       </register>
       <register name="s" type="4">
         <text />
@@ -1558,31 +1558,31 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="8">
-        <text>--
---
---
---
---</text>
+      <register name="6" type="2">
+        <text encoding="base64">YWx0ZXIgdGFibGUgdmVudWVfcGFyYW1ldGVyc19sb2cK</text>
       </register>
       <register name="7" type="8">
         <text>--
 --
 --
 --
+--</text>
+      </register>
+      <register name="8" type="8">
+        <text>--
+--
+--
+--
 --
 --</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>md5(ROW(venue_id, url, inventory_type_id, scheduling_software_id,
      is_complete, venue_phone, venue_email, contact_name, contact_phone, contact_email,
      is_qualified, contact_title_id, venue_already_live, venue_is_closed, venue_duplicate,
      venue_no_group_class, description)::TEXT);</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
