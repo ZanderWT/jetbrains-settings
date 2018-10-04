@@ -1230,6 +1230,13 @@
         <mark key="." line="14" column="66" />
         <mark key="^" line="14" column="66" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" timestamp="1538687727296">
+        <mark key="'" line="27" column="0" />
+        <mark key="[" line="13" column="78" />
+        <mark key="]" line="13" column="79" />
+        <mark key="^" line="9" column="1" />
+        <mark key="." line="13" column="79" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesScrapeResult.java" timestamp="1533574217840">
         <mark key="[" line="4" column="105" />
         <mark key="]" line="4" column="110" />
@@ -1368,11 +1375,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="275" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="266" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="263" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="259" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="254" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="248" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="241" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="238" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
@@ -1468,6 +1470,11 @@
       <jump line="7" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" />
       <jump line="28" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" />
       <jump line="40" column="92" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
+      <jump line="6" column="14" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
+      <jump line="3" column="39" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
+      <jump line="12" column="44" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
+      <jump line="27" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1536,10 +1543,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>update</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>dup</text>
+        <text>parem</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">LS0gRmlyc3QgZGVsZXRlIGR1cGxpY2F0ZSBzY3JhcGVkIHJlY29yZHMgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwpkZWxldGUgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZwp3aGVyZSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCBub3QgaW4gKAogICAgc2VsZWN0IG1pbih2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCksIHZlbnVlX2lkIGZyb20gdmVudWVfcGFyYW1ldGVyc19sb2cKICAgIGlubmVyIGpvaW4gdmVudWVfc291cmNlIG9uIHZlbnVlX3BhcmFtZXRlcnNfbG9nLnZlbnVlX3NvdXJjZV9pZCA9IHZlbnVlX3NvdXJjZS52ZW51ZV9zb3VyY2VfaWQKICAgIHdoZXJlIHZlbnVlX3NvdXJjZV90eXBlX2lkID0gMQogICAgZ3JvdXAgYnkgKHZlbnVlX2lkLCB1cmwsIGludmVudG9yeV90eXBlX2lkLCBzY2hlZHVsaW5nX3NvZnR3YXJlX2lkLCBpc19jb21wbGV0ZSwgdmVudWVfcGhvbmUsIHZlbnVlX2VtYWlsLCBjb250YWN0X25hbWUsIGNvbnRhY3RfcGhvbmUsIGNvbnRhY3RfZW1haWwsIGlzX3F1YWxpZmllZCwgY29udGFjdF90aXRsZV9pZCwgdmVudWVfYWxyZWFkeV9saXZlLCB2ZW51ZV9pc19jbG9zZWQsIHZlbnVlX2R1cGxpY2F0ZSwgdmVudWVfbm9fZ3JvdXBfY2xhc3MsIGRlc2NyaXB0aW9uKQopCg==</text>
@@ -1582,9 +1589,9 @@
       </register>
     </registers>
     <search>
-      <last-search>dup</last-search>
+      <last-search>parem</last-search>
       <last-offset />
-      <last-pattern>dup</last-pattern>
+      <last-pattern>parem</last-pattern>
       <last-replace>vpl_row.</last-replace>
       <last-substitute>, \zs</last-substitute>
       <last-dir>1</last-dir>
@@ -1592,12 +1599,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxOb3RGb3VuZEV4Y2VwdGlvblw+</entry>
-        <entry encoding="base64">XDxzY3JhcGVySm9iSWRcPg==</entry>
-        <entry>visi</entry>
-        <entry>scra</entry>
-        <entry encoding="base64">XDxoYXNJdGVtXD4=</entry>
-        <entry>tr</entry>
         <entry>rawve</entry>
         <entry>createven</entry>
         <entry encoding="base64">XDxzYXZlVmVudWVcPg==</entry>
@@ -1612,6 +1613,12 @@
         <entry>fill</entry>
         <entry encoding="base64">XDxnZXRfdmVudWVfcGFyYW1ldGVyc19oYXNoXD4=</entry>
         <entry>dup</entry>
+        <entry>alter</entry>
+        <entry encoding="base64">XDx2ZW51ZV9pZFw+</entry>
+        <entry>create in</entry>
+        <entry encoding="base64">XDxoYXNoZWRfcGFyYW1ldGVyc1w+</entry>
+        <entry>prem</entry>
+        <entry>parem</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
@@ -1630,10 +1637,10 @@
         <entry>action ShowBookmarks</entry>
         <entry>45</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
-        <entry>bnext</entry>
         <entry>s;, \zs;vpl_row.;g</entry>
         <entry encoding="base64">JzwsJz5zOywgXHpzO3ZwbF9yb3cuO2c=</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
