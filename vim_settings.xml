@@ -487,8 +487,8 @@
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/salesforce/SalesforceCsvFileProducer.java" timestamp="1537384062307">
         <mark key="'" line="25" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1538506375991">
-        <mark key="'" line="73" column="63" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" timestamp="1538761968937">
+        <mark key="'" line="78" column="47" />
         <mark key="[" line="89" column="0" />
         <mark key="]" line="89" column="0" />
         <mark key="." line="89" column="0" />
@@ -1396,7 +1396,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="1" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" />
       <jump line="7" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" />
       <jump line="28" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" />
       <jump line="40" column="92" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00021_add_venue_param_hash_column.sql" />
@@ -1496,6 +1495,7 @@
       <jump line="20" column="50" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
       <jump line="22" column="33" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
       <jump line="14" column="42" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/VenueEntity.java" />
+      <jump line="78" column="47" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueWriter.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1567,7 +1567,7 @@
         <text>vId</text>
       </register>
       <register name="/" type="4">
-        <text>comp</text>
+        <text>compl</text>
       </register>
       <register name="0" type="4">
         <text>RawVenue rawVenue, NormalizedAddress normalizedAddress, boolean complete</text>
@@ -1610,9 +1610,9 @@
       </register>
     </registers>
     <search>
-      <last-search>comp</last-search>
+      <last-search>compl</last-search>
       <last-offset />
-      <last-pattern>comp</last-pattern>
+      <last-pattern>compl</last-pattern>
       <last-replace>venue.</last-replace>
       <last-substitute>row\.</last-substitute>
       <last-dir>1</last-dir>
@@ -1634,12 +1634,12 @@
         <entry>norma</entry>
         <entry>.get</entry>
         <entry encoding="base64">XDxmaW5kRHVwbGljYXRlU2NyYXBlc1w+</entry>
-        <entry>compl</entry>
         <entry encoding="base64">XDx2ZW51ZVBhcmFtZXRlcnNMb2dJZFw+</entry>
         <entry>vid</entry>
         <entry encoding="base64">XDxub3JtYWxpemVkQWRkcmVzc1w+</entry>
         <entry encoding="base64">XDxOb3JtYWxpemVkQWRkcmVzc1w+</entry>
         <entry>comp</entry>
+        <entry>compl</entry>
       </history-search>
       <history-cmd>
         <entry>setlocal invlinebreak</entry>
