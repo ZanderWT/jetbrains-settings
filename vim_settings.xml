@@ -361,6 +361,9 @@
         <mark key="^" line="34" column="72" />
         <mark key="." line="34" column="72" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1539040355421">
+        <mark key="'" line="2" column="3" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" timestamp="1532031103321">
         <mark key="'" line="29" column="8" />
         <mark key="[" line="13" column="12" />
@@ -1399,8 +1402,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="9" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
-      <jump line="231" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="87" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueMapper.java" />
       <jump line="7" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/DuplicateScrapeResult.java" />
       <jump line="5" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/DuplicateScrapeResult.java" />
@@ -1445,9 +1446,7 @@
       <jump line="142" column="9" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="23" column="50" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
       <jump line="28" column="45" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
-      <jump line="176" column="116" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="162" column="1" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
-      <jump line="164" column="37" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="100" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="7" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
       <jump line="28" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoIntegrationTest.java" />
@@ -1499,6 +1498,10 @@
       <jump line="46" column="71" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" />
       <jump line="92" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="71" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="124" column="59" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="164" column="21" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="176" column="67" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="2" column="3" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1570,7 +1573,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>inba</text>
+        <text>venueId</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Z2V0VmVudWVzKGxpbWl0LCBvZmZzZXQsIGJhdGNoSWQsIG1heFJldmlld0NvdW50LCBtaW5SZXZpZXdDb3VudCwgdmVudWVJZCkgOjo9IDw8CiAgICBXSVRIIGZpbHRlcmVkX3ZlbnVlcyBBUyAoCiAgICAgIFNFTEVDVAogICAgICAgIHZlbnVlX3Jldmlld3MudmVudWVfaWQsCiAgICAgICAgdmVudWVfcmV2aWV3cy5yZXNvbHZlZF92ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCwKICAgICAgICB2ZW51ZV9yZXZpZXdzLnJldmlld19jb3VudAogICAgICAgIEZST00gdmVudWVfcmV2aWV3cwogICAgICAgIElOTkVSIEpPSU4gdmVudWVfcGFyYW1ldGVyc19sb2cgT04gdmVudWVfcGFyYW1ldGVyc19sb2cudmVudWVfcGFyYW1ldGVyc19sb2dfaWQgPSB2ZW51ZV9yZXZpZXdzLnJlc29sdmVkX3ZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkCiAgICAgICAgTEVGVCBKT0lOIGF1Z21lbnRhdGlvbl9iYXRjaCBPTiBhdWdtZW50YXRpb25fYmF0Y2gudmVudWVfaWQgPSB2ZW51ZV9yZXZpZXdzLnZlbnVlX2lkCiAgICAgICAgV0hFUkUgKDpiYXRjaElkIElTIE5VTEwgT1IgYXVnbWVudGF0aW9uX2JhdGNoLmF1Z21lbnRhdGlvbl9iYXRjaF9pZCA9IDpiYXRjaElkKQogICAgICAgIEFORCAoOm1heFJldmlld0NvdW50IElTIE5VTEwgT1IgdmVudWVfcmV2aWV3cy5yZXZpZXdfY291bnQgXDw9IDptYXhSZXZpZXdDb3VudCkKICAgICAgICBBTkQgKDptaW5SZXZpZXdDb3VudCBJUyBOVUxMIE9SIHZlbnVlX3Jldmlld3MucmV2aWV3X2NvdW50IFw+PSA6bWluUmV2aWV3Q291bnQpCiAgICAgICAgQU5EICg6dmVudWVJZCBJUyBOVUxMIE9SIHZlbnVlX3Jldmlld3MudmVudWVfaWQgPSA6dmVudWVJZCkKICAgICAgICBPUkRFUiBCWSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZy5jcmVhdGVkX29uIEFTQwogICAgICAgIExJTUlUIDpsaW1pdCBPRkZTRVQgOm9mZnNldAogICAgKQoKICAgIFNFTEVDVAogICAgICB2ZW51ZS52ZW51ZV9pZCwKICAgICAgbG9nLnZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkLAogICAgICB2ZW51ZS52ZW51ZV9uYW1lLAogICAgICB2ZW51ZS5ub3JtYWxpemVkX2FkZHJlc3MsCiAgICAgIHZlbnVlLmFkZHJlc3NfaGFzaCwKICAgICAgdmVudWUuY29vcmRpbmF0ZXMsCiAgICAgIGxvZy52ZW51ZV9zb3VyY2VfaWQsCiAgICAgIGxvZy51cmwsCiAgICAgIGludmVudG9yeS5pbnZlbnRvcnlfdHlwZV9uYW1lIEFTIGludmVudG9yeV90eXBlLAogICAgICBzb2Z0d2FyZS5zY2hlZHVsaW5nX3NvZnR3YXJlX25hbWUgYXMgc2NoZWR1bGluZ19zb2Z0d2FyZSwKICAgICAgbG9nLmFkZHJlc3NfaWQsCiAgICAgIGxvZy52ZW51ZV9waG9uZSwKICAgICAgbG9nLnZlbnVlX2VtYWlsLAogICAgICBsb2cuY29udGFjdF9waG9uZSwKICAgICAgbG9nLmNvbnRhY3RfZW1haWwsCiAgICAgIGxvZy5jb250YWN0X25hbWUsCiAgICAgIGNvbnRhY3RfdGl0bGUuY29udGFjdF90aXRsZV9uYW1lIGFzIGNvbnRhY3RfdGl0bGUsCiAgICAgIHNvdXJjZS5zb3VyY2VfaWQgYXMgc291cmNlX2lkLAogICAgICBzb3VyY2VfdHlwZS52ZW51ZV9zb3VyY2VfdHlwZV9pZCBhcyBzb3VyY2VfdHlwZSwKICAgICAgc291cmNlLmNyZWF0ZWRfb24gYXMgY3JlYXRlZF9vbiwKICAgICAgc291cmNlLmxhc3Rfc3luY2VkX29uIGFzIGxhc3Rfc3luY2VkX29uLAogICAgICBnZW5yZS5nZW5yZV9uYW1lLAogICAgICBhZGRyZXNzLmFkZHJlc3NfaWQsCiAgICAgIGFkZHJlc3MuYWRkcmVzc19jb21wb25lbnRfbmFtZSwKICAgICAgYWRkcmVzcy5hZGRyZXNzX2NvbXBvbmVudF92YWx1ZSwKICAgICAgbG9nLnZlbnVlX2FscmVhZHlfbGl2ZSwKICAgICAgbG9nLnZlbnVlX2lzX2Nsb3NlZCwKICAgICAgbG9nLnZlbnVlX2R1cGxpY2F0ZSwKICAgICAgbG9nLnZlbnVlX25vX2dyb3VwX2NsYXNzLAogICAgICBjYXNlIHNvdXJjZV90eXBlLmRlc2NyaXB0aW9uCiAgICAgICAgV0hFTiAnU2NyYXBlcicgdGhlbgogICAgICAgICAgKCBzZWxlY3Qgc2NyYXBlcl9pZAogICAgICAgICAgICBmcm9tIHZlbnVlX3NvdXJjZV9zY3JhcGVyCiAgICAgICAgICAgIHdoZXJlIHZlbnVlX3NvdXJjZV9zY3JhcGVyX2lkID0gc291cmNlLnNvdXJjZV9pZCkKICAgICAgICBXSEVOICdBZG1pbicgdGhlbgogICAgICAgICAgKHNlbGVjdCBhZG1pbl91c2VyX2lkCiAgICAgICAgICAgIGZyb20gdmVudWVfc291cmNlX2FkbWluX3VzZXIKICAgICAgICAgICAgd2hlcmUgdmVudWVfc291cmNlX2FkbWluX3VzZXJfaWQgPSBzb3VyY2Uuc291cmNlX2lkCiAgICAgICAgICApCiAgICAgICAgRUxTRSAwCiAgICAgIEVORCBhcyBhZG1pbl9zY3JhcGVyX2lkCiAgICBGUk9NIHZlbnVlCiAgICBKT0lOIGZpbHRlcmVkX3ZlbnVlcyBPTiBmaWx0ZXJlZF92ZW51ZXMudmVudWVfaWQgPSB2ZW51ZS52ZW51ZV9pZAogICAgSk9JTiB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyBsb2cgT04gbG9nLnZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkID0gZmlsdGVyZWRfdmVudWVzLnJlc29sdmVkX3ZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkCiAgICBKT0lOIHZlbnVlX3NvdXJjZSBBUyBzb3VyY2UgT04gc291cmNlLnZlbnVlX3NvdXJjZV9pZCA9IGxvZy52ZW51ZV9zb3VyY2VfaWQKICAgIExFRlQgSk9JTiB2ZW51ZV9zb3VyY2VfdHlwZSBBUyBzb3VyY2VfdHlwZSBPTiBzb3VyY2VfdHlwZS52ZW51ZV9zb3VyY2VfdHlwZV9pZCA9IHNvdXJjZS52ZW51ZV9zb3VyY2VfdHlwZV9pZAogICAgTEVGVCBKT0lOIGludmVudG9yeV90eXBlIEFTIGludmVudG9yeSBPTiBpbnZlbnRvcnkuaW52ZW50b3J5X3R5cGVfaWQgPSBsb2cuaW52ZW50b3J5X3R5cGVfaWQKICAgIExFRlQgSk9JTiBzY2hlZHVsaW5nX3NvZnR3YXJlIEFTIHNvZnR3YXJlIE9OIHNvZnR3YXJlLnNjaGVkdWxpbmdfc29mdHdhcmVfaWQgPSBsb2cuc2NoZWR1bGluZ19zb2Z0d2FyZV9pZAogICAgTEVGVCBKT0lOIGNvbnRhY3RfdGl0bGUgQVMgY29udGFjdF90aXRsZSBPTiBjb250YWN0X3RpdGxlLmNvbnRhY3RfdGl0bGVfaWQgPSBsb2cuY29udGFjdF90aXRsZV9pZAogICAgTEVGVCBKT0lOIHZlbnVlX2dlbnJlIE9OIHZlbnVlX2dlbnJlLnZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkID0gbG9nLnZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkCiAgICBMRUZUIEpPSU4gZ2VucmUgT04gZ2VucmUuZ2VucmVfaWQgPSB2ZW51ZV9nZW5yZS5nZW5yZV9pZAogICAgTEVGVCBKT0lOIGFkZHJlc3MgT04gYWRkcmVzcy5hZGRyZXNzX2lkID0gbG9nLmFkZHJlc3NfaWQKICAgIE9SREVSIEJZIHNvdXJjZS5sYXN0X3N5bmNlZF9vbiBBU0MK</text>
@@ -1613,9 +1616,9 @@
       </register>
     </registers>
     <search>
-      <last-search>inba</last-search>
+      <last-search>venueId</last-search>
       <last-offset />
-      <last-pattern>inba</last-pattern>
+      <last-pattern>venueId</last-pattern>
       <last-replace>:</last-replace>
       <last-substitute>venue\.</last-substitute>
       <last-dir>1</last-dir>
@@ -1623,7 +1626,6 @@
     </search>
     <history>
       <history-search>
-        <entry>:\zs</entry>
         <entry>inv</entry>
         <entry>compl</entry>
         <entry>schedul</entry>
@@ -1643,6 +1645,7 @@
         <entry>last_sync</entry>
         <entry>csv</entry>
         <entry>inba</entry>
+        <entry>venueId</entry>
       </history-search>
       <history-cmd>
         <entry>setlocal invlist</entry>
