@@ -981,8 +981,8 @@
         <mark key="^" line="3" column="3" />
         <mark key="." line="2" column="26" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" timestamp="1536877673533">
-        <mark key="'" line="29" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" timestamp="1539020066205">
+        <mark key="'" line="46" column="71" />
         <mark key="[" line="60" column="78" />
         <mark key="]" line="60" column="79" />
         <mark key="^" line="60" column="66" />
@@ -1402,8 +1402,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="232" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="234" column="23" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="250" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="248" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="73" column="9" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
@@ -1502,6 +1500,8 @@
       <jump line="155" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="18" column="5" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" />
+      <jump line="45" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" />
+      <jump line="46" column="71" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/VenueLogic.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1573,7 +1573,7 @@
         <text encoding="base64">Rmlyc3Qg</text>
       </register>
       <register name="/" type="4">
-        <text>last_sync</text>
+        <text>inba</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAvLyBGaXJzdCwgc2F2ZSBhIHNjcmFwZWQgdmVudWUKICAgICAgICBSYXdWZW51ZSByYXdWZW51ZSA9IGNyZWF0ZVJhd1ZlbnVlKHRlc3ROYW1lLmdldE1ldGhvZE5hbWUoKSk7CiAgICAgICAgTm9ybWFsaXplZEFkZHJlc3Mgbm9ybWllID0gbmV3IE5vcm1hbGl6ZWRBZGRyZXNzKCJOdW1iZXIgMTIsIEdyaW1tYXVsZCAgUGxhY2UiKTsKICAgICAgICBib29sZWFuIGNvbXBsZXRlID0gdHJ1ZTsKCiAgICAgICAgVmVudWVFbnRpdHkgb3JpZ2luYWxWZW51ZSA9IGpkYmkud2l0aEhhbmRsZShoYW5kbGUgLT4gdmVudWVEYW8ud3JpdGVTY3JhcGVkVmVudWUocmF3VmVudWUsIG5vcm1pZSwgY29tcGxldGUpKTsKICAgICAgICAvLyBUaGVuIHRyeSB0byBzYXZlIGl0IGFnYWluCiAgICAgICAgVmVudWVFbnRpdHkgcmVzYXZlZFZlbnVlID0gamRiaS53aXRoSGFuZGxlKGhhbmRsZSAtPiB2ZW51ZURhby53cml0ZVNjcmFwZWRWZW51ZShyYXdWZW51ZSwgbm9ybWllLCBjb21wbGV0ZSkpOwoKICAgICAgICBTdHJpbmcgc2VsZWN0VmVudWVQYXJhbWV0ZXJzTG9nID0KICAgICAgICAgICAgICAgICJzZWxlY3QgY291bnQoKikgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyB3aGVyZSB2ZW51ZV9pZCA9ICIgKyBvcmlnaW5hbFZlbnVlLmdldElkKCk7CiAgICAgICAgamRiaS53aXRoSGFuZGxlKGhhbmRsZSAtPiB7CiAgICAgICAgICAgIEludGVnZXIgcm93Q291bnQgPSBoYW5kbGUuY3JlYXRlUXVlcnkoc2VsZWN0VmVudWVQYXJhbWV0ZXJzTG9nKS5tYXBUbyhJbnRlZ2VyLmNsYXNzKS5maW5kT25seSgpOwogICAgICAgICAgICAvLyBUaGlzIGFzc2VydCBjaGVja3MgdGhhdCB3ZSBvbmx5IGhhdmUgb25lIHZlbnVlX3BhcmFtZXRlcnNfbG9nIHJlY29yZCwgZXZlbiB0aG91Z2ggd2Ugc2F2ZWQgdGhlIHZlbnVlIHR3aWNlLgogICAgICAgICAgICBhc3NlcnRUaGF0KHJvd0NvdW50KS5pc0VxdWFsVG8oMSk7CiAgICAgICAgICAgIHJldHVybiAwOwogICAgICAgIH0pOwo=</text>
@@ -1616,9 +1616,9 @@
       </register>
     </registers>
     <search>
-      <last-search>last_sync</last-search>
+      <last-search>inba</last-search>
       <last-offset />
-      <last-pattern>last_sync</last-pattern>
+      <last-pattern>inba</last-pattern>
       <last-replace>:</last-replace>
       <last-substitute>venue\.</last-substitute>
       <last-dir>1</last-dir>
@@ -1626,8 +1626,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxmaW5kRHVwbGljYXRlU2NyYXBlc1w+</entry>
-        <entry>venue_id</entry>
         <entry>:\zs</entry>
         <entry>inv</entry>
         <entry>compl</entry>
@@ -1646,6 +1644,8 @@
         <entry>fuc</entry>
         <entry>all</entry>
         <entry>last_sync</entry>
+        <entry>csv</entry>
+        <entry>inba</entry>
       </history-search>
       <history-cmd>
         <entry>setlocal invlist</entry>
