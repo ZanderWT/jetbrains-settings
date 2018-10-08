@@ -9,12 +9,12 @@
         <mark key="." line="23" column="7" />
         <mark key="^" line="23" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1538779322464">
-        <mark key="'" line="57" column="0" />
-        <mark key="[" line="124" column="4" />
-        <mark key="]" line="174" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1539011107114">
+        <mark key="'" line="174" column="0" />
+        <mark key="[" line="241" column="111" />
+        <mark key="]" line="241" column="111" />
         <mark key="^" line="123" column="3" />
-        <mark key="." line="124" column="0" />
+        <mark key="." line="241" column="111" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table" timestamp="1536350377942">
         <mark key="[" line="0" column="0" />
@@ -320,12 +320,12 @@
         <mark key="^" line="58" column="45" />
         <mark key="." line="58" column="45" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/DuplicateScrapeResult.java" timestamp="1538754458664">
-        <mark key="'" line="6" column="7" />
-        <mark key="[" line="5" column="6" />
-        <mark key="]" line="6" column="7" />
-        <mark key="^" line="6" column="7" />
-        <mark key="." line="6" column="7" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/DuplicateScrapeResult.java" timestamp="1539010905940">
+        <mark key="'" line="10" column="7" />
+        <mark key="[" line="7" column="47" />
+        <mark key="]" line="7" column="47" />
+        <mark key="^" line="7" column="47" />
+        <mark key="." line="7" column="47" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00008_add_contact_info_to_venue.sql" timestamp="1535387074857">
         <mark key="[" line="5" column="30" />
@@ -1403,7 +1403,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="256" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="235" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="216" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="205" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
@@ -1503,6 +1502,7 @@
       <jump line="35" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="47" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="57" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
+      <jump line="174" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1571,10 +1571,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>fuc</text>
+        <text>all</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAvLyBGaXJzdCwgc2F2ZSBhIHNjcmFwZWQgdmVudWUKICAgICAgICBSYXdWZW51ZSByYXdWZW51ZSA9IGNyZWF0ZVJhd1ZlbnVlKHRlc3ROYW1lLmdldE1ldGhvZE5hbWUoKSk7CiAgICAgICAgTm9ybWFsaXplZEFkZHJlc3Mgbm9ybWllID0gbmV3IE5vcm1hbGl6ZWRBZGRyZXNzKCJOdW1iZXIgMTIsIEdyaW1tYXVsZCAgUGxhY2UiKTsKICAgICAgICBib29sZWFuIGNvbXBsZXRlID0gdHJ1ZTsKCiAgICAgICAgVmVudWVFbnRpdHkgb3JpZ2luYWxWZW51ZSA9IGpkYmkud2l0aEhhbmRsZShoYW5kbGUgLT4gdmVudWVEYW8ud3JpdGVTY3JhcGVkVmVudWUocmF3VmVudWUsIG5vcm1pZSwgY29tcGxldGUpKTsKICAgICAgICAvLyBUaGVuIHRyeSB0byBzYXZlIGl0IGFnYWluCiAgICAgICAgVmVudWVFbnRpdHkgcmVzYXZlZFZlbnVlID0gamRiaS53aXRoSGFuZGxlKGhhbmRsZSAtPiB2ZW51ZURhby53cml0ZVNjcmFwZWRWZW51ZShyYXdWZW51ZSwgbm9ybWllLCBjb21wbGV0ZSkpOwoKICAgICAgICBTdHJpbmcgc2VsZWN0VmVudWVQYXJhbWV0ZXJzTG9nID0KICAgICAgICAgICAgICAgICJzZWxlY3QgY291bnQoKikgZnJvbSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZyB3aGVyZSB2ZW51ZV9pZCA9ICIgKyBvcmlnaW5hbFZlbnVlLmdldElkKCk7CiAgICAgICAgamRiaS53aXRoSGFuZGxlKGhhbmRsZSAtPiB7CiAgICAgICAgICAgIEludGVnZXIgcm93Q291bnQgPSBoYW5kbGUuY3JlYXRlUXVlcnkoc2VsZWN0VmVudWVQYXJhbWV0ZXJzTG9nKS5tYXBUbyhJbnRlZ2VyLmNsYXNzKS5maW5kT25seSgpOwogICAgICAgICAgICAvLyBUaGlzIGFzc2VydCBjaGVja3MgdGhhdCB3ZSBvbmx5IGhhdmUgb25lIHZlbnVlX3BhcmFtZXRlcnNfbG9nIHJlY29yZCwgZXZlbiB0aG91Z2ggd2Ugc2F2ZWQgdGhlIHZlbnVlIHR3aWNlLgogICAgICAgICAgICBhc3NlcnRUaGF0KHJvd0NvdW50KS5pc0VxdWFsVG8oMSk7CiAgICAgICAgICAgIHJldHVybiAwOwogICAgICAgIH0pOwo=</text>
@@ -1613,13 +1613,13 @@
         <text encoding="base64">ICAgICAgICAvLyBGaXJzdCwgc2F2ZSBhIHNjcmFwZWQgdmVudWUK</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>fuc</last-search>
+      <last-search>all</last-search>
       <last-offset />
-      <last-pattern>fuc</last-pattern>
+      <last-pattern>all</last-pattern>
       <last-replace>:</last-replace>
       <last-substitute>venue\.</last-substitute>
       <last-dir>1</last-dir>
@@ -1627,7 +1627,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzb3VyY2VcPg==</entry>
         <entry>venue\.</entry>
         <entry encoding="base64">XDxmaW5kRHVwbGljYXRlU2NyYXBlc1w+</entry>
         <entry>venue_id</entry>
@@ -1647,6 +1646,7 @@
         <entry>lastsync</entry>
         <entry>executor</entry>
         <entry>fuc</entry>
+        <entry>all</entry>
       </history-search>
       <history-cmd>
         <entry>setlocal invlist</entry>
@@ -1666,9 +1666,9 @@
         <entry encoding="base64">JzwsJz5zO3Jvd1wuO3ZlbnVlLjtn</entry>
         <entry encoding="base64">JzwsJz5zO3ZlbnVlXC47Ojtn</entry>
         <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
