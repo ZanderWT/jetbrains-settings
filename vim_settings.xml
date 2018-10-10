@@ -1044,12 +1044,12 @@
         <mark key="." line="50" column="45" />
         <mark key="^" line="50" column="45" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GlsAddressNormalizerTest.java" timestamp="1532037948139">
-        <mark key="'" line="25" column="25" />
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="46" />
-        <mark key="." line="25" column="23" />
-        <mark key="^" line="25" column="23" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GlsAddressNormalizerTest.java" timestamp="1539202914042">
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="69" column="38" />
+        <mark key="]" line="70" column="7" />
+        <mark key="." line="70" column="7" />
+        <mark key="^" line="70" column="7" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/augmentation/AugmentationBatchDaoTest.java" timestamp="1536942640627">
         <mark key="'" line="69" column="63" />
@@ -1316,12 +1316,11 @@
         <mark key="." line="189" column="16" />
         <mark key="^" line="92" column="100" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" timestamp="1539197402850">
-        <mark key="'" line="67" column="12" />
-        <mark key="[" line="82" column="5" />
-        <mark key="]" line="66" column="57" />
-        <mark key="." line="66" column="57" />
-        <mark key="^" line="66" column="57" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" timestamp="1539202895285">
+        <mark key="[" line="57" column="4" />
+        <mark key="]" line="57" column="4" />
+        <mark key="." line="57" column="4" />
+        <mark key="^" line="70" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/common/src/main/resources/common-local.yml" timestamp="1529082936555">
         <mark key="[" line="3" column="0" />
@@ -1401,7 +1400,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="177" column="57" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="170" column="5" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="172" column="77" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="174" column="48" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
@@ -1501,6 +1499,7 @@
       <jump line="57" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" />
       <jump line="61" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" />
       <jump line="67" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" />
+      <jump line="16" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GlsAddressNormalizerTest.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1569,49 +1568,49 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>isEmpty</text>
+        <text encoding="base64">cHJpdmF0ZSA=</text>
       </register>
       <register name="/" type="4">
         <text>collectors</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">PCEtLSBXZSB3b3VsZG4ndCBub3JtYWxseSBleHBlY3QgdG8gaGF2ZSBtb3JlIHRoYW4gb25lIHJlc3VsdCBoZXJlLCBidXQgdGhlIGR1cGxpY2F0ZSBwcm90ZWN0aW9uIGVuYWJsZWQKICAgICAgICAgICAgICAgICAtLSBieSB0aGlzIHF1ZXJ5IHdhcyBwdXQgaW4gcGxhY2Ugb25seSBBRlRFUiB3ZSBoYWQgc2NyYXBlZCBhIGJ1bmNoIG9mIHZlbnVlcy4gU28gZm9yIHRob3NlIG9sZGVyCiAgICAgICAgICAgICAgICAgLS0gdmVudWVzIHdlJ2xsIHNlZSBtdWx0aXBsZSByZXN1bHRzIHRvIHRoaXMgcXVlcnkgd2hlbiB3ZSBvbmx5IG5lZWQgb25lLiBTbyB3aHkgbm90IGRlbGV0ZSB0aG9zZQogICAgICAgICAgICAgICAgIC0tIGV4dHJhbmVvdXMgcmVjb3Jkcz8gTW9zdGx5IG91dCBvZiBmZWFyIG9mIGRlbGV0aW5nIGFueXRoaW5nIGZyb20gdGhlIHByb2QgZGF0YWJhc2Uu</text>
+        <text encoding="base64">dW5pcXVlcy5zdHJlYW0oKS5maWx0ZXIoKGFkZHIpIC0+CiAgICAgICAgICAgICAgICByYXdBZGRyZXNzLmdldChBZGRyZXNzQ29tcG9uZW50LlBPU1RBTF9DT0RFKS5tYXAoYWRkcjo6Y29udGFpbnMpLm9yRWxzZSh0cnVlKSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0KEltbXV0YWJsZUxpc3QudG9JbW11dGFibGVMaXN0KCkpOw==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgICAgICBJbW11dGFibGVMaXN0PFN0cmluZz4gd2l0aFJvb21zID0gd2l0aFppcHMuc3RyZWFtKCkuZmlsdGVyKChhZGRyKSAtPgogICAgICAgICAgICAgICAgcmF3QWRkcmVzcy5nZXQoQWRkcmVzc0NvbXBvbmVudC5ST09NKS5tYXAoYWRkcjo6Y29udGFpbnMpLm9yRWxzZSh0cnVlKSkKICAgICAgICAgICAgICAgIC5jb2xsZWN0KEltbXV0YWJsZUxpc3QudG9JbW11dGFibGVMaXN0KCkpOwoKICAgICAgICAvLyBJZiB3ZSd2ZSBmaWx0ZXJlZCBhd2F5IEFMTCB0aGUgYWRkcmVzc2VzLCBnbyBiYWNrIHRvIG91ciBsaXN0IG9mIHVuaXF1ZXMuCiAgICAgICAgSW1tdXRhYmxlTGlzdDxTdHJpbmc+IHJlc3VsdCA9IHdpdGhSb29tcy5pc0VtcHR5KCkgPyB1bmlxdWVzIDogd2l0aFJvb21zOw==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICBJbW11dGFibGVMaXN0PFN0cmluZz4gd2l0aFppcHMgPSB1bmlxdWVzLnN0cmVhbSgpLmZpbHRlcigoYWRkcikgLT4KICAgICAgICAgICAgICAgIHJhd0FkZHJlc3MuZ2V0KEFkZHJlc3NDb21wb25lbnQuUE9TVEFMX0NPREUpLm1hcChhZGRyOjpjb250YWlucykub3JFbHNlKHRydWUpKQogICAgICAgICAgICAgICAgLmNvbGxlY3QoSW1tdXRhYmxlTGlzdC50b0ltbXV0YWJsZUxpc3QoKSk7CgogICAgICAgIC8vIEJ1dCB3ZSBkb24ndCB3YW50IHRvIGZpbHRlciBvdXQgdGhlIHdob2xlIGxpc3QhCiAgICAgICAgaWYgKHdpdGhaaXBzLmlzRW1wdHkoKSkgewogICAgICAgICAgICB3aXRoWmlwcyA9IHVuaXF1ZXM7CiAgICAgICAgfQ==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBJCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICBpZiAod2l0aFJvb21zLmlzRW1wdHkoKSkgewogICAgICAgICAgICB3aXRoUm9vbXMuKHVuaXF1ZXMpOwogICAgICAgIH0=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBJCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBBZGRyZXNzQ29tcG9uZW50Lgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5maW5kQW55KCkK</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICBpZiAod2l0aFJvb21zLmlzRW1wdHkoKSkgewogICAgICAgICAgICB3aXRoUm9vbXMuKHVuaXF1ZXMpOwogICAgICAgIH0=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWRkci5jb250YWlucyhyYXdBZGRyZXNzLmdldChBZGRyZXNzQ29tcG9uZW50LlBPU1RBTF9DT0RFKSkK</text>
+        <text encoding="base64">ICAgICAgICBBZGRyZXNzQ29tcG9uZW50Lgo=</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zO0xpc3Q7SW1tdXRhYmxlTGlzdDtn</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -1665,8 +1664,8 @@
         <entry>216</entry>
         <entry>245</entry>
         <entry>195</entry>
-        <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5zO0xpc3Q7SW1tdXRhYmxlTGlzdDtn</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
