@@ -1287,7 +1287,7 @@
         <text encoding="base64">IHJhZGl1cywgc3RhcnRMb2NhdGlvbg==</text>
       </register>
       <register name="/" type="4">
-        <text>new sea</text>
+        <text>manage_spot</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2cuZGVidWcoIkNhbGxpbmcgZ29vZ2xlIHBsYWNlcyBuZWFyYnkgc2VhcmNoIGZvciBhIHt9IG1ldGVyIHJhZGl1cyBhcm91bmQge30iLCByYWRpdXMsIHN0YXJ0TG9jYXRpb24pOwo=</text>
@@ -1333,13 +1333,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>q</text>
       </register>
     </registers>
     <search>
-      <last-search>new sea</last-search>
+      <last-search>manage_spot</last-search>
       <last-offset />
-      <last-pattern>new sea</last-pattern>
+      <last-pattern>manage_spot</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1347,7 +1347,6 @@
     </search>
     <history>
       <history-search>
-        <entry>GoogleJobConfiguration</entry>
         <entry>true</entry>
         <entry>void</entry>
         <entry>pro</entry>
@@ -1367,12 +1366,12 @@
         <entry encoding="base64">XDxzY3JhcGVySm9ic1F1ZXVlVXJsXD4=</entry>
         <entry>new searh</entry>
         <entry>new sea</entry>
+        <entry>manage_spot</entry>
       </history-search>
       <history-cmd>
         <entry>s;scraper;admin;g</entry>
         <entry>w</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','b')</entry>
-        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>s;lat;lng;g</entry>
         <entry>47</entry>
         <entry>55</entry>
@@ -1387,8 +1386,9 @@
         <entry>bnext</entry>
         <entry encoding="base64">JXM7R29vZ2xlSm9iQ29uZmlndXJhdGlvbjtcPEdvb2dsZUZpbmRWZW51ZXNKb2JcPjtn</entry>
         <entry>%s;GoogleJobConfiguration;GoogleFindVenuesJob;g</entry>
-        <entry>q</entry>
         <entry>action ReformatCode</entry>
+        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
