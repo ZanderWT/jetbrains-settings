@@ -143,6 +143,13 @@
         <mark key="^" line="12" column="59" />
         <mark key="." line="4" column="19" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/schedule.py" timestamp="1539710563362">
+        <mark key="'" line="169" column="41" />
+        <mark key="[" line="159" column="12" />
+        <mark key="]" line="160" column="45" />
+        <mark key="^" line="160" column="45" />
+        <mark key="." line="160" column="45" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/ServiceBootstrap.java" timestamp="1533160288316">
         <mark key="'" line="43" column="0" />
         <mark key="[" line="12" column="39" />
@@ -1116,7 +1123,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="24" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessorTest.java" />
       <jump line="22" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/models/ScraperTargetLocationTest.java" />
       <jump line="59" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="57" column="80" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessor.java" />
@@ -1216,6 +1222,7 @@
       <jump line="53" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="54" column="48" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientIntegrationTest.java" />
+      <jump line="168" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/schedule.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1287,7 +1294,7 @@
         <text encoding="base64">IHJhZGl1cywgc3RhcnRMb2NhdGlvbg==</text>
       </register>
       <register name="/" type="4">
-        <text>manage_spot</text>
+        <text encoding="base64">XDx3YWl0X21zX3RvdGFsXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2cuZGVidWcoIkNhbGxpbmcgZ29vZ2xlIHBsYWNlcyBuZWFyYnkgc2VhcmNoIGZvciBhIHt9IG1ldGVyIHJhZGl1cyBhcm91bmQge30iLCByYWRpdXMsIHN0YXJ0TG9jYXRpb24pOwo=</text>
@@ -1337,18 +1344,16 @@
       </register>
     </registers>
     <search>
-      <last-search>manage_spot</last-search>
+      <last-search encoding="base64">XDx3YWl0X21zX3RvdGFsXD4=</last-search>
       <last-offset />
-      <last-pattern>manage_spot</last-pattern>
+      <last-pattern encoding="base64">XDx3YWl0X21zX3RvdGFsXD4=</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>true</entry>
-        <entry>void</entry>
         <entry>pro</entry>
         <entry>eq</entry>
         <entry>tostr</entry>
@@ -1367,6 +1372,8 @@
         <entry>new searh</entry>
         <entry>new sea</entry>
         <entry>manage_spot</entry>
+        <entry>v3</entry>
+        <entry encoding="base64">XDx3YWl0X21zX3RvdGFsXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s;scraper;admin;g</entry>
