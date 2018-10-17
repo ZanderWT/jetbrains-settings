@@ -749,6 +749,11 @@
         <mark key="^" line="27" column="32" />
         <mark key="." line="27" column="32" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" timestamp="1539815384985">
+        <mark key="'" line="102" column="25" />
+        <mark key="[" line="86" column="8" />
+        <mark key="]" line="86" column="36" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/web/GlsAPI.java" timestamp="1532030376216">
         <mark key="[" line="2" column="23" />
         <mark key="]" line="2" column="23" />
@@ -1131,7 +1136,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleJobConfiguration.java" />
       <jump line="57" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="28" column="43" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/models/ScraperTargetCountry.java" />
       <jump line="58" column="74" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobCreateProcessor.java" />
@@ -1231,6 +1235,7 @@
       <jump line="739" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
       <jump line="90" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
       <jump line="52" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
+      <jump line="102" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1302,7 +1307,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>client</text>
+        <text>view_</text>
       </register>
       <register name="0" type="4">
         <text>test_view_layer_edit_schedule</text>
@@ -1352,17 +1357,16 @@
       </register>
     </registers>
     <search>
-      <last-search>client</last-search>
+      <last-search>view_</last-search>
       <last-offset />
-      <last-pattern>client</last-pattern>
+      <last-pattern>view_</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>clas</entry>
         <entry encoding="base64">XDx2ZW51ZVw+</entry>
         <entry encoding="base64">XDxqb2JDb25maWd1cmF0aW9uXD4=</entry>
         <entry encoding="base64">XDxxdWV1ZVNlbmRlclw+</entry>
@@ -1382,6 +1386,7 @@
         <entry>view_layer</entry>
         <entry encoding="base64">XDxkYXRhXD4=</entry>
         <entry>client</entry>
+        <entry>view_</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
