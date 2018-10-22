@@ -227,12 +227,11 @@
         <mark key="." line="1" column="29" />
         <mark key="^" line="1" column="29" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1540229357043">
-        <mark key="'" line="39" column="0" />
-        <mark key="[" line="36" column="39" />
-        <mark key="]" line="37" column="28" />
-        <mark key="." line="37" column="28" />
-        <mark key="^" line="37" column="28" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1540245767137">
+        <mark key="'" line="56" column="0" />
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1529014589320">
         <mark key="[" line="5" column="7" />
@@ -800,12 +799,12 @@
         <mark key="^" line="27" column="32" />
         <mark key="." line="27" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" timestamp="1540230271342">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" timestamp="1540245960249">
         <mark key="'" line="18" column="0" />
-        <mark key="[" line="105" column="43" />
-        <mark key="]" line="105" column="48" />
-        <mark key="." line="105" column="48" />
-        <mark key="^" line="105" column="48" />
+        <mark key="[" line="97" column="211" />
+        <mark key="]" line="97" column="211" />
+        <mark key="." line="97" column="211" />
+        <mark key="^" line="97" column="211" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/scrapers/ScraperCountryDao$Dao/getAllScraperCountries.sql" timestamp="1531329656557">
         <mark key="[" line="7" column="27" />
@@ -1022,7 +1021,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
       <jump line="25" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
       <jump line="27" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
       <jump line="32" column="35" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GoogleFindVenuesJob.java" />
@@ -1122,6 +1120,7 @@
       <jump line="102" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
       <jump line="263" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="18" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
+      <jump line="57" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1190,16 +1189,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>didn't work</text>
+        <text>6</text>
       </register>
       <register name="/" type="4">
-        <text>RQ</text>
+        <text>push</text>
       </register>
       <register name="0" type="4">
         <text>redis://test-redis:6379</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBleGMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInB1c2giKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1212,40 +1211,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
+        <text encoding="base64">ICAgICAgICBleGMK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInRpbWUgdG8gbWFrZSB0aGUgc2NoZWR1bGVzIikK</text>
+        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCJhc3luY19jcmVhdGVfc2NoZWR1bGUhIikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInRpbWUgdG8gbWFrZSB0aGUgc2NoZWR1bGVzIikK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBnZXRfd29ya2VyKCkud29yayhidXJzdD1UcnVlKQo=</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCJhc3luY19jcmVhdGVfc2NoZWR1bGUhIikK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0aW1lLnNsZWVwKDEwKQo=</text>
+        <text encoding="base64">ICAgICAgICBnZXRfd29ya2VyKCkud29yayhidXJzdD1UcnVlKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIubGV2ZWwuCg==</text>
+        <text encoding="base64">ICAgICAgICB0aW1lLnNsZWVwKDEwKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuc2V0TGV2ZWwoImRlYnVnIikK</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIubGV2ZWwuCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIucwo=</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuc2V0TGV2ZWwoImRlYnVnIikK</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>RQ</last-search>
+      <last-search>push</last-search>
       <last-offset />
-      <last-pattern>RQ</last-pattern>
+      <last-pattern>push</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1253,7 +1252,6 @@
     </search>
     <history>
       <history-search>
-        <entry>view_layer</entry>
         <entry encoding="base64">XDxkYXRhXD4=</entry>
         <entry>client</entry>
         <entry>view_</entry>
@@ -1273,6 +1271,7 @@
         <entry>from dj</entry>
         <entry>get_wor</entry>
         <entry>RQ</entry>
+        <entry>push</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
