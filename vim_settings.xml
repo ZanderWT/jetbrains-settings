@@ -440,8 +440,8 @@
         <mark key="^" line="10" column="65" />
         <mark key="." line="12" column="18" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" timestamp="1540486758117">
-        <mark key="'" line="267" column="2" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" timestamp="1540502041987">
+        <mark key="'" line="127" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/common/src/main/java/com/classpass/common/package-info.java" timestamp="1528488425035">
         <mark key="[" line="1" column="29" />
@@ -755,12 +755,12 @@
         <mark key="^" line="10" column="18" />
         <mark key="." line="10" column="18" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1540309029927">
-        <mark key="'" line="263" column="37" />
-        <mark key="[" line="447" column="8" />
-        <mark key="]" line="447" column="8" />
-        <mark key="^" line="447" column="8" />
-        <mark key="." line="447" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1540502670772">
+        <mark key="'" line="135" column="16" />
+        <mark key="[" line="137" column="20" />
+        <mark key="]" line="138" column="25" />
+        <mark key="^" line="138" column="25" />
+        <mark key="." line="138" column="25" />
       </file>
       <file name="$USER_HOME$/cp-projects/venuegen-spike/code/api/src/main/java/com/classpass/venuegen/common/models/Foo.java" timestamp="1525982284804">
         <mark key="[" line="3" column="15" />
@@ -1021,11 +1021,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="3" column="11" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="6" column="11" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="60" column="67" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
-      <jump line="66" column="41" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
-      <jump line="68" column="15" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="39" column="52" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="44" column="35" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="76" column="18" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
@@ -1076,7 +1071,6 @@
       <jump line="52" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="69" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="135" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="89" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="185" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="116" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
@@ -1121,6 +1115,12 @@
       <jump line="48" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="59" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="39" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="261" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="48" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="109" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="110" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="127" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="135" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1192,7 +1192,7 @@
         <text>640000</text>
       </register>
       <register name="/" type="4">
-        <text>edit_sc</text>
+        <text>templa</text>
       </register>
       <register name="0" type="4">
         <text>create_schedule.create_schedule.total_time</text>
@@ -1242,9 +1242,9 @@
       </register>
     </registers>
     <search>
-      <last-search>edit_sc</last-search>
+      <last-search>templa</last-search>
       <last-offset />
-      <last-pattern>edit_sc</last-pattern>
+      <last-pattern>templa</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1252,12 +1252,6 @@
     </search>
     <history>
       <history-search>
-        <entry>create</entry>
-        <entry>rq</entry>
-        <entry>logging</entry>
-        <entry>formatters</entry>
-        <entry>sentry</entry>
-        <entry>ay yo</entry>
         <entry>get_work</entry>
         <entry>from dj</entry>
         <entry>get_wor</entry>
@@ -1272,6 +1266,12 @@
         <entry>runserver</entry>
         <entry>timer</entry>
         <entry>edit_sc</entry>
+        <entry>export</entry>
+        <entry>template</entry>
+        <entry encoding="base64">XDxESkFOR09fVEVNUExBVEVfRElSU1w+</entry>
+        <entry>templ</entry>
+        <entry>dirs</entry>
+        <entry>templa</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
