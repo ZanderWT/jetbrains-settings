@@ -760,8 +760,8 @@
         <mark key="^" line="10" column="18" />
         <mark key="." line="10" column="18" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1540502670772">
-        <mark key="'" line="135" column="16" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1540506677188">
+        <mark key="'" line="100" column="4" />
         <mark key="[" line="137" column="20" />
         <mark key="]" line="138" column="25" />
         <mark key="^" line="138" column="25" />
@@ -1026,8 +1026,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
-      <jump line="62" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="89" column="59" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
       <jump line="67" column="70" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="41" column="46" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
@@ -1070,7 +1068,6 @@
       <jump line="52" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="69" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="89" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="185" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="16" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="19" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
@@ -1126,6 +1123,9 @@
       <jump line="424" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/react/public/b2b/home.html" />
       <jump line="243" column="88" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="116" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="89" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="72" column="29" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="100" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1197,7 +1197,7 @@
         <text>640000</text>
       </register>
       <register name="/" type="4">
-        <text>nvm</text>
+        <text>installed</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Y3VybCAtby0gaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2NyZWF0aW9uaXgvbnZtL3YwLjMzLjExL2luc3RhbGwuc2ggfCBiYXNoCm52bSBpbnN0YWxsIHY4LjExLjEKbnZtIHVzZQo=</text>
@@ -1247,9 +1247,9 @@
       </register>
     </registers>
     <search>
-      <last-search>nvm</last-search>
+      <last-search>installed</last-search>
       <last-offset />
-      <last-pattern>nvm</last-pattern>
+      <last-pattern>installed</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1257,8 +1257,6 @@
     </search>
     <history>
       <history-search>
-        <entry>RQ</entry>
-        <entry>push</entry>
         <entry>Timer</entry>
         <entry encoding="base64">XDxUaW1lclw+</entry>
         <entry>repl</entry>
@@ -1277,6 +1275,8 @@
         <entry>.js</entry>
         <entry>\.js</entry>
         <entry>nvm</entry>
+        <entry>app_dire</entry>
+        <entry>installed</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
