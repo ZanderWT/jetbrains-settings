@@ -468,10 +468,10 @@
         <mark key="." line="9" column="42" />
         <mark key="^" line="9" column="42" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1540486305278">
-        <mark key="'" line="19" column="34" />
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1540495521900">
+        <mark key="'" line="39" column="8" />
+        <mark key="[" line="45" column="20" />
+        <mark key="]" line="45" column="61" />
         <mark key="." line="37" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/persistence/VenueDao.java" timestamp="1529014589320">
@@ -1021,9 +1021,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="49" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="74" column="35" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="0" column="12" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="3" column="11" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="6" column="11" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
       <jump line="60" column="67" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessorTest.java" />
@@ -1108,7 +1105,6 @@
       <jump line="263" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="18" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
       <jump line="57" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
-      <jump line="45" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="19" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="106" column="82" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
@@ -1121,6 +1117,10 @@
       <jump line="197" column="74" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="68" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="267" column="2" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="45" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="48" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="59" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="39" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1192,10 +1192,10 @@
         <text>640000</text>
       </register>
       <register name="/" type="4">
-        <text>runserver</text>
+        <text>edit_sc</text>
       </register>
       <register name="0" type="4">
-        <text>redis://test-redis:6379</text>
+        <text>create_schedule.create_schedule.total_time</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInB1c2giKQo=</text>
@@ -1242,9 +1242,9 @@
       </register>
     </registers>
     <search>
-      <last-search>runserver</last-search>
+      <last-search>edit_sc</last-search>
       <last-offset />
-      <last-pattern>runserver</last-pattern>
+      <last-pattern>edit_sc</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1252,8 +1252,6 @@
     </search>
     <history>
       <history-search>
-        <entry>redis_url</entry>
-        <entry>async_</entry>
         <entry>create</entry>
         <entry>rq</entry>
         <entry>logging</entry>
@@ -1272,6 +1270,8 @@
         <entry>docker</entry>
         <entry>docker-compose</entry>
         <entry>runserver</entry>
+        <entry>timer</entry>
+        <entry>edit_sc</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
