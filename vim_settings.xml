@@ -131,6 +131,9 @@
         <mark key="^" line="12" column="59" />
         <mark key="." line="4" column="19" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" timestamp="1540585590740">
+        <mark key="'" line="77" column="18" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/schedule.py" timestamp="1539711341893">
         <mark key="'" line="167" column="41" />
         <mark key="[" line="159" column="0" />
@@ -766,8 +769,8 @@
         <mark key="^" line="10" column="18" />
         <mark key="." line="10" column="18" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1540506677188">
-        <mark key="'" line="100" column="4" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1540585569017">
+        <mark key="'" line="14" column="45" />
         <mark key="[" line="137" column="20" />
         <mark key="]" line="138" column="25" />
         <mark key="^" line="138" column="25" />
@@ -1032,11 +1035,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="39" column="48" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="43" column="13" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="42" column="25" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/ScraperJobExecutionProcessor.java" />
-      <jump line="100" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="97" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="95" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
       <jump line="86" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
@@ -1132,6 +1130,11 @@
       <jump line="21" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
       <jump line="3" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
       <jump line="28" column="52" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="116" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="14" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
+      <jump line="75" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
+      <jump line="77" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1203,7 +1206,7 @@
         <text>640000</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx2ZW51ZV9hcGlfdXJsc1w+</text>
+        <text>manifest</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Y3VybCAtby0gaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2NyZWF0aW9uaXgvbnZtL3YwLjMzLjExL2luc3RhbGwuc2ggfCBiYXNoCm52bSBpbnN0YWxsIHY4LjExLjEKbnZtIHVzZQo=</text>
@@ -1253,17 +1256,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx2ZW51ZV9hcGlfdXJsc1w+</last-search>
+      <last-search>manifest</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx2ZW51ZV9hcGlfdXJsc1w+</last-pattern>
+      <last-pattern>manifest</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxUaW1lclw+</entry>
         <entry>repl</entry>
         <entry encoding="base64">dXAg</entry>
         <entry>docker</entry>
@@ -1283,6 +1285,7 @@
         <entry>app_dire</entry>
         <entry>installed</entry>
         <entry encoding="base64">XDx2ZW51ZV9hcGlfdXJsc1w+</entry>
+        <entry>manifest</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
