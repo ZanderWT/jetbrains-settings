@@ -137,8 +137,8 @@
         <mark key="^" line="12" column="59" />
         <mark key="." line="4" column="19" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" timestamp="1540587689021">
-        <mark key="'" line="89" column="10" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" timestamp="1540591680808">
+        <mark key="'" line="37" column="65" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/schedule.py" timestamp="1539711341893">
         <mark key="'" line="167" column="41" />
@@ -475,6 +475,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1540573587229">
         <mark key="'" line="28" column="52" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" timestamp="1540590718232">
+        <mark key="'" line="2" column="53" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodeResult.java" timestamp="1531338073452">
         <mark key="'" line="8" column="2" />
         <mark key="[" line="9" column="42" />
@@ -482,10 +485,12 @@
         <mark key="." line="9" column="42" />
         <mark key="^" line="9" column="42" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1540588511668">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1540590776940">
         <mark key="'" line="46" column="14" />
-        <mark key="[" line="46" column="14" />
-        <mark key="]" line="46" column="30" />
+        <mark key="[" line="67" column="30" />
+        <mark key="]" line="67" column="30" />
+        <mark key="." line="67" column="30" />
+        <mark key="^" line="67" column="30" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1540495521900">
         <mark key="'" line="39" column="8" />
@@ -1046,14 +1051,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleNearbySearchResultVenues.java" />
-      <jump line="13" column="59" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleNearbySearchResultVenues.java" />
-      <jump line="52" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="60" column="32" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="64" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" />
-      <jump line="51" column="46" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
-      <jump line="66" column="44" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
-      <jump line="50" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
       <jump line="55" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
       <jump line="59" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
       <jump line="64" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientTest.java" />
@@ -1146,6 +1143,14 @@
       <jump line="188" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="195" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="197" column="74" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="69" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
+      <jump line="97" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
+      <jump line="2" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" />
+      <jump line="27" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
+      <jump line="59" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
+      <jump line="34" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
+      <jump line="43" column="54" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
+      <jump line="37" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1214,10 +1219,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>'REACT_HOT_LOADER' in os.environ</text>
       </register>
       <register name="/" type="4">
-        <text>docker</text>
+        <text>redirect</text>
       </register>
       <register name="0" type="4">
         <text>admin@example.com</text>
@@ -1263,13 +1268,13 @@
         <text encoding="base64">ICAgICAgICBsb2dnZXIuc2V0TGV2ZWwoImRlYnVnIikK</text>
       </register>
       <register name=":" type="4">
-        <text>110</text>
+        <text>104</text>
       </register>
     </registers>
     <search>
-      <last-search>docker</last-search>
+      <last-search>redirect</last-search>
       <last-offset />
-      <last-pattern>docker</last-pattern>
+      <last-pattern>redirect</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1277,11 +1282,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">dXAg</entry>
-        <entry>docker-compose</entry>
-        <entry>runserver</entry>
-        <entry>timer</entry>
-        <entry>edit_sc</entry>
         <entry>export</entry>
         <entry>template</entry>
         <entry encoding="base64">XDxESkFOR09fVEVNUExBVEVfRElSU1w+</entry>
@@ -1297,11 +1297,13 @@
         <entry>manifest</entry>
         <entry encoding="base64">XDxtYW5pZmVzdFw+</entry>
         <entry>docker</entry>
+        <entry encoding="base64">XDxyZW5kZXJfY29udGV4dFw+</entry>
+        <entry encoding="base64">XDxhdXRoX2NoZWNrX3JlZGlyZWN0X3RvX3JlYWN0XD4=</entry>
+        <entry>react-index</entry>
+        <entry encoding="base64">XDxyZWFjdF9pbmRleFw+</entry>
+        <entry>redirect</entry>
       </history-search>
       <history-cmd>
-        <entry>47</entry>
-        <entry>55</entry>
-        <entry>79</entry>
         <entry>%s;12500;6250;g</entry>
         <entry>%s;6250;3125;g</entry>
         <entry>action PreviousOccurence</entry>
@@ -1319,6 +1321,9 @@
         <entry>85</entry>
         <entry>110</entry>
         <entry>annotate</entry>
+        <entry>53</entry>
+        <entry>44</entry>
+        <entry>104</entry>
       </history-cmd>
       <history-expr />
       <history-input />
