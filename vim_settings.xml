@@ -701,6 +701,9 @@
         <mark key="." line="2" column="23" />
         <mark key="^" line="2" column="15" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/runserver" timestamp="1540855052553">
+        <mark key="'" line="39" column="64" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/scrapers/ScraperCountryDao$Dao/getAllScraperCountries.sql" timestamp="1531329656557">
         <mark key="[" line="7" column="27" />
         <mark key="]" line="7" column="46" />
@@ -1054,9 +1057,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="69" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="185" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="16" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="19" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="20" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="312" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
@@ -1154,6 +1154,9 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="16" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="21" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
+      <jump line="42" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
+      <jump line="39" column="64" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1225,7 +1228,7 @@
         <text>'REACT_HOT_LOADER' in os.environ</text>
       </register>
       <register name="/" type="4">
-        <text>schedule</text>
+        <text encoding="base64">XDxTRUNSRVRTX0ZJTEVcPg==</text>
       </register>
       <register name="0" type="4">
         <text>admin@example.com</text>
@@ -1275,18 +1278,16 @@
       </register>
     </registers>
     <search>
-      <last-search>schedule</last-search>
+      <last-search encoding="base64">XDxTRUNSRVRTX0ZJTEVcPg==</last-search>
       <last-offset />
-      <last-pattern>schedule</last-pattern>
+      <last-pattern encoding="base64">XDxTRUNSRVRTX0ZJTEVcPg==</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>installed</entry>
-        <entry>manifest</entry>
         <entry encoding="base64">XDxtYW5pZmVzdFw+</entry>
         <entry>docker</entry>
         <entry encoding="base64">XDxyZW5kZXJfY29udGV4dFw+</entry>
@@ -1305,6 +1306,8 @@
         <entry>workers</entry>
         <entry>.env</entry>
         <entry>schedule</entry>
+        <entry>aws_</entry>
+        <entry encoding="base64">XDxTRUNSRVRTX0ZJTEVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>%s;12500;6250;g</entry>
