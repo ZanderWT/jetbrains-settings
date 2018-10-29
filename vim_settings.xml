@@ -129,12 +129,12 @@
         <mark key="." line="69" column="69" />
         <mark key="^" line="69" column="69" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table.sql" timestamp="1536690802497">
-        <mark key="'" line="1" column="2" />
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
-        <mark key="^" line="3" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table.sql" timestamp="1540826862563">
+        <mark key="'" line="5" column="17" />
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="19" column="18" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" timestamp="1533242742058">
         <mark key="'" line="6" column="19" />
@@ -1356,7 +1356,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="174" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
       <jump line="167" column="5" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="93" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="125" column="20" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
@@ -1456,6 +1455,7 @@
       <jump line="87" column="33" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" />
       <jump line="99" column="69" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GlsAddressNormalizer.java" />
       <jump line="47" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/salesforce/SalesforceTranslator.java" />
+      <jump line="5" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table.sql" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1530,7 +1530,7 @@
         <text>address</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgcHVibGljIDxUIGV4dGVuZHMgRW51bTxUPiAmIERyb3Bkb3duT3B0aW9uPiBMaXN0PFN0cmluZz4gZ2V0RGlzcGxheU5hbWVzKENsYXNzPFQ+IGRyb3Bkb3duQ2xhc3MpIHsKICAgICAgICByZXR1cm4gQXJyYXlzLnN0cmVhbShkcm9wZG93bkNsYXNzLmdldEVudW1Db25zdGFudHMoKSkubWFwKERyb3Bkb3duT3B0aW9uOjpnZXREaXNwbGF5TmFtZSkuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsKICAgfQo=</text>
+        <text encoding="base64">ICAgIHdpdGggdmVudWVfcmVjb3JkcyBhcyAoCiAgICAgICAgc2VsZWN0IHZlbnVlLnZlbnVlX2lkLAogICAgICAgIHZlbnVlX3BhcmFtZXRlcnNfbG9nX2lkLAogICAgICAgIFNVTShDQVNFIFdIRU4gdmVudWVfc291cmNlX3R5cGUuZGVzY3JpcHRpb24gPSAnQWRtaW4nIFRIRU4gMSBFTFNFIDAgRU5EKSBPVkVSKFBBUlRJVElPTiBCWSB2ZW51ZS52ZW51ZV9pZCkgQVMgcmV2aWV3X2NvdW50LAogICAgICAgIFJPV19OVU1CRVIoKSBPVkVSKFBBUlRJVElPTiBCWSB2ZW51ZV9wYXJhbWV0ZXJzX2xvZy52ZW51ZV9pZCBPUkRFUiBCWSB2ZW51ZV9zb3VyY2VfdHlwZS5wcmlvcml0eSwgdmVudWVfcGFyYW1ldGVyc19sb2cuY3JlYXRlZF9vbiBERVNDKSBBUyByYW5rCiAgICAgICAgZnJvbSB2ZW51ZQogICAgICAgIGlubmVyIGpvaW4gdmVudWVfcGFyYW1ldGVyc19sb2cgb24gdmVudWVfcGFyYW1ldGVyc19sb2cudmVudWVfaWQgPSB2ZW51ZS52ZW51ZV9pZAogICAgICAgIGlubmVyIGpvaW4gdmVudWVfc291cmNlIG9uIHZlbnVlX3BhcmFtZXRlcnNfbG9nLnZlbnVlX3NvdXJjZV9pZCA9IHZlbnVlX3NvdXJjZS52ZW51ZV9zb3VyY2VfaWQKICAgICAgICBpbm5lciBqb2luIHZlbnVlX3NvdXJjZV90eXBlIG9uIHZlbnVlX3NvdXJjZS52ZW51ZV9zb3VyY2VfdHlwZV9pZCA9IHZlbnVlX3NvdXJjZV90eXBlLnZlbnVlX3NvdXJjZV90eXBlX2lkCiAgICApCiAgICBzZWxlY3QgdmVudWVfaWQsCiAgICB2ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCBhcyByZXNvbHZlZF92ZW51ZV9wYXJhbWV0ZXJzX2xvZ19pZCwKICAgIHJldmlld19jb3VudAogICAgZnJvbSB2ZW51ZV9yZWNvcmRzCiAgICB3aGVyZSByYW5rID0gMTsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICogYW1iaWd1b3VzIGFkZHJlc3NlcywgaXQgd2lsbCBpbnN0ZWFkIHJldHVybiB0aGUgb3JpZ2luYWwgc3RyZWFtLgo=</text>
@@ -1576,7 +1576,7 @@
       <last-replace>ImmutableList</last-replace>
       <last-substitute>List</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
