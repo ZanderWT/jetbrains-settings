@@ -475,8 +475,8 @@
         <mark key="." line="13" column="85" />
         <mark key="^" line="25" column="1" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1540833376161">
-        <mark key="'" line="1" column="17" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1540853606329">
+        <mark key="'" line="21" column="36" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" timestamp="1540590718232">
         <mark key="'" line="2" column="53" />
@@ -1054,8 +1054,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="69" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="185" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="16" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
@@ -1154,6 +1152,8 @@
       <jump line="224" column="5" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="293" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="16" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="21" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1225,7 +1225,7 @@
         <text>'REACT_HOT_LOADER' in os.environ</text>
       </register>
       <register name="/" type="4">
-        <text>.env</text>
+        <text>schedule</text>
       </register>
       <register name="0" type="4">
         <text>admin@example.com</text>
@@ -1275,9 +1275,9 @@
       </register>
     </registers>
     <search>
-      <last-search>.env</last-search>
+      <last-search>schedule</last-search>
       <last-offset />
-      <last-pattern>.env</last-pattern>
+      <last-pattern>schedule</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -1285,7 +1285,6 @@
     </search>
     <history>
       <history-search>
-        <entry>app_dire</entry>
         <entry>installed</entry>
         <entry>manifest</entry>
         <entry encoding="base64">XDxtYW5pZmVzdFw+</entry>
@@ -1305,6 +1304,7 @@
         <entry>asdf</entry>
         <entry>workers</entry>
         <entry>.env</entry>
+        <entry>schedule</entry>
       </history-search>
       <history-cmd>
         <entry>%s;12500;6250;g</entry>
