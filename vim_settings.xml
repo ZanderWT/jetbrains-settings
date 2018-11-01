@@ -154,10 +154,6 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" timestamp="1540834513811">
         <mark key="'" line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/docker_testing.py" timestamp="1540227823300">
-        <mark key="[" line="71" column="13" />
-        <mark key="]" line="71" column="35" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/logic/GeolocationAddressNormalizer.java" timestamp="1529954401929">
         <mark key="'" line="42" column="20" />
         <mark key="[" line="38" column="46" />
@@ -234,6 +230,9 @@
         <mark key="'" line="0" column="0" />
         <mark key="[" line="119" column="0" />
         <mark key="]" line="121" column="6" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" timestamp="1541087871505">
+        <mark key="'" line="113" column="30" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1540853606329">
         <mark key="'" line="21" column="36" />
@@ -408,6 +407,9 @@
         <mark key="^" line="138" column="25" />
         <mark key="." line="138" column="25" />
       </file>
+      <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" timestamp="1541088055059">
+        <mark key="'" line="80" column="29" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/models/ScraperTargetCountry.java" timestamp="1533664889198">
         <mark key="'" line="27" column="43" />
         <mark key="[" line="27" column="25" />
@@ -526,17 +528,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="237" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
-      <jump line="240" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
-      <jump line="172" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="420" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="205" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="97" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
-      <jump line="78" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
-      <jump line="102" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
-      <jump line="263" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="18" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
       <jump line="57" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="19" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
@@ -626,6 +617,17 @@
       <jump line="51" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" />
       <jump line="54" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" />
       <jump line="33" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" />
+      <jump line="21" column="38" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" />
+      <jump line="24" column="75" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" />
+      <jump line="51" column="49" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" />
+      <jump line="60" column="38" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" />
+      <jump line="119" column="12" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" />
+      <jump line="105" column="27" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" />
+      <jump line="113" column="30" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" />
+      <jump line="52" column="31" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
+      <jump line="48" column="8" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
+      <jump line="80" column="29" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -697,7 +699,7 @@
         <text>'REACT_HOT_LOADER' in os.environ</text>
       </register>
       <register name="/" type="4">
-        <text>data</text>
+        <text encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</text>
       </register>
       <register name="0" type="4">
         <text>https://github.com/classpass/ecosystem/blob/master/modules/platform/service-ptndash.tf</text>
@@ -743,27 +745,20 @@
         <text encoding="base64">ICAgICAgICBsb2dnZXIuc2V0TGV2ZWwoImRlYnVnIikK</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>79</text>
       </register>
     </registers>
     <search>
-      <last-search>data</last-search>
+      <last-search encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</last-search>
       <last-offset />
-      <last-pattern>data</last-pattern>
+      <last-pattern encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhdXRoX2NoZWNrX3JlZGlyZWN0XD4=</entry>
-        <entry encoding="base64">XDxhdXRoX2NoZWNrX3JlZGlyZWN0X3RvX3JlYWN0XD4=</entry>
-        <entry>login</entry>
-        <entry encoding="base64">XDxyb3V0ZXNcPg==</entry>
-        <entry>version</entry>
-        <entry>v1</entry>
-        <entry>urls</entry>
         <entry encoding="base64">XDx2ZW51ZV9hcGlfdXJsc1w+</entry>
         <entry>asdf</entry>
         <entry>workers</entry>
@@ -777,12 +772,15 @@
         <entry encoding="base64">XDx1c2Vfc2xvd19yZWFkXD4=</entry>
         <entry>lega</entry>
         <entry>data</entry>
+        <entry>location</entry>
+        <entry encoding="base64">XDx2ZW51ZV9kZWZpbml0aW9uXD4=</entry>
+        <entry encoding="base64">XDxfYnVpbGRfbWFwcGluZ1w+</entry>
+        <entry encoding="base64">XDxlbWFpbFw+</entry>
+        <entry encoding="base64">XDx1c2VyXD4=</entry>
+        <entry encoding="base64">XDx1c2Vyc1w+</entry>
+        <entry encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>%s;12500;6250;g</entry>
-        <entry>%s;6250;3125;g</entry>
-        <entry>action PreviousOccurence</entry>
-        <entry>action NextOccurence</entry>
         <entry>66</entry>
         <entry>bnext</entry>
         <entry encoding="base64">JXM7R29vZ2xlSm9iQ29uZmlndXJhdGlvbjtcPEdvb2dsZUZpbmRWZW51ZXNKb2JcPjtn</entry>
@@ -799,6 +797,10 @@
         <entry>44</entry>
         <entry>104</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>120</entry>
+        <entry>56</entry>
+        <entry>51</entry>
+        <entry>79</entry>
       </history-cmd>
       <history-expr />
       <history-input />
