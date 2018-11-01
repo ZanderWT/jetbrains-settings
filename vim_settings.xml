@@ -407,12 +407,12 @@
         <mark key="^" line="138" column="25" />
         <mark key="." line="138" column="25" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" timestamp="1541090894119">
-        <mark key="'" line="42" column="9" />
-        <mark key="[" line="50" column="0" />
-        <mark key="]" line="50" column="73" />
-        <mark key="^" line="49" column="69" />
-        <mark key="." line="49" column="69" />
+      <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" timestamp="1541092161335">
+        <mark key="'" line="61" column="33" />
+        <mark key="[" line="60" column="86" />
+        <mark key="]" line="62" column="40" />
+        <mark key="^" line="62" column="40" />
+        <mark key="." line="62" column="40" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/models/ScraperTargetCountry.java" timestamp="1533664889198">
         <mark key="'" line="27" column="43" />
@@ -532,8 +532,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
-      <jump line="106" column="82" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="274" column="55" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="272" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="288" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
@@ -632,6 +630,8 @@
       <jump line="80" column="29" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
       <jump line="45" column="0" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/venue/models/user.py" />
       <jump line="42" column="9" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
+      <jump line="60" column="16" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
+      <jump line="61" column="33" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -703,7 +703,7 @@
         <text>.</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxfaGFzX3BvcnRhbF91c2Vyc1w+</text>
+        <text>venue\.</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBlbWFpbHMgPSBbY29udGFjdC5lbWFpbCBmb3IgY29udGFjdCBpbiBjb250YWN0cyBpZiBjb250YWN0LmVtYWlsXQo=</text>
@@ -753,9 +753,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxfaGFzX3BvcnRhbF91c2Vyc1w+</last-search>
+      <last-search>venue\.</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxfaGFzX3BvcnRhbF91c2Vyc1w+</last-pattern>
+      <last-pattern>venue\.</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -763,8 +763,6 @@
     </search>
     <history>
       <history-search>
-        <entry>workers</entry>
-        <entry>.env</entry>
         <entry>schedule</entry>
         <entry>aws_</entry>
         <entry encoding="base64">XDxTRUNSRVRTX0ZJTEVcPg==</entry>
@@ -783,6 +781,8 @@
         <entry encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</entry>
         <entry>venueuser</entry>
         <entry encoding="base64">XDxfaGFzX3BvcnRhbF91c2Vyc1w+</entry>
+        <entry encoding="base64">XDx2ZW51ZV9pZHNfZm9yX3VzZXJcPg==</entry>
+        <entry>venue\.</entry>
       </history-search>
       <history-cmd>
         <entry>66</entry>
