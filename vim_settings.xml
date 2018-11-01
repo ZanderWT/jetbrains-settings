@@ -88,6 +88,9 @@
         <mark key="." line="19" column="26" />
         <mark key="^" line="19" column="26" />
       </file>
+      <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/venue/models/user.py" timestamp="1541088799811">
+        <mark key="'" line="45" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" timestamp="1533242742058">
         <mark key="'" line="6" column="19" />
         <mark key="[" line="18" column="0" />
@@ -160,9 +163,6 @@
         <mark key="]" line="38" column="15" />
         <mark key="." line="38" column="15" />
         <mark key="^" line="38" column="15" />
-      </file>
-      <file name="/Python Console" timestamp="1540225263398">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" timestamp="1529955722215">
         <mark key="'" line="0" column="0" />
@@ -407,8 +407,11 @@
         <mark key="^" line="138" column="25" />
         <mark key="." line="138" column="25" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" timestamp="1541088055059">
-        <mark key="'" line="80" column="29" />
+      <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" timestamp="1541089875784">
+        <mark key="[" line="49" column="53" />
+        <mark key="]" line="49" column="69" />
+        <mark key="^" line="49" column="69" />
+        <mark key="." line="49" column="69" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/models/ScraperTargetCountry.java" timestamp="1533664889198">
         <mark key="'" line="27" column="43" />
@@ -528,7 +531,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="19" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="106" column="82" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
@@ -628,6 +630,7 @@
       <jump line="52" column="31" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
       <jump line="48" column="8" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
       <jump line="80" column="29" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
+      <jump line="45" column="0" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/venue/models/user.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -696,13 +699,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'REACT_HOT_LOADER' in os.environ</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</text>
+        <text>venueuser</text>
       </register>
-      <register name="0" type="4">
-        <text>https://github.com/classpass/ecosystem/blob/master/modules/platform/service-ptndash.tf</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBlbWFpbHMgPSBbY29udGFjdC5lbWFpbCBmb3IgY29udGFjdCBpbiBjb250YWN0cyBpZiBjb250YWN0LmVtYWlsXQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInB1c2giKQo=</text>
@@ -749,17 +752,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</last-search>
+      <last-search>venueuser</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</last-pattern>
+      <last-pattern>venueuser</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx2ZW51ZV9hcGlfdXJsc1w+</entry>
         <entry>asdf</entry>
         <entry>workers</entry>
         <entry>.env</entry>
@@ -779,6 +781,7 @@
         <entry encoding="base64">XDx1c2VyXD4=</entry>
         <entry encoding="base64">XDx1c2Vyc1w+</entry>
         <entry encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</entry>
+        <entry>venueuser</entry>
       </history-search>
       <history-cmd>
         <entry>66</entry>
