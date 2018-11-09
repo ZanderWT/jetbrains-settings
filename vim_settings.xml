@@ -115,6 +115,12 @@
         <mark key="^" line="17" column="46" />
         <mark key="." line="17" column="46" />
       </file>
+      <file name="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" timestamp="1541786517325">
+        <mark key="'" line="18" column="21" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" timestamp="1540832333146">
         <mark key="'" line="42" column="4" />
       </file>
@@ -249,6 +255,12 @@
         <mark key="]" line="19" column="3" />
         <mark key="^" line="19" column="3" />
         <mark key="." line="19" column="3" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/models/feature.py" timestamp="1541786545561">
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/react/public/b2b/home.html" timestamp="1540503851155">
         <mark key="'" line="424" column="73" />
@@ -493,10 +505,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="110" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
-      <jump line="127" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
-      <jump line="135" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/react/public/b2b/home.html" />
       <jump line="24" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/react/public/b2b/home.html" />
       <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/react/public/b2b/home.html" />
       <jump line="30" column="123" filename="$USER_HOME$/cp-projects/partner-dashboard/react/public/b2b/home.html" />
@@ -593,6 +601,10 @@
       <jump line="28" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/readme.md" />
       <jump line="24" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/readme.md" />
       <jump line="22" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/readme.md" />
+      <jump line="16" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/models/feature.py" />
+      <jump line="13" column="42" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
+      <jump line="17" column="55" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
+      <jump line="18" column="21" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -661,16 +673,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>python-api-template</text>
+        <text>dao.get()</text>
       </register>
       <register name="/" type="4">
-        <text>venue\.</text>
+        <text>qu</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBlbWFpbHMgPSBbY29udGFjdC5lbWFpbCBmb3IgY29udGFjdCBpbiBjb250YWN0cyBpZiBjb250YWN0LmVtYWlsXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEZlYXR1cmUucXUK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -683,49 +695,47 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInB1c2giKQo=</text>
+        <text encoding="base64">ICAgICAgICBGZWF0dXJlLnF1ZXJ5Lgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBleGMK</text>
+        <text encoding="base64">ICAgICAgICBGZWF0dXJlLnEK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInRpbWUgdG8gbWFrZSB0aGUgc2NoZWR1bGVzIikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInB1c2giKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCJhc3luY19jcmVhdGVfc2NoZWR1bGUhIikK</text>
+        <text encoding="base64">ICAgICAgICBleGMK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBnZXRfd29ya2VyKCkud29yayhidXJzdD1UcnVlKQo=</text>
+        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aW1lLnNsZWVwKDEwKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oInRpbWUgdG8gbWFrZSB0aGUgc2NoZWR1bGVzIikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIubGV2ZWwuCg==</text>
+        <text encoding="base64">ICAgIGxvZ2dlci5pbmZvKCJhc3luY19jcmVhdGVfc2NoZWR1bGUhIikK</text>
       </register>
       <register name=":" type="4">
         <text>79</text>
       </register>
     </registers>
     <search>
-      <last-search>venue\.</last-search>
+      <last-search>qu</last-search>
       <last-offset />
-      <last-pattern>venue\.</last-pattern>
+      <last-pattern>qu</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>schedule</entry>
-        <entry>aws_</entry>
         <entry encoding="base64">XDxTRUNSRVRTX0ZJTEVcPg==</entry>
         <entry>databases</entry>
         <entry encoding="base64">XDxEQVRBQkFTRVNcPg==</entry>
@@ -744,6 +754,8 @@
         <entry encoding="base64">XDxfaGFzX3BvcnRhbF91c2Vyc1w+</entry>
         <entry encoding="base64">XDx2ZW51ZV9pZHNfZm9yX3VzZXJcPg==</entry>
         <entry>venue\.</entry>
+        <entry>dao</entry>
+        <entry>qu</entry>
       </history-search>
       <history-cmd>
         <entry>66</entry>
