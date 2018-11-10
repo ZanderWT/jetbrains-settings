@@ -82,11 +82,6 @@
         <mark key="^" line="16" column="7" />
         <mark key="." line="16" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" timestamp="1540922559405">
-        <mark key="]" line="33" column="0" />
-        <mark key="^" line="33" column="0" />
-        <mark key="." line="33" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/config/local.yml.tmpl" timestamp="1530661679208">
         <mark key="'" line="20" column="55" />
         <mark key="[" line="4" column="23" />
@@ -118,11 +113,12 @@
         <mark key="^" line="17" column="46" />
         <mark key="." line="17" column="46" />
       </file>
-      <file name="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" timestamp="1541807018361">
-        <mark key="[" line="12" column="8" />
-        <mark key="]" line="12" column="14" />
-        <mark key="^" line="12" column="14" />
-        <mark key="." line="12" column="14" />
+      <file name="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" timestamp="1541810181532">
+        <mark key="'" line="12" column="54" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="^" line="12" column="62" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" timestamp="1540832333146">
         <mark key="'" line="42" column="4" />
@@ -147,6 +143,13 @@
         <mark key="]" line="153" column="104" />
         <mark key="." line="153" column="104" />
         <mark key="^" line="153" column="104" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/schedule-scraper/code/tests/test_app.py" timestamp="1541810172997">
+        <mark key="'" line="8" column="5" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="8" column="64" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/ServiceBootstrap.java" timestamp="1533160288316">
         <mark key="'" line="43" column="0" />
@@ -530,8 +533,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/react/package.json" />
-      <jump line="46" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
       <jump line="212" column="2" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="188" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="195" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
@@ -609,7 +610,6 @@
       <jump line="24" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/readme.md" />
       <jump line="22" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/readme.md" />
       <jump line="16" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/models/feature.py" />
-      <jump line="13" column="42" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
       <jump line="18" column="21" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
       <jump line="22" column="57" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
       <jump line="20" column="14" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/__main__.py" />
@@ -630,6 +630,9 @@
       <jump line="25" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
       <jump line="5" column="39" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
       <jump line="16" column="20" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/__main__.py" />
+      <jump line="8" column="15" filename="$USER_HOME$/cp-projects/schedule-scraper/code/tests/test_app.py" />
+      <jump line="9" column="5" filename="$USER_HOME$/cp-projects/schedule-scraper/code/tests/test_app.py" />
+      <jump line="13" column="54" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -642,7 +645,7 @@
         <text encoding="base64">Y3JlYXRlKExhdExuZyBjZW50ZXIsIEludGVnZXIgcmFkaXVzTWV0ZXJzLCBMaXN0PFBsYWNlc1NlYXJjaFJlc3VsdD4gdmVudWVzKQ==</text>
       </register>
       <register name="*" type="4">
-        <text>ScraperJobQueueEventDeserializer</text>
+        <text>''</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -698,16 +701,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>, modules=[configure]</text>
+        <text>data</text>
       </register>
       <register name="/" type="4">
-        <text>dao</text>
+        <text>data</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzZXNzaW9uID0gZ2V0X2RiX3Nlc3Npb24oKQogICAgICAgIHNlc3Npb24uYWRkKGZlYXR1cmUpCiAgICAgICAgc2Vzc2lvbi5jb21taXQoKQo=</text>
+        <text encoding="base64">ICAgIHBvc3RfcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KCdodHRwOi8vYXBwOjgwMDAvZmVhdHVyZScsIGpzb249J3sibmFtZSI6ICJmb28iLCAiZW5hYmxlZCI6InRydWUifScpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -720,40 +723,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZGVmIGNvbmZpZ3VyZShiaW5kZXIpOgoK</text>
+        <text encoding="base64">ICAgICMgcG9zdF9yZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QoJ2h0dHA6Ly9hcHA6ODAwMC9mZWF0dXJlJywganNvbj0neyJuYW1lIjogImZvbyIsICJlbmFibGVkIjoidHJ1ZSJ9JykK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGZyb20gYXBwLmRhby5mZWF0dXJlX2RhbyBpbXBvcnQgRmVhdHVyZURhbwogICAgYmluZGVyLmJpbmQoRmVhdHVyZURhbywgdG89RmVhdHVyZURhbywgc2NvcGU9c2luZ2xldG9uKQo=</text>
+        <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoJ2ZmZmZmZmYnKQogICAgICAgIGxvZ2dpbmcud2FybmluZyhyZXF1ZXN0LmdldF9qc29uKCkpCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>''</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ZGVmIGNvbmZpZ3VyZShiaW5kZXIpOgogICAgZnJvbSBhcHAuZGFvLmZlYXR1cmVfZGFvIGltcG9ydCBGZWF0dXJlRGFvCiAgICBiaW5kZXIuYmluZChGZWF0dXJlRGFvLCB0bz1GZWF0dXJlRGFvLCBzY29wZT1zaW5nbGV0b24pCgoK</text>
+      <register name="5" type="4">
+        <text>{&quot;name&quot;: &quot;foo&quot;, &quot;enabled&quot;:&quot;true&quot;}</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGYgPSBGZWF0dXJlU2VyaWFsaXplci5mcm9tX2RpY3QocmVxdWVzdC5nZXRfanNvbigpKQo=</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnJvbSBpbmplY3RvciBpbXBvcnQgaW5qZWN0Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgic3VwIHlvIikKICAgICAgICBwcmludChmZWF0dXJlKQo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBhcHAuZGFvLmZlYXR1cmVfZGFvIGltcG9ydCBGZWF0dXJlRGFvCg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICBwcmludCgic3VwIHlvIikKIA==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">QGluamVjdChkYW89RmVhdHVyZURhbykK</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>dao</last-search>
+      <last-search>data</last-search>
       <last-offset />
-      <last-pattern>dao</last-pattern>
+      <last-pattern>data</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -761,9 +764,6 @@
     </search>
     <history>
       <history-search>
-        <entry>data</entry>
-        <entry>location</entry>
-        <entry encoding="base64">XDx2ZW51ZV9kZWZpbml0aW9uXD4=</entry>
         <entry encoding="base64">XDxfYnVpbGRfbWFwcGluZ1w+</entry>
         <entry encoding="base64">XDxlbWFpbFw+</entry>
         <entry encoding="base64">XDx1c2VyXD4=</entry>
@@ -781,10 +781,12 @@
         <entry>session</entry>
         <entry>feature</entry>
         <entry>dao</entry>
+        <entry>pin</entry>
+        <entry>json</entry>
+        <entry>data</entry>
       </history-search>
       <history-cmd>
         <entry>66</entry>
-        <entry>bnext</entry>
         <entry encoding="base64">JXM7R29vZ2xlSm9iQ29uZmlndXJhdGlvbjtcPEdvb2dsZUZpbmRWZW51ZXNKb2JcPjtn</entry>
         <entry>%s;GoogleJobConfiguration;GoogleFindVenuesJob;g</entry>
         <entry>action ReformatCode</entry>
@@ -803,6 +805,7 @@
         <entry>51</entry>
         <entry>79</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
