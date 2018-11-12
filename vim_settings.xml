@@ -555,9 +555,10 @@
         <mark key="^" line="5" column="5" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/build_tools/jenkins-build.sh" timestamp="1542059912875">
-        <mark key="[" line="5" column="28" />
-        <mark key="]" line="5" column="36" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/build_tools/jenkins-build.sh" timestamp="1542061323326">
+        <mark key="'" line="0" column="3" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="6" column="102" />
         <mark key="^" line="5" column="36" />
         <mark key="." line="5" column="36" />
       </file>
@@ -1406,7 +1407,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="11" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/HelloWorldHandler.java" />
       <jump line="116" column="88" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
       <jump line="128" column="10" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/build_tools/docker-entrypoint.sh" />
@@ -1506,6 +1506,7 @@
       <jump line="59" column="1" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/TestUtils.java" />
       <jump line="65" column="32" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterProcessor.java" />
       <jump line="64" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterProcessor.java" />
+      <jump line="0" column="3" filename="$USER_HOME$/cp-projects/lead-generation/build_tools/jenkins-build.sh" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1579,8 +1580,8 @@
       <register name="/" type="4">
         <text>class</text>
       </register>
-      <register name="0" type="4">
-        <text>&quot;${CP_BUILD_WEBHOOK_HEAD_COMMIT_ID}&quot;</text>
+      <register name="0" type="2">
+        <text encoding="base64">IyEvYmluL3NoCmJ1aWxkX3Rvb2xzL2luc3RhbGwtamFkZS5zaAptdm4gY2xlYW4gcGFja2FnZSAtRHNraXBUZXN0cwoKZXhwb3J0IExPTkdfSEFTSD0iJHtDUF9CVUlMRF9XRUJIT09LX0hFQURfQ09NTUlUX0lEfSR7Q1BfQlVJTERfV0VCSE9PS19QVUxMX1JFUVVFU1RfSEVBRF9TSEF9IgpleHBvcnQgU0hPUlRfSEFTSD0kKGVjaG8gIiR7TE9OR19IQVNIfSJ8Y3V0IC1jMS03KQphd3MgczMgY3AgdGFyZ2V0L2xlYWQtZ2VuZXJhdGlvbi0xLjAuamFyICJzMzovL2NsYXNzcGFzcy1sYW1iZGEtY29kZS9sZWFkLWdlbmVyYXRpb24vJHtTSE9SVF9IQVNIfS56aXAiCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
