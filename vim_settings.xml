@@ -642,6 +642,13 @@
         <mark key="^" line="6" column="50" />
         <mark key="." line="6" column="98" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SQSDeserializationException.java" timestamp="1542150796649">
+        <mark key="'" line="12" column="54" />
+        <mark key="[" line="21" column="12" />
+        <mark key="]" line="21" column="17" />
+        <mark key="^" line="21" column="17" />
+        <mark key="." line="21" column="17" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/ScraperJob.java" timestamp="1533593423839">
         <mark key="[" line="15" column="24" />
         <mark key="]" line="15" column="24" />
@@ -1029,11 +1036,11 @@
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SQSLambdaHandler.java" timestamp="1542148859217">
-        <mark key="[" line="25" column="19" />
-        <mark key="]" line="25" column="20" />
-        <mark key="." line="25" column="20" />
-        <mark key="^" line="25" column="20" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SQSLambdaHandler.java" timestamp="1542150688214">
+        <mark key="[" line="23" column="119" />
+        <mark key="]" line="23" column="119" />
+        <mark key="." line="23" column="119" />
+        <mark key="^" line="23" column="119" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodingException.java" timestamp="1532042477223">
         <mark key="[" line="13" column="0" />
@@ -1397,7 +1404,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="155" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="159" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="164" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="188" column="20" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
@@ -1497,6 +1503,7 @@
       <jump line="8" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterHandler.java" />
       <jump line="15" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SQSLambdaHandler.java" />
       <jump line="172" column="4" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
+      <jump line="12" column="54" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SQSDeserializationException.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1508,8 +1515,8 @@
       <register name="b" type="2">
         <text encoding="base64">ICAgICAgICBzY3JhcGVySm9iLmdldEJhdGNoSWQoKS5pZlByZXNlbnQoCiAgICAgICAgICAgICAgICBiYXRjaElkIC0+IGF1Z21lbnRhdGlvbkJhdGNoTG9naWMuYWRkVG9CYXRjaChDb2xsZWN0aW9ucy5zaW5nbGV0b25MaXN0KG5ld1ZlbnVlLmdldElkKCkpKSk7Cg==</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIExpc3Q8VmVudWVFbnRpdHk+IGdldFZlbnVlRW50aXRpZXMoTGlzdDxKb2luUm93PiB2ZW51ZUpvaW5Sb3dzKSB7CiAgICAgICAgTGlzdDxWZW51ZUVudGl0eT4gcmVzdWx0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgIExpc3RNdWx0aW1hcDxWZW51ZUVudGl0eSwgR2VucmU+IHZlbnVlR2VucmVNYXAgPSBBcnJheUxpc3RNdWx0aW1hcC5jcmVhdGUoKTsKICAgICAgICBMaXN0TXVsdGltYXA8VmVudWVFbnRpdHksIEFkZHJlc3NSb3c+IHZlbnVlQWRkcmVzc01hcCA9IEFycmF5TGlzdE11bHRpbWFwLmNyZWF0ZSgpOwogICAgICAgIFNldDxMb25nPiB2ZW51ZUlkcyA9IG5ldyBIYXNoU2V0PD4oKTsKICAgICAgICBMaXN0PFZlbnVlRW50aXR5PiB2ZW51ZUVudGl0aWVzID0gbmV3IEFycmF5TGlzdDw+KCk7CgogICAgICAgIGZvciAoSm9pblJvdyBqb2luUm93IDogdmVudWVKb2luUm93cykgewogICAgICAgICAgICBWZW51ZUVudGl0eSB2ZW51ZUVudGl0eSA9IGpvaW5Sb3cuZ2V0KFZlbnVlRW50aXR5LmNsYXNzKTsKICAgICAgICAgICAgaWYgKCF2ZW51ZUlkcy5jb250YWlucyh2ZW51ZUVudGl0eS5nZXRJZCgpKSkgewogICAgICAgICAgICAgICAgdmVudWVJZHMuYWRkKHZlbnVlRW50aXR5LmdldElkKCkpOwogICAgICAgICAgICAgICAgdmVudWVFbnRpdGllcy5hZGQodmVudWVFbnRpdHkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIEdlbnJlIGdlbnJlID0gam9pblJvdy5nZXQoR2VucmUuY2xhc3MpOwogICAgICAgICAgICBpZiAoZ2VucmUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgdmVudWVHZW5yZU1hcC5wdXQodmVudWVFbnRpdHksIGdlbnJlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICB2ZW51ZUFkZHJlc3NNYXAucHV0KHZlbnVlRW50aXR5LCBqb2luUm93LmdldChBZGRyZXNzUm93LmNsYXNzKSk7CiAgICAgICAgfQoKICAgICAgICBmb3IgKFZlbnVlRW50aXR5IHZlbnVlIDogdmVudWVFbnRpdGllcykgewogICAgICAgICAgICBNYXA8QWRkcmVzc0NvbXBvbmVudCwgU3RyaW5nPiBhZGRyQ29tcG9uZW50cyA9IG5ldyBIYXNoTWFwPD4oKTsKICAgICAgICAgICAgTG9uZyBhZGRyZXNzSWQgPSAwTDsKICAgICAgICAgICAgZm9yIChBZGRyZXNzUm93IHJvdyA6IHZlbnVlQWRkcmVzc01hcC5nZXQodmVudWUpKSB7CiAgICAgICAgICAgICAgICBhZGRyQ29tcG9uZW50cy5wdXQocm93LmdldENvbXBvbmVudCgpLCByb3cuZ2V0Q29tcG9uZW50VmFsdWUoKSk7CiAgICAgICAgICAgICAgICAvLyBGb3IgdGhlIHNhbWUgVmVudWVFbnRpdHksIHRoZXJlIGlzIG9uZSB1bmlxdWUgYWRkcmVzcyBpZAogICAgICAgICAgICAgICAgYWRkcmVzc0lkID0gcm93LmdldEFkZHJlc3NJZCgpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBWZW51ZURhdGEgdmVudWVEYXRhID0gUmF3VmVudWUuYnVpbGRlcigpCiAgICAgICAgICAgICAgICAgICAgLm5hbWUodmVudWUuZ2V0TmFtZSgpKQogICAgICAgICAgICAgICAgICAgIC5zb3VyY2UodmVudWUuZ2V0U291cmNlKCkpCiAgICAgICAgICAgICAgICAgICAgLmFkZHJlc3MobmV3IEFkZHJlc3MoYWRkcmVzc0lkLCBhZGRyQ29tcG9uZW50cykpCiAgICAgICAgICAgICAgICAgICAgLmNvb3JkaW5hdGVzKHZlbnVlLmdldENvb3JkaW5hdGVzKCkpCiAgICAgICAgICAgICAgICAgICAgLnNjaGVkdWxpbmdTb2Z0d2FyZSh2ZW51ZS5nZXRTY2hlZHVsaW5nU29mdHdhcmUoKSkKICAgICAgICAgICAgICAgICAgICAuaW52ZW50b3J5VHlwZSh2ZW51ZS5nZXRJbnZlbnRvcnlUeXBlKCkpCiAgICAgICAgICAgICAgICAgICAgLndlYnNpdGVVcmwodmVudWUuZ2V0V2Vic2l0ZVVybCgpKQogICAgICAgICAgICAgICAgICAgIC5nZW5yZXMoSW1tdXRhYmxlU2V0LmNvcHlPZih2ZW51ZUdlbnJlTWFwLmdldCh2ZW51ZSkpKQogICAgICAgICAgICAgICAgICAgIC52ZW51ZVBob25lTnVtYmVyKHZlbnVlLmdldFZlbnVlUGhvbmVOdW1iZXIoKSkKICAgICAgICAgICAgICAgICAgICAudmVudWVFbWFpbCh2ZW51ZS5nZXRWZW51ZUVtYWlsKCkpCiAgICAgICAgICAgICAgICAgICAgLmNvbnRhY3RUaXRsZSh2ZW51ZS5nZXRDb250YWN0VGl0bGUoKSkKICAgICAgICAgICAgICAgICAgICAuY29udGFjdEVtYWlsKHZlbnVlLmdldENvbnRhY3RFbWFpbCgpKQogICAgICAgICAgICAgICAgICAgIC5jb250YWN0UGhvbmVOdW1iZXIodmVudWUuZ2V0Q29udGFjdFBob25lTnVtYmVyKCkpCiAgICAgICAgICAgICAgICAgICAgLmNvbnRhY3ROYW1lKHZlbnVlLmdldENvbnRhY3ROYW1lKCkpCiAgICAgICAgICAgICAgICAgICAgLnF1YWxpZmljYXRpb24odmVudWUuZ2V0UXVhbGlmaWNhdGlvbigpKQogICAgICAgICAgICAgICAgICAgIC5idWlsZCgpOwogICAgICAgICAgICByZXN1bHRzLmFkZChuZXcgVmVudWVFbnRpdHkodmVudWUuZ2V0SWQoKSwgdmVudWUuZ2V0Tm9ybWFsaXplZEFkZHJlc3MoKSwgdmVudWVEYXRhKSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiByZXN1bHRzOwogICAgfQoK</text>
+      <register name="*" type="4">
+        <text>()</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -1565,7 +1572,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>messageBody</text>
+        <text>append</text>
       </register>
       <register name="/" type="4">
         <text>guava</text>
@@ -1574,34 +1581,34 @@
         <text encoding="base64">IyEvYmluL3NoCmJ1aWxkX3Rvb2xzL2luc3RhbGwtamFkZS5zaAptdm4gY2xlYW4gcGFja2FnZSAtRHNraXBUZXN0cwoKZXhwb3J0IExPTkdfSEFTSD0iJHtDUF9CVUlMRF9XRUJIT09LX0hFQURfQ09NTUlUX0lEfSR7Q1BfQlVJTERfV0VCSE9PS19QVUxMX1JFUVVFU1RfSEVBRF9TSEF9IgpleHBvcnQgU0hPUlRfSEFTSD0kKGVjaG8gIiR7TE9OR19IQVNIfSJ8Y3V0IC1jMS03KQphd3MgczMgY3AgdGFyZ2V0L2xlYWQtZ2VuZXJhdGlvbi0xLjAuamFyICJzMzovL2NsYXNzcGFzcy1sYW1iZGEtY29kZS9sZWFkLWdlbmVyYXRpb24vJHtTSE9SVF9IQVNIfS56aXAiCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBFaXRoZXI8U3RyaW5nLCBFeGNlcHRpb24+IGZvbzsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB9KTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVCByZXF1ZXN0ID0gb2JqZWN0TWFwcGVyLnJlYWRWYWx1ZShtc2dCb2R5LCB0aGlzLmdldFJlcXVlc3RDbGFzcygpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5mb3JFYWNoKGRlc2VyaWFsaXplZE1zZyAtPiB7CiAgICAgICAgICAgICAgICAgICAgZGVzZXJpYWxpemVkTXNnLmJpbWFwKHRoaXM6OmxvZ0Rlc2VyaWFsaXphdGlvbkVycm9yLCB0aGlzOjpoYW5kbGVSZXF1ZXN0KTsKICAgICAgICAgICAgICAgIH0pOwo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">CiAgICAgICAgOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAuCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBUIHJlcXVlc3QgPSBvYmplY3RNYXBwZXIucmVhZFZhbHVlKHF1ZXVlRXZlbnQuZ2V0UmVjb3JkcygpKQo=</text>
+      <register name="7" type="4">
+        <text>()</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+      <register name="8" type="4">
+        <text>new SQSDeserializationException(e, sqsMessage)</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -1646,7 +1653,6 @@
         <entry encoding="base64">JzwsJz5zO3ZwbF87O2c=</entry>
         <entry encoding="base64">JzwsJz5zO3Jvd1wuO3ZlbnVlLjtn</entry>
         <entry encoding="base64">JzwsJz5zO3ZlbnVlXC47Ojtn</entry>
-        <entry>bnext</entry>
         <entry>202</entry>
         <entry>32</entry>
         <entry>216</entry>
@@ -1663,6 +1669,7 @@
         <entry>62</entry>
         <entry>93</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
