@@ -103,11 +103,11 @@
         <mark key="^" line="16" column="11" />
         <mark key="." line="16" column="11" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterHandler.java" timestamp="1542134286827">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="^" line="4" column="44" />
-        <mark key="." line="4" column="0" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterHandler.java" timestamp="1542145271086">
+        <mark key="[" line="8" column="9" />
+        <mark key="]" line="8" column="8" />
+        <mark key="^" line="8" column="8" />
+        <mark key="." line="8" column="8" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/scrapers/persistence/ScraperJobDao$Dao/getScraperJob.sql" timestamp="1536960845487">
         <mark key="'" line="6" column="7" />
@@ -825,12 +825,12 @@
         <mark key="." line="66" column="5" />
         <mark key="^" line="66" column="5" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1542134452167">
-        <mark key="'" line="289" column="12" />
-        <mark key="[" line="170" column="0" />
-        <mark key="]" line="174" column="17" />
-        <mark key="." line="170" column="0" />
-        <mark key="^" line="170" column="3" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1542146729878">
+        <mark key="'" line="172" column="4" />
+        <mark key="[" line="238" column="4" />
+        <mark key="]" line="242" column="17" />
+        <mark key="." line="238" column="4" />
+        <mark key="^" line="238" column="3" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/logic/ScraperJobLogic.java" timestamp="1538410320920">
         <mark key="[" line="60" column="0" />
@@ -1028,6 +1028,12 @@
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="39" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SQSLambdaHandler.java" timestamp="1542146219263">
+        <mark key="[" line="24" column="33" />
+        <mark key="]" line="24" column="37" />
+        <mark key="." line="24" column="37" />
+        <mark key="^" line="24" column="37" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GeocodingException.java" timestamp="1532042477223">
         <mark key="[" line="13" column="0" />
@@ -1391,9 +1397,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="142" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
-      <jump line="147" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
-      <jump line="151" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="155" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="159" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="164" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
@@ -1491,6 +1494,9 @@
       <jump line="36" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterProcessor.java" />
       <jump line="32" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterProcessor.java" />
       <jump line="8" column="51" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/NamedProcessor.java" />
+      <jump line="8" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterHandler.java" />
+      <jump line="15" column="29" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SQSLambdaHandler.java" />
+      <jump line="172" column="4" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1559,55 +1565,55 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>VenuesEvent</text>
+        <text encoding="base64">Zm9yRWFjaChtc2dCb2R5IC0+IHs=</text>
       </register>
       <register name="/" type="4">
-        <text>sqscl</text>
+        <text>guava</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">IyEvYmluL3NoCmJ1aWxkX3Rvb2xzL2luc3RhbGwtamFkZS5zaAptdm4gY2xlYW4gcGFja2FnZSAtRHNraXBUZXN0cwoKZXhwb3J0IExPTkdfSEFTSD0iJHtDUF9CVUlMRF9XRUJIT09LX0hFQURfQ09NTUlUX0lEfSR7Q1BfQlVJTERfV0VCSE9PS19QVUxMX1JFUVVFU1RfSEVBRF9TSEF9IgpleHBvcnQgU0hPUlRfSEFTSD0kKGVjaG8gIiR7TE9OR19IQVNIfSJ8Y3V0IC1jMS03KQphd3MgczMgY3AgdGFyZ2V0L2xlYWQtZ2VuZXJhdGlvbi0xLjAuamFyICJzMzovL2NsYXNzcGFzcy1sYW1iZGEtY29kZS9sZWFkLWdlbmVyYXRpb24vJHtTSE9SVF9IQVNIfS56aXAiCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5hbWF6b25hd3Muc2VydmljZXMubGFtYmRhLnJ1bnRpbWUuCg==</text>
+        <text encoding="base64">ICAgICAgICB9KTsK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgVCByZXF1ZXN0ID0gb2JqZWN0TWFwcGVyLnJlYWRWYWx1ZShtc2dCb2R5LCB0aGlzLmdldFJlcXVlc3RDbGFzcygpKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IyBjcmVhdGUgdGhlIC56aXAgZm9yIGxhbWJkYSBkZXBsb3lzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9KTsK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBUIHJlcXVlc3QgPSBvYmplY3RNYXBwZXIucmVhZFZhbHVlKHF1ZXVlRXZlbnQuZ2V0UmVjb3JkcygpKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogUmVhZCBhIGNvbmZpZ3VyYXRpb24gZmlsZSBmcm9tIHRoZSBmaWxlc3lzdGVtIGFuZCB0dXJuIGl0IGludG8gYSBkcm9wd2l6YXJkIENvbmZpZyBvYmplY3QuCiAgICAgKi8KICAgIHB1YmxpYyBzdGF0aWMgQ29uZmlnIHJlYWRDb25maWd1cmF0aW9uKEZpbGUgY29uZmlnRmlsZSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHJldHVybiBnZXRDb25maWd1cmF0aW9uRmFjdG9yeSgpLmJ1aWxkKGNvbmZpZ0ZpbGUpOwogICAgICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIHwgQ29uZmlndXJhdGlvbkV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBSdW50aW1lRXhjZXB0aW9uKCJDb3VsZCBub3QgcmVhZCBjb25maWcgZnJvbSAiICsgY29uZmlnRmlsZS5nZXRQYXRoKCksIGUpOwogICAgICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Q09QWSAuYnVpbGQvdG9vbHMvbGludXgvc2lnaWwgICAgICAgL2Jpbi9zaWdpbAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Q09QWSAvc3JjL21haW4vcmVzb3VyY2VzL2NvbmZpZyAvYXBwLwo=</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpIHsKICAgICAgICBuZXcgU1FTTGFtYmRhSGFuZGxlcjxUPigpCiAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>sqscl</last-search>
+      <last-search>guava</last-search>
       <last-offset />
-      <last-pattern>sqscl</last-pattern>
+      <last-pattern>guava</last-pattern>
       <last-replace>ImmutableList</last-replace>
       <last-substitute>List</last-substitute>
       <last-dir>1</last-dir>
@@ -1615,7 +1621,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxURVNUX0NPTkZJR19GSUxFXD4=</entry>
         <entry>src</entry>
         <entry encoding="base64">XDx0ZXN0Q29uZmlnXD4=</entry>
         <entry>file</entry>
@@ -1635,6 +1640,7 @@
         <entry>class</entry>
         <entry>amazonaws</entry>
         <entry>sqscl</entry>
+        <entry>guava</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO3ZwbF87O2c=</entry>
