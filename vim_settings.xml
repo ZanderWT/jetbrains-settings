@@ -27,6 +27,9 @@
         <mark key="." line="1" column="28" />
         <mark key="^" line="1" column="28" />
       </file>
+      <file name="/a.dummy" timestamp="1542304927906">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/salesforce/SalesforceVenue.java" timestamp="1542228568810">
         <mark key="'" line="10" column="1" />
         <mark key="[" line="6" column="151" />
@@ -593,6 +596,9 @@
         <mark key="^" line="23" column="14" />
         <mark key="." line="14" column="0" />
       </file>
+      <file name="/Dummy.txt" timestamp="1542227890184">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/scrapers/ScraperCountryRow.java" timestamp="1528987433044">
         <mark key="[" line="9" column="34" />
         <mark key="]" line="9" column="34" />
@@ -639,6 +645,12 @@
         <mark key="]" line="14" column="46" />
         <mark key="." line="47" column="38" />
         <mark key="^" line="28" column="75" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/AWSEnvironmentFetcher.java" timestamp="1542389380903">
+        <mark key="[" line="2" column="36" />
+      </file>
+      <file name="/fragment.java" timestamp="1542303364585">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" timestamp="1537299540905">
         <mark key="[" line="72" column="141" />
@@ -875,12 +887,11 @@
         <mark key="." line="66" column="5" />
         <mark key="^" line="66" column="5" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1542227344571">
-        <mark key="'" line="296" column="16" />
-        <mark key="[" line="299" column="20" />
-        <mark key="]" line="299" column="12" />
-        <mark key="." line="299" column="12" />
-        <mark key="^" line="299" column="12" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1542389414843">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="176" column="4" />
+        <mark key="]" line="180" column="17" />
+        <mark key="." line="175" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SqsLambdaCommandBootstrapper.java" timestamp="1542305794458">
         <mark key="'" line="41" column="0" />
@@ -1228,6 +1239,12 @@
         <mark key="^" line="12" column="25" />
         <mark key="." line="12" column="25" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/salesforce/SalesforceTranslator.java" timestamp="1542228735219">
+        <mark key="'" line="47" column="0" />
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+      </file>
       <file name="$MAVEN_REPOSITORY$/com/google/maps/google-maps-services/0.2.9/google-maps-services-0.2.9-sources.jar!/com/google/maps/model/PlaceDetails.java" timestamp="1540920731741">
         <mark key="'" line="216" column="13" />
       </file>
@@ -1474,7 +1491,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="46" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SqsLambdaHandler.java" />
       <jump line="24" column="21" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SqsLambdaCommand.java" />
       <jump line="12" column="7" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterHandler.java" />
       <jump line="15" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterHandler.java" />
@@ -1574,6 +1590,7 @@
       <jump line="9" column="27" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/write/VenueWriterCommand.java" />
       <jump line="129" column="58" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="24" column="33" filename="$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-configuration/1.3.2/dropwizard-configuration-1.3.2-sources.jar!/io/dropwizard/configuration/EnvironmentVariableSubstitutor.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1645,7 +1662,7 @@
         <text>ConfiguredCommand</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxib290c3RyYXBcPg==</text>
+        <text>aws</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIC8qKgogICAgICogVmVudWUgd3JpdGluZyBjb25zaXN0cyBvZiBnZW9jb2RpbmcsIHdyaXRpbmcgdG8gdGhlIERCIGFuZCByZXBvcnRpbmcgdGhlIHRyYWNraW5nIGV2ZW50LiBBIHRpbWVvdXQgb2YgMzAgc2Vjb25kcwogICAgICogbGVkIHRvIHRpbWVvdXRzIGZvciBzZWFyY2ggY2lyY2xlcyBvZiBuZWFybHkgNjAgdmVudWVzLiBIZW5jZSBhIDIuNSBtaW51dGUgaGVyZS4gV2hpY2ggYWxzbyBsb29rcyBzZW5zaWJsZSBpbgogICAgICogY2FzZSB3ZSBjaGFuZ2UgYSBsYW1iZGEgdG8gZG8gdGhpcyB3b3JrIChtYXhpbXVtIHRpbWUgZm9yIGxhbWJkYXMgaXMgNSBtaW51dGVzKS4KICAgICAqLwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgaW50IFZFTlVFX1dSSVRJTkdfVElNRU9VVCA9IDE1MCAqIDEwMDA7CgogICAgcHJpdmF0ZSBmaW5hbCBWZW51ZVdyaXRlciB2ZW51ZVdyaXRlcjsKICAgIHByaXZhdGUgZmluYWwgUXVldWVTZW5kZXIgcXVldWVTZW5kZXI7CiAgICBwcml2YXRlIGZpbmFsIFN0cmluZyBqb2JDb21wbGV0aW9uUXVldWVVcmw7Cg==</text>
@@ -1689,9 +1706,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxib290c3RyYXBcPg==</last-search>
+      <last-search>aws</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxib290c3RyYXBcPg==</last-pattern>
+      <last-pattern>aws</last-pattern>
       <last-replace>\\&quot;</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1699,7 +1716,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhc3NlcnRUaGF0XD4=</entry>
         <entry>abstr</entry>
         <entry>priva</entry>
         <entry>mapp</entry>
@@ -1719,6 +1735,7 @@
         <entry>boot</entry>
         <entry>conf</entry>
         <entry encoding="base64">XDxib290c3RyYXBcPg==</entry>
+        <entry>aws</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
