@@ -311,6 +311,11 @@
         <mark key="." line="40" column="9" />
         <mark key="^" line="40" column="9" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docker-compose.yml" timestamp="1542648582922">
+        <mark key="'" line="196" column="4" />
+        <mark key="[" line="66" column="13" />
+        <mark key="]" line="66" column="17" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/googleplaces/GooglePlacesClientIntegrationTest.java" timestamp="1533683699117">
         <mark key="'" line="10" column="0" />
         <mark key="[" line="14" column="89" />
@@ -416,9 +421,6 @@
         <mark key="^" line="25" column="49" />
         <mark key="." line="25" column="49" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" timestamp="1540922756488">
-        <mark key="'" line="66" column="24" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1540923044418">
         <mark key="'" line="33" column="46" />
       </file>
@@ -480,6 +482,11 @@
       <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/objects/venue.py" timestamp="1541087871505">
         <mark key="'" line="113" column="30" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" timestamp="1542648056858">
+        <mark key="'" line="80" column="0" />
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="86" column="37" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/config/local.yml" timestamp="1533140444631">
         <mark key="'" line="17" column="49" />
         <mark key="[" line="17" column="54" />
@@ -533,11 +540,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="212" column="2" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
-      <jump line="188" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
-      <jump line="195" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
-      <jump line="197" column="74" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
-      <jump line="69" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
       <jump line="97" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
       <jump line="2" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" />
       <jump line="27" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
@@ -633,6 +635,11 @@
       <jump line="8" column="15" filename="$USER_HOME$/cp-projects/schedule-scraper/code/tests/test_app.py" />
       <jump line="9" column="5" filename="$USER_HOME$/cp-projects/schedule-scraper/code/tests/test_app.py" />
       <jump line="13" column="54" filename="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/controllers/feature_controller.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker-compose.yml" />
+      <jump line="196" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/docker-compose.yml" />
+      <jump line="86" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="286" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="80" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -704,10 +711,10 @@
         <text>data</text>
       </register>
       <register name="/" type="4">
-        <text>data</text>
+        <text>runserver</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHBvc3RfcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KCdodHRwOi8vYXBwOjgwMDAvZmVhdHVyZScsIGpzb249J3sibmFtZSI6ICJmb28iLCAiZW5hYmxlZCI6InRydWUifScpCg==</text>
+      <register name="0" type="4">
+        <text>tools</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
@@ -754,9 +761,9 @@
       </register>
     </registers>
     <search>
-      <last-search>data</last-search>
+      <last-search>runserver</last-search>
       <last-offset />
-      <last-pattern>data</last-pattern>
+      <last-pattern>runserver</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -764,9 +771,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxfYnVpbGRfbWFwcGluZ1w+</entry>
-        <entry encoding="base64">XDxlbWFpbFw+</entry>
-        <entry encoding="base64">XDx1c2VyXD4=</entry>
         <entry encoding="base64">XDx1c2Vyc1w+</entry>
         <entry encoding="base64">XDxoYXNfcG9ydGFsX3VzZXJcPg==</entry>
         <entry>venueuser</entry>
@@ -784,6 +788,9 @@
         <entry>pin</entry>
         <entry>json</entry>
         <entry>data</entry>
+        <entry>base-partner</entry>
+        <entry>django wo</entry>
+        <entry>runserver</entry>
       </history-search>
       <history-cmd>
         <entry>66</entry>
