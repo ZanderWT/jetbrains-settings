@@ -86,12 +86,6 @@
         <mark key="^" line="18" column="36" />
         <mark key="." line="18" column="36" />
       </file>
-      <file name="$USER_HOME$/cp-projects/schedule-scraper/code/requirements.txt" timestamp="1541803697484">
-        <mark key="[" line="16" column="7" />
-        <mark key="]" line="16" column="7" />
-        <mark key="^" line="16" column="7" />
-        <mark key="." line="16" column="7" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/config/local.yml.tmpl" timestamp="1530661679208">
         <mark key="'" line="20" column="55" />
         <mark key="[" line="4" column="23" />
@@ -155,6 +149,7 @@
         <mark key="." line="153" column="104" />
         <mark key="^" line="153" column="104" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/schedule.py" timestamp="1542749225062" />
       <file name="$USER_HOME$/cp-projects/schedule-scraper/code/tests/test_app.py" timestamp="1541810172997">
         <mark key="'" line="8" column="5" />
         <mark key="[" line="8" column="0" />
@@ -190,8 +185,8 @@
         <mark key="^" line="27" column="32" />
         <mark key="." line="27" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" timestamp="1540247990736">
-        <mark key="'" line="18" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" timestamp="1542749349781">
+        <mark key="'" line="101" column="25" />
         <mark key="[" line="97" column="206" />
         <mark key="]" line="97" column="212" />
         <mark key="." line="97" column="212" />
@@ -345,12 +340,6 @@
         <mark key="]" line="13" column="19" />
         <mark key="." line="13" column="19" />
         <mark key="^" line="42" column="22" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/dao/feature_dao.py" timestamp="1541805831781">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="8" column="23" />
-        <mark key="^" line="18" column="9" />
-        <mark key="." line="18" column="9" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1542743292942">
         <mark key="'" line="413" column="30" />
@@ -559,9 +548,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="3" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
-      <jump line="37" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
       <jump line="73" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" />
       <jump line="68" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" />
       <jump line="59" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" />
@@ -659,6 +645,9 @@
       <jump line="413" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="303" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="311" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="98" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
+      <jump line="89" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
+      <jump line="101" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -730,7 +719,7 @@
         <text>create</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</text>
+        <text>rq</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgaWYgc2NoZWR1bGVzX2RhdGEubGVuKCkgPiAxMDA6CiAgICAgICAgICAgICAgICBhc3luY19jcmVhdGVfc2NoZWR1bGVfbG93X3ByaW9yaXR5LmRlbGF5KHZlbnVlLCBzY2hlZHVsZSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGFzeW5jX2NyZWF0ZV9zY2hlZHVsZS5kZWxheSh2ZW51ZSwgc2NoZWR1bGUpCg==</text>
@@ -776,13 +765,13 @@
         <text encoding="base64">ICAgICMgcG9zdF9yZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QoJ2h0dHA6Ly9hcHA6ODAwMC9mZWF0dXJlJywganNvbj0neyJuYW1lIjogImZvbyIsICJlbmFibGVkIjoidHJ1ZSJ9JykK</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</last-search>
+      <last-search>rq</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</last-pattern>
+      <last-pattern>rq</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -790,9 +779,6 @@
     </search>
     <history>
       <history-search>
-        <entry>formatters</entry>
-        <entry>db</entry>
-        <entry>app.run</entry>
         <entry>session</entry>
         <entry>feature</entry>
         <entry>dao</entry>
@@ -805,11 +791,14 @@
         <entry>workers</entry>
         <entry encoding="base64">XDxNQU5BR0VfQ01EXD4=</entry>
         <entry>async_proce</entry>
-        <entry>rq</entry>
         <entry>get_queues</entry>
         <entry>low</entry>
         <entry encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</entry>
         <entry encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</entry>
+        <entry>work</entry>
+        <entry>async</entry>
+        <entry>v3</entry>
+        <entry>rq</entry>
       </history-search>
       <history-cmd>
         <entry>%s;GoogleJobConfiguration;GoogleFindVenuesJob;g</entry>
@@ -830,8 +819,8 @@
         <entry>bnext</entry>
         <entry>action QuickImplementations</entry>
         <entry>172</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
