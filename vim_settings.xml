@@ -13,8 +13,8 @@
       <file name="/start_script.py" timestamp="1541797708066">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1542651069175">
-        <mark key="'" line="308" column="4" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1542735708896">
+        <mark key="'" line="303" column="4" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" timestamp="1532989794481">
         <mark key="'" line="70" column="49" />
@@ -99,6 +99,7 @@
         <mark key="." line="22" column="38" />
         <mark key="^" line="21" column="38" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_redis_cleanup_command.py" timestamp="1542735651401" />
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1539792075958">
         <mark key="'" line="52" column="45" />
       </file>
@@ -346,12 +347,12 @@
         <mark key="^" line="18" column="9" />
         <mark key="." line="18" column="9" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1540922640182">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1542735692703">
         <mark key="'" line="321" column="8" />
-        <mark key="[" line="137" column="20" />
-        <mark key="]" line="138" column="25" />
-        <mark key="^" line="138" column="25" />
-        <mark key="." line="138" column="25" />
+        <mark key="[" line="423" column="5" />
+        <mark key="]" line="423" column="33" />
+        <mark key="^" line="423" column="24" />
+        <mark key="." line="423" column="24" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" timestamp="1541092161335">
         <mark key="'" line="61" column="33" />
@@ -390,6 +391,12 @@
         <mark key="]" line="23" column="49" />
         <mark key="^" line="23" column="49" />
         <mark key="." line="23" column="49" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_sanity_checks.py" timestamp="1542735567082">
+        <mark key="[" line="167" column="43" />
+        <mark key="]" line="167" column="43" />
+        <mark key="^" line="167" column="43" />
+        <mark key="." line="167" column="43" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/VenueEntityTest.java" timestamp="1532990188765">
         <mark key="'" line="60" column="81" />
@@ -543,7 +550,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="59" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
       <jump line="34" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
       <jump line="37" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
       <jump line="43" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/base.py" />
@@ -643,10 +649,11 @@
       <jump line="264" column="2" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="112" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="308" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="303" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
-        <text>ScraperJobQueueEventDeserializer</text>
+        <text>async_processing_low_priority</text>
       </register>
       <register name="&quot;" type="4">
         <text encoding="base64">IA==</text>
@@ -655,7 +662,7 @@
         <text encoding="base64">Y3JlYXRlKExhdExuZyBjZW50ZXIsIEludGVnZXIgcmFkaXVzTWV0ZXJzLCBMaXN0PFBsYWNlc1NlYXJjaFJlc3VsdD4gdmVudWVzKQ==</text>
       </register>
       <register name="*" type="4">
-        <text>''</text>
+        <text>async_processing_low_priority</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -714,7 +721,7 @@
         <text>data</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</text>
+        <text encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</text>
       </register>
       <register name="0" type="4">
         <text>tools</text>
@@ -764,9 +771,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</last-search>
+      <last-search encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -774,7 +781,6 @@
     </search>
     <history>
       <history-search>
-        <entry>venueuser</entry>
         <entry encoding="base64">XDxfaGFzX3BvcnRhbF91c2Vyc1w+</entry>
         <entry encoding="base64">XDx2ZW51ZV9pZHNfZm9yX3VzZXJcPg==</entry>
         <entry>venue\.</entry>
@@ -794,6 +800,7 @@
         <entry>runserver</entry>
         <entry>workers</entry>
         <entry encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</entry>
+        <entry encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JXM7R29vZ2xlSm9iQ29uZmlndXJhdGlvbjtcPEdvb2dsZUZpbmRWZW51ZXNKb2JcPjtn</entry>
