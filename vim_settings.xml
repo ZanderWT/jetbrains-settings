@@ -3,8 +3,8 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1540590776940">
-        <mark key="'" line="46" column="14" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1542741283749">
+        <mark key="'" line="67" column="30" />
         <mark key="[" line="67" column="30" />
         <mark key="]" line="67" column="30" />
         <mark key="." line="67" column="30" />
@@ -64,6 +64,9 @@
         <mark key="]" line="9" column="7" />
         <mark key="^" line="9" column="7" />
         <mark key="." line="9" column="7" />
+      </file>
+      <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django_rq/queues.py" timestamp="1542742105655">
+        <mark key="'" line="21" column="10" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/Venue.java" timestamp="1529444423216">
         <mark key="'" line="8" column="35" />
@@ -303,7 +306,7 @@
         <mark key="." line="38" column="15" />
         <mark key="^" line="38" column="15" />
       </file>
-      <file name="/Python Console" timestamp="1541804197736">
+      <file name="/Python Console" timestamp="1542741603356">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/logic/GeolocationAddressNormalizerTest.java" timestamp="1529955722215">
@@ -394,11 +397,11 @@
         <mark key="^" line="23" column="49" />
         <mark key="." line="23" column="49" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_sanity_checks.py" timestamp="1542739448900">
-        <mark key="[" line="167" column="12" />
-        <mark key="]" line="167" column="12" />
-        <mark key="^" line="167" column="12" />
-        <mark key="." line="167" column="12" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_sanity_checks.py" timestamp="1542742124500">
+        <mark key="[" line="171" column="0" />
+        <mark key="]" line="171" column="0" />
+        <mark key="^" line="171" column="27" />
+        <mark key="." line="171" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/models/VenueEntityTest.java" timestamp="1532990188765">
         <mark key="'" line="60" column="81" />
@@ -421,7 +424,7 @@
         <mark key="." line="30" column="3" />
         <mark key="^" line="30" column="3" />
       </file>
-      <file name="/Dummy.txt" timestamp="1542739208230">
+      <file name="/Dummy.txt" timestamp="1542741766448">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -552,8 +555,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="41" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="37" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="123" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="1" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
@@ -652,6 +653,8 @@
       <jump line="77" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
       <jump line="78" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
       <jump line="422" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="67" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
+      <jump line="21" column="10" filename="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django_rq/queues.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -720,16 +723,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>async_processing</text>
+        <text>settings.</text>
       </register>
       <register name="/" type="4">
-        <text>async_proce</text>
+        <text>get_queues</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">YWxpYXMgcm1weWM9J2ZpbmQgLiAtdHlwZSBmIC1uYW1lICIqLnB5YyIgLWRlbGV0ZSAmJiBmaW5kIC4gLXR5cGUgZCAtbmFtZSBfX3B5Y2FjaGVfXyAtZGVsZXRlJwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
+        <text encoding="base64">ICAgICAgICBkamFuZ29fcnEucXVldWVzLmdldAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -742,40 +745,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgcG9zdF9yZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QoJ2h0dHA6Ly9hcHA6ODAwMC9mZWF0dXJlJywganNvbj0neyJuYW1lIjogImZvbyIsICJlbmFibGVkIjoidHJ1ZSJ9JykK</text>
+        <text encoding="base64">ICAgICAgICBmcm9tIC5zZXR0aW5ncyBpbXBvcnQgUVVFVUVTCiAgICAgICAgcHJpbnQoUVVFVUVTKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoJ2ZmZmZmZmYnKQogICAgICAgIGxvZ2dpbmcud2FybmluZyhyZXF1ZXN0LmdldF9qc29uKCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="4">
-        <text>''</text>
+      <register name="4" type="2">
+        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
       </register>
-      <register name="5" type="4">
-        <text>{&quot;name&quot;: &quot;foo&quot;, &quot;enabled&quot;:&quot;true&quot;}</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICMgcG9zdF9yZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QoJ2h0dHA6Ly9hcHA6ODAwMC9mZWF0dXJlJywganNvbj0neyJuYW1lIjogImZvbyIsICJlbmFibGVkIjoidHJ1ZSJ9JykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoJ2ZmZmZmZmYnKQogICAgICAgIGxvZ2dpbmcud2FybmluZyhyZXF1ZXN0LmdldF9qc29uKCkpCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCgic3VwIHlvIikKICAgICAgICBwcmludChmZWF0dXJlKQo=</text>
+      <register name="7" type="4">
+        <text>''</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICBwcmludCgic3VwIHlvIikKIA==</text>
+        <text>{&quot;name&quot;: &quot;foo&quot;, &quot;enabled&quot;:&quot;true&quot;}</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name=":" type="4">
         <text>172</text>
       </register>
     </registers>
     <search>
-      <last-search>async_proce</last-search>
+      <last-search>get_queues</last-search>
       <last-offset />
-      <last-pattern>async_proce</last-pattern>
+      <last-pattern>get_queues</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -783,8 +786,6 @@
     </search>
     <history>
       <history-search>
-        <entry>venue\.</entry>
-        <entry>qu</entry>
         <entry>app</entry>
         <entry>formatters</entry>
         <entry>db</entry>
@@ -803,6 +804,8 @@
         <entry encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</entry>
         <entry encoding="base64">XDxNQU5BR0VfQ01EXD4=</entry>
         <entry>async_proce</entry>
+        <entry>rq</entry>
+        <entry>get_queues</entry>
       </history-search>
       <history-cmd>
         <entry>%s;GoogleJobConfiguration;GoogleFindVenuesJob;g</entry>
