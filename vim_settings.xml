@@ -13,8 +13,12 @@
       <file name="/start_script.py" timestamp="1541797708066">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1542735708896">
-        <mark key="'" line="303" column="4" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1542744019789">
+        <mark key="'" line="314" column="4" />
+        <mark key="[" line="119" column="0" />
+        <mark key="]" line="119" column="0" />
+        <mark key="^" line="118" column="25" />
+        <mark key="." line="119" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" timestamp="1532989794481">
         <mark key="'" line="70" column="49" />
@@ -348,12 +352,12 @@
         <mark key="^" line="18" column="9" />
         <mark key="." line="18" column="9" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1542738564672">
-        <mark key="'" line="422" column="20" />
-        <mark key="[" line="423" column="5" />
-        <mark key="]" line="423" column="33" />
-        <mark key="^" line="423" column="24" />
-        <mark key="." line="423" column="24" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1542743292942">
+        <mark key="'" line="413" column="30" />
+        <mark key="[" line="423" column="35" />
+        <mark key="]" line="423" column="35" />
+        <mark key="^" line="423" column="35" />
+        <mark key="." line="423" column="35" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/testing.md" timestamp="1542738659867">
         <mark key="[" line="56" column="0" />
@@ -555,8 +559,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="123" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="1" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="3" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
       <jump line="37" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
@@ -643,7 +645,6 @@
       <jump line="264" column="2" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="112" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="308" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
-      <jump line="303" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="63" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
       <jump line="56" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
       <jump line="18" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
@@ -655,6 +656,9 @@
       <jump line="422" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="67" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
       <jump line="21" column="10" filename="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django_rq/queues.py" />
+      <jump line="413" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="303" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="311" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -723,16 +727,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>settings.</text>
+        <text>create</text>
       </register>
       <register name="/" type="4">
-        <text>get_queues</text>
+        <text encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">YWxpYXMgcm1weWM9J2ZpbmQgLiAtdHlwZSBmIC1uYW1lICIqLnB5YyIgLWRlbGV0ZSAmJiBmaW5kIC4gLXR5cGUgZCAtbmFtZSBfX3B5Y2FjaGVfXyAtZGVsZXRlJwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgc2NoZWR1bGVzX2RhdGEubGVuKCkgPiAxMDA6CiAgICAgICAgICAgICAgICBhc3luY19jcmVhdGVfc2NoZWR1bGVfbG93X3ByaW9yaXR5LmRlbGF5KHZlbnVlLCBzY2hlZHVsZSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGFzeW5jX2NyZWF0ZV9zY2hlZHVsZS5kZWxheSh2ZW51ZSwgc2NoZWR1bGUpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkamFuZ29fcnEucXVldWVzLmdldAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXN5bmNfZWRpdF9zY2hlZHVsZS5kZWxheSh2ZW51ZSwgc2NoZWR1bGUpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -745,40 +749,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBmcm9tIC5zZXR0aW5ncyBpbXBvcnQgUVVFVUVTCiAgICAgICAgcHJpbnQoUVVFVUVTKQo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoc2NoZWR1bGVzX2RhdGEubGVuKCkgPiAxMDApOgogICAgICAgICAgICBjcmVhdGUgPSBhc3luY19jcmVhdGVfc2NoZWR1bGVfbG93X3ByaW9yaXR5CiAgICAgICAgZWxzZToKICAgICAgICAgICAgY3JlYXRlID0gYXN5bmNfY3JlYXRlX3NjaGVkdWxlCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
+        <text encoding="base64">aWYgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICMgcG9zdF9yZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QoJ2h0dHA6Ly9hcHA6ODAwMC9mZWF0dXJlJywganNvbj0neyJuYW1lIjogImZvbyIsICJlbmFibGVkIjoidHJ1ZSJ9JykK</text>
+        <text encoding="base64">ICAgICAgICBkamFuZ29fcnEucXVldWVzLmdldAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoJ2ZmZmZmZmYnKQogICAgICAgIGxvZ2dpbmcud2FybmluZyhyZXF1ZXN0LmdldF9qc29uKCkpCg==</text>
+        <text encoding="base64">ICAgICAgICBmcm9tIC5zZXR0aW5ncyBpbXBvcnQgUVVFVUVTCiAgICAgICAgcHJpbnQoUVVFVUVTKQo=</text>
       </register>
-      <register name="7" type="4">
-        <text>''</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="4">
-        <text>{&quot;name&quot;: &quot;foo&quot;, &quot;enabled&quot;:&quot;true&quot;}</text>
+      <register name="8" type="2">
+        <text encoding="base64">aW1wb3J0IGxvZ2dpbmcK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ICAgICMgcG9zdF9yZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QoJ2h0dHA6Ly9hcHA6ODAwMC9mZWF0dXJlJywganNvbj0neyJuYW1lIjogImZvbyIsICJlbmFibGVkIjoidHJ1ZSJ9JykK</text>
       </register>
       <register name=":" type="4">
-        <text>172</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>get_queues</last-search>
+      <last-search encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</last-search>
       <last-offset />
-      <last-pattern>get_queues</last-pattern>
+      <last-pattern encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -786,7 +790,6 @@
     </search>
     <history>
       <history-search>
-        <entry>app</entry>
         <entry>formatters</entry>
         <entry>db</entry>
         <entry>app.run</entry>
@@ -800,12 +803,13 @@
         <entry>django wo</entry>
         <entry>runserver</entry>
         <entry>workers</entry>
-        <entry encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</entry>
-        <entry encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</entry>
         <entry encoding="base64">XDxNQU5BR0VfQ01EXD4=</entry>
         <entry>async_proce</entry>
         <entry>rq</entry>
         <entry>get_queues</entry>
+        <entry>low</entry>
+        <entry encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</entry>
+        <entry encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>%s;GoogleJobConfiguration;GoogleFindVenuesJob;g</entry>
@@ -813,7 +817,6 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>q</entry>
         <entry>668</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>85</entry>
         <entry>110</entry>
         <entry>annotate</entry>
@@ -824,10 +827,11 @@
         <entry>56</entry>
         <entry>51</entry>
         <entry>79</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>bnext</entry>
         <entry>action QuickImplementations</entry>
         <entry>172</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
