@@ -20,6 +20,12 @@
         <mark key="^" line="9" column="7" />
         <mark key="." line="9" column="7" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" timestamp="1542836836858">
+        <mark key="'" line="39" column="36" />
+        <mark key="[" line="104" column="51" />
+        <mark key="]" line="104" column="51" />
+        <mark key="." line="104" column="51" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/GeolocationAddressNormalizerIntegrationTest.java" timestamp="1530629977812">
         <mark key="'" line="30" column="34" />
         <mark key="[" line="22" column="38" />
@@ -229,10 +235,10 @@
         <mark key="." line="67" column="30" />
         <mark key="^" line="67" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1542833620270">
-        <mark key="'" line="56" column="33" />
-        <mark key="[" line="56" column="81" />
-        <mark key="]" line="56" column="81" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1542836830896">
+        <mark key="'" line="56" column="81" />
+        <mark key="[" line="320" column="0" />
+        <mark key="]" line="320" column="56" />
         <mark key="^" line="56" column="81" />
         <mark key="." line="56" column="81" />
       </file>
@@ -344,12 +350,12 @@
         <mark key="^" line="27" column="32" />
         <mark key="." line="27" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" timestamp="1542833350173">
-        <mark key="'" line="143" column="48" />
-        <mark key="[" line="144" column="48" />
-        <mark key="]" line="144" column="48" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" timestamp="1542837308089">
+        <mark key="'" line="116" column="41" />
+        <mark key="[" line="153" column="38" />
+        <mark key="]" line="153" column="91" />
         <mark key="^" line="144" column="48" />
-        <mark key="." line="144" column="48" />
+        <mark key="." line="153" column="38" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/runserver" timestamp="1542738561158">
         <mark key="'" line="78" column="33" />
@@ -531,9 +537,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="0" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/venue/models/user.py" />
-      <jump line="42" column="9" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
-      <jump line="60" column="16" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
       <jump line="61" column="33" filename="$USER_HOME$/cp-projects/classpass-admin/classpass/apps/v2/api/launch/launch_service.py" />
       <jump line="56" column="2" filename="$USER_HOME$/cp-projects/schedule-scraper/readme.md" />
       <jump line="52" column="0" filename="$USER_HOME$/cp-projects/schedule-scraper/readme.md" />
@@ -630,7 +633,10 @@
       <jump line="38" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="143" column="48" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
       <jump line="116" column="90" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
-      <jump line="56" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="33" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="39" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="56" column="81" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
+      <jump line="116" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_edit_schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -699,13 +705,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>101</text>
       </register>
       <register name="/" type="4">
-        <text>t</text>
+        <text>101</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uY29uZiBpbXBvcnQgc2V0dGluZ3MK</text>
+      <register name="0" type="4">
+        <text>settings.SCHEDULE_BUILDING_LOW_PRIORITY_THRESHOLD + 1</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -721,10 +727,10 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGxvd19wcmlvcml0eV90aHJlc2hvbGQgPSBzZXR0aW5ncy5TQ0hFRFVMRV9CVUlMRElOR19MT1dfUFJJT1JJVFlfVEhSRVNIT0xECg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxvd19wcmlvcml0eV90aHJlc2hvbGQgPSBzZXR0aW5ncy5TQ0hFRFVMRV9CVUlMRElOR19MT1dfUFJJT1JJVFlfVEhSRVNIT0xECg==</text>
       </register>
       <register name="s" type="4">
         <text />
@@ -733,28 +739,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChyZXNwb25zZS5zdGF0dXNfY29kZSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkamFuZ29fcnEucXVldWVzLgo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludChyZXNwb25zZS5zdGF0dXNfY29kZSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGRlZiB0ZXN0X2VkaXRfc2NoZWR1bGVfcXVldWVpbmcoc2VsZik6CiAgICAgICAgcXVldWVfbmFtZSA9ICdhc3luY19wcm9jZXNzaW5nJwogICAgICAgIHhyZWYgPSBzZWxmLl9hc3NpZ25fcGVybWlzc2lvbigiY2FuX2NyZWF0ZV9zY2hlZHVsZSIpCiAgICAgICAgcmVzcG9uc2UgPSBzZWxmLl9hdHRlbXB0X2xvZ2luKHhyZWYudmVudWVfdXNlci5lbWFpbCwgdGVzdF9mYWN0b3JpZXMuREVGQVVMVF9QQVNTV09SRCkKICAgICAgICBwcmludChyZXNwb25zZS5zdGF0dXNfY29kZSkKICAgICAgICB1cmwgPSAiL2FwaS92My8lcy9zY2hlZHVsZS9jcmVhdGUiICUgeHJlZi52ZW51ZS52ZW51ZV9pZAogICAgICAgIG5vX2F1dGhfaGVhZGVycyA9IHt9CiAgICAgICAgbW9ja19zY2hlZHVsZSA9IHsKICAgICAgICAgICAgJ2NsYXNzaXZpdHlfY2xhc3NfaWQnOiAxNzY5ODYsCiAgICAgICAgICAgICdzdGFydF9kYXRlJzogJzIwMTctMDYtMDgnLAogICAgICAgICAgICAnc3RhcnRfdGltZSc6ICcwNDozMDowMCcsCiAgICAgICAgICAgICdlbmRfdGltZSc6ICcwNTozMDowMCcsCiAgICAgICAgICAgICdzcG90cyc6IDUsCiAgICAgICAgICAgICd0ZWFjaGVyX2lkJzogMTIzLAogICAgICAgICAgICAndGVhY2hlcl9uYW1lJzogTm9uZQogICAgICAgIH0KICAgICAgICBkYXRhID0gewogICAgICAgICAgICAnc2NoZWR1bGVzX2RhdGEnOiBbbW9ja19zY2hlZHVsZV0sCiAgICAgICAgICAgICdzY2hlZHVsZXNfZGF0YV9lZGl0JzogW21vY2tfc2NoZWR1bGVdCiAgICAgICAgfQogICAgICAgIHJlc3AgPSBzZWxmLmNsaWVudC5wb3N0KHVybCwganNvbi5kdW1wcyhkYXRhKSwgY29udGVudF90eXBlPSJhcHBsaWNhdGlvbi9qc29uIiwgKipub19hdXRoX2hlYWRlcnMpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChyZXNwLnN0YXR1c19jb2RlLCAyMDApCg==</text>
+        <text encoding="base64">ICAgICAgICBkamFuZ29fcnEucXVldWVzLgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKAogICAgICAgICAgICBzZWxmLl9nZXRfcnFfbGVuZ3RoKHF1ZXVlX25hbWUpLAogICAgICAgICAgICAxCiAgICAgICAgKQo=</text>
+        <text encoding="base64">ICAgIGRlZiB0ZXN0X2VkaXRfc2NoZWR1bGVfcXVldWVpbmcoc2VsZik6CiAgICAgICAgcXVldWVfbmFtZSA9ICdhc3luY19wcm9jZXNzaW5nJwogICAgICAgIHhyZWYgPSBzZWxmLl9hc3NpZ25fcGVybWlzc2lvbigiY2FuX2NyZWF0ZV9zY2hlZHVsZSIpCiAgICAgICAgcmVzcG9uc2UgPSBzZWxmLl9hdHRlbXB0X2xvZ2luKHhyZWYudmVudWVfdXNlci5lbWFpbCwgdGVzdF9mYWN0b3JpZXMuREVGQVVMVF9QQVNTV09SRCkKICAgICAgICBwcmludChyZXNwb25zZS5zdGF0dXNfY29kZSkKICAgICAgICB1cmwgPSAiL2FwaS92My8lcy9zY2hlZHVsZS9jcmVhdGUiICUgeHJlZi52ZW51ZS52ZW51ZV9pZAogICAgICAgIG5vX2F1dGhfaGVhZGVycyA9IHt9CiAgICAgICAgbW9ja19zY2hlZHVsZSA9IHsKICAgICAgICAgICAgJ2NsYXNzaXZpdHlfY2xhc3NfaWQnOiAxNzY5ODYsCiAgICAgICAgICAgICdzdGFydF9kYXRlJzogJzIwMTctMDYtMDgnLAogICAgICAgICAgICAnc3RhcnRfdGltZSc6ICcwNDozMDowMCcsCiAgICAgICAgICAgICdlbmRfdGltZSc6ICcwNTozMDowMCcsCiAgICAgICAgICAgICdzcG90cyc6IDUsCiAgICAgICAgICAgICd0ZWFjaGVyX2lkJzogMTIzLAogICAgICAgICAgICAndGVhY2hlcl9uYW1lJzogTm9uZQogICAgICAgIH0KICAgICAgICBkYXRhID0gewogICAgICAgICAgICAnc2NoZWR1bGVzX2RhdGEnOiBbbW9ja19zY2hlZHVsZV0sCiAgICAgICAgICAgICdzY2hlZHVsZXNfZGF0YV9lZGl0JzogW21vY2tfc2NoZWR1bGVdCiAgICAgICAgfQogICAgICAgIHJlc3AgPSBzZWxmLmNsaWVudC5wb3N0KHVybCwganNvbi5kdW1wcyhkYXRhKSwgY29udGVudF90eXBlPSJhcHBsaWNhdGlvbi9qc29uIiwgKipub19hdXRoX2hlYWRlcnMpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChyZXNwLnN0YXR1c19jb2RlLCAyMDApCg==</text>
       </register>
-      <register name="9" type="4">
-        <text>{}</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKAogICAgICAgICAgICBzZWxmLl9nZXRfcnFfbGVuZ3RoKHF1ZXVlX25hbWUpLAogICAgICAgICAgICAxCiAgICAgICAgKQo=</text>
       </register>
       <register name=":" type="4">
         <text>58</text>
       </register>
     </registers>
     <search>
-      <last-search>t</last-search>
+      <last-search>101</last-search>
       <last-offset />
-      <last-pattern>t</last-pattern>
+      <last-pattern>101</last-pattern>
       <last-replace>GoogleFindVenuesJob</last-replace>
       <last-substitute>GoogleJobConfiguration</last-substitute>
       <last-dir>1</last-dir>
@@ -762,9 +768,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get_queues</entry>
-        <entry>low</entry>
-        <entry encoding="base64">XDxhc3luY19jcmVhdGVfc2NoZWR1bGVcPg==</entry>
         <entry encoding="base64">XDxhc3luY19lZGl0X3NjaGVkdWxlXD4=</entry>
         <entry>work</entry>
         <entry>async</entry>
@@ -782,6 +785,9 @@
         <entry>100</entry>
         <entry>fitz</entry>
         <entry>t</entry>
+        <entry>asdf</entry>
+        <entry>async_proc</entry>
+        <entry>101</entry>
       </history-search>
       <history-cmd>
         <entry>668</entry>
