@@ -269,7 +269,6 @@
         <mark key="^" line="14" column="52" />
         <mark key="." line="14" column="52" />
       </file>
-      <file name="$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-util/1.3.2/dropwizard-util-1.3.2-sources.jar!/io/dropwizard/util/Generics.java" timestamp="1542237887866" />
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/config/local.yml" timestamp="1542393840152">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="23" column="4" />
@@ -457,11 +456,6 @@
         <mark key="^" line="19" column="3" />
         <mark key="." line="19" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/GlsModule.java" timestamp="1542318391888">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/salesforce/SalesforceVenueTest.java" timestamp="1537384562661">
         <mark key="[" line="20" column="17" />
         <mark key="]" line="20" column="31" />
@@ -623,6 +617,12 @@
         <mark key="." line="7" column="0" />
         <mark key="^" line="7" column="8" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00032_wellness_scheduling_softwares.sql" timestamp="1543271948385">
+        <mark key="[" line="5" column="10" />
+        <mark key="]" line="5" column="15" />
+        <mark key="." line="5" column="15" />
+        <mark key="^" line="5" column="15" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/queueing/GooglePlacesDetailsProcessor.java" timestamp="1533595430154">
         <mark key="'" line="2" column="94" />
         <mark key="[" line="34" column="93" />
@@ -662,6 +662,9 @@
         <mark key="]" line="14" column="36" />
         <mark key="." line="14" column="36" />
         <mark key="^" line="14" column="36" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" timestamp="1543271997352">
+        <mark key="'" line="38" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GoogleScraperRequest.java" timestamp="1533593616843">
         <mark key="[" line="14" column="12" />
@@ -1042,7 +1045,6 @@
         <mark key="." line="28" column="16" />
         <mark key="^" line="28" column="16" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/utils/QueueSender.java" timestamp="1542390363545" />
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/venue-writer/src/main/java/com/classpass/venues/models/Venue.java" timestamp="1529444423216">
         <mark key="'" line="8" column="35" />
         <mark key="[" line="22" column="18" />
@@ -1238,6 +1240,10 @@
         <mark key="^" line="12" column="25" />
         <mark key="." line="12" column="25" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00031_add_manual_schedule.sql" timestamp="1543271817996">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="1" column="26" />
+      </file>
       <file name="$MAVEN_REPOSITORY$/com/google/maps/google-maps-services/0.2.9/google-maps-services-0.2.9-sources.jar!/com/google/maps/model/PlaceDetails.java" timestamp="1540920731741">
         <mark key="'" line="216" column="13" />
       </file>
@@ -1319,6 +1325,13 @@
         <mark key="^" line="13" column="81" />
         <mark key="." line="13" column="81" />
       </file>
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/SchedulingSoftware.java" timestamp="1543271962034">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="^" line="23" column="20" />
+        <mark key="." line="24" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/salesforce/SalesforceTranslatorTest.java" timestamp="1537384527658">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="63" column="33" />
@@ -1339,7 +1352,6 @@
         <mark key="." line="21" column="0" />
         <mark key="^" line="22" column="3" />
       </file>
-      <file name="$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-core/1.3.2/dropwizard-core-1.3.2-sources.jar!/io/dropwizard/Application.java" timestamp="1542322007231" />
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00027_add_venue_param_hash_column.sql" timestamp="1539019067221">
         <mark key="[" line="0" column="3" />
         <mark key="]" line="0" column="4" />
@@ -1488,10 +1500,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
-      <jump line="10" column="71" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/lambda/SqsLambdaCommand.java" />
-      <jump line="42" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/PlacesVenueTranslatorTest.java" />
-      <jump line="41" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/PlacesVenueTranslatorTest.java" />
       <jump line="38" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/PlacesVenueTranslatorTest.java" />
       <jump line="29" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/write/PlacesVenueTranslatorTest.java" />
       <jump line="57" column="9" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/lambda/LambdaScaffoldingTest.java" />
@@ -1588,6 +1596,10 @@
       <jump line="57" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/config/config.yml" />
       <jump line="28" column="31" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/config/config.yml" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/config/local.yml" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/SchedulingSoftware.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/SchedulingSoftware.java" />
+      <jump line="3" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/models/SchedulingSoftware.java" />
+      <jump line="38" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenueResource.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1656,55 +1668,55 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">cmV0dXJuIA==</text>
+        <text>MANUALSCHEDULE</text>
       </register>
       <register name="/" type="4">
-        <text>endpoint</text>
+        <text>getall</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBBbWF6b25TUVNDbGllbnRCdWlsZGVyIHNxc0NsaWVudEJ1aWxkZXIgPSBBbWF6b25TUVNDbGllbnQuYnVpbGRlcigpCiAgICAgICAgICAgICAgICAud2l0aENyZWRlbnRpYWxzKGNyZWRlbnRpYWxzUHJvdmlkZXIpOwogICAgICAgIFN0cmluZyBhd3NFbmRwb2ludCA9IGNvbmZpZy5nZXRBd3NFbmRwb2ludCgpOwogICAgICAgIGlmIChhd3NFbmRwb2ludCAhPSBudWxsKSB7CiAgICAgICAgICAgIHNxc0NsaWVudEJ1aWxkZXIuc2V0RW5kcG9pbnRDb25maWd1cmF0aW9uKG5ldyBBd3NDbGllbnRCdWlsZGVyLkVuZHBvaW50Q29uZmlndXJhdGlvbihhd3NFbmRwb2ludCwgInVzLWVhc3QtMSIpKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiBzcXNDbGllbnRCdWlsZGVyLmJ1aWxkKCk7Cg==</text>
+        <text encoding="base64">aW5zZXJ0IGludG8gc2NoZWR1bGluZ19zb2Z0d2FyZShzY2hlZHVsaW5nX3NvZnR3YXJlX2lkLCBzY2hlZHVsaW5nX3NvZnR3YXJlX25hbWUpIHZhbHVlcwogICAgKDE3LCAnTUFOVUFMU0NIRURVTEUnKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIE9USEVSKCJPdGhlciIpOwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoYXdzRW5kcG9pbnQgIT0gbnVsbCkgewo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgYXdzRW5kcG9pbnQgPSBjb25maWcuZ2V0QXdzRW5kcG9pbnQoKTsK</text>
+        <text encoding="base64">ICAgICAgICBpZiAoYXdzRW5kcG9pbnQgIT0gbnVsbCkgewo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBBbWF6b25TUVMgYW1hem9uU3FzID0gbmV3IEFtYXpvblNRU0NsaWVudChjcmVkZW50aWFsc1Byb3ZpZGVyKTsKICAgICAgICBhbWF6b25TcXMuc2V0RW5kcG9pbnQoYXdzRW5kcG9pbnQpOwo=</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgYXdzRW5kcG9pbnQgPSBjb25maWcuZ2V0QXdzRW5kcG9pbnQoKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRocmUK</text>
+        <text encoding="base64">ICAgICAgICBBbWF6b25TUVMgYW1hem9uU3FzID0gbmV3IEFtYXpvblNRU0NsaWVudChjcmVkZW50aWFsc1Byb3ZpZGVyKTsKICAgICAgICBhbWF6b25TcXMuc2V0RW5kcG9pbnQoYXdzRW5kcG9pbnQpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3FzQ2xpZW50LnNldEVuZHBvaW50KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRocmUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRoRW5kcG9pbnRDb25maWd1cmF0aW9uKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3FzQ2xpZW50LnNldEVuZHBvaW50KCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5idWlsZCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC53aXRoRW5kcG9pbnRDb25maWd1cmF0aW9uKCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5hbWF6b25hd3Muc2VydmljZXMuc2ltcGxlc3lzdGVtc21hbmFnZW1lbnQubW9kZWwuR2V0UGFyYW1ldGVyc0J5UGF0aFJlcXVlc3Q7CmltcG9ydCBjb20uYW1hem9uYXdzLnNlcnZpY2VzLnNpbXBsZXN5c3RlbXNtYW5hZ2VtZW50Lm1vZGVsLkdldFBhcmFtZXRlcnNCeVBhdGhSZXN1bHQ7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5idWlsZCgpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>endpoint</last-search>
+      <last-search>getall</last-search>
       <last-offset />
-      <last-pattern>endpoint</last-pattern>
+      <last-pattern>getall</last-pattern>
       <last-replace>\\&quot;</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1712,7 +1724,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxndWljZVw+</entry>
         <entry>guice</entry>
         <entry encoding="base64">XDxCdWlsZGVyXD4=</entry>
         <entry>run</entry>
@@ -1732,6 +1743,7 @@
         <entry>aws</entry>
         <entry>awsendpoint</entry>
         <entry>endpoint</entry>
+        <entry>getall</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
