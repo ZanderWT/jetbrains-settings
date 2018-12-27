@@ -389,12 +389,12 @@
         <mark key="^" line="23" column="49" />
         <mark key="." line="23" column="49" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1545949338541">
-        <mark key="'" line="37" column="4" />
-        <mark key="[" line="19" column="12" />
-        <mark key="]" line="20" column="15" />
-        <mark key="^" line="20" column="15" />
-        <mark key="." line="20" column="15" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1545951017779">
+        <mark key="'" line="20" column="57" />
+        <mark key="[" line="20" column="120" />
+        <mark key="]" line="21" column="13" />
+        <mark key="." line="21" column="13" />
+        <mark key="^" line="21" column="13" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1545929107988">
         <mark key="[" line="99" column="0" />
@@ -558,7 +558,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="207" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="54" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" />
       <jump line="231" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" />
       <jump line="232" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" />
@@ -658,6 +657,7 @@
       <jump line="53" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="15" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="37" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
+      <jump line="20" column="57" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -729,13 +729,13 @@
         <text>OpportunitiesController</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwZXJtaXNzaW9uX2NsYXNzZXNcPg==</text>
+        <text>ss</text>
       </register>
       <register name="0" type="4">
         <text>cls, venue_id, start_date=None, end_date=None, save_opportunity_records=True</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdldF9vcHBvcnR1bml0aWVzX2Zyb21fc21hcnRzcG90KGNscywgdmVudWVfaWQsIHN0YXJ0X2RhdGU9Tm9uZSwgZW5kX2RhdGU9Tm9uZSk6CiAgICAgICAgIiIiCiAgICAgICAgRm9yIG5vdyB0aGlzIG1ldGhvZCBpcyBhIGp1c3QgYSBwcm94eSB0byBPcHBvcnR1bml0aWVzQ29udHJvbGxlci5nZXRfb3Bwb3J0dW5pdGllcy4gCiAgICAgICAgSW4gYSBmdXR1cmUgUFIgZm9yIHRpY2tldCBodHRwczovL2NsYXNzcGFzcy5hdGxhc3NpYW4ubmV0L2Jyb3dzZS9TVC0xNjI0IHRoaXMgbWV0aG9kIAogICAgICAgIHdpbGwgYmUgY2hhbmdlZCB0byBjYWxsIHRoZSBzcG90LXJlY3Mtc2VydmljZSBmb3Igc21hcnRzcG90IGdlbmVyYXRlZCBvcHBvcnR1bml0aWVzLgogICAgICAgICIiIgogICAgICAgIHJldHVybiBjbHMuZ2V0X29wcG9ydHVuaXRpZXModmVudWVfaWQsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgVGhpcyBpcyB3aGVyZSB3ZSB3aWxsIGNoZWNrIHRoZSB1c2VycyBwZXJtaXNzaW9ucyBmb3IgdGhlIChjdXJyZW50bHkgbm9uLWV4aXN0ZW50KSBjYW5fdmlld19vcHBvcnR1bml0aWVzX3NzIHBlcm1pc3Npb24uIFRvIGJlIGFkZGVkIGluIEphbiAyMDE5IGJ5IFphbmRlciBpbiBodHRwczovL2NsYXNzcGFzcy5hdGxhc3NpYW4ubmV0L2Jyb3dzZS9TVC0xNjMyCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -751,37 +751,37 @@
         <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdldF9vcHBvcnR1bml0aWVzX2Zyb21fc21hcnRzcG90KGNscywgdmVudWVfaWQsIHN0YXJ0X2RhdGU9Tm9uZSwgZW5kX2RhdGU9Tm9uZSk6CiAgICAgICAgIiIiCiAgICAgICAgRm9yIG5vdyB0aGlzIG1ldGhvZCBpcyBhIGp1c3QgYSBwcm94eSB0byBPcHBvcnR1bml0aWVzQ29udHJvbGxlci5nZXRfb3Bwb3J0dW5pdGllcy4gCiAgICAgICAgSW4gYSBmdXR1cmUgUFIgZm9yIHRpY2tldCBodHRwczovL2NsYXNzcGFzcy5hdGxhc3NpYW4ubmV0L2Jyb3dzZS9TVC0xNjI0IHRoaXMgbWV0aG9kIAogICAgICAgIHdpbGwgYmUgY2hhbmdlZCB0byBjYWxsIHRoZSBzcG90LXJlY3Mtc2VydmljZSBmb3Igc21hcnRzcG90IGdlbmVyYXRlZCBvcHBvcnR1bml0aWVzLgogICAgICAgICIiIgogICAgICAgIHJldHVybiBjbHMuZ2V0X29wcG9ydHVuaXRpZXModmVudWVfaWQsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKQoK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdldF9vcHBvcnR1bml0aWVzX2Zyb21fc21hcnRzcG90KGNscywgdmVudWVfaWQsIHN0YXJ0X2RhdGU9Tm9uZSwgZW5kX2RhdGU9Tm9uZSk6CiAgICAgICAgIiIiCiAgICAgICAgRm9yIG5vdyB0aGlzIG1ldGhvZCBpcyBhIGp1c3QgYSBwcm94eSB0byBPcHBvcnR1bml0aWVzQ29udHJvbGxlci5nZXRfb3Bwb3J0dW5pdGllcy4gCiAgICAgICAgSW4gYSBmdXR1cmUgUFIgZm9yIHRpY2tldCBodHRwczovL2NsYXNzcGFzcy5hdGxhc3NpYW4ubmV0L2Jyb3dzZS9TVC0xNjI0IHRoaXMgbWV0aG9kIAogICAgICAgIHdpbGwgYmUgY2hhbmdlZCB0byBjYWxsIHRoZSBzcG90LXJlY3Mtc2VydmljZSBmb3Igc21hcnRzcG90IGdlbmVyYXRlZCBvcHBvcnR1bml0aWVzLgogICAgICAgICIiIgogICAgICAgIHJldHVybiBjbHMuZ2V0X29wcG9ydHVuaXRpZXModmVudWVfaWQsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKQoK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICA6cGFyYW0gdmVudWVfaWQ6IAogICAgICAgIDpwYXJhbSBzdGFydF9kYXRlOiAKICAgICAgICA6cGFyYW0gZW5kX2RhdGU6IAogICAgICAgIDpyZXR1cm46IAo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICA6cGFyYW0gdmVudWVfaWQ6IAogICAgICAgIDpwYXJhbSBzdGFydF9kYXRlOiAKICAgICAgICA6cGFyYW0gZW5kX2RhdGU6IAogICAgICAgIDpyZXR1cm46IAo=</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzdGFydF9kYXRlIGlzIE5vbmU6CiAgICAgICAgICAgIHN0YXJ0X2RhdGUgPSBkYXRldGltZS5kYXRldGltZS5ub3coKS5kYXRlKCkKICAgICAgICBpZiBlbmRfZGF0ZSBpcyBOb25lOgogICAgICAgICAgICBlbmRfZGF0ZSA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpLmRhdGUoKSArIGRhdGV0aW1lLnRpbWVkZWx0YShkYXlzPTIpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBhY3RlZF9vbl9vcHBvcnR1bml0aWVzID0gW29wcC50b19kaWN0KCkgZm9yIG9wcCBpbiBPcHBvcnR1bml0aWVzRGFsLmdldF9hY3RlZF9vbl9vcHBvcnR1bml0aWVzKHZlbnVlLmlkKV0K</text>
+        <text encoding="base64">ICAgICAgICBpZiBzdGFydF9kYXRlIGlzIE5vbmU6CiAgICAgICAgICAgIHN0YXJ0X2RhdGUgPSBkYXRldGltZS5kYXRldGltZS5ub3coKS5kYXRlKCkKICAgICAgICBpZiBlbmRfZGF0ZSBpcyBOb25lOgogICAgICAgICAgICBlbmRfZGF0ZSA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpLmRhdGUoKSArIGRhdGV0aW1lLnRpbWVkZWx0YShkYXlzPTIpCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBhY3RlZF9vbl9vcHBvcnR1bml0aWVzID0gW29wcC50b19kaWN0KCkgZm9yIG9wcCBpbiBPcHBvcnR1bml0aWVzRGFsLmdldF9hY3RlZF9vbl9vcHBvcnR1bml0aWVzKHZlbnVlLmlkKV0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhY3RlZF9vbl9vcHBvcnR1bml0aWVzID0gT3Bwb3J0dW5pdHlQcmVzZW50ZXIubWVyZ2VfYWN0ZWRfb25fb3Bwc193X3Jvc3RlcnMoCiAgICAgICAgICAgIGFjdGVkX29uX29wcG9ydHVuaXRpZXMsIGVuYWJsZWRfcm9zdGVycywgc3BvdF9kYXRhKQo=</text>
+        <text encoding="base64">ICAgICAgICBhY3RlZF9vbl9vcHBvcnR1bml0aWVzID0gW29wcC50b19kaWN0KCkgZm9yIG9wcCBpbiBPcHBvcnR1bml0aWVzRGFsLmdldF9hY3RlZF9vbl9vcHBvcnR1bml0aWVzKHZlbnVlLmlkKV0K</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwZXJtaXNzaW9uX2NsYXNzZXNcPg==</last-search>
+      <last-search>ss</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwZXJtaXNzaW9uX2NsYXNzZXNcPg==</last-pattern>
+      <last-pattern>ss</last-pattern>
       <last-replace />
       <last-substitute>@\w\+method</last-substitute>
       <last-dir>1</last-dir>
@@ -789,7 +789,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxfaXNfcGVha3RpbWVcPg==</entry>
         <entry>cls\.</entry>
         <entry>classmethod</entry>
         <entry encoding="base64">XDxzYXZlX29wcG9ydHVuaXR5X3JlY29yZHNcPg==</entry>
@@ -809,6 +808,7 @@
         <entry>user.perm</entry>
         <entry>permission</entry>
         <entry encoding="base64">XDxwZXJtaXNzaW9uX2NsYXNzZXNcPg==</entry>
+        <entry>ss</entry>
       </history-search>
       <history-cmd>
         <entry>110</entry>
