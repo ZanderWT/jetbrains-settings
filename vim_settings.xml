@@ -106,6 +106,9 @@
         <mark key="." line="22" column="38" />
         <mark key="^" line="21" column="38" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1545948406364">
+        <mark key="'" line="53" column="37" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1542757650546">
         <mark key="'" line="47" column="16" />
         <mark key="[" line="71" column="8" />
@@ -389,12 +392,6 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1545866569660">
         <mark key="'" line="64" column="12" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_sanity_checks.py" timestamp="1542742124500">
-        <mark key="[" line="171" column="0" />
-        <mark key="]" line="171" column="0" />
-        <mark key="^" line="171" column="27" />
-        <mark key="." line="171" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1545929107988">
         <mark key="[" line="99" column="0" />
         <mark key="]" line="99" column="12" />
@@ -445,6 +442,9 @@
         <mark key="]" line="13" column="12" />
         <mark key="^" line="13" column="12" />
         <mark key="." line="13" column="12" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" timestamp="1545948343460">
+        <mark key="'" line="140" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/__main__.py" timestamp="1541807096114">
         <mark key="'" line="14" column="20" />
@@ -554,19 +554,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="167" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
-      <jump line="313" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
-      <jump line="149" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
-      <jump line="49" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
-      <jump line="59" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
-      <jump line="118" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="192" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="83" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="120" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="309" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="201" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="202" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="200" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="195" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="25" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
       <jump line="207" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -654,6 +641,19 @@
       <jump line="133" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="131" column="90" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="57" column="7" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="5" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="14" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="100" column="43" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="115" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="124" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="134" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="140" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="37" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
+      <jump line="38" column="57" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
+      <jump line="39" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
+      <jump line="40" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
+      <jump line="52" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
+      <jump line="53" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -725,7 +725,7 @@
         <text>OpportunitiesController</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzcG90X2RhdGFcPg==</text>
+        <text>permission</text>
       </register>
       <register name="0" type="4">
         <text>cls, venue_id, start_date=None, end_date=None, save_opportunity_records=True</text>
@@ -775,19 +775,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzcG90X2RhdGFcPg==</last-search>
+      <last-search>permission</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzcG90X2RhdGFcPg==</last-pattern>
+      <last-pattern>permission</last-pattern>
       <last-replace />
       <last-substitute>@\w\+method</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>history_for_venue</entry>
-        <entry encoding="base64">XDxzZW5kX29wcG9ydHVuaXR5X2VtYWlsXD4=</entry>
-        <entry>class</entry>
         <entry>@\w\+method</entry>
         <entry encoding="base64">XDxfaXNfcGVha3RpbWVcPg==</entry>
         <entry>cls\.</entry>
@@ -805,6 +802,9 @@
         <entry encoding="base64">XDxhY3RlZF9vbl9vcHBvcnR1bml0aWVzXD4=</entry>
         <entry encoding="base64">XDxlbmFibGVkX3Jvc3RlcnNcPg==</entry>
         <entry encoding="base64">XDxzcG90X2RhdGFcPg==</entry>
+        <entry encoding="base64">XDxCYXNlUGVybWlzc2lvblw+</entry>
+        <entry>user.perm</entry>
+        <entry>permission</entry>
       </history-search>
       <history-cmd>
         <entry>110</entry>
