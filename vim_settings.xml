@@ -784,7 +784,7 @@
         <text encoding="base64">ICAgICAgICB7CiAgICAgICAgICAgICJzY2hlZHVsZXMiOiBbewogICAgICAgICAgICAgICAgInNjaGVkdWxlX2lkIjogIjEyMzQ1IiwKICAgICAgICAgICAgICAgICJjbGFzc19pZCI6ICIxMjMiLAogICAgICAgICAgICAgICAgImRhdGUiOiAiMjAxNy0wMS0wMiIsCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
@@ -838,8 +838,8 @@
         <entry>%s;@\w\+method;;g</entry>
         <entry>action ReformatCode</entry>
         <entry>101</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
