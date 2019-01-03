@@ -437,8 +437,8 @@
         <mark key="." line="3" column="38" />
         <mark key="^" line="3" column="38" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" timestamp="1546286489542">
-        <mark key="'" line="69" column="12" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" timestamp="1546548415141">
+        <mark key="'" line="119" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/geolocation/web/GlsAPI.java" timestamp="1532030376216">
         <mark key="[" line="2" column="23" />
@@ -855,6 +855,11 @@
         <mark key="]" line="35" column="29" />
         <mark key="." line="35" column="29" />
         <mark key="^" line="35" column="29" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/OpportunitiesResource.kt" timestamp="1546548557736">
+        <mark key="'" line="12" column="7" />
+        <mark key="[" line="20" column="11" />
+        <mark key="]" line="20" column="26" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/modules/microservice/src/main/java/com/classpass/dao/HealthCheckDao.java" timestamp="1528486853861">
         <mark key="[" line="5" column="73" />
@@ -1557,8 +1562,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="74" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
-      <jump line="81" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="87" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="91" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
       <jump line="94" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/LeadGenerationApplication.java" />
@@ -1657,6 +1660,8 @@
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="69" column="12" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="234" column="8" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
+      <jump line="119" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
+      <jump line="12" column="7" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/OpportunitiesResource.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1728,10 +1733,10 @@
         <text>}</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbGFzc0luVGhlUGFzdFw+</text>
+        <text>ven</text>
       </register>
       <register name="0" type="4">
-        <text>http://maven.classpass.engineering/release</text>
+        <text>/venue/{venueId}</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -1771,9 +1776,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjbGFzc0luVGhlUGFzdFw+</last-search>
+      <last-search>ven</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbGFzc0luVGhlUGFzdFw+</last-pattern>
+      <last-pattern>ven</last-pattern>
       <last-replace>\\&quot;</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1781,7 +1786,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxleHBlY3RlZFw+</entry>
         <entry>url</entry>
         <entry>testgetven</entry>
         <entry>sched</entry>
@@ -1801,6 +1805,7 @@
         <entry encoding="base64">XDx0YXJnZXRKc29uU3RyaW5nXD4=</entry>
         <entry>isinadj</entry>
         <entry encoding="base64">XDxjbGFzc0luVGhlUGFzdFw+</entry>
+        <entry>ven</entry>
       </history-search>
       <history-cmd>
         <entry>245</entry>
