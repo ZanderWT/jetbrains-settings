@@ -79,12 +79,12 @@
         <mark key="." line="244" column="0" />
         <mark key="^" line="244" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1547057666318">
-        <mark key="'" line="79" column="78" />
-        <mark key="[" line="81" column="76" />
-        <mark key="]" line="82" column="32" />
-        <mark key="." line="82" column="32" />
-        <mark key="^" line="82" column="32" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1547066220571">
+        <mark key="'" line="271" column="9" />
+        <mark key="[" line="90" column="21" />
+        <mark key="]" line="90" column="25" />
+        <mark key="." line="90" column="25" />
+        <mark key="^" line="90" column="25" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1547058081613">
         <mark key="'" line="123" column="8" />
@@ -146,16 +146,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="376" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
-      <jump line="93" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_pricing.py" />
-      <jump line="208" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_pricing.py" />
-      <jump line="222" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_pricing.py" />
-      <jump line="332" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_pricing.py" />
-      <jump line="18" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_pricing.py" />
-      <jump line="31" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
-      <jump line="46" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
-      <jump line="54" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
-      <jump line="61" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="69" column="48" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="18" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
@@ -216,7 +206,6 @@
       <jump line="89" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="85" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="83" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="77" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="67" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="58" column="82" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="1249" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -246,6 +235,17 @@
       <jump line="77" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
       <jump line="844" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="845" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="211" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="219" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="209" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="316" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="181" column="97" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="77" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="80" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="195" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="257" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="261" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -314,16 +314,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>venue.dal.venues</text>
+        <text>first</text>
       </register>
       <register name="/" type="4">
-        <text>spotre</text>
+        <text>format</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnZlbnVlcy5TcG90UmVjb21tZW5kYXRpb25zQVBJQ2xpZW50JywgU3BvdFJlY3NBUElDbGllbnRNb2NrKQo=</text>
+        <text encoding="base64">ICAgICAgICBwYXlsb2FkID0ganNvbi5kdW1wcyhwYXlsb2FkKQogICAgICAgIGxvZ2dlci5pbmZvKCdmaXJzdCBwYXlsb2FkOnt9Jy5mb3JtYXQocGF5bG9hZCkpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBtb2NrX2NsaWVudC4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -345,40 +345,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gOTkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlcXVlc3QudXNlci4K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjCg==</text>
+        <text encoding="base64">ICAgICAgICBwYXlsbwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICNAcGF0Y2goJ2NsYXNzcGFzcy5hcHBzLnZlbnVlLmRhbC5zY2hlZHVsZXMuY3JlZGl0X3ByaWNlX2NsaWVudCcpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwYXlsb2FkID0ganNvbi5kdW1wcwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwYXNzcG9ydF9zY2hlZHVsZSA9IHRlc3RfZmFjdG9yaWVzLlBhc3Nwb3J0U2NoZWR1bGVGYWN0b3J5KAogICAgICAgICAgICBjbGFzc3Bhc3Nfc3BvdHM9MSwKICAgICAgICAgICAgc2NoZWR1bGVfX3B1Ymxpc2hlZD1UcnVlLAogICAgICAgICAgICBzY2hlZHVsZV9fY2xhc3Npdml0eV9jbGFzc19fdmVudWU9dmVudWUsCiAgICAgICAgICAgIHNjaGVkdWxlX19zdGFydF9kYXRlPWFwcGxpY2FibGVfZGF0ZSkKCg==</text>
+        <text encoding="base64">ICAgICAgICBtb2NrX2NsaWVudC4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNsYXNzIGVpdGhlciBuZWVkcyB0byBiZSBkaXNhYmxlZCBvciBvbmUgcmVzZXJ2YXRpb24gYXdheSBmcm9tIGZ1bGwK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gOTkK</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>spotre</last-search>
+      <last-search>format</last-search>
       <last-offset />
-      <last-pattern>spotre</last-pattern>
+      <last-pattern>format</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">XDxDYW5WaWV3T3Bwb3J0dW5pdGllc1w+</last-substitute>
       <last-dir>1</last-dir>
@@ -386,12 +386,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxNb2NrXD4=</entry>
-        <entry>msasdal</entry>
-        <entry encoding="base64">XDxfcGF0Y2hfYXBpX2NsaWVudF9zaW5nbGVfbWV0aG9kXD4=</entry>
-        <entry encoding="base64">XDxnZXRfbmV0d29ya19wYXlvdXRfcmF0ZXNfZW5yaWNoZWRfd2l0aF9keW5hbWljX3ByaWNlc1w+</entry>
-        <entry>patch</entry>
-        <entry encoding="base64">XDxwcmljZV9ydWxlX3ZpZXdfcm93c1w+</entry>
         <entry>@patch</entry>
         <entry>url</entry>
         <entry>none</entry>
@@ -406,6 +400,12 @@
         <entry>asdf</entry>
         <entry encoding="base64">XDxtb2NrX2NsaWVudFw+</entry>
         <entry>spotre</entry>
+        <entry>ss</entry>
+        <entry>ss_</entry>
+        <entry>_ss_</entry>
+        <entry>smartsp</entry>
+        <entry>for</entry>
+        <entry>format</entry>
       </history-search>
       <history-cmd>
         <entry>annotate</entry>
@@ -425,9 +425,9 @@
         <entry>101</entry>
         <entry>120</entry>
         <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
