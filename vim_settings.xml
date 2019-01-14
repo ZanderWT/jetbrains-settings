@@ -86,12 +86,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1547077222486">
         <mark key="'" line="102" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1547506914059">
-        <mark key="'" line="76" column="105" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-        <mark key="^" line="76" column="164" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1547508822692">
+        <mark key="'" line="73" column="77" />
+        <mark key="[" line="187" column="37" />
+        <mark key="]" line="187" column="37" />
+        <mark key="." line="187" column="37" />
+        <mark key="^" line="187" column="75" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1547245217534">
         <mark key="'" line="196" column="74" />
@@ -185,7 +185,6 @@
       <jump line="180" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="128" column="54" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="126" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="72" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="82" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="108" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="171" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -253,6 +252,7 @@
       <jump line="95" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="80" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="77" column="105" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="72" column="77" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -321,16 +321,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>n</text>
       </register>
       <register name="/" type="4">
-        <text>import ppr</text>
+        <text>try</text>
       </register>
       <register name="0" type="4">
-        <text>['network_spot_allocation']</text>
+        <text>Error while retrieving smartspot recommendations from spot-recs-service</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBwcHJpbnQgaW1wb3J0IHBmb3JtYXQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -352,40 +352,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIHJvc3RlcnNfd19zcG90X2RhdGEgPSBbZGljdChvcHAsIHZlbnVlX2lkPXZlbnVlX2lkLCBjdXJyZW5jeT1jdXJyZW5jeSkgZm9yIG9wcCBpbiByb3N0ZXJzX3dfc3BvdF9kYXRhXQo=</text>
+        <text encoding="base64">ZnJvbSBwcHJpbnQgaW1wb3J0IHBmb3JtYXQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIGZvciBzcG90X3JlYyBpbiAK</text>
+        <text encoding="base64">ICAgICAgICAjIHJvc3RlcnNfd19zcG90X2RhdGEgPSBbZGljdChvcHAsIHZlbnVlX2lkPXZlbnVlX2lkLCBjdXJyZW5jeT1jdXJyZW5jeSkgZm9yIG9wcCBpbiByb3N0ZXJzX3dfc3BvdF9kYXRhXQo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3Bwb3J0dW5pdGllcy5hcHBlbmQoZGljdChzY2hlZHVsZSwgcmVjb21tZW5kYXRpb249KSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIGZvciBzcG90X3JlYyBpbiAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfaWQgPSBvcHBbJ3NjaGVkdWxlX2lkJ10KICAgICAgICAgICAgc3BvdF9yZWMgPSBzcG90X3JlY3Nbc2NoZWR1bGVfaWRdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3Bwb3J0dW5pdGllcy5hcHBlbmQoZGljdChzY2hlZHVsZSwgcmVjb21tZW5kYXRpb249KSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfaWQgPSBzY2hlZHVsZVsnc2NoZWR1bGVfaWQnXQogICAgICAgICAgICBpZiBzY2hlZHVsZV9pZCBpbiBzcG90X3JlY3M6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfaWQgPSBvcHBbJ3NjaGVkdWxlX2lkJ10KICAgICAgICAgICAgc3BvdF9yZWMgPSBzcG90X3JlY3Nbc2NoZWR1bGVfaWRdCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlY29tbWVuZGF0aW9uKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfaWQgPSBzY2hlZHVsZVsnc2NoZWR1bGVfaWQnXQogICAgICAgICAgICBpZiBzY2hlZHVsZV9pZCBpbiBzcG90X3JlY3M6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlY29tbWVuZGF0aW9uID0gc2NoZWR1bGUuY29weSgpCiAgICAgICAgICAgICAgICByZWNvbW1lbmRhdGlvblsncmVjb21tZW5kYXRpb24nXSA9IHNwb3RfcmVjWyduZXR3b3JrX3Nwb3RfYWxsb2NhdGlvbiddCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlY29tbWVuZGF0aW9uKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBvcHBzID0gW2RpY3Qoc2NoZWR1bGUsIHJlY29tbWVuZGF0aW9uPXNwb3RfcmVjWyduZXR3b3JrX3Nwb3RfYWxsb2NhdGlvbiddKQogICAgICAgICAgICAgICAgZm9yIHNjaGVkdWxlIGluIHJvc3RlcnNfd19zcG90X2RhdGEgaWYgc2NoZWR1bGVbJ3NjaGVkdWxlX2lkJ10gaW4gc3BvdF9yZWNzXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlY29tbWVuZGF0aW9uID0gc2NoZWR1bGUuY29weSgpCiAgICAgICAgICAgICAgICByZWNvbW1lbmRhdGlvblsncmVjb21tZW5kYXRpb24nXSA9IHNwb3RfcmVjWyduZXR3b3JrX3Nwb3RfYWxsb2NhdGlvbiddCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>import ppr</last-search>
+      <last-search>try</last-search>
       <last-offset />
-      <last-pattern>import ppr</last-pattern>
+      <last-pattern>try</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
       <last-dir>1</last-dir>
@@ -393,8 +393,6 @@
     </search>
     <history>
       <history-search>
-        <entry>venue_source</entry>
-        <entry encoding="base64">XDx2ZW51ZV9zb3VyY2VcPg==</entry>
         <entry>timez</entry>
         <entry encoding="base64">XDxsb2NhbF9ub3dcPg==</entry>
         <entry>'''</entry>
@@ -413,6 +411,8 @@
         <entry encoding="base64">XDxzcG90X2RhdGFcPg==</entry>
         <entry>generate_opp</entry>
         <entry>import ppr</entry>
+        <entry>fuuu</entry>
+        <entry>try</entry>
       </history-search>
       <history-cmd>
         <entry>51</entry>
