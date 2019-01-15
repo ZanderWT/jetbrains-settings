@@ -3,14 +3,19 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" timestamp="1547510209526" />
-      <file name="/Python Console" timestamp="1547510354169">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" timestamp="1547569877411">
+        <mark key="[" line="297" column="79" />
+        <mark key="]" line="297" column="89" />
+        <mark key="^" line="297" column="89" />
+        <mark key="." line="297" column="89" />
+      </file>
+      <file name="/Python Console" timestamp="1547569961470">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/smartspot.py" timestamp="1547052278595">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1547244339710">
+      <file name="/fragment.py" timestamp="1547569859413">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
         <mark key="." line="0" column="4" />
@@ -80,11 +85,11 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1547077222486">
         <mark key="'" line="102" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1547510456863">
-        <mark key="'" line="89" column="79" />
-        <mark key="[" line="187" column="73" />
-        <mark key="]" line="187" column="83" />
-        <mark key="." line="187" column="73" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1547569960344">
+        <mark key="'" line="179" column="25" />
+        <mark key="[" line="187" column="57" />
+        <mark key="]" line="187" column="57" />
+        <mark key="." line="187" column="57" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1547509594321">
         <mark key="'" line="196" column="74" />
@@ -189,7 +194,6 @@
       <jump line="177" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="196" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="181" column="72" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="179" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="119" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="127" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="133" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -245,7 +249,8 @@
       <jump line="186" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="9" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="89" column="79" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="89" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="179" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -314,10 +319,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>, indent=1</text>
+        <text>, indent=2)</text>
       </register>
       <register name="/" type="4">
-        <text>indent=</text>
+        <text>payload</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
@@ -372,13 +377,13 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHJlY29tbWVuZGF0aW9uKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>indent=</last-search>
+      <last-search>payload</last-search>
       <last-offset />
-      <last-pattern>indent=</last-pattern>
+      <last-pattern>payload</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
       <last-dir>1</last-dir>
@@ -386,7 +391,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxwYXlsb2FkXD4=</entry>
         <entry encoding="base64">XDxjb250ZW50XD4=</entry>
         <entry encoding="base64">XDxhY3R1YWxcPg==</entry>
         <entry>actual</entry>
@@ -406,9 +410,9 @@
         <entry>generate_smar</entry>
         <entry encoding="base64">XDxnZW5lcmF0ZV9zbWFydHNwb3RfcmVjc1w+</entry>
         <entry>indent=</entry>
+        <entry>payload</entry>
       </history-search>
       <history-cmd>
-        <entry>51</entry>
         <entry>79</entry>
         <entry>action QuickImplementations</entry>
         <entry>172</entry>
@@ -428,6 +432,7 @@
         <entry>86</entry>
         <entry>322</entry>
         <entry>action ReformatCode</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
