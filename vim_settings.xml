@@ -80,6 +80,9 @@
         <mark key="'" line="29" column="8" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" timestamp="1547586797648" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1547657531634">
+        <mark key="'" line="21" column="4" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" timestamp="1546037481265">
         <mark key="'" line="242" column="0" />
         <mark key="[" line="243" column="0" />
@@ -157,8 +160,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="149" column="5" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="130" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="112" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="107" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="150" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -257,6 +258,8 @@
       <jump line="231" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="226" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="223" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="117" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" />
+      <jump line="21" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -328,7 +331,7 @@
         <text>, MagicMock()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRfb3Bwb3J0dW5pdGllc1w+</text>
+        <text>as_view</text>
       </register>
       <register name="0" type="4">
         <text>get_opportunities</text>
@@ -387,18 +390,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxnZXRfb3Bwb3J0dW5pdGllc1w+</last-search>
+      <last-search>as_view</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRfb3Bwb3J0dW5pdGllc1w+</last-pattern>
+      <last-pattern>as_view</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzcG90X2RhdGFcPg==</entry>
-        <entry>generate_opp</entry>
         <entry>import ppr</entry>
         <entry>fuuu</entry>
         <entry>try</entry>
@@ -417,6 +418,8 @@
         <entry>mock_client</entry>
         <entry encoding="base64">XDxyZXR1cm5fdmFsdWVcPg==</entry>
         <entry encoding="base64">XDxnZXRfb3Bwb3J0dW5pdGllc1w+</entry>
+        <entry>proxy_host</entry>
+        <entry>as_view</entry>
       </history-search>
       <history-cmd>
         <entry>action QuickImplementations</entry>
