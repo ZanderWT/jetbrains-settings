@@ -38,11 +38,11 @@
         <mark key="]" line="40" column="0" />
         <mark key="." line="40" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScrapingEndToEndIntegrationTest.java" timestamp="1545858118158">
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/scrapers/queueing/ScrapingEndToEndIntegrationTest.java" timestamp="1547848821812">
         <mark key="'" line="57" column="38" />
-        <mark key="[" line="100" column="0" />
-        <mark key="]" line="100" column="0" />
-        <mark key="." line="100" column="0" />
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="0" />
+        <mark key="." line="36" column="0" />
       </file>
       <file name="$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-core/1.3.2/dropwizard-core-1.3.2-sources.jar!/io/dropwizard/setup/Environment.java" timestamp="1542320127411">
         <mark key="'" line="29" column="13" />
@@ -128,6 +128,12 @@
       <file name="$MAVEN_REPOSITORY$/com/google/maps/google-maps-services/0.2.9/google-maps-services-0.2.9-sources.jar!/com/google/maps/model/PlaceDetails.java" timestamp="1540920731741">
         <mark key="'" line="216" column="13" />
       </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/common-test/src/main/java/com/classpass/common/base/AbstractApiTest.java" timestamp="1547848761436">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="97" column="0" />
+        <mark key="]" line="97" column="0" />
+        <mark key="." line="97" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceModule.java" timestamp="1547597944828">
         <mark key="'" line="7" column="21" />
       </file>
@@ -144,8 +150,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="49" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/salesforce/SalesforceCsvFileProducerTest.java" />
-      <jump line="23" column="34" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/salesforce/SalesforceCsvFileProducerTest.java" />
       <jump line="75" column="28" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/salesforce/SalesforceVenue.java" />
       <jump line="40" column="70" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueMapperTest.java" />
       <jump line="72" column="74" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueMapperTest.java" />
@@ -244,6 +248,8 @@
       <jump line="123" column="19" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="134" column="19" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="138" column="19" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
+      <jump line="95" column="39" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common-test/src/main/java/com/classpass/common/base/AbstractApiTest.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common-test/src/main/java/com/classpass/common/base/AbstractApiTest.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -255,8 +261,8 @@
       <register name="b" type="2">
         <text encoding="base64">ICAgICAgICBzY3JhcGVySm9iLmdldEJhdGNoSWQoKS5pZlByZXNlbnQoCiAgICAgICAgICAgICAgICBiYXRjaElkIC0+IGF1Z21lbnRhdGlvbkJhdGNoTG9naWMuYWRkVG9CYXRjaChDb2xsZWN0aW9ucy5zaW5nbGV0b25MaXN0KG5ld1ZlbnVlLmdldElkKCkpKSk7Cg==</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlcihDT01NQU5EX05BTUUsIENPTU1BTkRfREVTQ1JJUFRJT04pOwo=</text>
+      <register name="*" type="4">
+        <text>''</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -312,55 +318,55 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>*</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
-        <text>null</text>
+        <text>optional</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBmaW5hbCBsb25nIGlkID0gVGhyZWFkTG9jYWxSYW5kb20uY3VycmVudCgpLm5leHRMb25nKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAvKgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgKi8K</text>
+        <text encoding="base64">CiAgICAgICAgT3B0aW9uYWw8U3RyaW5nPmZvbyA9IE9wdGlvbmFsLm9mTnVsbGFibGUoImZvcCIpOwoKICAgICAgICBmb28ubWFwKGYgLT4gewogICAgICAgICAgICB0aHJvdyBuZXcgSU9FeGNlcHRpb24oKTsKICAgICAgICB9KQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgKi8K</text>
+        <text encoding="base64">ICAgICAgICBAU25lYWt5VGhyb3dzCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvKgo=</text>
+        <text encoding="base64">ICAgICAgICBPcHRpb25hbDxTdHJpbmc+Zm9vID0gT3B0aW9uYWwub2ZOdWxsYWJsZSgiZm9wIik7CiAgICAgICAgCiAgICAgICAgZm9vLm1hcChmIC0+IHsKICAgICAgICAgICAgdGhyb3cgbmV3IElPRXhjZXB0aW9uKCk7CiAgICAgICAgfSkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy50ZXN0bmcuYW5ub3RhdGlvbnMuT3B0aW9uYWw7Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBsb2cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihKc29uUHJvY2Vzc2luZ0V4Y2VwdGlvbkhhbmRsZXIuY2xhc3MpOwo=</text>
+      <register name="6" type="4">
+        <text>''</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3VwZXIuCg==</text>
+      <register name="7" type="4">
+        <text>fop</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsb25nIGlkID0gCg==</text>
+        <text encoding="base64">ICAgICAgICAvKgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmaW5hbCBTdHJpbmcgbWVzc2FnZSA9IGV4Y2VwdGlvbi5nZXRPcmlnaW5hbE1lc3NhZ2UoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgKi8K</text>
       </register>
       <register name=":" type="4">
         <text>31</text>
       </register>
     </registers>
     <search>
-      <last-search>null</last-search>
+      <last-search>optional</last-search>
       <last-offset />
-      <last-pattern>null</last-pattern>
+      <last-pattern>optional</last-pattern>
       <last-replace>\\&quot;</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -368,7 +374,6 @@
     </search>
     <history>
       <history-search>
-        <entry>objectmap</entry>
         <entry>object</entry>
         <entry>jackson</entry>
         <entry>objectmapper</entry>
@@ -388,6 +393,7 @@
         <entry encoding="base64">XDxzcG90UmVjXD4=</entry>
         <entry encoding="base64">XDxzcG90UmVjc1w+</entry>
         <entry>null</entry>
+        <entry>optional</entry>
       </history-search>
       <history-cmd>
         <entry>245</entry>
@@ -400,7 +406,6 @@
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>62</entry>
         <entry>93</entry>
-        <entry>bnext</entry>
         <entry>s;&quot;;\&quot;;g</entry>
         <entry>s;&quot;;\\&quot;;g</entry>
         <entry>w</entry>
@@ -410,6 +415,7 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ReformatCode</entry>
         <entry>31</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
