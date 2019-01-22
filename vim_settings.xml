@@ -94,8 +94,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1547077222486">
         <mark key="'" line="102" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1547765163880">
-        <mark key="'" line="111" column="39" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1548179865136">
+        <mark key="'" line="134" column="32" />
         <mark key="[" line="111" column="67" />
         <mark key="]" line="111" column="67" />
         <mark key="." line="111" column="71" />
@@ -161,7 +161,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="167" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="170" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="132" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="188" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -240,7 +239,6 @@
       <jump line="84" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="77" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="73" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="70" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="58" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="66" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="210" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -260,7 +258,9 @@
       <jump line="83" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="75" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="76" column="76" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="111" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="111" column="71" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="70" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="134" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -332,7 +332,7 @@
         <text>schedule</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzY2hlZHVsZVw+</text>
+        <text>get_schedules_with_meta</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjIEhhY2sgdG8gb3ZlcndyaXRlIHRoZSBzY2hlZHVsZV9kaXNhYmxlZCBmaWVsZCB3aXRoIG91ciBvd24gZGVmaW5pdGlvbgogICAgICAgICMgV2Ugd2FudCB0byByZWZhY3RvciBob3cgZGlzYWJsZWQgc2NoZWR1bGVzL2NsYXNzZXMgYXJlIGRlZmluZWQgaW4gdGhlIGNvZGViYXNlCiAgICAgICAgZm9yIHJvc3RlciBpbiByb3N0ZXJzOgogICAgICAgICAgICBzY2hlZHVsZSA9IFNjaGVkdWxlc0RhbC5nZXRfc2NoZWR1bGVfYnlfaWQocm9zdGVyWydzY2hlZHVsZV9pZCddKQogICAgICAgICAgICByb3N0ZXJbJ3NjaGVkdWxlX2Rpc2FibGVkJ10gPSBTY2hlZHVsZXNEYWwuaXNfc2NoZWR1bGVfZGlzYWJsZWQoc2NoZWR1bGUsIGNoZWNrX2NsYXNzPUZhbHNlKQoKICAgICAgICBjYW5jZWxsZWRfc2NoZWR1bGVzID0gc2NoZWR1bGVzX2RhbC5nZXRfY2FuY2VsbGVkX3NjaGVkdWxlcyhbclsnc2NoZWR1bGVfaWQnXSBmb3IgciBpbiByb3N0ZXJzXSkK</text>
@@ -391,9 +391,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzY2hlZHVsZVw+</last-search>
+      <last-search>get_schedules_with_meta</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzY2hlZHVsZVw+</last-pattern>
+      <last-pattern>get_schedules_with_meta</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
       <last-dir>1</last-dir>
@@ -401,7 +401,6 @@
     </search>
     <history>
       <history-search>
-        <entry>as_view</entry>
         <entry>coin</entry>
         <entry encoding="base64">XDxzcG90c19jb2luX2ZsaXBcPg==</entry>
         <entry encoding="base64">XDxPUFBPUlRVTklUWV9GT1JNVUxBX1ZBTFVFU1w+</entry>
@@ -421,6 +420,7 @@
         <entry>schedules =</entry>
         <entry encoding="base64">XDxvcHBvcnR1bml0aWVzXD4=</entry>
         <entry encoding="base64">XDxzY2hlZHVsZVw+</entry>
+        <entry>get_schedules_with_meta</entry>
       </history-search>
       <history-cmd>
         <entry>172</entry>
