@@ -52,9 +52,9 @@
         <mark key="." line="49" column="0" />
         <mark key="^" line="49" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table.sql" timestamp="1548287972944">
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="22" column="45" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00015_create_venue_reviews_table.sql" timestamp="1548346431320">
+        <mark key="[" line="15" column="4" />
+        <mark key="]" line="19" column="18" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/venues/persistence/VenueDaoTest.java" timestamp="1533242742058">
         <mark key="'" line="6" column="19" />
@@ -198,12 +198,12 @@
         <mark key="." line="44" column="38" />
         <mark key="^" line="44" column="38" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1548290655379">
-        <mark key="'" line="75" column="39" />
-        <mark key="[" line="41" column="72" />
-        <mark key="]" line="41" column="73" />
-        <mark key="^" line="41" column="76" />
-        <mark key="." line="41" column="73" />
+      <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" timestamp="1548346775089">
+        <mark key="'" line="69" column="17" />
+        <mark key="[" line="79" column="18" />
+        <mark key="]" line="79" column="18" />
+        <mark key="^" line="80" column="3" />
+        <mark key="." line="79" column="18" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/config/Config.java" timestamp="1541111713818">
         <mark key="'" line="17" column="0" />
@@ -817,8 +817,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="124" column="37" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/persistence/VenueDao.java" />
-      <jump line="86" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
       <jump line="103" column="8" filename="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/tests/BaseIntegrationTest.java" />
       <jump line="38" column="22" filename="$MAVEN_REPOSITORY$/com/classpass/jade-async/1.0.0/jade-async-1.0.0.jar!/com/classpass/async/processor/BaseProcessor.class" />
       <jump line="162" column="66" filename="$MAVEN_REPOSITORY$/com/classpass/jade-async/1.0.0/jade-async-1.0.0.jar!/com/classpass/async/processor/BaseProcessor.class" />
@@ -908,15 +906,17 @@
       <jump line="19" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00037_optimize_venue_reviews.sql" />
       <jump line="26" column="34" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00037_optimize_venue_reviews.sql" />
       <jump line="63" column="2" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
-      <jump line="66" column="14" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="67" column="14" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="68" column="14" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
-      <jump line="69" column="19" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="70" column="96" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="71" column="76" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="73" column="46" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="74" column="46" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="75" column="39" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="66" column="14" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="143" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="148" column="4" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
+      <jump line="69" column="17" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -985,13 +985,17 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>vpl</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
-        <text>reviews</text>
+        <text>venueId</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">Y3JlYXRlIGZ1bmN0aW9uIHZlbnVlX3Jldmlld3NfdnBsX2luc2VydCAKcmV0dXJucyB0cmlnZ2VyIGxhbmd1YWdlIHBscGdzcWwKYXMgJCQKYmVnaW4KICAgIC0tZG8gaW1wb3J0YW50IHN0dWZmIGhlcmUKZW5kICQkOwo=</text>
+      <register name="0" type="4">
+        <text>select venue_id,
+    venue_parameters_log_id as resolved_venue_parameters_log_id,
+    review_count
+    from venue_records
+    where rank = 1;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Y3JlYXRlIGZ1bmN0aW9uIHZlbnVlX3Jldmlld3NfdmVudWVfaW5zZXJ0CnJldHVybnMgdHJpZ2dlciBsYW5ndWFnZSBwbHBnc3FsCmFzICQkCmJlZ2luCiAgICAtLWRvIGltcG9ydGFudCBzdHVmZiBoZXJlCmVuZCAkJDsK</text>
@@ -1027,13 +1031,13 @@
         <text encoding="base64">aW1wb3J0IG9yZy50ZXN0bmcuYW5ub3RhdGlvbnMuT3B0aW9uYWw7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>reviews</last-search>
+      <last-search>venueId</last-search>
       <last-offset />
-      <last-pattern>reviews</last-pattern>
+      <last-pattern>venueId</last-pattern>
       <last-replace>\\&quot;</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1041,8 +1045,6 @@
     </search>
     <history>
       <history-search>
-        <entry>jersey</entry>
-        <entry>exceptionhandler</entry>
         <entry>register</entry>
         <entry>jsonproc</entry>
         <entry encoding="base64">XDxMT0dHRVJcPg==</entry>
@@ -1061,12 +1063,13 @@
         <entry>ret</entry>
         <entry>vpl</entry>
         <entry>reviews</entry>
+        <entry>with</entry>
+        <entry>venueId</entry>
       </history-search>
       <history-cmd>
         <entry>245</entry>
         <entry>195</entry>
         <entry encoding="base64">JzwsJz5zO0xpc3Q7SW1tdXRhYmxlTGlzdDtn</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>97</entry>
         <entry>84</entry>
         <entry>q</entry>
@@ -1078,11 +1081,12 @@
         <entry>w</entry>
         <entry>17</entry>
         <entry>11</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>31</entry>
         <entry>bnext</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
