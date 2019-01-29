@@ -75,18 +75,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1547657531634">
         <mark key="'" line="21" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" timestamp="1548720850318">
-        <mark key="[" line="175" column="35" />
-        <mark key="]" line="175" column="36" />
-        <mark key="^" line="175" column="36" />
-        <mark key="." line="175" column="36" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1548721080609">
-        <mark key="'" line="1299" column="4" />
-        <mark key="[" line="1373" column="0" />
-        <mark key="]" line="1373" column="0" />
-        <mark key="^" line="1374" column="13" />
-        <mark key="." line="1373" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1548790314081">
+        <mark key="'" line="1306" column="44" />
+        <mark key="[" line="1186" column="79" />
+        <mark key="]" line="1186" column="80" />
+        <mark key="^" line="1186" column="80" />
+        <mark key="." line="1186" column="80" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1546556496137">
         <mark key="'" line="20" column="8" />
@@ -121,7 +115,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="210" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="177" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="88" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="82" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
@@ -205,7 +198,6 @@
       <jump line="32" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="1309" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1425" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="1306" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1389" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1396" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1362" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -221,6 +213,8 @@
       <jump line="79" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="129" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="25" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="1186" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="1306" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -292,7 +286,7 @@
         <text>schedule</text>
       </register>
       <register name="/" type="4">
-        <text>from</text>
+        <text encoding="base64">XDxzY2hlZHVsZXNfcXVlcnlzZXRcPg==</text>
       </register>
       <register name="0" type="4">
         <text>schedule_history</text>
@@ -301,23 +295,7 @@
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
-        <keys>
-          <key char="121" code="0" mods="0" />
-          <key char="97" code="0" mods="0" />
-          <key char="39" code="0" mods="0" />
-          <key char="102" code="0" mods="0" />
-          <key char="39" code="0" mods="0" />
-          <key char="97" code="0" mods="0" />
-          <key char="58" code="0" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="91" code="0" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="97" code="0" mods="0" />
-          <key char="32" code="0" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="112" code="0" mods="0" />
-          <key char="119" code="0" mods="0" />
-        </keys>
+        <text>w</text>
       </register>
       <register name="2" type="4">
         <text>()</text>
@@ -348,13 +326,13 @@
         <text encoding="base64">ICAgICAgICByZXR1cm4gUmVzcG9uc2UoJ25vdCBpbXBsZW1lbnRlZCcsIHN0YXR1cy5IVFRQXzUwMF9JTlRFUk5BTF9TRVJWRVJfRVJST1IpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ShowBookmarks</text>
       </register>
     </registers>
     <search>
-      <last-search>from</last-search>
+      <last-search encoding="base64">XDxzY2hlZHVsZXNfcXVlcnlzZXRcPg==</last-search>
       <last-offset />
-      <last-pattern>from</last-pattern>
+      <last-pattern encoding="base64">XDxzY2hlZHVsZXNfcXVlcnlzZXRcPg==</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
       <last-dir>1</last-dir>
@@ -362,8 +340,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get_pas</entry>
-        <entry>venue_id</entry>
         <entry>4</entry>
         <entry>history</entry>
         <entry>get_schedules_with_meta</entry>
@@ -382,6 +358,8 @@
         <entry>mock</entry>
         <entry>insight</entry>
         <entry>from</entry>
+        <entry>historyical_schedule_with_ins</entry>
+        <entry encoding="base64">XDxzY2hlZHVsZXNfcXVlcnlzZXRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>172</entry>
@@ -400,10 +378,10 @@
         <entry>112</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>w</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>bnext</entry>
         <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
