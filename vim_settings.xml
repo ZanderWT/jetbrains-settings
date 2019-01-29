@@ -104,8 +104,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1547077205755">
         <mark key="'" line="459" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1548719034996">
-        <mark key="'" line="32" column="73" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1548774524757">
+        <mark key="'" line="25" column="73" />
         <mark key="[" line="58" column="94" />
         <mark key="]" line="58" column="99" />
         <mark key="^" line="58" column="99" />
@@ -125,8 +125,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="58" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="210" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="177" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="88" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -208,7 +206,6 @@
       <jump line="1447" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1416" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1182" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="79" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="32" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="1309" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1425" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -225,6 +222,9 @@
       <jump line="1372" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="735" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="1299" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="79" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="129" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="25" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -296,7 +296,7 @@
         <text>schedule</text>
       </register>
       <register name="/" type="4">
-        <text>mock</text>
+        <text>from</text>
       </register>
       <register name="0" type="4">
         <text>schedule_history</text>
@@ -356,9 +356,9 @@
       </register>
     </registers>
     <search>
-      <last-search>mock</last-search>
+      <last-search>from</last-search>
       <last-offset />
-      <last-pattern>mock</last-pattern>
+      <last-pattern>from</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
       <last-dir>1</last-dir>
@@ -366,8 +366,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get_schedules_with_spo</entry>
-        <entry>histor</entry>
         <entry>get_pas</entry>
         <entry>venue_id</entry>
         <entry>4</entry>
@@ -386,6 +384,8 @@
         <entry encoding="base64">XDxnZXRfc2NoZWR1bGVzX3dpdGhfc3BvdF9pbmZvcm1hdGlvblw+</entry>
         <entry>scheduletuple</entry>
         <entry>mock</entry>
+        <entry>insight</entry>
+        <entry>from</entry>
       </history-search>
       <history-cmd>
         <entry>172</entry>
