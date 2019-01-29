@@ -42,12 +42,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1545948406364">
         <mark key="'" line="53" column="37" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" timestamp="1548796405296">
-        <mark key="'" line="95" column="18" />
-        <mark key="[" line="749" column="108" />
-        <mark key="]" line="750" column="90" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" timestamp="1548796556193">
+        <mark key="'" line="749" column="88" />
+        <mark key="[" line="749" column="97" />
+        <mark key="]" line="749" column="97" />
         <mark key="^" line="750" column="90" />
-        <mark key="." line="750" column="90" />
+        <mark key="." line="749" column="97" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1548796392491">
         <mark key="'" line="330" column="89" />
@@ -202,7 +202,6 @@
       <jump line="745" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="747" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="696" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
-      <jump line="749" column="96" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="64" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="69" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="88" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
@@ -215,6 +214,7 @@
       <jump line="326" column="59" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
       <jump line="329" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
       <jump line="330" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
+      <jump line="749" column="88" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -283,10 +283,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>schedule_</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">aWRcPg==</text>
+        <text>credits</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGRlZiB0ZXN0X2dldF9zY2hlZHVsZXNfd2l0aF9yb3N0ZXJzX2FuZF9oaXN0b3J5KHNlbGYpOgogICAgICAgIHNlbGYuX3NldF91cF92ZW51ZSgpCiAgICAgICAgc2NoZWR1bGUgPSBzZWxmLl9nZXRfdGVzdF9zY2hlZHVsZShoaXN0b3J5X2NvdW50PTIsIHRha2Vfb3duZXJzaGlwPVRydWUpCg==</text>
@@ -330,9 +330,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">aWRcPg==</last-search>
+      <last-search>credits</last-search>
       <last-offset />
-      <last-pattern encoding="base64">aWRcPg==</last-pattern>
+      <last-pattern>credits</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
       <last-dir>1</last-dir>
@@ -340,8 +340,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhZGRfcmVsYXRlZFw+</entry>
-        <entry encoding="base64">XDxoaXN0b3JpY19zY2hlZHVsZV9pZHNcPg==</entry>
         <entry encoding="base64">XDxzY2hlZHVsZVw+</entry>
         <entry encoding="base64">XDxnZXRfc2NoZWR1bGVzX3dpdGhfc3BvdF9pbmZvcm1hdGlvblw+</entry>
         <entry>scheduletuple</entry>
@@ -360,6 +358,8 @@
         <entry>schedule\.</entry>
         <entry>id</entry>
         <entry encoding="base64">aWRcPg==</entry>
+        <entry>sche</entry>
+        <entry>credits</entry>
       </history-search>
       <history-cmd>
         <entry>172</entry>
