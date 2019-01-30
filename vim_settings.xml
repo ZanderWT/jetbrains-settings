@@ -43,6 +43,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" timestamp="1545863671732">
         <mark key="'" line="32" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" timestamp="1548866758461">
+        <mark key="'" line="67" column="0" />
+      </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1546991853942">
         <mark key="'" line="1247" column="24" />
       </file>
@@ -59,7 +62,7 @@
         <mark key="^" line="766" column="102" />
         <mark key="." line="770" column="41" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1548800054985">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1548866659893">
         <mark key="'" line="261" column="16" />
         <mark key="[" line="264" column="78" />
         <mark key="]" line="264" column="101" />
@@ -81,6 +84,7 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1547657531634">
         <mark key="'" line="21" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_accounts.py" timestamp="1548866689326" />
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1548864458070">
         <mark key="'" line="1189" column="10" />
         <mark key="[" line="1190" column="37" />
@@ -125,9 +129,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1090" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="1107" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="1093" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1222" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="109" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="193" column="48" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
@@ -225,6 +226,9 @@
       <jump line="320" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="125" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="255" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="47" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" />
+      <jump line="49" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" />
+      <jump line="67" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -335,7 +339,7 @@
         <text encoding="base64">ICAgICAgICAgICAgeCA9IDEK</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>48</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1028,11 +1032,6 @@
         <entry>topic</entry>
       </history-search>
       <history-cmd>
-        <entry>172</entry>
-        <entry>reg</entry>
-        <entry>318</entry>
-        <entry>156</entry>
-        <entry>58</entry>
         <entry>%s;@\w\+method;;g</entry>
         <entry>101</entry>
         <entry>120</entry>
@@ -1048,6 +1047,11 @@
         <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>117</entry>
+        <entry>347</entry>
+        <entry>97</entry>
+        <entry>1513</entry>
+        <entry>48</entry>
       </history-cmd>
       <history-expr />
       <history-input />
