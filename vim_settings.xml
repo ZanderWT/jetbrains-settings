@@ -103,6 +103,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1547657531634">
         <mark key="'" line="21" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" timestamp="1549048160971">
+        <mark key="'" line="28" column="55" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1548864458070">
         <mark key="'" line="1189" column="10" />
         <mark key="[" line="1190" column="37" />
@@ -154,10 +157,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1367" column="75" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="1371" column="80" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="1372" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="735" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="1299" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="79" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="129" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
@@ -254,6 +253,10 @@
       <jump line="11" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
       <jump line="12" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
       <jump line="15" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/runserver" />
+      <jump line="82" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
+      <jump line="105" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
+      <jump line="6" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
+      <jump line="28" column="55" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -325,7 +328,7 @@
         <text>prod</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxDTEFTU1BBU1NfRU5WXD4=</text>
+        <text>event_colle</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">RU5WID0gJ3Byb2QnCkNBQ0hFUyA9IHsKICAgICdkZWZhdWx0JzogewogICAgICAgICdCQUNLRU5EJzogJ2RqYW5nby5jb3JlLmNhY2hlLmJhY2tlbmRzLm1lbWNhY2hlZC5QeUxpYk1DQ2FjaGUnLAogICAgICAgICdMT0NBVElPTic6ICJwcm9kdWN0aW9uLXBsYXRmb3JtLXBkYXNoMm1jLmNsYXNzcGFzcy5jb206MTEyMTEiLAogICAgICAgICdPUFRJT05TJzogTUVNQ0FDSEVfT1BUSU9OUywKICAgICAgICAnVElNRU9VVCc6IDYwMAogICAgfQp9CgpEQVRBQkFTRVNbTEVHQUNZX0RBVEFCQVNFX0tFWV1bJ0hPU1QnXSA9ICdwcm9kdWN0aW9uLXBsYXRmb3JtLW1hc3Rlci1kYi5jbGFzc3Bhc3MuY29tJwpEQVRBQkFTRVNbUkVWRU5VRV9EQl9LRVldWydIT1NUJ10gPSAncHJvZHVjdGlvbi1wbGF0Zm9ybS12ZW51ZS1wb3J0YWwtbWFzdGVyLWRiLmNsYXNzcGFzcy5jb20nCmFkZF9yZWFkX2RicyhEQVRBQkFTRVMsIFsncmVhZC1kYjInLCAncmVhZC1kYjUnLCAncmVhZC1kYjYnXSwgVHJ1ZSkKCnNsb3dfcmVhZF9kYiA9IERBVEFCQVNFU1snZGVmYXVsdCddLmNvcHkoKQpzbG93X3JlYWRfZGJbJ1VTRVInXSA9IHNlY3JldHMuTEVHQUNZX1JFUExJQ0FfREFUQUJBU0VfVVNFUk5BTUUsCnNsb3dfcmVhZF9kYlsnUEFTU1dPUkQnXSA9IHNlY3JldHMuTEVHQUNZX1JFUExJQ0FfREFUQUJBU0VfUEFTU1dPUkQsCnNsb3dfcmVhZF9kYlsnSE9TVCddID0gInByb2R1Y3Rpb24tcGxhdGZvcm0tcmVhZC1kYjAuY2xhc3NwYXNzLmNvbSIKREFUQUJBU0VTW0xFR0FDWV9EQVRBQkFTRV9TTE9XX1JFQURfS0VZXSA9IHNsb3dfcmVhZF9kYgoKRlJPTlRERVNLX0NMSUVOVF9JRCA9ICd5c0FPYWdiR2hpSzdDNHZNeW9FbFVpZEM2QmdubnZ4TzFVeThRUlFRJwoKU0lURV9VUkwgPSAnaHR0cHM6Ly9zdHVkaW9zLmNsYXNzcGFzcy5jb20nCgpSRVNUX0ZSQU1FV09SS1snREVGQVVMVF9SRU5ERVJFUl9DTEFTU0VTJ10gPSAoCiAgICAnY2xhc3NwYXNzLmFwcHMudmVudWUuYXBpX2hlbHBlcnMucmVuZGVyZXJzLkN1c3RvbUpTT05SZW5kZXJlcicsCikKCkNMQVNTUEFTU19PUEVOX0FQSSA9ICJodHRwczovL3Byb2R1Y3Rpb24tcGxhdGZvcm0tb3Blbi1hcGkuY2xhc3NwYXNzLmNvbSIKQ0xBU1NQQVNTX0xFR0FDWV9BUEkgPSAiaHR0cHM6Ly9wcm9kdWN0aW9uLXBsYXRmb3JtLWNvbnN1bWVyLWFwaS5jbGFzc3Bhc3MuY29tIgpDTEFTU1BBU1NfUEFZX0FQSSA9ICJodHRwczovL2FwaS5jbGFzc3Bhc3MuY29tL3YxL3BheW1lbnRzX2FwaV9wcm94eSIKQ0xBU1NQQVNTX1RBR1NfQVBJID0gImh0dHBzOi8vcHJvZHVjdGlvbi1wbGF0Zm9ybS10YWdzLmNsYXNzcGFzcy5jb20iCkNMQVNTUEFTU19QQVJUTkVSX1BBWV9DVFJMU19BUEkgPSAiaHR0cHM6Ly9wcm9kdWN0aW9uLXBsYXRmb3JtLXB0bi1wLWN0LmNsYXNzcGFzcy5jb20iCkNMQVNTUEFTU19TVUJTQ1JJUFRJT05fQVBJID0gImh0dHBzOi8vcHJvZHVjdGlvbi1wbGF0Zm9ybS1zdWJzY3JwdG5zLmNsYXNzcGFzcy5jb20iCkNMQVNTUEFTU19HTFNfQVBJID0gImh0dHBzOi8vcHJvZHVjdGlvbi1wbGF0Zm9ybS1nbHMuY2xhc3NwYXNzLmNvbSIKQ0xBU1NQQVNTX1NQT1RfUkVDU19BUEkgPSAiaHR0cHM6Ly9wcm9kdWN0aW9uLXBsYXRmb3JtLXNwb3QtcmVjcy5jbGFzc3Bhc3MuY29tIgpDTEFTU1BBU1NfTVNfSU5WRU5UT1JZX0FQSSA9ICJodHRwczovL3Byb2R1Y3Rpb24tcGxhdGZvcm0tbXMtaW52LmNsYXNzcGFzcy5jb20iCkNSRURJVF9QUklDRV9IT1NUID0gImh0dHBzOi8vcHJvZHVjdGlvbi1wbGF0Zm9ybS1jcmVkcHJpY2UuY2xhc3NwYXNzLmNvbSIKQ0xBU1NQQVNTX1BBWU1FTlRTX0FQSSA9ICJodHRwczovL3Byb2R1Y3Rpb24tcGxhdGZvcm0tcGF5bWVudC1hcGkuY2xhc3NwYXNzLmNvbSIKClJFRElTX1VSTCA9ICJyZWRpczovL3Byb2R1Y3Rpb24tcGxhdGZvcm0tcHRuZHNoMi1yZWRpcy5jbGFzc3Bhc3MuY29tOjYzNzkiClJFRElTX0RCID0gJzAnCgpidWlsZF9ycV9xdWV1ZXMoUkVESVNfVVJMLCBSRURJU19EQikKCkVOQUJMRV9TUE9UTElHSFRfUkVQT1JUSU5HID0gMQoKREVBRF9NQU5TX1NOSVRDSF9QSU5HX1VSTFMgPSB7CiAgICAnY3Jvbi51cGRhdGVfY2N0X3Nwb3RzJzogJ2h0dHBzOi8vbm9zbmNoLmluLzRjOWZlM2UzNjgnLAogICAgJ2Nyb24ucmVjb3JkX2V4dGVybmFsX2F0dGVuZGFuY2VfZGF0YSc6ICdodHRwczovL25vc25jaC5pbi80M2YwNWJmMTg2JywKICAgICdjcm9uLnJlY29yZF9mbHl3aGVlbF9hdHRlbmRhbmNlX2RhdGEnOiAnaHR0cHM6Ly9ub3NuY2guaW4vMmEwNzVjZWNjMycsCiAgICAnY3Jvbi5yZWNvcmRfb3BlbmFwaV9hdHRlbmRhbmNlX2RhdGEnOiAnaHR0cHM6Ly9ub3NuY2guaW4vODdiY2M1NGU4YScsCiAgICAnY3Jvbi5jb3JyZWN0X2NwX2F0dGVuZGFuY2UnOiAnaHR0cHM6Ly9ub3NuY2guaW4vMzAzMjdlMjBlOScsCiAgICAnY3Jvbi5nZW5lcmF0ZV9vcHBvcnR1bml0aWVzJzogJ2h0dHBzOi8vbm9zbmNoLmluLzIyZjg3ZTA3YzknLAogICAgJ2Nyb24uc2VuZF9vcHBvcnR1bml0eV9lbWFpbHMnOiAnaHR0cHM6Ly9ub3NuY2guaW4vZmFlMTU5NTA0NCcsICAgICAjIFRPRE8KICAgICdjcm9uLnJldmVudWVfY3Jvbl9hbGxfdmVudWVzJzogJ2h0dHBzOi8vbm9zbmNoLmluLzY1ZThmMDcwZDknLCAgICAgIyBUT0RPCn0KCkRFRkFVTFRfREFURV9SQU5HRV9GT1JfUkFUSU5HUyA9IDkwCgpFTUFJTF9ERUJVRyA9IEZhbHNlCk9QUE9SVFVOSVRZX0VNQUlMX1RFU1RPTkxZID0gRmFsc2UKQVVUT19BVFRFTkRBTkNFX1NBRkVUWV9DRUlMSU5HID0gMTAwMDAKREFUQURPR19FTkFCTEVEID0gVHJ1ZQoKIyBUaGVzZSB0d28gdmVudWVzIGFyZSB1c2VkIGZvciBkZW1vbnN0cmF0aW9uIHB1cnBvc2VzIGJ5IFBhcnRuZXJzaGlwcyB0ZWFtLiBUaGV5IGFyZSBtYW51YWxseSBpbnNlcnRlZCBpbnRvCiMgdGhlIGxpc3Qgb2YgaWRzIHRvIHB1bGwgdmVudWUgaW5mb3JtYXRpb24gZnJvbSBiZWNhdXNlIHRoZXkgYXJlIGRpc2FibGVkIGJ5IGRlZmF1bHQgdG8gcHJldmVudCBleHRlcm5hbAojIHVzZXJzIGZyb20gcmVzZXJ2aW5nIGNsYXNzZXMgd2l0aCB0aGVtLgpXT1JLT1VUX0NFTlRSQUxfVkVOVUVfSUQgPSAzMTQ5NApXRUxMTkVTU19DRU5UUkFMX1ZFTlVFX0lEID0gMzkxODIKCkRFTU9fVkVOVUVfSURTID0gW1dPUktPVVRfQ0VOVFJBTF9WRU5VRV9JRCwgV0VMTE5FU1NfQ0VOVFJBTF9WRU5VRV9JRF0KClNNQVJUU1BPVF9BTExPQ0FUSU9OX1NRU19OQU1FID0gInByb2R1Y3Rpb24tcGxhdGZvcm0tcHRuZGFzaC1wZW5kaW5nLXNwb3QtYWRqdXN0bWVudCIKU01BUlRTUE9UX0FESlVTVE1FTlRfVE9QSUNfTkFNRSA9ICJwcm9kdWN0aW9uLXBsYXRmb3JtLXB0bmRhc2gtc3BvdC1hZGp1c3RtZW50cyIKCkVWRU5UX0NPTExFQ1RPUl9DTElFTlRfU0VUVElOR1NbJ2VuYWJsZWQnXSA9IFRydWUKRVZFTlRfQ09MTEVDVE9SX0NMSUVOVF9TRVRUSU5HU1snY29sbGVjdG9yJ10gPSAnY29sbGVjdG9yLmNsYXNzcGFzcy5jb20nCkVWRU5UX0NPTExFQ1RPUl9DTElFTlRfU0VUVElOR1NbJ25hbWVzcGFjZSddID0gJ3Byb2QnCgojIFRpcGFsdGkgY29uZmlnClRJUEFMVElbJ3BheWVyJ10gPSAnQ2xhc3NQYXNzJwpUSVBBTFRJWydpZnJhbWVfc2V0dXBfdXJsJ10gPSAnaHR0cHM6Ly91aTIudGlwYWx0aS5jb20vcGF5ZWVkYXNoYm9hcmQvaG9tZScKVElQQUxUSVsnaWZyYW1lX2ludm9pY2VfaGlzdG9yeV91cmwnXSA9ICdodHRwczovL3VpMi50aXBhbHRpLmNvbS9QYXllZURhc2hib2FyZC9JbnZvaWNlcycKVElQQUxUSVsnaWZyYW1lX3BheW1lbnRfaGlzdG9yeV91cmwnXSA9ICdodHRwczovL3VpMi50aXBhbHRpLmNvbS9QYXllZURhc2hib2FyZC9QYXltZW50c0hpc3RvcnknCgpTRVNTSU9OX0NPT0tJRV9ET01BSU4gPSAnc3R1ZGlvcy5jbGFzc3Bhc3MuY29tJwpDU1JGX0NPT0tJRV9ET01BSU4gPSAnc3R1ZGlvcy5jbGFzc3Bhc3MuY29tJwpDU1JGX1RPUF9MRVZFTF9ET01BSU4gPSAnY2xhc3NwYXNzLmNvbScK</text>
@@ -1025,9 +1028,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxDTEFTU1BBU1NfRU5WXD4=</last-search>
+      <last-search>event_colle</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxDTEFTU1BBU1NfRU5WXD4=</last-pattern>
+      <last-pattern>event_colle</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
       <last-dir>1</last-dir>
@@ -1035,7 +1038,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzY2hlZHVsZXNfcXVlcnlzZXRcPg==</entry>
         <entry>no_</entry>
         <entry encoding="base64">aW4gdGhlIA==</entry>
         <entry>manual</entry>
@@ -1055,6 +1057,7 @@
         <entry>tipalti</entry>
         <entry>tipal</entry>
         <entry encoding="base64">XDxDTEFTU1BBU1NfRU5WXD4=</entry>
+        <entry>event_colle</entry>
       </history-search>
       <history-cmd>
         <entry>%s;@\w\+method;;g</entry>
