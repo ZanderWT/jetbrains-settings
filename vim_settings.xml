@@ -16,9 +16,6 @@
         <mark key="^" line="307" column="41" />
         <mark key="." line="305" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1548800990561">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/smartspot.py" timestamp="1547052278595">
         <mark key="'" line="0" column="0" />
       </file>
@@ -122,6 +119,9 @@
         <mark key="^" line="6" column="0" />
         <mark key="." line="10" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1549304588134">
+        <mark key="'" line="198" column="8" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1548864458070">
         <mark key="'" line="1189" column="10" />
         <mark key="[" line="1190" column="37" />
@@ -173,9 +173,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="708" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
-      <jump line="23" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
-      <jump line="745" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="696" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="64" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="69" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
@@ -273,6 +270,9 @@
       <jump line="117" column="5" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="92" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" />
       <jump line="343" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="68" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="253" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="198" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -344,7 +344,7 @@
         <text>'dev-studios.classpass.com'</text>
       </register>
       <register name="/" type="4">
-        <text>generate_opp</text>
+        <text encoding="base64">XDxnZW5lcmF0ZV9zbWFydHNwb3RfcmVjc1w+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">U0VTU0lPTl9DT09LSUVfU0VDVVJFID0gVHJ1ZQpTRVNTSU9OX0NPT0tJRV9TQU1FU0lURSA9IFRydWUK</text>
@@ -384,7 +384,7 @@ SESSION</text>
         <text encoding="base64">U0VTU0lPTl9DT09LSUVfRE9NQUlOID0gTm9uZQpDU1JGX0NPT0tJRV9ET01BSU4gPSBOb25lCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1045,18 +1045,16 @@ SESSION</text>
       </register>
     </registers>
     <search>
-      <last-search>generate_opp</last-search>
+      <last-search encoding="base64">XDxnZW5lcmF0ZV9zbWFydHNwb3RfcmVjc1w+</last-search>
       <last-offset />
-      <last-pattern>generate_opp</last-pattern>
+      <last-pattern encoding="base64">XDxnZW5lcmF0ZV9zbWFydHNwb3RfcmVjc1w+</last-pattern>
       <last-replace>expected</last-replace>
       <last-substitute>actual</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>logger.info</entry>
-        <entry>sns</entry>
         <entry>topic</entry>
         <entry>'\.</entry>
         <entry>cookie</entry>
@@ -1075,6 +1073,8 @@ SESSION</text>
         <entry>_cookie</entry>
         <entry>sames</entry>
         <entry>generate_opp</entry>
+        <entry>generate_oppo</entry>
+        <entry encoding="base64">XDxnZW5lcmF0ZV9zbWFydHNwb3RfcmVjc1w+</entry>
       </history-search>
       <history-cmd>
         <entry>101</entry>
@@ -1087,7 +1087,6 @@ SESSION</text>
         <entry>112</entry>
         <entry>w</entry>
         <entry>bnext</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>117</entry>
         <entry>347</entry>
@@ -1097,6 +1096,7 @@ SESSION</text>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>325</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
