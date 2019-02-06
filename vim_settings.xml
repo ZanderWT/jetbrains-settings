@@ -9,7 +9,7 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1548865413034">
         <mark key="'" line="125" column="8" />
       </file>
-      <file name="/Python Console" timestamp="1549409673094">
+      <file name="/Python Console" timestamp="1549410798693">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/smartspot.py" timestamp="1547052278595">
@@ -104,10 +104,12 @@
         <mark key="^" line="6" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1549410224837">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1549410366633">
         <mark key="'" line="55" column="69" />
+        <mark key="[" line="55" column="53" />
+        <mark key="]" line="55" column="67" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1549408631615">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1549410794231">
         <mark key="'" line="114" column="38" />
         <mark key="[" line="267" column="0" />
         <mark key="]" line="267" column="0" />
@@ -141,15 +143,15 @@
         <mark key="[" line="7" column="0" />
         <mark key="]" line="7" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1549410204234">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1549411212986">
         <mark key="'" line="519" column="21" />
-        <mark key="[" line="533" column="40" />
-        <mark key="]" line="533" column="48" />
-        <mark key="." line="533" column="48" />
-        <mark key="^" line="533" column="48" />
+        <mark key="[" line="562" column="48" />
+        <mark key="]" line="563" column="7" />
+        <mark key="." line="563" column="7" />
+        <mark key="^" line="563" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1549409274822">
-        <mark key="'" line="814" column="50" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1549411158523">
+        <mark key="'" line="461" column="6" />
         <mark key="[" line="430" column="0" />
         <mark key="]" line="430" column="0" />
         <mark key="." line="430" column="0" />
@@ -200,7 +202,6 @@
       <jump line="8" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="169" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="423" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
-      <jump line="461" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
       <jump line="1395" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1438" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="266" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -275,6 +276,7 @@
       <jump line="61" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="56" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="55" column="69" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
+      <jump line="461" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -343,22 +345,22 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>class_name</text>
+        <text>'Ineligible, disabled'</text>
       </register>
       <register name="/" type="4">
-        <text>classpass_disabled</text>
+        <text>cancelled</text>
       </register>
-      <register name="0" type="4">
-        <text>schedule__classivity_class__class_name</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfX3B1Ymxpc2hlZD1UcnVlLAogICAgICAgICAgICBzY2hlZHVsZV9fY2xhc3Npdml0eV9jbGFzc19fdmVudWU9dmVudWUsCiAgICAgICAgICAgIHNjaGVkdWxlX19zdGFydF9kYXRlPWFwcGxpY2FibGVfZGF0ZSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBkaXNhYmxlZC5zY2hlZHVsZS5jbGFzc2l2aXR5X2NsYXNzLmNsYXNzcGFzc19kaXNhYmxlZCA9IFRydWUK</text>
+        <text encoding="base64">ICAgICAgICApCg==</text>
       </register>
       <register name="q" type="4">
         <text>w</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -367,22 +369,22 @@
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfX2NsYXNzaXZpdHlfY2xhc3NfX2NsYXNzX2Rpc2FibGVkPVRydWUsCg==</text>
+        <text encoding="base64">ICAgICAgICB0ZXN0X2ZhY3Rvcmllcy4K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNsYXNzX2Rpc2FibGVkID0gRmFsc2UK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGNsYXNzX2Rpc2FibGVkID0gRmFsc2UK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY2xhc3NwYXNzX2Rpc2FibGVkPVRydWUsCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChyb3N0ZXJzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihyb3N0ZXJzKSwgMSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKCgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfX2NsYXNzaXZpdHlfY2xhc3NfX3Bhc3Nwb3J0Xwo=</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
@@ -1046,9 +1048,9 @@
       </register>
     </registers>
     <search>
-      <last-search>classpass_disabled</last-search>
+      <last-search>cancelled</last-search>
       <last-offset />
-      <last-pattern>classpass_disabled</last-pattern>
+      <last-pattern>cancelled</last-pattern>
       <last-replace>,</last-replace>
       <last-substitute>is none or</last-substitute>
       <last-dir>1</last-dir>
@@ -1062,7 +1064,6 @@
         <entry encoding="base64">XDxzY2hlZHVsZXNcPg==</entry>
         <entry>passportsched</entry>
         <entry>canc</entry>
-        <entry>cancelled</entry>
         <entry>class_disab</entry>
         <entry>class_canc</entry>
         <entry>class_disabled</entry>
@@ -1070,12 +1071,13 @@
         <entry>eligible</entry>
         <entry>venue</entry>
         <entry>boolean</entry>
-        <entry>disab</entry>
         <entry>passportclass</entry>
         <entry>classpass_disabled=</entry>
         <entry encoding="base64">XDxwYXNzcG9ydHNjaGVkdWxlXD4=</entry>
         <entry encoding="base64">XDxwYXNzcG9ydGNsYXNzZXNcPg==</entry>
         <entry>classpass_disabled</entry>
+        <entry>disab</entry>
+        <entry>cancelled</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO2FjdHVhbDtleHBlY3RlZDtn</entry>
@@ -1088,7 +1090,6 @@
         <entry>97</entry>
         <entry>1513</entry>
         <entry>48</entry>
-        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>325</entry>
         <entry>112</entry>
         <entry encoding="base64">JzwsJz5zO29wcDtyb3N0ZXJfd2l0aF9zcG90X2RhdGE7Zw==</entry>
@@ -1096,6 +1097,7 @@
         <entry>s;is none or;,;g</entry>
         <entry>bnext</entry>
         <entry>action ReformatCode</entry>
+        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
       </history-cmd>
