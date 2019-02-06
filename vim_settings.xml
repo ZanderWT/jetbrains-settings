@@ -127,8 +127,12 @@
         <mark key="." line="0" column="44" />
         <mark key="^" line="0" column="44" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1547761988500">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1549490313191">
+        <mark key="'" line="41" column="0" />
+        <mark key="[" line="106" column="15" />
+        <mark key="]" line="106" column="19" />
+        <mark key="." line="106" column="19" />
+        <mark key="^" line="106" column="19" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" timestamp="1549297136762">
         <mark key="[" line="91" column="0" />
@@ -167,7 +171,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="160" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="177" column="78" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="178" column="78" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="205" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
@@ -267,6 +270,7 @@
       <jump line="83" column="69" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="98" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="101" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="41" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -335,10 +339,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Finding</text>
+        <text>info</text>
       </register>
       <register name="/" type="4">
-        <text>acted</text>
+        <text>logger.in</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjIFRoaXMgc2NoZWR1bGUgaXMgZWxpZ2libGUgYmVjYXVzZSBpdCBoYXMgemVybyBzcG90cyBhbGxvY2F0ZWQgdG8gY2xhc3NwYXNzCiAgICAgICAgZWxpZ2libGVfc2NoZWR1bGVzLmFkZCh0ZXN0X2ZhY3Rvcmllcy5QYXNzcG9ydFNjaGVkdWxlRmFjdG9yeSgKICAgICAgICAgICAgY2xhc3NwYXNzX3Nwb3RzPTAsCiAgICAgICAgICAgIHNjaGVkdWxlX190YWtlbl9zcG90cz0zLAogICAgICAgICAgICBzY2hlZHVsZV9fcHVibGlzaGVkPVRydWUsCiAgICAgICAgICAgIHNjaGVkdWxlX19jbGFzc2l2aXR5X2NsYXNzX192ZW51ZT12ZW51ZSwKICAgICAgICAgICAgc2NoZWR1bGVfX3N0YXJ0X2RhdGU9YXBwbGljYWJsZV9kYXRlKSkK</text>
@@ -1038,9 +1042,9 @@
       </register>
     </registers>
     <search>
-      <last-search>acted</last-search>
+      <last-search>logger.in</last-search>
       <last-offset />
-      <last-pattern>acted</last-pattern>
+      <last-pattern>logger.in</last-pattern>
       <last-replace>,</last-replace>
       <last-substitute>is none or</last-substitute>
       <last-dir>1</last-dir>
@@ -1048,7 +1052,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxDbGFzc3Rpdml0eVNjaGVkdWxlRmFjdG9yeVw+</entry>
         <entry>disabledschedulelog</entry>
         <entry>disabled_reason</entry>
         <entry encoding="base64">ZGlzYWJsZWQgPSA=</entry>
@@ -1068,6 +1071,7 @@
         <entry encoding="base64">XDxhY3RlZF9vbl9vcHBvcnR1bml0aWVzXD4=</entry>
         <entry>i'm also</entry>
         <entry>acted</entry>
+        <entry>logger.in</entry>
       </history-search>
       <history-cmd>
         <entry>86</entry>
