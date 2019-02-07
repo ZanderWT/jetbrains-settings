@@ -97,6 +97,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" timestamp="1545866368757">
         <mark key="'" line="52" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" timestamp="1549581136036">
+        <mark key="'" line="307" column="56" />
+        <mark key="[" line="311" column="68" />
+        <mark key="]" line="311" column="68" />
+        <mark key="." line="311" column="68" />
+      </file>
       <file name="/Python Console" timestamp="1549568081391">
         <mark key="[" line="0" column="0" />
       </file>
@@ -104,10 +110,6 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
         <mark key="." line="0" column="4" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1549055335789">
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="36" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1549559400663">
         <mark key="'" line="58" column="8" />
@@ -134,13 +136,6 @@
         <mark key="." line="0" column="44" />
         <mark key="^" line="0" column="44" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1549490313191">
-        <mark key="'" line="41" column="0" />
-        <mark key="[" line="106" column="15" />
-        <mark key="]" line="106" column="19" />
-        <mark key="." line="106" column="19" />
-        <mark key="^" line="106" column="19" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" timestamp="1549297136762">
         <mark key="[" line="91" column="0" />
         <mark key="]" line="91" column="0" />
@@ -149,8 +144,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/creditprice/swagger_client/api/credit_price_api.py" timestamp="1548799369466">
         <mark key="'" line="113" column="31" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1549569924608">
-        <mark key="'" line="243" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1549580788663">
+        <mark key="'" line="410" column="30" />
         <mark key="[" line="125" column="0" />
         <mark key="]" line="129" column="43" />
         <mark key="." line="89" column="0" />
@@ -178,16 +173,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1549054723330">
         <mark key="'" line="131" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" timestamp="1548798202436">
-        <mark key="[" line="69" column="0" />
-        <mark key="]" line="69" column="100" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="101" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="41" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
-      <jump line="139" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="107" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="82" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="86" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="93" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -284,6 +271,10 @@
       <jump line="445" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
       <jump line="443" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
       <jump line="412" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
+      <jump line="133" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="410" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="306" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
+      <jump line="307" column="56" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -352,10 +343,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>spot</text>
+        <text>str</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBBIHNjaGVkdWxlIGlzIGVsaWdpYmxlIGlmIGl0IGlzIG5laXRoZXIgZGlzYWJsZWQgbm9yIGNhbmNlbGxlZCAoc2NoZWR1bGVfZGlzYWJsZWQgaXMgYWxsb3dlZCkgYW5kIGl0IG1lZXRzIG9uZQogICAgICAgIG9mIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoKICAgICAgICBhKSBaZXJvIHNwb3RzIGFsbG9jYXRlZCB0byBjbGFzc3Bhc3MKICAgICAgICBiKSBUaGUgc2NoZWR1bGUgaXMgc29sZCBvdXQKICAgICAgICBjKSBIYXMgb25lIGNsYXNzcGFzcyBzcG90IHJlbWFpbmluZwo=</text>
@@ -1055,9 +1046,9 @@
       </register>
     </registers>
     <search>
-      <last-search>spot</last-search>
+      <last-search>str</last-search>
       <last-offset />
-      <last-pattern>spot</last-pattern>
+      <last-pattern>str</last-pattern>
       <last-replace>,</last-replace>
       <last-substitute>is none or</last-substitute>
       <last-dir>1</last-dir>
@@ -1065,10 +1056,6 @@
     </search>
     <history>
       <history-search>
-        <entry>from_smart</entry>
-        <entry>logger.info</entry>
-        <entry>logger.\zsinfo</entry>
-        <entry encoding="base64">XDxzY2hlZHVsZXNfd2l0aF9zcG90X2RhdGFcPg==</entry>
         <entry>_w_</entry>
         <entry>interesting_sched</entry>
         <entry>logg</entry>
@@ -1085,6 +1072,10 @@
         <entry encoding="base64">XDxsaW1pdF9vcHBvcnR1bml0eV90b19tYXhfY2FwYWNpdHlcPg==</entry>
         <entry>spotdata</entry>
         <entry>spot</entry>
+        <entry>network_spot_all</entry>
+        <entry>networkspotall</entry>
+        <entry>allocation</entry>
+        <entry>str</entry>
       </history-search>
       <history-cmd>
         <entry>1513</entry>
