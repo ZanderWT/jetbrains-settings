@@ -72,6 +72,13 @@
         <mark key="." line="0" column="44" />
         <mark key="^" line="0" column="44" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1549658442570">
+        <mark key="'" line="34" column="6" />
+        <mark key="[" line="88" column="56" />
+        <mark key="]" line="88" column="66" />
+        <mark key="^" line="88" column="66" />
+        <mark key="." line="88" column="66" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" timestamp="1547586906959">
         <mark key="'" line="224" column="8" />
       </file>
@@ -83,12 +90,6 @@
         <mark key="[" line="48" column="0" />
         <mark key="]" line="48" column="0" />
         <mark key="." line="48" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1549657647024">
-        <mark key="'" line="88" column="31" />
-        <mark key="[" line="88" column="36" />
-        <mark key="]" line="88" column="36" />
-        <mark key="." line="88" column="36" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" timestamp="1549297136762">
         <mark key="[" line="91" column="0" />
@@ -106,9 +107,6 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" timestamp="1549473368531">
         <mark key="'" line="240" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1549657712788">
-        <mark key="'" line="62" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/schedule.py" timestamp="1549411661004">
         <mark key="[" line="12" column="0" />
@@ -142,8 +140,8 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="652" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1549054723330">
-        <mark key="'" line="131" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1549658384650">
+        <mark key="'" line="57" column="51" />
       </file>
       <file name="$USER_HOME$/cp-projects/schedule-scraper/code/src/app/models/feature.py" timestamp="1541786545561">
         <mark key="'" line="16" column="0" />
@@ -159,9 +157,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="90" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="611" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="104" column="71" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="130" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="132" column="95" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="138" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -259,6 +254,9 @@
       <jump line="58" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="69" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="62" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="57" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="74" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
+      <jump line="34" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -327,16 +325,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text>shown to</text>
       </register>
       <register name="/" type="4">
-        <text>ies_from</text>
+        <text encoding="base64">XDxPcHBvcnR1bml0aWVzQWN0Vmlld1w+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBBIHNjaGVkdWxlIGlzIGVsaWdpYmxlIGlmIGl0IGlzIG5laXRoZXIgZGlzYWJsZWQgbm9yIGNhbmNlbGxlZCAoc2NoZWR1bGVfZGlzYWJsZWQgaXMgYWxsb3dlZCkgYW5kIGl0IG1lZXRzIG9uZQogICAgICAgIG9mIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoKICAgICAgICBhKSBaZXJvIHNwb3RzIGFsbG9jYXRlZCB0byBjbGFzc3Bhc3MKICAgICAgICBiKSBUaGUgc2NoZWR1bGUgaXMgc29sZCBvdXQKICAgICAgICBjKSBIYXMgb25lIGNsYXNzcGFzcyBzcG90IHJlbWFpbmluZwo=</text>
+        <text encoding="base64">ICAgICIiIgogICAgQ2FsbGVkIGJ5IHRoZSBmcm9udGVuZCB3aGVuIGFuIG9wcG9ydHVuaXR5IGhhcyBiZWVuIHNob3duIHRvIGEgcGFydG5lci4gR2VuZXJhdGVzIGFuIGV2ZW50IHRvIHNlbmQgdG8gdGhlIGV2ZW50IAogICAgY29sbGVjdG9yLgogICAgIiIiCg==</text>
       </register>
-      <register name="1" type="4">
-        <text>12345</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text>w</text>
@@ -356,17 +354,17 @@
       <register name="5" type="4">
         <text>12345</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>12345</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLl9wYXRjaF9hcGlfY2xpZW50KAogICAgICAgICAgICAnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5DbGFzc3Bhc3NBcGlDbGllbnQnLAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICB7J21ldGhvZF9uYW1lJzogJ2dldF9zcG90X2RhdGEnLCAna3dhcmdzJzogeydyZXR1cm5fdmFsdWUnOiBtb2NrX3Nwb3RfZGF0YX19CiAgICAgICAgICAgIF0KICAgICAgICApCgo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>{'max_capacity': 10, 'total_booked': 6}</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgeydtZXRob2RfbmFtZSc6ICdnZXRfc3BvdF9kYXRhJywgJ2t3YXJncyc6IHsncmV0dXJuX3ZhbHVlJzogfX0K</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
@@ -1030,9 +1028,9 @@
       </register>
     </registers>
     <search>
-      <last-search>ies_from</last-search>
+      <last-search encoding="base64">XDxPcHBvcnR1bml0aWVzQWN0Vmlld1w+</last-search>
       <last-offset />
-      <last-pattern>ies_from</last-pattern>
+      <last-pattern encoding="base64">XDxPcHBvcnR1bml0aWVzQWN0Vmlld1w+</last-pattern>
       <last-replace>,</last-replace>
       <last-substitute>is none or</last-substitute>
       <last-dir>1</last-dir>
@@ -1040,7 +1038,6 @@
     </search>
     <history>
       <history-search>
-        <entry>logg</entry>
         <entry>logger.deb</entry>
         <entry encoding="base64">XDxyZXF1aXJlX2RlYnVnX2ZhbHNlXD4=</entry>
         <entry>more spot</entry>
@@ -1060,6 +1057,7 @@
         <entry>str</entry>
         <entry>schedule_id</entry>
         <entry>ies_from</entry>
+        <entry encoding="base64">XDxPcHBvcnR1bml0aWVzQWN0Vmlld1w+</entry>
       </history-search>
       <history-cmd>
         <entry>1513</entry>
