@@ -80,11 +80,11 @@
         <mark key="." line="0" column="44" />
         <mark key="^" line="0" column="44" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1549909837337">
-        <mark key="'" line="87" column="34" />
-        <mark key="[" line="93" column="55" />
-        <mark key="]" line="94" column="7" />
-        <mark key="." line="94" column="7" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1549920194810">
+        <mark key="'" line="93" column="25" />
+        <mark key="[" line="113" column="0" />
+        <mark key="]" line="113" column="0" />
+        <mark key="." line="113" column="0" />
         <mark key="^" line="94" column="7" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" timestamp="1547586906959">
@@ -114,18 +114,18 @@
         <mark key="." line="471" column="58" />
         <mark key="^" line="471" column="58" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1549908696521">
-        <mark key="'" line="602" column="8" />
-        <mark key="[" line="382" column="18" />
-        <mark key="]" line="382" column="89" />
-        <mark key="^" line="382" column="89" />
-        <mark key="." line="382" column="89" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1549920186970">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="387" column="0" />
+        <mark key="]" line="387" column="0" />
+        <mark key="^" line="381" column="89" />
+        <mark key="." line="387" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1549918458809">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1549920206899">
         <mark key="'" line="210" column="73" />
-        <mark key="[" line="270" column="53" />
-        <mark key="]" line="270" column="56" />
-        <mark key="." line="270" column="56" />
+        <mark key="[" line="275" column="0" />
+        <mark key="]" line="275" column="0" />
+        <mark key="." line="275" column="0" />
         <mark key="^" line="270" column="56" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" timestamp="1549906662246">
@@ -175,9 +175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
-      <jump line="61" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
-      <jump line="62" column="92" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
       <jump line="66" column="63" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
       <jump line="67" column="92" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
       <jump line="88" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" />
@@ -274,6 +271,9 @@
       <jump line="251" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="252" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="260" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="379" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="93" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="210" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
     </jumps>
     <registers>
@@ -346,28 +346,28 @@
         <text>Mock()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjcmVkaXRfcHJpY2VfbW9ja1w+</text>
+        <text>enum</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjIEludmFsaWQgc2NoZWR1bGUgaWQKICAgICAgICBzY2hlZHVsZXNfZGFsX21vY2suZ2V0X3NjaGVkdWxlX2J5X2lkLnJldHVybl92YWx1ZSA9IE5vbmUKICAgICAgICBvcHBzX2RhbF9tb2NrLmdldF9vcHBvcnR1bml0eS5yZXR1cm5fdmFsdWUgPSBNb2NrKCkKCiAgICAgICAgcmVzcG9uc2UgPSBzZWxmLmNsaWVudC5wb3N0KHBhdGg9Jy9hcGkve30vb3Bwb3J0dW5pdGllcy9zaG93Jy5mb3JtYXQodmVudWUudmVudWVfaWQpLCBkYXRhPXBheWxvYWQpCiAgICAgICAgbG9nZ2VyLmluZm8ocmVzcG9uc2UpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCg0MDAsIHJlc3BvbnNlLnN0YXR1c19jb2RlKQoK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwYXlsb2FkID0geydzY2hlZHVsZV9pZCc6IDEyMywgJ29wcG9ydHVuaXR5X2lkJzogNDU2fQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>w</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ZnJvbSBlbnVtIGltcG9ydCBFbnVtCg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBwYXlsb2FkID0geydzY2hlZHVsZV9pZCc6IDEyMywgJ29wcG9ydHVuaXR5X2lkJzogNDU2fQo=</text>
@@ -376,16 +376,16 @@
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwYXlsb2FkID0geydzY2hlZHVsZV9pZCc6IDEyMywgJ29wcG9ydHVuaXR5X2lkJzogNDU2fQo=</text>
       </register>
       <register name=":" type="4">
-        <text>s;SHOW;REJECT;g</text>
+        <text>390</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1046,9 +1046,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjcmVkaXRfcHJpY2VfbW9ja1w+</last-search>
+      <last-search>enum</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjcmVkaXRfcHJpY2VfbW9ja1w+</last-pattern>
+      <last-pattern>enum</last-pattern>
       <last-replace>REJECT</last-replace>
       <last-substitute>SHOW</last-substitute>
       <last-dir>1</last-dir>
@@ -1056,7 +1056,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhZGRfc3BvdF9kYXRhX3RvX3NjaGVkdWxlc1w+</entry>
         <entry>user</entry>
         <entry>event_coll</entry>
         <entry>eventcoll</entry>
@@ -1076,9 +1075,9 @@
         <entry>exception</entry>
         <entry>msg</entry>
         <entry encoding="base64">XDxjcmVkaXRfcHJpY2VfbW9ja1w+</entry>
+        <entry>enum</entry>
       </history-search>
       <history-cmd>
-        <entry>325</entry>
         <entry>112</entry>
         <entry encoding="base64">JzwsJz5zO29wcDtyb3N0ZXJfd2l0aF9zcG90X2RhdGE7Zw==</entry>
         <entry>s;is none or;;</entry>
@@ -1098,6 +1097,7 @@
         <entry>s;show;reject;g</entry>
         <entry>s;SHOW;REJECT;g</entry>
         <entry>bnext</entry>
+        <entry>390</entry>
       </history-cmd>
       <history-expr />
       <history-input />
