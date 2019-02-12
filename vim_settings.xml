@@ -159,7 +159,8 @@
         <mark key="." line="1299" column="23" />
         <mark key="^" line="1299" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1549664057176">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1550014420067">
+        <mark key="'" line="207" column="26" />
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
@@ -176,15 +177,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="93" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="278" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="58" column="88" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="210" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="46" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" />
-      <jump line="307" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="13" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="288" column="58" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="283" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="246" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="66" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
@@ -276,6 +268,15 @@
       <jump line="35" column="56" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
       <jump line="302" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
       <jump line="95" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="376" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="355" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="334" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="313" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="271" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="20" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="495" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="32" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="207" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -347,7 +348,7 @@
         <text>cp_capacity</text>
       </register>
       <register name="/" type="4">
-        <text>network_spots_allocated</text>
+        <text>'07.29.2017'</text>
       </register>
       <register name="0" type="4">
         <text>{'schedules': [{
@@ -391,7 +392,7 @@
         <text encoding="base64">ICAgICAgICBzY2hlZHVsZXNfZGFsX21vY2suZ2V0X3NjaGVkdWxlX2J5X2lkLnJldHVybl92YWx1ZSA9IE1vY2soKQogICAgICAgIG9wcHNfZGFsX21vY2suZ2V0X29wcG9ydHVuaXR5LnJldHVybl92YWx1ZSA9IE1vY2soKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>%s;'07.29.2017';datetime.datetime(2017, 7, 29);</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1052,18 +1053,16 @@
       </register>
     </registers>
     <search>
-      <last-search>network_spots_allocated</last-search>
+      <last-search>'07.29.2017'</last-search>
       <last-offset />
-      <last-pattern>network_spots_allocated</last-pattern>
-      <last-replace>s.\1</last-replace>
-      <last-substitute>s\['\(\w\+\)'\]</last-substitute>
+      <last-pattern>'07.29.2017'</last-pattern>
+      <last-replace>datetime.datetime(2017, 7, 29)</last-replace>
+      <last-substitute>'07.29.2017'</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>schedule\['\(\w\+\)'\]</entry>
-        <entry>s\['\(\w\+\)'\]</entry>
         <entry encoding="base64">XDxzY2hlZHVsZXNcPg==</entry>
         <entry encoding="base64">XDxzY2hlZHVsZVw+</entry>
         <entry>total_spots</entry>
@@ -1082,9 +1081,10 @@
         <entry>premium_</entry>
         <entry>reservations</entry>
         <entry>network_spots_allocated</entry>
+        <entry>'07</entry>
+        <entry>'07.29.2017'</entry>
       </history-search>
       <history-cmd>
-        <entry>651</entry>
         <entry>501</entry>
         <entry>148</entry>
         <entry>s;show;reject;g</entry>
@@ -1104,6 +1104,7 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry encoding="base64">ZWNobyAiaGk8IiAuIHN5bklEYXR0cihzeW5JRChsaW5lKCIuIiksY29sKCIuIiksMSksIm5hbWUiKSAuICc+IHRyYW5zPCcgLiBzeW5JRGF0dHIoc3luSUQobGluZSgiLiIpLGNvbCgiLiIpLDApLCJuYW1lIikgLiAiPiBsbzwiIC4gc3luSURhdHRyKHN5bklEdHJhbnMoc3luSUQobGluZSgiLiIpLGNvbCgiLiIpLDEpKSwibmFtZSIpIC4gIj4i</entry>
+        <entry>%s;'07.29.2017';datetime.datetime(2017, 7, 29);</entry>
       </history-cmd>
       <history-expr />
       <history-input />
