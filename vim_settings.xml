@@ -134,8 +134,12 @@
         <mark key="^" line="19" column="43" />
         <mark key="." line="19" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1550001334998">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1550003883926">
         <mark key="'" line="1336" column="12" />
+        <mark key="[" line="1299" column="4" />
+        <mark key="]" line="1299" column="38" />
+        <mark key="." line="1299" column="23" />
+        <mark key="^" line="1299" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1546556496137">
         <mark key="'" line="20" column="8" />
@@ -341,13 +345,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>total_spots</text>
+        <text>p</text>
       </register>
       <register name="/" type="4">
         <text>total_reser</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfX3Rha2VuX3Nwb3RzPTAsCg==</text>
+      <register name="0" type="4">
+        <text>get_schedules_with_spot_information</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfX3Rha2VuX3Nwb3RzPTAsCg==</text>
@@ -1076,7 +1080,6 @@
         <entry>total_reser</entry>
       </history-search>
       <history-cmd>
-        <entry>5</entry>
         <entry>586</entry>
         <entry>651</entry>
         <entry>501</entry>
@@ -1096,6 +1099,7 @@
         <entry>s;schedule\['\(\w\+\)'\];schedule.\1;g</entry>
         <entry>s;s\['\(\w\+\)'\];s.\1;g</entry>
         <entry>s;s\['\(\w\+\)'\];s.\1</entry>
+        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
       </history-cmd>
       <history-expr />
       <history-input />
