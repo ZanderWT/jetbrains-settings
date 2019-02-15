@@ -16,6 +16,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/date.py" timestamp="1550005052924">
         <mark key="'" line="14" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1549907187380">
+        <mark key="'" line="125" column="8" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/smartspot.py" timestamp="1547052278595">
         <mark key="'" line="0" column="0" />
       </file>
@@ -163,8 +166,8 @@
         <mark key="." line="1299" column="23" />
         <mark key="^" line="1299" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1550075619219">
-        <mark key="'" line="56" column="50" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1550266004613">
+        <mark key="'" line="61" column="78" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" timestamp="1549921844834">
         <mark key="'" line="46" column="4" />
@@ -175,7 +178,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="96" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="190" column="101" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="330" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="67" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" />
@@ -275,6 +277,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="20" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="280" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="61" column="78" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -346,7 +349,7 @@
         <text>partner dashboard</text>
       </register>
       <register name="/" type="4">
-        <text>logger</text>
+        <text>show</text>
       </register>
       <register name="0" type="4">
         <text>{'show': PartnerDashboardEvents.SMARTSPOT_OPPORTUNITY_SHOW, 'reject':
@@ -1048,17 +1051,16 @@
       </register>
     </registers>
     <search>
-      <last-search>logger</last-search>
+      <last-search>show</last-search>
       <last-offset />
-      <last-pattern>logger</last-pattern>
+      <last-pattern>show</last-pattern>
       <last-replace>datetime.datetime(\3, \2, \1)</last-replace>
       <last-substitute>date': \zs'\(\d\+\)\/\(\d\+\)\/\(\d\+\)'</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>date': '</entry>
         <entry>date': '\(\d\+\).</entry>
         <entry>date': '\(\d\+\)\/</entry>
         <entry>date': \zs'\(\d\+\)\/\(\d\+\)\/\(\d\+\)'</entry>
@@ -1078,6 +1080,7 @@
         <entry>emit_</entry>
         <entry>on the par</entry>
         <entry>logger</entry>
+        <entry>show</entry>
       </history-search>
       <history-cmd>
         <entry>action ReformatCode</entry>
