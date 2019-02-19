@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1550270323321">
-        <mark key="'" line="67" column="0" />
-        <mark key="[" line="84" column="0" />
-        <mark key="]" line="86" column="0" />
-        <mark key="." line="86" column="0" />
-        <mark key="^" line="86" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1550598193354">
+        <mark key="'" line="88" column="40" />
+        <mark key="[" line="88" column="0" />
+        <mark key="]" line="88" column="0" />
+        <mark key="." line="88" column="0" />
+        <mark key="^" line="88" column="0" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/snowplow_tracker/tracker.py" timestamp="1549930598690">
         <mark key="'" line="68" column="19" />
@@ -146,7 +146,7 @@
         <mark key="^" line="391" column="31" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" timestamp="1550270276554">
-        <mark key="'" line="50" column="16" />
+        <mark key="'" line="52" column="16" />
         <mark key="[" line="12" column="32" />
         <mark key="]" line="12" column="32" />
         <mark key="^" line="12" column="32" />
@@ -171,9 +171,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="91" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="124" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="1312" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1345" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="122" column="43" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -271,10 +268,13 @@
       <jump line="408" column="70" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="391" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="520" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
+      <jump line="87" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
+      <jump line="93" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
+      <jump line="88" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
     </jumps>
     <registers>
-      <register name="a" type="2">
-        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MuYXBwcy50ZXN0aW5nIGltcG9ydCBmYWN0b3JpZXMgYXMgdGVzdF9mYWN0b3JpZXMK</text>
+      <register name="a" type="4">
+        <text>EVENT_COLLECTOR_CLIENT_SETTINGS</text>
       </register>
       <register name="&quot;" type="4">
         <text encoding="base64">IA==</text>
@@ -282,8 +282,8 @@
       <register name="b" type="2">
         <text encoding="base64">ICAgICAgICBpZiBzdGFydF9kYXRlIGlzIE5vbmU6CiAgICAgICAgICAgIHN0YXJ0X2RhdGUgPSBkYXRldGltZS5kYXRldGltZS5ub3coKS5kYXRlKCkKICAgICAgICBpZiBlbmRfZGF0ZSBpcyBOb25lOgogICAgICAgICAgICBlbmRfZGF0ZSA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpLmRhdGUoKSArIGRhdGV0aW1lLnRpbWVkZWx0YShkYXlzPTIpCg==</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MuYXBwcy50ZXN0aW5nIGltcG9ydCBmYWN0b3JpZXMgYXMgdGVzdF9mYWN0b3JpZXMK</text>
+      <register name="*" type="4">
+        <text>EVENT_COLLECTOR_CLIENT_SETTINGS</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -339,49 +339,49 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>{</text>
       </register>
       <register name="/" type="4">
-        <text>model =</text>
+        <text>asdf</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">RVZFTlRfQ09MTEVDVE9SX0NMSUVOVF9TRVRUSU5HUyA9IHsKICAgICdlbmFibGVkJzogRmFsc2UsCiAgICAnbG9nZ2luZ19sZXZlbCc6ICdXQVJOJywKICAgICduYW1lc3BhY2UnOiAnZGV2JywKICAgICdhcHBfaWQnOiAncHRuZGFzaCcsCiAgICAnY29sbGVjdG9yJzogJ2RldmVsb3BtZW50LXBsYXRmb3JtLWV2ZW50LWNvbC5jbGFzc3Bhc3MuY29tJwp9Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eS5vcHAK</text>
+      <register name="1" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="q" type="4">
         <text>w</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAuCg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eS4K</text>
+        <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eS5vcHAK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhvYmpzKQo=</text>
+        <text encoding="base64">ICAgICAgICAuCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eS4K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3ZlbnVlX2lkJzogdmVudWVfaWQK</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhvYmpzKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3RpbWVzdGFtcCc6IGRhdGV0aW1lLmRhdGV0aW1lLnV0Y25vdygpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhyZXNwb25zZV9zaG93KQogICAgICAgIGxvZ2dlci5pbmZvKHJlc3BvbnNlX3JlamVjdCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3ZlbnVlX2lkJzogdmVudWVfaWQK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhyZXNwb25zZV9zaG93KQogICAgICAgIGxvZ2dlci5pbmZvKHJlc3BvbnNlX3JlamVjdCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3RpbWVzdGFtcCc6IGRhdGV0aW1lLmRhdGV0aW1lLnV0Y25vdygpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text encoding="base64">JzwsJz5zOyc6OyddID07</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1042,18 +1042,16 @@
       </register>
     </registers>
     <search>
-      <last-search>model =</last-search>
+      <last-search>asdf</last-search>
       <last-offset />
-      <last-pattern>model =</last-pattern>
-      <last-replace>datetime.datetime(\3, \2, \1)</last-replace>
-      <last-substitute>date': \zs'\(\d\+\)\/\(\d\+\)\/\(\d\+\)'</last-substitute>
+      <last-pattern>asdf</last-pattern>
+      <last-replace>'] =</last-replace>
+      <last-substitute>':</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzYXZlX29wcG9ydHVuaXR5X3JlY29yZHNcPg==</entry>
-        <entry>userins</entry>
         <entry>insigh</entry>
         <entry>id</entry>
         <entry>self</entry>
@@ -1072,9 +1070,10 @@
         <entry>venue_id</entry>
         <entry>d10ata</entry>
         <entry>model =</entry>
+        <entry>':</entry>
+        <entry>asdf</entry>
       </history-search>
       <history-cmd>
-        <entry>81</entry>
         <entry>131</entry>
         <entry>s;schedule\['\(\w\+\)'\];schedule.\1;</entry>
         <entry>s;schedule\['\(\w\+\)'\];schedule.\1;g</entry>
@@ -1094,6 +1093,7 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>bnext</entry>
+        <entry encoding="base64">JzwsJz5zOyc6OyddID07</entry>
       </history-cmd>
       <history-expr />
       <history-input />
