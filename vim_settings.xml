@@ -67,8 +67,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1546556496137">
         <mark key="'" line="20" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1550011138767">
-        <mark key="'" line="302" column="4" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1550593582238">
+        <mark key="'" line="520" column="6" />
         <mark key="[" line="517" column="0" />
         <mark key="]" line="517" column="0" />
         <mark key="." line="517" column="0" />
@@ -98,13 +98,12 @@
         <mark key="." line="299" column="47" />
         <mark key="^" line="299" column="35" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" timestamp="1550168470426">
-        <mark key="[" line="19" column="8" />
-        <mark key="]" line="19" column="18" />
-        <mark key="^" line="19" column="18" />
-        <mark key="." line="19" column="18" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" timestamp="1550593793865">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1550168279367">
+      <file name="/Python Console" timestamp="1550593795214">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1550016606852">
@@ -172,7 +171,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="82" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="91" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="124" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -272,6 +270,7 @@
       <jump line="427" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="408" column="70" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="391" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="520" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -340,47 +339,46 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
-        <text>d10ata</text>
+        <text>model =</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">RVZFTlRfQ09MTEVDVE9SX0NMSUVOVF9TRVRUSU5HUyA9IHsKICAgICdlbmFibGVkJzogRmFsc2UsCiAgICAnbG9nZ2luZ19sZXZlbCc6ICdXQVJOJywKICAgICduYW1lc3BhY2UnOiAnZGV2JywKICAgICdhcHBfaWQnOiAncHRuZGFzaCcsCiAgICAnY29sbGVjdG9yJzogJ2RldmVsb3BtZW50LXBsYXRmb3JtLWV2ZW50LWNvbC5jbGFzc3Bhc3MuY29tJwp9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eS5vcHAK</text>
       </register>
       <register name="q" type="4">
         <text>w</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3ZlbnVlX2lkJzogdmVudWVfaWQK</text>
+        <text encoding="base64">ICAgICAgICAuCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3RpbWVzdGFtcCc6IGRhdGV0aW1lLmRhdGV0aW1lLnV0Y25vdygpCg==</text>
+        <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eS4K</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhyZXNwb25zZV9zaG93KQogICAgICAgIGxvZ2dlci5pbmZvKHJlc3BvbnNlX3JlamVjdCkK</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhvYmpzKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhyZXNwb25zZV9zaG93KQogICAgICAgIGxvZ2dlci5pbmZvKHJlc3BvbnNlX3JlamVjdCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhyZXNwb25zZV9yZWplY3QpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCg0MDAsIHJlc3BvbnNlX3Nob3cuc3RhdHVzX2NvZGUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3ZlbnVlX2lkJzogdmVudWVfaWQK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhyZXNwb25zZV9zaG93KQogICAgICAgIGxvZ2dlci5pbmZvKHJlc3BvbnNlX3JlamVjdCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3RpbWVzdGFtcCc6IGRhdGV0aW1lLmRhdGV0aW1lLnV0Y25vdygpCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhyZXNwb25zZV9zaG93KQogICAgICAgIGxvZ2dlci5pbmZvKHJlc3BvbnNlX3JlamVjdCkK</text>
       </register>
-      <register name="9" type="4">
-        <text>{'show': PartnerDashboardEvents.SMARTSPOT_OPPORTUNITY_SHOW, 'reject':
-                           PartnerDashboardEvents.SMARTSPOT_OPPORTUNITY_REJECT}.get(event_type)</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhyZXNwb25zZV9zaG93KQogICAgICAgIGxvZ2dlci5pbmZvKHJlc3BvbnNlX3JlamVjdCkK</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
@@ -1044,9 +1042,9 @@
       </register>
     </registers>
     <search>
-      <last-search>d10ata</last-search>
+      <last-search>model =</last-search>
       <last-offset />
-      <last-pattern>d10ata</last-pattern>
+      <last-pattern>model =</last-pattern>
       <last-replace>datetime.datetime(\3, \2, \1)</last-replace>
       <last-substitute>date': \zs'\(\d\+\)\/\(\d\+\)\/\(\d\+\)'</last-substitute>
       <last-dir>1</last-dir>
@@ -1054,7 +1052,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get_opportun</entry>
         <entry encoding="base64">XDxzYXZlX29wcG9ydHVuaXR5X3JlY29yZHNcPg==</entry>
         <entry>userins</entry>
         <entry>insigh</entry>
@@ -1074,6 +1071,7 @@
         <entry>emit_</entry>
         <entry>venue_id</entry>
         <entry>d10ata</entry>
+        <entry>model =</entry>
       </history-search>
       <history-cmd>
         <entry>81</entry>
