@@ -965,7 +965,8 @@
         <mark key="." line="66" column="5" />
         <mark key="^" line="66" column="5" />
       </file>
-      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1545415122447">
+      <file name="$USER_HOME$/cp-projects/lead-generation/pom.xml" timestamp="1550612313772">
+        <mark key="'" line="236" column="50" />
         <mark key="[" line="198" column="18" />
         <mark key="]" line="198" column="18" />
         <mark key="." line="198" column="18" />
@@ -1634,7 +1635,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="89" column="10" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="31" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="38" column="6" filename="$USER_HOME$/cp-projects/lead-generation/src/main/resources/com/classpass/venues/persistence/VenueDao$Dao.sql.stg" />
       <jump line="57" column="0" filename="$USER_HOME$/cp-projects/jade/async/src/main/java/com/classpass/async/processor/BaseProcessor.java" />
@@ -1734,6 +1734,7 @@
       <jump line="34" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenuePropertiesUpdate.java" />
       <jump line="39" column="0" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenuePropertiesUpdate.java" />
       <jump line="48" column="9" filename="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/venues/resources/VenuePropertiesUpdate.java" />
+      <jump line="236" column="50" filename="$USER_HOME$/cp-projects/lead-generation/pom.xml" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1805,7 +1806,7 @@
         <text>ImmutableSet.of(InventoryType.GYM)</text>
       </register>
       <register name="/" type="4">
-        <text>nullab</text>
+        <text>cover</text>
       </register>
       <register name="0" type="4">
         <text>refresh materialized view venue_reviews;</text>
@@ -1848,17 +1849,16 @@
       </register>
     </registers>
     <search>
-      <last-search>nullab</last-search>
+      <last-search>cover</last-search>
       <last-offset />
-      <last-pattern>nullab</last-pattern>
+      <last-pattern>cover</last-pattern>
       <last-replace>\\&quot;</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>id</entry>
         <entry>logexc</entry>
         <entry>log</entry>
         <entry>new json</entry>
@@ -1878,6 +1878,7 @@
         <entry>inven</entry>
         <entry>@Valid</entry>
         <entry>nullab</entry>
+        <entry>cover</entry>
       </history-search>
       <history-cmd>
         <entry>97</entry>
