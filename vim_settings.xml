@@ -75,8 +75,8 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1549909252996">
         <mark key="'" line="1600" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" timestamp="1542836836858">
-        <mark key="'" line="39" column="36" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" timestamp="1550768792522">
+        <mark key="'" line="131" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" timestamp="1550616468967">
         <mark key="'" line="84" column="39" />
@@ -97,7 +97,7 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/reports.py" timestamp="1548461935711">
         <mark key="'" line="102" column="33" />
       </file>
-      <file name="/Dummy.txt" timestamp="1550607664055">
+      <file name="/Dummy.txt" timestamp="1550768890332">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/creditprice/swagger_client/api/credit_price_api.py" timestamp="1548799369466">
@@ -106,8 +106,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1547657531634">
         <mark key="'" line="21" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" timestamp="1549928798636">
-        <mark key="'" line="10" column="35" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" timestamp="1550768797042">
+        <mark key="'" line="105" column="25" />
         <mark key="[" line="25" column="26" />
         <mark key="]" line="25" column="26" />
         <mark key="^" line="25" column="26" />
@@ -193,17 +193,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="78" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="245" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="473" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="474" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="475" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="67" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
-      <jump line="43" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" />
-      <jump line="64" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" />
-      <jump line="12" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" />
-      <jump line="52" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" />
-      <jump line="396" column="7" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="427" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="408" column="70" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="391" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -293,6 +282,17 @@
       <jump line="162" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="23" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="209" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="45" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
+      <jump line="56" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
+      <jump line="105" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="25" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="39" column="100" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="122" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="124" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="127" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="128" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="131" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -364,7 +364,7 @@
         <text>, 'id'</text>
       </register>
       <register name="/" type="4">
-        <text>EXPECTED</text>
+        <text>spot</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CiAgICBkZWYgdGVzdF9zYXZlX29wcG9ydHVuaXRpZXNfdXBzZXJ0cyhzZWxmKToKICAgICAgICBvYmpzID0gc2VsZi5jcmVhdGVfdXNlcl93aXRoX3Blcm1pc3Npb25fYW5kX2xpbmtlZF92ZW51ZSgpCiAgICAgICAgdmVudWUgPSBvYmpzWydjbGFzc3Rpdml0eV92ZW51ZSddCiAgICAgICAgdmVudWVfaWQgPSB2ZW51ZS52ZW51ZV9pZAogICAgICAgIHNjaGVkdWxlX2lkID0gdGVzdF9mYWN0b3JpZXMuUGFzc3BvcnRTY2hlZHVsZUZhY3RvcnkoKS5pZAogICAgICAgIGNsYXNzX2lkID0gdGVzdF9mYWN0b3JpZXMuQ2xhc3N0aXZpdHlDbGFzc0ZhY3RvcnkoKS5jbGFzc19pZAogICAgICAgIG9wcG9ydHVuaXR5ID0gewogICAgICAgICAgICAncHJldmlvdXNseV9hY3RlZF9vbic6IEZhbHNlLAogICAgICAgICAgICAnY2xhc3NfZGF0ZSc6IGRhdGV0aW1lLmRhdGUoMjAxOSwgMiwgMjApLAogICAgICAgICAgICAnY2xhc3NfbmFtZSc6ICdDb25kaXRpb25pbmcgRm9yIENvbXBldGl0aXZlIEVhdGVycycsCiAgICAgICAgICAgICdjbGFzc3Rpdml0eV9jbGFzc19pZCc6IGNsYXNzX2lkLAogICAgICAgICAgICAncmVpbWJ1cnNlbWVudF9yYXRlJzogMi4wLAogICAgICAgICAgICAncmVjb21tZW5kYXRpb24nOiAyLAogICAgICAgICAgICAnc2NoZWR1bGVfaWQnOiBzY2hlZHVsZV9pZCwKICAgICAgICAgICAgJ3RvdGFsX2NsYXNzcGFzc19yZXNlcnZhdGlvbnMnOiA0LAogICAgICAgICAgICAndG90YWxfY2xhc3NwYXNzX2NhcGFjaXR5JzogNSwKICAgICAgICAgICAgJ3ZlbnVlX2lkJzogdmVudWVfaWQsCiAgICAgICAgICAgICdkaXNhYmxlZF9zY2hlZHVsZSc6IEZhbHNlLAogICAgICAgIH0KCiAgICAgICAgT3Bwb3J0dW5pdGllc0RhbC5zYXZlX29wcG9ydHVuaXRpZXMoW29wcG9ydHVuaXR5XSkKCiAgICAgICAgIyBEZWxldGUgdGhlIGlkIGZyb20gdGhlIG9wcG9ydHVuaXR5LCB1cGRhdGUgaXQsIGFuZCBzYXZlIGl0IGFnYWluLgogICAgICAgIG9wcG9ydHVuaXR5X2lkID0gb3Bwb3J0dW5pdHkucG9wKCdpZCcpCiAgICAgICAgb3Bwb3J0dW5pdHlbJ3JlY29tbWVuZGF0aW9uJ10gPSAzCiAgICAgICAgT3Bwb3J0dW5pdGllc0RhbC5zYXZlX29wcG9ydHVuaXRpZXMoW29wcG9ydHVuaXR5XSkKCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChvcHBvcnR1bml0eV9pZCwgb3Bwb3J0dW5pdHlbJ2lkJ10pCgogICAgICAgIHNhdmVkX29wcG9ydHVuaXR5ID0gT3Bwb3J0dW5pdGllc0RhbC5nZXRfb3Bwb3J0dW5pdHkob3Bwb3J0dW5pdHlfaWQpLnRvX2RpY3QoKQogICAgICAgIGZvciBrLCB2IGluIG9wcG9ydHVuaXR5Lml0ZXJpdGVtcygpOgogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHYsIHNhdmVkX29wcG9ydHVuaXR5LmdldChrKSwgJ3t9IHdhcyBkaWZmZXJlbnQgaW4gdGhlIGRhdGFiYXNlJy5mb3JtYXQoaykpCg==</text>
@@ -1064,9 +1064,9 @@
       </register>
     </registers>
     <search>
-      <last-search>EXPECTED</last-search>
+      <last-search>spot</last-search>
       <last-offset />
-      <last-pattern>EXPECTED</last-pattern>
+      <last-pattern>spot</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1074,10 +1074,6 @@
     </search>
     <history>
       <history-search>
-        <entry>venue_id</entry>
-        <entry>_id</entry>
-        <entry>no_</entry>
-        <entry>spots</entry>
         <entry>end_tim</entry>
         <entry>start_tim</entry>
         <entry>teach</entry>
@@ -1094,6 +1090,10 @@
         <entry>expected_opps</entry>
         <entry>ss_oppo</entry>
         <entry>EXPECTED</entry>
+        <entry>event_</entry>
+        <entry encoding="base64">XDxfd3JpdGVfc3BvdF9jaGFuZ2VfdG9fZXZlbnRfY29sbGVjdG9yXD4=</entry>
+        <entry>SMART</entry>
+        <entry>spot</entry>
       </history-search>
       <history-cmd>
         <entry>s;s\['\(\w\+\)'\];s.\1;g</entry>
