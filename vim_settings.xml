@@ -121,8 +121,8 @@
       <file name="$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/971666633/datetime.py" timestamp="1550005291168">
         <mark key="'" line="174" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1550771192690">
-        <mark key="'" line="122" column="22" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1550771986995">
+        <mark key="'" line="125" column="0" />
         <mark key="[" line="125" column="0" />
         <mark key="]" line="129" column="43" />
       </file>
@@ -189,7 +189,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="701" column="25" filename="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django/db/models/base.py" />
       <jump line="717" column="62" filename="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django/db/models/base.py" />
       <jump line="399" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="115" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -289,6 +288,7 @@
       <jump line="377" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="84" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="122" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="125" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -360,7 +360,7 @@
         <text>, 'id'</text>
       </register>
       <register name="/" type="4">
-        <text>eligi</text>
+        <text>filtered</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBBIHNjaGVkdWxlIGlzIGVsaWdpYmxlIGlmIGl0IGlzIG5laXRoZXIgZGlzYWJsZWQgbm9yIGNhbmNlbGxlZCAoc2NoZWR1bGVfZGlzYWJsZWQgaXMgYWxsb3dlZCkgYW5kIGl0IG1lZXRzIG9uZQogICAgICAgIG9mIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoKICAgICAgICBhKSBaZXJvIHNwb3RzIGFsbG9jYXRlZCB0byBjbGFzc3Bhc3MKICAgICAgICBiKSBUaGUgc2NoZWR1bGUgaXMgc29sZCBvdXQKICAgICAgICBjKSBIYXMgb25lIGNsYXNzcGFzcyBzcG90IHJlbWFpbmluZwo=</text>
@@ -1060,9 +1060,9 @@
       </register>
     </registers>
     <search>
-      <last-search>eligi</last-search>
+      <last-search>filtered</last-search>
       <last-offset />
-      <last-pattern>eligi</last-pattern>
+      <last-pattern>filtered</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1070,7 +1070,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx2ZW51ZV9pZFw+</entry>
         <entry>djang</entry>
         <entry>opp</entry>
         <entry>if</entry>
@@ -1090,6 +1089,7 @@
         <entry>logging</entry>
         <entry>loggers</entry>
         <entry>eligi</entry>
+        <entry>filtered</entry>
       </history-search>
       <history-cmd>
         <entry>s;s\['\(\w\+\)'\];s.\1</entry>
