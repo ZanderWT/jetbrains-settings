@@ -55,8 +55,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/reports.py" timestamp="1548461935711">
         <mark key="'" line="102" column="33" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/opportunities.py" timestamp="1550879809334">
-        <mark key="'" line="4" column="6" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/opportunities.py" timestamp="1551130374175">
+        <mark key="'" line="40" column="35" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1547657531634">
         <mark key="'" line="21" column="4" />
@@ -193,7 +193,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="392" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="98" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="488" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="490" column="5" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
@@ -293,6 +292,7 @@
       <jump line="139" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" />
       <jump line="127" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="129" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="40" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -364,7 +364,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>return</text>
+        <text>reim</text>
       </register>
       <register name="0" type="4">
         <text>test_OpportunitiesView_get_ss_opportunities</text>
@@ -1064,9 +1064,9 @@
       </register>
     </registers>
     <search>
-      <last-search>return</last-search>
+      <last-search>reim</last-search>
       <last-offset />
-      <last-pattern>return</last-pattern>
+      <last-pattern>reim</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1074,7 +1074,6 @@
     </search>
     <history>
       <history-search>
-        <entry>total_booked</entry>
         <entry>new_opp.save</entry>
         <entry>Oppor</entry>
         <entry>decimal</entry>
@@ -1094,6 +1093,7 @@
         <entry>logger.debug</entry>
         <entry encoding="base64">XDxzcG90X2RhdGFcPg==</entry>
         <entry>return</entry>
+        <entry>reim</entry>
       </history-search>
       <history-cmd>
         <entry>%s;'12:00 PM';datetime.time(12, 0, 0);</entry>
