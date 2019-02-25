@@ -146,8 +146,8 @@
       <file name="$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/971666633/datetime.py" timestamp="1550005291168">
         <mark key="'" line="174" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1550879952107">
-        <mark key="'" line="155" column="23" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1551113641679">
+        <mark key="'" line="151" column="78" />
         <mark key="[" line="91" column="79" />
         <mark key="]" line="91" column="78" />
         <mark key="^" line="91" column="78" />
@@ -163,8 +163,8 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1550010939889">
-        <mark key="'" line="1342" column="55" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1551113669509">
+        <mark key="'" line="1533" column="54" />
         <mark key="[" line="1299" column="4" />
         <mark key="]" line="1299" column="38" />
         <mark key="." line="1299" column="23" />
@@ -189,10 +189,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="116" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="21" column="88" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="152" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="30" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="162" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="23" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="209" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -289,6 +285,10 @@
       <jump line="155" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="227" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="245" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="149" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="151" column="78" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="1534" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="1533" column="54" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -360,7 +360,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>quote_v3</text>
+        <text encoding="base64">XDxuZXR3b3JrX3BheW91dHNcPg==</text>
       </register>
       <register name="0" type="4">
         <text>test_OpportunitiesView_get_ss_opportunities</text>
@@ -1060,19 +1060,16 @@
       </register>
     </registers>
     <search>
-      <last-search>quote_v3</last-search>
+      <last-search encoding="base64">XDxuZXR3b3JrX3BheW91dHNcPg==</last-search>
       <last-offset />
-      <last-pattern>quote_v3</last-pattern>
+      <last-pattern encoding="base64">XDxuZXR3b3JrX3BheW91dHNcPg==</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>opp\d\? = {</entry>
-        <entry encoding="base64">XDxyZWNvbW1lbmRhdGlvblw+</entry>
-        <entry>get_oppor</entry>
         <entry>controller.get_opp</entry>
         <entry>elig</entry>
         <entry>reimb</entry>
@@ -1090,6 +1087,9 @@
         <entry>handle_price</entry>
         <entry>credit_price</entry>
         <entry>quote_v3</entry>
+        <entry>reimbur</entry>
+        <entry encoding="base64">XDxuZXR3b3JrX3ByaWNlX2RhdGFcPg==</entry>
+        <entry encoding="base64">XDxuZXR3b3JrX3BheW91dHNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>%s;'12:00 PM';datetime.time(12, 0, 0);</entry>
@@ -1100,7 +1100,6 @@
         <entry>288</entry>
         <entry>65</entry>
         <entry encoding="base64">JzwsJz5zOyc6OyddID07</entry>
-        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>s;,;,\r;g</entry>
         <entry>bnext</entry>
         <entry>140</entry>
@@ -1112,6 +1111,7 @@
         <entry>94</entry>
         <entry>action ShowBookmarks</entry>
         <entry>87</entry>
+        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
       </history-cmd>
       <history-expr />
       <history-input />
