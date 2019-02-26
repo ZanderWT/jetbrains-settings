@@ -170,12 +170,12 @@
         <mark key="." line="222" column="56" />
         <mark key="^" line="222" column="56" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1551201839296">
-        <mark key="'" line="235" column="25" />
-        <mark key="[" line="26" column="53" />
-        <mark key="]" line="26" column="53" />
-        <mark key="^" line="26" column="52" />
-        <mark key="." line="27" column="43" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1551205288147">
+        <mark key="'" line="236" column="25" />
+        <mark key="[" line="161" column="26" />
+        <mark key="]" line="161" column="31" />
+        <mark key="^" line="161" column="31" />
+        <mark key="." line="161" column="31" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" timestamp="1550270276554">
         <mark key="'" line="52" column="16" />
@@ -378,13 +378,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>smartspot</text>
       </register>
       <register name="/" type="4">
-        <text>source'</text>
+        <text>_ss</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3NvdXJjZSc6IE9wcG9ydHVuaXR5U291cmNlcy5MRUdBQ1kK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCdzbWFydHNwb3QnLCByZXR1cm5lZF9vcHBbJ3NvdXJjZSddKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvcHAudXBkYXRlKHNvdXJjZT1PcHBvcnR1bml0eVNvdXJjZXMuU01BUlRTUE9UKQo=</text>
@@ -1081,17 +1081,16 @@
       </register>
     </registers>
     <search>
-      <last-search>source'</last-search>
+      <last-search>_ss</last-search>
       <last-offset />
-      <last-pattern>source'</last-pattern>
+      <last-pattern>_ss</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxuZXR3b3JrX3ByaWNlX2RhdGFcPg==</entry>
         <entry encoding="base64">XDxuZXR3b3JrX3BheW91dHNcPg==</entry>
         <entry>max_cap</entry>
         <entry encoding="base64">XDxtYXhfY2FwYWNpdHlcPg==</entry>
@@ -1111,6 +1110,7 @@
         <entry>rnum</entry>
         <entry>expected</entry>
         <entry>source'</entry>
+        <entry>_ss</entry>
       </history-search>
       <history-cmd>
         <entry>%s;'12:00 PM';datetime.time(12, 0, 0);</entry>
