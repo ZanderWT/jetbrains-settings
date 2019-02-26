@@ -118,12 +118,12 @@
         <mark key="]" line="297" column="0" />
         <mark key="." line="297" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" timestamp="1551202906890">
-        <mark key="'" line="86" column="41" />
-        <mark key="[" line="97" column="0" />
-        <mark key="]" line="97" column="0" />
-        <mark key="." line="97" column="0" />
-        <mark key="^" line="95" column="65" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" timestamp="1551204169795">
+        <mark key="'" line="73" column="8" />
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="47" />
+        <mark key="." line="58" column="0" />
+        <mark key="^" line="34" column="46" />
       </file>
       <file name="/Python Console" timestamp="1551201178922">
         <mark key="[" line="0" column="0" />
@@ -210,7 +210,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="350" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="394" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="374" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="353" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
@@ -310,6 +309,7 @@
       <jump line="234" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="235" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="86" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" />
+      <jump line="73" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -381,10 +381,10 @@
         <text>'</text>
       </register>
       <register name="/" type="4">
-        <text>expected</text>
+        <text>source'</text>
       </register>
-      <register name="0" type="4">
-        <text>test_OpportunitiesView_get_ss_opportunities</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgJ3NvdXJjZSc6IE9wcG9ydHVuaXR5U291cmNlcy5MRUdBQ1kK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvcHAudXBkYXRlKHNvdXJjZT1PcHBvcnR1bml0eVNvdXJjZXMuU01BUlRTUE9UKQo=</text>
@@ -420,7 +420,7 @@
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
-        <text>87</text>
+        <text>action ShowBookmarks</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1081,17 +1081,16 @@
       </register>
     </registers>
     <search>
-      <last-search>expected</last-search>
+      <last-search>source'</last-search>
       <last-offset />
-      <last-pattern>expected</last-pattern>
+      <last-pattern>source'</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>reimbur</entry>
         <entry encoding="base64">XDxuZXR3b3JrX3ByaWNlX2RhdGFcPg==</entry>
         <entry encoding="base64">XDxuZXR3b3JrX3BheW91dHNcPg==</entry>
         <entry>max_cap</entry>
@@ -1111,6 +1110,7 @@
         <entry>opportunity</entry>
         <entry>rnum</entry>
         <entry>expected</entry>
+        <entry>source'</entry>
       </history-search>
       <history-cmd>
         <entry>%s;'12:00 PM';datetime.time(12, 0, 0);</entry>
@@ -1128,11 +1128,11 @@
         <entry>122</entry>
         <entry>action ReformatCode</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>94</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>87</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
