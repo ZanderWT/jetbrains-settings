@@ -165,12 +165,12 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1551283442812">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1551284345853">
         <mark key="'" line="238" column="64" />
-        <mark key="[" line="161" column="61" />
-        <mark key="]" line="161" column="60" />
-        <mark key="^" line="161" column="60" />
-        <mark key="." line="161" column="72" />
+        <mark key="[" line="26" column="109" />
+        <mark key="]" line="27" column="27" />
+        <mark key="^" line="27" column="27" />
+        <mark key="." line="27" column="41" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1551113669509">
         <mark key="'" line="1533" column="54" />
@@ -410,7 +410,7 @@
         <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGV4cGVjdGVkX3JlY29tbWVuZGF0aW9uLCByZXR1cm5lZF9vcHBbJ3JlY29tbWVuZGF0aW9uJ10pCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>27</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1103,8 +1103,6 @@
         <entry>source</entry>
       </history-search>
       <history-cmd>
-        <entry>%s;'12:00 PM';datetime.time(12, 0, 0);</entry>
-        <entry>%s;'12:00:00';datetime.time(12, 0, 0);</entry>
         <entry>%s;'01:00 PM';datetime.time(13, 0, 0);</entry>
         <entry>%s;network_spots_allocated;network_reservations_cap;g</entry>
         <entry>%s;date': \zs'\(\d\+\)\/\(\d\+\)\/\(\d\+\)';datetime.datetime(\3, \2, \1);</entry>
@@ -1123,6 +1121,8 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>121</entry>
+        <entry>27</entry>
       </history-cmd>
       <history-expr />
       <history-input />
