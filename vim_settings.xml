@@ -41,14 +41,19 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" timestamp="1548866758461">
         <mark key="'" line="67" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" timestamp="1550768792522">
-        <mark key="'" line="131" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" timestamp="1551397823733">
+        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" timestamp="1551138171733">
         <mark key="'" line="86" column="82" />
         <mark key="[" line="14" column="0" />
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" timestamp="1551397809938">
+        <mark key="'" line="91" column="3" />
+        <mark key="[" line="40" column="17" />
+        <mark key="]" line="40" column="38" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1545948406364">
         <mark key="'" line="53" column="37" />
@@ -102,7 +107,8 @@
         <mark key="'" line="20" column="8" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/models.py" timestamp="1551396521677" />
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1551393865733">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1551398557640">
+        <mark key="'" line="171" column="8" />
         <mark key="[" line="22" column="0" />
         <mark key="]" line="22" column="36" />
       </file>
@@ -227,9 +233,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="81" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/reports.py" />
-      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/venue.py" />
-      <jump line="83" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" />
       <jump line="86" column="82" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" />
       <jump line="148" column="68" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
@@ -327,6 +330,9 @@
       <jump line="295" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="311" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="325" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="91" column="3" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
+      <jump line="171" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -398,10 +404,10 @@
         <text>revenue_item_summary_data</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhZGRfcmVhZF9kYnNcPg==</text>
+        <text>revenue</text>
       </register>
       <register name="0" type="4">
-        <text>production-platform-venue-portal-master-db.classpass.com</text>
+        <text>pull_for_venue_id_task</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZnJvbSBkamFuZ28uZGIgaW1wb3J0IHJlc2V0X3F1ZXJpZXMsIGNvbm5lY3Rpb25zCg==</text>
@@ -1098,9 +1104,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxhZGRfcmVhZF9kYnNcPg==</last-search>
+      <last-search>revenue</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhZGRfcmVhZF9kYnNcPg==</last-pattern>
+      <last-pattern>revenue</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1126,11 +1132,10 @@
         <entry>logger</entry>
         <entry encoding="base64">XDxyZXZlbnVlX2l0ZW1fc3VtbWFyeV9kYXRhXD4=</entry>
         <entry>reven</entry>
-        <entry>revenue</entry>
         <entry encoding="base64">XDxhZGRfcmVhZF9kYnNcPg==</entry>
+        <entry>revenue</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zOyc6OyddID07</entry>
         <entry>s;,;,\r;g</entry>
         <entry>bnext</entry>
         <entry>140</entry>
@@ -1148,6 +1153,7 @@
         <entry>36</entry>
         <entry>535</entry>
         <entry>240</entry>
+        <entry>163</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
       </history-cmd>
