@@ -388,6 +388,9 @@
         <mark key="^" line="2173" column="4" />
         <mark key="." line="2173" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/ReportingDao.java" timestamp="1551724270885">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/resources/migrations/00032_add_schedule_url_to_venue_parameters_log.sql" timestamp="1543338380615">
         <mark key="[" line="0" column="57" />
         <mark key="]" line="0" column="60" />
@@ -1475,6 +1478,10 @@
         <mark key="^" line="25" column="49" />
         <mark key="." line="25" column="49" />
       </file>
+      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/ReportingDao.sql.stg" timestamp="1551724289651">
+        <mark key="[" line="40" column="0" />
+        <mark key="]" line="60" column="1" />
+      </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/modelmappers/VenueInfoMapper.java" timestamp="1534785309787">
         <mark key="[" line="11" column="39" />
         <mark key="]" line="11" column="43" />
@@ -1596,7 +1603,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="7" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/OpportunitiesResource.kt" />
       <jump line="164" column="16" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/OpportunitiesResourceTest.kt" />
       <jump line="55" column="18" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/dao/SpotRecsDao.kt" />
       <jump line="22" column="45" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceModule.java" />
@@ -1696,6 +1702,7 @@
       <jump line="8" column="59" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
       <jump line="40" column="41" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
       <jump line="51" column="32" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/ReportingDao.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1767,10 +1774,10 @@
         <text>SearchCircleBuilder</text>
       </register>
       <register name="/" type="4">
-        <text>khg</text>
+        <text>getreserv</text>
       </register>
-      <register name="0" type="4">
-        <text>refresh materialized view venue_reviews;</text>
+      <register name="0" type="2">
+        <text encoding="base64">U0VMRUNUCiAgICBwYXlvdXRfaXRlbS5pZCBBUyBwYXlvdXRfaXRlbV9pZCwKICAgIHBheW91dF9pdGVtLnBheW91dF9pZCBBUyBwYXlvdXRfaWQsCiAgICBwYXlvdXRfaXRlbS5yZXNlcnZhdGlvbl9pZCBBUyByZXNlcnZhdGlvbl9pZCwKICAgIHBheW91dF9pdGVtLnNjaGVkdWxlX2lkIEFTIHNjaGVkdWxlX2lkLAogICAgcGF5b3V0X2l0ZW0ucmF0ZSBBUyBwYWlkX291dF9hbW91bnQsCiAgICBwYXlvdXRfaXRlbS5jbGFzc19kYXRlIEFTIGNsYXNzX2RhdGUsCiAgICBwYXlvdXRfaXRlbS5zdGFydF90aW1lIEFTIHN0YXJ0X3RpbWUsCiAgICBpdGVtX2F0dGVuZGFuY2Vfc3RhdHVzX2tpbmQuc3RhdHVzIEFTIGl0ZW1fYXR0ZW5kYW5jZV9zdGF0dXMsCiAgICBpdGVtX3BheW91dF9zdGF0dXNfa2luZC5zdGF0dXMgQVMgaXRlbV9wYXlvdXRfc3RhdHVzLAogICAgcGF5b3V0X2l0ZW0ucmVzZXJ2YXRpb25fc25hcHNob3QgQVMgcmVzZXJ2YXRpb25fc25hcHNob3QsCiAgICBwYXlvdXRfaXRlbS5wcmljZV9ydWxlX3NuYXBzaG90IEFTIHByaWNlX3J1bGVfc25hcHNob3QKRlJPTQogICAgcGF5b3V0X2l0ZW1zX2xvZyBwYXlvdXRfaXRlbQogICAgSk9JTiBwYXlvdXRfaXRlbV9hdHRlbmRhbmNlX3N0YXR1c19raW5kcyBBUyBpdGVtX2F0dGVuZGFuY2Vfc3RhdHVzX2tpbmQKICAgICAgICBPTiBpdGVtX2F0dGVuZGFuY2Vfc3RhdHVzX2tpbmQuaWQgPSBwYXlvdXRfaXRlbS5hdHRlbmRhbmNlX3N0YXR1cwogICAgSk9JTiBwYXlvdXRfaXRlbV9wYXlvdXRfc3RhdHVzX2tpbmRzIEFTIGl0ZW1fcGF5b3V0X3N0YXR1c19raW5kCiAgICAgICAgT04gaXRlbV9wYXlvdXRfc3RhdHVzX2tpbmQuaWQgPSBwYXlvdXRfaXRlbS5wYXlvdXRfc3RhdHVzCldIRVJFCiAgICBwYXlvdXRfaXRlbS5wYXlvdXRfaWQgPSA6cGF5b3V0SWQKOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgU2VhcmNoQ2lyY2xlLmJ1aWxkZXIoKQo=</text>
@@ -1810,17 +1817,16 @@
       </register>
     </registers>
     <search>
-      <last-search>khg</last-search>
+      <last-search>getreserv</last-search>
       <last-offset />
-      <last-pattern>khg</last-pattern>
+      <last-pattern>getreserv</last-pattern>
       <last-replace>\\&quot;</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>vpl</entry>
         <entry>reviews</entry>
         <entry>with</entry>
         <entry>venueId</entry>
@@ -1840,6 +1846,7 @@
         <entry encoding="base64">XDxuZXR3b3JrU3BvdENhcFw+</entry>
         <entry>update</entry>
         <entry>khg</entry>
+        <entry>getreserv</entry>
       </history-search>
       <history-cmd>
         <entry>97</entry>
