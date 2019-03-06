@@ -226,8 +226,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1551283528571">
         <mark key="'" line="582" column="20" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1551898377535">
-        <mark key="'" line="108" column="106" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1551909631418">
+        <mark key="'" line="99" column="41" />
         <mark key="[" line="115" column="0" />
         <mark key="]" line="115" column="0" />
         <mark key="." line="115" column="0" />
@@ -251,10 +251,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="94" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
-      <jump line="576" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" />
-      <jump line="588" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" />
-      <jump line="115" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="27" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="172" column="72" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="210" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -349,8 +345,12 @@
       <jump line="39" column="63" filename="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" />
       <jump line="52" column="101" filename="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" />
       <jump line="63" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="29" column="129" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="108" column="106" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="29" column="54" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="61" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="62" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="93" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="99" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -422,7 +422,7 @@
         <text>5</text>
       </register>
       <register name="/" type="4">
-        <text>rule</text>
+        <text>\/class</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHVsbF9mb3JfdmVudWVfaWRfdGFzayBzdGFydGluZyBmb3IgdmVudWUgSUQg</text>
@@ -1122,9 +1122,9 @@
       </register>
     </registers>
     <search>
-      <last-search>rule</last-search>
+      <last-search>\/class</last-search>
       <last-offset />
-      <last-pattern>rule</last-pattern>
+      <last-pattern>\/class</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1132,7 +1132,6 @@
     </search>
     <history>
       <history-search>
-        <entry>consult pa</entry>
         <entry>new payouts</entry>
         <entry encoding="base64">XDx0b2tlblw+</entry>
         <entry>reservations_for</entry>
@@ -1152,6 +1151,7 @@
         <entry>spots</entry>
         <entry>spot</entry>
         <entry>rule</entry>
+        <entry>\/class</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
