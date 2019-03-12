@@ -67,6 +67,9 @@
         <mark key="." line="17" column="0" />
         <mark key="^" line="16" column="40" />
       </file>
+      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/README.md" timestamp="1552404375900">
+        <mark key="'" line="106" column="30" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/test/java/com/classpass/geolocation/GeolocationAddressNormalizerIntegrationTest.java" timestamp="1530629977812">
         <mark key="'" line="30" column="34" />
         <mark key="[" line="22" column="38" />
@@ -701,7 +704,7 @@
         <mark key="^" line="16" column="37" />
         <mark key="." line="16" column="37" />
       </file>
-      <file name="/fragment.java" timestamp="1550688915613">
+      <file name="/fragment.java" timestamp="1552403869917">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/GooglePlacesClient.java" timestamp="1537299540905">
@@ -748,7 +751,6 @@
         <mark key="^" line="21" column="17" />
         <mark key="." line="9" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/dto/RefreshVenueEvent.java" timestamp="1551832017135" />
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/scrapers/googleplaces/ScraperJob.java" timestamp="1533593423839">
         <mark key="[" line="15" column="24" />
         <mark key="]" line="15" column="24" />
@@ -1605,10 +1607,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="11" column="21" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
-      <jump line="12" column="21" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
-      <jump line="9" column="21" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
-      <jump line="10" column="38" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
       <jump line="144" column="16" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
       <jump line="95" column="12" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
       <jump line="125" column="36" filename="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
@@ -1705,6 +1703,10 @@
       <jump line="90" column="95" filename="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/processor/ApptScheduleProcessor.java" />
       <jump line="104" column="124" filename="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/processor/ApptScheduleProcessor.java" />
       <jump line="85" column="65" filename="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/processor/ApptScheduleProcessor.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/README.md" />
+      <jump line="6" column="47" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/README.md" />
+      <jump line="100" column="17" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/README.md" />
+      <jump line="106" column="30" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/README.md" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1776,7 +1778,7 @@
         <text>SearchCircleBuilder</text>
       </register>
       <register name="/" type="4">
-        <text>rule</text>
+        <text encoding="base64">YWRkaW5nIA==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">V0lUSAogICAgYWdncmVnYXRlZF9wYXlvdXRfc3RhdHVzIEFTICgKICAgICAgIFNFTEVDVAogICAgICAgICAgICAgcGF5b3V0X3N0YXR1c19sb2cuc3RhdHVzLAogICAgICAgICAgICAgcGF5b3V0X3N0YXR1c19sb2cub3RoZXJfZGV0YWlscywKICAgICAgICAgICAgIHBheW91dF9sb2cuaWQgQVMgcGF5b3V0X2lkLAogICAgICAgICAgICAgcGF5b3V0X2xvZy52ZW51ZV9pZCBBUyB2ZW51ZV9pZCwKICAgICAgICAgICAgIHBheW91dF9sb2cuc3RhcnRfZGF0ZSBBUyBzdGFydF9kYXRlLAogICAgICAgICAgICAgcGF5b3V0X2xvZy5lbmRfZGF0ZSBBUyBlbmRfZGF0ZSwKICAgICAgICAgICAgIHBheW91dF9sb2cudmVudWVfc25hcHNob3QgQVMgdmVudWVfc25hcHNob3QsCiAgICAgICAgICAgICBwYXlvdXRfbG9nLmNyZWF0ZWRfdGltZSwKICAgICAgICAgICAgIHJvd19udW1iZXIoKQogICAgICAgICAgICAgICAgIE9WRVIgKFBBUlRJVElPTiBCWSBwYXlvdXRfc3RhdHVzX2xvZy5wYXlvdXRfaWQgT1JERVIgQlkgcGF5b3V0X3N0YXR1c19sb2cuY3JlYXRlZF90aW1lIERFU0MpIEFTIHJvd19udW0KICAgICAgICBGUk9NIHBheW91dF9zdGF0dXNfbG9nCiAgICAgICAgSU5ORVIgSk9JTiBwYXlvdXRfbG9nIG9uIHBheW91dF9sb2cuaWQgPSBwYXlvdXRfc3RhdHVzX2xvZy5wYXlvdXRfaWQKICAgICAgICBXSEVSRSBwYXlvdXRfbG9nLnZlbnVlX2lkID0gOnZlbnVlSWQKICAgICApLAogICAgIHBheW91dF9zdGF0dXMgQVMgKAogICAgICAgU0VMRUNUICogRlJPTSBhZ2dyZWdhdGVkX3BheW91dF9zdGF0dXMgd2hlcmUgcm93X251bSA9IDEKICAgICApCiAgICBTRUxFQ1QKICAgICAgcGF5b3V0X3N0YXR1cy5wYXlvdXRfaWQsCiAgICAgIHBheW91dF9zdGF0dXMudmVudWVfaWQgQVMgdmVudWVfaWQsCiAgICAgIHN0YXR1c19raW5kLnN0YXR1cyBBUyBzdGF0dXMsCiAgICAgIHBheW91dF9zdGF0dXMuc3RhcnRfZGF0ZSBBUyBzdGFydF9kYXRlLAogICAgICBwYXlvdXRfc3RhdHVzLmVuZF9kYXRlIEFTIGVuZF9kYXRlLAogICAgICBwYXlvdXRfc3RhdHVzLnZlbnVlX3NuYXBzaG90IEFTIHZlbnVlX3NuYXBzaG90CiAgICBGUk9NCiAgICAgIHBheW91dF9zdGF0dXMKICAgICAgSk9JTiBwYXlvdXRfc3RhdHVzX2tpbmRzIHN0YXR1c19raW5kIE9OIHN0YXR1c19raW5kLmlkID0gcGF5b3V0X3N0YXR1cy5zdGF0dXMKICAgIFdIRVJFIHN0YXR1c19raW5kLnN0YXR1cyA9ICdFWFBPUlRfU1VDQ0VFREVEJwogICAgT1IgKHN0YXR1c19raW5kLnN0YXR1cyA9ICdFWFBPUlRFRCcgQU5EIHBheW91dF9zdGF0dXMuY3JlYXRlZF90aW1lIFw8ICcyMDE4LTA5LTAxJykKCjsK</text>
@@ -1819,9 +1821,9 @@
       </register>
     </registers>
     <search>
-      <last-search>rule</last-search>
+      <last-search encoding="base64">YWRkaW5nIA==</last-search>
       <last-offset />
-      <last-pattern>rule</last-pattern>
+      <last-pattern encoding="base64">YWRkaW5nIA==</last-pattern>
       <last-replace>\\&quot;</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1829,8 +1831,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx2ZW51ZVByb3BlcnRpZXNcPg==</entry>
-        <entry>inven</entry>
         <entry>@Valid</entry>
         <entry>nullab</entry>
         <entry>cover</entry>
@@ -1849,6 +1849,8 @@
         <entry>compiler</entry>
         <entry encoding="base64">XDxydWxlc1w+</entry>
         <entry>rule</entry>
+        <entry>suite</entry>
+        <entry encoding="base64">YWRkaW5nIA==</entry>
       </history-search>
       <history-cmd>
         <entry>97</entry>
