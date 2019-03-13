@@ -201,8 +201,8 @@
       <file name="$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/971666633/datetime.py" timestamp="1550005291168">
         <mark key="'" line="174" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1552424193212">
-        <mark key="'" line="75" column="15" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1552494814938">
+        <mark key="'" line="99" column="11" />
         <mark key="[" line="80" column="50" />
         <mark key="]" line="80" column="50" />
         <mark key="." line="80" column="50" />
@@ -256,7 +256,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
       <jump line="42" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="33" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="27" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
@@ -356,6 +355,7 @@
       <jump line="85" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="79" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="142" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
+      <jump line="99" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -427,7 +427,7 @@
         <text>dir(request.user)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpc19zbWFydHNwb3RfZWxpZ2libGVcPg==</text>
+        <text encoding="base64">XDxmcm9tX3NtYXJ0c3BvdFw+</text>
       </register>
       <register name="0" type="4">
         <text>is_smartspot_eligible</text>
@@ -1127,17 +1127,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxpc19zbWFydHNwb3RfZWxpZ2libGVcPg==</last-search>
+      <last-search encoding="base64">XDxmcm9tX3NtYXJ0c3BvdFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpc19zbWFydHNwb3RfZWxpZ2libGVcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxmcm9tX3NtYXJ0c3BvdFw+</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxmZXRjaGVyXD4=</entry>
         <entry encoding="base64">XDxyZWZyZXNoZXJcPg==</entry>
         <entry>fetch</entry>
         <entry>transform</entry>
@@ -1157,6 +1156,7 @@
         <entry>smar</entry>
         <entry>location</entry>
         <entry encoding="base64">XDxpc19zbWFydHNwb3RfZWxpZ2libGVcPg==</entry>
+        <entry encoding="base64">XDxmcm9tX3NtYXJ0c3BvdFw+</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
