@@ -64,8 +64,8 @@
         <mark key="[" line="15" column="21" />
         <mark key="]" line="15" column="62" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" timestamp="1547586906959">
-        <mark key="'" line="224" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" timestamp="1552663054044">
+        <mark key="'" line="40" column="36" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/schedule/mindbody/fetcher.py" timestamp="1551803043266">
         <mark key="'" line="0" column="0" />
@@ -200,12 +200,12 @@
       <file name="$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/971666633/datetime.py" timestamp="1550005291168">
         <mark key="'" line="174" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1552602010199">
-        <mark key="'" line="99" column="11" />
-        <mark key="[" line="127" column="15" />
-        <mark key="]" line="127" column="16" />
-        <mark key="." line="127" column="16" />
-        <mark key="^" line="127" column="18" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1552663188050">
+        <mark key="'" line="109" column="15" />
+        <mark key="[" line="80" column="57" />
+        <mark key="]" line="80" column="63" />
+        <mark key="." line="80" column="63" />
+        <mark key="^" line="80" column="63" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" timestamp="1550270276554">
         <mark key="'" line="52" column="16" />
@@ -255,9 +255,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="71" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
       <jump line="53" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="18" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="12" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
@@ -355,6 +352,9 @@
       <jump line="104" column="59" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="15" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="124" column="59" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
+      <jump line="108" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="55" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" />
+      <jump line="40" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -426,7 +426,7 @@
         <text>dir(request.user)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxTTUFSVFNQT1RfSU5FTElHSUJMRV9TT1VSQ0VTXD4=</text>
+        <text>source</text>
       </register>
       <register name="0" type="4">
         <text>is_smartspot_eligible</text>
@@ -1126,19 +1126,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxTTUFSVFNQT1RfSU5FTElHSUJMRV9TT1VSQ0VTXD4=</last-search>
+      <last-search>source</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxTTUFSVFNQT1RfSU5FTElHSUJMRV9TT1VSQ0VTXD4=</last-pattern>
+      <last-pattern>source</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>transform</entry>
-        <entry>spots</entry>
-        <entry>spot</entry>
         <entry>rule</entry>
         <entry>\/class</entry>
         <entry>managespot</entry>
@@ -1156,6 +1153,9 @@
         <entry encoding="base64">XDxmcm9tX3NtYXJ0c3BvdFw+</entry>
         <entry>eligib</entry>
         <entry encoding="base64">XDxTTUFSVFNQT1RfSU5FTElHSUJMRV9TT1VSQ0VTXD4=</entry>
+        <entry>venudal</entry>
+        <entry>venuedal</entry>
+        <entry>source</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
