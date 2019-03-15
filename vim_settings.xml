@@ -35,12 +35,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_login.py" timestamp="1552666472511">
         <mark key="'" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" timestamp="1552665693098">
-        <mark key="'" line="85" column="0" />
-        <mark key="[" line="92" column="34" />
-        <mark key="]" line="92" column="62" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" timestamp="1552667973911">
+        <mark key="'" line="92" column="0" />
+        <mark key="[" line="92" column="20" />
+        <mark key="]" line="92" column="27" />
         <mark key="^" line="92" column="37" />
-        <mark key="." line="92" column="34" />
+        <mark key="." line="92" column="27" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" timestamp="1548866758461">
         <mark key="'" line="67" column="0" />
@@ -59,12 +59,12 @@
         <mark key="[" line="73" column="16" />
         <mark key="]" line="73" column="51" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1552667050929">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1552667955990">
         <mark key="'" line="78" column="22" />
-        <mark key="[" line="84" column="0" />
-        <mark key="]" line="84" column="0" />
-        <mark key="^" line="84" column="36" />
-        <mark key="." line="84" column="0" />
+        <mark key="[" line="141" column="68" />
+        <mark key="]" line="141" column="88" />
+        <mark key="^" line="141" column="88" />
+        <mark key="." line="141" column="88" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1550609135163">
         <mark key="'" line="355" column="8" />
@@ -168,7 +168,7 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" timestamp="1545866368757">
         <mark key="'" line="52" column="4" />
       </file>
-      <file name="/Python Console" timestamp="1552667052403">
+      <file name="/Python Console" timestamp="1552667911337">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1551726251118">
@@ -274,7 +274,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="139" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="32" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
       <jump line="34" column="55" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
       <jump line="41" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
@@ -374,6 +373,7 @@
       <jump line="95" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="90" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="78" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
+      <jump line="92" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -442,10 +442,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>get('msa__country_id')</text>
+        <text>**venue</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx2ZW51ZXNcPg==</text>
+        <text>sou</text>
       </register>
       <register name="0" type="4">
         <text>SMARTSPOT_INELIGIBLE_SOURCES</text>
@@ -1151,9 +1151,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx2ZW51ZXNcPg==</last-search>
+      <last-search>sou</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx2ZW51ZXNcPg==</last-pattern>
+      <last-pattern>sou</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1161,7 +1161,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ppo</entry>
         <entry encoding="base64">XDxwdWxsX2Zvcl92ZW51ZV9pZF90YXNrXD4=</entry>
         <entry>smar</entry>
         <entry>location</entry>
@@ -1181,6 +1180,7 @@
         <entry>test_create</entry>
         <entry>without_spo</entry>
         <entry encoding="base64">XDx2ZW51ZXNcPg==</entry>
+        <entry>sou</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
