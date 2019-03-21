@@ -194,6 +194,9 @@
         <mark key="]" line="11" column="0" />
         <mark key="." line="11" column="0" />
       </file>
+      <file name="/Dummy.txt" timestamp="1553205821277">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/creditprice/swagger_client/api/credit_price_api.py" timestamp="1551114670169">
         <mark key="'" line="34" column="8" />
       </file>
@@ -205,8 +208,8 @@
         <mark key="]" line="241" column="0" />
         <mark key="." line="241" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1553204135023">
-        <mark key="'" line="467" column="32" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1553205386112">
+        <mark key="'" line="88" column="11" />
         <mark key="[" line="559" column="69" />
         <mark key="]" line="559" column="11" />
         <mark key="^" line="559" column="11" />
@@ -219,12 +222,12 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1553204366414">
-        <mark key="'" line="402" column="41" />
-        <mark key="[" line="438" column="8" />
-        <mark key="]" line="438" column="8" />
-        <mark key="." line="438" column="8" />
-        <mark key="^" line="438" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1553205520921">
+        <mark key="'" line="441" column="0" />
+        <mark key="[" line="447" column="0" />
+        <mark key="]" line="447" column="0" />
+        <mark key="^" line="437" column="22" />
+        <mark key="." line="447" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
@@ -274,10 +277,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="113" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
-      <jump line="98" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
-      <jump line="95" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
-      <jump line="90" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="78" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
       <jump line="92" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
       <jump line="118" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -331,7 +330,6 @@
       <jump line="371" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
       <jump line="164" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="86" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="88" column="77" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="107" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
       <jump line="111" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
       <jump line="89" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
@@ -374,6 +372,11 @@
       <jump line="409" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="424" column="55" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="467" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="88" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="440" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="442" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="447" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="441" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -442,49 +445,50 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>True</text>
+        <text encoding="base64">ICAgPQ==</text>
       </register>
       <register name="/" type="4">
-        <text>get_oppor</text>
+        <text>to_save</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICJzY2hlZHVsZV9pZCI6IHNjaGVkdWxlc1swXS5zY2hlZHVsZV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgIm5ldHdvcmtfc3BvdF9jYXAiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidmFsdWUiOiAyNSwKICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgInNzX2VuYWJsZWQiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidmFsdWUiOiBUcnVlLAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IAo=</text>
       </register>
       <register name="q" type="4">
         <text>w</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJyZWFzb24iOiAic3RyaW5nIgo=</text>
+      <register name="2" type="8">
+        <text>#
+#</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJyZWFzb24iOiAic3RyaW5nIgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJyZWFzb24iOiAic3RyaW5nIgo=</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJyZWFzb24iOiAic3RyaW5nIgo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgImVycm9yIjogewogICAgICAgICAgICAgICAgInJlYXNvbiI6ICJEQiIsCiAgICAgICAgICAgICAgICAid2h5IjogInN0cmluZyIsCiAgICAgICAgICAgICAgICAiZGV0YWlscyI6ICJzdHJpbmciCiAgICAgICAgICAgIH0K</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>{
             'status': 200,
             'data':{
             }</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ29wcG9ydHVuaXRpZXMnOiBbewogICAgICAgICAgICAgICAgJ29wcG9ydHVuaXR5X2lkJzogb3Bwb3J0dW5pdHlfaWQsCiAgICAgICAgICAgICAgICAnc3BvdHNfYWRkZWQnOiBzcG90c190b19hZGQKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgXQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3ZpYV9lbWFpbCc6IEZhbHNlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
@@ -1148,9 +1152,9 @@
       </register>
     </registers>
     <search>
-      <last-search>get_oppor</last-search>
+      <last-search>to_save</last-search>
       <last-offset />
-      <last-pattern>get_oppor</last-pattern>
+      <last-pattern>to_save</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1158,7 +1162,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhY3RlZF9vbl9vcHBvcnR1bml0aWVzXD4=</entry>
         <entry>saved_</entry>
         <entry>opportunitiesact</entry>
         <entry>perms</entry>
@@ -1178,6 +1181,7 @@
         <entry encoding="base64">XDxzcG90X2xvZ19pZFw+</entry>
         <entry>true</entry>
         <entry>get_oppor</entry>
+        <entry>to_save</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
