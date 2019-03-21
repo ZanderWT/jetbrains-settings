@@ -224,11 +224,12 @@
         <mark key="]" line="241" column="0" />
         <mark key="." line="241" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1553184377343">
-        <mark key="'" line="84" column="0" />
-        <mark key="[" line="401" column="8" />
-        <mark key="]" line="401" column="36" />
-        <mark key="^" line="74" column="37" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1553185513143">
+        <mark key="'" line="441" column="0" />
+        <mark key="[" line="484" column="42" />
+        <mark key="]" line="484" column="42" />
+        <mark key="^" line="484" column="42" />
+        <mark key="." line="484" column="42" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" timestamp="1550270276554">
         <mark key="'" line="52" column="16" />
@@ -291,7 +292,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="62" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="93" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="99" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
@@ -391,6 +391,7 @@
       <jump line="97" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="92" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="84" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="441" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -462,7 +463,7 @@
         <text encoding="base64">IFZlbnVlUGVybWlzc2lvblR5cGUuQ0FOX1ZJRVdfT1BQT1JUVU5JVElFU19TTUFSVFNQT1Q=</text>
       </register>
       <register name="/" type="4">
-        <text>update</text>
+        <text>acted_on</text>
       </register>
       <register name="0" type="4">
         <text>calculate_email_opps_for_user</text>
@@ -1162,9 +1163,9 @@
       </register>
     </registers>
     <search>
-      <last-search>update</last-search>
+      <last-search>acted_on</last-search>
       <last-offset />
-      <last-pattern>update</last-pattern>
+      <last-pattern>acted_on</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1172,7 +1173,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxTTUFSVFNQT1RfSU5FTElHSUJMRV9TT1VSQ0VTXD4=</entry>
         <entry>venudal</entry>
         <entry>venuedal</entry>
         <entry>is_smartspot</entry>
@@ -1192,6 +1192,7 @@
         <entry encoding="base64">XDxjX3ZlbnVlXD4=</entry>
         <entry>source is</entry>
         <entry>update</entry>
+        <entry>acted_on</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
