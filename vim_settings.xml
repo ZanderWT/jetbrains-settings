@@ -222,8 +222,8 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1553205520921">
-        <mark key="'" line="441" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556136251816">
+        <mark key="'" line="48" column="89" />
         <mark key="[" line="447" column="0" />
         <mark key="]" line="447" column="0" />
         <mark key="^" line="437" column="22" />
@@ -277,10 +277,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="78" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" />
-      <jump line="92" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
-      <jump line="118" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="120" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="122" column="3" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="105" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="100" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -377,6 +373,10 @@
       <jump line="442" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="447" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="441" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="427" column="48" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="64" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="9" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="48" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -448,7 +448,7 @@
         <text encoding="base64">ICAgPQ==</text>
       </register>
       <register name="/" type="4">
-        <text>to_save</text>
+        <text>clientmock</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICJzY2hlZHVsZV9pZCI6IHNjaGVkdWxlc1swXS5zY2hlZHVsZV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgIm5ldHdvcmtfc3BvdF9jYXAiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidmFsdWUiOiAyNSwKICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgInNzX2VuYWJsZWQiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidmFsdWUiOiBUcnVlLAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQo=</text>
@@ -1152,9 +1152,9 @@
       </register>
     </registers>
     <search>
-      <last-search>to_save</last-search>
+      <last-search>clientmock</last-search>
       <last-offset />
-      <last-pattern>to_save</last-pattern>
+      <last-pattern>clientmock</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1162,8 +1162,6 @@
     </search>
     <history>
       <history-search>
-        <entry>saved_</entry>
-        <entry>opportunitiesact</entry>
         <entry>perms</entry>
         <entry>actview</entry>
         <entry>seria</entry>
@@ -1182,6 +1180,8 @@
         <entry>true</entry>
         <entry>get_oppor</entry>
         <entry>to_save</entry>
+        <entry>legacyapiclientmock</entry>
+        <entry>clientmock</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
