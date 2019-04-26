@@ -253,11 +253,11 @@
         <mark key="]" line="524" column="71" />
         <mark key="." line="524" column="71" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1556307542548">
-        <mark key="'" line="79" column="54" />
-        <mark key="[" line="58" column="45" />
-        <mark key="]" line="58" column="45" />
-        <mark key="." line="58" column="45" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1556312159211">
+        <mark key="'" line="67" column="68" />
+        <mark key="[" line="57" column="58" />
+        <mark key="]" line="57" column="58" />
+        <mark key="." line="57" column="58" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" timestamp="1551390530107">
         <mark key="'" line="490" column="0" />
@@ -281,7 +281,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="261" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
       <jump line="273" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
       <jump line="288" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
       <jump line="298" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
@@ -381,6 +380,7 @@
       <jump line="123" column="65" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/core/exceptions.py" />
       <jump line="145" column="24" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/core/exceptions.py" />
       <jump line="101" column="32" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/core/exceptions.py" />
+      <jump line="67" column="68" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -449,10 +449,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>emit_opportunity_event</text>
+        <text>|reject</text>
       </register>
       <register name="/" type="4">
-        <text>notfound</text>
+        <text>show</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzY2hlZHVsZSA9IFNjaGVkdWxlc0RhbC5nZXRfc2NoZWR1bGVfYnlfaWQoc2NoZWR1bGVfaWQpCiAgICAgICAgb3Bwb3J0dW5pdHkgPSBPcHBvcnR1bml0aWVzRGFsLmdldF9vcHBvcnR1bml0eShvcHBvcnR1bml0eV9pZCkKICAgICAgICBpZiBzY2hlZHVsZSBpcyBOb25lOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoJ1NjaGVkdWxlIHdpdGggaWQge30gbm90IGZvdW5kJy5mb3JtYXQoc2NoZWR1bGVfaWQpKQogICAgICAgIGlmIG9wcG9ydHVuaXR5IGlzIE5vbmU6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcignT3Bwb3J0dW5pdHkgd2l0aCBpZCB7fSBub3QgZm91bmQnLmZvcm1hdChvcHBvcnR1bml0eV9pZCkpCg==</text>
@@ -1154,9 +1154,9 @@
       </register>
     </registers>
     <search>
-      <last-search>notfound</last-search>
+      <last-search>show</last-search>
       <last-offset />
-      <last-pattern>notfound</last-pattern>
+      <last-pattern>show</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1179,11 +1179,11 @@
         <entry encoding="base64">XDxPUFBPUlRVTklUWV9FVkVOVF9UWVBFU1w+</entry>
         <entry>reject</entry>
         <entry>even</entry>
-        <entry>show</entry>
         <entry encoding="base64">XDxjbHNcPg==</entry>
         <entry encoding="base64">XDxvcHBvcnR1bml0eVw+</entry>
         <entry>code</entry>
         <entry>notfound</entry>
+        <entry>show</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
