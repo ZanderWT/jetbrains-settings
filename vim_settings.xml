@@ -219,8 +219,8 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556136251816">
-        <mark key="'" line="48" column="89" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556313335107">
+        <mark key="'" line="64" column="71" />
         <mark key="[" line="447" column="0" />
         <mark key="]" line="447" column="0" />
         <mark key="^" line="437" column="22" />
@@ -334,7 +334,6 @@
       <jump line="447" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="441" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="427" column="48" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="64" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="9" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="48" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="117" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" />
@@ -381,6 +380,7 @@
       <jump line="145" column="24" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/core/exceptions.py" />
       <jump line="101" column="32" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/core/exceptions.py" />
       <jump line="67" column="68" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="64" column="71" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -452,7 +452,7 @@
         <text>|reject</text>
       </register>
       <register name="/" type="4">
-        <text>show</text>
+        <text>invalid_data</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzY2hlZHVsZSA9IFNjaGVkdWxlc0RhbC5nZXRfc2NoZWR1bGVfYnlfaWQoc2NoZWR1bGVfaWQpCiAgICAgICAgb3Bwb3J0dW5pdHkgPSBPcHBvcnR1bml0aWVzRGFsLmdldF9vcHBvcnR1bml0eShvcHBvcnR1bml0eV9pZCkKICAgICAgICBpZiBzY2hlZHVsZSBpcyBOb25lOgogICAgICAgICAgICByYWlzZSBWYWxpZGF0aW9uRXJyb3IoJ1NjaGVkdWxlIHdpdGggaWQge30gbm90IGZvdW5kJy5mb3JtYXQoc2NoZWR1bGVfaWQpKQogICAgICAgIGlmIG9wcG9ydHVuaXR5IGlzIE5vbmU6CiAgICAgICAgICAgIHJhaXNlIFZhbGlkYXRpb25FcnJvcignT3Bwb3J0dW5pdHkgd2l0aCBpZCB7fSBub3QgZm91bmQnLmZvcm1hdChvcHBvcnR1bml0eV9pZCkpCg==</text>
@@ -1154,9 +1154,9 @@
       </register>
     </registers>
     <search>
-      <last-search>show</last-search>
+      <last-search>invalid_data</last-search>
       <last-offset />
-      <last-pattern>show</last-pattern>
+      <last-pattern>invalid_data</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1164,7 +1164,6 @@
     </search>
     <history>
       <history-search>
-        <entry>reserv</entry>
         <entry>fix_</entry>
         <entry encoding="base64">XDxnZW9fZGF0YVw+</entry>
         <entry encoding="base64">XDxjbGFzc19uYW1lc1w+</entry>
@@ -1184,6 +1183,7 @@
         <entry>code</entry>
         <entry>notfound</entry>
         <entry>show</entry>
+        <entry>invalid_data</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
