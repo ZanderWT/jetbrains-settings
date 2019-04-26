@@ -200,8 +200,8 @@
         <mark key="]" line="241" column="0" />
         <mark key="." line="241" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1553205386112">
-        <mark key="'" line="88" column="11" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1556296560441">
+        <mark key="'" line="56" column="0" />
         <mark key="[" line="559" column="69" />
         <mark key="]" line="559" column="11" />
         <mark key="^" line="559" column="11" />
@@ -273,9 +273,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="92" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="84" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="441" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="371" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="163" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="332" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -373,6 +370,9 @@
       <jump line="56" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_revenue_reporting_dal.py" />
       <jump line="45" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="103" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/revenue_reporting.py" />
+      <jump line="196" column="92" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="57" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="56" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -444,7 +444,7 @@
         <text encoding="base64">ICAgPQ==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb3VudF9yZXNlcnZhdGlvbnNcPg==</text>
+        <text encoding="base64">XDxPUFBPUlRVTklUWV9FVkVOVF9UWVBFU1w+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjIHJlZHVjZSBvdmVyYWxsIHJlc2VydmF0aW9uIGNvdW50IGJ5IHRoZSBudW1iZXIgdGhhdCB3ZXJlIHJlYm9va2VkIChwZXIgcmVxdWVzdCBieSBFbGl6YWJldGggSCkKICAgICAgICAjIFRoZSB0aG91Z2h0IGhlcmUgaXMgdGhhdCB3ZSBleGNsdWRlIHRoZW0gZnJvbSB0aGUgY291bnRzLCBidXQgc3RpbGwgc2hvdyB0aGVtIGFzIHJlc2VydmF0aW9ucyBpbiB0aGUgcmVwb3J0CiAgICAgICAgIyB0byBhbGxvdyB0aGUgdmVudWUgdG8gcmVjb25jaWxlIHdpdGggdGhlaXIgcmVjb3Jkcwo=</text>
@@ -1148,9 +1148,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjb3VudF9yZXNlcnZhdGlvbnNcPg==</last-search>
+      <last-search encoding="base64">XDxPUFBPUlRVTklUWV9FVkVOVF9UWVBFU1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb3VudF9yZXNlcnZhdGlvbnNcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxPUFBPUlRVTklUWV9FVkVOVF9UWVBFU1w+</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1158,9 +1158,6 @@
     </search>
     <history>
       <history-search>
-        <entry>dal</entry>
-        <entry encoding="base64">XDxhcHBsaWVkX3NldHRpbmdzXD4=</entry>
-        <entry>return_v</entry>
         <entry encoding="base64">XDxzcG90X2xvZ19pZFw+</entry>
         <entry>true</entry>
         <entry>get_oppor</entry>
@@ -1178,6 +1175,9 @@
         <entry>log\,</entry>
         <entry>log\.</entry>
         <entry encoding="base64">XDxjb3VudF9yZXNlcnZhdGlvbnNcPg==</entry>
+        <entry>_show</entry>
+        <entry encoding="base64">XDxTTUFSVFNQT1RfT1BQT1JUVU5JVFlfU0hPV1w+</entry>
+        <entry encoding="base64">XDxPUFBPUlRVTklUWV9FVkVOVF9UWVBFU1w+</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
