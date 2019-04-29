@@ -213,11 +213,11 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556570233408">
-        <mark key="[" line="347" column="50" />
-        <mark key="]" line="347" column="50" />
-        <mark key="^" line="347" column="28" />
-        <mark key="." line="347" column="50" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556570925168">
+        <mark key="[" line="326" column="39" />
+        <mark key="]" line="326" column="39" />
+        <mark key="^" line="341" column="28" />
+        <mark key="." line="326" column="39" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
@@ -438,7 +438,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>, mock_now</text>
+        <text>, datetime_mock</text>
       </register>
       <register name="/" type="4">
         <text>mock</text>
@@ -447,37 +447,37 @@
         <text>@patch('classpass.apps.venue.controllers.opportunities.OpportunitiesDal')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBtb2NrX25vdyA9IGRhdGV0aW1lLmRhdGV0aW1lKDIwMTksIDUsIDEzLCAxMiwgMCwgMCkKICAgICAgICBkYXRldGltZV9tb2NrLm5vdy5yZXR1cm5fdmFsdWUgPSBtb2NrX25vdwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>w</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhY3R1YWxfcmVqZWN0ZWRfb24gPSBzYXZlZF9vcHAucmVqZWN0ZWRfb24KICAgICAgICBleHBlY3RlZF9yZWplY3RlZF9vbiA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpCiAgICAgICAgZnV6el9mYWN0b3JfbXMgPSA1MDAK</text>
+        <text encoding="base64">ICAgICMgQHBhdGNoKCdjbGFzc3Bhc3MuYXBwcy52ZW51ZS5jb250cm9sbGVycy5vcHBvcnR1bml0aXMuT3Bwb3J0dW5pdGllc0RhbCcpCiAgICAjIGRlZiB0ZXN0X3NzX29wcG9ydHVuaXR5X3JlamVjdChzZWxmLCBvcHBzX2RhbF9tb2NrKToKICAgIEBwYXRjaCgnZGF0ZXRpbWUuZGF0ZXRpbWUnKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkdF9tb2NrCg==</text>
+        <text encoding="base64">ICAgICMgQHBhdGNoKCdjbGFzc3Bhc3MuYXBwcy52ZW51ZS5jb250cm9sbGVycy5vcHBvcnR1bml0aWVzLk9wcG9ydHVuaXRpZXNEYWwnKQogICAgIyBkZWYgdGVzdF9zc19vcHBvcnR1bml0eV9yZWplY3Qoc2VsZiwgb3Bwc19kYWxfbW9jayk6Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBPcHBvcnR1bml0aWVzRGFsLnNhdmVfb3Bwb3J0dW5pdGllcyhbb3Bwb3J0dW5pdHldKQo=</text>
+        <text encoding="base64">ICAgICAgICBtb2NrX25vdyA9IGRhdGV0aW1lLmRhdGV0aW1lKDIwMTksIDUsIDEzLCAxMiwgMCwgMCkKICAgICAgICBkYXRldGltZV9tb2NrLm5vdy5yZXR1cm5fdmFsdWUgPSBtb2NrX25vdwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBtb2NrX25vdyA9IGRhdGV0aW1lLmRhdGV0aW1lKDIwMTksIDUsIDEzLCAxMiwgMCwgMCkKICAgICAgICBkYXRldGltZV9tb2NrLm5vdy5yZXR1cm5fdmFsdWUgPSBtb2NrX25vdwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eS5zYXYK</text>
+        <text encoding="base64">ICAgICAgICBhY3R1YWxfcmVqZWN0ZWRfb24gPSBzYXZlZF9vcHAucmVqZWN0ZWRfb24KICAgICAgICBleHBlY3RlZF9yZWplY3RlZF9vbiA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpCiAgICAgICAgZnV6el9mYWN0b3JfbXMgPSA1MDAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkdF9tb2NrCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBvcHBzX2RhbF9tb2NrLmdldF9vcHBvcnR1bml0eS5yZXR1cm5fdmFsdWUgPSBvcHBvcnR1bml0eQo=</text>
+        <text encoding="base64">ICAgICAgICBPcHBvcnR1bml0aWVzRGFsLnNhdmVfb3Bwb3J0dW5pdGllcyhbb3Bwb3J0dW5pdHldKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuY29udHJvbGxlcnMub3Bwb3J0dW5pdGllcy5TY2hlZHVsZXNEYWwnKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>action ToggleBookmarkWithMnemonic</text>
