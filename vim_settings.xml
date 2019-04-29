@@ -217,11 +217,12 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="12" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556318647728">
-        <mark key="'" line="312" column="0" />
-        <mark key="[" line="313" column="0" />
-        <mark key="]" line="313" column="0" />
-        <mark key="." line="313" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556555307763">
+        <mark key="'" line="316" column="34" />
+        <mark key="[" line="327" column="0" />
+        <mark key="]" line="326" column="60" />
+        <mark key="." line="326" column="60" />
+        <mark key="^" line="326" column="60" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
@@ -274,8 +275,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="260" column="72" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="383" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="337" column="106" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="95" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="34" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
@@ -374,6 +373,8 @@
       <jump line="45" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" />
       <jump line="72" column="91" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" />
+      <jump line="318" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="316" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -445,7 +446,7 @@
         <text>Oppo</text>
       </register>
       <register name="/" type="4">
-        <text>event</text>
+        <text>rejec</text>
       </register>
       <register name="0" type="4">
         <text>OpportunitiesRejectView</text>
@@ -1147,9 +1148,9 @@
       </register>
     </registers>
     <search>
-      <last-search>event</last-search>
+      <last-search>rejec</last-search>
       <last-offset />
-      <last-pattern>event</last-pattern>
+      <last-pattern>rejec</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1157,8 +1158,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxnZXRfcmV2ZW51ZV9pdGVtX3N1bW1hcnlcPg==</entry>
-        <entry>count</entry>
         <entry>log</entry>
         <entry>log\,</entry>
         <entry>log\.</entry>
@@ -1177,6 +1176,8 @@
         <entry>reject</entry>
         <entry encoding="base64">XDxzZXR0aW5nc1w+</entry>
         <entry>event</entry>
+        <entry>happy_</entry>
+        <entry>rejec</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
