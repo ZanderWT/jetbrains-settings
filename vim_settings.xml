@@ -77,12 +77,12 @@
         <mark key="]" line="34" column="0" />
         <mark key="." line="34" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" timestamp="1556830107062">
-        <mark key="'" line="108" column="24" />
-        <mark key="[" line="138" column="61" />
-        <mark key="]" line="138" column="86" />
-        <mark key="." line="138" column="86" />
-        <mark key="^" line="138" column="86" />
+      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" timestamp="1556831979142">
+        <mark key="'" line="58" column="4" />
+        <mark key="[" line="100" column="20" />
+        <mark key="]" line="100" column="20" />
+        <mark key="." line="100" column="20" />
+        <mark key="^" line="100" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-pay-ctrl/docker/config/config.ini.tmpl" timestamp="1556041951496">
         <mark key="'" line="0" column="0" />
@@ -126,11 +126,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="102" column="66" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
-      <jump line="16" column="31" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
-      <jump line="41" column="13" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/context/partnerdashboard/Opportunity.java" />
-      <jump line="103" column="34" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
-      <jump line="3" column="46" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/dao/ClasstivityDao.java" />
       <jump line="170" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/dao/ClasstivityDao.java" />
       <jump line="105" column="4" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
       <jump line="64" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
@@ -162,7 +157,6 @@
       <jump line="141" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" />
       <jump line="143" column="31" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" />
       <jump line="146" column="6" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" />
-      <jump line="66" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="76" column="57" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="91" column="57" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="92" column="57" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
@@ -226,6 +220,12 @@
       <jump line="31" column="19" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="35" column="20" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/dao/ClasstivityDao.java" />
       <jump line="108" column="24" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
+      <jump line="106" column="25" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
+      <jump line="102" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
+      <jump line="100" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
+      <jump line="66" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
+      <jump line="62" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
+      <jump line="58" column="4" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -294,16 +294,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>i</text>
       </register>
       <register name="/" type="4">
-        <text>subtr</text>
+        <text>sho</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBPcHBvcnR1bml0eSBvcHAgPSBPcHBvcnR1bml0eS5yYW5kb20oKTsKICAgICAgICBpbnQgaWQgPSBjbGFzc3Rpdml0eURhby5pbnNlcnRPcHBvcnR1bml0eShvcHApOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5jcmVhdGVkT24oTG9jYWxEYXRlVGltZS5vZigyMDE5LCAxLCAxLCAwLCAwLCAwKQogICAgICAgICAgICAgICAgICAgICAgICAucGx1c0RheXMoZmFrZXIubnVtYmVyKCkubnVtYmVyQmV0d2VlbigwLCAzNjUwKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnBsdXNNaW51dGVzKGZha2VyLm51bWJlcigpLm51bWJlckJldHdlZW4oMCwgMTQzOSkpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKHRydWUpCiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbigiZm9vYmFyIiArIGFjdHVhbENvbHVtbk5hbWVzLnRvU3RyaW5nKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5zaG93bk9uKGZha2VyLikK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -353,40 +353,40 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKHRydWUpCiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbigiZm9vYmFyIiArIGFjdHVhbENvbHVtbk5hbWVzLnRvU3RyaW5nKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuc2hvd24K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuanVuaXQuQXNzZXJ0LmZhaWw7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKHRydWUpCiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbigiZm9vYmFyIiArIGFjdHVhbENvbHVtbk5hbWVzLnRvU3RyaW5nKCkpOwo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmYWlsKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKHRydWUpCiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbigiZm9vYmFyIiArIGFjdHVhbENvbHVtbk5hbWVzLnRvU3RyaW5nKCkpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">QFVzZVN0cmluZ1RlbXBsYXRlM1N0YXRlbWVudExvY2F0b3IK</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuanVuaXQuQXNzZXJ0LmZhaWw7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgU2NoZWR1bGVJbmZvREFPMiBkYW87Cg==</text>
+        <text encoding="base64">ICAgICAgICBmYWlsKCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gZGFvLmdldFNjaGVkdWxlSW5mbyhzY2hlZHVsZUlkcyk7Cg==</text>
+        <text encoding="base64">QFVzZVN0cmluZ1RlbXBsYXRlM1N0YXRlbWVudExvY2F0b3IK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBTY2hlZHVsZUluZm9EQU8yIGRhbyA9IGRiaS5vbkRlbWFuZChTY2hlZHVsZUluZm9EQU8yLmNsYXNzKTsK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgU2NoZWR1bGVJbmZvREFPMiBkYW87Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkYmkud2l0aEhhbmRsZShoYW5kbGUgLT4gewogICAgICAgICAgICBoYW5kbGUuYXR0YWNoKCkKICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gZGFvLmdldFNjaGVkdWxlSW5mbyhzY2hlZHVsZUlkcyk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>subtr</last-search>
+      <last-search>sho</last-search>
       <last-offset />
-      <last-pattern>subtr</last-pattern>
+      <last-pattern>sho</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -394,7 +394,6 @@
     </search>
     <history>
       <history-search>
-        <entry>getinte</entry>
         <entry>getInteger</entry>
         <entry encoding="base64">XDxpc1w+</entry>
         <entry>assert</entry>
@@ -414,6 +413,7 @@
         <entry>mapper</entry>
         <entry>opportunity</entry>
         <entry>subtr</entry>
+        <entry>sho</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO29sZDtuZXc7Zw==</entry>
