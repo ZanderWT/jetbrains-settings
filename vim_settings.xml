@@ -212,12 +212,12 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556911690068">
-        <mark key="'" line="112" column="0" />
-        <mark key="[" line="143" column="0" />
-        <mark key="]" line="143" column="0" />
-        <mark key="." line="143" column="0" />
-        <mark key="^" line="144" column="23" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1556913380683">
+        <mark key="'" line="321" column="31" />
+        <mark key="[" line="321" column="40" />
+        <mark key="]" line="321" column="56" />
+        <mark key="." line="321" column="56" />
+        <mark key="^" line="321" column="56" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
@@ -264,10 +264,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="305" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="309" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="312" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="321" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="293" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="297" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="299" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -364,6 +360,10 @@
       <jump line="102" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="105" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="112" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="312" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="311" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="320" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="321" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -432,49 +432,49 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Y</text>
+        <text>0, len(get_opp_payload['opportunites'])</text>
       </register>
       <register name="/" type="4">
-        <text>list</text>
+        <text>CAN_</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5DbGFzc3Bhc3NBcGlDbGllbnQnKQo=</text>
+        <text encoding="base64">ICAgICAgICBnZXRfb3BwX3Jlc3BvbnNlID0gc2VsZi5jbGllbnQuZ2V0KCIvYXBpL3t9L29wcG9ydHVuaXRpZXMiLmZvcm1hdCh2ZW51ZS52ZW51ZV9pZCkpCiAgICAgICAgZ2V0X29wcF9wYXlsb2FkID0gc2VsZi5leHRyYWN0X3BheWxvYWQoZ2V0X29wcF9yZXNwb25zZSkKICAgICAgICByZXR1cm5lZF9vcHAgPSBnZXRfb3BwX3BheWxvYWRbJ29wcG9ydHVuaXRpZXMnXVswXQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMjAwLCBnZXRfb3BwX3Jlc3BvbnNlLnN0YXR1c19jb2RlKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBnZXRfb3BwX3BheWxvYWQuZGQK</text>
       </register>
       <register name="q" type="4">
         <text>w</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHtFWFBFQ1RFRF9PUFBTX0ZJRUxEOiBFWFBFQ1RFRF9PUFBTX0ZJRUxEIGZvciBFWFBFQ1RFRF9PUFBTX0ZJRUxEIGluIEVYUEVDVEVEX09QUFNfRklFTERTfQo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm5lZF9vcHAgPSBnZXRfb3BwX3BheWxvYWRbJ29wcG9ydHVuaXRpZXMnXVswXQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmljZV9ydWxlX3ZpZXdfcm93cyA9IFtNaWNyb01vY2socHVyY2hhc2VfdHlwZT0nbm90LW9wZW5hY2Nlc3MnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2hlZHVsZV9pZD1wYXNzcG9ydF9zY2hlZHVsZS5zY2hlZHVsZS5waywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpY2U9MC4yOSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpb3JpdHk9MSldCgo=</text>
+        <text encoding="base64">ICAgICAgICBzZWtra2sK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLl9wYXRjaF9hcGlfY2xpZW50X3NpbmdsZV9tZXRob2QoCiAgICAgICAgICAgICdjbGFzc3Bhc3MuYXBwcy52ZW51ZS5kYWwuc2NoZWR1bGVzLlZlbnVlUHJpY2VTY2hlZHVsZUNvbmRpdGlvblZpZXcuY29uZGl0aW9uc19tZXQnLAogICAgICAgICAgICAnZmlsdGVyJywKICAgICAgICAgICAgcHJpY2VfcnVsZV92aWV3X3Jvd3MpCgo=</text>
+        <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eV9pZCA9IAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBtb2NrX2xhcGlfY2xpZW50LmdldF9tc2EucmV0dXJuX3ZhbHVlID0geydjdXJyZW5jeV9jb2RlJzogJ2N1cnJlbiR5JywgJ3RpbWV6b25lJzogJ1VTL0Vhc3Rlcm4nfQo=</text>
+        <text encoding="base64">ICAgICAgICA9Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICBzZWxmLl9wYXRjaF9hcGlfY2xpZW50X3NpbmdsZV9tZXRob2QoCiAgICAgICAgICAgICdjbGFzc3Bhc3MuYXBwcy52ZW51ZS5kYWwubXNhcy5DbGFzc3Bhc3NBcGlDbGllbnQnLAogICAgICAgICAgICAnZ2V0X21zYScs</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5WZW51ZVByaWNlU2NoZWR1bGVDb25kaXRpb25WaWV3LmNvbmRpdGlvbnNfbWV0JykK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLl9wYXRjaF9hcGlfY2xpZW50KAogICAgICAgICAgICAnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5DbGFzc3Bhc3NBcGlDbGllbnQnLAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICB7J21ldGhvZF9uYW1lJzogJ2dldF9zcG90X2RhdGEnLCAna3dhcmdzJzogeydyZXR1cm5fdmFsdWUnOiBtb2NrX3Nwb3RfZGF0YX19CiAgICAgICAgICAgIF0KICAgICAgICApCg==</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGV4cGVjdGVkX2Ftb3VudCwgcmV0dXJuZWRfb3BwWydhbW91bnQnXSkKICAgICAgICBzZWxmLmFzc2VydFRydWUocmV0dXJuZWRfb3BwWydyZWNvbW1lbmRhdGlvbiddIGluIFsxLCAyXSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCdVU0QnLCBwYXlsb2FkWyd0b3RhbF9kb2xsYXJzJ11bJ2N1cnJlbmN5J10pCiAgICAgICAgc2VsZi5hc3NlcnRUcnVlKHJldHVybmVkX29wcFsnc2NoZWR1bGVfaWQnXSAhPSBkaXNhYmxlZF9zY2hlZHVsZS5zY2hlZHVsZS5waykKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCdMRUdBQ1knLCByZXR1cm5lZF9vcHBbJ29wcG9ydHVuaXR5X3NvdXJjZSddKQo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBleHBlY3RlZF9hbW91bnQgPSA3Ljc3ICogcmV0dXJuZWRfb3BwWydyZWNvbW1lbmRhdGlvbiddCgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWxzKHNlbGYuRVhQRUNURURfT1BQU19GSUVMRFMsIHNldChyZXR1cm5lZF9vcHAua2V5cygpKSkKCg==</text>
+      </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ShowBookmarks</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1135,9 +1135,9 @@
       </register>
     </registers>
     <search>
-      <last-search>list</last-search>
+      <last-search>CAN_</last-search>
       <last-offset />
-      <last-pattern>list</last-pattern>
+      <last-pattern>CAN_</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>-1</last-dir>
@@ -1145,11 +1145,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxMZWdhY3lBUElDbGllbnRNb2NrXD4=</entry>
-        <entry>patch_api_client</entry>
-        <entry>@pa</entry>
-        <entry>patch</entry>
-        <entry>venuepricesche</entry>
         <entry encoding="base64">XDxWZW51ZVByaWNlU2NoZWR1bGVDb25kaXRpb25WaWV3XD4=</entry>
         <entry>@pat</entry>
         <entry>single_me</entry>
@@ -1165,6 +1160,11 @@
         <entry encoding="base64">XDxuZXR3b3JrX3ByaWNlX2RhdGFcPg==</entry>
         <entry encoding="base64">XDxwcmVtaXVtX3ByaWNlX2RhdGFcPg==</entry>
         <entry>list</entry>
+        <entry>reject</entry>
+        <entry>res</entry>
+        <entry>pay</entry>
+        <entry>permis</entry>
+        <entry>CAN_</entry>
       </history-search>
       <history-cmd>
         <entry>122</entry>
@@ -1185,8 +1185,8 @@
         <entry>55</entry>
         <entry>387</entry>
         <entry>action ReformatCode</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
