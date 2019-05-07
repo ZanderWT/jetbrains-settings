@@ -138,7 +138,7 @@
         <mark key="^" line="60" column="18" />
         <mark key="." line="60" column="18" />
       </file>
-      <file name="/Python Console" timestamp="1557176115522">
+      <file name="/Python Console" timestamp="1557243118853">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1551726251118">
@@ -161,11 +161,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" timestamp="1553188745270">
         <mark key="'" line="89" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1557176084958">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1557243087923">
         <mark key="'" line="109" column="8" />
-        <mark key="[" line="139" column="0" />
-        <mark key="]" line="139" column="0" />
-        <mark key="." line="139" column="0" />
+        <mark key="[" line="128" column="112" />
+        <mark key="]" line="128" column="113" />
+        <mark key="." line="128" column="113" />
+        <mark key="^" line="128" column="113" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1551484442873">
         <mark key="'" line="325" column="4" />
@@ -210,8 +211,8 @@
         <mark key="^" line="12" column="32" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1557183656998">
-        <mark key="'" line="395" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1557243099826">
+        <mark key="'" line="450" column="0" />
         <mark key="[" line="348" column="0" />
         <mark key="]" line="348" column="0" />
         <mark key="." line="348" column="0" />
@@ -262,7 +263,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="108" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="93" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="88" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="80" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -362,6 +362,7 @@
       <jump line="382" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="389" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="395" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="450" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -430,13 +431,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Tk9UIA==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>reject the</text>
+        <text>reject</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLm1zYXMuQ2xhc3NwYXNzQXBpQ2xpZW50JywgTGVnYWN5QVBJQ2xpZW50TW9jaykKICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5DbGFzc3Bhc3NBcGlDbGllbnQnLCBMZWdhY3lBUElDbGllbnRNb2NrKQogICAgQHBhdGNoKCdjbGFzc3Bhc3MuYXBwcy52ZW51ZS5kYWwuc2NoZWR1bGVzLlNwb3RSZWNvbW1lbmRhdGlvbnNBUElDbGllbnQnLCBTcG90UmVjc0FQSUNsaWVudE1vY2spCiAgICBAcGF0Y2goJ2NsYXNzcGFzcy5hcHBzLnZlbnVlLmRhbC5zY2hlZHVsZXMuY3JlZGl0X3ByaWNlX2NsaWVudCcpCiAgICBkZWYgdGVzdF9hY3RlZF9vbl9vcHBzX2FyZV9ub3RfcmV0dXJuZWQoc2VsZiwgbW9ja19jbGllbnQpOgogICAgICAgIG9ianMgPSBzZWxmLmNyZWF0ZV91c2VyX3dpdGhfcGVybWlzc2lvbl9hbmRfbGlua2VkX3ZlbnVlKAogICAgICAgICAgICByZXF1ZXN0ZWRfcGVybXM9W1ZlbnVlUGVybWlzc2lvblR5cGUuQ0FOX1ZJRVdfT1BQT1JUVU5JVElFUywgVmVudWVQZXJtaXNzaW9uVHlwZS5JU19NQU5BR0VTUE9UU10pCgogICAgICAgIHZlbnVlID0gb2Jqc1snY2xhc3N0aXZpdHlfdmVudWUnXQoKICAgICAgICAjIHRoZSBlbmRwb2ludCBkZWZhdWx0cyB0byBzcGVjaWZ5aW5nIHNjaGVkdWxlcyBpbiB0aGUgbmV4dCAyIGRheXMsIHNvIG1ha2UgY2xhc3NlcyB0b21vcnJvdwogICAgICAgIGFwcGxpY2FibGVfZGF0ZSA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpLmRhdGUoKSArIGRhdGV0aW1lLnRpbWVkZWx0YShkYXlzPTEpCgogICAgICAgICMgY2xhc3MgZWl0aGVyIG5lZWRzIHRvIGJlIGRpc2FibGVkIG9yIG9uZSByZXNlcnZhdGlvbiBhd2F5IGZyb20gZnVsbAogICAgICAgIHBhc3Nwb3J0X3NjaGVkdWxlID0gdGVzdF9mYWN0b3JpZXMuUGFzc3BvcnRTY2hlZHVsZUZhY3RvcnkoCiAgICAgICAgICAgIGNsYXNzcGFzc19zcG90cz0xLAogICAgICAgICAgICBzY2hlZHVsZV9fcHVibGlzaGVkPVRydWUsCiAgICAgICAgICAgIHNjaGVkdWxlX19jbGFzc2l2aXR5X2NsYXNzX192ZW51ZT12ZW51ZSwKICAgICAgICAgICAgc2NoZWR1bGVfX3N0YXJ0X2RhdGU9YXBwbGljYWJsZV9kYXRlKQoKICAgICAgICBtb2NrX2NsaWVudC5xdW90ZV92My5yZXR1cm5fdmFsdWUgPSBDcmVkaXRRdW90ZVJlc3BvbnNlKAogICAgICAgICAgICB7J2NwJzogW0NyZWRpdFByaWNlUXVvdGUoY3JlZGl0X3ByaWNlPTUsIGxhYmVsPScnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVfaWQ9cGFzc3BvcnRfc2NoZWR1bGUuc2NoZWR1bGUucGssIHBheW91dD03Ljc3LCB0eXBlPSdjcCcpXSwKICAgICAgICAgICAgICdwcmVtaXVtJzogW0NyZWRpdFByaWNlUXVvdGUoY3JlZGl0X3ByaWNlPTEwLCBsYWJlbD0nJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVfaWQ9cGFzc3BvcnRfc2NoZWR1bGUuc2NoZWR1bGUucGssIHBheW91dD0xNS41NiwgdHlwZT0ncHJlbWl1bScpXX0pCgogICAgICAgIHNlbGYuX3BhdGNoX2FwaV9jbGllbnRfc2luZ2xlX21ldGhvZCgKICAgICAgICAgICAgJ2NsYXNzcGFzcy5hcHBzLnZlbnVlLmRhbC5taXNjLlVzZXJNYW5hZ2VTcG90TG9nLm9iamVjdHMnLAogICAgICAgICAgICAnY3JlYXRlJywKICAgICAgICAgICAgTWljcm9Nb2NrKGlkPTc3NykpCgogICAgICAgICMgR2VuZXJhdGUgdGhlIG9wcG9ydHVuaXR5CiAgICAgICAgZ2V0X29wcF9yZXNwb25zZSA9IHNlbGYuY2xpZW50LmdldCgiL2FwaS97fS9vcHBvcnR1bml0aWVzIi5mb3JtYXQodmVudWUudmVudWVfaWQpKQogICAgICAgIGdldF9vcHBfcGF5bG9hZCA9IHNlbGYuZXh0cmFjdF9wYXlsb2FkKGdldF9vcHBfcmVzcG9uc2UpCiAgICAgICAgcmV0dXJuZWRfb3BwID0gZ2V0X29wcF9wYXlsb2FkWydvcHBvcnR1bml0aWVzJ11bMF0KICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDIwMCwgZ2V0X29wcF9yZXNwb25zZS5zdGF0dXNfY29kZSkKCiAgICAgICAgIyBSZWplY3QgdGhlIG9wcG9ydHVuaXR5CiAgICAgICAgYWNjZXB0X3BheWxvYWQgPSB7CiAgICAgICAgICAgICJvcHBvcnR1bml0aWVzIjogW3sKICAgICAgICAgICAgICAgICJvcHBvcnR1bml0eV9pZCI6IHJldHVybmVkX29wcFsnaWQnXSwKICAgICAgICAgICAgICAgICJzcG90c19hZGRlZCI6IDMKICAgICAgICAgICAgfV0KICAgICAgICB9CiAgICAgICAgYWNjZXB0X3Jlc3BvbnNlID0gc2VsZi5wb3N0X2pzb24oIi9hcGkve30vb3Bwb3J0dW5pdGllcy9hY3QiLmZvcm1hdCh2ZW51ZS52ZW51ZV9pZCksIGFjY2VwdF9wYXlsb2FkKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMjAwLCBhY2NlcHRfcmVzcG9uc2Uuc3RhdHVzX2NvZGUpCgogICAgICAgICMgUmVxdWVzdCB0aGUgb3Bwb3J0dW5pdHkgYWdhaW4sIGV4cGVjdGluZyBOT1QgdG8gZ2V0IGl0CiAgICAgICAgZ2V0X29wcF9yZXNwb25zZSA9IHNlbGYuY2xpZW50LmdldCgiL2FwaS97fS9vcHBvcnR1bml0aWVzIi5mb3JtYXQodmVudWUudmVudWVfaWQpKQogICAgICAgIGdldF9vcHBfcGF5bG9hZCA9IHNlbGYuZXh0cmFjdF9wYXlsb2FkKGdldF9vcHBfcmVzcG9uc2UpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgyMDAsIGdldF9vcHBfcmVzcG9uc2Uuc3RhdHVzX2NvZGUpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgwLCBsZW4oZ2V0X29wcF9wYXlsb2FkWydvcHBvcnR1bml0aWVzJ10pKQo=</text>
+      <register name="0" type="4">
+        <text>saved_dict[schedule_id]['previously_acted_on']</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CiAgICAgICAgc2VsZi5fcGF0Y2hfYXBpX2NsaWVudF9zaW5nbGVfbWV0aG9kKAogICAgICAgICAgICAnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLm1pc2MuVXNlck1hbmFnZVNwb3RMb2cub2JqZWN0cycsCiAgICAgICAgICAgICdjcmVhdGUnLAogICAgICAgICAgICBNaWNyb01vY2soaWQ9Nzc3KSkK</text>
@@ -472,7 +473,7 @@
         <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eSA9IHRlc3RfZmFjdG9yaWVzLk9wcG9ydHVuaXR5RmFjdG9yeSgKICAgICAgICAgICAgdmVudWVfaWQ9dmVudWUudmVudWVfaWQsCiAgICAgICAgICAgIHByZXZpb3VzbHlfYWN0ZWRfb249VHJ1ZSwKICAgICAgICAgICAgc3BvdHNfYWRkZWQ9MywKICAgICAgICAgICAgY2xhc3N0aXZpdHlfY2xhc3NfX3ZlbnVlPXZlbnVlKQogICAgICAgICMgb3Bwb3J0dW5pdHkuc2F2ZSgpCgogICAgICAgICMgUmVxdWVzdCB0aGUgb3Bwb3J0dW5pdHksIGV4cGVjdGluZyBOT1QgdG8gZ2V0IGl0IGJlY2F1c2UgaXQncyBiZWVuIGFjdGVkIG9uIGFscmVhZHkKICAgICAgICBnZXRfb3BwX3Jlc3BvbnNlID0gc2VsZi5jbGllbnQuZ2V0KCIvYXBpL3t9L29wcG9ydHVuaXRpZXMiLmZvcm1hdCh2ZW51ZS52ZW51ZV9pZCkpCiAgICAgICAgZ2V0X29wcF9wYXlsb2FkID0gc2VsZi5leHRyYWN0X3BheWxvYWQoZ2V0X29wcF9yZXNwb25zZSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDIwMCwgZ2V0X29wcF9yZXNwb25zZS5zdGF0dXNfY29kZSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDAsIGxlbihnZXRfb3BwX3BheWxvYWRbJ29wcG9ydHVuaXRpZXMnXSkpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>128</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1133,17 +1134,16 @@
       </register>
     </registers>
     <search>
-      <last-search>reject the</last-search>
+      <last-search>reject</last-search>
       <last-offset />
-      <last-pattern>reject the</last-pattern>
+      <last-pattern>reject</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>param</entry>
         <entry>spots_added</entry>
         <entry>schedu</entry>
         <entry encoding="base64">XDxhY3RlZF9vbl9vcHBvcnR1bml0aWVzXD4=</entry>
@@ -1163,9 +1163,9 @@
         <entry>spot_</entry>
         <entry>not</entry>
         <entry>reject the</entry>
+        <entry>reject</entry>
       </history-search>
       <history-cmd>
-        <entry>122</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>94</entry>
         <entry>87</entry>
@@ -1185,6 +1185,7 @@
         <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>128</entry>
       </history-cmd>
       <history-expr />
       <history-input />
