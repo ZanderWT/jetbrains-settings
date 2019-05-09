@@ -212,8 +212,8 @@
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1557424045270">
-        <mark key="'" line="1107" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1557439234909">
+        <mark key="'" line="1617" column="16" />
         <mark key="[" line="565" column="0" />
         <mark key="]" line="565" column="8" />
         <mark key="." line="565" column="8" />
@@ -254,7 +254,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="131" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="124" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="166" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="237" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -345,7 +344,6 @@
       <jump line="1110" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="39" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1115" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="1109" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="742" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="678" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="639" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -354,6 +352,8 @@
       <jump line="97" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" />
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" />
       <jump line="87" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="1109" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="1617" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -425,7 +425,7 @@
         <text>xx</text>
       </register>
       <register name="/" type="4">
-        <text>get_spot_da</text>
+        <text>get_spot_data</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLm1zYXMuQ2xhc3NwYXNzQXBpQ2xpZW50JzogewogICAgICAgICAgICAnaGFuZGxlcnMnOiBbJ2NvbnNvbGVfZGVidWdfYWx3YXlzJ10sCiAgICAgICAgICAgICdsZXZlbCc6ICdERUJVRycsCiAgICAgICAgICAgICdwcm9wYWdhdGUnOiBGYWxzZQogICAgICAgIH0sCg==</text>
@@ -1147,9 +1147,9 @@
       </register>
     </registers>
     <search>
-      <last-search>get_spot_da</last-search>
+      <last-search>get_spot_data</last-search>
       <last-offset />
-      <last-pattern>get_spot_da</last-pattern>
+      <last-pattern>get_spot_data</last-pattern>
       <last-replace />
       <last-substitute>objs['ven;objs['classtivity_ven;</last-substitute>
       <last-dir>1</last-dir>
@@ -1157,8 +1157,6 @@
     </search>
     <history>
       <history-search>
-        <entry>credit_price_</entry>
-        <entry>creditprice</entry>
         <entry>_mock</entry>
         <entry>mock_credit</entry>
         <entry encoding="base64">XDxDcmVkaXRRdW90ZVJlc3BvbnNlXD4=</entry>
@@ -1177,6 +1175,8 @@
         <entry>with timer</entry>
         <entry>spot_data</entry>
         <entry>get_spot_da</entry>
+        <entry>get_total_book</entry>
+        <entry>get_spot_data</entry>
       </history-search>
       <history-cmd>
         <entry>27</entry>
