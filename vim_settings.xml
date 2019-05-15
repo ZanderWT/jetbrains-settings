@@ -255,8 +255,8 @@
         <mark key="." line="193" column="3" />
         <mark key="^" line="193" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1557437868153">
-        <mark key="'" line="87" column="38" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1557941087626">
+        <mark key="'" line="225" column="0" />
         <mark key="[" line="390" column="41" />
         <mark key="]" line="391" column="49" />
         <mark key="^" line="391" column="49" />
@@ -330,10 +330,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" />
-      <jump line="43" column="54" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" />
-      <jump line="90" column="80" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" />
-      <jump line="320" column="7" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="283" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="140" column="110" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
       <jump line="44" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
@@ -430,6 +426,10 @@
       <jump line="38" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/payments.py" />
       <jump line="20" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/payments.py" />
       <jump line="2" column="96" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
+      <jump line="465" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="590" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="581" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="225" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -501,7 +501,7 @@
         <text>&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>\]</text>
+        <text>to_save</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLnVpZCA9IGdldF9yZXNlcnZhdGlvbnNfcmVzcG9uc2VbJ3VpZCddCiAgICAgICAgc2VsZi52ZW51ZSA9IGdldF9yZXNlcnZhdGlvbnNfcmVzcG9uc2VbJ3ZlbnVlJ10KICAgICAgICBzZWxmLm1zYSA9IGdldF9yZXNlcnZhdGlvbnNfcmVzcG9uc2VbJ21zYSddCiAgICAgICAgc2VsZi52ZW51ZV9uYW1lID0gZ2V0X3Jlc2VydmF0aW9uc19yZXNwb25zZVsndmVudWVfbmFtZSddCiAgICAgICAgc2VsZi5sb2NhdGlvbiA9IGdldF9yZXNlcnZhdGlvbnNfcmVzcG9uc2VbJ2xvY2F0aW9uJ10KICAgICAgICBzZWxmLmNsYXNzX25hbWUgPSBnZXRfcmVzZXJ2YXRpb25zX3Jlc3BvbnNlWydjbGFzc19uYW1lJ10KICAgICAgICBzZWxmLmNsYXNzX2RhdGUgPSBnZXRfcmVzZXJ2YXRpb25zX3Jlc3BvbnNlWydjbGFzc19kYXRlJ10KICAgICAgICBzZWxmLnN0YXJ0X3RpbWUgPSBnZXRfcmVzZXJ2YXRpb25zX3Jlc3BvbnNlWydzdGFydF90aW1lJ10KICAgICAgICBzZWxmLmZpcnN0X25hbWUgPSBnZXRfcmVzZXJ2YXRpb25zX3Jlc3BvbnNlWydmaXJzdF9uYW1lJ10KICAgICAgICBzZWxmLmxhc3RfbmFtZSA9IGdldF9yZXNlcnZhdGlvbnNfcmVzcG9uc2VbJ2xhc3RfbmFtZSddCiAgICAgICAgc2VsZi5lbWFpbCA9IGdldF9yZXNlcnZhdGlvbnNfcmVzcG9uc2VbJ2VtYWlsJ10KICAgICAgICBzZWxmLnN0YXR1cyA9IGdldF9yZXNlcnZhdGlvbnNfcmVzcG9uc2VbJ3N0YXR1cyddCiAgICAgICAgc2VsZi5zb2xkX291dCA9IGdldF9yZXNlcnZhdGlvbnNfcmVzcG9uc2VbJ3NvbGRfb3V0J10KICAgICAgICBzZWxmLnJhdGUgPSBnZXRfcmVzZXJ2YXRpb25zX3Jlc3BvbnNlWydyYXRlJ10KICAgICAgICBzZWxmLnJlc2VydmF0aW9uX2lkID0gZ2V0X3Jlc2VydmF0aW9uc19yZXNwb25zZVsncmVzZXJ2YXRpb25faWQnXQogICAgICAgIHNlbGYuc2NoZWR1bGVfaWQgPSBnZXRfcmVzZXJ2YXRpb25zX3Jlc3BvbnNlWydzY2hlZHVsZV9pZCddCg==</text>
@@ -1203,9 +1203,9 @@
       </register>
     </registers>
     <search>
-      <last-search>\]</last-search>
+      <last-search>to_save</last-search>
       <last-offset />
-      <last-pattern>\]</last-pattern>
+      <last-pattern>to_save</last-pattern>
       <last-replace />
       <last-substitute>\]</last-substitute>
       <last-dir>1</last-dir>
@@ -1213,8 +1213,6 @@
     </search>
     <history>
       <history-search>
-        <entry>@patch</entry>
-        <entry encoding="base64">XDxhc3NlcnRfbm90X2NhbGxlZFw+</entry>
         <entry encoding="base64">XDxtb2NrX2RhbF9yZXN1bHRcPg==</entry>
         <entry encoding="base64">XDxWZW51ZUFkbWluUmVwb3J0XD4=</entry>
         <entry>realtime</entry>
@@ -1233,6 +1231,8 @@
         <entry>self.*= .*[;;</entry>
         <entry>self.*= .*\[</entry>
         <entry>\]</entry>
+        <entry>generate_oppor</entry>
+        <entry>to_save</entry>
       </history-search>
       <history-cmd>
         <entry>128</entry>
