@@ -80,8 +80,8 @@
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/schedule/mindbody/fetcher.py" timestamp="1551803043266">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/reports.py" timestamp="1557874422886">
-        <mark key="'" line="28" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/reports.py" timestamp="1557959659310">
+        <mark key="'" line="37" column="27" />
         <mark key="[" line="11" column="0" />
         <mark key="]" line="35" column="0" />
         <mark key="." line="7" column="0" />
@@ -143,12 +143,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1557437747950">
         <mark key="'" line="19" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1557874415954">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1557959903613">
         <mark key="'" line="96" column="15" />
-        <mark key="[" line="104" column="15" />
-        <mark key="]" line="104" column="31" />
-        <mark key="^" line="104" column="64" />
-        <mark key="." line="104" column="64" />
+        <mark key="[" line="108" column="8" />
+        <mark key="]" line="108" column="14" />
+        <mark key="^" line="108" column="14" />
+        <mark key="." line="108" column="14" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1557175542222">
         <mark key="'" line="581" column="6" />
@@ -221,12 +221,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1557507448421">
         <mark key="'" line="32" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/payments.py" timestamp="1557958403718">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/payments.py" timestamp="1557959875998">
         <mark key="'" line="20" column="4" />
-        <mark key="[" line="50" column="65" />
-        <mark key="]" line="51" column="77" />
-        <mark key="." line="51" column="77" />
-        <mark key="^" line="51" column="77" />
+        <mark key="[" line="50" column="63" />
+        <mark key="]" line="50" column="109" />
+        <mark key="." line="50" column="109" />
+        <mark key="^" line="50" column="109" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" timestamp="1557942636533">
         <mark key="[" line="4" column="0" />
@@ -324,7 +324,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="531" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="828" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="812" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="850" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
@@ -424,6 +423,7 @@
       <jump line="202" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
       <jump line="203" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
       <jump line="207" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
+      <jump line="37" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/reports.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -495,43 +495,43 @@
         <text>fbb7220902fd473c80c2967cecb3ce81</text>
       </register>
       <register name="/" type="4">
-        <text>fbb</text>
+        <text>venuead</text>
       </register>
       <register name="0" type="4">
         <text>fbb7220902fd473c80c2967cecb3ce81</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBxcyA9IFZlbnVlQWRtaW5SZXBvcnQub2JqZWN0cy5maWx0ZXIodmVudWVfaWQ9dmVudWVfaWQpCiAgICAgICAgaWYgc3RhcnRfZGF0ZToKICAgICAgICAgICAgcXMgPSBxcy5maWx0ZXIoY2xhc3NfZGF0ZV9fZ3RlPXN0YXJ0X2RhdGUpCiAgICAgICAgaWYgZW5kX2RhdGU6CiAgICAgICAgICAgIHFzID0gcXMuZmlsdGVyKGNsYXNzX2RhdGVfX2x0ZT1lbmRfZGF0ZSkKICAgICAgICByZXR1cm4gcXMK</text>
       </register>
       <register name="q" type="4">
         <text>np</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y2xhc3MgVmVudWVQYXltZW50SGlzdG9yeShtb2RlbHMuTW9kZWwpOgoKICAgIGNsYXNzIE1ldGEob2JqZWN0KToKICAgICAgICBtYW5hZ2VkID0gRmFsc2UKICAgICAgICBkYl90YWJsZSA9ICd2ZW51ZV9wYXltZW50X2hpc3RvcnknCgogICAgaWQgPSBtb2RlbHMuQXV0b0ZpZWxkKHByaW1hcnlfa2V5PVRydWUpCiAgICByZXNlcnZhdGlvbiA9IG1vZGVscy5Gb3JlaWduS2V5KCd2ZW51ZS5QYXNzcG9ydFJlc2VydmF0aW9uJykKICAgIHJlc2VydmF0aW9uX2tleSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1GYWxzZSwgYmxhbms9RmFsc2UsIG1heF9sZW5ndGg9MTAyNCkKICAgIHNjaGVkdWxlID0gbW9kZWxzLkZvcmVpZ25LZXkoJ3ZlbnVlLkNsYXNzZXNUaW1ldGFibGUnKQogICAgdmVudWUgPSBtb2RlbHMuRm9yZWlnbktleSgndmVudWUuQ2xhc3N0aXZpdHlWZW51ZXMnKQogICAgdmVudWVfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBtc2EgPSBtb2RlbHMuRm9yZWlnbktleSgndmVudWUuTXNhJywgbnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgbG9jYXRpb24gPSBtb2RlbHMuQ2hhckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSwgbWF4X2xlbmd0aD0xMDI0KQogICAgY2xhc3NfcmVmID0gbW9kZWxzLkZvcmVpZ25LZXkoJ3ZlbnVlLkNsYXNzdGl2aXR5Q2xhc3NlcycsIGRiX2NvbHVtbj0nY2xhc3NfaWQnKQogICAgY2xhc3NfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBtYXhfY2FwYWNpdHkgPSBtb2RlbHMuSW50ZWdlckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIHRvdGFsX3Zpc2l0cyA9IG1vZGVscy5JbnRlZ2VyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgdG90YWxfdmlzaXRzX2xhdGVfY2FuY2VsID0gbW9kZWxzLkludGVnZXJGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBzdGFydF9kYXRlID0gbW9kZWxzLkRhdGVGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBzdGFydF90aW1lID0gbW9kZWxzLlRpbWVGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBmaXJzdF9uYW1lID0gbW9kZWxzLkNoYXJGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUsIG1heF9sZW5ndGg9MTAyNCkKICAgIGxhc3RfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBlbWFpbCA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBzdGF0dXMgPSBtb2RlbHMuQ2hhckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSwgbWF4X2xlbmd0aD0xMDI0KQogICAgbGF0ZV9jYW5jZWxsYXRpb24gPSBtb2RlbHMuVGltZUZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGRhdGVfb2ZfY2FuY2VsID0gbW9kZWxzLkRhdGVUaW1lRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgdXBkYXRlZF9vbiA9IG1vZGVscy5EYXRlVGltZUZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGlzX3JlbW92ZSA9IG1vZGVscy5OdWxsQm9vbGVhbkZpZWxkKCkKICAgIG9yZyA9IG1vZGVscy5Gb3JlaWduS2V5KCd2ZW51ZS5Pcmdhbml6YXRpb24nLCBudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBiYXNlX3ByaWNlID0gbW9kZWxzLkZsb2F0RmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgc29sZF9vdXRfcHJpY2UgPSBtb2RlbHMuRmxvYXRGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBvdmVycmlkZV9wcmljZSA9IG1vZGVscy5GbG9hdEZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGlzX3NvbGRfb3V0ID0gbW9kZWxzLkJvb2xlYW5GaWVsZCgpCiAgICBpc19zb2xkX291dF93aXRoX2xhdGVfY2FuY2VscyA9IG1vZGVscy5Cb29sZWFuRmllbGQoKQogICAgcmVzZXJ2YXRpb25fcGFpZCA9IG1vZGVscy5Cb29sZWFuRmllbGQoKQoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Y2xhc3MgVmVudWVQYXltZW50SGlzdG9yeShtb2RlbHMuTW9kZWwpOgoKICAgIGNsYXNzIE1ldGEob2JqZWN0KToKICAgICAgICBtYW5hZ2VkID0gRmFsc2UKICAgICAgICBkYl90YWJsZSA9ICd2ZW51ZV9wYXltZW50X2hpc3RvcnknCgogICAgaWQgPSBtb2RlbHMuQXV0b0ZpZWxkKHByaW1hcnlfa2V5PVRydWUpCiAgICByZXNlcnZhdGlvbiA9IG1vZGVscy5Gb3JlaWduS2V5KCd2ZW51ZS5QYXNzcG9ydFJlc2VydmF0aW9uJykKICAgIHJlc2VydmF0aW9uX2tleSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1GYWxzZSwgYmxhbms9RmFsc2UsIG1heF9sZW5ndGg9MTAyNCkKICAgIHNjaGVkdWxlID0gbW9kZWxzLkZvcmVpZ25LZXkoJ3ZlbnVlLkNsYXNzZXNUaW1ldGFibGUnKQogICAgdmVudWUgPSBtb2RlbHMuRm9yZWlnbktleSgndmVudWUuQ2xhc3N0aXZpdHlWZW51ZXMnKQogICAgdmVudWVfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBtc2EgPSBtb2RlbHMuRm9yZWlnbktleSgndmVudWUuTXNhJywgbnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgbG9jYXRpb24gPSBtb2RlbHMuQ2hhckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSwgbWF4X2xlbmd0aD0xMDI0KQogICAgY2xhc3NfcmVmID0gbW9kZWxzLkZvcmVpZ25LZXkoJ3ZlbnVlLkNsYXNzdGl2aXR5Q2xhc3NlcycsIGRiX2NvbHVtbj0nY2xhc3NfaWQnKQogICAgY2xhc3NfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBtYXhfY2FwYWNpdHkgPSBtb2RlbHMuSW50ZWdlckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIHRvdGFsX3Zpc2l0cyA9IG1vZGVscy5JbnRlZ2VyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgdG90YWxfdmlzaXRzX2xhdGVfY2FuY2VsID0gbW9kZWxzLkludGVnZXJGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBzdGFydF9kYXRlID0gbW9kZWxzLkRhdGVGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBzdGFydF90aW1lID0gbW9kZWxzLlRpbWVGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBmaXJzdF9uYW1lID0gbW9kZWxzLkNoYXJGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUsIG1heF9sZW5ndGg9MTAyNCkKICAgIGxhc3RfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBlbWFpbCA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBzdGF0dXMgPSBtb2RlbHMuQ2hhckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSwgbWF4X2xlbmd0aD0xMDI0KQogICAgbGF0ZV9jYW5jZWxsYXRpb24gPSBtb2RlbHMuVGltZUZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGRhdGVfb2ZfY2FuY2VsID0gbW9kZWxzLkRhdGVUaW1lRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgdXBkYXRlZF9vbiA9IG1vZGVscy5EYXRlVGltZUZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGlzX3JlbW92ZSA9IG1vZGVscy5OdWxsQm9vbGVhbkZpZWxkKCkKICAgIG9yZyA9IG1vZGVscy5Gb3JlaWduS2V5KCd2ZW51ZS5Pcmdhbml6YXRpb24nLCBudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBiYXNlX3ByaWNlID0gbW9kZWxzLkZsb2F0RmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgc29sZF9vdXRfcHJpY2UgPSBtb2RlbHMuRmxvYXRGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBvdmVycmlkZV9wcmljZSA9IG1vZGVscy5GbG9hdEZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGlzX3NvbGRfb3V0ID0gbW9kZWxzLkJvb2xlYW5GaWVsZCgpCiAgICBpc19zb2xkX291dF93aXRoX2xhdGVfY2FuY2VscyA9IG1vZGVscy5Cb29sZWFuRmllbGQoKQogICAgcmVzZXJ2YXRpb25fcGFpZCA9IG1vZGVscy5Cb29sZWFuRmllbGQoKQoK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3VpZCc6ICcyMDAwMDAnLAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdWlkPScyMDAwJywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3VpZCc6ICcyMDAwMDAnLAo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdWlkPScyMDAwJywK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB1aWQ9JzgwMDEnLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdWlkPScyMDAwJywK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdWlkPScxMDAwJywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB1aWQ9JzgwMDEnLAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdWlkPScyMDAwJywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdWlkPScxMDAwJywK</text>
       </register>
       <register name=":" type="4">
         <text>468</text>
@@ -1195,17 +1195,16 @@
       </register>
     </registers>
     <search>
-      <last-search>fbb</last-search>
+      <last-search>venuead</last-search>
       <last-offset />
-      <last-pattern>fbb</last-pattern>
+      <last-pattern>venuead</last-pattern>
       <last-replace>'</last-replace>
       <last-substitute>&quot;</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>= \zs</entry>
         <entry>= \zs\(\w\+\)</entry>
         <entry>self.*= .*[</entry>
         <entry>self.*= .*[;;</entry>
@@ -1225,6 +1224,7 @@
         <entry>uid</entry>
         <entry encoding="base64">XDxSZWFsdGltZVJlc2VydmF0aW9uXD4=</entry>
         <entry>fbb</entry>
+        <entry>venuead</entry>
       </history-search>
       <history-cmd>
         <entry>351</entry>
