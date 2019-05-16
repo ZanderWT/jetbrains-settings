@@ -22,6 +22,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/smartspot.py" timestamp="1547052278595">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/scripts/run_ecs_task.py" timestamp="1558045316852">
+        <mark key="'" line="89" column="19" />
+      </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django_rq/queues.py" timestamp="1542742105655">
         <mark key="'" line="21" column="10" />
       </file>
@@ -41,11 +44,15 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" timestamp="1548866758461">
         <mark key="'" line="67" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" timestamp="1557862083915">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" timestamp="1558045253064">
         <mark key="'" line="43" column="0" />
+        <mark key="[" line="2" column="33" />
+        <mark key="]" line="2" column="107" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" timestamp="1558024906863">
-        <mark key="'" line="0" column="1" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" timestamp="1558045193616">
+        <mark key="'" line="29" column="4" />
+        <mark key="[" line="97" column="4" />
+        <mark key="]" line="97" column="40" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1552668746261">
         <mark key="'" line="78" column="22" />
@@ -131,7 +138,7 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1557437747950">
         <mark key="'" line="19" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1558024726976">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1558046038306">
         <mark key="'" line="95" column="15" />
         <mark key="[" line="13" column="0" />
         <mark key="]" line="13" column="0" />
@@ -168,11 +175,11 @@
         <mark key="^" line="54" column="45" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" timestamp="1557873822262" />
-      <file name="/Python Console" timestamp="1557948298106">
+      <file name="/Python Console" timestamp="1558046215039">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1558043941809">
-        <mark key="'" line="68" column="32" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1558045878393">
+        <mark key="'" line="503" column="16" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1556641913581">
         <mark key="'" line="7113" column="22" />
@@ -302,21 +309,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/payments.py" />
-      <jump line="2" column="96" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
-      <jump line="465" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="590" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="581" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="225" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="1012" column="59" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
-      <jump line="4" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
-      <jump line="21" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
-      <jump line="37" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
-      <jump line="22" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
-      <jump line="36" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
-      <jump line="824" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
-      <jump line="829" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
-      <jump line="831" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="836" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="842" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="992" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
@@ -402,6 +394,21 @@
       <jump line="993" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="1029" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="1042" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
+      <jump line="99" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="97" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="20" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="22" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="40" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="60" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="94" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="29" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="21" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/scripts/run_ecs_task.py" />
+      <jump line="79" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/scripts/run_ecs_task.py" />
+      <jump line="80" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/scripts/run_ecs_task.py" />
+      <jump line="89" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/scripts/run_ecs_task.py" />
+      <jump line="465" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="147" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="503" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -473,10 +480,10 @@
         <text>fbb7220902fd473c80c2967cecb3ce81</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxfcGF0Y2hfZ2V0X3JlYWx0aW1lX3Jlc2VydmF0aW9uX3JlY29yZHNfaW5fZGF0ZV9yYW5nZVw+</text>
+        <text encoding="base64">XDxjcmVhdGVkX3BheW91dF9mZXRjaGVzXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIChyJyg/UDx2ZW51ZV9pZD5cZCspL3JhdGluZ3MvcmV2aWV3cy8oP1A8cmF0aW5nX2lkPlxkKykvcmVzcG9uc2UnLCB2aWV3cy5WZW51ZVJhdGluZ3NSZXNwb25zZVZpZXcsICd2ZW51ZV9yYXRpbmdzX3Jlc3BvbnNlJyksICAjIG5vcWEK</text>
+      <register name="0" type="4">
+        <text>https://github.com/classpass/cronick/blob/master/config/production.yml.tmpl</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -512,7 +519,7 @@
         <text encoding="base64">Y2xhc3MgVmVudWVQYXltZW50SGlzdG9yeShtb2RlbHMuTW9kZWwpOgoKICAgIGNsYXNzIE1ldGEob2JqZWN0KToKICAgICAgICBtYW5hZ2VkID0gRmFsc2UKICAgICAgICBkYl90YWJsZSA9ICd2ZW51ZV9wYXltZW50X2hpc3RvcnknCgogICAgaWQgPSBtb2RlbHMuQXV0b0ZpZWxkKHByaW1hcnlfa2V5PVRydWUpCiAgICByZXNlcnZhdGlvbiA9IG1vZGVscy5Gb3JlaWduS2V5KCd2ZW51ZS5QYXNzcG9ydFJlc2VydmF0aW9uJykKICAgIHJlc2VydmF0aW9uX2tleSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1GYWxzZSwgYmxhbms9RmFsc2UsIG1heF9sZW5ndGg9MTAyNCkKICAgIHNjaGVkdWxlID0gbW9kZWxzLkZvcmVpZ25LZXkoJ3ZlbnVlLkNsYXNzZXNUaW1ldGFibGUnKQogICAgdmVudWUgPSBtb2RlbHMuRm9yZWlnbktleSgndmVudWUuQ2xhc3N0aXZpdHlWZW51ZXMnKQogICAgdmVudWVfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBtc2EgPSBtb2RlbHMuRm9yZWlnbktleSgndmVudWUuTXNhJywgbnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgbG9jYXRpb24gPSBtb2RlbHMuQ2hhckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSwgbWF4X2xlbmd0aD0xMDI0KQogICAgY2xhc3NfcmVmID0gbW9kZWxzLkZvcmVpZ25LZXkoJ3ZlbnVlLkNsYXNzdGl2aXR5Q2xhc3NlcycsIGRiX2NvbHVtbj0nY2xhc3NfaWQnKQogICAgY2xhc3NfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBtYXhfY2FwYWNpdHkgPSBtb2RlbHMuSW50ZWdlckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIHRvdGFsX3Zpc2l0cyA9IG1vZGVscy5JbnRlZ2VyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgdG90YWxfdmlzaXRzX2xhdGVfY2FuY2VsID0gbW9kZWxzLkludGVnZXJGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBzdGFydF9kYXRlID0gbW9kZWxzLkRhdGVGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBzdGFydF90aW1lID0gbW9kZWxzLlRpbWVGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBmaXJzdF9uYW1lID0gbW9kZWxzLkNoYXJGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUsIG1heF9sZW5ndGg9MTAyNCkKICAgIGxhc3RfbmFtZSA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBlbWFpbCA9IG1vZGVscy5DaGFyRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlLCBtYXhfbGVuZ3RoPTEwMjQpCiAgICBzdGF0dXMgPSBtb2RlbHMuQ2hhckZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSwgbWF4X2xlbmd0aD0xMDI0KQogICAgbGF0ZV9jYW5jZWxsYXRpb24gPSBtb2RlbHMuVGltZUZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGRhdGVfb2ZfY2FuY2VsID0gbW9kZWxzLkRhdGVUaW1lRmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgdXBkYXRlZF9vbiA9IG1vZGVscy5EYXRlVGltZUZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGlzX3JlbW92ZSA9IG1vZGVscy5OdWxsQm9vbGVhbkZpZWxkKCkKICAgIG9yZyA9IG1vZGVscy5Gb3JlaWduS2V5KCd2ZW51ZS5Pcmdhbml6YXRpb24nLCBudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBiYXNlX3ByaWNlID0gbW9kZWxzLkZsb2F0RmllbGQobnVsbD1UcnVlLCBibGFuaz1UcnVlKQogICAgc29sZF9vdXRfcHJpY2UgPSBtb2RlbHMuRmxvYXRGaWVsZChudWxsPVRydWUsIGJsYW5rPVRydWUpCiAgICBvdmVycmlkZV9wcmljZSA9IG1vZGVscy5GbG9hdEZpZWxkKG51bGw9VHJ1ZSwgYmxhbms9VHJ1ZSkKICAgIGlzX3NvbGRfb3V0ID0gbW9kZWxzLkJvb2xlYW5GaWVsZCgpCiAgICBpc19zb2xkX291dF93aXRoX2xhdGVfY2FuY2VscyA9IG1vZGVscy5Cb29sZWFuRmllbGQoKQogICAgcmVzZXJ2YXRpb25fcGFpZCA9IG1vZGVscy5Cb29sZWFuRmllbGQoKQoK</text>
       </register>
       <register name=":" type="4">
-        <text>468</text>
+        <text>108</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1173,9 +1180,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxfcGF0Y2hfZ2V0X3JlYWx0aW1lX3Jlc2VydmF0aW9uX3JlY29yZHNfaW5fZGF0ZV9yYW5nZVw+</last-search>
+      <last-search encoding="base64">XDxjcmVhdGVkX3BheW91dF9mZXRjaGVzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxfcGF0Y2hfZ2V0X3JlYWx0aW1lX3Jlc2VydmF0aW9uX3JlY29yZHNfaW5fZGF0ZV9yYW5nZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxjcmVhdGVkX3BheW91dF9mZXRjaGVzXD4=</last-pattern>
       <last-replace>'</last-replace>
       <last-substitute>&quot;</last-substitute>
       <last-dir>1</last-dir>
@@ -1183,36 +1190,33 @@
     </search>
     <history>
       <history-search>
-        <entry>to_save</entry>
-        <entry>venueadminreport</entry>
-        <entry>:.*</entry>
-        <entry>&quot;</entry>
-        <entry>realtimereservation</entry>
-        <entry>class_date</entry>
-        <entry>sold</entry>
-        <entry>realtimereservation(</entry>
-        <entry encoding="base64">XDxyZWZvcm1hdF9yZWFsdGltZV9yZXNlcnZhdGlvblw+</entry>
-        <entry>2000</entry>
         <entry>uid</entry>
         <entry encoding="base64">XDxSZWFsdGltZVJlc2VydmF0aW9uXD4=</entry>
         <entry>fbb</entry>
         <entry>venuead</entry>
-        <entry>job</entry>
         <entry>response</entry>
         <entry>date_range</entry>
         <entry encoding="base64">XDxtb2NrX3JlYWx0aW1lX3Jlc2VydmF0aW9uX2Vhcmx5XD4=</entry>
         <entry encoding="base64">XDxtb2NrX2dldF9yZWFsdGltZV9yZXNlcnZhdGlvbl9yZWNvcmRzX2luX2RhdGVfcmFuZ2VfcmVzdWx0XD4=</entry>
         <entry encoding="base64">XDxfcGF0Y2hfZ2V0X3JlYWx0aW1lX3Jlc2VydmF0aW9uX3JlY29yZHNfaW5fZGF0ZV9yYW5nZVw+</entry>
+        <entry>@job</entry>
+        <entry>job</entry>
+        <entry encoding="base64">XDxyZWJ1aWxkX3JldmVudWVfY2FjaGVzXD4=</entry>
+        <entry encoding="base64">XDxyZWJ1aWxkX3JldmVudWVfY2FjaGVzX2Zvcl92ZW51ZV9saXN0XD4=</entry>
+        <entry encoding="base64">XDxwdWxsX2Zvcl92ZW51ZV9pZF90YXNrXD4=</entry>
+        <entry encoding="base64">XDxDT01NQU5EU1w+</entry>
+        <entry encoding="base64">XDxjb21tYW5kXD4=</entry>
+        <entry encoding="base64">XDxydW5fdGFza1w+</entry>
+        <entry>to fetch</entry>
+        <entry>pull_for_ven</entry>
+        <entry encoding="base64">XDxjcmVhdGVkX3BheW91dF9mZXRjaGVzXD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>351</entry>
-        <entry>63</entry>
         <entry>8</entry>
         <entry>212</entry>
         <entry>103</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>77</entry>
-        <entry>action ShowBookmarks</entry>
         <entry encoding="base64">JzwsJz5zO1woXHdcK1wpPTsnXDEnOiA7Zw==</entry>
         <entry encoding="base64">JzwsJz5zO3NlbGYuXChcd1wrXCkgPSBcenMuKjtcMTtn</entry>
         <entry>s;,;=None,;g</entry>
@@ -1223,8 +1227,11 @@
         <entry encoding="base64">JzwsJz5zOzouKjs7</entry>
         <entry encoding="base64">JzwsJz5zOyI7Jztn</entry>
         <entry>action ReformatCode</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>468</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
+        <entry>112</entry>
+        <entry>108</entry>
       </history-cmd>
       <history-expr />
       <history-input />
