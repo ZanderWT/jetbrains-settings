@@ -18,8 +18,8 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/ReportingDao.java" timestamp="1551726522046">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" timestamp="1558043534593">
-        <mark key="'" line="252" column="20" />
+      <file name="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" timestamp="1558047770090">
+        <mark key="'" line="206" column="83" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/README.md" timestamp="1552404375900">
         <mark key="'" line="106" column="30" />
@@ -153,7 +153,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="112" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="89" column="93" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="90" column="109" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="93" column="81" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
@@ -247,12 +246,13 @@
       <jump line="168" column="31" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
       <jump line="213" column="15" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
       <jump line="211" column="73" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
-      <jump line="206" column="24" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
       <jump line="42" column="12" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/resources/EvaluatePriceResource.java" />
       <jump line="203" column="28" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
-      <jump line="220" column="26" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
       <jump line="197" column="64" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
-      <jump line="252" column="20" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
+      <jump line="252" column="26" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
+      <jump line="253" column="58" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
+      <jump line="220" column="26" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
+      <jump line="206" column="83" filename="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/controller/PriceFloorController.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -324,7 +324,7 @@
         <text>NullPointerException</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzY2hlZHVsZVByaWNlXD4=</text>
+        <text encoding="base64">XDx2ZW51ZUZsb29yTWFwXD4=</text>
       </register>
       <register name="0" type="4">
         <text>Date.valueOf(&quot;2018-01-01&quot;)</text>
@@ -411,9 +411,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzY2hlZHVsZVByaWNlXD4=</last-search>
+      <last-search encoding="base64">XDx2ZW51ZUZsb29yTWFwXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzY2hlZHVsZVByaWNlXD4=</last-pattern>
+      <last-pattern encoding="base64">XDx2ZW51ZUZsb29yTWFwXD4=</last-pattern>
       <last-replace>rejected</last-replace>
       <last-substitute>shown</last-substitute>
       <last-dir>-1</last-dir>
@@ -421,8 +421,6 @@
     </search>
     <history>
       <history-search>
-        <entry>sho</entry>
-        <entry>builder</entry>
         <entry>show</entry>
         <entry>tostring</entry>
         <entry>shown</entry>
@@ -438,9 +436,11 @@
         <entry>return</entry>
         <entry encoding="base64">XDxwcmljZXNcPg==</entry>
         <entry>throw</entry>
-        <entry encoding="base64">XDxldmFsdWF0ZVByaWNlRm9yU2NoZWR1bGVJZFw+</entry>
         <entry encoding="base64">XDx2ZW51ZURheUV4Y2VwdGlvbnNNYXBcPg==</entry>
         <entry encoding="base64">XDxzY2hlZHVsZVByaWNlXD4=</entry>
+        <entry>floor</entry>
+        <entry encoding="base64">XDxldmFsdWF0ZVByaWNlRm9yU2NoZWR1bGVJZFw+</entry>
+        <entry encoding="base64">XDx2ZW51ZUZsb29yTWFwXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>69</entry>
