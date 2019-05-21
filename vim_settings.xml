@@ -186,7 +186,7 @@
         <mark key="^" line="19" column="24" />
         <mark key="." line="19" column="24" />
       </file>
-      <file name="/Python Console" timestamp="1558460529094">
+      <file name="/Python Console" timestamp="1558466329679">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1558460087849">
@@ -202,14 +202,15 @@
         <mark key="^" line="7141" column="40" />
         <mark key="." line="7141" column="40" />
       </file>
-      <file name="/fragment.py" timestamp="1558460537556">
+      <file name="/fragment.py" timestamp="1558466366619">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" timestamp="1558462612977">
-        <mark key="'" line="45" column="0" />
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="." line="13" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" timestamp="1558466388594">
+        <mark key="'" line="75" column="39" />
+        <mark key="[" line="12" column="17" />
+        <mark key="]" line="13" column="32" />
+        <mark key="." line="13" column="32" />
+        <mark key="^" line="13" column="32" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" timestamp="1553188745270">
         <mark key="'" line="89" column="0" />
@@ -233,7 +234,13 @@
         <mark key="." line="60" column="56" />
         <mark key="^" line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" timestamp="1558462269339" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" timestamp="1558466315190">
+        <mark key="'" line="12" column="13" />
+        <mark key="[" line="5" column="21" />
+        <mark key="]" line="5" column="21" />
+        <mark key="^" line="5" column="110" />
+        <mark key="." line="5" column="242" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" timestamp="1557862393914">
         <mark key="'" line="90" column="80" />
       </file>
@@ -326,13 +333,8 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
-      <jump line="988" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
-      <jump line="6" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
-      <jump line="45" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
       <jump line="39" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
       <jump line="60" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/payments.py" />
-      <jump line="5" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
       <jump line="970" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="975" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="993" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
@@ -426,6 +428,11 @@
       <jump line="23" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
       <jump line="21" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
       <jump line="338" column="55" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
+      <jump line="6" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
+      <jump line="75" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
+      <jump line="20" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
+      <jump line="5" column="90" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
+      <jump line="12" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -494,10 +501,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>=None</text>
       </register>
       <register name="/" type="4">
-        <text>)</text>
+        <text>loca</text>
       </register>
       <register name="0" type="4">
         <text>schedule_id</text>
@@ -1210,18 +1217,16 @@
       </register>
     </registers>
     <search>
-      <last-search>)</last-search>
+      <last-search>loca</last-search>
       <last-offset />
-      <last-pattern>)</last-pattern>
-      <last-replace />
+      <last-pattern>loca</last-pattern>
+      <last-replace>=None,</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>da</entry>
-        <entry>managespotview</entry>
         <entry>managespotsview</entry>
         <entry>request.para</entry>
         <entry>request.qu</entry>
@@ -1235,14 +1240,15 @@
         <entry>start_</entry>
         <entry encoding="base64">XDxSb3N0ZXJzUGFzdFNjaGVkdWxlU2VyaWFsaXplclw+</entry>
         <entry encoding="base64">ICA=</entry>
-        <entry>asdf</entry>
         <entry>foo</entry>
         <entry>'</entry>
-        <entry>,</entry>
         <entry>)</entry>
+        <entry>,</entry>
+        <entry>asdf</entry>
+        <entry>location</entry>
+        <entry>loca</entry>
       </history-search>
       <history-cmd>
-        <entry>112</entry>
         <entry>108</entry>
         <entry>51</entry>
         <entry encoding="base64">JzwsJz5zOyI7Jztn</entry>
@@ -1261,6 +1267,7 @@
         <entry>321</entry>
         <entry encoding="base64">JzwsJz5zOyc7O2c=</entry>
         <entry encoding="base64">JzwsJz5zOyw7O2c=</entry>
+        <entry>s;,;=None,;g</entry>
         <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
