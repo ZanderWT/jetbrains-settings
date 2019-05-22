@@ -179,6 +179,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1549921072534">
         <mark key="'" line="10" column="23" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" timestamp="1558540588359">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" timestamp="1545866368757">
         <mark key="'" line="52" column="4" />
       </file>
@@ -268,11 +271,11 @@
         <mark key="^" line="193" column="3" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1557941087626">
-        <mark key="'" line="225" column="0" />
-        <mark key="[" line="390" column="41" />
-        <mark key="]" line="391" column="49" />
-        <mark key="^" line="391" column="49" />
-        <mark key="." line="391" column="49" />
+        <mark key="'" line="218" column="0" />
+        <mark key="[" line="383" column="41" />
+        <mark key="]" line="384" column="49" />
+        <mark key="^" line="384" column="49" />
+        <mark key="." line="384" column="49" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" timestamp="1557177382556">
         <mark key="'" line="67" column="8" />
@@ -342,14 +345,13 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" timestamp="1558462285431">
         <mark key="'" line="338" column="55" />
-        <mark key="[" line="406" column="50" />
-        <mark key="]" line="406" column="50" />
-        <mark key="." line="406" column="50" />
-        <mark key="^" line="412" column="34" />
+        <mark key="[" line="376" column="50" />
+        <mark key="]" line="376" column="50" />
+        <mark key="." line="376" column="50" />
+        <mark key="^" line="382" column="34" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="50" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
       <jump line="64" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
       <jump line="1" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
       <jump line="68" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
@@ -449,6 +451,7 @@
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="4" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="10" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -520,7 +523,7 @@
         <text>, self.mock_event_collector</text>
       </register>
       <register name="/" type="4">
-        <text>event</text>
+        <text>view_venue_report</text>
       </register>
       <register name="0" type="4">
         <text>schedule_id</text>
@@ -1233,9 +1236,9 @@
       </register>
     </registers>
     <search>
-      <last-search>event</last-search>
+      <last-search>view_venue_report</last-search>
       <last-offset />
-      <last-pattern>event</last-pattern>
+      <last-pattern>view_venue_report</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1243,7 +1246,6 @@
     </search>
     <history>
       <history-search>
-        <entry>request.qu</entry>
         <entry>day_of</entry>
         <entry>self.client.get</entry>
         <entry>4589275568</entry>
@@ -1263,6 +1265,7 @@
         <entry>loca</entry>
         <entry encoding="base64">XDxQYXJ0bmVyRGFzaGJvYXJkRXZlbnRzXD4=</entry>
         <entry>event</entry>
+        <entry>view_venue_report</entry>
       </history-search>
       <history-cmd>
         <entry>s;:; =;g</entry>
