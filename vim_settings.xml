@@ -48,6 +48,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" timestamp="1548866758461">
         <mark key="'" line="67" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" timestamp="1558560336583">
+        <mark key="'" line="84" column="27" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1552668746261">
         <mark key="'" line="78" column="22" />
         <mark key="[" line="141" column="91" />
@@ -270,8 +273,8 @@
         <mark key="." line="193" column="3" />
         <mark key="^" line="193" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1558552090722">
-        <mark key="'" line="185" column="25" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1558560307680">
+        <mark key="'" line="79" column="79" />
         <mark key="[" line="383" column="41" />
         <mark key="]" line="384" column="49" />
         <mark key="^" line="384" column="49" />
@@ -352,9 +355,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="83" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
-      <jump line="87" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
-      <jump line="9" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" />
       <jump line="938" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="137" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="740" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -452,6 +452,9 @@
       <jump line="382" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="182" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="185" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="78" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="79" column="79" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="84" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -523,7 +526,7 @@
         <text>, self.mock_event_collector</text>
       </register>
       <register name="/" type="4">
-        <text>response</text>
+        <text>opp</text>
       </register>
       <register name="0" type="4">
         <text>schedule_id</text>
@@ -1236,9 +1239,9 @@
       </register>
     </registers>
     <search>
-      <last-search>response</last-search>
+      <last-search>opp</last-search>
       <last-offset />
-      <last-pattern>response</last-pattern>
+      <last-pattern>opp</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1246,9 +1249,6 @@
     </search>
     <history>
       <history-search>
-        <entry>self.client.get</entry>
-        <entry>4589275568</entry>
-        <entry>get_schdule_rule_settings</entry>
         <entry>resp</entry>
         <entry>class</entry>
         <entry>clas</entry>
@@ -1266,6 +1266,9 @@
         <entry>event</entry>
         <entry>view_venue_report</entry>
         <entry>response</entry>
+        <entry>dal</entry>
+        <entry>to_save</entry>
+        <entry>opp</entry>
       </history-search>
       <history-cmd>
         <entry>s;:; =;g</entry>
