@@ -182,8 +182,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1549921072534">
         <mark key="'" line="10" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" timestamp="1558540588359">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" timestamp="1558626433083">
+        <mark key="'" line="897" column="45" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" timestamp="1545866368757">
         <mark key="'" line="52" column="4" />
@@ -273,12 +273,6 @@
         <mark key="." line="193" column="3" />
         <mark key="^" line="193" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1558564066067">
-        <mark key="[" line="123" column="64" />
-        <mark key="]" line="123" column="64" />
-        <mark key="^" line="123" column="66" />
-        <mark key="." line="123" column="64" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" timestamp="1557177382556">
         <mark key="'" line="67" column="8" />
         <mark key="[" line="20" column="0" />
@@ -346,14 +340,13 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" timestamp="1558462285431">
         <mark key="'" line="338" column="55" />
-        <mark key="[" line="406" column="50" />
-        <mark key="]" line="406" column="50" />
-        <mark key="." line="406" column="50" />
-        <mark key="^" line="412" column="34" />
+        <mark key="[" line="376" column="50" />
+        <mark key="]" line="376" column="50" />
+        <mark key="." line="376" column="50" />
+        <mark key="^" line="382" column="34" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="313" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="301" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="358" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="383" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
@@ -453,6 +446,7 @@
       <jump line="258" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="248" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="246" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="897" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -524,7 +518,7 @@
         <text>o</text>
       </register>
       <register name="/" type="4">
-        <text>ran</text>
+        <text encoding="base64">XDx2clw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuY29udHJvbGxlcnMub3Bwb3J0dW5pdGllcy5TcG90UmVjb21tZW5kYXRpb25zQVBJQ2xpZW50JykKICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5jcmVkaXRfcHJpY2VfY2xpZW50JykKICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5DbGFzc3Bhc3NBcGlDbGllbnQnKQogICAgQHBhdGNoKCdjbGFzc3Bhc3MuYXBwcy52ZW51ZS5kYWwubXNhcy5DbGFzc3Bhc3NBcGlDbGllbnQnLCBMZWdhY3lBUElDbGllbnRNb2NrKQogICAgZGVmIHRlc3RfT3Bwb3J0dW5pdGllc1ZpZXdfZ2V0X3NzX29wcG9ydHVuaXRpZXMoc2VsZiwgbW9ja19sYXBpX2NsaWVudCwgbW9ja19jcmVkaXRfcHJpY2VfY2xpZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9ja19zcG90X3JlY3NfY2xpZW50KToKICAgICAgICBvYmpzID0gc2VsZi5jcmVhdGVfdXNlcl93aXRoX3Blcm1pc3Npb25fYW5kX2xpbmtlZF92ZW51ZSgKICAgICAgICAgICAgcmVxdWVzdGVkX3Blcm1zPVtWZW51ZVBlcm1pc3Npb25UeXBlLkNBTl9WSUVXX09QUE9SVFVOSVRJRVNdKQogICAgICAgIHZlbnVlID0gb2Jqc1snY2xhc3N0aXZpdHlfdmVudWUnXQoKICAgICAgICAjIENoYW5nZSB0aGUgdmVudWUgc291cmNlIHRvIE1JTkRCT0RZIHRvIG1ha2UgdGhpcyB2ZW51ZSBzbWFydHNwb3QgZWxpZ2libGUKICAgICAgICB2ZW51ZS5zb3VyY2UgPSAnTUlOREJPRFknCiAgICAgICAgdmVudWUuc2F2ZSgpCgogICAgICAgICMgdGhlIGVuZHBvaW50IGRlZmF1bHRzIHRvIHNwZWNpZnlpbmcgc2NoZWR1bGVzIGluIHRoZSBuZXh0IDIgZGF5cywgc28gbWFrZSBjbGFzc2VzIHRvbW9ycm93CiAgICAgICAgYXBwbGljYWJsZV9kYXRlID0gZGF0ZXRpbWUuZGF0ZXRpbWUubm93KCkuZGF0ZSgpICsgZGF0ZXRpbWUudGltZWRlbHRhKGRheXM9MSkKCiAgICAgICAgIyBNYWtlIHNvbWUgc2NoZWR1bGVzCiAgICAgICAgc2NoZWR1bGVzID0gW3Rlc3RfZmFjdG9yaWVzLlBhc3Nwb3J0U2NoZWR1bGVGYWN0b3J5KAogICAgICAgICAgICBjbGFzc3Bhc3Nfc3BvdHM9NSwKICAgICAgICAgICAgc2NoZWR1bGVfX3Rha2VuX3Nwb3RzPTQsCiAgICAgICAgICAgIHNjaGVkdWxlX19wdWJsaXNoZWQ9VHJ1ZSwKICAgICAgICAgICAgc2NoZWR1bGVfX2NsYXNzaXZpdHlfY2xhc3NfX3ZlbnVlPXZlbnVlLAogICAgICAgICAgICBzY2hlZHVsZV9fc3RhcnRfZGF0ZT1hcHBsaWNhYmxlX2RhdGUpIGZvciBfIGluIHJhbmdlKDIpXQoKICAgICAgICAjIE1ha2UgY29ycmVzcG9uZGluZyByZXBvcnRzX3NjaGVkdWxlcyBlbnRyaWVzIHRvIHByb3ZpZGUgbWF4IGNhcGFjaXR5IGFuZCBib29raW5nIGRhdGEKICAgICAgICBmb3Igc2NoZWR1bGUgaW4gc2NoZWR1bGVzOgogICAgICAgICAgICBjbGFzc3Rpdml0eV9zY2hlZHVsZSA9IHNjaGVkdWxlLnNjaGVkdWxlCiAgICAgICAgICAgIHRlc3RfZmFjdG9yaWVzLlJlcG9ydFNjaGVkdWxlRmFjdG9yeSh2ZW51ZT12ZW51ZSwgc2NoZWR1bGU9Y2xhc3N0aXZpdHlfc2NoZWR1bGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGFydF9kYXRlPWNsYXNzdGl2aXR5X3NjaGVkdWxlLnN0YXJ0X2RhdGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhfY2FwYWNpdHk9MTAsIHRvdGFsX2Jvb2tlZD02KQoKICAgICAgICBtb2NrX2NyZWRpdF9wcmljZV9jbGllbnQucXVvdGVfdjMucmV0dXJuX3ZhbHVlID0gQ3JlZGl0UXVvdGVSZXNwb25zZSgKICAgICAgICAgICAgeydjcCc6IFtDcmVkaXRQcmljZVF1b3RlKGNyZWRpdF9wcmljZT01LCBsYWJlbD0nJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjaGVkdWxlX2lkPXNjaGVkdWxlc1swXS5zY2hlZHVsZS5waywgcGF5b3V0PTcuNzcsIHR5cGU9J2NwJyldLAogICAgICAgICAgICAgJ3ByZW1pdW0nOiBbQ3JlZGl0UHJpY2VRdW90ZShjcmVkaXRfcHJpY2U9MTAsIGxhYmVsPScnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2hlZHVsZV9pZD1zY2hlZHVsZXNbMV0uc2NoZWR1bGUucGssIHBheW91dD0xNS41NiwgdHlwZT0ncHJlbWl1bScpXX0pCgogICAgICAgIG1vY2tfc3BvdF9yZWNzX2NsaWVudC5nZXRfb3Bwb3J0dW5pdGllcy5yZXR1cm5fdmFsdWUgPSB7CiAgICAgICAgICAgICJzdGF0dXMiOiAyMDAsCiAgICAgICAgICAgICJkYXRhIjoKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAib3Bwb3J0dW5pdGllcyI6IFsKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgInNjaGVkdWxlX2lkIjogc2NoZWR1bGVzWzBdLnNjaGVkdWxlX2lkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIm5ldHdvcmtfc3BvdF9hbGxvY2F0aW9uIjogOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0aW1lc3RhbXAiOiAxNTQ2NTQ5NDEzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIm9yaWdpbiI6ICJzbWFydHNwb3QiCiAgICAgICAgICAgICAgICAgICAgICAgIH0sIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJzY2hlZHVsZV9pZCI6IHNjaGVkdWxlc1sxXS5zY2hlZHVsZV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJuZXR3b3JrX3Nwb3RfYWxsb2NhdGlvbiI6IDgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidGltZXN0YW1wIjogMTU0NjU0OTQxMiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJvcmlnaW4iOiAic21hcnRzcG90IgogICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJlc3BvbnNlID0gc2VsZi5jbGllbnQuZ2V0KCIvYXBpL3t9L29wcG9ydHVuaXRpZXMiLmZvcm1hdCh2ZW51ZS52ZW51ZV9pZCkpCiAgICAgICAgcGF5bG9hZCA9IHNlbGYuZXh0cmFjdF9wYXlsb2FkKHJlc3BvbnNlKQogICAgICAgIHJldHVybmVkX29wcCA9IHBheWxvYWRbJ29wcG9ydHVuaXRpZXMnXVswXQogICAgICAgICMgV2UgZXhwZWN0IHRoZSBlbmRwb2ludCB0byByZXR1cm4gYSByZWNvbW1lbmRhdGlvbiBvZiAzIGZvciBzY2hlZHVsZXNbMF0gaGVyZTogQWNjb3JkaW5nIHRvIHRoZSBhYm92ZSBtb2NrCiAgICAgICAgIyBkYXRhLCB0aGUgc2NoZWR1bGUgaGFzIGEgbWF4ICBwaHlzaWNhbCBjYXBhY2l0eSBvZiAxMCBhbmQgNSBuZXR3b3JrIHNwb3RzIHRvdGFsLiBUaGUgc21hcnRzcG90IHJlY29tbWVuZGVkCiAgICAgICAgIyBuZXR3b3JrX3Nwb3RfYWxsb2NhdGlvbiBpcyA4LCBzbyB0aGUgZW5kcG9pbnQgc2hvdWxkIHJldHVybiBhIHJlY29tbWVuZGF0aW9uIHRvIGluY3JlYXNlIHRoZSBudW1iZXIgb2YKICAgICAgICAjIG5ldHdvcmsgc3BvdHMgYnkgMy4KICAgICAgICBleHBlY3RlZF9yZWNvbW1lbmRhdGlvbiA9IDMKICAgICAgICBleHBlY3RlZF9hbW91bnQgPSA3Ljc3ICogZXhwZWN0ZWRfcmVjb21tZW5kYXRpb24KCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgyMDAsIHJlc3BvbnNlLnN0YXR1c19jb2RlKQogICAgICAgICMgT25lIG9mIHRoZSB0d28gc2NoZWR1bGVzIHNob3VsZCBiZSBmaWx0ZXJlZCBvdXQgYmVjYXVzZSBpdCBoYXMgbm8gbmV0d29yayByZWltYnVyc2VtZW50IHJhdGUgZGVmaW5lZCBieSB0aGUKICAgICAgICAjIG1vY2sgY3JlZGl0IHByaWNlIGNsaWVudAogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoMSwgbGVuKHBheWxvYWRbJ29wcG9ydHVuaXRpZXMnXSkpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChleHBlY3RlZF9yZWNvbW1lbmRhdGlvbiwgcmV0dXJuZWRfb3BwWydyZWNvbW1lbmRhdGlvbiddKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoZXhwZWN0ZWRfYW1vdW50LCByZXR1cm5lZF9vcHBbJ2Ftb3VudCddKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoJ1VTRCcsIHBheWxvYWRbJ3RvdGFsX2RvbGxhcnMnXVsnY3VycmVuY3knXSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCdTTUFSVFNQT1QnLCByZXR1cm5lZF9vcHBbJ29wcG9ydHVuaXR5X3NvdXJjZSddKQoKICAgICAgICBzZWxmLmFzc2VydEVxdWFscyhzZWxmLkVYUEVDVEVEX09QUFNfRklFTERTLCBzZXQocmV0dXJuZWRfb3BwLmtleXMoKSkpCg==</text>
@@ -1242,9 +1236,9 @@
       </register>
     </registers>
     <search>
-      <last-search>ran</last-search>
+      <last-search encoding="base64">XDx2clw+</last-search>
       <last-offset />
-      <last-pattern>ran</last-pattern>
+      <last-pattern encoding="base64">XDx2clw+</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1252,7 +1246,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">ICA=</entry>
         <entry>)</entry>
         <entry>location</entry>
         <entry>'</entry>
@@ -1272,6 +1265,7 @@
         <entry>key</entry>
         <entry>some sch</entry>
         <entry>ran</entry>
+        <entry encoding="base64">XDx2clw+</entry>
       </history-search>
       <history-cmd>
         <entry>s;:; =;g</entry>
