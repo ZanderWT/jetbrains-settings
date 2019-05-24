@@ -3,11 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1558476203389">
-        <mark key="[" line="86" column="0" />
-        <mark key="]" line="86" column="0" />
-        <mark key="." line="86" column="0" />
-      </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/snowplow_tracker/tracker.py" timestamp="1549930598690">
         <mark key="'" line="68" column="19" />
       </file>
@@ -64,11 +59,6 @@
         <mark key="^" line="141" column="112" />
         <mark key="." line="141" column="112" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/management/commands/process_smartspot_adjustments.py" timestamp="1558476157987">
-        <mark key="[" line="24" column="79" />
-        <mark key="]" line="24" column="79" />
-        <mark key="." line="24" column="79" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" timestamp="1558711733026">
         <mark key="'" line="522" column="10" />
         <mark key="[" line="522" column="0" />
@@ -92,11 +82,6 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
         <mark key="^" line="6" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/dev.py" timestamp="1558476199308">
-        <mark key="[" line="46" column="0" />
-        <mark key="]" line="46" column="0" />
-        <mark key="." line="46" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/opportunities.py" timestamp="1558634885507">
         <mark key="'" line="46" column="46" />
@@ -166,10 +151,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/tests/test_event_collector.py" timestamp="1558476172487">
         <mark key="'" line="30" column="15" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" timestamp="1558711528831">
-        <mark key="[" line="55" column="0" />
-        <mark key="]" line="55" column="0" />
-        <mark key="." line="55" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" timestamp="1558729010867">
+        <mark key="'" line="56" column="35" />
+        <mark key="[" line="56" column="50" />
+        <mark key="]" line="56" column="56" />
+        <mark key="." line="56" column="56" />
+        <mark key="^" line="56" column="56" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1558711273418">
         <mark key="'" line="30" column="39" />
@@ -270,11 +257,6 @@
         <mark key="]" line="60" column="56" />
         <mark key="." line="60" column="56" />
         <mark key="^" line="59" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" timestamp="1558476226892">
-        <mark key="[" line="316" column="0" />
-        <mark key="]" line="316" column="0" />
-        <mark key="." line="316" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/models.py" timestamp="1558471823967">
         <mark key="'" line="29" column="39" />
@@ -389,7 +371,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="389" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="401" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="400" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="380" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
@@ -489,6 +470,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="172" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/runbook.md" />
+      <jump line="56" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -557,10 +539,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>True</text>
+        <text>data</text>
       </register>
       <register name="/" type="4">
-        <text>migra</text>
+        <text>da</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">Y3BfdG9vbHMgZGVwbG95X2Rldi13ZWItbWlncmF0ZSB1cGRhdGVfc2VydmljZSA=</text>
@@ -612,7 +594,7 @@
         <text encoding="base64">ICAgICAgICAjIE9uZSBvZiB0aGUgdHdvIHNjaGVkdWxlcyBzaG91bGQgYmUgZmlsdGVyZWQgb3V0IGJlY2F1c2UgaXQgaGFzIG5vIG5ldHdvcmsgcmVpbWJ1cnNlbWVudCByYXRlIGRlZmluZWQgYnkgdGhlCiAgICAgICAgIyBtb2NrIGNyZWRpdCBwcmljZSBjbGllbnQKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKDEsIGxlbihwYXlsb2FkWydvcHBvcnR1bml0aWVzJ10pKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoZXhwZWN0ZWRfcmVjb21tZW5kYXRpb24sIHJldHVybmVkX29wcFsncmVjb21tZW5kYXRpb24nXSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGV4cGVjdGVkX2Ftb3VudCwgcmV0dXJuZWRfb3BwWydhbW91bnQnXSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCdVU0QnLCBwYXlsb2FkWyd0b3RhbF9kb2xsYXJzJ11bJ2N1cnJlbmN5J10pCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbCgnU01BUlRTUE9UJywgcmV0dXJuZWRfb3BwWydvcHBvcnR1bml0eV9zb3VyY2UnXSkKCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbHMoc2VsZi5FWFBFQ1RFRF9PUFBTX0ZJRUxEUywgc2V0KHJldHVybmVkX29wcC5rZXlzKCkpKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>179</text>
+        <text>action ShowBookmarks</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1273,9 +1255,9 @@
       </register>
     </registers>
     <search>
-      <last-search>migra</last-search>
+      <last-search>da</last-search>
       <last-offset />
-      <last-pattern>migra</last-pattern>
+      <last-pattern>da</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1283,7 +1265,6 @@
     </search>
     <history>
       <history-search>
-        <entry>dal</entry>
         <entry>to_save</entry>
         <entry>opp</entry>
         <entry>get_sch</entry>
@@ -1303,9 +1284,9 @@
         <entry>16</entry>
         <entry>databases</entry>
         <entry>migra</entry>
+        <entry>da</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zOz0gOz07Zw==</entry>
         <entry>818</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action VcsShowNextChangeMarker</entry>
@@ -1323,8 +1304,9 @@
         <entry>183</entry>
         <entry>163</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>179</entry>
+        <entry>171</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
