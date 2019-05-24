@@ -234,7 +234,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" timestamp="1553188745270">
         <mark key="'" line="89" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1558476197149">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1558720285631">
+        <mark key="'" line="106" column="0" />
         <mark key="[" line="489" column="0" />
         <mark key="]" line="489" column="0" />
         <mark key="." line="489" column="0" />
@@ -369,7 +370,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="241" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="374" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="394" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="423" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
@@ -469,6 +469,7 @@
       <jump line="979" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="522" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="130" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" />
+      <jump line="106" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -540,7 +541,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>called</text>
+        <text>installed</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBQYXltZW50c0RhbC5nZXRfcmVhbHRpbWVfcmVzZXJ2YXRpb25fcmVjb3JkcyhbXSkKICAgICAgICBwYXlfYXBpX21vY2suZ2V0X3Jlc2VydmF0aW9ucy5hc3NlcnRfbm90X2NhbGxlZCgpCg==</text>
@@ -1253,9 +1254,9 @@
       </register>
     </registers>
     <search>
-      <last-search>called</last-search>
+      <last-search>installed</last-search>
       <last-offset />
-      <last-pattern>called</last-pattern>
+      <last-pattern>installed</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1263,7 +1264,6 @@
     </search>
     <history>
       <history-search>
-        <entry>loca</entry>
         <entry encoding="base64">XDxQYXJ0bmVyRGFzaGJvYXJkRXZlbnRzXD4=</entry>
         <entry>event</entry>
         <entry>view_venue_report</entry>
@@ -1283,6 +1283,7 @@
         <entry>called_one</entry>
         <entry>calledonce</entry>
         <entry>called</entry>
+        <entry>installed</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOz0gOz07Zw==</entry>
