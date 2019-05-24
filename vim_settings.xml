@@ -55,11 +55,11 @@
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/dao/ClasstivityDao.java" timestamp="1556828313247">
         <mark key="'" line="35" column="20" />
       </file>
-      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/endpoints/Payments.java" timestamp="1558731030963">
-        <mark key="[" line="6" column="29" />
-        <mark key="]" line="6" column="29" />
-        <mark key="^" line="6" column="29" />
-        <mark key="." line="6" column="29" />
+      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/endpoints/Payments.java" timestamp="1558731718036">
+        <mark key="[" line="8" column="7" />
+        <mark key="]" line="8" column="15" />
+        <mark key="^" line="8" column="15" />
+        <mark key="." line="8" column="15" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/TestOpportunities.java" timestamp="1552427908686">
         <mark key="[" line="6" column="13" />
@@ -110,6 +110,9 @@
         <mark key="]" line="136" column="87" />
         <mark key="." line="137" column="0" />
         <mark key="^" line="136" column="86" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/endpoints/Price.java" timestamp="1558731659723">
+        <mark key="'" line="27" column="5" />
       </file>
       <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/mindbody/MindbodyClient.java" timestamp="1551831806451">
         <mark key="'" line="50" column="0" />
@@ -163,7 +166,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="8" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
       <jump line="79" column="35" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
       <jump line="20" column="39" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
       <jump line="38" column="32" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
@@ -263,6 +265,7 @@
       <jump line="192" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" />
       <jump line="20" column="36" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/config/common/ServiceName.java" />
       <jump line="43" column="44" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/config/common/ServiceName.java" />
+      <jump line="27" column="5" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/endpoints/Price.java" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -331,16 +334,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">UE9TVCA=</text>
+        <text>class</text>
       </register>
       <register name="/" type="4">
-        <text>payment</text>
+        <text encoding="base64">XDxQT1NUXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU2VydmljZU5hbWUgUEFZTUVOVFNfREIgICAgICAgICA9IG5ldyBTZXJ2aWNlTmFtZSgicGF5bWVudHMtZGIiKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB9IGNhdGNoIChJbnZhbGlkU2NoZWR1bGVFeGNlcHRpb24gZSkgewogICAgICAgICAgICB0aHJvdyBuZXcgV2ViQXBwbGljYXRpb25FeGNlcHRpb24oZS5nZXRNZXNzYWdlKCksIFJlc3BvbnNlLlN0YXR1cy5JTlRFUk5BTF9TRVJWRVJfRVJST1IpOwogICAgICAgIH0K</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLlBPU1Q7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -390,48 +393,47 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
+        <text encoding="base64">ICAgICAgICB9IGNhdGNoIChJbnZhbGlkU2NoZWR1bGVFeGNlcHRpb24gZSkgewogICAgICAgICAgICB0aHJvdyBuZXcgV2ViQXBwbGljYXRpb25FeGNlcHRpb24oZS5nZXRNZXNzYWdlKCksIFJlc3BvbnNlLlN0YXR1cy5JTlRFUk5BTF9TRVJWRVJfRVJST1IpOwogICAgICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gcmVzdWx0Owo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAobnVsbCA9PSByZXN1bHQpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IFdlYkFwcGxpY2F0aW9uRXhjZXB0aW9uKFJlc3BvbnNlLlN0YXR1cy5OT1RfRk9VTkQpOwogICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gcmVzdWx0Owo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoc3RhcnREYXRlID09IG51bGwpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiIikKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAobnVsbCA9PSByZXN1bHQpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IFdlYkFwcGxpY2F0aW9uRXhjZXB0aW9uKFJlc3BvbnNlLlN0YXR1cy5OT1RfRk9VTkQpOwogICAgICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFydERhdGUuZ2V0RAo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoc3RhcnREYXRlID09IG51bGwpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiIikKICAgICAgICB9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBjb250cm9sbGVyLmV2YWx1YXRlUHJpY2Uoc2NoZWR1bGVJZHMpOwo=</text>
+        <text encoding="base64">ICAgICAgICBzdGFydERhdGUuZ2V0RAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBEYXRlIGRhdCA9IERhdGUudmFsdWVPZigiMjAxOC0wMS0wMSIpOwogICAgICAgIGRhdC5zZXRUaW1lKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb250cm9sbGVyLmV2YWx1YXRlUHJpY2Uoc2NoZWR1bGVJZHMpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>action ToggleBookmarkWithMnemonic</text>
       </register>
     </registers>
     <search>
-      <last-search>payment</last-search>
+      <last-search encoding="base64">XDxQT1NUXD4=</last-search>
       <last-offset />
-      <last-pattern>payment</last-pattern>
+      <last-pattern encoding="base64">XDxQT1NUXD4=</last-pattern>
       <last-replace>rejected</last-replace>
       <last-substitute>shown</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>asdf</entry>
         <entry encoding="base64">cHJvY2Vzc2VkIA==</entry>
         <entry>processed</entry>
         <entry>contr</entry>
@@ -451,6 +453,7 @@
         <entry>partner</entry>
         <entry>payments</entry>
         <entry>payment</entry>
+        <entry encoding="base64">XDxQT1NUXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s;end;start;g</entry>
