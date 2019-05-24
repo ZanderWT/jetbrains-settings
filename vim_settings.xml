@@ -115,6 +115,11 @@
         <mark key="^" line="630" column="81" />
         <mark key="." line="630" column="81" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/runbook.md" timestamp="1558725829399">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="131" column="0" />
+        <mark key="]" line="131" column="46" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1558128444701">
         <mark key="'" line="9" column="38" />
       </file>
@@ -329,6 +334,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" timestamp="1557514644703">
         <mark key="'" line="172" column="39" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" timestamp="1558725570617">
+        <mark key="'" line="172" column="60" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" timestamp="1556224938272">
         <mark key="'" line="112" column="24" />
       </file>
@@ -344,12 +352,6 @@
         <mark key="]" line="43" column="21" />
         <mark key="^" line="43" column="21" />
         <mark key="." line="43" column="21" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1558476648249">
-        <mark key="'" line="10" column="0" />
-        <mark key="]" line="21" column="0" />
-        <mark key="^" line="21" column="0" />
-        <mark key="." line="21" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1558387523448">
         <mark key="'" line="3" column="14" />
@@ -387,9 +389,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
-      <jump line="391" column="70" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
-      <jump line="386" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="389" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="401" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
       <jump line="400" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_manage_spots.py" />
@@ -487,6 +486,9 @@
       <jump line="38" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/models.py" />
       <jump line="116" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="172" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/runbook.md" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -558,10 +560,10 @@
         <text>True</text>
       </register>
       <register name="/" type="4">
-        <text>databases</text>
+        <text>migra</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBQYXltZW50c0RhbC5nZXRfcmVhbHRpbWVfcmVzZXJ2YXRpb25fcmVjb3JkcyhbXSkKICAgICAgICBwYXlfYXBpX21vY2suZ2V0X3Jlc2VydmF0aW9ucy5hc3NlcnRfbm90X2NhbGxlZCgpCg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">Y3BfdG9vbHMgZGVwbG95X2Rldi13ZWItbWlncmF0ZSB1cGRhdGVfc2VydmljZSA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1271,9 +1273,9 @@
       </register>
     </registers>
     <search>
-      <last-search>databases</last-search>
+      <last-search>migra</last-search>
       <last-offset />
-      <last-pattern>databases</last-pattern>
+      <last-pattern>migra</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1281,7 +1283,6 @@
     </search>
     <history>
       <history-search>
-        <entry>response</entry>
         <entry>dal</entry>
         <entry>to_save</entry>
         <entry>opp</entry>
@@ -1301,6 +1302,7 @@
         <entry>.status</entry>
         <entry>16</entry>
         <entry>databases</entry>
+        <entry>migra</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOz0gOz07Zw==</entry>
