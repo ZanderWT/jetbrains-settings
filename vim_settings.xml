@@ -345,8 +345,8 @@
         <mark key="^" line="43" column="21" />
         <mark key="." line="43" column="21" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1559059071498">
-        <mark key="'" line="72" column="45" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1559064257543">
+        <mark key="'" line="54" column="6" />
         <mark key="[" line="78" column="39" />
         <mark key="]" line="78" column="63" />
         <mark key="." line="58" column="0" />
@@ -381,7 +381,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="382" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="182" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="185" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="78" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -460,7 +459,6 @@
       <jump line="78" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="13" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/models.py" />
       <jump line="452" column="97" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
-      <jump line="72" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="14" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="25" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="27" column="76" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
@@ -481,6 +479,8 @@
       <jump line="79" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="37" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
       <jump line="85" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
+      <jump line="72" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="54" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -552,7 +552,7 @@
         <text>data</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRfcmV2ZW51ZV9pdGVtX3N1bW1hcnlcPg==</text>
+        <text>opportunit</text>
       </register>
       <register name="0" type="4">
         <text>get_revenue_item_summary</text>
@@ -1265,9 +1265,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxnZXRfcmV2ZW51ZV9pdGVtX3N1bW1hcnlcPg==</last-search>
+      <last-search>opportunit</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRfcmV2ZW51ZV9pdGVtX3N1bW1hcnlcPg==</last-pattern>
+      <last-pattern>opportunit</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1275,7 +1275,6 @@
     </search>
     <history>
       <history-search>
-        <entry>rp</entry>
         <entry>exec</entry>
         <entry>make</entry>
         <entry>fetch_and_save</entry>
@@ -1295,6 +1294,7 @@
         <entry>summaryt</entry>
         <entry>summar</entry>
         <entry encoding="base64">XDxnZXRfcmV2ZW51ZV9pdGVtX3N1bW1hcnlcPg==</entry>
+        <entry>opportunit</entry>
       </history-search>
       <history-cmd>
         <entry>818</entry>
