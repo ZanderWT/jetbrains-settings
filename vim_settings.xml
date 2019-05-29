@@ -152,8 +152,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/tests/test_event_collector.py" timestamp="1558476172487">
         <mark key="'" line="30" column="15" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" timestamp="1558729010867">
-        <mark key="'" line="56" column="35" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" timestamp="1559155880389">
+        <mark key="'" line="50" column="35" />
         <mark key="[" line="56" column="50" />
         <mark key="]" line="56" column="56" />
         <mark key="." line="56" column="56" />
@@ -393,9 +393,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="11" column="63" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="15" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="79" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="37" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
       <jump line="85" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
@@ -493,6 +490,9 @@
       <jump line="85" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="212" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" />
       <jump line="147" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
+      <jump line="39" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
+      <jump line="40" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
+      <jump line="50" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -561,10 +561,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>&quot;</text>
+        <text>data</text>
       </register>
       <register name="/" type="4">
-        <text>revenueitem</text>
+        <text>param</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbmV3cmVsaWMuYWdlbnQucmVjb3JkX2V4Y2VwdGlvbigpCg==</text>
@@ -1277,9 +1277,9 @@
       </register>
     </registers>
     <search>
-      <last-search>revenueitem</last-search>
+      <last-search>param</last-search>
       <last-offset />
-      <last-pattern>revenueitem</last-pattern>
+      <last-pattern>param</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1287,7 +1287,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get_</entry>
         <entry>sec</entry>
         <entry>orign</entry>
         <entry>orig</entry>
@@ -1307,6 +1306,7 @@
         <entry>valida</entry>
         <entry>SHOW_OP</entry>
         <entry>revenueitem</entry>
+        <entry>param</entry>
       </history-search>
       <history-cmd>
         <entry>321</entry>
