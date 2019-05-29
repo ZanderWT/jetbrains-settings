@@ -30,11 +30,6 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django_rq/queues.py" timestamp="1542742105655">
         <mark key="'" line="21" column="10" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" timestamp="1559063508020">
-        <mark key="'" line="85" column="8" />
-        <mark key="[" line="85" column="8" />
-        <mark key="]" line="85" column="31" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/public_urls.py" timestamp="1543357504832">
         <mark key="'" line="4" column="0" />
       </file>
@@ -101,17 +96,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_profile_management.py" timestamp="1557508639949">
         <mark key="'" line="17" column="15" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" timestamp="1558393148724">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" timestamp="1559146971661">
         <mark key="'" line="630" column="62" />
-        <mark key="[" line="630" column="72" />
-        <mark key="]" line="630" column="81" />
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="45" />
         <mark key="^" line="630" column="81" />
         <mark key="." line="630" column="81" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/runbook.md" timestamp="1558725829399">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="131" column="0" />
-        <mark key="]" line="131" column="46" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1558128444701">
         <mark key="'" line="9" column="38" />
@@ -189,8 +179,8 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django/db/models/base.py" timestamp="1550605431262">
         <mark key="'" line="717" column="62" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" timestamp="1557437751601">
-        <mark key="'" line="17" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" timestamp="1559146721280">
+        <mark key="'" line="212" column="40" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1559059505627">
         <mark key="'" line="15" column="8" />
@@ -245,11 +235,6 @@
       <file name="/fragment.py" timestamp="1559081830400">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" timestamp="1558733854424">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="68" column="26" />
-        <mark key="]" line="68" column="57" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" timestamp="1553188745270">
         <mark key="'" line="89" column="0" />
       </file>
@@ -264,6 +249,11 @@
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1549909252996">
         <mark key="'" line="1600" column="4" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1559147489681">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/payments.py" timestamp="1558127248204">
         <mark key="'" line="60" column="4" />
@@ -388,7 +378,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="108" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="145" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="11" column="63" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="15" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
@@ -488,6 +477,7 @@
       <jump line="73" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" />
       <jump line="118" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" />
       <jump line="85" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
+      <jump line="212" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -559,13 +549,13 @@
         <text>&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>valida</text>
+        <text>SHOW_OP</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gJShvcHBvcnR1bml0eV9pZHMpcwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbmV3cmVsaWMuYWdlbnQucmVjb3JkX2V4Y2VwdGlvbigpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
+        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MuYXBwcy52ZW51ZS5jb25zdGFudHMubG9nZ2luZ19wcmVmaXhlcyBpbXBvcnQgU0hPV19PUFBPUlRVTklUWQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -584,34 +574,34 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQgVmFsaWRhdGlvbkVycm9yIGFzIGU6CiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYne1NIT1dfT1BQT1JUVU5JVFl9IC0ge2UubWVzc2FnZX0nKQogICAgICAgICAgICByZXR1cm4gUmVzcG9uc2Uoc3RhdHVzPTQwMCwgZGF0YT1lLm1lc3NhZ2UpCgo=</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28uY29yZS5leGNlcHRpb25zIGltcG9ydCBWYWxpZGF0aW9uRXJyb3IKaW1wb3J0IG5ld3JlbGljLmFnZW50Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdldF91bmFjdGVkX29wcG9ydHVuaXRpZXNfYnlfaWRzKGNscywgb3Bwb3J0dW5pdHlfaWRzKToKICAgICAgICAiIiIKICAgICAgICBAcGFyYW0gb3Bwb3J0dW5pdHlfaWRzOiBpdGVyYWJsZSBvZiBvcHBvcnR1bml0eV9pZHMKICAgICAgICBAcmV0dXJuIE9wcG9ydHVuaXR5IHF1ZXJ5c2V0IGNvbnRhaW5pbmcgb3Bwb3J0dW5pdGllcyB3aXRoIG1hdGNoaW5nIGlkcyB0aGF0IGhhdmUgbm90IGJlZW4gYWN0ZWQgb24geWV0LgogICAgICAgICIiIgogICAgICAgIHFzID0gT3Bwb3J0dW5pdHkub2JqZWN0cy5maWx0ZXIoaWRfX2luPW9wcG9ydHVuaXR5X2lkcywgc3BvdHNfYWRkZWRfX2lzbnVsbD1UcnVlLCByZWplY3RlZF9vbl9faXNudWxsPVRydWUpCiAgICAgICAgcmV0dXJuIHFzCgo=</text>
+        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uY29uZiBpbXBvcnQgc2V0dGluZ3MK</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQgVmFsaWRhdGlvbkVycm9yIGFzIGU6CiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYne1NIT1dfT1BQT1JUVU5JVFl9IC0ge2UubWVzc2FnZX0nKQogICAgICAgICAgICByZXR1cm4gUmVzcG9uc2Uoc3RhdHVzPTQwMCwgZGF0YT1lLm1lc3NhZ2UpCgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdldF91bmFjdGVkX29wcG9ydHVuaXRpZXNfYnlfaWRzKGNscywgb3Bwb3J0dW5pdHlfaWRzKToKICAgICAgICAiIiIKICAgICAgICBAcGFyYW0gb3Bwb3J0dW5pdHlfaWRzOiBpdGVyYWJsZSBvZiBvcHBvcnR1bml0eV9pZHMKICAgICAgICBAcmV0dXJuIE9wcG9ydHVuaXR5IHF1ZXJ5c2V0IGNvbnRhaW5pbmcgb3Bwb3J0dW5pdGllcyB3aXRoIG1hdGNoaW5nIGlkcyB0aGF0IGhhdmUgbm90IGJlZW4gYWN0ZWQgb24geWV0LgogICAgICAgICIiIgogICAgICAgIHFzID0gT3Bwb3J0dW5pdHkub2JqZWN0cy5maWx0ZXIoaWRfX2luPW9wcG9ydHVuaXR5X2lkcywgc3BvdHNfYWRkZWRfX2lzbnVsbD1UcnVlLCByZWplY3RlZF9vbl9faXNudWxsPVRydWUpCiAgICAgICAgcmV0dXJuIHFzCgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uY29yZS5leGNlcHRpb25zIGltcG9ydCBWYWxpZGF0aW9uRXJyb3IK</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28uY29uZiBpbXBvcnQgc2V0dGluZ3MK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3RlYWNoZXJfbmFtZSc6ICdUb21teSAiVGh1bWJzIiBNY0dpbGxpY3VkZHknLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gKFNFTEVDVCBpZCBGUk9NIHZwX3ZlbnVlX29wcG9ydHVuaXR5IFdIRVJFIGlkIElOICglKG9wcG9ydHVuaXR5X2lkcylzKSkK</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28uY29yZS5leGNlcHRpb25zIGltcG9ydCBWYWxpZGF0aW9uRXJyb3IK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gKFNFTEVDVCBpZCBGUk9NIHZwX3ZlbnVlX29wcG9ydHVuaXR5IFdIRVJFIGlkIElOICglKG9wcG9ydHVuaXR5X2lkcylzKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3RlYWNoZXJfbmFtZSc6ICdUb21teSAiVGh1bWJzIiBNY0dpbGxpY3VkZHknLAo=</text>
       </register>
       <register name=":" type="4">
-        <text>405</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1272,9 +1262,9 @@
       </register>
     </registers>
     <search>
-      <last-search>valida</last-search>
+      <last-search>SHOW_OP</last-search>
       <last-offset />
-      <last-pattern>valida</last-pattern>
+      <last-pattern>SHOW_OP</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1282,7 +1272,6 @@
     </search>
     <history>
       <history-search>
-        <entry>mock_cli</entry>
         <entry>get_)</entry>
         <entry>get_</entry>
         <entry>sec</entry>
@@ -1302,6 +1291,7 @@
         <entry>get_una</entry>
         <entry>amate</entry>
         <entry>valida</entry>
+        <entry>SHOW_OP</entry>
       </history-search>
       <history-cmd>
         <entry>321</entry>
@@ -1318,12 +1308,12 @@
         <entry>171</entry>
         <entry>163</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>bnext</entry>
         <entry>54</entry>
         <entry>405</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
