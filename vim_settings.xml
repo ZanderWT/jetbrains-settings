@@ -207,12 +207,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1549921072534">
         <mark key="'" line="10" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" timestamp="1559168297569">
-        <mark key="'" line="914" column="12" />
-        <mark key="[" line="902" column="0" />
-        <mark key="]" line="915" column="50" />
-        <mark key="^" line="895" column="74" />
-        <mark key="." line="895" column="74" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" timestamp="1559169381288">
+        <mark key="'" line="909" column="39" />
+        <mark key="[" line="891" column="70" />
+        <mark key="]" line="891" column="69" />
+        <mark key="^" line="891" column="69" />
+        <mark key="." line="891" column="69" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" timestamp="1545866368757">
         <mark key="'" line="52" column="4" />
@@ -408,7 +408,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="410" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="414" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="425" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="431" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -508,6 +507,7 @@
       <jump line="125" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
       <jump line="127" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
       <jump line="128" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
+      <jump line="909" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -576,10 +576,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhY3R1YWxfcGF5b3V0c1w+</text>
+        <text>no_rate</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBTRUxFQ1QKICAgICAgICAgICAgcHIuc2NoZWR1bGVfaWQgQVMgc2NoZWR1bGVfaWQsCiAgICAgICAgICAgIFNVTSh2ci5yYXRlKSBBUyBzY2hlZHVsZV9wYXlvdXQsCiAgICAgICAgICAgIENPVU5UKCopIEFTIGBjb3VudGAsCiAgICAgICAgICAgIHZyLnJhdGUgaXMgbnVsbCBhcyBub19yYXRlLAogICAgICAgICAgICBycC5yZXNlcnZhdGlvbl9pZCBpcyBub3QgbnVsbCBhcyBwcmVtaXVtCiAgICAgICAgRlJPTSBwYXNzcG9ydF9yZXNlcnZhdGlvbnMgQVMgcHIKICAgICAgICBMRUZUIE9VVEVSIEpPSU4gdmlld192ZW51ZV9yZXBvcnQgQVMgdnIKICAgICAgICAgICBPTiBwci5pZCA9IHZyLnJlc2VydmF0aW9uX2lkCiAgICAgICAgTEVGVCBPVVRFUiBKT0lOIHJlc2VydmF0aW9uX3B1cmNoYXNlIEFTIHJwCiAgICAgICAgICAgT04gcHIuaWQgPSBycC5yZXNlcnZhdGlvbl9pZAogICAgICAgIFdIRVJFIHByLnNjaGVkdWxlX2lkIElOICUoc2NoZWR1bGVfaWRzKXMKICAgICAgICBBTkQgcHIuc3RhdHVzIElOICgncHJvY2Vzc2VkJywgJ3BlbmRpbmcnKQogICAgICAgIGdyb3VwIGJ5IHByLnNjaGVkdWxlX2lkLCBwcmVtaXVtLCBub19yYXRlOwo=</text>
@@ -1292,9 +1292,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxhY3R1YWxfcGF5b3V0c1w+</last-search>
+      <last-search>no_rate</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhY3R1YWxfcGF5b3V0c1w+</last-pattern>
+      <last-pattern>no_rate</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1302,7 +1302,6 @@
     </search>
     <history>
       <history-search>
-        <entry>database</entry>
         <entry>settings\.</entry>
         <entry>show</entry>
         <entry>get_una</entry>
@@ -1322,6 +1321,7 @@
         <entry>logg</entry>
         <entry>actual</entry>
         <entry encoding="base64">XDxhY3R1YWxfcGF5b3V0c1w+</entry>
+        <entry>no_rate</entry>
       </history-search>
       <history-cmd>
         <entry>321</entry>
