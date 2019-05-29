@@ -207,10 +207,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1549921072534">
         <mark key="'" line="10" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" timestamp="1559164864500">
-        <mark key="'" line="902" column="12" />
-        <mark key="[" line="910" column="15" />
-        <mark key="]" line="910" column="67" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" timestamp="1559168297569">
+        <mark key="'" line="914" column="12" />
+        <mark key="[" line="902" column="0" />
+        <mark key="]" line="915" column="50" />
+        <mark key="^" line="895" column="74" />
+        <mark key="." line="895" column="74" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" timestamp="1545866368757">
         <mark key="'" line="52" column="4" />
@@ -252,8 +254,8 @@
       <file name="/fragment.py" timestamp="1559081830400">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" timestamp="1558733854424">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" timestamp="1559167824586">
+        <mark key="'" line="128" column="47" />
         <mark key="[" line="68" column="26" />
         <mark key="]" line="68" column="57" />
       </file>
@@ -406,11 +408,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="140" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
-      <jump line="43" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" />
-      <jump line="67" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" />
-      <jump line="49" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" />
-      <jump line="59" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" />
       <jump line="410" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="414" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="425" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -506,6 +503,11 @@
       <jump line="28" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="297" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
+      <jump line="96" column="75" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
+      <jump line="136" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
+      <jump line="125" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
+      <jump line="127" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
+      <jump line="128" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -574,13 +576,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>data</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>logg</text>
+        <text encoding="base64">XDxhY3R1YWxfcGF5b3V0c1w+</text>
       </register>
-      <register name="0" type="4">
-        <text>'PassportReservationsDal.get_payout_for_reservations'</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBTRUxFQ1QKICAgICAgICAgICAgcHIuc2NoZWR1bGVfaWQgQVMgc2NoZWR1bGVfaWQsCiAgICAgICAgICAgIFNVTSh2ci5yYXRlKSBBUyBzY2hlZHVsZV9wYXlvdXQsCiAgICAgICAgICAgIENPVU5UKCopIEFTIGBjb3VudGAsCiAgICAgICAgICAgIHZyLnJhdGUgaXMgbnVsbCBhcyBub19yYXRlLAogICAgICAgICAgICBycC5yZXNlcnZhdGlvbl9pZCBpcyBub3QgbnVsbCBhcyBwcmVtaXVtCiAgICAgICAgRlJPTSBwYXNzcG9ydF9yZXNlcnZhdGlvbnMgQVMgcHIKICAgICAgICBMRUZUIE9VVEVSIEpPSU4gdmlld192ZW51ZV9yZXBvcnQgQVMgdnIKICAgICAgICAgICBPTiBwci5pZCA9IHZyLnJlc2VydmF0aW9uX2lkCiAgICAgICAgTEVGVCBPVVRFUiBKT0lOIHJlc2VydmF0aW9uX3B1cmNoYXNlIEFTIHJwCiAgICAgICAgICAgT04gcHIuaWQgPSBycC5yZXNlcnZhdGlvbl9pZAogICAgICAgIFdIRVJFIHByLnNjaGVkdWxlX2lkIElOICUoc2NoZWR1bGVfaWRzKXMKICAgICAgICBBTkQgcHIuc3RhdHVzIElOICgncHJvY2Vzc2VkJywgJ3BlbmRpbmcnKQogICAgICAgIGdyb3VwIGJ5IHByLnNjaGVkdWxlX2lkLCBwcmVtaXVtLCBub19yYXRlOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MuYXBwcy52ZW51ZS5jb25zdGFudHMubG9nZ2luZ19wcmVmaXhlcyBpbXBvcnQgU0hPV19PUFBPUlRVTklUWQo=</text>
@@ -629,7 +631,7 @@
         <text encoding="base64">ICAgICAgICAgICAgJ3RlYWNoZXJfbmFtZSc6ICdUb21teSAiVGh1bWJzIiBNY0dpbGxpY3VkZHknLAo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ShowBookmarks</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1290,9 +1292,9 @@
       </register>
     </registers>
     <search>
-      <last-search>logg</last-search>
+      <last-search encoding="base64">XDxhY3R1YWxfcGF5b3V0c1w+</last-search>
       <last-offset />
-      <last-pattern>logg</last-pattern>
+      <last-pattern encoding="base64">XDxhY3R1YWxfcGF5b3V0c1w+</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1300,8 +1302,6 @@
     </search>
     <history>
       <history-search>
-        <entry>user</entry>
-        <entry>create user</entry>
         <entry>database</entry>
         <entry>settings\.</entry>
         <entry>show</entry>
@@ -1320,6 +1320,8 @@
         <entry encoding="base64">XDxwclw+</entry>
         <entry>rostersloca</entry>
         <entry>logg</entry>
+        <entry>actual</entry>
+        <entry encoding="base64">XDxhY3R1YWxfcGF5b3V0c1w+</entry>
       </history-search>
       <history-cmd>
         <entry>321</entry>
@@ -1336,12 +1338,12 @@
         <entry>171</entry>
         <entry>163</entry>
         <entry>action QuickJavaDoc</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>bnext</entry>
         <entry>54</entry>
         <entry>405</entry>
         <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
