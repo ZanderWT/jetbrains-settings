@@ -232,8 +232,8 @@
       <file name="/Python Console" timestamp="1559082408461">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1558735326551">
-        <mark key="'" line="452" column="97" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1559158540495">
+        <mark key="'" line="336" column="8" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1559081590082">
         <mark key="'" line="0" column="0" />
@@ -393,8 +393,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
-      <jump line="37" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
       <jump line="85" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
       <jump line="72" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="54" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
@@ -493,6 +491,8 @@
       <jump line="39" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
       <jump line="40" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
       <jump line="50" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
+      <jump line="21" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="336" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -564,7 +564,7 @@
         <text>data</text>
       </register>
       <register name="/" type="4">
-        <text>param</text>
+        <text>pull_for</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbmV3cmVsaWMuYWdlbnQucmVjb3JkX2V4Y2VwdGlvbigpCg==</text>
@@ -1277,9 +1277,9 @@
       </register>
     </registers>
     <search>
-      <last-search>param</last-search>
+      <last-search>pull_for</last-search>
       <last-offset />
-      <last-pattern>param</last-pattern>
+      <last-pattern>pull_for</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1287,10 +1287,6 @@
     </search>
     <history>
       <history-search>
-        <entry>sec</entry>
-        <entry>orign</entry>
-        <entry>orig</entry>
-        <entry>date</entry>
         <entry>save_opp</entry>
         <entry>shjop</entry>
         <entry>self.crea</entry>
@@ -1307,6 +1303,10 @@
         <entry>SHOW_OP</entry>
         <entry>revenueitem</entry>
         <entry>param</entry>
+        <entry>pull_for_</entry>
+        <entry>@job</entry>
+        <entry>pull_for_all</entry>
+        <entry>pull_for</entry>
       </history-search>
       <history-cmd>
         <entry>321</entry>
