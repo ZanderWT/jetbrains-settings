@@ -265,13 +265,6 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1549909252996">
         <mark key="'" line="1600" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1559075910107">
-        <mark key="'" line="90" column="72" />
-        <mark key="[" line="85" column="74" />
-        <mark key="]" line="85" column="74" />
-        <mark key="^" line="85" column="74" />
-        <mark key="." line="85" column="74" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/payments.py" timestamp="1558127248204">
         <mark key="'" line="60" column="4" />
         <mark key="[" line="60" column="56" />
@@ -395,7 +388,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="43" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/revenue_reporting.py" />
       <jump line="108" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="145" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="11" column="63" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
@@ -495,6 +487,7 @@
       <jump line="40" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" />
       <jump line="73" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" />
       <jump line="118" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" />
+      <jump line="85" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -566,13 +559,13 @@
         <text>&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>amate</text>
+        <text>valida</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gJShvcHBvcnR1bml0eV9pZHMpcwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdldF91bmFjdGVkX29wcG9ydHVuaXRpZXNfYnlfaWRzKGNscywgb3Bwb3J0dW5pdHlfaWRzKToKICAgICAgICAiIiIKICAgICAgICBAcGFyYW0gb3Bwb3J0dW5pdHlfaWRzOiBpdGVyYWJsZSBvZiBvcHBvcnR1bml0eV9pZHMKICAgICAgICBAcmV0dXJuIE9wcG9ydHVuaXR5IHF1ZXJ5c2V0IGNvbnRhaW5pbmcgb3Bwb3J0dW5pdGllcyB3aXRoIG1hdGNoaW5nIGlkcyB0aGF0IGhhdmUgbm90IGJlZW4gYWN0ZWQgb24geWV0LgogICAgICAgICIiIgogICAgICAgIHFzID0gT3Bwb3J0dW5pdHkub2JqZWN0cy5maWx0ZXIoaWRfX2luPW9wcG9ydHVuaXR5X2lkcywgc3BvdHNfYWRkZWRfX2lzbnVsbD1UcnVlLCByZWplY3RlZF9vbl9faXNudWxsPVRydWUpCiAgICAgICAgcmV0dXJuIHFzCgo=</text>
+        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -591,31 +584,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uY29uZiBpbXBvcnQgc2V0dGluZ3MK</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQgVmFsaWRhdGlvbkVycm9yIGFzIGU6CiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYne1NIT1dfT1BQT1JUVU5JVFl9IC0ge2UubWVzc2FnZX0nKQogICAgICAgICAgICByZXR1cm4gUmVzcG9uc2Uoc3RhdHVzPTQwMCwgZGF0YT1lLm1lc3NhZ2UpCgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGdldF91bmFjdGVkX29wcG9ydHVuaXRpZXNfYnlfaWRzKGNscywgb3Bwb3J0dW5pdHlfaWRzKToKICAgICAgICAiIiIKICAgICAgICBAcGFyYW0gb3Bwb3J0dW5pdHlfaWRzOiBpdGVyYWJsZSBvZiBvcHBvcnR1bml0eV9pZHMKICAgICAgICBAcmV0dXJuIE9wcG9ydHVuaXR5IHF1ZXJ5c2V0IGNvbnRhaW5pbmcgb3Bwb3J0dW5pdGllcyB3aXRoIG1hdGNoaW5nIGlkcyB0aGF0IGhhdmUgbm90IGJlZW4gYWN0ZWQgb24geWV0LgogICAgICAgICIiIgogICAgICAgIHFzID0gT3Bwb3J0dW5pdHkub2JqZWN0cy5maWx0ZXIoaWRfX2luPW9wcG9ydHVuaXR5X2lkcywgc3BvdHNfYWRkZWRfX2lzbnVsbD1UcnVlLCByZWplY3RlZF9vbl9faXNudWxsPVRydWUpCiAgICAgICAgcmV0dXJuIHFzCgo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uY29yZS5leGNlcHRpb25zIGltcG9ydCBWYWxpZGF0aW9uRXJyb3IK</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28uY29uZiBpbXBvcnQgc2V0dGluZ3MK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3RlYWNoZXJfbmFtZSc6ICdUb21teSAiVGh1bWJzIiBNY0dpbGxpY3VkZHknLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gKFNFTEVDVCBpZCBGUk9NIHZwX3ZlbnVlX29wcG9ydHVuaXR5IFdIRVJFIGlkIElOICglKG9wcG9ydHVuaXR5X2lkcylzKSkK</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28uY29yZS5leGNlcHRpb25zIGltcG9ydCBWYWxpZGF0aW9uRXJyb3IK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gKFNFTEVDVCBpZCBGUk9NIHZwX3ZlbnVlX29wcG9ydHVuaXR5IFdIRVJFIGlkIElOICglKG9wcG9ydHVuaXR5X2lkcylzKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3RlYWNoZXJfbmFtZSc6ICdUb21teSAiVGh1bWJzIiBNY0dpbGxpY3VkZHknLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB4PTIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gKFNFTEVDVCBpZCBGUk9NIHZwX3ZlbnVlX29wcG9ydHVuaXR5IFdIRVJFIGlkIElOICglKG9wcG9ydHVuaXR5X2lkcylzKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gKCUob3Bwb3J0dW5pdHlfaWRzKXMpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgV0hFUkUgaWQgaW4gKFNFTEVDVCBpZCBGUk9NIHZwX3ZlbnVlX29wcG9ydHVuaXR5IFdIRVJFIGlkIElOICglKG9wcG9ydHVuaXR5X2lkcylzKSkK</text>
       </register>
       <register name=":" type="4">
         <text>405</text>
@@ -1279,9 +1272,9 @@
       </register>
     </registers>
     <search>
-      <last-search>amate</last-search>
+      <last-search>valida</last-search>
       <last-offset />
-      <last-pattern>amate</last-pattern>
+      <last-pattern>valida</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1289,7 +1282,6 @@
     </search>
     <history>
       <history-search>
-        <entry>moc</entry>
         <entry>mock_cli</entry>
         <entry>get_)</entry>
         <entry>get_</entry>
@@ -1309,6 +1301,7 @@
         <entry>show</entry>
         <entry>get_una</entry>
         <entry>amate</entry>
+        <entry>valida</entry>
       </history-search>
       <history-cmd>
         <entry>321</entry>
