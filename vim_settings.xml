@@ -301,8 +301,8 @@
         <mark key="." line="193" column="3" />
         <mark key="^" line="193" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1559239413461">
-        <mark key="'" line="153" column="46" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1559249778073">
+        <mark key="'" line="153" column="0" />
         <mark key="[" line="136" column="0" />
         <mark key="]" line="141" column="43" />
         <mark key="^" line="400" column="56" />
@@ -492,8 +492,8 @@
       <jump line="1317" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="8" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/opportunities.py" />
       <jump line="136" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="153" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="57" column="3" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
+      <jump line="153" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -565,7 +565,7 @@
         <text>frick you</text>
       </register>
       <register name="/" type="4">
-        <text>vp_venue_opp</text>
+        <text>eligib</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBHaXZlbiBhIHZlbnVlIGFuZCBhIGRhdGUgcmFuZ2UsIHJldHVybiBhIGxpc3Qgb2Ygc2NoZWR1bGVzIHRoYXQgYXJlIGVsaWdpYmxlIGZvciBvcHBvcnR1bml0eSByZWNvbW1lbmRhdGlvbnMuCiAgICAgICAgQSBzY2hlZHVsZSBpcyBlbGlnaWJsZSBpZiBpdCBpcyBuZWl0aGVyIGRpc2FibGVkIG5vciBjYW5jZWxsZWQgKHNjaGVkdWxlX2Rpc2FibGVkIGlzIGFsbG93ZWQpIGFuZCBpdCBtZWV0cyBvbmUKICAgICAgICBvZiB0aGUgZm9sbG93aW5nIGNvbmRpdGlvbnM6CiAgICAgICAgYSkgWmVybyBzcG90cyBhbGxvY2F0ZWQgdG8gY2xhc3NwYXNzCiAgICAgICAgYikgVGhlIHNjaGVkdWxlIGlzIHNvbGQgb3V0CiAgICAgICAgYykgSGFzIG9uZSBjbGFzc3Bhc3Mgc3BvdCByZW1haW5pbmcK</text>
@@ -1278,9 +1278,9 @@
       </register>
     </registers>
     <search>
-      <last-search>vp_venue_opp</last-search>
+      <last-search>eligib</last-search>
       <last-offset />
-      <last-pattern>vp_venue_opp</last-pattern>
+      <last-pattern>eligib</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1288,7 +1288,6 @@
     </search>
     <history>
       <history-search>
-        <entry>no_rate</entry>
         <entry>reservation_da</entry>
         <entry>get_reven</entry>
         <entry>summary</entry>
@@ -1308,6 +1307,7 @@
         <entry>disa</entry>
         <entry>class_disabled</entry>
         <entry>vp_venue_opp</entry>
+        <entry>eligib</entry>
       </history-search>
       <history-cmd>
         <entry>321</entry>
