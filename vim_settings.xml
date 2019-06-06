@@ -216,8 +216,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/requirements.txt" timestamp="1550614730128">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" timestamp="1557514644703">
-        <mark key="'" line="172" column="39" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" timestamp="1559854701829">
+        <mark key="'" line="137" column="0" />
+        <mark key="[" line="135" column="89" />
+        <mark key="]" line="136" column="37" />
+        <mark key="^" line="136" column="37" />
+        <mark key="." line="136" column="37" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/installation.md" timestamp="1558725570617">
         <mark key="'" line="172" column="60" />
@@ -445,8 +449,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="39" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
-      <jump line="398" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="218" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="249" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="48" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_schedule.py" />
@@ -545,6 +547,8 @@
       <jump line="44" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/common/fields.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_users.py" />
       <jump line="130" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="113" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" />
+      <jump line="136" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -616,7 +620,7 @@
         <text>remote_field</text>
       </register>
       <register name="/" type="4">
-        <text>assert</text>
+        <text>prem</text>
       </register>
       <register name="0" type="4">
         <text>reconcile_payout_and_realtime_reservations</text>
@@ -1346,17 +1350,16 @@
       </register>
     </registers>
     <search>
-      <last-search>assert</last-search>
+      <last-search>prem</last-search>
       <last-offset />
-      <last-pattern>assert</last-pattern>
+      <last-pattern>prem</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZXZlbnVlX2l0ZW1fcGFnZV9kYXRhXD4=</entry>
         <entry>remote_field</entry>
         <entry encoding="base64">XDxvcHRzXD4=</entry>
         <entry>classtivit</entry>
@@ -1376,6 +1379,7 @@
         <entry>\.to</entry>
         <entry>model</entry>
         <entry>assert</entry>
+        <entry>prem</entry>
       </history-search>
       <history-cmd>
         <entry>171</entry>
