@@ -391,6 +391,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_factories.py" timestamp="1559760026921">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_users.py" timestamp="1559834256006">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" timestamp="1553188745270">
         <mark key="'" line="89" column="0" />
       </file>
@@ -439,7 +442,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="146" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
       <jump line="230" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
       <jump line="39" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
       <jump line="398" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
@@ -539,6 +541,7 @@
       <jump line="45" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/common/fields.py" />
       <jump line="63" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/common/fields.py" />
       <jump line="44" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/common/fields.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_users.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -610,7 +613,7 @@
         <text>remote_field</text>
       </register>
       <register name="/" type="4">
-        <text>model</text>
+        <text>assert</text>
       </register>
       <register name="0" type="4">
         <text>reconcile_payout_and_realtime_reservations</text>
@@ -679,7 +682,7 @@
         <text encoding="base64">ICAgICAgICBzY2hlZHVsZV9pZCA9IDk5CiAgICAgICAgcmVzZXJ2YXRpb25faWRzID0gcmFuZ2UoMikKICAgICAgICByZXNlcnZhdGlvbl9yYXRlcyA9IFsxLCAyXQogICAgICAgIHF1ZXJ5X21vY2sucmV0dXJuX3ZhbHVlID0gW3snc2NoZWR1bGVfaWQnOiBzY2hlZHVsZV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Jlc2VydmF0aW9uX2lkJzogcmVzZXJ2YXRpb25faWRzW3hdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAncHJlbWl1bSc6IHggPT0gMH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgeCBpbiByYW5nZSgyKV0KCiAgICAgICAgcGF5X2FwaV9tb2NrLmdldF9yZXNlcnZhdGlvbnMucmV0dXJuX3ZhbHVlID0gW1JlYWx0aW1lUmVzZXJ2YXRpb24ocmVzZXJ2YXRpb25faWQ9cmVzZXJ2YXRpb25faWRzW3hdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhdGU9cmVzZXJ2YXRpb25fcmF0ZXNbeF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVfaWQ9c2NoZWR1bGVfaWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciB4IGluIHJhbmdlKDIpXQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>57</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1340,9 +1343,9 @@
       </register>
     </registers>
     <search>
-      <last-search>model</last-search>
+      <last-search>assert</last-search>
       <last-offset />
-      <last-pattern>model</last-pattern>
+      <last-pattern>assert</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -1350,7 +1353,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get_venue_geo</entry>
         <entry encoding="base64">XDxyZXZlbnVlX2l0ZW1fcGFnZV9kYXRhXD4=</entry>
         <entry>remote_field</entry>
         <entry encoding="base64">XDxvcHRzXD4=</entry>
@@ -1370,9 +1372,9 @@
         <entry>reconcil</entry>
         <entry>\.to</entry>
         <entry>model</entry>
+        <entry>assert</entry>
       </history-search>
       <history-cmd>
-        <entry>179</entry>
         <entry>171</entry>
         <entry>163</entry>
         <entry>54</entry>
@@ -1392,6 +1394,7 @@
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action ReformatCode</entry>
         <entry>bnext</entry>
+        <entry>57</entry>
       </history-cmd>
       <history-expr />
       <history-input />
