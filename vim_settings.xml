@@ -189,12 +189,12 @@
         <mark key="^" line="39" column="73" />
         <mark key="." line="39" column="73" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" timestamp="1557508560805">
-        <mark key="'" line="29" column="0" />
-        <mark key="[" line="192" column="43" />
-        <mark key="]" line="193" column="3" />
-        <mark key="." line="193" column="3" />
-        <mark key="^" line="193" column="3" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" timestamp="1559924959197">
+        <mark key="'" line="81" column="20" />
+        <mark key="[" line="242" column="8" />
+        <mark key="]" line="245" column="0" />
+        <mark key="." line="242" column="0" />
+        <mark key="^" line="240" column="3" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/event_collector.py" timestamp="1557177382556">
         <mark key="'" line="67" column="8" />
@@ -216,10 +216,10 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/requirements.txt" timestamp="1550614730128">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" timestamp="1559854701829">
-        <mark key="'" line="137" column="0" />
-        <mark key="[" line="135" column="89" />
-        <mark key="]" line="136" column="37" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" timestamp="1559924828958">
+        <mark key="'" line="114" column="23" />
+        <mark key="[" line="136" column="4" />
+        <mark key="]" line="136" column="18" />
         <mark key="^" line="136" column="37" />
         <mark key="." line="136" column="37" />
       </file>
@@ -449,12 +449,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="218" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
-      <jump line="249" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
-      <jump line="48" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_schedule.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
-      <jump line="9" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
-      <jump line="216" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
       <jump line="191" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
       <jump line="1341" column="70" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="889" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" />
@@ -548,7 +542,13 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_users.py" />
       <jump line="130" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="113" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" />
-      <jump line="136" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" />
+      <jump line="136" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" />
+      <jump line="114" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/user.py" />
+      <jump line="141" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="213" column="7" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="215" column="43" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="211" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
+      <jump line="81" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -617,16 +617,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>remote_field</text>
+        <text>RATINGS_REVIEWS</text>
       </register>
       <register name="/" type="4">
-        <text>prem</text>
+        <text>rat</text>
       </register>
-      <register name="0" type="4">
-        <text>reconcile_payout_and_realtime_reservations</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gcmVxdWVzdC51c2VyLnBlcm1pc3Npb25zLmZpbHRlcihuYW1lPVZlbnVlUGVybWlzc2lvblR5cGUuRkVBVFVSRV9SQVRJTkdTX1JFVklFV1MpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzY2hlZHVsZV9pZCA9IDk5CiAgICAgICAgcmVzZXJ2YXRpb25faWRzID0gcmFuZ2UoNSkKICAgICAgICByZXNlcnZhdGlvbl9yYXRlcyA9IFswXSAqIDUKCiAgICAgICAgcGF5X2FwaV9tb2NrLmdldF9yZXNlcnZhdGlvbnMucmV0dXJuX3ZhbHVlID0gW1JlYWx0aW1lUmVzZXJ2YXRpb24ocmVzZXJ2YXRpb25faWQ9cmVzZXJ2YXRpb25faWRzW3hdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhdGU9cmVzZXJ2YXRpb25fcmF0ZXNbeF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVfaWQ9c2NoZWR1bGVfaWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciB4IGluIHJhbmdlKDUpXQo=</text>
+        <text encoding="base64">Y2xhc3MgRmVhdHVyZVByZW1pdW0oQmFzZVBlcm1pc3Npb24pOgogICBkZWYgaGFzX3Blcm1pc3Npb24oc2VsZiwgcmVxdWVzdCwgdmlldyk6CiAgICAgICByZXR1cm4gcmVxdWVzdC51c2VyLnBlcm1pc3Npb25zLmZpbHRlcihuYW1lPVZlbnVlUGVybWlzc2lvblR5cGUuRkVBVFVSRV9QUkVNSVVNKQoK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -662,34 +662,34 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBxdWVyeV9tb2NrLnJldHVybl92YWx1ZSA9IFt7J3NjaGVkdWxlX2lkJzogc2NoZWR1bGVfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdyZXNlcnZhdGlvbl9pZCc6IHJlc2VydmF0aW9uX2lkc1t4XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3ByZW1pdW0nOiBGYWxzZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgeCBpbiByYW5nZSg1KV0K</text>
+        <text encoding="base64">ICAgICAgICBzY2hlZHVsZV9pZCA9IDk5CiAgICAgICAgcmVzZXJ2YXRpb25faWRzID0gcmFuZ2UoNSkKICAgICAgICByZXNlcnZhdGlvbl9yYXRlcyA9IFswXSAqIDUKCiAgICAgICAgcGF5X2FwaV9tb2NrLmdldF9yZXNlcnZhdGlvbnMucmV0dXJuX3ZhbHVlID0gW1JlYWx0aW1lUmVzZXJ2YXRpb24ocmVzZXJ2YXRpb25faWQ9cmVzZXJ2YXRpb25faWRzW3hdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhdGU9cmVzZXJ2YXRpb25fcmF0ZXNbeF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVfaWQ9c2NoZWR1bGVfaWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciB4IGluIHJhbmdlKDUpXQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnJlc2VydmF0aW9ucy5leGVjdXRlX3F1ZXJ5JykK</text>
+        <text encoding="base64">ICAgICAgICBxdWVyeV9tb2NrLnJldHVybl92YWx1ZSA9IFt7J3NjaGVkdWxlX2lkJzogc2NoZWR1bGVfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdyZXNlcnZhdGlvbl9pZCc6IHJlc2VydmF0aW9uX2lkc1t4XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3ByZW1pdW0nOiBGYWxzZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgeCBpbiByYW5nZSg1KV0K</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzY2hlZHVsZV9pZCA9IDk5CiAgICAgICAgcmVzZXJ2YXRpb25faWRzID0gcmFuZ2UoNSkKICAgICAgICByZXNlcnZhdGlvbl9yYXRlcyA9IFsxLCBOb25lLCAyLCBOb25lLCBOb25lXQoKICAgICAgICBwYXlfYXBpX21vY2suZ2V0X3Jlc2VydmF0aW9ucy5yZXR1cm5fdmFsdWUgPSBbUmVhbHRpbWVSZXNlcnZhdGlvbihyZXNlcnZhdGlvbl9pZD1yZXNlcnZhdGlvbl9pZHNbeF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF0ZT1yZXNlcnZhdGlvbl9yYXRlc1t4XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2hlZHVsZV9pZD1zY2hlZHVsZV9pZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9yIHggaW4gcmFuZ2UoNSldCg==</text>
+        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnJlc2VydmF0aW9ucy5leGVjdXRlX3F1ZXJ5JykK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXNlcnZhdGlvbl9yYXRlcyA9IFsxLCBdCg==</text>
+        <text encoding="base64">ICAgICAgICBzY2hlZHVsZV9pZCA9IDk5CiAgICAgICAgcmVzZXJ2YXRpb25faWRzID0gcmFuZ2UoNSkKICAgICAgICByZXNlcnZhdGlvbl9yYXRlcyA9IFsxLCBOb25lLCAyLCBOb25lLCBOb25lXQoKICAgICAgICBwYXlfYXBpX21vY2suZ2V0X3Jlc2VydmF0aW9ucy5yZXR1cm5fdmFsdWUgPSBbUmVhbHRpbWVSZXNlcnZhdGlvbihyZXNlcnZhdGlvbl9pZD1yZXNlcnZhdGlvbl9pZHNbeF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF0ZT1yZXNlcnZhdGlvbl9yYXRlc1t4XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2hlZHVsZV9pZD1zY2hlZHVsZV9pZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9yIHggaW4gcmFuZ2UoNSldCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBxdWVyeV9tb2NrLnJldHVybl92YWx1ZSA9IFt7J3NjaGVkdWxlX2lkJzogc2NoZWR1bGVfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdyZXNlcnZhdGlvbl9pZCc6IHJlc2VydmF0aW9uX2lkc1t4XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3ByZW1pdW0nOiBGYWxzZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgeCBpbiByYW5nZSg1KV0K</text>
+        <text encoding="base64">ICAgICAgICByZXNlcnZhdGlvbl9yYXRlcyA9IFsxLCBdCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnJlc2VydmF0aW9ucy5leGVjdXRlX3F1ZXJ5JykK</text>
+        <text encoding="base64">ICAgICAgICBxdWVyeV9tb2NrLnJldHVybl92YWx1ZSA9IFt7J3NjaGVkdWxlX2lkJzogc2NoZWR1bGVfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdyZXNlcnZhdGlvbl9pZCc6IHJlc2VydmF0aW9uX2lkc1t4XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3ByZW1pdW0nOiBGYWxzZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgeCBpbiByYW5nZSg1KV0K</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnJlc2VydmF0aW9ucy5leGVjdXRlX3F1ZXJ5JykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzY2hlZHVsZV9pZCA9IDk5CiAgICAgICAgcmVzZXJ2YXRpb25faWRzID0gcmFuZ2UoMikKICAgICAgICByZXNlcnZhdGlvbl9yYXRlcyA9IFsxLCAyXQogICAgICAgIHF1ZXJ5X21vY2sucmV0dXJuX3ZhbHVlID0gW3snc2NoZWR1bGVfaWQnOiBzY2hlZHVsZV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Jlc2VydmF0aW9uX2lkJzogcmVzZXJ2YXRpb25faWRzW3hdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAncHJlbWl1bSc6IHggPT0gMH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgeCBpbiByYW5nZSgyKV0KCiAgICAgICAgcGF5X2FwaV9tb2NrLmdldF9yZXNlcnZhdGlvbnMucmV0dXJuX3ZhbHVlID0gW1JlYWx0aW1lUmVzZXJ2YXRpb24ocmVzZXJ2YXRpb25faWQ9cmVzZXJ2YXRpb25faWRzW3hdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhdGU9cmVzZXJ2YXRpb25fcmF0ZXNbeF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVfaWQ9c2NoZWR1bGVfaWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciB4IGluIHJhbmdlKDIpXQo=</text>
+        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnJlc2VydmF0aW9ucy5leGVjdXRlX3F1ZXJ5JykK</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>action QuickJavaDoc</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1350,18 +1350,16 @@
       </register>
     </registers>
     <search>
-      <last-search>prem</last-search>
+      <last-search>rat</last-search>
       <last-offset />
-      <last-pattern>prem</last-pattern>
+      <last-pattern>rat</last-pattern>
       <last-replace />
       <last-substitute>,</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>remote_field</entry>
-        <entry encoding="base64">XDxvcHRzXD4=</entry>
         <entry>classtivit</entry>
         <entry>facotr</entry>
         <entry>factor</entry>
@@ -1380,6 +1378,8 @@
         <entry>model</entry>
         <entry>assert</entry>
         <entry>prem</entry>
+        <entry encoding="base64">XDxkaXNwbGF5X3JhdGVcPg==</entry>
+        <entry>rat</entry>
       </history-search>
       <history-cmd>
         <entry>171</entry>
@@ -1388,7 +1388,6 @@
         <entry>405</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>155</entry>
-        <entry>action QuickJavaDoc</entry>
         <entry>909</entry>
         <entry>16</entry>
         <entry>231</entry>
@@ -1402,6 +1401,7 @@
         <entry>57</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>action QuickJavaDoc</entry>
       </history-cmd>
       <history-expr />
       <history-input />
