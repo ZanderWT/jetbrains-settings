@@ -101,8 +101,8 @@
       <file name="$USER_HOME$/cp-projects/partner-pay-ctrl/pom.xml" timestamp="1556046671456">
         <mark key="'" line="119" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" timestamp="1551221414574">
-        <mark key="'" line="94" column="30" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" timestamp="1560358693960">
+        <mark key="'" line="80" column="15" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" timestamp="1557347038283">
         <mark key="'" line="111" column="27" />
@@ -176,12 +176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="39" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
-      <jump line="38" column="32" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
-      <jump line="58" column="32" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
-      <jump line="78" column="32" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
-      <jump line="21" column="39" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/partnerdashboard/OpportunitiesTest.java" />
-      <jump line="73" column="16" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="83" column="91" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="82" column="36" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
       <jump line="86" column="66" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/Opportunity.java" />
@@ -276,6 +270,12 @@
       <jump line="43" column="44" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/config/common/ServiceName.java" />
       <jump line="27" column="5" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/endpoints/Price.java" />
       <jump line="82" column="53" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partnerdashboard/OpportunitiesTest.java" />
+      <jump line="103" column="27" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
+      <jump line="89" column="58" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
+      <jump line="86" column="33" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
+      <jump line="123" column="15" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
+      <jump line="77" column="16" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
+      <jump line="80" column="15" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -347,7 +347,7 @@
         <text>Internal</text>
       </register>
       <register name="/" type="4">
-        <text>disab</text>
+        <text encoding="base64">XDxjcmVhdGVTcG90Q2hhbmdlUmVxdWVzdFw+</text>
       </register>
       <register name="0" type="4">
         <text>_getVenueReservationByReservationIds</text>
@@ -434,19 +434,16 @@
       </register>
     </registers>
     <search>
-      <last-search>disab</last-search>
+      <last-search encoding="base64">XDxjcmVhdGVTcG90Q2hhbmdlUmVxdWVzdFw+</last-search>
       <last-offset />
-      <last-pattern>disab</last-pattern>
+      <last-pattern encoding="base64">XDxjcmVhdGVTcG90Q2hhbmdlUmVxdWVzdFw+</last-pattern>
       <last-replace>rejected</last-replace>
       <last-substitute>shown</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>contr</entry>
-        <entry encoding="base64">XDxnZXREYXlPZldlZWtcPg==</entry>
-        <entry>return</entry>
         <entry encoding="base64">XDxwcmljZXNcPg==</entry>
         <entry>throw</entry>
         <entry encoding="base64">XDx2ZW51ZURheUV4Y2VwdGlvbnNNYXBcPg==</entry>
@@ -464,6 +461,9 @@
         <entry encoding="base64">XDxQT1NUXD4=</entry>
         <entry>disabled</entry>
         <entry>disab</entry>
+        <entry encoding="base64">XDxtYXhBdmFpbGFibGVcPg==</entry>
+        <entry>mode</entry>
+        <entry encoding="base64">XDxjcmVhdGVTcG90Q2hhbmdlUmVxdWVzdFw+</entry>
       </history-search>
       <history-cmd>
         <entry>s;end;start;g</entry>
