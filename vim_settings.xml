@@ -27,11 +27,10 @@
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SettingsResource.kt" timestamp="1560371519721">
         <mark key="'" line="384" column="68" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/utils/ExceptionHandler.java" timestamp="1560461156227">
-        <mark key="[" line="35" column="29" />
-        <mark key="]" line="35" column="35" />
-        <mark key="." line="35" column="35" />
-        <mark key="^" line="35" column="35" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/utils/ExceptionHandler.java" timestamp="1560464494748">
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
+        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/common/src/main/java/com/classpass/common/models/response/Reply.java" timestamp="1560461257290">
         <mark key="'" line="39" column="31" />
@@ -344,7 +343,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>!</text>
+        <text>val msg = exception.getMessage() ?: &quot;Not found&quot;</text>
       </register>
       <register name="/" type="4">
         <text>spotch</text>
@@ -353,7 +352,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIGdldFNwb3RDaGFuZ2VSZWNvbW1lbmRhdGlvblJlc3BvbnNlKHZlbnVlSWQsIHNjaGVkdWxlSW5mbykucmVhZEVudGl0eShTdHJpbmc6OmNsYXNzLmphdmEpLAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCgiJHVybFByZWZpeC92ZW51ZS8kdmVudWVJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJjbGFzc19pZCIsIHNjaGVkdWxlSW5mby5jbGFzc0lkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJkYXRlIiwgc2NoZWR1bGVJbmZvLmRhdGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KCkuZ2V0KCkKICAgICAgICAgICAgICAgICAgICAgICAgLnJlYWRFbnRpdHkoU3RyaW5nOjpjbGFzcy5qYXZhKSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -365,20 +364,20 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCgiJHVybFByZWZpeC92ZW51ZS8kdmVudWVJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJjbGFzc19pZCIsIHNjaGVkdWxlSW5mby5jbGFzc0lkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJkYXRlIiwgc2NoZWR1bGVJbmZvLmRhdGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KCkuZ2V0KCk=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCgiJHVybFByZWZpeC92ZW51ZS8kdmVudWVJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJjbGFzc19pZCIsIHNjaGVkdWxlSW5mby5jbGFzc0lkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJkYXRlIiwgc2NoZWR1bGVJbmZvLmRhdGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KCkuZ2V0KCkKICAgICAgICAgICAgICAgICAgICAgICAgLnJlYWRFbnRpdHkoU3RyaW5nOjpjbGFzcy5qYXZhKSwK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCgiJHVybFByZWZpeC92ZW51ZS8kdmVudWVJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJjbGFzc19pZCIsIHNjaGVkdWxlSW5mby5jbGFzc0lkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJkYXRlIiwgc2NoZWR1bGVJbmZvLmRhdGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KCkuZ2V0KCk=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3389,13 +3388,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGVtcHR5IDIwMCByZXNwb25zZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIGdldFNwb3RDaGFuZ2VFcnJvcih2ZW51ZUlkOiBJbnQsIHNjaGVkdWxlSW5mbzogU2NoZWR1bGVJbmZvKTogUmVwbHk8U3RyaW5nPiB7CiAgICAgICAgcmV0dXJuIG9iamVjdE1hcHBlci5yZWFkVmFsdWU8UmVwbHk8U3RyaW5nPj4oCiAgICAgICAgICAgICAgICByZXF1ZXN0U3BvdENoYW5nZVJlY29tbWVuZGF0aW9uKHZlbnVlSWQsIHNjaGVkdWxlSW5mbykucmVhZEVudGl0eShTdHJpbmc6OmNsYXNzLmphdmEpLAogICAgICAgICAgICAgICAgb2JqZWN0IDogVHlwZVJlZmVyZW5jZTxSZXBseTxTdHJpbmc+PigpIHt9KQogICAgfQo=</text>
+        <text encoding="base64">ICAgIGVtcHR5IDIwMCByZXNwb25zZQo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
