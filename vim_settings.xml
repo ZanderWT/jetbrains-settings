@@ -187,12 +187,12 @@
         <mark key="." line="27" column="75" />
         <mark key="^" line="27" column="75" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" timestamp="1560445369995">
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" timestamp="1560447445282">
         <mark key="'" line="51" column="12" />
-        <mark key="[" line="82" column="52" />
-        <mark key="]" line="82" column="60" />
-        <mark key="." line="82" column="60" />
-        <mark key="^" line="82" column="60" />
+        <mark key="[" line="98" column="36" />
+        <mark key="]" line="72" column="37" />
+        <mark key="." line="72" column="37" />
+        <mark key="^" line="72" column="37" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/config/common/ServiceName.java" timestamp="1558730909219">
         <mark key="'" line="43" column="44" />
@@ -391,7 +391,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>20</text>
+        <text>val foo =</text>
       </register>
       <register name="/" type="4">
         <text>venueId = 20</text>
@@ -400,7 +400,7 @@
         <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYG1pc3NpbmcgdmVudWUgc2V0dGluZyB1c2VzIGRlZmF1bHQgdmVudWUgbW9kZWAoKSB7CiAgICAgICAgdmFsIGNsYXNzVGltZSA9IFpvbmVkRGF0ZVRpbWUubm93KCkudHJ1bmNhdGVkVG8oQ2hyb25vVW5pdC5IT1VSUykubWludXNEYXlzKDQpCiAgICAgICAgdmFsIHZlbnVlSWQgPSAyMAogICAgICAgIHNwb3RSZWNzRGFvLmxvYWRBbmRJbmRleFNwb3RSZWNzKGxpc3RPZigKICAgICAgICAgICAgICAgIFNwb3RSZWMuZ2V0RGVmYXVsdCh2ZW51ZUlkID0gMjAsIHNjaGVkdWxlSWQgPSAxMDAwLCBjbGFzc0lkID0gMjUsCiAgICAgICAgICAgICAgICAgICAgICAgIG5ldHdvcmtTcG90c0F2YWlsYWJsZUNsYXNzaWMgPSAxNSwKICAgICAgICAgICAgICAgICAgICAgICAgbmV0d29ya1Nwb3RzQXZhaWxhYmxlQWdncmVzc2l2ZSA9IDIwLAogICAgICAgICAgICAgICAgICAgICAgICBjcE5ldHdvcmtEZW1hbmRFc3QgPSAxMi4wZiwKICAgICAgICAgICAgICAgICAgICAgICAgY3BCb29rZWROZXR3b3JrU3BvdHMgPSA3LAogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc1N0YXJ0ID0gY2xhc3NUaW1lCiAgICAgICAgICAgICAgICApKSkKCgogICAgICAgIHZhbCByZXNwb25zZSA9IGdldFNwb3RDaGFuZ2VSZWNvbW1lbmRhdGlvbigyMCwgU2NoZWR1bGVJbmZvKAogICAgICAgICAgICAgICAgMTAwMEwsCiAgICAgICAgICAgICAgICAyNSwKICAgICAgICAgICAgICAgIGNsYXNzVGltZS50b0xvY2FsRGF0ZSgpLAogICAgICAgICAgICAgICAgY2xhc3NUaW1lLnRvTG9jYWxUaW1lKCkpCiAgICAgICAgKQoKICAgICAgICBBc3NlcnQuYXNzZXJ0RXF1YWxzKHJlc3BvbnNlLm5ldHdvcmtTcG90QWxsb2NhdGlvbiwgMTYpCiAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBmb28uZGF0YQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -413,31 +413,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzcG90UmVjc0Rhby4K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzcG90UmVjc0Rhby4K</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzcG90UmVjc0Rhby5sb2FkQW5kSW5kZXhTcG90UmVjcyhsaXN0T2YoCiAgICAgICAgICAgICAgICBTcG90UmVjLmdldERlZmF1bHQodmVudWVJZCA9IDIwLCBzY2hlZHVsZUlkID0gMTAwMCwgY2xhc3NJZCA9IDI1LAogICAgICAgICAgICAgICAgICAgICAgICBuZXR3b3JrU3BvdHNBdmFpbGFibGVDbGFzc2ljID0gMTUsCiAgICAgICAgICAgICAgICAgICAgICAgIG5ldHdvcmtTcG90c0F2YWlsYWJsZUFnZ3Jlc3NpdmUgPSAyMCwKICAgICAgICAgICAgICAgICAgICAgICAgY3BOZXR3b3JrRGVtYW5kRXN0ID0gMTIuMGYsCiAgICAgICAgICAgICAgICAgICAgICAgIGNwQm9va2VkTmV0d29ya1Nwb3RzID0gNywKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NTdGFydCA9IGNsYXNzVGltZQogICAgICAgICAgICAgICAgKSkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBBc3NlcnQuYXNzZXJ0TnVsbChyZXNwb25zZSkK</text>
+        <text encoding="base64">ICAgICAgICBzcG90UmVjc0Rhby5sb2FkQW5kSW5kZXhTcG90UmVjcyhsaXN0T2YoCiAgICAgICAgICAgICAgICBTcG90UmVjLmdldERlZmF1bHQodmVudWVJZCA9IDIwLCBzY2hlZHVsZUlkID0gMTAwMCwgY2xhc3NJZCA9IDI1LAogICAgICAgICAgICAgICAgICAgICAgICBuZXR3b3JrU3BvdHNBdmFpbGFibGVDbGFzc2ljID0gMTUsCiAgICAgICAgICAgICAgICAgICAgICAgIG5ldHdvcmtTcG90c0F2YWlsYWJsZUFnZ3Jlc3NpdmUgPSAyMCwKICAgICAgICAgICAgICAgICAgICAgICAgY3BOZXR3b3JrRGVtYW5kRXN0ID0gMTIuMGYsCiAgICAgICAgICAgICAgICAgICAgICAgIGNwQm9va2VkTmV0d29ya1Nwb3RzID0gNywKICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NTdGFydCA9IGNsYXNzVGltZQogICAgICAgICAgICAgICAgKSkpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBjcmVhdGVWZW51ZVNldHRpbmcodmVudWVJZCwgbW9kZSA9ICJhZ2dyZXNzaXZlIiwgbmV0d29ya1Nwb3RDYXAgPSAyNSwgc3NFbmFibGVkID0gdHJ1ZSkK</text>
+        <text encoding="base64">ICAgICAgICBBc3NlcnQuYXNzZXJ0TnVsbChyZXNwb25zZSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgc3BvdFJlYyA9IHNwb3RSZWNzRGFvLmdldFNwb3RSZWMoc2NoZWR1bGVJbmZvLnNjaGVkdWxlSWQpCg==</text>
+        <text encoding="base64">ICAgICAgICBjcmVhdGVWZW51ZVNldHRpbmcodmVudWVJZCwgbW9kZSA9ICJhZ2dyZXNzaXZlIiwgbmV0d29ya1Nwb3RDYXAgPSAyNSwgc3NFbmFibGVkID0gdHJ1ZSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzcG90UmVjLmxldAo=</text>
+        <text encoding="base64">ICAgICAgICB2YWwgc3BvdFJlYyA9IHNwb3RSZWNzRGFvLmdldFNwb3RSZWMoc2NoZWR1bGVJbmZvLnNjaGVkdWxlSWQpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzcG90UmVjLm1hcAo=</text>
+        <text encoding="base64">ICAgICAgICBzcG90UmVjLmxldAo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
