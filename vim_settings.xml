@@ -314,12 +314,11 @@
         <mark key="." line="44" column="22" />
         <mark key="^" line="44" column="22" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" timestamp="1560551198059">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" timestamp="1560552053090">
         <mark key="'" line="392" column="36" />
-        <mark key="[" line="395" column="17" />
-        <mark key="]" line="395" column="78" />
-        <mark key="^" line="395" column="78" />
-        <mark key="." line="395" column="78" />
+        <mark key="[" line="394" column="0" />
+        <mark key="]" line="394" column="0" />
+        <mark key="." line="394" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" timestamp="1560549735014">
         <mark key="'" line="721" column="2" />
@@ -626,7 +625,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>ManageSpotsCon</text>
+        <text>params['start_time']</text>
       </register>
       <register name="/" type="4">
         <text>get_schedul</text>
@@ -634,12 +633,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzdWJtaXR0ZWRfc2NoZWR1bGUgPSBTY2hlZHVsZXNEYWwuZ2V0X3NjaGVkdWxlX2J5X2lkKHNjaGVkdWxlX2lkKQo=</text>
       </register>
-      <register name="1" type="4">
-        <text>SchedulesDal.get_smartspot_schedule_rule(venue_id,
-                                                          params['day_of_week'],
-                                                          params['start_time'],
-                                                          params['class_id'],
-                                                          venue_user_id)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICB2ZW51ZV91c2VyX2lkID0gcmVxdWVzdC51c2VyLmlkICAjIFdlJ3JlIGF1dGhlbnRpY2F0ZWQgZnJvbSBwYXJlbnQgY2xhc3MK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -654,34 +649,38 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzdWJtaXR0ZWRfc2NoZWR1bGUgPSBTY2hlZHVsZXNEYWwuZ2V0X3NjaGVkdWxlX2J5X2lkKHNjaGVkdWxlX2lkKQo=</text>
+        <text encoding="base64">ICAgICAgICB2ZW51ZV91c2VyX2lkID0gcmVxdWVzdC51c2VyLmlkICAjIFdlJ3JlIGF1dGhlbnRpY2F0ZWQgZnJvbSBwYXJlbnQgY2xhc3MK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBzY2hlZHVsZS4K</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="4" type="4">
+        <text>SchedulesDal.get_smartspot_schedule_rule(venue_id,
+                                                          params['day_of_week'],
+                                                          params['start_time'],
+                                                          params['class_id'],
+                                                          venue_user_id)</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGRlZiBjcmVhdGUoc2VsZiwgcmVxdWVzdCwgdmVudWVfaWQsICphcmdzLCAqKmt3YXJncyk6CiAgICAgICAgc2VyaWFsaXplciA9IFNtYXJ0U3BvdFJlY3VycmluZ1J1bGVQb3N0U2VyaWFsaXplcihkYXRhPXJlcXVlc3QuZGF0YSkKICAgICAgICBzZXJpYWxpemVyLmlzX3ZhbGlkKHJhaXNlX2V4Y2VwdGlvbj1UcnVlKQogICAgICAgIHZlbnVlX3VzZXJfaWQgPSByZXF1ZXN0LnVzZXIuaWQgICMgV2UncmUgYXV0aGVudGljYXRlZCBmcm9tIHBhcmVudCBjbGFzcwogICAgICAgIHNtYXJ0c3BvdF9jb250cm9sbGVyLmNyZWF0ZV9vcl91cGRhdGVfcmVjdXJyaW5nX3NjaGVkdWxlX3J1bGUodmVudWVfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2ZW51ZV91c2VyX2lkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VyaWFsaXplci5kYXRhKQogICAgICAgIHJldHVybiBSZXNwb25zZShzdGF0dXM9c3RhdHVzLkhUVFBfMjA0X05PX0NPTlRFTlQpCg==</text>
+        <text encoding="base64">ICAgICAgICBzdWJtaXR0ZWRfc2NoZWR1bGUgPSBTY2hlZHVsZXNEYWwuZ2V0X3NjaGVkdWxlX2J5X2lkKHNjaGVkdWxlX2lkKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgcmVzdF9mcmFtZXdvcmsvZ2VuZXJpY3MucHkiLCBsaW5lIDEwOSByZXF1aXJlcyB0aGlzCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZidkaWQgbm90IHVwZGF0ZSBzY2hlZHVsZSB7c2NoZWR1bGVfaWR9OiB1bmFibGUgdG8gZmluZCBib29raW5nIGluZm9ybWF0aW9uIGZvciBzY2hlZHVsZScK</text>
+        <text encoding="base64">ICAgIGRlZiBjcmVhdGUoc2VsZiwgcmVxdWVzdCwgdmVudWVfaWQsICphcmdzLCAqKmt3YXJncyk6CiAgICAgICAgc2VyaWFsaXplciA9IFNtYXJ0U3BvdFJlY3VycmluZ1J1bGVQb3N0U2VyaWFsaXplcihkYXRhPXJlcXVlc3QuZGF0YSkKICAgICAgICBzZXJpYWxpemVyLmlzX3ZhbGlkKHJhaXNlX2V4Y2VwdGlvbj1UcnVlKQogICAgICAgIHZlbnVlX3VzZXJfaWQgPSByZXF1ZXN0LnVzZXIuaWQgICMgV2UncmUgYXV0aGVudGljYXRlZCBmcm9tIHBhcmVudCBjbGFzcwogICAgICAgIHNtYXJ0c3BvdF9jb250cm9sbGVyLmNyZWF0ZV9vcl91cGRhdGVfcmVjdXJyaW5nX3NjaGVkdWxlX3J1bGUodmVudWVfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2ZW51ZV91c2VyX2lkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VyaWFsaXplci5kYXRhKQogICAgICAgIHJldHVybiBSZXNwb25zZShzdGF0dXM9c3RhdHVzLkhUVFBfMjA0X05PX0NPTlRFTlQpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHsnaXNfdmFsaWQnOiBGYWxzZSwKICAgICAgICAgICAgICAgICAgICAncmVhc29uJzogZidkaWQgbm90IHVwZGF0ZSBzY2hlZHVsZSB7c2NoZWR1bGVfaWR9OiB1bmFibGUgdG8gZmluZCBib29raW5nIGluZm9ybWF0aW9uIGZvciBzY2hlZHVsZSd9Cg==</text>
+        <text encoding="base64">ICAgICMgcmVzdF9mcmFtZXdvcmsvZ2VuZXJpY3MucHkiLCBsaW5lIDEwOSByZXF1aXJlcyB0aGlzCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1391,9 +1390,9 @@
         <entry encoding="base64">cztcPHByZXZpb3VzX3Nwb3RzXD47Y3VycmVudF9zcG90cztn</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action VcsShowNextChangeMarker</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
