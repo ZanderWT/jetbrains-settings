@@ -353,8 +353,8 @@
         <mark key="." line="245" column="0" />
         <mark key="^" line="240" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1560448320927">
-        <mark key="'" line="565" column="19" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1560529873941">
+        <mark key="'" line="500" column="16" />
         <mark key="[" line="494" column="46" />
         <mark key="]" line="494" column="56" />
         <mark key="^" line="145" column="10" />
@@ -390,6 +390,13 @@
         <mark key="]" line="565" column="8" />
         <mark key="." line="565" column="8" />
         <mark key="^" line="1108" column="41" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/logging_prefixes.py" timestamp="1560530055360">
+        <mark key="'" line="3" column="44" />
+        <mark key="[" line="3" column="32" />
+        <mark key="]" line="3" column="58" />
+        <mark key="^" line="3" column="0" />
+        <mark key="." line="5" column="1" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/rest_framework/views.py" timestamp="1560286356975">
         <mark key="'" line="117" column="8" />
@@ -469,9 +476,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="208" column="82" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
-      <jump line="237" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
-      <jump line="245" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
       <jump line="261" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
       <jump line="265" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" />
       <jump line="50" column="61" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_schedule.py" />
@@ -569,6 +573,9 @@
       <jump line="469" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="491" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="565" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="494" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="500" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="3" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/logging_prefixes.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -640,10 +647,10 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwcmV2aW91c2x5X2FjdGVkX29uXD4=</text>
+        <text>logger.info</text>
       </register>
       <register name="0" type="4">
-        <text>spots_added</text>
+        <text>opportunities_not_generated</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1370,9 +1377,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwcmV2aW91c2x5X2FjdGVkX29uXD4=</last-search>
+      <last-search>logger.info</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwcmV2aW91c2x5X2FjdGVkX29uXD4=</last-pattern>
+      <last-pattern>logger.info</last-pattern>
       <last-replace />
       <last-substitute>name</last-substitute>
       <last-dir>1</last-dir>
@@ -1380,8 +1387,6 @@
     </search>
     <history>
       <history-search>
-        <entry>map_</entry>
-        <entry>elig</entry>
         <entry>def.*eligib</entry>
         <entry>classpass_spots=1</entry>
         <entry encoding="base64">XDxTcG90UmVjc1Byb3h5XD4=</entry>
@@ -1400,6 +1405,8 @@
         <entry encoding="base64">XDxuZXdfc3BvdHNcPg==</entry>
         <entry>acted</entry>
         <entry encoding="base64">XDxwcmV2aW91c2x5X2FjdGVkX29uXD4=</entry>
+        <entry>log</entry>
+        <entry>logger.info</entry>
       </history-search>
       <history-cmd>
         <entry>171</entry>
