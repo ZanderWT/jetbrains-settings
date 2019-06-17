@@ -44,8 +44,8 @@
       <file name="/fragment.kt" timestamp="1560442901108">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" timestamp="1560444186123">
-        <mark key="'" line="137" column="104" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" timestamp="1560812068824">
+        <mark key="'" line="102" column="15" />
         <mark key="[" line="138" column="66" />
         <mark key="]" line="138" column="96" />
         <mark key="^" line="138" column="96" />
@@ -103,6 +103,12 @@
       </file>
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/SpotRecsIngesterApplication.kt" timestamp="1560377415366">
         <mark key="'" line="63" column="16" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/SpotRec.kt" timestamp="1560812037567">
+        <mark key="'" line="12" column="11" />
+      </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/a1a0b714cb760f9bd0f4f9d04915c1748eaefc64/kotlin-stdlib-1.2.31-sources.jar!/kotlin/Collections.kt" timestamp="1560811909768">
+        <mark key="[" line="134" column="46" />
       </file>
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/requests/ComputeAppliedSettingsReq.kt" timestamp="1560459856568">
         <mark key="[" line="19" column="0" />
@@ -164,8 +170,8 @@
         <mark key="." line="27" column="75" />
         <mark key="^" line="27" column="75" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" timestamp="1560803896000">
-        <mark key="'" line="130" column="0" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" timestamp="1560811902933">
+        <mark key="'" line="81" column="0" />
         <mark key="[" line="130" column="43" />
         <mark key="]" line="130" column="42" />
         <mark key="." line="130" column="42" />
@@ -183,13 +189,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="117" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
-      <jump line="122" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
-      <jump line="125" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
-      <jump line="128" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
-      <jump line="138" column="39" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
-      <jump line="139" column="7" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
-      <jump line="127" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="112" column="14" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="22" column="32" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="121" column="104" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
@@ -273,7 +272,6 @@
       <jump line="120" column="58" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="122" column="73" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="25" column="16" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
-      <jump line="104" column="84" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="119" column="43" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="134" column="108" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="31" column="34" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SpotRecsLogic.kt" />
@@ -283,6 +281,14 @@
       <jump line="69" column="13" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="58" column="65" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="130" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="118" column="39" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="114" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="107" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="104" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="97" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="81" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="12" column="11" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/SpotRec.kt" />
+      <jump line="102" column="15" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -354,7 +360,7 @@
         <text>Body</text>
       </register>
       <register name="/" type="4">
-        <text>bod</text>
+        <text>comp</text>
       </register>
       <register name="0" type="4">
         <text>expectedNetworkSpotAllocations[0]</text>
@@ -3412,9 +3418,9 @@
       </register>
     </registers>
     <search>
-      <last-search>bod</last-search>
+      <last-search>comp</last-search>
       <last-offset />
-      <last-pattern>bod</last-pattern>
+      <last-pattern>comp</last-pattern>
       <last-replace>rejected</last-replace>
       <last-substitute>shown</last-substitute>
       <last-dir>1</last-dir>
@@ -3422,9 +3428,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ok</entry>
-        <entry>error</entry>
-        <entry>res</entry>
         <entry>foo</entry>
         <entry>resp</entry>
         <entry encoding="base64">b3V0IA==</entry>
@@ -3442,6 +3445,9 @@
         <entry>infos</entry>
         <entry>response[0</entry>
         <entry>bod</entry>
+        <entry>time</entry>
+        <entry>timest</entry>
+        <entry>comp</entry>
       </history-search>
       <history-cmd>
         <entry>s;r.getInt(;getInteger(r, ;</entry>
