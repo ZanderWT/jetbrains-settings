@@ -104,12 +104,12 @@
         <mark key="]" line="19" column="78" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SpotRecsLogic.kt" timestamp="1560788984474">
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SpotRecsLogic.kt" timestamp="1560794189545">
         <mark key="'" line="24" column="40" />
-        <mark key="[" line="27" column="0" />
-        <mark key="]" line="27" column="0" />
-        <mark key="." line="27" column="0" />
-        <mark key="^" line="21" column="182" />
+        <mark key="[" line="20" column="34" />
+        <mark key="]" line="20" column="35" />
+        <mark key="." line="20" column="35" />
+        <mark key="^" line="20" column="35" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/java/org/twohey/dropwizard/helpers/Reply.java" timestamp="1557346377590">
         <mark key="[" line="61" column="0" />
@@ -134,6 +134,12 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/StudioDao.java" timestamp="1559331778934">
         <mark key="[" line="132" column="27" />
         <mark key="]" line="132" column="62" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/requests/SpotRecRequests.kt" timestamp="1560794019193">
+        <mark key="[" line="14" column="11" />
+        <mark key="]" line="14" column="30" />
+        <mark key="^" line="14" column="30" />
+        <mark key="." line="14" column="30" />
       </file>
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/AbstractSettingsTest.kt" timestamp="1560391182999">
         <mark key="'" line="74" column="15" />
@@ -163,12 +169,12 @@
       <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/processor/ApptScheduleProcessor.java" timestamp="1551897985237">
         <mark key="'" line="85" column="65" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResource.kt" timestamp="1560460152201">
-        <mark key="'" line="22" column="64" />
-        <mark key="[" line="29" column="98" />
-        <mark key="]" line="29" column="98" />
-        <mark key="." line="29" column="98" />
-        <mark key="^" line="29" column="98" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResource.kt" timestamp="1560794144633">
+        <mark key="'" line="23" column="64" />
+        <mark key="[" line="29" column="88" />
+        <mark key="]" line="29" column="101" />
+        <mark key="." line="29" column="101" />
+        <mark key="^" line="29" column="101" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/mutators/core/PlanMutators.java" timestamp="1552505894920">
         <mark key="'" line="57" column="66" />
@@ -343,16 +349,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>val msg = exception.getMessage() ?: &quot;Not found&quot;</text>
+        <text>[0]</text>
       </register>
       <register name="/" type="4">
         <text>spotch</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGdldFNwb3RDaGFuZ2VSZWNvbW1lbmRhdGlvblJlc3BvbnNlKHZlbnVlSWQsIHNjaGVkdWxlSW5mbykucmVhZEVudGl0eShTdHJpbmc6OmNsYXNzLmphdmEpLAo=</text>
+      <register name="0" type="4">
+        <text>@Schema(required = true</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZGF0ZSA9IExvY2FsRGF0ZS5wYXJzZShkYXRlU3RyaW5nKQogICAgICAgIHZhbCBjbGFzc1RpbWUgPSBMb2NhbFRpbWUucGFyc2UoY2xhc3NUaW1lU3RyaW5nKQogICAgICAgIHZhbCBzY2hlZHVsZUluZm8gPSBTY2hlZHVsZUluZm8oc2NoZWR1bGVJZCwgY2xhc3NJZCwgZGF0ZSwgY2xhc3NUaW1lKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -365,19 +371,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICBAU2NoZW1hKHJlcXVpcmVkID0gdHJ1ZSwgdHlwZSA9ICJqYXZhLmxhbmcuTG9uZyIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQFF1ZXJ5UGFyYW0oInNjaGVkdWxlX2lkIikgc2NoZWR1bGVJZDogTG9uZywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBAUXVlcnlQYXJhbSgiY2xhc3NfaWQiKSBjbGFzc0lkOiBJbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQFNjaGVtYShyZXF1aXJlZCA9IHRydWUsIHR5cGUgPSAiamF2YS5sYW5nLlN0cmluZyIsIGV4YW1wbGUgPSAiMjAxOC0wMS0yMyIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQFF1ZXJ5UGFyYW0oImRhdGUiKSBkYXRlU3RyaW5nOiBTdHJpbmcgLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIEBTY2hlbWEocmVxdWlyZWQgPSB0cnVlLCB0eXBlID0gImphdmEubGFuZy5TdHJpbmciLCBleGFtcGxlID0gIjE0OjMwOjAwIikK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCgiJHVybFByZWZpeC92ZW51ZS8kdmVudWVJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJjbGFzc19pZCIsIHNjaGVkdWxlSW5mby5jbGFzc0lkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJkYXRlIiwgc2NoZWR1bGVJbmZvLmRhdGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KCkuZ2V0KCkKICAgICAgICAgICAgICAgICAgICAgICAgLnJlYWRFbnRpdHkoU3RyaW5nOjpjbGFzcy5qYXZhKSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCgiJHVybFByZWZpeC92ZW51ZS8kdmVudWVJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJjbGFzc19pZCIsIHNjaGVkdWxlSW5mby5jbGFzc0lkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJkYXRlIiwgc2NoZWR1bGVJbmZvLmRhdGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KCkuZ2V0KCk=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCgiJHVybFByZWZpeC92ZW51ZS8kdmVudWVJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJjbGFzc19pZCIsIHNjaGVkdWxlSW5mby5jbGFzc0lkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJkYXRlIiwgc2NoZWR1bGVJbmZvLmRhdGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KCkuZ2V0KCkKICAgICAgICAgICAgICAgICAgICAgICAgLnJlYWRFbnRpdHkoU3RyaW5nOjpjbGFzcy5qYXZhKSwK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3387,14 +3393,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRhcmdldCgiJHVybFByZWZpeC92ZW51ZS8kdmVudWVJZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJjbGFzc19pZCIsIHNjaGVkdWxlSW5mby5jbGFzc0lkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJkYXRlIiwgc2NoZWR1bGVJbmZvLmRhdGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZXF1ZXN0KCkuZ2V0KCk=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGVtcHR5IDIwMCByZXNwb25zZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
