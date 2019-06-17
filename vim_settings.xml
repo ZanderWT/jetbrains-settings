@@ -164,12 +164,12 @@
         <mark key="." line="27" column="75" />
         <mark key="^" line="27" column="75" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" timestamp="1560801292241">
-        <mark key="'" line="112" column="46" />
-        <mark key="[" line="112" column="12" />
-        <mark key="]" line="112" column="19" />
-        <mark key="." line="112" column="19" />
-        <mark key="^" line="112" column="19" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" timestamp="1560803896000">
+        <mark key="'" line="130" column="0" />
+        <mark key="[" line="130" column="43" />
+        <mark key="]" line="130" column="42" />
+        <mark key="." line="130" column="42" />
+        <mark key="^" line="130" column="42" />
       </file>
       <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/processor/ApptScheduleProcessor.java" timestamp="1551897985237">
         <mark key="'" line="85" column="65" />
@@ -183,9 +183,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="30" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SpotChangeResource.kt" />
-      <jump line="107" column="16" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
-      <jump line="108" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="117" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="122" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="125" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
@@ -269,7 +266,6 @@
       <jump line="75" column="24" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="89" column="48" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="138" column="88" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
-      <jump line="130" column="44" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="131" column="45" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="31" column="46" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="126" column="49" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
@@ -283,6 +279,10 @@
       <jump line="31" column="34" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SpotRecsLogic.kt" />
       <jump line="127" column="81" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
       <jump line="112" column="46" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="98" column="4" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="69" column="13" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="58" column="65" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
+      <jump line="130" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/test/kotlin/com/classpass/spotrecs/resource/SpotChangeRecommendationResourceTest.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -351,16 +351,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>responseStatus</text>
+        <text>Body</text>
       </register>
       <register name="/" type="4">
-        <text>stat</text>
+        <text>bod</text>
       </register>
       <register name="0" type="4">
-        <text>@Schema(required = true</text>
+        <text>expectedNetworkSpotAllocations[0]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAucXVlcnlQYXJhbSgiY2xhc3NfaWQiLCBzY2hlZHVsZUluZm8uY2xhc3NJZC50b1N0cmluZygpKQogICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImRhdGUiLCBzY2hlZHVsZUluZm8uZGF0ZS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -373,19 +373,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIGdldFNwb3RDaGFuZ2VSZWNvbW1lbmRhdGlvblN0YXR1cyh2ZW51ZUlkOiBJbnQsIHNjaGVkdWxlSW5mb3M6IExpc3Q8U2NoZWR1bGVJbmZvPik6IEludCB7CiAgICAgICAgcmV0dXJuIG9iamVjdE1hcHBlci5yZWFkVmFsdWU8UmVwbHk8Kj4+KAogICAgICAgICAgICAgICAgZ2V0U3BvdENoYW5nZVJlY29tbWVuZGF0aW9uUmVzcG9uc2UodmVudWVJZCwgc2NoZWR1bGVJbmZvcykucmVhZEVudGl0eShTdHJpbmc6OmNsYXNzLmphdmEpLAogICAgICAgICAgICAgICAgb2JqZWN0IDogVHlwZVJlZmVyZW5jZTxSZXBseTwqPj4oKSB7fSkuc3RhdHVzCiAgICB9Cgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc3BvdHJlY3MubW9kZWxzLnJlcXVlc3RzLkdldFNwb3RDaGFuZ2VSZXF1ZXN0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAucXVlcnlQYXJhbSgiY2xhc3NfaWQiLCBzY2hlZHVsZUluZm8uY2xhc3NJZC50b1N0cmluZygpKQogICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImRhdGUiLCBzY2hlZHVsZUluZm8uZGF0ZS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBtYXBPZjxMb25nLCBTcG90UmVjPigpLmFwcGx5IHsgIH0K</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc3BvdHJlY3MubW9kZWxzLnJlcXVlc3RzLkdldFNwb3RDaGFuZ2VSZXF1ZXN0Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3396,25 +3396,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgYXBwbGllZFNtYXJ0c3BvdFN0YXR1c2VzID0gc2V0dGluZ3NMb2dpYy5jb21wdXRlQXBwbGllZFNtYXJ0c3BvdFN0YXR1cyh2ZW51ZUlkLCBzY2hlZHVsZUluZm9zKQo=</text>
+        <text encoding="base64">ICAgICAgICBtYXBPZjxMb25nLCBTcG90UmVjPigpLmFwcGx5IHsgIH0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzcG90UmVjc1swXS5zY2EK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgID86IHRocm93IE5vdEZvdW5kRXhjZXB0aW9uKCJDb3VsZCBub3QgZmluZCBhIHNwb3QgY2hhbmdlIHJlY29tbWVuZGF0aW9uIGZvciBzY2hlZHVsZSBpZCAke3NjaGVkdWxlSW5mby5zY2hlZHVsZUlkfSIpCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgYXBwbGllZFNtYXJ0c3BvdFN0YXR1c2VzID0gc2V0dGluZ3NMb2dpYy5jb21wdXRlQXBwbGllZFNtYXJ0c3BvdFN0YXR1cyh2ZW51ZUlkLCBzY2hlZHVsZUluZm9zKQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>stat</last-search>
+      <last-search>bod</last-search>
       <last-offset />
-      <last-pattern>stat</last-pattern>
+      <last-pattern>bod</last-pattern>
       <last-replace>rejected</last-replace>
       <last-substitute>shown</last-substitute>
       <last-dir>1</last-dir>
@@ -3422,10 +3422,6 @@
     </search>
     <history>
       <history-search>
-        <entry>1000</entry>
-        <entry>venueId = 20</entry>
-        <entry>empty</entry>
-        <entry>404</entry>
         <entry>ok</entry>
         <entry>error</entry>
         <entry>res</entry>
@@ -3442,6 +3438,10 @@
         <entry>it</entry>
         <entry>entity</entry>
         <entry>stat</entry>
+        <entry>get suc</entry>
+        <entry>infos</entry>
+        <entry>response[0</entry>
+        <entry>bod</entry>
       </history-search>
       <history-cmd>
         <entry>s;r.getInt(;getInteger(r, ;</entry>
@@ -3459,11 +3459,11 @@
         <entry>71</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
-        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>bnext</entry>
         <entry>action ReformatCode</entry>
+        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
       </history-cmd>
       <history-expr />
       <history-input />
