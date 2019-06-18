@@ -188,8 +188,8 @@
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1560816131141">
-        <mark key="'" line="73" column="6" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1560873537555">
+        <mark key="'" line="1487" column="67" />
         <mark key="[" line="999" column="14" />
         <mark key="]" line="999" column="61" />
       </file>
@@ -486,7 +486,6 @@
       <jump line="1429" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1456" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1467" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="1487" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="152" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="1611" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1613" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -549,6 +548,7 @@
       <jump line="222" column="71" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
       <jump line="234" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
       <jump line="240" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
+      <jump line="1487" column="67" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -620,7 +620,7 @@
         <text>30</text>
       </register>
       <register name="/" type="4">
-        <text>mock_book</text>
+        <text>get_schedules_with_spot</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB0ZXN0X2ZhY3Rvcmllcy5SZXBvcnRTY2hlZHVsZUZhY3Rvcnkoc2NoZWR1bGU9b3B0aW1pemVkX3NjaGVkdWxlLCBtYXhfY2FwYWNpdHk9MTAwLCB0b3RhbF9ib29rZWQ9MTAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZlbnVlPXNlbGYudmVudWUpCg==</text>
@@ -1329,9 +1329,9 @@
       </register>
     </registers>
     <search>
-      <last-search>mock_book</last-search>
+      <last-search>get_schedules_with_spot</last-search>
       <last-offset />
-      <last-pattern>mock_book</last-pattern>
+      <last-pattern>get_schedules_with_spot</last-pattern>
       <last-replace>current_spots</last-replace>
       <last-substitute encoding="base64">XDxwcmV2aW91c19zcG90c1w+</last-substitute>
       <last-dir>1</last-dir>
@@ -1339,7 +1339,6 @@
     </search>
     <history>
       <history-search>
-        <entry>adjust_</entry>
         <entry>venue</entry>
         <entry encoding="base64">XDxvYmpzXD4=</entry>
         <entry encoding="base64">XDxkYXRhXD4=</entry>
@@ -1359,6 +1358,7 @@
         <entry>book</entry>
         <entry>50</entry>
         <entry>mock_book</entry>
+        <entry>get_schedules_with_spot</entry>
       </history-search>
       <history-cmd>
         <entry>405</entry>
