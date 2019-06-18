@@ -51,9 +51,6 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/misc.py" timestamp="1556905106770">
         <mark key="'" line="50" column="20" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" timestamp="1560814969775">
-        <mark key="'" line="72" column="8" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/venue.py" timestamp="1551308267277">
         <mark key="'" line="17" column="23" />
         <mark key="[" line="80" column="14" />
@@ -61,12 +58,12 @@
         <mark key="^" line="78" column="29" />
         <mark key="." line="80" column="20" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1560892667932">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1560895499188">
         <mark key="'" line="53" column="24" />
-        <mark key="[" line="41" column="42" />
-        <mark key="]" line="41" column="42" />
-        <mark key="." line="41" column="42" />
-        <mark key="^" line="41" column="12" />
+        <mark key="[" line="42" column="49" />
+        <mark key="]" line="42" column="64" />
+        <mark key="." line="42" column="64" />
+        <mark key="^" line="42" column="64" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" timestamp="1558714403477">
         <mark key="'" line="130" column="62" />
@@ -95,8 +92,8 @@
         <mark key="." line="38" column="43" />
         <mark key="^" line="38" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1560815785727">
-        <mark key="'" line="477" column="7" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1560895470292">
+        <mark key="'" line="384" column="39" />
         <mark key="[" line="35" column="29" />
         <mark key="]" line="36" column="3" />
         <mark key="." line="36" column="3" />
@@ -155,6 +152,9 @@
         <mark key="]" line="94" column="92" />
         <mark key="." line="94" column="0" />
         <mark key="^" line="48" column="90" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1560896013014">
+        <mark key="'" line="89" column="20" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1549909252996">
         <mark key="'" line="1600" column="4" />
@@ -397,8 +397,8 @@
         <mark key="." line="77" column="55" />
         <mark key="^" line="69" column="41" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_factories.py" timestamp="1559760026921">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_factories.py" timestamp="1560895408458">
+        <mark key="'" line="22" column="37" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_users.py" timestamp="1559834256006">
         <mark key="'" line="0" column="0" />
@@ -433,12 +433,12 @@
         <mark key="." line="137" column="37" />
         <mark key="^" line="262" column="83" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1560888205514">
-        <mark key="'" line="179" column="91" />
-        <mark key="[" line="370" column="0" />
-        <mark key="]" line="370" column="93" />
-        <mark key="^" line="179" column="91" />
-        <mark key="." line="370" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1560896055517">
+        <mark key="'" line="252" column="31" />
+        <mark key="[" line="33" column="90" />
+        <mark key="]" line="33" column="109" />
+        <mark key="^" line="33" column="109" />
+        <mark key="." line="33" column="109" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/logging_prefixes.py" timestamp="1560530055360">
         <mark key="'" line="3" column="44" />
@@ -466,13 +466,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
-      <jump line="129" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
-      <jump line="145" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
-      <jump line="179" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
-      <jump line="201" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
-      <jump line="224" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
-      <jump line="213" column="48" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
       <jump line="202" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
       <jump line="199" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
       <jump line="193" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
@@ -566,6 +559,13 @@
       <jump line="232" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
       <jump line="235" column="54" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
       <jump line="150" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="22" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_factories.py" />
+      <jump line="428" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
+      <jump line="384" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
+      <jump line="370" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="252" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="94" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="89" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -637,7 +637,7 @@
         <text>, tags_api_mock</text>
       </register>
       <register name="/" type="4">
-        <text>entity</text>
+        <text encoding="base64">XDxyZW5hbWVfZmllbGRzXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVfX2NsYXNzaXZpdHlfY2xhc3NfZW50aXR5X3R5cGU9J0FQUE9JTlRNRU5UJywK</text>
@@ -1346,9 +1346,9 @@
       </register>
     </registers>
     <search>
-      <last-search>entity</last-search>
+      <last-search encoding="base64">XDxyZW5hbWVfZmllbGRzXD4=</last-search>
       <last-offset />
-      <last-pattern>entity</last-pattern>
+      <last-pattern encoding="base64">XDxyZW5hbWVfZmllbGRzXD4=</last-pattern>
       <last-replace>current_spots</last-replace>
       <last-substitute encoding="base64">XDxwcmV2aW91c19zcG90c1w+</last-substitute>
       <last-dir>1</last-dir>
@@ -1356,10 +1356,6 @@
     </search>
     <history>
       <history-search>
-        <entry>not</entry>
-        <entry encoding="base64">XDxzY2hlZHVsZVw+</entry>
-        <entry>mock som</entry>
-        <entry>welln</entry>
         <entry>objs..ven</entry>
         <entry>objs['</entry>
         <entry>meta</entry>
@@ -1375,7 +1371,11 @@
         <entry>for schedule in q</entry>
         <entry encoding="base64">XDxxXD4=</entry>
         <entry encoding="base64">XDxjbGFzc2l2aXR5X2NsYXNzXD4=</entry>
+        <entry>entityty</entry>
+        <entry>entity_type</entry>
         <entry>entity</entry>
+        <entry encoding="base64">XDxFWFBFQ1RFRF9PUFBTX0ZJRUxEU1w+</entry>
+        <entry encoding="base64">XDxyZW5hbWVfZmllbGRzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>405</entry>
