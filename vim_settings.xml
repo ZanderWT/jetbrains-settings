@@ -115,12 +115,11 @@
         <mark key="]" line="19" column="78" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SpotRecsLogic.kt" timestamp="1560800728043">
-        <mark key="'" line="31" column="34" />
-        <mark key="[" line="31" column="65" />
-        <mark key="]" line="31" column="71" />
-        <mark key="." line="31" column="71" />
-        <mark key="^" line="31" column="71" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SpotRecsLogic.kt" timestamp="1560876529954">
+        <mark key="'" line="30" column="34" />
+        <mark key="[" line="23" column="12" />
+        <mark key="]" line="23" column="12" />
+        <mark key="." line="23" column="12" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/java/org/twohey/dropwizard/helpers/Reply.java" timestamp="1557346377590">
         <mark key="[" line="61" column="0" />
@@ -357,16 +356,17 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Body</text>
+        <text>x</text>
       </register>
       <register name="/" type="4">
         <text>comp</text>
       </register>
       <register name="0" type="4">
-        <text>expectedNetworkSpotAllocations[0]</text>
+        <text>spotRecsDao.getSpotRecs(scheduleInfos.map { it.scheduleId })
+                .filterValues { it != null }.mapValues { it.value!! }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgc3BvdFJlY3MgPSBtdXRhYmxlTWFwT2Y8TG9uZywgU3BvdFJlYz4oKQogICAgICAgICAgICAgICAgLmZpbHRlclZhbHVlcyB7IGl0ICE9IG51bGwgfS5tYXBWYWx1ZXMgeyBpdC52YWx1ZSEhIH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -379,19 +379,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIGdldFNwb3RDaGFuZ2VSZWNvbW1lbmRhdGlvblN0YXR1cyh2ZW51ZUlkOiBJbnQsIHNjaGVkdWxlSW5mb3M6IExpc3Q8U2NoZWR1bGVJbmZvPik6IEludCB7CiAgICAgICAgcmV0dXJuIG9iamVjdE1hcHBlci5yZWFkVmFsdWU8UmVwbHk8Kj4+KAogICAgICAgICAgICAgICAgZ2V0U3BvdENoYW5nZVJlY29tbWVuZGF0aW9uUmVzcG9uc2UodmVudWVJZCwgc2NoZWR1bGVJbmZvcykucmVhZEVudGl0eShTdHJpbmc6OmNsYXNzLmphdmEpLAogICAgICAgICAgICAgICAgb2JqZWN0IDogVHlwZVJlZmVyZW5jZTxSZXBseTwqPj4oKSB7fSkuc3RhdHVzCiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICBzcG90UmVjc0Rhby5nZXRTcG90UmVjcyhzY2hlZHVsZUluZm9zLm1hcCB7IGl0LnNjaGVkdWxlSWQgfSkuZmkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAucXVlcnlQYXJhbSgiY2xhc3NfaWQiLCBzY2hlZHVsZUluZm8uY2xhc3NJZC50b1N0cmluZygpKQogICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImRhdGUiLCBzY2hlZHVsZUluZm8uZGF0ZS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">CiAgICAgICAgQFN1cHByZXNzKCJVTkNIRUNLRURfQ0FTVCIpCiAgICAgICAgdmFsIHhzcG90UmVjcyA9IHNwb3RSZWNzRGFvLmdldFNwb3RSZWNzKHNjaGVkdWxlSW5mb3MubWFwIHsgaXQuc2NoZWR1bGVJZCB9KQogICAgICAgICAgICAgICAgLmZpbHRlclZhbHVlcyB7IGl0ICE9IG51bGwgfSBhcyBNYXA8TG9uZywgU3BvdFJlYz4K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc3BvdHJlY3MubW9kZWxzLnJlcXVlc3RzLkdldFNwb3RDaGFuZ2VSZXF1ZXN0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3402,16 +3402,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgbWFwMzogTWFwPEludCwgU3RyaW5nPiA9IG1hcDIuZmlsdGVyVmFsdWVzIHsgaXQgIT0gbnVsbCB9Lm1hcFZhbHVlcyB7IGl0LnZhbHVlID86ICIiIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBtYXBPZjxMb25nLCBTcG90UmVjPigpLmFwcGx5IHsgIH0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXAK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIGdldFNwb3RDaGFuZ2VSZWNvbW1lbmRhdGlvblN0YXR1cyh2ZW51ZUlkOiBJbnQsIHNjaGVkdWxlSW5mb3M6IExpc3Q8U2NoZWR1bGVJbmZvPik6IEludCB7CiAgICAgICAgcmV0dXJuIG9iamVjdE1hcHBlci5yZWFkVmFsdWU8UmVwbHk8Kj4+KAogICAgICAgICAgICAgICAgZ2V0U3BvdENoYW5nZVJlY29tbWVuZGF0aW9uUmVzcG9uc2UodmVudWVJZCwgc2NoZWR1bGVJbmZvcykucmVhZEVudGl0eShTdHJpbmc6OmNsYXNzLmphdmEpLAogICAgICAgICAgICAgICAgb2JqZWN0IDogVHlwZVJlZmVyZW5jZTxSZXBseTwqPj4oKSB7fSkuc3RhdHVzCiAgICB9Cgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgYXBwbGllZFNtYXJ0c3BvdFN0YXR1c2VzID0gc2V0dGluZ3NMb2dpYy5jb21wdXRlQXBwbGllZFNtYXJ0c3BvdFN0YXR1cyh2ZW51ZUlkLCBzY2hlZHVsZUluZm9zKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5xdWVyeVBhcmFtKCJzY2hlZHVsZV9pZCIsIHNjaGVkdWxlSW5mby5zY2hlZHVsZUlkLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAucXVlcnlQYXJhbSgiY2xhc3NfaWQiLCBzY2hlZHVsZUluZm8uY2xhc3NJZC50b1N0cmluZygpKQogICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImRhdGUiLCBzY2hlZHVsZUluZm8uZGF0ZS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oImNsYXNzX3RpbWUiLCBzY2hlZHVsZUluZm8uY2xhc3NUaW1lLnRvU3RyaW5nKCkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
