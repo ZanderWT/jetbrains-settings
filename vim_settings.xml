@@ -184,20 +184,18 @@
         <mark key="'" line="20" column="64" />
         <mark key="^" line="24" column="112" />
       </file>
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/ScheduleRuleSetting.kt" timestamp="1560974680650">
-        <mark key="'" line="36" column="86" />
-        <mark key="[" line="37" column="47" />
-        <mark key="]" line="37" column="53" />
-        <mark key="^" line="37" column="53" />
-        <mark key="." line="37" column="53" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/ScheduleRuleSetting.kt" timestamp="1561053320035">
+        <mark key="'" line="40" column="0" />
+        <mark key="[" line="40" column="0" />
+        <mark key="]" line="40" column="0" />
+        <mark key="^" line="42" column="20" />
+        <mark key="." line="40" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/mutators/core/PlanMutators.java" timestamp="1552505894920">
         <mark key="'" line="57" column="66" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="82" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
-      <jump line="130" column="8" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="37" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="52" column="82" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
       <jump line="80" column="92" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/UpdateSpotsLogic.kt" />
@@ -296,6 +294,8 @@
       <jump line="290" column="137" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
       <jump line="286" column="42" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
       <jump line="36" column="86" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/ScheduleRuleSetting.kt" />
+      <jump line="13" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/ScheduleRuleSetting.kt" />
+      <jump line="40" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/ScheduleRuleSetting.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -364,7 +364,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>classId</text>
+        <text>?</text>
       </register>
       <register name="/" type="4">
         <text>custom</text>
@@ -373,7 +373,7 @@
         <text>&quot;(${serializerOne.invoke(first)}, ${serializerTwo.invoke(second)}, ${serializerThree.invoke(third)})&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgY2xhc3NJZDogQ2xhc3NJRAogICAgICAgIHZhbCBkYXlPZldlZWs6IERheU9mV2VlawogICAgICAgIHZhbCBsb2NhbFRpbWU6IExvY2FsVGltZQo=</text>
+        <text encoding="base64">CmNsYXNzIEZvbyB7CiAgICAgICAgdmFyIGJhcjogSW50Cn0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -386,19 +386,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YXIgZm9vOiBJbnQ/Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnVuIFNjaGVkdWxlUnVsZUtleS50b1N0cmluZygpIDogU3RyaW5nID0gIigke3RoaXMuZmlyc3R9LCAke3RoaXMuc2Vjb25kLnZhbHVlfSwgJyR7dGhpcy50aGlyZH0nKSIK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgY2xhc3NJZDogQ2xhc3NJRAogICAgICAgIHZhbCBkYXlPZldlZWs6IERheU9mV2VlawogICAgICAgIHZhbCBsb2NhbFRpbWU6IExvY2FsVGltZQo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">PD4=</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>ClassID, DayOfWeek, LocalTime</text>
+      <register name="5" type="2">
+        <text encoding="base64">ZnVuIFNjaGVkdWxlUnVsZUtleS50b1N0cmluZygpIDogU3RyaW5nID0gIigke3RoaXMuZmlyc3R9LCAke3RoaXMuc2Vjb25kLnZhbHVlfSwgJyR7dGhpcy50aGlyZH0nKSIK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3408,17 +3408,17 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ZGF0YSBjbGFzcyAK</text>
+      <register name="6" type="4">
+        <text encoding="base64">PD4=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGpkay52bS5jaS5tZXRhLkxvY2FsCg==</text>
+      <register name="7" type="4">
+        <text>ClassID, DayOfWeek, LocalTime</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZGF5VG9JbnRTdHJpbmcgPSB7IGl0OiBEYXlPZldlZWsgLT4gIiR7aXQudmFsdWV9IiB9CiAgICAgICAgdmFsIGxvY2FsVGltZVRvUXVvdGVkU3RyaW5nID0geyBpdDogTG9jYWxUaW1lIC0+ICInJGl0JyIgfQo=</text>
+        <text encoding="base64">ZGF0YSBjbGFzcyAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">b3ZlcnJpZGUgZnVuIHRvU3RyaW5nKCk6IFN0cmluZyA9ICIoJHtzZXJpYWxpemVyT25lLmludm9rZShmaXJzdCl9LCAke3NlcmlhbGl6ZXJUd28uaW52b2tlKHNlY29uZCl9LCAke3NlcmlhbGl6ZXJUaHJlZS5pbnZva2UodGhpcmQpfSkiCg==</text>
+        <text encoding="base64">aW1wb3J0IGpkay52bS5jaS5tZXRhLkxvY2FsCg==</text>
       </register>
       <register name=":" type="4">
         <text>action VcsShowNextChangeMarker</text>
