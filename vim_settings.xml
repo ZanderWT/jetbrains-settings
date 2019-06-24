@@ -476,8 +476,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561150369518">
-        <mark key="'" line="138" column="61" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561392851391">
+        <mark key="'" line="346" column="75" />
         <mark key="[" line="92" column="92" />
         <mark key="]" line="92" column="114" />
         <mark key="." line="92" column="114" />
@@ -523,7 +523,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="933" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="918" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="923" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="909" column="52" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
@@ -623,6 +622,7 @@
       <jump line="595" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="130" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="346" column="75" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -697,7 +697,7 @@
         <text>;</text>
       </register>
       <register name="/" type="4">
-        <text>da</text>
+        <text encoding="base64">XDx2aWFfZW1haWxcPg==</text>
       </register>
       <register name="0" type="4">
         <text>OPPORTUNITY_ENABLE_CLASS</text>
@@ -1406,17 +1406,16 @@
       </register>
     </registers>
     <search>
-      <last-search>da</last-search>
+      <last-search encoding="base64">XDx2aWFfZW1haWxcPg==</last-search>
       <last-offset />
-      <last-pattern>da</last-pattern>
+      <last-pattern encoding="base64">XDx2aWFfZW1haWxcPg==</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>disa</entry>
         <entry encoding="base64">XDxwYXNzcG9ydGNsYXNzZXNcPg==</entry>
         <entry encoding="base64">XDxjbGFzc3Bhc3NfZGlzYWJsZWRcPg==</entry>
         <entry>disabled</entry>
@@ -1436,6 +1435,7 @@
         <entry>extr</entry>
         <entry>data=</entry>
         <entry>da</entry>
+        <entry encoding="base64">XDx2aWFfZW1haWxcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>1267</entry>
