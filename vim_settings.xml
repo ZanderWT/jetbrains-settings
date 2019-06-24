@@ -389,12 +389,12 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/test/client.py" timestamp="1561149956030">
         <mark key="'" line="530" column="65" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" timestamp="1561146728273">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" timestamp="1561393293049">
         <mark key="'" line="235" column="54" />
-        <mark key="[" line="443" column="6" />
-        <mark key="]" line="443" column="32" />
-        <mark key="." line="444" column="81" />
-        <mark key="^" line="444" column="81" />
+        <mark key="[" line="429" column="61" />
+        <mark key="]" line="430" column="74" />
+        <mark key="." line="430" column="74" />
+        <mark key="^" line="430" column="74" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/tests/test_event_collector.py" timestamp="1558476172487">
         <mark key="'" line="30" column="15" />
@@ -459,12 +459,12 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/rest_framework/response.py" timestamp="1549658923477">
         <mark key="'" line="18" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1561150045509">
-        <mark key="'" line="16" column="6" />
-        <mark key="[" line="26" column="101" />
-        <mark key="]" line="26" column="122" />
-        <mark key="^" line="26" column="122" />
-        <mark key="." line="26" column="122" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1561393314105">
+        <mark key="'" line="71" column="41" />
+        <mark key="[" line="51" column="99" />
+        <mark key="]" line="52" column="29" />
+        <mark key="^" line="52" column="29" />
+        <mark key="." line="52" column="29" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1560812144282">
         <mark key="'" line="110" column="0" />
@@ -523,7 +523,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="918" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="923" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="909" column="52" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="935" column="77" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
@@ -623,6 +622,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="130" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="346" column="75" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="71" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -697,7 +697,7 @@
         <text>;</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx2aWFfZW1haWxcPg==</text>
+        <text encoding="base64">XDxvcHBvcnR1bml0aWVzX3RvX3Nwb3RzXD4=</text>
       </register>
       <register name="0" type="4">
         <text>OPPORTUNITY_ENABLE_CLASS</text>
@@ -1406,17 +1406,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx2aWFfZW1haWxcPg==</last-search>
+      <last-search encoding="base64">XDxvcHBvcnR1bml0aWVzX3RvX3Nwb3RzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx2aWFfZW1haWxcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxvcHBvcnR1bml0aWVzX3RvX3Nwb3RzXD4=</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxwYXNzcG9ydGNsYXNzZXNcPg==</entry>
         <entry encoding="base64">XDxjbGFzc3Bhc3NfZGlzYWJsZWRcPg==</entry>
         <entry>disabled</entry>
         <entry>clas</entry>
@@ -1436,6 +1435,7 @@
         <entry>data=</entry>
         <entry>da</entry>
         <entry encoding="base64">XDx2aWFfZW1haWxcPg==</entry>
+        <entry encoding="base64">XDxvcHBvcnR1bml0aWVzX3RvX3Nwb3RzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>1267</entry>
