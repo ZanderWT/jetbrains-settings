@@ -476,10 +476,10 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561493184037">
-        <mark key="'" line="421" column="18" />
-        <mark key="[" line="509" column="19" />
-        <mark key="]" line="509" column="37" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561494862960">
+        <mark key="'" line="421" column="8" />
+        <mark key="[" line="436" column="0" />
+        <mark key="]" line="447" column="17" />
         <mark key="^" line="509" column="37" />
         <mark key="." line="509" column="37" />
       </file>
@@ -523,8 +523,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="62" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
-      <jump line="380" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="381" column="80" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="387" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="392" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -620,9 +618,11 @@
       <jump line="70" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
       <jump line="516" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="618" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="622" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="405" column="103" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="421" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="607" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="622" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="626" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="421" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -697,10 +697,10 @@
         <text>self.assertOpportunitiesController.</text>
       </register>
       <register name="/" type="4">
-        <text>email</text>
+        <text encoding="base64">XDxjYWxjdWxhdGVfZW1haWxfb3Bwc19mb3JfdXNlclw+</text>
       </register>
-      <register name="0" type="4">
-        <text>sent_opportunity_emails</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlX29wcF9kaWN0ID0gewogICAgICAgICAgICAgICAgICAgICd2ZW51ZV9uYW1lJzogY2xzLl9mb3JtYXRfdmVudWVfbmFtZSh2ZW51ZSksCiAgICAgICAgICAgICAgICAgICAgJ3ZlbnVlX25hbWVfb25seSc6IHZlbnVlLnZlbnVlX25hbWUsCiAgICAgICAgICAgICAgICAgICAgJ3RvdGFsX2NwX2FsbG9jYXRpb24nOiBpbnQoc3VtKFtvcHAuZ2V0KCd0b3RhbF9jbGFzc3Bhc3NfY2FwYWNpdHknKSBvciAwIGZvciBvcHAgaW4gbmV3X29wcHNdKSksCiAgICAgICAgICAgICAgICAgICAgJ3RvdGFsX29wcHNfc3BvdHMnOiBpbnQoc3VtKFtvcHAuZ2V0KCdyZWNvbW1lbmRhdGlvbicpIG9yIDAgZm9yIG9wcCBpbiBuZXdfb3Bwc10pKSwKICAgICAgICAgICAgICAgICAgICAndG90YWxfY2FwYWNpdHknOiBpbnQoc3VtKFtvcHAuZ2V0KCd0b3RhbF9jYXBhY2l0eScpIG9yIDAgZm9yIG9wcCBpbiBuZXdfb3Bwc10pKSwKICAgICAgICAgICAgICAgICAgICAnb3Bwc19jb3VudCc6IGludChsZW4obmV3X29wcHMpKSwKICAgICAgICAgICAgICAgICAgICAndmVudWVfaWQnOiBpbnQodmVudWUucGspLAogICAgICAgICAgICAgICAgICAgICdvcHBzX2RvbGxhcl9hbW91bnQnOiBpbnQoc3VtKFtjbHMuZ2V0X29wcG9ydHVuaXR5X2RvbGxhcnMob3BwKSBmb3Igb3BwIGluIG5ld19vcHBzXSkpLAogICAgICAgICAgICAgICAgICAgICdvcHBzX2N1cnJlbmN5X3N5bWJvbCc6IGNscy5fZm9ybWF0X2N1cnJlbmN5KE1zYXNEYWwuZ2V0X21zYV9jdXJyZW5jeSh2ZW51ZS5tc2FfaWQpKSwKICAgICAgICAgICAgICAgICAgICAnb3Bwcyc6IHNvcnRlZChuZXdfb3Bwcywga2V5PWxhbWJkYSB4OiAoeFsnY2xhc3NfZGF0ZSddLCB4WydzdGFydF90aW1lJ10pKQogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChvcHBvcnR1bml0eV9oaXN0b3J5KQo=</text>
@@ -1406,9 +1406,9 @@
       </register>
     </registers>
     <search>
-      <last-search>email</last-search>
+      <last-search encoding="base64">XDxjYWxjdWxhdGVfZW1haWxfb3Bwc19mb3JfdXNlclw+</last-search>
       <last-offset />
-      <last-pattern>email</last-pattern>
+      <last-pattern encoding="base64">XDxjYWxjdWxhdGVfZW1haWxfb3Bwc19mb3JfdXNlclw+</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1416,9 +1416,6 @@
     </search>
     <history>
       <history-search>
-        <entry>INVENTOR</entry>
-        <entry>update</entry>
-        <entry>class</entry>
         <entry>reason</entry>
         <entry>rule</entry>
         <entry>history_for_ven'</entry>
@@ -1436,6 +1433,9 @@
         <entry>async_calc</entry>
         <entry encoding="base64">XDx0aW1lem9uZV9ob3VyXD4=</entry>
         <entry>email</entry>
+        <entry>asy</entry>
+        <entry>contr</entry>
+        <entry encoding="base64">XDxjYWxjdWxhdGVfZW1haWxfb3Bwc19mb3JfdXNlclw+</entry>
       </history-search>
       <history-cmd>
         <entry>1304</entry>
