@@ -158,7 +158,7 @@
         <mark key="^" line="763" column="3" />
         <mark key="." line="763" column="3" />
       </file>
-      <file name="/Python Console" timestamp="1561486191940">
+      <file name="/Python Console" timestamp="1561490560143">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1560892692300">
@@ -458,8 +458,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561484543853">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561490959370">
         <mark key="'" line="491" column="13" />
+        <mark key="[" line="509" column="19" />
+        <mark key="]" line="509" column="37" />
+        <mark key="^" line="509" column="37" />
+        <mark key="." line="509" column="37" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1559762023097">
         <mark key="'" line="262" column="83" />
@@ -482,12 +486,12 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="5" column="1" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1561486156423">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1561490889538">
         <mark key="'" line="716" column="50" />
-        <mark key="[" line="717" column="95" />
-        <mark key="]" line="718" column="90" />
-        <mark key="." line="718" column="90" />
-        <mark key="^" line="718" column="90" />
+        <mark key="[" line="723" column="12" />
+        <mark key="]" line="723" column="86" />
+        <mark key="." line="723" column="86" />
+        <mark key="^" line="723" column="86" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/stats.py" timestamp="1559081814510">
         <mark key="'" line="19" column="17" />
@@ -672,7 +676,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGZvciBfIGluIHJhbmdlKDUp</text>
+        <text>self.assertOpportunitiesController.</text>
       </register>
       <register name="/" type="4">
         <text>field</text>
@@ -680,8 +684,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBvcHBvcnR1bml0eSA9IHRlc3RfZmFjdG9yaWVzLk9wcG9ydHVuaXR5RmFjdG9yeSgKICAgICAgICAgICAgdmVudWVfaWQ9dmVudWUudmVudWVfaWQsCiAgICAgICAgICAgIGNsYXNzdGl2aXR5X2NsYXNzX192ZW51ZT12ZW51ZSkK</text>
       </register>
-      <register name="1" type="4">
-        <text>[]</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludChvcHBvcnR1bml0eV9oaXN0b3J5KQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -696,34 +700,34 @@
         </keys>
       </register>
       <register name="2" type="4">
-        <text>test_factories.OpportunityFactory(venue_id=venue_id, class_date=yesterday) for _ in range(5)</text>
+        <text>[]</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBPcHBvcnR1bml0aWVzQ29udHJvbGxlci5vcHBvcnR1bml0eV9oaXN0b3J5X2Zvcl92ZW51ZSh2ZW51ZV9pZCkK</text>
+      <register name="3" type="4">
+        <text>test_factories.OpportunityFactory(venue_id=venue_id, class_date=yesterday) for _ in range(5)</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBPcHBvcnR1bml0aWVzQ29udHJvbGxlci5vcHBvcnR1bml0eV9oaXN0b3J5X2Zvcl92ZW51ZSh2ZW51ZV9pZCkK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MuYXBwcy52ZW51ZS5tb2RlbHMuc2NoZWR1bGUgaW1wb3J0IFBhc3Nwb3J0U2NoZWR1bGUK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgbmV0d29ya19jYXBfY2hhbmdlX3JlYXNvbiA9IE5ldHdvcmtDYXBDaGFuZ2VSZWFzb24uT1BQT1JUVU5JVFlfRU5BQkxFX0NMQVNTCg==</text>
+        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MuYXBwcy52ZW51ZS5tb2RlbHMuc2NoZWR1bGUgaW1wb3J0IFBhc3Nwb3J0U2NoZWR1bGUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVsYXRlZD1bInNjaGVkdWxlX19jbGFzc2l2aXR5X2NsYXNzX19wYXNzcG9ydGNsYXNzZXMiLCAiY2xhc3N0aXZpdHlfY2xhc3MiLCAic2NoZWR1bGVfX3Bhc3Nwb3J0c2NoZWR1bGUiLAogICAgICAgICAgICAgICAgICAgICAiY2xhc3N0aXZpdHlfY2xhc3NfX3Bhc3Nwb3J0Y2xhc3NlcyJdKX0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgbmV0d29ya19jYXBfY2hhbmdlX3JlYXNvbiA9IE5ldHdvcmtDYXBDaGFuZ2VSZWFzb24uT1BQT1JUVU5JVFlfRU5BQkxFX0NMQVNTCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLl9wYXRjaF9hcGlfY2xpZW50X3NpbmdsZV9tZXRob2QoCiAgICAgICAgICAgICdjbGFzc3Bhc3MuYXBwcy52ZW51ZS5kYWwubWlzYy5Vc2VyTWFuYWdlU3BvdExvZy5vYmplY3RzJywKICAgICAgICAgICAgJ2NyZWF0ZScsCiAgICAgICAgICAgIE1pY3JvTW9jayhpZD03NzcpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVsYXRlZD1bInNjaGVkdWxlX19jbGFzc2l2aXR5X2NsYXNzX19wYXNzcG9ydGNsYXNzZXMiLCAiY2xhc3N0aXZpdHlfY2xhc3MiLCAic2NoZWR1bGVfX3Bhc3Nwb3J0c2NoZWR1bGUiLAogICAgICAgICAgICAgICAgICAgICAiY2xhc3N0aXZpdHlfY2xhc3NfX3Bhc3Nwb3J0Y2xhc3NlcyJdKX0K</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1430,12 +1434,12 @@
         <entry>1749</entry>
         <entry>43</entry>
         <entry>26</entry>
-        <entry>action ReformatCode</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action QuickImplementations</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>bnext</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
