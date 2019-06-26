@@ -463,8 +463,12 @@
         <mark key="." line="137" column="37" />
         <mark key="^" line="262" column="83" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1561585205127">
-        <mark key="'" line="51" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1561589011240">
+        <mark key="'" line="172" column="8" />
+        <mark key="[" line="204" column="96" />
+        <mark key="]" line="204" column="108" />
+        <mark key="^" line="204" column="108" />
+        <mark key="." line="204" column="108" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/logging_prefixes.py" timestamp="1560530055360">
         <mark key="'" line="3" column="44" />
@@ -488,10 +492,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
-      <jump line="26" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
-      <jump line="245" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
-      <jump line="19" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="37" column="94" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="121" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="361" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -588,6 +588,10 @@
       <jump line="958" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="966" column="72" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="45" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
+      <jump line="20" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="26" column="59" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="549" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="172" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -662,7 +666,7 @@
         <text>, start_time='00:00:00'</text>
       </register>
       <register name="/" type="4">
-        <text>date</text>
+        <text>OPPOR</text>
       </register>
       <register name="0" type="4">
         <text>CONVERT_TZ(
@@ -1374,9 +1378,9 @@
       </register>
     </registers>
     <search>
-      <last-search>date</last-search>
+      <last-search>OPPOR</last-search>
       <last-offset />
-      <last-pattern>date</last-pattern>
+      <last-pattern>OPPOR</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1384,9 +1388,6 @@
     </search>
     <history>
       <history-search>
-        <entry>async_calc</entry>
-        <entry encoding="base64">XDx0aW1lem9uZV9ob3VyXD4=</entry>
-        <entry>email</entry>
         <entry>asy</entry>
         <entry>contr</entry>
         <entry encoding="base64">XDxjYWxjdWxhdGVfZW1haWxfb3Bwc19mb3JfdXNlclw+</entry>
@@ -1404,6 +1405,9 @@
         <entry>upcoming</entry>
         <entry>respects_un</entry>
         <entry>date</entry>
+        <entry>disabl</entry>
+        <entry>test_OpportunitiesActView_enables_disabled_class</entry>
+        <entry>OPPOR</entry>
       </history-search>
       <history-cmd>
         <entry>984</entry>
