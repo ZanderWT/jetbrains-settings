@@ -31,11 +31,12 @@
         <mark key="^" line="141" column="112" />
         <mark key="." line="141" column="112" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" timestamp="1561586781310">
-        <mark key="'" line="908" column="0" />
-        <mark key="[" line="958" column="0" />
-        <mark key="]" line="958" column="0" />
-        <mark key="." line="958" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" timestamp="1561587704439">
+        <mark key="'" line="966" column="72" />
+        <mark key="[" line="966" column="72" />
+        <mark key="]" line="966" column="72" />
+        <mark key="." line="966" column="72" />
+        <mark key="^" line="966" column="65" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/management/commands/send_opportunity_emails.py" timestamp="1561492894335" />
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1561058831922">
@@ -117,8 +118,8 @@
         <mark key="[" line="29" column="35" />
         <mark key="]" line="29" column="56" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1561486136761">
-        <mark key="'" line="445" column="58" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1561587742110">
+        <mark key="'" line="45" column="8" />
         <mark key="[" line="604" column="29" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/conf/urls/__init__.py" timestamp="1560286446018">
@@ -487,9 +488,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="200" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
-      <jump line="100" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
-      <jump line="116" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
       <jump line="6" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
       <jump line="26" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
       <jump line="245" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
@@ -587,6 +585,9 @@
       <jump line="32" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="112" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="908" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
+      <jump line="958" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
+      <jump line="966" column="72" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
+      <jump line="45" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -658,10 +659,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>, start_time='00:00:00'</text>
       </register>
       <register name="/" type="4">
-        <text>respects_un</text>
+        <text>date</text>
       </register>
       <register name="0" type="4">
         <text>CONVERT_TZ(
@@ -1373,9 +1374,9 @@
       </register>
     </registers>
     <search>
-      <last-search>respects_un</last-search>
+      <last-search>date</last-search>
       <last-offset />
-      <last-pattern>respects_un</last-pattern>
+      <last-pattern>date</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1383,7 +1384,6 @@
     </search>
     <history>
       <history-search>
-        <entry>sent</entry>
         <entry>async_calc</entry>
         <entry encoding="base64">XDx0aW1lem9uZV9ob3VyXD4=</entry>
         <entry>email</entry>
@@ -1403,6 +1403,7 @@
         <entry>and conv</entry>
         <entry>upcoming</entry>
         <entry>respects_un</entry>
+        <entry>date</entry>
       </history-search>
       <history-cmd>
         <entry>984</entry>
