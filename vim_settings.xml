@@ -24,6 +24,12 @@
         <mark key="[" line="71" column="92" />
         <mark key="]" line="71" column="114" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/opportunities.py" timestamp="1561395882902">
+        <mark key="[" line="40" column="0" />
+        <mark key="]" line="40" column="0" />
+        <mark key="^" line="57" column="66" />
+        <mark key="." line="40" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1552668746261">
         <mark key="'" line="78" column="22" />
         <mark key="[" line="141" column="91" />
@@ -131,6 +137,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/management/commands/update_classtivity_classes_timetable_spots.py" timestamp="1561480032793">
         <mark key="'" line="156" column="46" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/tags.py" timestamp="1560885167340">
+        <mark key="[" line="28" column="59" />
+        <mark key="]" line="28" column="67" />
+        <mark key="^" line="28" column="67" />
+        <mark key="." line="28" column="67" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" timestamp="1559235226658">
         <mark key="'" line="222" column="17" />
       </file>
@@ -171,12 +183,12 @@
         <mark key="." line="94" column="0" />
         <mark key="^" line="48" column="90" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1561139484936">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1561577567419">
         <mark key="'" line="194" column="63" />
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
-        <mark key="^" line="11" column="3" />
+        <mark key="[" line="190" column="106" />
+        <mark key="]" line="190" column="86" />
+        <mark key="." line="190" column="86" />
+        <mark key="^" line="190" column="86" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1549909252996">
         <mark key="'" line="1600" column="4" />
@@ -231,9 +243,11 @@
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1561415676638">
-        <mark key="^" line="25" column="0" />
-        <mark key="." line="25" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1561577922465">
+        <mark key="[" line="544" column="0" />
+        <mark key="]" line="563" column="15" />
+        <mark key="^" line="119" column="12" />
+        <mark key="." line="119" column="12" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/rest_framework/views.py" timestamp="1560286356975">
         <mark key="'" line="117" column="8" />
@@ -672,8 +686,8 @@
       <register name="/" type="4">
         <text>depo</text>
       </register>
-      <register name="0" type="4">
-        <text>venue_portal_opportunities_v3</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcXVlcnkgPSAiIiIKICAgICAgICAgICAgICAgIFNFTEVDVAogICAgICAgICAgICAgICAgICAgIGNjdC5pZCBBUyBzY2hlZHVsZV9pZCwKICAgICAgICAgICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAgICAgICAgIENPTlZFUlRfVFooCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUSU1FU1RBTVAoY2N0LnN0YXJ0X2RhdGUsIGNjdC5zdGFydF90aW1lKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIENPQUxFU0NFKGN2LnRpbWV6b25lLCBtLnRpbWV6b25lKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJVVEMiCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICBVVENfVElNRVNUQU1QKCkKICAgICAgICAgICAgICAgICAgICApIEFTIHNjaGVkdWxlX2lzX2Z1dHVyZQogICAgICAgICAgICAgICAgRlJPTQogICAgICAgICAgICAgICAgICAgIGNsYXNzdGl2aXR5X2NsYXNzZXNfdGltZXRhYmxlIGNjdAogICAgICAgICAgICAgICAgICAgIExFRlQgSk9JTiBjbGFzc3Rpdml0eV9jbGFzc2VzIGNjIE9OIChjY3QuY2xhc3NfaWQgPSBjYy5jbGFzc19pZCkKICAgICAgICAgICAgICAgICAgICBMRUZUIEpPSU4gY2xhc3N0aXZpdHlfdmVudWVzIGN2IE9OIChjYy52ZW51ZV9pZCA9IGN2LnZlbnVlX2lkKQogICAgICAgICAgICAgICAgICAgIExFRlQgSk9JTiBjbGFzc3Rpdml0eV9tc2EgbSBPTiAoY3YubXNhX2lkID0gbS5tc2FfaWQpCiAgICAgICAgICAgICAgICBXSEVSRQogICAgICAgICAgICAgICAgICAgIGNjdC5pZCBJTiAlKHNjaGVkdWxlX2lkcylzCiAgICAgICAgICAgICIiIgo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwcmludChvcHBvcnR1bml0eV9oaXN0b3J5KQo=</text>
@@ -718,7 +732,7 @@
         <text encoding="base64">ICAgICAgICAgICAgcmVsYXRlZD1bInNjaGVkdWxlX19jbGFzc2l2aXR5X2NsYXNzX19wYXNzcG9ydGNsYXNzZXMiLCAiY2xhc3N0aXZpdHlfY2xhc3MiLCAic2NoZWR1bGVfX3Bhc3Nwb3J0c2NoZWR1bGUiLAogICAgICAgICAgICAgICAgICAgICAiY2xhc3N0aXZpdHlfY2xhc3NfX3Bhc3Nwb3J0Y2xhc3NlcyJdKX0K</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action ShowBookmarks</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1411,9 +1425,6 @@
         <entry>depo</entry>
       </history-search>
       <history-cmd>
-        <entry>1304</entry>
-        <entry>1496</entry>
-        <entry>1538</entry>
         <entry>984</entry>
         <entry>4509</entry>
         <entry>450</entry>
@@ -1427,10 +1438,13 @@
         <entry>26</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action QuickImplementations</entry>
-        <entry>action ShowBookmarks</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>bnext</entry>
         <entry>action ReformatCode</entry>
+        <entry>120</entry>
+        <entry>519</entry>
+        <entry>119</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
