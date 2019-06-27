@@ -448,8 +448,10 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561670421913">
-        <mark key="'" line="158" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561672553830">
+        <mark key="'" line="622" column="4" />
+        <mark key="[" line="615" column="44" />
+        <mark key="]" line="615" column="66" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1559762023097">
         <mark key="'" line="262" column="83" />
@@ -483,9 +485,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="121" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
-      <jump line="361" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="179" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="218" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="577" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
@@ -532,7 +531,6 @@
       <jump line="618" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="405" column="103" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="607" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="622" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="626" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="421" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="476" column="29" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -583,6 +581,10 @@
       <jump line="172" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="158" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="450" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="20" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="472" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="622" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -657,13 +659,10 @@
         <text>, start_time='00:00:00'</text>
       </register>
       <register name="/" type="4">
-        <text>display_spot</text>
+        <text encoding="base64">XDxhc3luY19jYWxjdWxhdGVfb3Bwc19mb3JfdXNlcl9hbmRfZW1haWxcPg==</text>
       </register>
       <register name="0" type="4">
-        <text>CONVERT_TZ(
-                        TIMESTAMP(cct.start_date, cct.start_time),
-                        COALESCE(cv.timezone, m.timezone),
-                        &quot;UTC&quot;)</text>
+        <text>display_spot_management</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1369,9 +1368,9 @@
       </register>
     </registers>
     <search>
-      <last-search>display_spot</last-search>
+      <last-search encoding="base64">XDxhc3luY19jYWxjdWxhdGVfb3Bwc19mb3JfdXNlcl9hbmRfZW1haWxcPg==</last-search>
       <last-offset />
-      <last-pattern>display_spot</last-pattern>
+      <last-pattern encoding="base64">XDxhc3luY19jYWxjdWxhdGVfb3Bwc19mb3JfdXNlcl9hbmRfZW1haWxcPg==</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1379,11 +1378,6 @@
     </search>
     <history>
       <history-search>
-        <entry>contr</entry>
-        <entry encoding="base64">XDxjYWxjdWxhdGVfZW1haWxfb3Bwc19mb3JfdXNlclw+</entry>
-        <entry>sailthru</entry>
-        <entry>opt</entry>
-        <entry>act_on</entry>
         <entry>depo</entry>
         <entry>after_</entry>
         <entry>upcom</entry>
@@ -1399,6 +1393,11 @@
         <entry>test_OpportunitiesActView_enables_disabled_class</entry>
         <entry>OPPOR</entry>
         <entry>display_spot</entry>
+        <entry>can_manage</entry>
+        <entry>manage_spots</entry>
+        <entry>emails</entry>
+        <entry encoding="base64">XDxzZW5kX29wcG9ydHVuaXR5X2VtYWlsXD4=</entry>
+        <entry encoding="base64">XDxhc3luY19jYWxjdWxhdGVfb3Bwc19mb3JfdXNlcl9hbmRfZW1haWxcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>984</entry>
