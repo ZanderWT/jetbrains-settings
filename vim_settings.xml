@@ -298,12 +298,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/timer.py" timestamp="1558733722715">
         <mark key="'" line="6" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" timestamp="1561743147344">
-        <mark key="'" line="205" column="34" />
-        <mark key="[" line="172" column="38" />
-        <mark key="]" line="172" column="38" />
-        <mark key="." line="172" column="38" />
-        <mark key="^" line="142" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" timestamp="1561744363103">
+        <mark key="'" line="100" column="27" />
+        <mark key="[" line="142" column="12" />
+        <mark key="]" line="142" column="11" />
+        <mark key="." line="142" column="11" />
+        <mark key="^" line="142" column="11" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1561408130489">
         <mark key="'" line="336" column="8" />
@@ -449,7 +449,7 @@
         <mark key="." line="127" column="39" />
         <mark key="^" line="127" column="39" />
       </file>
-      <file name="/Dummy.txt" timestamp="1561742857812">
+      <file name="/Dummy.txt" timestamp="1561743905556">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
@@ -492,7 +492,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="66" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="69" column="79" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="89" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
@@ -592,6 +591,7 @@
       <jump line="197" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="214" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="205" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
+      <jump line="100" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -716,7 +716,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>source ~/.ideavimrc</text>
+        <text>action NextOccurence</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1417,11 +1417,8 @@
         <entry>action Vcs.Specific</entry>
         <entry>action Vcs.floo</entry>
         <entry>action Vcs.Browse</entry>
-        <entry>action Vcs.QuickListPopupAction</entry>
-        <entry>action MethodDown</entry>
         <entry>action MethodUp</entry>
         <entry>action Find</entry>
-        <entry>action NextOccurence</entry>
         <entry>action PreviousOccurence</entry>
         <entry>action AceJumpAction</entry>
         <entry>action GotoAction</entry>
@@ -1429,6 +1426,9 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gRXh0ZW5kU2VsZWN0aW9u</entry>
         <entry>action ExtendSelection</entry>
         <entry>source ~/.ideavimrc</entry>
+        <entry>action Vcs.QuickListPopupAction</entry>
+        <entry>action MethodDown</entry>
+        <entry>action NextOccurence</entry>
       </history-cmd>
       <history-expr />
       <history-input />
