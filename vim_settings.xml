@@ -217,12 +217,12 @@
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1561745440596">
-        <mark key="'" line="1315" column="4" />
-        <mark key="[" line="1317" column="108" />
-        <mark key="]" line="1317" column="116" />
-        <mark key="^" line="1317" column="116" />
-        <mark key="." line="1317" column="116" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1561750338423">
+        <mark key="'" line="1344" column="19" />
+        <mark key="[" line="1323" column="87" />
+        <mark key="]" line="1324" column="19" />
+        <mark key="^" line="1324" column="19" />
+        <mark key="." line="1324" column="19" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/rest_framework/views.py" timestamp="1560286356975">
         <mark key="'" line="117" column="8" />
@@ -492,9 +492,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="69" column="79" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
-      <jump line="89" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
-      <jump line="105" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="213" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="80" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/workers.md" />
@@ -592,6 +589,9 @@
       <jump line="205" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="100" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="1315" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="1323" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="1324" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="1344" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -663,10 +663,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>applied</text>
+        <text>return</text>
       </register>
       <register name="/" type="4">
-        <text>if</text>
+        <text>return</text>
       </register>
       <register name="0" type="4">
         <text>A map of schedule ids to the adjusted spot allocation, or None if booking information could not be
@@ -716,7 +716,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action PreviousOccurence</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1377,9 +1377,9 @@
       </register>
     </registers>
     <search>
-      <last-search>if</last-search>
+      <last-search>return</last-search>
       <last-offset />
-      <last-pattern>if</last-pattern>
+      <last-pattern>return</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1387,7 +1387,6 @@
     </search>
     <history>
       <history-search>
-        <entry>networkcapcha</entry>
         <entry>revenue_mis</entry>
         <entry>and conv</entry>
         <entry>upcoming</entry>
@@ -1407,9 +1406,9 @@
         <entry>adjus</entry>
         <entry>sche</entry>
         <entry>if</entry>
+        <entry>return</entry>
       </history-search>
       <history-cmd>
-        <entry>action Diff.NextChange</entry>
         <entry>actionList</entry>
         <entry>action Git</entry>
         <entry>action Git.Menu</entry>
@@ -1429,6 +1428,7 @@
         <entry>action MethodUp</entry>
         <entry>action NextOccurence</entry>
         <entry>action PreviousOccurence</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
