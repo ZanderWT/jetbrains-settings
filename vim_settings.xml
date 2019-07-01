@@ -373,8 +373,8 @@
         <mark key="[" line="28" column="0" />
         <mark key="]" line="28" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" timestamp="1561758386345">
-        <mark key="'" line="236" column="54" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" timestamp="1562019497273">
+        <mark key="'" line="184" column="42" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/event_collector/tests/test_event_collector.py" timestamp="1558476172487">
         <mark key="'" line="30" column="15" />
@@ -505,7 +505,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="394" column="66" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="421" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="93" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/schedule.py" />
       <jump line="1325" column="72" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -605,6 +604,7 @@
       <jump line="907" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="973" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="975" column="55" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="184" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -679,7 +679,7 @@
         <text>str</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzcG90X3JlY19wYXlsb2FkXD4=</text>
+        <text encoding="base64">XDxTY2hlZHVsZVNlcmlhbGl6ZXJcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAjIENyZWF0ZXMgdXNlcnMgaW4gdGhlIGRhdGFiYXNlCiAgICAgICAgdXNlcnMgPSBbdGVzdF9mYWN0b3JpZXMuTWFpbnNpdGVVc2VyRmFjdG9yeSgpIGZvciBfIGluIHJhbmdlKG51bV91c2VycyldCgogICAgICAgICMgQ3JlYXRlcyBhIG5ldHdvcmsgcmVzZXJ2YXRpb24gZm9yIGVhY2ggdXNlcgogICAgICAgIGZvciB1IGluIHVzZXJzOgogICAgICAgICAgICB0ZXN0X2ZhY3Rvcmllcy5OZXR3b3JrUmVzZXJ2YXRpb25GYWN0b3J5KAogICAgICAgICAgICAgICAgdXNlcj11LAogICAgICAgICAgICAgICAgc2NoZWR1bGU9c2NoZWR1bGUsCiAgICAgICAgICAgICAgICB2ZW51ZT12ZW51ZSwKICAgICAgICAgICAgICAgIHN0YXJ0X2RhdGU9c3RhcnRfZGF0ZSwKICAgICAgICAgICAgKQo=</text>
@@ -1388,9 +1388,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzcG90X3JlY19wYXlsb2FkXD4=</last-search>
+      <last-search encoding="base64">XDxTY2hlZHVsZVNlcmlhbGl6ZXJcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzcG90X3JlY19wYXlsb2FkXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxTY2hlZHVsZVNlcmlhbGl6ZXJcPg==</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1398,7 +1398,6 @@
     </search>
     <history>
       <history-search>
-        <entry>strftime</entry>
         <entry>smartspot</entry>
         <entry encoding="base64">XDxTcG90UmVjb21tZW5kYXRpb25zQVBJQ2xpZW50XD4=</entry>
         <entry>selfs</entry>
@@ -1418,6 +1417,7 @@
         <entry>on_dem</entry>
         <entry encoding="base64">XDxhZGp1c3Rfc21hcnRzcG90X3JlY29tbWVuZGF0aW9uc19mb3JfbWF4X2NhcGFjaXR5XD4=</entry>
         <entry encoding="base64">XDxzcG90X3JlY19wYXlsb2FkXD4=</entry>
+        <entry encoding="base64">XDxTY2hlZHVsZVNlcmlhbGl6ZXJcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>action GotoAction</entry>
