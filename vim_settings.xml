@@ -31,7 +31,8 @@
         <mark key="^" line="141" column="112" />
         <mark key="." line="141" column="112" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" timestamp="1561759389550">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" timestamp="1562008973294">
+        <mark key="'" line="773" column="0" />
         <mark key="[" line="768" column="0" />
         <mark key="]" line="768" column="0" />
         <mark key="^" line="765" column="24" />
@@ -217,10 +218,12 @@
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1562003918372">
-        <mark key="[" line="1796" column="0" />
-        <mark key="]" line="1796" column="0" />
-        <mark key="." line="1796" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1562008952169">
+        <mark key="'" line="971" column="69" />
+        <mark key="[" line="972" column="65" />
+        <mark key="]" line="972" column="65" />
+        <mark key="." line="972" column="65" />
+        <mark key="^" line="972" column="66" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/rest_framework/views.py" timestamp="1560286356975">
         <mark key="'" line="117" column="8" />
@@ -461,10 +464,10 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1561754704465">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1562008936461">
         <mark key="'" line="421" column="33" />
-        <mark key="[" line="615" column="44" />
-        <mark key="]" line="615" column="66" />
+        <mark key="[" line="210" column="87" />
+        <mark key="]" line="210" column="106" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1559762023097">
         <mark key="'" line="262" column="83" />
@@ -498,8 +501,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="370" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
       <jump line="1796" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="676" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="91" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
@@ -598,6 +599,8 @@
       <jump line="69" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="57" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/smartspot.py" />
       <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/smartspot.py" />
+      <jump line="971" column="69" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="773" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -669,13 +672,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>venue_id</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>on_deman</text>
+        <text>str</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5TcG90UmVjb21tZW5kYXRpb25zQVBJQ2xpZW50JywgU3BvdFJlY3NBUElDbGllbnRNb2NrKQogICAgZGVmIHRlc3RfZ2V0X3NjaGVkdWxlc193aXRoX3Nwb3RfaW5mb3JtYXRpb25fYW5kX3Nwb3RfcmVjcyhzZWxmKToKICAgICAgICBudW1fdXNlcnMgPSA1CiAgICAgICAgbnVtX25ldHdvcmtfcmVzZXJ2YXRpb25zID0gNQoKICAgICAgICB0b2RheSA9IGRhdGV0aW1lLmRhdGV0aW1lLnV0Y25vdygpLmRhdGUoKQogICAgICAgIHN0YXJ0X2RhdGUgPSB0b2RheSArIGRhdGV0aW1lLnRpbWVkZWx0YShkYXlzPTEpCgogICAgICAgICMgQ3JlYXRlIHZlbnVlLCBjbGFzcywgYW5kIHNjaGVkdWxlCiAgICAgICAgdmVudWUgPSB0ZXN0X2ZhY3Rvcmllcy5DbGFzc3Rpdml0eVZlbnVlRmFjdG9yeShzb3VyY2U9J01JTkRCT0RZJykKICAgICAgICBjbGFzc3Rpdml0eV9jbGFzcyA9IHRlc3RfZmFjdG9yaWVzLkNsYXNzdGl2aXR5Q2xhc3NGYWN0b3J5KHZlbnVlPXZlbnVlKQogICAgICAgIHNjaGVkdWxlID0gdGVzdF9mYWN0b3JpZXMuQ2xhc3N0aXZpdHlTY2hlZHVsZUZhY3RvcnkoCiAgICAgICAgICAgIGNsYXNzaXZpdHlfY2xhc3M9Y2xhc3N0aXZpdHlfY2xhc3MsCiAgICAgICAgICAgIHN0YXJ0X2RhdGU9c3RhcnRfZGF0ZSwKICAgICAgICAgICAgdGFrZW5fc3BvdHM9bnVtX25ldHdvcmtfcmVzZXJ2YXRpb25zLAogICAgICAgICkKCiAgICAgICAgIyBDcmVhdGVzIHVzZXJzIGluIHRoZSBkYXRhYmFzZQogICAgICAgIHVzZXJzID0gW3Rlc3RfZmFjdG9yaWVzLk1haW5zaXRlVXNlckZhY3RvcnkoKSBmb3IgXyBpbiByYW5nZShudW1fdXNlcnMpXQoKICAgICAgICAjIENyZWF0ZXMgYSBuZXR3b3JrIHJlc2VydmF0aW9uIGZvciBlYWNoIHVzZXIKICAgICAgICBmb3IgdSBpbiB1c2VyczoKICAgICAgICAgICAgdGVzdF9mYWN0b3JpZXMuTmV0d29ya1Jlc2VydmF0aW9uRmFjdG9yeSgKICAgICAgICAgICAgICAgIHVzZXI9dSwKICAgICAgICAgICAgICAgIHNjaGVkdWxlPXNjaGVkdWxlLAogICAgICAgICAgICAgICAgdmVudWU9dmVudWUsCiAgICAgICAgICAgICAgICBzdGFydF9kYXRlPXN0YXJ0X2RhdGUsCiAgICAgICAgICAgICkKCiAgICAgICAgdGVzdF9mYWN0b3JpZXMuUmVwb3J0U2NoZWR1bGVGYWN0b3J5KHNjaGVkdWxlPXNjaGVkdWxlLCBtYXhfY2FwYWNpdHk9MTAwLCB0b3RhbF9ib29rZWQ9OSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmVudWU9dmVudWUpCgogICAgICAgIHJlc3BvbnNlID0gc2NoZWR1bGVzX2RhbC5nZXRfc2NoZWR1bGVzX3dpdGhfc3BvdF9pbmZvcm1hdGlvbl9hbmRfc3BvdF9yZWNzKAogICAgICAgICAgICB2ZW51ZV91c2VyX2lkPTAsCiAgICAgICAgICAgIHZlbnVlX2lkPXZlbnVlLnZlbnVlX2lkLAogICAgICAgICAgICBzdGFydF9kYXRlPXNjaGVkdWxlLnN0YXJ0X2RhdGUsCiAgICAgICAgICAgIGVuZF9kYXRlPXNjaGVkdWxlLnN0YXJ0X2RhdGUsCiAgICAgICAgKQoKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihyZXNwb25zZSksIDEpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChyZXNwb25zZVswXS5uZXR3b3JrX3Jlc2VydmF0aW9ucywgbnVtX25ldHdvcmtfcmVzZXJ2YXRpb25zKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwocmVzcG9uc2VbMF0ubmV0d29ya19zcG90c190YWtlbiwgbnVtX25ldHdvcmtfcmVzZXJ2YXRpb25zKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwocmVzcG9uc2VbMF0uc21hcnRzcG90X3JlY29tbWVuZGVkX3Nwb3RzLCAxMCkK</text>
+      <register name="0" type="4">
+        <text>strftime('%Y-%m-%d')</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -720,7 +723,7 @@
         <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MuYXBwcy52ZW51ZS5jb250cm9sbGVycy5zbWFydHNwb3QgaW1wb3J0IFNtYXJ0c3BvdENvbnRyb2xsZXIK</text>
       </register>
       <register name=":" type="4">
-        <text>action MethodUp</text>
+        <text>action MethodDown</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1381,17 +1384,16 @@
       </register>
     </registers>
     <search>
-      <last-search>on_deman</last-search>
+      <last-search>str</last-search>
       <last-offset />
-      <last-pattern>on_deman</last-pattern>
+      <last-pattern>str</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>recomm</entry>
         <entry>booking_inf</entry>
         <entry>gfet_sch</entry>
         <entry>get_sch</entry>
@@ -1411,6 +1413,7 @@
         <entry>prep</entry>
         <entry encoding="base64">XDxNQVhfU1BPVF9BTExPQ0FUSU9OX0JVRkZFUlw+</entry>
         <entry>on_deman</entry>
+        <entry>str</entry>
       </history-search>
       <history-cmd>
         <entry>action Vcs.Browse</entry>
@@ -1426,13 +1429,13 @@
         <entry>action NextOccurence</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action VcsShowNextChangeMarker</entry>
-        <entry>action MethodDown</entry>
         <entry>bnext</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
         <entry encoding="base64">JzwsJz5hY3Rpb24gTWV0aG9kRG93bg==</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action MethodUp</entry>
+        <entry>action MethodDown</entry>
       </history-cmd>
       <history-expr />
       <history-input />
