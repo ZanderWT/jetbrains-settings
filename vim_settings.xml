@@ -9,8 +9,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_login.py" timestamp="1552666472511">
         <mark key="'" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" timestamp="1561759017548">
-        <mark key="'" line="80" column="20" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" timestamp="1561998590973">
+        <mark key="'" line="91" column="34" />
         <mark key="[" line="202" column="0" />
         <mark key="]" line="202" column="0" />
         <mark key="^" line="92" column="37" />
@@ -501,7 +501,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1763" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1799" column="3" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1800" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1554" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -601,6 +600,7 @@
       <jump line="17" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
       <jump line="169" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="28" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/tests/test_sqs_processor.py" />
+      <jump line="91" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -675,7 +675,7 @@
         <text>venue_id</text>
       </register>
       <register name="/" type="4">
-        <text>ven</text>
+        <text>prep</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuZGFsLnNjaGVkdWxlcy5TcG90UmVjb21tZW5kYXRpb25zQVBJQ2xpZW50JywgU3BvdFJlY3NBUElDbGllbnRNb2NrKQogICAgZGVmIHRlc3RfZ2V0X3NjaGVkdWxlc193aXRoX3Nwb3RfaW5mb3JtYXRpb25fYW5kX3Nwb3RfcmVjcyhzZWxmKToKICAgICAgICBudW1fdXNlcnMgPSA1CiAgICAgICAgbnVtX25ldHdvcmtfcmVzZXJ2YXRpb25zID0gNQoKICAgICAgICB0b2RheSA9IGRhdGV0aW1lLmRhdGV0aW1lLnV0Y25vdygpLmRhdGUoKQogICAgICAgIHN0YXJ0X2RhdGUgPSB0b2RheSArIGRhdGV0aW1lLnRpbWVkZWx0YShkYXlzPTEpCgogICAgICAgICMgQ3JlYXRlIHZlbnVlLCBjbGFzcywgYW5kIHNjaGVkdWxlCiAgICAgICAgdmVudWUgPSB0ZXN0X2ZhY3Rvcmllcy5DbGFzc3Rpdml0eVZlbnVlRmFjdG9yeShzb3VyY2U9J01JTkRCT0RZJykKICAgICAgICBjbGFzc3Rpdml0eV9jbGFzcyA9IHRlc3RfZmFjdG9yaWVzLkNsYXNzdGl2aXR5Q2xhc3NGYWN0b3J5KHZlbnVlPXZlbnVlKQogICAgICAgIHNjaGVkdWxlID0gdGVzdF9mYWN0b3JpZXMuQ2xhc3N0aXZpdHlTY2hlZHVsZUZhY3RvcnkoCiAgICAgICAgICAgIGNsYXNzaXZpdHlfY2xhc3M9Y2xhc3N0aXZpdHlfY2xhc3MsCiAgICAgICAgICAgIHN0YXJ0X2RhdGU9c3RhcnRfZGF0ZSwKICAgICAgICAgICAgdGFrZW5fc3BvdHM9bnVtX25ldHdvcmtfcmVzZXJ2YXRpb25zLAogICAgICAgICkKCiAgICAgICAgIyBDcmVhdGVzIHVzZXJzIGluIHRoZSBkYXRhYmFzZQogICAgICAgIHVzZXJzID0gW3Rlc3RfZmFjdG9yaWVzLk1haW5zaXRlVXNlckZhY3RvcnkoKSBmb3IgXyBpbiByYW5nZShudW1fdXNlcnMpXQoKICAgICAgICAjIENyZWF0ZXMgYSBuZXR3b3JrIHJlc2VydmF0aW9uIGZvciBlYWNoIHVzZXIKICAgICAgICBmb3IgdSBpbiB1c2VyczoKICAgICAgICAgICAgdGVzdF9mYWN0b3JpZXMuTmV0d29ya1Jlc2VydmF0aW9uRmFjdG9yeSgKICAgICAgICAgICAgICAgIHVzZXI9dSwKICAgICAgICAgICAgICAgIHNjaGVkdWxlPXNjaGVkdWxlLAogICAgICAgICAgICAgICAgdmVudWU9dmVudWUsCiAgICAgICAgICAgICAgICBzdGFydF9kYXRlPXN0YXJ0X2RhdGUsCiAgICAgICAgICAgICkKCiAgICAgICAgdGVzdF9mYWN0b3JpZXMuUmVwb3J0U2NoZWR1bGVGYWN0b3J5KHNjaGVkdWxlPXNjaGVkdWxlLCBtYXhfY2FwYWNpdHk9MTAwLCB0b3RhbF9ib29rZWQ9OSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmVudWU9dmVudWUpCgogICAgICAgIHJlc3BvbnNlID0gc2NoZWR1bGVzX2RhbC5nZXRfc2NoZWR1bGVzX3dpdGhfc3BvdF9pbmZvcm1hdGlvbl9hbmRfc3BvdF9yZWNzKAogICAgICAgICAgICB2ZW51ZV91c2VyX2lkPTAsCiAgICAgICAgICAgIHZlbnVlX2lkPXZlbnVlLnZlbnVlX2lkLAogICAgICAgICAgICBzdGFydF9kYXRlPXNjaGVkdWxlLnN0YXJ0X2RhdGUsCiAgICAgICAgICAgIGVuZF9kYXRlPXNjaGVkdWxlLnN0YXJ0X2RhdGUsCiAgICAgICAgKQoKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihyZXNwb25zZSksIDEpCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChyZXNwb25zZVswXS5uZXR3b3JrX3Jlc2VydmF0aW9ucywgbnVtX25ldHdvcmtfcmVzZXJ2YXRpb25zKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwocmVzcG9uc2VbMF0ubmV0d29ya19zcG90c190YWtlbiwgbnVtX25ldHdvcmtfcmVzZXJ2YXRpb25zKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwocmVzcG9uc2VbMF0uc21hcnRzcG90X3JlY29tbWVuZGVkX3Nwb3RzLCAxMCkK</text>
@@ -1384,17 +1384,16 @@
       </register>
     </registers>
     <search>
-      <last-search>ven</last-search>
+      <last-search>prep</last-search>
       <last-offset />
-      <last-pattern>ven</last-pattern>
+      <last-pattern>prep</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>is_fu</entry>
         <entry>defaul</entry>
         <entry>spot_rec</entry>
         <entry>recomm</entry>
@@ -1414,6 +1413,7 @@
         <entry>factor</entry>
         <entry encoding="base64">XDxzZXRVcFw+</entry>
         <entry>ven</entry>
+        <entry>prep</entry>
       </history-search>
       <history-cmd>
         <entry>action Vcs.Browse</entry>
