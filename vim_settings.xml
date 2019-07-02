@@ -111,10 +111,6 @@
         <mark key="." line="38" column="43" />
         <mark key="^" line="38" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1561587742110">
-        <mark key="'" line="45" column="8" />
-        <mark key="[" line="604" column="29" />
-      </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/conf/urls/__init__.py" timestamp="1560286446018">
         <mark key="'" line="76" column="4" />
       </file>
@@ -123,10 +119,6 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" timestamp="1559235226658">
         <mark key="'" line="222" column="17" />
-      </file>
-      <file name="/spot_recommendations.py" timestamp="1561741186820">
-        <mark key="'" line="31" column="0" />
-        <mark key="[" line="25" column="0" />
       </file>
       <file name="$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi" timestamp="1546626341246">
         <mark key="'" line="230" column="8" />
@@ -389,6 +381,10 @@
         <mark key="." line="24" column="85" />
         <mark key="^" line="25" column="105" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/source.py" timestamp="1562086078910">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="25" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments.py" timestamp="1557780717656">
         <mark key="'" line="49" column="58" />
         <mark key="[" line="54" column="39" />
@@ -647,8 +643,11 @@
       <register name="/" type="4">
         <text>smartspot</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBBIHNjaGVkdWxlIGlzIGVsaWdpYmxlIGlmIGl0IGlzIG5laXRoZXIgZGlzYWJsZWQgbm9yIGNhbmNlbGxlZCAoc2NoZWR1bGVfZGlzYWJsZWQgaXMgYWxsb3dlZCkgYW5kIGl0IG1lZXRzIG9uZQogICAgICAgIG9mIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9uczoKICAgICAgICBhKSBaZXJvIHNwb3RzIGFsbG9jYXRlZCB0byBjbGFzc3Bhc3MKICAgICAgICBiKSBUaGUgc2NoZWR1bGUgaXMgc29sZCBvdXQKICAgICAgICBjKSBIYXMgb25lIGNsYXNzcGFzcyBzcG90IHJlbWFpbmluZwogICAgICAgIEZ1cnRoZXJtb3JlLCBpZiBhIHNjaGVkdWxlIGlzIGZvciBhIHdlbGxuZXNzIGFwcG9pbnRtZW50LCB3ZSBkbyBub3Qgc2hvdyBvcHBvcnR1bml0aWVzIGlmIHRoZSBzY2hlZHVsZSBvbmx5CiAgICAgICAgaGFzIG9uZSBzcG90IGFsbG9jYXRlZCB0byBjbGFzc3Bhc3MuIFRoaXMgaXMgdG8gcHJldmVudCB1cyByZWNvbW1lbmRpbmcgYWRkaW5nIHNwb3RzIHRvIG1hc3NhZ2VzIGFuZCBmYWNpYWxzCiAgICAgICAgYW5kIG90aGVyIGFwcG9pbnRtZW50cyB0aGF0IGRvbid0IG1ha2Ugc2Vuc2UgdG8gaGF2ZSBtb3JlIHRoYW4gb25lIHNwb3QuCg==</text>
+      <register name="0" type="4">
+        <text>SMARTSPOT_INELIGIBLE_SOURCES = [
+    CLASSTIVITY,
+    'CRUNCH'
+]</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
