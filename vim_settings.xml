@@ -202,7 +202,8 @@
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1562184961833">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1562185602984">
+        <mark key="'" line="1009" column="0" />
         <mark key="[" line="1009" column="0" />
         <mark key="]" line="1009" column="0" />
         <mark key="." line="1009" column="0" />
@@ -419,11 +420,11 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1561754688395">
         <mark key="'" line="34" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1562184974592">
-        <mark key="[" line="129" column="30" />
-        <mark key="]" line="129" column="30" />
-        <mark key="." line="129" column="30" />
-        <mark key="^" line="129" column="30" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1562185615674">
+        <mark key="[" line="130" column="20" />
+        <mark key="]" line="130" column="29" />
+        <mark key="." line="130" column="29" />
+        <mark key="^" line="130" column="29" />
       </file>
       <file name="/Dummy.txt" timestamp="1562184999796">
         <mark key="[" line="0" column="0" />
@@ -457,7 +458,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="612" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
       <jump line="740" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="712" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="1373" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
@@ -557,6 +557,7 @@
       <jump line="766" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="770" column="84" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="843" column="69" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
+      <jump line="1009" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -631,7 +632,7 @@
         <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>5</text>
+        <text>payload</text>
       </register>
       <register name="0" type="4">
         <text>SMARTSPOT_INELIGIBLE_SOURCES = [
@@ -1343,9 +1344,9 @@
       </register>
     </registers>
     <search>
-      <last-search>5</last-search>
+      <last-search>payload</last-search>
       <last-offset />
-      <last-pattern>5</last-pattern>
+      <last-pattern>payload</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1353,7 +1354,6 @@
     </search>
     <history>
       <history-search>
-        <entry>defa</entry>
         <entry>_on_de</entry>
         <entry>on_demand</entry>
         <entry>adjust_sm</entry>
@@ -1373,6 +1373,7 @@
         <entry>smartspot</entry>
         <entry>if</entry>
         <entry>5</entry>
+        <entry>payload</entry>
       </history-search>
       <history-cmd>
         <entry>action Vcs.QuickListPopupAction</entry>
