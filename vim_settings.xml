@@ -43,12 +43,12 @@
         <mark key="." line="1060" column="98" />
         <mark key="^" line="1060" column="98" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1562601131151">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1562603261986">
         <mark key="'" line="271" column="8" />
-        <mark key="[" line="265" column="12" />
-        <mark key="]" line="265" column="38" />
-        <mark key="." line="21" column="1" />
-        <mark key="^" line="21" column="1" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="31" />
+        <mark key="." line="17" column="27" />
+        <mark key="^" line="17" column="27" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" timestamp="1561757853941">
         <mark key="'" line="40" column="36" />
@@ -167,7 +167,7 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" timestamp="1562017139988">
         <mark key="'" line="774" column="8" />
       </file>
-      <file name="/Python Console" timestamp="1562601121704">
+      <file name="/Python Console" timestamp="1562603445336">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1560892692300">
@@ -293,8 +293,8 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1562362869319">
-        <mark key="'" line="58" column="24" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1562603498305">
+        <mark key="'" line="47" column="51" />
         <mark key="[" line="8" column="10" />
         <mark key="]" line="8" column="10" />
         <mark key="." line="8" column="10" />
@@ -547,7 +547,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="939" column="47" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="1403" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="761" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="902" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
@@ -567,7 +566,6 @@
       <jump line="1744" column="83" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1747" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1720" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="47" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="1427" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="977" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="491" column="44" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
@@ -647,6 +645,8 @@
       <jump line="27" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" />
       <jump line="11" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" />
       <jump line="18" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" />
+      <jump line="9" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="47" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -718,16 +718,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>filters.</text>
+        <text>models, OperationalError, IntegrityError</text>
       </register>
       <register name="/" type="4">
-        <text>setup</text>
+        <text>login</text>
       </register>
       <register name="0" type="4">
-        <text>reverse_route('login-list')</text>
+        <text>from django.conf import settings</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CmZyb20gbW9jayBpbXBvcnQgTW9jaywgcGF0Y2gK</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28uCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -760,31 +760,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28udXJscyBpbXBvcnQgcmV2ZXJzZSBhcyByZXZlcnNlX3JvdXRlCg==</text>
+        <text encoding="base64">CmZyb20gbW9jayBpbXBvcnQgTW9jaywgcGF0Y2gK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGFsbG93X2RhdGFiYXNlX3F1ZXJpZXMgPSBUcnVlCg==</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28udXJscyBpbXBvcnQgcmV2ZXJzZSBhcyByZXZlcnNlX3JvdXRlCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbl9kZWxldGU9bW9kZWxzLkNBU0NBREUpCg==</text>
+        <text encoding="base64">ICAgIGFsbG93X2RhdGFiYXNlX3F1ZXJpZXMgPSBUcnVlCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbl9kZWxldGU9bW9kZWxzLkNBU0NBREUpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">KWN0aW9uIE5leHRPY2N1cmVuYwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgInEiIAo=</text>
+        <text encoding="base64">KWN0aW9uIE5leHRPY2N1cmVuYwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgInEiIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpc19hdXRoZW50aWNhdGVkX2ZuID0gdXNlci5pc19hdXRoZW50aWNhdGVkKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>12</text>
@@ -1448,9 +1448,9 @@
       </register>
     </registers>
     <search>
-      <last-search>setup</last-search>
+      <last-search>login</last-search>
       <last-offset />
-      <last-pattern>setup</last-pattern>
+      <last-pattern>login</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1458,7 +1458,6 @@
     </search>
     <history>
       <history-search>
-        <entry>discr</entry>
         <entry encoding="base64">XDx0YWtlbl9zcG90c1w+</entry>
         <entry>or 0</entry>
         <entry>on_demand</entry>
@@ -1478,6 +1477,7 @@
         <entry encoding="base64">XDxyZXZlcnNlX3JvdXRlXD4=</entry>
         <entry>login-list</entry>
         <entry>setup</entry>
+        <entry>login</entry>
       </history-search>
       <history-cmd>
         <entry>1015</entry>
