@@ -341,6 +341,13 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" timestamp="1562020303682">
         <mark key="'" line="63" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" timestamp="1562607703845">
+        <mark key="'" line="33" column="8" />
+        <mark key="[" line="113" column="36" />
+        <mark key="]" line="113" column="48" />
+        <mark key="." line="113" column="48" />
+        <mark key="^" line="113" column="48" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/scripts/run_ecs_task.py" timestamp="1558045316852">
         <mark key="'" line="89" column="19" />
       </file>
@@ -490,14 +497,18 @@
         <mark key="." line="130" column="29" />
         <mark key="^" line="130" column="29" />
       </file>
-      <file name="/Dummy.txt" timestamp="1562366709311">
+      <file name="/Dummy.txt" timestamp="1562607550535">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1562604634345">
-        <mark key="'" line="147" column="57" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1562607803387">
+        <mark key="'" line="398" column="25" />
+        <mark key="[" line="402" column="16" />
+        <mark key="]" line="404" column="42" />
+        <mark key="^" line="404" column="42" />
+        <mark key="." line="404" column="42" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1562345844033">
         <mark key="'" line="113" column="0" />
@@ -506,8 +517,8 @@
         <mark key="." line="137" column="37" />
         <mark key="^" line="262" column="83" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1562190191706">
-        <mark key="'" line="141" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1562607188088">
+        <mark key="'" line="177" column="12" />
         <mark key="[" line="150" column="0" />
         <mark key="]" line="150" column="0" />
         <mark key="." line="150" column="0" />
@@ -554,14 +565,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="774" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
-      <jump line="711" column="94" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
-      <jump line="907" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="975" column="55" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="184" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
-      <jump line="63" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/schedules.py" />
-      <jump line="78" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="87" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="1426" column="115" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="729" column="77" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="765" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
@@ -654,6 +657,14 @@
       <jump line="1562" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1655" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="121" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="177" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="112" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
+      <jump line="114" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
+      <jump line="113" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
+      <jump line="104" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
+      <jump line="33" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
+      <jump line="398" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -725,16 +736,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>2</text>
+        <text>debug</text>
       </register>
       <register name="/" type="4">
-        <text>total_spots</text>
+        <text encoding="base64">XDxzcG90c190b19zZXRcPg==</text>
       </register>
       <register name="0" type="4">
         <text>from django.conf import settings</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -767,34 +778,34 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CmZyb20gbW9jayBpbXBvcnQgTW9jaywgcGF0Y2gK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28udXJscyBpbXBvcnQgcmV2ZXJzZSBhcyByZXZlcnNlX3JvdXRlCg==</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28uCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGFsbG93X2RhdGFiYXNlX3F1ZXJpZXMgPSBUcnVlCg==</text>
+        <text encoding="base64">CmZyb20gbW9jayBpbXBvcnQgTW9jaywgcGF0Y2gK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbl9kZWxldGU9bW9kZWxzLkNBU0NBREUpCg==</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28udXJscyBpbXBvcnQgcmV2ZXJzZSBhcyByZXZlcnNlX3JvdXRlCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGFsbG93X2RhdGFiYXNlX3F1ZXJpZXMgPSBUcnVlCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">KWN0aW9uIE5leHRPY2N1cmVuYwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbl9kZWxldGU9bW9kZWxzLkNBU0NBREUpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgInEiIAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">KWN0aW9uIE5leHRPY2N1cmVuYwo=</text>
       </register>
       <register name=":" type="4">
-        <text>45</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1455,24 +1466,16 @@
       </register>
     </registers>
     <search>
-      <last-search>total_spots</last-search>
+      <last-search encoding="base64">XDxzcG90c190b19zZXRcPg==</last-search>
       <last-offset />
-      <last-pattern>total_spots</last-pattern>
+      <last-pattern encoding="base64">XDxzcG90c190b19zZXRcPg==</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxTcG90UmVjc0FQSUNsaWVudE1vY2tcPg==</entry>
-        <entry encoding="base64">XDxOZXR3b3JrUmVzZXJ2YXRpb25TcG90RmFjdG9yeVw+</entry>
-        <entry>networkreservationfac</entry>
-        <entry encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</entry>
-        <entry encoding="base64">XDxwcmVtaXVtX3Nwb3RzX3Rha2VuXD4=</entry>
-        <entry encoding="base64">XDxwcmVtaXVtX3Jlc2VydmF0aW9uc1w+</entry>
-        <entry>reservation_spot</entry>
-        <entry>nones</entry>
         <entry>as e</entry>
         <entry>on_del</entry>
         <entry encoding="base64">XDxhbGxvd19kYXRhYmFzZV9xdWVyaWVzXD4=</entry>
@@ -1485,6 +1488,14 @@
         <entry>disa</entry>
         <entry encoding="base64">XDxzY2hlZHVsZVw+</entry>
         <entry>total_spots</entry>
+        <entry>enables_disa</entry>
+        <entry>enables_dfi</entry>
+        <entry>enables</entry>
+        <entry encoding="base64">XDxyZXR1cm5cPg==</entry>
+        <entry>misc</entry>
+        <entry encoding="base64">XDxyZXR1cm5fc3BvdF9sb2dfaWRcPg==</entry>
+        <entry encoding="base64">XDxzcG90X2xvZ19pZFw+</entry>
+        <entry encoding="base64">XDxzcG90c190b19zZXRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>action MethodDown</entry>
@@ -1493,7 +1504,6 @@
         <entry>982</entry>
         <entry>409</entry>
         <entry>action MethodUp</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>reg q</entry>
         <entry>action NextOccurence</entry>
@@ -1507,6 +1517,7 @@
         <entry>79</entry>
         <entry>12</entry>
         <entry>45</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
