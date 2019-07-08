@@ -34,12 +34,12 @@
         <mark key="." line="1060" column="98" />
         <mark key="^" line="1060" column="98" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1562345000042">
-        <mark key="'" line="259" column="8" />
-        <mark key="[" line="353" column="21" />
-        <mark key="]" line="356" column="16" />
-        <mark key="^" line="259" column="8" />
-        <mark key="." line="259" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1562366199275">
+        <mark key="'" line="42" column="4" />
+        <mark key="[" line="41" column="4" />
+        <mark key="]" line="41" column="23" />
+        <mark key="^" line="41" column="23" />
+        <mark key="." line="41" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/venues.py" timestamp="1561757853941">
         <mark key="'" line="40" column="36" />
@@ -108,12 +108,6 @@
         <mark key="." line="38" column="43" />
         <mark key="^" line="38" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/cron_request.py" timestamp="1562364118169">
-        <mark key="[" line="22" column="103" />
-        <mark key="]" line="22" column="5" />
-        <mark key="." line="22" column="5" />
-        <mark key="^" line="22" column="5" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classtivity.py" timestamp="1562364497852">
         <mark key="'" line="285" column="41" />
         <mark key="[" line="313" column="87" />
@@ -178,12 +172,6 @@
         <mark key="." line="3" column="80" />
         <mark key="^" line="4" column="20" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/models.py" timestamp="1562363512809">
-        <mark key="[" line="38" column="47" />
-        <mark key="]" line="38" column="72" />
-        <mark key="^" line="38" column="72" />
-        <mark key="." line="38" column="72" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" timestamp="1560549643044">
         <mark key="'" line="190" column="6" />
         <mark key="[" line="245" column="0" />
@@ -244,12 +232,6 @@
         <mark key="]" line="50" column="0" />
         <mark key="^" line="49" column="26" />
         <mark key="." line="50" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/smartspot.py" timestamp="1562004448441">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="0" />
-        <mark key="^" line="91" column="0" />
-        <mark key="." line="14" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/organization.py" timestamp="1562364210501">
         <mark key="[" line="26" column="116" />
@@ -333,11 +315,21 @@
         <mark key="." line="77" column="55" />
         <mark key="^" line="69" column="41" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1562365666813">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="272" column="63" />
+        <mark key="]" line="272" column="63" />
+        <mark key="^" line="272" column="47" />
+        <mark key="." line="272" column="63" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/spot_recommendations.py" timestamp="1562185615674">
         <mark key="[" line="130" column="20" />
         <mark key="]" line="130" column="29" />
         <mark key="." line="130" column="29" />
         <mark key="^" line="130" column="29" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1562366709311">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1562345844033">
         <mark key="'" line="113" column="0" />
@@ -384,7 +376,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1796" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1664" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="908" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
@@ -484,6 +475,7 @@
       <jump line="1053" column="33" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
       <jump line="56" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="285" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classtivity.py" />
+      <jump line="41" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -555,16 +547,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>core.urlresolvers</text>
+        <text>filters.</text>
       </register>
       <register name="/" type="4">
-        <text>on_del</text>
+        <text encoding="base64">XDxhbGxvd19kYXRhYmFzZV9xdWVyaWVzXD4=</text>
       </register>
       <register name="0" type="4">
         <text>on_delete=models.CASCADE</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbl9kZWxldGU9bW9kZWxzLkNBU0NBREUpCg==</text>
+        <text encoding="base64">ICAgIGFsbG93X2RhdGFiYXNlX3F1ZXJpZXMgPSBUcnVlCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -597,31 +589,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbl9kZWxldGU9bW9kZWxzLkNBU0NBREUpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">KWN0aW9uIE5leHRPY2N1cmVuYwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgInEiIAo=</text>
+        <text encoding="base64">KWN0aW9uIE5leHRPY2N1cmVuYwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgInEiIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpc19hdXRoZW50aWNhdGVkX2ZuID0gdXNlci5pc19hdXRoZW50aWNhdGVkKCkK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uZGIubW9kZWxzIGltcG9ydCBGb3JlaWduS2V5Cg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpc19hdXRoZW50aWNhdGVkX2ZuID0gdXNlci5pc19hdXRoZW50aWNhdGVkKCkK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ZnJvbSBkamFuZ28uZGIubW9kZWxzIGltcG9ydCBGb3JlaWduS2V5Cg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJ2aWFfZW1haWwiOiBUcnVlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>12</text>
@@ -1285,17 +1277,16 @@
       </register>
     </registers>
     <search>
-      <last-search>on_del</last-search>
+      <last-search encoding="base64">XDxhbGxvd19kYXRhYmFzZV9xdWVyaWVzXD4=</last-search>
       <last-offset />
-      <last-pattern>on_del</last-pattern>
+      <last-pattern encoding="base64">XDxhbGxvd19kYXRhYmFzZV9xdWVyaWVzXD4=</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxkYl9jb2x1bW5cPg==</entry>
         <entry>fore</entry>
         <entry>is_auth</entry>
         <entry>prem</entry>
@@ -1315,6 +1306,7 @@
         <entry>nones</entry>
         <entry>as e</entry>
         <entry>on_del</entry>
+        <entry encoding="base64">XDxhbGxvd19kYXRhYmFzZV9xdWVyaWVzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>1015</entry>
