@@ -98,8 +98,12 @@
         <mark key="." line="214" column="51" />
         <mark key="^" line="214" column="51" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_classes_view.py" timestamp="1562883207883">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_classes_view.py" timestamp="1562945013137">
         <mark key="'" line="70" column="51" />
+        <mark key="[" line="56" column="8" />
+        <mark key="]" line="56" column="8" />
+        <mark key="^" line="56" column="25" />
+        <mark key="." line="56" column="8" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1562012498467">
         <mark key="'" line="45" column="16" />
@@ -150,7 +154,7 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" timestamp="1562017139988">
         <mark key="'" line="774" column="8" />
       </file>
-      <file name="/Python Console" timestamp="1562885145224">
+      <file name="/Python Console" timestamp="1562944997863">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1560892692300">
@@ -264,12 +268,12 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1562884491383">
-        <mark key="'" line="90" column="0" />
-        <mark key="[" line="120" column="0" />
-        <mark key="]" line="120" column="0" />
-        <mark key="." line="120" column="0" />
-        <mark key="^" line="8" column="10" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1562945191880">
+        <mark key="'" line="69" column="0" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" timestamp="1560542256080">
         <mark key="'" line="330" column="26" />
@@ -402,12 +406,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1562886069303">
-        <mark key="'" line="24" column="152" />
-        <mark key="[" line="28" column="36" />
-        <mark key="]" line="28" column="47" />
-        <mark key="." line="28" column="47" />
-        <mark key="^" line="28" column="47" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1562945090062">
+        <mark key="'" line="0" column="34" />
+        <mark key="[" line="6" column="36" />
+        <mark key="]" line="6" column="47" />
+        <mark key="." line="6" column="47" />
+        <mark key="^" line="6" column="47" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments.py" timestamp="1557780717656">
         <mark key="'" line="49" column="58" />
@@ -514,9 +518,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="528" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
-      <jump line="529" column="57" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
-      <jump line="531" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="532" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="570" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="571" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
@@ -614,6 +615,9 @@
       <jump line="48" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="49" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="90" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="29" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
+      <jump line="0" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
+      <jump line="69" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -685,10 +689,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>{'post': 'list'}</text>
+        <text encoding="base64">bG9naW5fcmVzcG9uc2UgPSA=</text>
       </register>
       <register name="/" type="4">
-        <text>init</text>
+        <text>include</text>
       </register>
       <register name="0" type="4">
         <text>**callback_kwargs</text>
@@ -1418,9 +1422,9 @@
       </register>
     </registers>
     <search>
-      <last-search>init</last-search>
+      <last-search>include</last-search>
       <last-offset />
-      <last-pattern>init</last-pattern>
+      <last-pattern>include</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1428,8 +1432,6 @@
     </search>
     <history>
       <history-search>
-        <entry>schedule.id</entry>
-        <entry>passport</entry>
         <entry>schedule_</entry>
         <entry>enables</entry>
         <entry>passportsch</entry>
@@ -1448,6 +1450,8 @@
         <entry>login</entry>
         <entry>routes</entry>
         <entry>init</entry>
+        <entry>iunclude</entry>
+        <entry>include</entry>
       </history-search>
       <history-cmd>
         <entry>409</entry>
