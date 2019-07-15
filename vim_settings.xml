@@ -42,17 +42,17 @@
         <mark key="^" line="138" column="112" />
         <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" timestamp="1562358641341">
-        <mark key="'" line="1053" column="33" />
-        <mark key="[" line="1060" column="53" />
-        <mark key="]" line="1060" column="98" />
-        <mark key="." line="1060" column="98" />
-        <mark key="^" line="1060" column="98" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" timestamp="1563231246139">
+        <mark key="'" line="1077" column="22" />
+        <mark key="[" line="1081" column="8" />
+        <mark key="]" line="1081" column="8" />
+        <mark key="." line="1081" column="8" />
+        <mark key="^" line="1081" column="108" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1562885703812">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/test_cases.py" timestamp="1563231069555">
         <mark key="'" line="273" column="0" />
-        <mark key="[" line="43" column="4" />
-        <mark key="]" line="43" column="32" />
+        <mark key="[" line="273" column="0" />
+        <mark key="]" line="285" column="0" />
         <mark key="." line="43" column="32" />
         <mark key="^" line="43" column="32" />
       </file>
@@ -208,10 +208,6 @@
         <mark key="[" line="19" column="70" />
         <mark key="]" line="19" column="70" />
         <mark key="." line="19" column="70" />
-      </file>
-      <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/dispatch/dispatcher.py" timestamp="1562951376436">
-        <mark key="[" line="174" column="28" />
-        <mark key="]" line="174" column="55" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/classes.py" timestamp="1560884204685">
         <mark key="'" line="24" column="0" />
@@ -614,8 +610,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="66" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
-      <jump line="68" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="129" column="71" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" />
       <jump line="105" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" />
       <jump line="108" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/manage_spots.py" />
@@ -714,6 +708,8 @@
       <jump line="468" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="471" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="215" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
+      <jump line="687" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
+      <jump line="1077" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_schedules.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -785,16 +781,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>}</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>teacher</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBXZSBleHBlY3QgYSBqc29uIHBvc3QgaW4gdGhpcyBmb3JtYXQ6IHsib3Bwb3J0dW5pdGllcyI6IFt7InNjaGVkdWxlX2lkIjogMTIzNCwgInNwb3RzX2FkZGVkIjogNH1dfQogICAgICAgIE9SIHNwZWNpZnkgdGhlIG9wcG9ydHVuaXR5IGlkOiB7Im9wcG9ydHVuaXRpZXMiOiBbeyJvcHBvcnR1bml0eV9pZCI6IDEyMzQsICJzcG90c19hZGRlZCI6IDR9XX0K</text>
+        <text encoding="base64">ICAgICAgICBvbGRfc2NoZWR1bGUgPSB0ZXN0X2ZhY3Rvcmllcy5DbGFzc3Rpdml0eVNjaGVkdWxlRmFjdG9yeSgpCiAgICAgICAgaWYgdGFrZV9vd25lcnNoaXA6CiAgICAgICAgICAgIG9sZF9zY2hlZHVsZS5jbGFzc2l2aXR5X2NsYXNzLnZlbnVlX2lkID0gc2VsZi5jX3ZlbnVlLnZlbnVlX2lkCiAgICAgICAgICAgIG9sZF9zY2hlZHVsZS5jbGFzc2l2aXR5X2NsYXNzLnNhdmUoKQoKICAgICAgICBpZiBoaXN0b3J5X2NvdW50ID4gMDoKICAgICAgICAgICAgZm9yIGluZGV4IGluIHJhbmdlKDEsIGhpc3RvcnlfY291bnQgKyAxKToKICAgICAgICAgICAgICAgIHRlc3RfZmFjdG9yaWVzLkNsYXNzdGl2aXR5U2NoZWR1bGVGYWN0b3J5KAogICAgICAgICAgICAgICAgICAgIHN0YXJ0X3RpbWU9b2xkX3NjaGVkdWxlLnN0YXJ0X3RpbWUsCiAgICAgICAgICAgICAgICAgICAgc3RhcnRfZGF0ZT1vbGRfc2NoZWR1bGUuc3RhcnRfZGF0ZSAtIHRpbWVkZWx0YShkYXlzPShpbmRleCArIGhpc3Rvcnlfb2Zmc2V0X3dlZWtzKSAqIDcpLAogICAgICAgICAgICAgICAgICAgIGNsYXNzaXZpdHlfY2xhc3M9b2xkX3NjaGVkdWxlLmNsYXNzaXZpdHlfY2xhc3MKICAgICAgICAgICAgICAgICkKCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBzY2hlZHVsZS5jbGFzc2l2aXR5X2NsYXNzLnZlbnVlX2lkID0gc2VsZi5jX3ZlbnVlLnZlbnVlX2lkCiAgICAgICAgc2NoZWR1bGUuY2xhc3Npdml0eV9jbGFzcy5zYXZlKCkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -827,31 +823,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3RjcF9ub2RlbGF5JzogVHJ1ZSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uY29udHJpYi5hdXRoLm1vZGVscyBpbXBvcnQgdXBkYXRlX2xhc3RfbG9naW4K</text>
+        <text encoding="base64">ICAgICAgICBpZiBoaXN0b3J5X2NvdW50ID4gMDoKICAgICAgICAgICAgZm9yIGluZGV4IGluIHJhbmdlKDEsIGhpc3RvcnlfY291bnQgKyAxKToKICAgICAgICAgICAgICAgIHRlc3RfZmFjdG9yaWVzLkNsYXNzdGl2aXR5U2NoZWR1bGVGYWN0b3J5KAogICAgICAgICAgICAgICAgICAgIHN0YXJ0X3RpbWU9b2xkX3NjaGVkdWxlLnN0YXJ0X3RpbWUsCiAgICAgICAgICAgICAgICAgICAgc3RhcnRfZGF0ZT1vbGRfc2NoZWR1bGUuc3RhcnRfZGF0ZSAtIHRpbWVkZWx0YShkYXlzPShpbmRleCArIGhpc3Rvcnlfb2Zmc2V0X3dlZWtzKSAqIDcpLAogICAgICAgICAgICAgICAgICAgIGNsYXNzaXZpdHlfY2xhc3M9b2xkX3NjaGVkdWxlLmNsYXNzaXZpdHlfY2xhc3MKICAgICAgICAgICAgICAgICkK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiB0YWtlX293bmVyc2hpcDoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">dXNlcl9sb2dnZWRfaW4uZGlzY29ubmVjdCh1cGRhdGVfbGFzdF9sb2dpbikK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLl9nZXRfdGVzdF9zY2hlZHVsZSh0YWtlX293bmVyc2hpcD1UcnVlKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB4PTIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBmcm9tIGRqYW5nby5hcHBzIGltcG9ydCBBcHBDb25maWcK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ28uYXBwcyBpbXBvcnQgQXBwQ29uZmlnCmZyb20gZGphbmdvLmNvbnRyaWIuYXV0aCBpbXBvcnQgdXNlcl9sb2dnZWRfaW4KZnJvbSBkamFuZ28uY29udHJpYi5hdXRoLm1vZGVscyBpbXBvcnQgdXBkYXRlX2xhc3RfbG9naW4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3RjcF9ub2RlbGF5JzogVHJ1ZSwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBkamFuZ28uY29udHJpYi5hdXRoLm1vZGVscyBpbXBvcnQgdXBkYXRlX2xhc3RfbG9naW4K</text>
       </register>
       <register name=":" type="4">
         <text>1605</text>
