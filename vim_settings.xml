@@ -507,6 +507,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1563487424168">
+        <mark key="'" line="154" column="64" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1562345844033">
         <mark key="'" line="113" column="0" />
         <mark key="[" line="137" column="37" />
@@ -543,9 +546,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/common.py" />
-      <jump line="758" column="6" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/db/models/fields/related.py" />
-      <jump line="1465" column="43" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/db/models/fields/related.py" />
       <jump line="1472" column="50" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/db/models/fields/related.py" />
       <jump line="1475" column="50" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/db/models/fields/related.py" />
       <jump line="53" column="72" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
@@ -643,6 +643,9 @@
       <jump line="1690" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1688" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="26" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/creditprice/client.py" />
+      <jump line="183" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="13" column="31" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="154" column="64" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -717,7 +720,7 @@
         <text>1</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjcmVkaXRfcXVvdGVcPg==</text>
+        <text encoding="base64">XDxjbGFzc190YWdzXD4=</text>
       </register>
       <register name="0" type="4">
         <text>'/v3/credits/quote'</text>
@@ -1421,19 +1424,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjcmVkaXRfcXVvdGVcPg==</last-search>
+      <last-search encoding="base64">XDxjbGFzc190YWdzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjcmVkaXRfcXVvdGVcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxjbGFzc190YWdzXD4=</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>teacher_name</entry>
-        <entry>teacher</entry>
-        <entry>name</entry>
         <entry>dal</entry>
         <entry>spot</entry>
         <entry encoding="base64">XDxjbGFzc3Bhc3Nfc3BvdHNcPg==</entry>
@@ -1451,6 +1451,9 @@
         <entry encoding="base64">XDxzcWxfcGF5b3V0c1w+</entry>
         <entry>get_</entry>
         <entry encoding="base64">XDxjcmVkaXRfcXVvdGVcPg==</entry>
+        <entry>tags</entry>
+        <entry encoding="base64">XDxUYWdzQVBJQ2xpZW50XD4=</entry>
+        <entry encoding="base64">XDxjbGFzc190YWdzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>45</entry>
