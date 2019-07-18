@@ -175,8 +175,8 @@
         <mark key="." line="94" column="0" />
         <mark key="^" line="48" column="90" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1563382765143">
-        <mark key="'" line="190" column="42" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1563482794170">
+        <mark key="'" line="24" column="10" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1549909252996">
         <mark key="'" line="1600" column="4" />
@@ -231,8 +231,8 @@
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/tests/schedule/base/test_processor.py" timestamp="1551803342794">
         <mark key="'" line="52" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1563299751948">
-        <mark key="'" line="93" column="61" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" timestamp="1563482887951">
+        <mark key="'" line="1688" column="18" />
         <mark key="[" line="1764" column="4" />
         <mark key="]" line="1764" column="3" />
         <mark key="." line="1764" column="3" />
@@ -338,6 +338,13 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/public_urls.py" timestamp="1543357504832">
         <mark key="'" line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/creditprice/client.py" timestamp="1563483499562">
+        <mark key="'" line="26" column="37" />
+        <mark key="[" line="21" column="24" />
+        <mark key="]" line="21" column="42" />
+        <mark key="^" line="25" column="8" />
+        <mark key="." line="25" column="8" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/core/handlers/exception.py" timestamp="1562884817331" />
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/common.py" timestamp="1562946617074">
@@ -536,11 +543,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="49" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="90" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
-      <jump line="29" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
-      <jump line="0" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" />
-      <jump line="69" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="8" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/common.py" />
       <jump line="758" column="6" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/db/models/fields/related.py" />
       <jump line="1465" column="43" filename="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/db/models/fields/related.py" />
@@ -636,6 +638,11 @@
       <jump line="231" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="233" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="247" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
+      <jump line="128" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="24" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="1690" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="1688" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
+      <jump line="26" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/creditprice/client.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -710,10 +717,10 @@
         <text>1</text>
       </register>
       <register name="/" type="4">
-        <text>1</text>
+        <text encoding="base64">XDxjcmVkaXRfcXVvdGVcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaCgnY2xhc3NwYXNzLmFwcHMudmVudWUuY29udHJvbGxlcnMubWFuYWdlX3Nwb3RzLkludmVudG9yeUFwaUNsaWVudCcsIEludmVudG9yeUFwaUNsaWVudE1vY2spCg==</text>
+      <register name="0" type="4">
+        <text>'/v3/credits/quote'</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIEBwYXRjaCgpCg==</text>
@@ -1414,20 +1421,16 @@
       </register>
     </registers>
     <search>
-      <last-search>1</last-search>
+      <last-search encoding="base64">XDxjcmVkaXRfcXVvdGVcPg==</last-search>
       <last-offset />
-      <last-pattern>1</last-pattern>
+      <last-pattern encoding="base64">XDxjcmVkaXRfcXVvdGVcPg==</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>rosters</entry>
-        <entry>@property</entry>
-        <entry encoding="base64">dmVudWUgPSA=</entry>
-        <entry encoding="base64">XDx2ZW51ZVw+</entry>
         <entry>teacher_name</entry>
         <entry>teacher</entry>
         <entry>name</entry>
@@ -1444,6 +1447,10 @@
         <entry>inventoryapiclientmock</entry>
         <entry encoding="base64">XDxzcG90c190b19hZGRcPg==</entry>
         <entry>1</entry>
+        <entry>reimburse</entry>
+        <entry encoding="base64">XDxzcWxfcGF5b3V0c1w+</entry>
+        <entry>get_</entry>
+        <entry encoding="base64">XDxjcmVkaXRfcXVvdGVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>45</entry>
