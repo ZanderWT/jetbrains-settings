@@ -58,8 +58,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_profile_management.py" timestamp="1557508639949">
         <mark key="'" line="17" column="15" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" timestamp="1562624519111">
-        <mark key="'" line="26" column="86" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" timestamp="1563466135833">
+        <mark key="'" line="200" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1560286017254">
         <mark key="'" line="88" column="8" />
@@ -546,10 +546,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
-      <jump line="27" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
-      <jump line="26" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
-      <jump line="79" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="85" column="91" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="89" column="96" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="143" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
@@ -646,6 +642,10 @@
       <jump line="70" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
       <jump line="110" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
       <jump line="190" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="68" column="54" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
+      <jump line="74" column="162" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
+      <jump line="73" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
+      <jump line="200" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -720,7 +720,7 @@
         <text>throws an error</text>
       </register>
       <register name="/" type="4">
-        <text>dal</text>
+        <text>class class</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHRlYWNoZXJfaWQgPSBzZXJpYWxpemVycy5JbnRlZ2VyRmllbGQoc291cmNlPSd0ZWFjaGVyLnRlYWNoZXJfaWQnLCBkZWZhdWx0PU5vbmUpCg==</text>
@@ -1424,9 +1424,9 @@
       </register>
     </registers>
     <search>
-      <last-search>dal</last-search>
+      <last-search>class class</last-search>
       <last-offset />
-      <last-pattern>dal</last-pattern>
+      <last-pattern>class class</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1434,9 +1434,6 @@
     </search>
     <history>
       <history-search>
-        <entry>frontdesk</entry>
-        <entry encoding="base64">XDx1bmljb2RlY3N2XD4=</entry>
-        <entry>memc</entry>
         <entry encoding="base64">XDxNRU1DQUNIRV9PUFRJT05TXD4=</entry>
         <entry>act_on</entry>
         <entry encoding="base64">XDxhY3Rfb25fb3Bwb3J0dW5pdGllc1w+</entry>
@@ -1454,6 +1451,9 @@
         <entry>teacher</entry>
         <entry>name</entry>
         <entry>dal</entry>
+        <entry>spot</entry>
+        <entry encoding="base64">XDxjbGFzc3Bhc3Nfc3BvdHNcPg==</entry>
+        <entry>class class</entry>
       </history-search>
       <history-cmd>
         <entry>12</entry>
