@@ -276,8 +276,11 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" timestamp="1560542256080">
-        <mark key="'" line="330" column="26" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1563918320180">
+        <mark key="'" line="46" column="26" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" timestamp="1563918429717">
+        <mark key="'" line="463" column="8" />
         <mark key="[" line="585" column="39" />
         <mark key="]" line="585" column="72" />
         <mark key="^" line="585" column="72" />
@@ -545,9 +548,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="193" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="208" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="215" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="218" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="220" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="228" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
@@ -645,6 +645,9 @@
       <jump line="291" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="43" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" />
       <jump line="238" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/legacy/client.py" />
+      <jump line="46" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="394" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" />
+      <jump line="463" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -719,7 +722,7 @@
         <text>S</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRfc3BvdGxpZ2h0X3ZlbnVlc1w+</text>
+        <text>visit</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBwYXRjaC5vYmplY3QoSW52ZW50b3J5QXBpQ2xpZW50LCAnbG9nX25ldHdvcmtfY2FwX2NoYW5nZScpCg==</text>
@@ -1423,20 +1426,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxnZXRfc3BvdGxpZ2h0X3ZlbnVlc1w+</last-search>
+      <last-search>visit</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRfc3BvdGxpZ2h0X3ZlbnVlc1w+</last-pattern>
+      <last-pattern>visit</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>log_n</entry>
-        <entry encoding="base64">XDxsb2dfbmV0d29ya19jYXBfY2hhbmdlXD4=</entry>
-        <entry encoding="base64">XDxsb2dfY2hhbmdlXD4=</entry>
-        <entry>inventoryapi</entry>
         <entry>classfactory</entry>
         <entry>cclass</entry>
         <entry encoding="base64">XDxjY2xhc3NcPg==</entry>
@@ -1453,6 +1452,10 @@
         <entry encoding="base64">XDxXRUxMTkVTU19UQUdfSURcPg==</entry>
         <entry>defaultdict</entry>
         <entry encoding="base64">XDxnZXRfc3BvdGxpZ2h0X3ZlbnVlc1w+</entry>
+        <entry>roster</entry>
+        <entry>lifet</entry>
+        <entry encoding="base64">XDx0cmFuc2Zvcm1fcmVzdWx0c1w+</entry>
+        <entry>visit</entry>
       </history-search>
       <history-cmd>
         <entry>114</entry>
