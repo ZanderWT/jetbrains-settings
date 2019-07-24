@@ -181,8 +181,10 @@
         <mark key="." line="94" column="0" />
         <mark key="^" line="48" column="90" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1563482794170">
-        <mark key="'" line="24" column="10" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1564006308117">
+        <mark key="'" line="31" column="10" />
+        <mark key="[" line="40" column="10" />
+        <mark key="]" line="40" column="30" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1549909252996">
         <mark key="'" line="1600" column="4" />
@@ -502,8 +504,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1563827145445">
-        <mark key="'" line="154" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1564006616629">
+        <mark key="'" line="2" column="0" />
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
         <mark key="^" line="401" column="95" />
@@ -548,15 +550,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="218" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="220" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="228" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="237" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="231" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="233" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="247" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
-      <jump line="128" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
-      <jump line="24" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
       <jump line="1690" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="1688" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
       <jump line="26" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/creditprice/client.py" />
@@ -648,6 +641,15 @@
       <jump line="46" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="394" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" />
       <jump line="463" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" />
+      <jump line="74" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="72" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="93" column="94" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="347" column="79" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="419" column="103" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="459" column="104" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="31" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -722,10 +724,10 @@
         <text>S</text>
       </register>
       <register name="/" type="4">
-        <text>visit</text>
+        <text>future_sch</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIEBwYXRjaC5vYmplY3QoSW52ZW50b3J5QXBpQ2xpZW50LCAnbG9nX25ldHdvcmtfY2FwX2NoYW5nZScpCg==</text>
+      <register name="0" type="4">
+        <text>future_schedule_count</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
@@ -1426,9 +1428,9 @@
       </register>
     </registers>
     <search>
-      <last-search>visit</last-search>
+      <last-search>future_sch</last-search>
       <last-offset />
-      <last-pattern>visit</last-pattern>
+      <last-pattern>future_sch</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1436,11 +1438,6 @@
     </search>
     <history>
       <history-search>
-        <entry>classfactory</entry>
-        <entry>cclass</entry>
-        <entry encoding="base64">XDxjY2xhc3NcPg==</entry>
-        <entry>passportcl</entry>
-        <entry encoding="base64">XDxVcGRhdGVTcG90c0Zvckluc3RhbmNlXD4=</entry>
         <entry>for_class</entry>
         <entry>objs..us</entry>
         <entry>called</entry>
@@ -1456,6 +1453,11 @@
         <entry>lifet</entry>
         <entry encoding="base64">XDx0cmFuc2Zvcm1fcmVzdWx0c1w+</entry>
         <entry>visit</entry>
+        <entry>class</entry>
+        <entry encoding="base64">XDxzaG93X2Rpc2FibGVkX2NsYXNzZXNcPg==</entry>
+        <entry>email</entry>
+        <entry>fut</entry>
+        <entry>future_sch</entry>
       </history-search>
       <history-cmd>
         <entry>114</entry>
