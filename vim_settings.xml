@@ -131,6 +131,9 @@
         <mark key="^" line="44" column="98" />
         <mark key="." line="44" column="98" />
       </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/SpotRecsS3RetrievalDao.kt" timestamp="1564093783886">
+        <mark key="'" line="22" column="13" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-pay-ctrl/src/main/java/com/classpass/partnerpayctrl/PartnerPayControlApplication.java" timestamp="1558121895018">
         <mark key="'" line="53" column="11" />
         <mark key="[" line="61" column="75" />
@@ -230,8 +233,6 @@
         <mark key="." line="137" column="0" />
         <mark key="^" line="136" column="86" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/client/target/generated-sources/annotations/com/classpass/inventory/model/AutoValue_NetworkCapChangeRequest.java" timestamp="1561741120617" />
-      <file name="$USER_HOME$/cp-projects/spot-recs-service/README.md" timestamp="1563553640665" />
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/models/requests/SpotRecRequests.kt" timestamp="1560900874055">
         <mark key="[" line="18" column="0" />
         <mark key="]" line="18" column="0" />
@@ -299,7 +300,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="32" filename="$MAVEN_REPOSITORY$/com/classpass/async/1.0.0/async-1.0.0.jar!/com/classpass/async/processor/BaseProcessor.class" />
       <jump line="176" column="33" filename="$MAVEN_REPOSITORY$/com/classpass/async/1.0.0/async-1.0.0.jar!/com/classpass/async/processor/BaseProcessor.class" />
       <jump line="173" column="0" filename="$MAVEN_REPOSITORY$/com/classpass/async/1.0.0/async-1.0.0.jar!/com/classpass/async/processor/BaseProcessor.class" />
       <jump line="170" column="0" filename="$MAVEN_REPOSITORY$/com/classpass/async/1.0.0/async-1.0.0.jar!/com/classpass/async/processor/BaseProcessor.class" />
@@ -399,6 +399,7 @@
       <jump line="664" column="16" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/test/kotlin/com/classpass/spotrecs/ingester/SpotRecProcessorTest.kt" />
       <jump line="695" column="12" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/test/kotlin/com/classpass/spotrecs/ingester/SpotRecProcessorTest.kt" />
       <jump line="673" column="40" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/test/kotlin/com/classpass/spotrecs/ingester/SpotRecProcessorTest.kt" />
+      <jump line="22" column="13" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/SpotRecsS3RetrievalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -470,7 +471,7 @@
         <text>?</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwcm9jZXNzb3JcPg==</text>
+        <text encoding="base64">XDxnZXRTcG90UmVjc0Zyb21TM1w+</text>
       </register>
       <register name="0" type="4">
         <text>Listening on SQS Queue:</text>
@@ -3528,9 +3529,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwcm9jZXNzb3JcPg==</last-search>
+      <last-search encoding="base64">XDxnZXRTcG90UmVjc0Zyb21TM1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwcm9jZXNzb3JcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxnZXRTcG90UmVjc0Zyb21TM1w+</last-pattern>
       <last-replace>rejected</last-replace>
       <last-substitute>shown</last-substitute>
       <last-dir>1</last-dir>
@@ -3538,7 +3539,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxnZW5lcmF0ZVF1ZXVlVXJsXD4=</entry>
         <entry>log</entry>
         <entry>service not found</entry>
         <entry encoding="base64">XDxzZXJ2aWNlX3JlcXVpcmVkX2ZpZWxkXD4=</entry>
@@ -3558,6 +3558,7 @@
         <entry encoding="base64">XDxnZXRTaWRlRWZmZWN0c1w+</entry>
         <entry>processor</entry>
         <entry encoding="base64">XDxwcm9jZXNzb3JcPg==</entry>
+        <entry encoding="base64">XDxnZXRTcG90UmVjc0Zyb21TM1w+</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;,\r;g</entry>
