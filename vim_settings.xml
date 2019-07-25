@@ -163,12 +163,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/reservations.py" timestamp="1545866368757">
         <mark key="'" line="52" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" timestamp="1564084868082">
-        <mark key="'" line="779" column="49" />
-        <mark key="[" line="772" column="39" />
-        <mark key="]" line="773" column="15" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" timestamp="1564092411292">
+        <mark key="'" line="773" column="15" />
+        <mark key="[" line="780" column="0" />
+        <mark key="]" line="780" column="0" />
         <mark key="^" line="773" column="15" />
-        <mark key="." line="773" column="15" />
+        <mark key="." line="780" column="0" />
       </file>
       <file name="/Python Console" timestamp="1564089829351">
         <mark key="[" line="0" column="0" />
@@ -539,12 +539,12 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="5" column="1" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1564089818708">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1564092456425">
         <mark key="'" line="797" column="50" />
-        <mark key="[" line="797" column="96" />
-        <mark key="]" line="797" column="97" />
-        <mark key="." line="797" column="97" />
-        <mark key="^" line="797" column="97" />
+        <mark key="[" line="810" column="8" />
+        <mark key="]" line="810" column="16" />
+        <mark key="." line="810" column="16" />
+        <mark key="^" line="810" column="16" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/stats.py" timestamp="1559081814510">
         <mark key="'" line="19" column="17" />
@@ -558,7 +558,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="104" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="372" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="405" column="74" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="358" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -658,6 +657,7 @@
       <jump line="725" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="797" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="189" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="773" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -729,7 +729,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGlzIE5vbmU=</text>
+        <text>returned_schedules</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">IGlz</text>
@@ -737,8 +737,8 @@
       <register name="0" type="4">
         <text>class_tags.get(schedule['classivity_class_id'])</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">LCBldmVuIHRob3VnaCA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -747,35 +747,35 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIExldCdzIG1ha2Ugc29tZSBlbGlnaWJsZSBhbmQgaW5lbGlnaWJsZSBzY2hlZHVsZXMhCiAgICAgICAgZWxpZ2libGVfc2NoZWR1bGVzID0gc2V0KCkKICAgICAgICBhbGxfc2NoZWR1bGVzID0gc2V0KCkK</text>
+      <register name="2" type="4">
+        <text encoding="base64">LCBldmVuIHRob3VnaCA=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBlbGlnaWJsZV9zY2hlZHVsZXMuYWRkKGVsaWdpYmxlX3NjaGVkdWxlKQogICAgICAgIGFsbF9zY2hlZHVsZXMuYWRkKGVsaWdpYmxlX3NjaGVkdWxlKQo=</text>
+        <text encoding="base64">ICAgICAgICAjIExldCdzIG1ha2Ugc29tZSBlbGlnaWJsZSBhbmQgaW5lbGlnaWJsZSBzY2hlZHVsZXMhCiAgICAgICAgZWxpZ2libGVfc2NoZWR1bGVzID0gc2V0KCkKICAgICAgICBhbGxfc2NoZWR1bGVzID0gc2V0KCkK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm5lZF9zY2hlZHVsZV9pZHMgPSB7c2NoZWR1bGVbJ3NjaGVkdWxlX2lkJ10gZm9yIHNjaGVkdWxlIGluIHNjaGVkdWxlc30K</text>
+        <text encoding="base64">ICAgICAgICBlbGlnaWJsZV9zY2hlZHVsZXMuYWRkKGVsaWdpYmxlX3NjaGVkdWxlKQogICAgICAgIGFsbF9zY2hlZHVsZXMuYWRkKGVsaWdpYmxlX3NjaGVkdWxlKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydAo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm5lZF9zY2hlZHVsZV9pZHMgPSB7c2NoZWR1bGVbJ3NjaGVkdWxlX2lkJ10gZm9yIHNjaGVkdWxlIGluIHNjaGVkdWxlc30K</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmFzc2VydAo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBlbGlnaWJsZV9zY2hlZHVsZV9pZHMgPSB7c2NoZWR1bGUuc2NoZWR1bGVfaWQgZm9yIHNjaGVkdWxlIGluIGVsaWdpYmxlX3NjaGVkdWxlc30K</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">d2VsbG5lc3NfdGFnZ2VkX3NjaGVkdWxlcyB3aXRoIA==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIFRoaXMgd2VsbG5lc3Mgc2NoZWR1bGUgaXMgTk9UIGVsaWdpYmxlLCBpdCBoYXMgb25seSBvbmUgc3BvdCBhbGxvY2F0ZWQgdG8gY2xhc3NwYXNzCiAgICAgICAgYWxsX3NjaGVkdWxlcy5hZGQodGVzdF9mYWN0b3JpZXMuUGFzc3BvcnRTY2hlZHVsZUZhY3RvcnkoCiAgICAgICAgICAgIGNsYXNzcGFzc19zcG90cz0xLAogICAgICAgICAgICBzY2hlZHVsZV9fcHVibGlzaGVkPVRydWUsCiAgICAgICAgICAgIHNjaGVkdWxlX19jbGFzc2l2aXR5X2NsYXNzX192ZW51ZT12ZW51ZSwKICAgICAgICAgICAgc2NoZWR1bGVfX3N0YXJ0X2RhdGU9YXBwbGljYWJsZV9kYXRlKSkK</text>
-      </register>
       <register name=":" type="4">
-        <text>action ShowBookmarks</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1468,8 +1468,6 @@
         <entry encoding="base64">IGlz</entry>
       </history-search>
       <history-cmd>
-        <entry>1836</entry>
-        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>23</entry>
         <entry>709</entry>
         <entry>70</entry>
@@ -1479,7 +1477,6 @@
         <entry>1605</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','b')</entry>
         <entry>97</entry>
-        <entry>action ReformatCode</entry>
         <entry>181</entry>
         <entry>action MethodDown</entry>
         <entry>bnext</entry>
@@ -1488,6 +1485,9 @@
         <entry>action MethodUp</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>789</entry>
+        <entry>813</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
