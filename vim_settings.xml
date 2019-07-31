@@ -198,6 +198,9 @@
         <mark key="]" line="0" column="33" />
         <mark key="." line="0" column="33" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1564589553133">
+        <mark key="'" line="72" column="6" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_schedule.py" timestamp="1559761626466">
         <mark key="'" line="50" column="61" />
         <mark key="[" line="94" column="0" />
@@ -302,8 +305,8 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1564176207651">
-        <mark key="'" line="134" column="64" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1564589623853">
+        <mark key="'" line="133" column="62" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" timestamp="1563918429717">
         <mark key="'" line="463" column="8" />
@@ -580,8 +583,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="182" column="117" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="183" column="100" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="193" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="151" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="162" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -680,6 +681,8 @@
       <jump line="6" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="14" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="42" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
+      <jump line="72" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="133" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -754,7 +757,7 @@
         <text>'APPOINTMENT'</text>
       </register>
       <register name="/" type="4">
-        <text>EnumField</text>
+        <text>reports</text>
       </register>
       <register name="0" type="4">
         <text>{'month_to_date_revenue': 0, 'percent_change': None}</text>
@@ -1490,9 +1493,9 @@
       </register>
     </registers>
     <search>
-      <last-search>EnumField</last-search>
+      <last-search>reports</last-search>
       <last-offset />
-      <last-pattern>EnumField</last-pattern>
+      <last-pattern>reports</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1500,8 +1503,6 @@
     </search>
     <history>
       <history-search>
-        <entry>datetime</entry>
-        <entry>spot_revenue_summ</entry>
         <entry>raw</entry>
         <entry>100</entry>
         <entry>expected_percent</entry>
@@ -1520,6 +1521,8 @@
         <entry>APPOINT</entry>
         <entry encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</entry>
         <entry>EnumField</entry>
+        <entry>monthly</entry>
+        <entry>reports</entry>
       </history-search>
       <history-cmd>
         <entry>23</entry>
