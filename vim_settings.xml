@@ -210,11 +210,11 @@
         <mark key="]" line="5" column="40" />
         <mark key="." line="5" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1564779550294">
-        <mark key="'" line="221" column="12" />
-        <mark key="[" line="211" column="61" />
-        <mark key="]" line="211" column="61" />
-        <mark key="." line="211" column="61" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1564783425658">
+        <mark key="'" line="196" column="12" />
+        <mark key="[" line="196" column="0" />
+        <mark key="]" line="196" column="0" />
+        <mark key="." line="196" column="0" />
         <mark key="^" line="211" column="67" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/mock/mock.py" timestamp="1549909252996">
@@ -552,12 +552,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1564778930946">
-        <mark key="'" line="160" column="77" />
-        <mark key="[" line="457" column="78" />
-        <mark key="]" line="457" column="105" />
-        <mark key="." line="457" column="105" />
-        <mark key="^" line="457" column="105" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1564783441255">
+        <mark key="'" line="494" column="8" />
+        <mark key="[" line="458" column="16" />
+        <mark key="]" line="458" column="19" />
+        <mark key="." line="458" column="19" />
+        <mark key="^" line="458" column="19" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1562345844033">
         <mark key="'" line="113" column="0" />
@@ -597,9 +597,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="42" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
-      <jump line="72" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
-      <jump line="133" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="509" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
       <jump line="158" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
@@ -697,6 +694,9 @@
       <jump line="101" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
       <jump line="142" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
       <jump line="87" column="87" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
+      <jump line="197" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="196" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
+      <jump line="494" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -768,16 +768,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>t</text>
+        <text>OpportunityPresenter.</text>
       </register>
       <register name="/" type="4">
-        <text>mock_get_opp</text>
+        <text encoding="base64">XDxwcmVzZW50X2VtYWlsX29wcG9ydHVuaXRpZXNcPg==</text>
       </register>
       <register name="0" type="4">
         <text>OpportunityPresenter</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIGVtYWlsX29wcHMgPSBtb2NrLmNhbGN1bGF0ZV9lbWFpbF9vcHBzX2Zvcl91c2VyKG1vY2t1c2VyKQogICAgICAgIGVtYWlsX29wcHMgPSBPcHBvcnR1bml0aWVzQ29udHJvbGxlci5jYWxjdWxhdGVfZW1haWxfb3Bwc19mb3JfdXNlcihtb2NrdXNlciwgMTUpCg==</text>
+        <text encoding="base64">ICAgIEBjbGFzc21ldGhvZAogICAgZGVmIHByZXNlbnRfZW1haWxfb3Bwb3J0dW5pdGllcyhjbHMsIG9wcG9ydHVuaXRpZXMpOgogICAgICAgICIiIgogICAgICAgIEdpdmVuIGEgbGlzdCBvZiBvcHBvcnR1bml0aWVzLCBmb3IgZWFjaCBvcHBvcnR1bml0eSB3aXRoIGNsYXNzX2Rpc2FibGVkID0gVHJ1ZSwgc2V0IHRoZSB2YWx1ZXMgb2YKICAgICAgICBjbGFzc19kYXlzX29mX3dlZWsgYW5kIGNsYXNzX3NjaGVkdWxlc19wZXJfd2VlayB0byB0aGUgZGF5cyBvZiB0aGUgd2VlayB0aGF0IHRoZSBjbGFzcyBtZWV0cyBhbmQgdGhlIG51bWJlcgogICAgICAgIG9mIHRpbWVzIHBlciB3ZWVrIHRoYXQgdGhlIGNsYXNzIG1lZXRzLiBTZXQgdGhvc2UgZmllbGRzIHRvIE5vbmUgaWYgY2xhc3NfZGlzYWJsZWQgPSBGYWxzZQogICAgICAgIDpwYXJhbSBvcHBvcnR1bml0aWVzOiBUaGUgb3Bwb3J0dW5pdGllcyB0byBkZWNvcmF0ZQogICAgICAgIDpyZXR1cm46IE5vbmUuIG9wcG9ydHVuaXRpZXMgYXJlIHVwZGF0ZWQgaW4gcGxhY2UKICAgICAgICAiIiIKICAgICAgICBvbmVfd2Vla19mcm9tX25vdyA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpICsgZGF0ZXRpbWUudGltZWRlbHRhKHdlZWtzPTEpCiAgICAgICAgdG9kYXkgPSBkYXRldGltZS5kYXRlLnRvZGF5KCkKICAgICAgICBkaXNhYmxlZF9jbGFzc19pZHMgPSBbb3Bwb3J0dW5pdHlbJ2NsYXNzdGl2aXR5X2NsYXNzX2lkJ10KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9yIG9wcG9ydHVuaXR5IGluIG9wcG9ydHVuaXRpZXMgaWYgb3Bwb3J0dW5pdHlbJ2NsYXNzX2Rpc2FibGVkJ11dCiAgICAgICAgdGhpc193ZWVrc19zY2hlZHVsZXMgPSBTY2hlZHVsZXNEYWwuZ2V0X3NjaGVkdWxlc19ieV9jbGFzc19pZHMoZGlzYWJsZWRfY2xhc3NfaWRzKS5maWx0ZXIoCiAgICAgICAgICAgIHN0YXJ0X2RhdGVfX2d0ZT10b2RheSwKICAgICAgICAgICAgc3RhcnRfZGF0ZV9fbHQ9b25lX3dlZWtfZnJvbV9ub3cpLm9yZGVyX2J5KCdjbGFzc2l2aXR5X2NsYXNzX2lkJykKCiAgICAgICAgYWdnID0ge2NsYXNzX2lkOiB7J2NsYXNzX2RheXNfb2Zfd2Vlayc6IHt9LCAnY2xhc3Nfc2NoZWR1bGVzX3Blcl93ZWVrJzogMH0gZm9yIGNsYXNzX2lkIGluIGRpc2FibGVkX2NsYXNzX2lkc30KICAgICAgICBmb3Igc2NoZWR1bGUgaW4gdGhpc193ZWVrc19zY2hlZHVsZXM6CiAgICAgICAgICAgIGNsYXNzX2lkID0gc2NoZWR1bGUuY2xhc3Npdml0eV9jbGFzc19pZAogICAgICAgICAgICBhZ2dbY2xhc3NfaWRdWydjbGFzc19zY2hlZHVsZXNfcGVyX3dlZWsnXSArPSAxCiAgICAgICAgICAgIGFnZ1tjbGFzc19pZF1bJ2NsYXNzX2RheXNfb2Zfd2VlayddLmFkZChzY2hlZHVsZS5zdGFydF9kYXRlLnN0cmZ0aW1lKCclYScpKQoKICAgICAgICBmb3Igb3Bwb3J0dW5pdHkgaW4gb3Bwb3J0dW5pdGllczoKICAgICAgICAgICAgY2xhc3NfaWQgPSBvcHBvcnR1bml0eVsnY2xhc3N0aXZpdHlfY2xhc3NfaWQnXQogICAgICAgICAgICBvcHBvcnR1bml0eS51cGRhdGUoYWdnLmdldChjbGFzc19pZCwgeydjbGFzc19kYXlzX29mX3dlZWsnOiBOb25lLCAnY2xhc3Nfc2NoZWR1bGVzX3Blcl93ZWVrJzogTm9uZX0pKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -819,34 +819,34 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGVtYWlsX29wcHMgPSBtb2NrLmNhbGN1bGF0ZV9lbWFpbF9vcHBzX2Zvcl91c2VyKG1vY2t1c2VyKQogICAgICAgIGVtYWlsX29wcHMgPSBPcHBvcnR1bml0aWVzQ29udHJvbGxlci5jYWxjdWxhdGVfZW1haWxfb3Bwc19mb3JfdXNlcihtb2NrdXNlciwgMTUpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFnZ1tjbGFzc19pZF1bJ2NsYXNzX3NjaGVkdWxlc19wZXJfd2VlayddIGlmIG9wcG9ydHVuaXR5WydjbGFzc19kaXNhYmxlZCddIGVsc2UgTm9uZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWdnCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFnZ1tjbGFzc19pZF1bJ2NsYXNzX3NjaGVkdWxlc19wZXJfd2VlayddIGlmIG9wcG9ydHVuaXR5WydjbGFzc19kaXNhYmxlZCddIGVsc2UgTm9uZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAuCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWdnCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action MethodUp</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1507,17 +1507,16 @@
       </register>
     </registers>
     <search>
-      <last-search>mock_get_opp</last-search>
+      <last-search encoding="base64">XDxwcmVzZW50X2VtYWlsX29wcG9ydHVuaXRpZXNcPg==</last-search>
       <last-offset />
-      <last-pattern>mock_get_opp</last-pattern>
+      <last-pattern encoding="base64">XDxwcmVzZW50X2VtYWlsX29wcG9ydHVuaXRpZXNcPg==</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>order</entry>
         <entry>start_</entry>
         <entry encoding="base64">XDxzdGFydF9kYXRlXD4=</entry>
         <entry>to_</entry>
@@ -1537,6 +1536,7 @@
         <entry>multiple</entry>
         <entry>disab</entry>
         <entry>mock_get_opp</entry>
+        <entry encoding="base64">XDxwcmVzZW50X2VtYWlsX29wcG9ydHVuaXRpZXNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>709</entry>
@@ -1551,14 +1551,14 @@
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>789</entry>
         <entry>813</entry>
-        <entry>action MethodUp</entry>
         <entry>action MethodDown</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action ReformatCode</entry>
         <entry>bnext</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
+        <entry>action MethodUp</entry>
       </history-cmd>
       <history-expr />
       <history-input />
