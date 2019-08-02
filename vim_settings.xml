@@ -340,6 +340,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_credit_price_client.py" timestamp="1558044038703">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1564764639982">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/timer.py" timestamp="1558733722715">
         <mark key="'" line="6" column="8" />
       </file>
@@ -512,6 +515,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" timestamp="1553188745270">
         <mark key="'" line="89" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1564764595405">
+        <mark key="'" line="158" column="0" />
+      </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/rest_framework/response.py" timestamp="1549658923477">
         <mark key="'" line="18" column="8" />
       </file>
@@ -583,10 +589,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="193" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="151" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="162" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="55" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" />
       <jump line="777" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/mocks.py" />
       <jump line="166" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="170" column="72" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -683,6 +685,10 @@
       <jump line="42" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="72" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="133" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="509" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="158" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -757,7 +763,7 @@
         <text>'APPOINTMENT'</text>
       </register>
       <register name="/" type="4">
-        <text>reports</text>
+        <text>log</text>
       </register>
       <register name="0" type="4">
         <text>{'month_to_date_revenue': 0, 'percent_change': None}</text>
@@ -1493,9 +1499,9 @@
       </register>
     </registers>
     <search>
-      <last-search>reports</last-search>
+      <last-search>log</last-search>
       <last-offset />
-      <last-pattern>reports</last-pattern>
+      <last-pattern>log</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1503,7 +1509,6 @@
     </search>
     <history>
       <history-search>
-        <entry>raw</entry>
         <entry>100</entry>
         <entry>expected_percent</entry>
         <entry>ass</entry>
@@ -1523,6 +1528,7 @@
         <entry>EnumField</entry>
         <entry>monthly</entry>
         <entry>reports</entry>
+        <entry>log</entry>
       </history-search>
       <history-cmd>
         <entry>23</entry>
