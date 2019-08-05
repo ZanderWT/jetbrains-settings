@@ -9,7 +9,11 @@
         <mark key="." line="19" column="29" />
         <mark key="^" line="19" column="29" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" timestamp="1564696552978" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" timestamp="1565042068205">
+        <mark key="'" line="25" column="0" />
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="32" column="5" />
+      </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/OpportunityAuditLog.java" timestamp="1557346714017">
         <mark key="'" line="16" column="13" />
       </file>
@@ -232,6 +236,12 @@
         <mark key="." line="56" column="242" />
         <mark key="^" line="56" column="242" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" timestamp="1565042069021">
+        <mark key="[" line="15" column="4" />
+        <mark key="]" line="22" column="5" />
+        <mark key="." line="15" column="0" />
+        <mark key="^" line="14" column="3" />
+      </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/resources/com/classpass/framework/databases/classtivity/dao/ClasstivityDao.sql.stg" timestamp="1557347187556">
         <mark key="'" line="66" column="18" />
         <mark key="[" line="92" column="16" />
@@ -327,9 +337,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="356" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
-      <jump line="353" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
-      <jump line="350" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="343" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="340" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="337" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
@@ -427,6 +434,9 @@
       <jump line="67" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" />
       <jump line="101" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="34" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" />
+      <jump line="12" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" />
+      <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -495,13 +505,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>DashboardUserLegacyDao</text>
       </register>
       <register name="/" type="4">
         <text>postgres</text>
       </register>
-      <register name="0" type="4">
-        <text>CP_CONFIG_PARTNERS_DATABASE_URL</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGludGVyZmFjZSBEYW8gewogICAgICAgIEBTcWxVcGRhdGUoIlVQREFURSB2ZW51ZV9hdXRoX3VzZXIgU0VUIGxvY2FsZT06bG9jYWxlIFdIRVJFIGlkPTp1c2VyX2lkIikKICAgICAgICBmdW4gdXBkYXRlTG9jYWxlKEBCaW5kKCJ1c2VyX2lkIikgdXNlcklkOiBMb25nLCBAQmluZCgibG9jYWxlIikgbG9jYWxlOiBTdHJpbmcpOiBJbnQKCiAgICAgICAgQFNxbFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIHZlbnVlX2F1dGhfdXNlciBXSEVSRSBpZD06dXNlcl9pZCIpCiAgICAgICAgQFNpbmdsZVZhbHVlCiAgICAgICAgZnVuIGZldGNoVXNlcihAQmluZCgidXNlcl9pZCIpIHVzZXJJZDogTG9uZyk6IERhc2hib2FyZFVzZXI/CiAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYmFyPTc3Cg==</text>
