@@ -172,6 +172,11 @@
       <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/pom.xml" timestamp="1551828939840">
         <mark key="'" line="74" column="19" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/DashboardUserController.kt" timestamp="1565040838268">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" timestamp="1549995827809">
         <mark key="'" line="40" column="22" />
       </file>
@@ -315,7 +320,7 @@
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/mutators/core/PlanMutators.java" timestamp="1552505894920">
         <mark key="'" line="57" column="66" />
       </file>
-      <file name="/fragment.java" timestamp="1564680726214">
+      <file name="/fragment.java" timestamp="1565040794261">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -499,7 +504,7 @@
         <text>CP_CONFIG_PARTNERS_DATABASE_URL</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB2YWxpZGF0ZU1vY2tpdG9Vc2FnZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgYmFyPTc3Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -512,19 +517,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzcG90VXBkYXRlc0luRmxpZ2h0Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZm9vID0gNQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWxpZGF0ZU1vY2tpdG9Vc2FnZSgpCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBzcG90VXBkYXRlc0luRmxpZ2h0Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3535,16 +3540,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3BvdFVwZGF0ZVB1Ymxpc2hGYWlsdXJlcy4K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">b2JqZWN0IDogQXN5bmNIYW5kbGVyPFB1Ymxpc2hSZXF1ZXN0LCBQdWJsaXNoUmVzdWx0PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblN1Y2Nlc3MocmVxdWVzdDogUHVibGlzaFJlcXVlc3Q/LCByZXN1bHQ6IFB1Ymxpc2hSZXN1bHQ/KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcG90VXBkYXRlc0luRmxpZ2h0LmRlYygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbkZsaWdodC5jb3VudERvd24oKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlc3VsdD8ubWVzc2FnZUlkID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcG90VXBkYXRlUHVibGlzaEZhaWx1cmVzLm1hcmsoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZy53YXJuKCJObyByZXN1bHQgcHVibGlzaGluZyBzcG90IGNoYW5nZSBtZXNzYWdlIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvdFVwZGF0ZVB1Ymxpc2hTdWNjZXNzZXMubWFyaygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9nLmRlYnVnKCJQb3N0ZWQgc3BvdCBjaGFuZ2UgLSBTSUQ6IHt9IiwgcmVzdWx0Lm1lc3NhZ2VJZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uRXJyb3IoZTogRXhjZXB0aW9uPykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvdFVwZGF0ZXNJbkZsaWdodC5kZWMoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvdFVwZGF0ZVB1Ymxpc2hGYWlsdXJlcy5tYXJrKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluRmxpZ2h0LmNvdW50RG93bigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2cuZXJyb3IoIlVuYWJsZSB0byBwdWJsaXNoIG1lc3NhZ2U6ICRzcG90Q2hhbmdlSnNvbiIsIGUpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3BvdFVwZGF0ZVB1Ymxpc2hGYWlsdXJlcy4K</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIHNwb3RVcGRhdGVzSW5GbGlnaHQ6IENvdW50ZXIKICAgIHByaXZhdGUgdmFsIGluRmxpZ2h0CiAgICBwcml2YXRlIHZhbCBzcG90Q2hhbmdlSnNvbjogU3RyaW5nCg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">b2JqZWN0IDogQXN5bmNIYW5kbGVyPFB1Ymxpc2hSZXF1ZXN0LCBQdWJsaXNoUmVzdWx0PiB7CiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblN1Y2Nlc3MocmVxdWVzdDogUHVibGlzaFJlcXVlc3Q/LCByZXN1bHQ6IFB1Ymxpc2hSZXN1bHQ/KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcG90VXBkYXRlc0luRmxpZ2h0LmRlYygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbkZsaWdodC5jb3VudERvd24oKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlc3VsdD8ubWVzc2FnZUlkID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcG90VXBkYXRlUHVibGlzaEZhaWx1cmVzLm1hcmsoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZy53YXJuKCJObyByZXN1bHQgcHVibGlzaGluZyBzcG90IGNoYW5nZSBtZXNzYWdlIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvdFVwZGF0ZVB1Ymxpc2hTdWNjZXNzZXMubWFyaygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9nLmRlYnVnKCJQb3N0ZWQgc3BvdCBjaGFuZ2UgLSBTSUQ6IHt9IiwgcmVzdWx0Lm1lc3NhZ2VJZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uRXJyb3IoZTogRXhjZXB0aW9uPykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvdFVwZGF0ZXNJbkZsaWdodC5kZWMoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BvdFVwZGF0ZVB1Ymxpc2hGYWlsdXJlcy5tYXJrKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluRmxpZ2h0LmNvdW50RG93bigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2cuZXJyb3IoIlVuYWJsZSB0byBwdWJsaXNoIG1lc3NhZ2U6ICRzcG90Q2hhbmdlSnNvbiIsIGUpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9</text>
       </register>
       <register name=":" type="4">
         <text>%s;PARTNERS;VENUE_PORTAL</text>
