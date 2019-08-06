@@ -32,6 +32,9 @@
       <file name="$USER_HOME$/cp-projects/spot-recs-service/docker/config/config.yml.tmpl" timestamp="1561578388618">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" timestamp="1565124043464">
+        <mark key="'" line="30" column="12" />
+      </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/dao/ClasstivityDao.java" timestamp="1556828313247">
         <mark key="'" line="35" column="20" />
       </file>
@@ -297,9 +300,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="312" column="14" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
-      <jump line="462" column="13" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
-      <jump line="464" column="12" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="468" column="20" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="103" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="224" column="15" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
@@ -397,6 +397,9 @@
       <jump line="26" column="24" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ClassesReportResponse.kt" />
       <jump line="100" column="42" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="43" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
+      <jump line="14" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
+      <jump line="30" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -468,7 +471,7 @@
         <text>DashboardUser</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpdGVtc1w+</text>
+        <text encoding="base64">XDxkYmlcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBiaW5kZXIuYmluZChEYXNoYm9hcmRVc2VyQ29udHJvbGxlcjo6Y2xhc3MuamF2YSkK</text>
@@ -3526,18 +3529,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxpdGVtc1w+</last-search>
+      <last-search encoding="base64">XDxkYmlcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpdGVtc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxkYmlcPg==</last-pattern>
       <last-replace>VENUE_PORTAL</last-replace>
       <last-substitute>PARTNERS</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>lega</entry>
-        <entry>APP_DATA</entry>
         <entry>revenue</entry>
         <entry>par</entry>
         <entry>APP</entry>
@@ -3556,6 +3557,8 @@
         <entry>.com</entry>
         <entry>model</entry>
         <entry encoding="base64">XDxpdGVtc1w+</entry>
+        <entry>setup</entry>
+        <entry encoding="base64">XDxkYmlcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>s;shown;rejected;g</entry>
