@@ -3,9 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" timestamp="1565042068205">
-        <mark key="]" line="71" column="5" />
-      </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/OpportunityAuditLog.java" timestamp="1557346714017">
         <mark key="'" line="16" column="13" />
       </file>
@@ -203,7 +200,7 @@
         <mark key="^" line="5" column="165" />
         <mark key="." line="5" column="165" />
       </file>
-      <file name="/Dummy.txt" timestamp="1565044355705">
+      <file name="/Dummy.txt" timestamp="1565132167549">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1565120415326">
@@ -283,6 +280,13 @@
         <mark key="." line="43" column="55" />
         <mark key="^" line="43" column="55" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/README.md" timestamp="1565132701828">
+        <mark key="'" line="29" column="35" />
+        <mark key="[" line="33" column="48" />
+        <mark key="]" line="33" column="48" />
+        <mark key="^" line="29" column="35" />
+        <mark key="." line="33" column="51" />
+      </file>
       <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/processor/ApptScheduleProcessor.java" timestamp="1551897985237">
         <mark key="'" line="85" column="65" />
       </file>
@@ -303,7 +307,7 @@
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/mutators/core/PlanMutators.java" timestamp="1552505894920">
         <mark key="'" line="57" column="66" />
       </file>
-      <file name="/fragment.java" timestamp="1565115193894">
+      <file name="/fragment.java" timestamp="1565132167554">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -317,8 +321,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
-      <jump line="316" column="12" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="310" column="4" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="321" column="11" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
       <jump line="615" column="20" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/runbook" />
@@ -417,6 +419,8 @@
       <jump line="28" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/DashboardUserControllerTest.kt" />
       <jump line="105" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/DashboardUserControllerTest.kt" />
       <jump line="71" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="54" column="2" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
+      <jump line="29" column="35" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -485,13 +489,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>selectOne</text>
+        <text>mysql</text>
       </register>
       <register name="/" type="4">
-        <text>mysq</text>
+        <text>mysql</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIGRhbyA9IGRiaS5vbkRlbWFuZChEYW86OmNsYXNzLmphdmEpCg==</text>
+      <register name="0" type="4">
+        <text>docker-compose up -d migrate-lapi-db venue-portal-db</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">aW1wb3J0IG9yZy5qdW5pdC5UZXN0Cg==</text>
@@ -3542,13 +3546,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
     </registers>
     <search>
-      <last-search>mysq</last-search>
+      <last-search>mysql</last-search>
       <last-offset />
-      <last-pattern>mysq</last-pattern>
+      <last-pattern>mysql</last-pattern>
       <last-replace>VENUE_PORTAL</last-replace>
       <last-substitute>PARTNERS</last-substitute>
       <last-dir>1</last-dir>
@@ -3556,7 +3560,6 @@
     </search>
     <history>
       <history-search>
-        <entry>this</entry>
         <entry>jdb</entry>
         <entry encoding="base64">XDx2ZW51ZVBvcnRhbERhdGFiYXNlXD4=</entry>
         <entry>mys</entry>
@@ -3576,6 +3579,7 @@
         <entry>comp</entry>
         <entry>post</entry>
         <entry>mysq</entry>
+        <entry>mysql</entry>
       </history-search>
       <history-cmd>
         <entry>action QuickJavaDoc</entry>
@@ -3588,7 +3592,6 @@
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>317'</entry>
         <entry>317</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>616</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','b')</entry>
         <entry>%s;revenue;partners;g</entry>
@@ -3598,6 +3601,7 @@
         <entry>action MethodDown</entry>
         <entry>bnext</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
