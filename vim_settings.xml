@@ -309,8 +309,8 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1564765661679">
-        <mark key="'" line="30" column="35" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1565300256897">
+        <mark key="'" line="30" column="123" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/sql_query.py" timestamp="1563918429717">
         <mark key="'" line="463" column="8" />
@@ -530,6 +530,9 @@
         <mark key="]" line="11" column="0" />
         <mark key="." line="11" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1565301260378">
+        <mark key="'" line="46" column="10" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/tests/test_sanity_checks.py" timestamp="1563219077412">
         <mark key="'" line="15" column="0" />
       </file>
@@ -544,6 +547,9 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1565300299642">
+        <mark key="'" line="395" column="12" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1562345844033">
         <mark key="'" line="113" column="0" />
@@ -586,10 +592,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="472" column="95" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="470" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="469" column="89" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="468" column="91" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="467" column="104" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="459" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="208" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -686,6 +688,10 @@
       <jump line="450" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="472" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
       <jump line="29" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/ratings_and_reviews_api_proxy.py" />
+      <jump line="30" column="123" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
+      <jump line="361" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="395" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="46" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -803,7 +809,7 @@
         <text>dumps</text>
       </register>
       <register name="/" type="4">
-        <text>host</text>
+        <text>via_em</text>
       </register>
       <register name="0" type="4">
         <text>schedule.start_date.weekday()</text>
@@ -1539,9 +1545,9 @@
       </register>
     </registers>
     <search>
-      <last-search>host</last-search>
+      <last-search>via_em</last-search>
       <last-offset />
-      <last-pattern>host</last-pattern>
+      <last-pattern>via_em</last-pattern>
       <last-replace>test_get_upcoming_schedule_counts</last-replace>
       <last-substitute>test_get_upcoming_schedules</last-substitute>
       <last-dir>1</last-dir>
@@ -1549,9 +1555,6 @@
     </search>
     <history>
       <history-search>
-        <entry>class_disa</entry>
-        <entry encoding="base64">XDx2ZW51ZXNcPg==</entry>
-        <entry>class_id</entry>
         <entry>opps</entry>
         <entry>schedule</entry>
         <entry>add(</entry>
@@ -1569,6 +1572,9 @@
         <entry>statist</entry>
         <entry>ratings-and</entry>
         <entry>host</entry>
+        <entry>act</entry>
+        <entry>disab</entry>
+        <entry>via_em</entry>
       </history-search>
       <history-cmd>
         <entry>70</entry>
