@@ -156,12 +156,12 @@
         <mark key="]" line="7" column="4" />
         <mark key="." line="7" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" timestamp="1565631873383">
-        <mark key="'" line="20" column="8" />
-        <mark key="[" line="14" column="9" />
-        <mark key="]" line="15" column="3" />
-        <mark key="." line="15" column="3" />
-        <mark key="^" line="15" column="3" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" timestamp="1565635098802">
+        <mark key="'" line="45" column="58" />
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="0" />
+        <mark key="." line="38" column="0" />
+        <mark key="^" line="39" column="7" />
       </file>
       <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/pom.xml" timestamp="1551828939840">
         <mark key="'" line="74" column="19" />
@@ -359,8 +359,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="175" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
-      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="63" column="53" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="71" column="110" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="59" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
@@ -447,7 +445,6 @@
       <jump line="64" column="85" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
       <jump line="68" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
       <jump line="51" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
-      <jump line="39" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
       <jump line="46" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
       <jump line="48" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
       <jump line="20" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
@@ -459,6 +456,9 @@
       <jump line="20" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="85" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="104" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
+      <jump line="39" column="3" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
+      <jump line="44" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
+      <jump line="45" column="58" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -527,34 +527,34 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>configureObjectMapper</text>
+        <text>USD</text>
       </register>
       <register name="/" type="4">
-        <text>mapper</text>
+        <text>usd</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KCJVU0QiIGluIGFjdHVhbEN1cnJlbmNpZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KHJldmVudWVTdW1tYXJ5KS5jb250YWlucyhGYXN0TW9uZXkub2YoNS4wMCwgIlVTRCIpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuZGFvLk1vY2tWZW51ZVBvcnRhbERhdGFHZW5lcmF0b3IK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgYWN0dWFsQ3VycmVuY2llcyA9IHJldmVudWVTdW1tYXJ5Lm1hcCB7IGl0LmN1cnJlbmN5LmN1cnJlbmN5Q29kZSB9Cg==</text>
       </register>
       <register name="q" type="4">
         <text>dlgUl</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGZ1biBjcmVhdGVSYW5kb21SZXZlbnVlSXRlbUxvZyh2ZW51ZUlkOiBWZW51ZUlkPyA9IG51bGwsIHNjaGVkdWxlSWQ6IFNjaGVkdWxlSWQ/ID0gbnVsbCk6IFJldmVudWVJdGVtTG9nIHsKICAgICAgICB2YWwgcmVzZXJ2YXRpb25JZCA9IG1vY2tWZW51ZVBvcnRhbERhdGFHZW5lcmF0b3IuY3JlYXRlUmFuZG9tUmV2ZW51ZUl0ZW1Mb2codmVudWVJZCwgc2NoZWR1bGVJZCkKICAgICAgICByZXR1cm4gdmVudWVQb3J0YWxEYW8uZ2V0UmV2ZW51ZUl0ZW1Mb2dCeUlkKHJlc2VydmF0aW9uSWQpCiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KCJVU0QiIGluIGFjdHVhbEN1cnJlbmNpZXMpCiAgICAgICAgYXNzZXJ0VGhhdCgiR0JQIiBpbiBhY3R1YWxDdXJyZW5jaWVzKQogICAgICAgIGFzc2VydFRoYXQoIkVVUiIgaW4gYWN0dWFsQ3VycmVuY2llcykKCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBtb2NrVmVudWVQb3J0YWxEYXRhR2VuZXJhdG9yID0gTW9ja1ZlbnVlUG9ydGFsRGF0YUdlbmVyYXRvcih2ZW51ZVBvcnRhbERiaSkK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KCkK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBjbGFzc2VzUmVwb3J0U3VtbWFyeUxlZ2FjeURhbyA9IENsYXNzZXNSZXBvcnRTdW1tYXJ5TGVnYWN5RGFvKGxlZ2FjeURiaSkK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KHJldmVudWVTdW1tYXJ5LikK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHZhbCBtb2NrVmVudWVQb3J0YWxEYXRhR2VuZXJhdG9yOiBNb2NrVmVudWVQb3J0YWxEYXRhR2VuZXJhdG9yCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvLyBvbiB7IHJhdGUgfSBkb1JldHVybiBCaWdEZWNpbWFsLnZhbHVlT2YobG9uZ3MoKS5yYW5nZSg1MDAsIDUwMDAwKS5nZXQoKSwgMikK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3565,28 +3565,28 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHZhbCBjbGFzc2VzUmVwb3J0U3VtbWFyeUxlZ2FjeURhbzogQ2xhc3Nlc1JlcG9ydFN1bW1hcnlMZWdhY3lEYW8K</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuZGFvLk1vY2tWZW51ZVBvcnRhbERhdGFHZW5lcmF0b3IK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuZGFvLkNsYXNzZXNSZXBvcnRTdW1tYXJ5TGVnYWN5RGFvCg==</text>
+        <text encoding="base64">ICAgIGZ1biBjcmVhdGVSYW5kb21SZXZlbnVlSXRlbUxvZyh2ZW51ZUlkOiBWZW51ZUlkPyA9IG51bGwsIHNjaGVkdWxlSWQ6IFNjaGVkdWxlSWQ/ID0gbnVsbCk6IFJldmVudWVJdGVtTG9nIHsKICAgICAgICB2YWwgcmVzZXJ2YXRpb25JZCA9IG1vY2tWZW51ZVBvcnRhbERhdGFHZW5lcmF0b3IuY3JlYXRlUmFuZG9tUmV2ZW51ZUl0ZW1Mb2codmVudWVJZCwgc2NoZWR1bGVJZCkKICAgICAgICByZXR1cm4gdmVudWVQb3J0YWxEYW8uZ2V0UmV2ZW51ZUl0ZW1Mb2dCeUlkKHJlc2VydmF0aW9uSWQpCiAgICB9Cgo=</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gdGVzdEdldENsYXNzZXNSZXBvcnQoKSB7CiAgICAgICAgdmFsIGZha2VEYXRhID0gZ2VuZXJhdGVSZWxhdGVkRGF0YSh3aXRoVmVudWVzID0gMSkKICAgICAgICB2YWwgdmVudWVJZCA9IGZha2VEYXRhLnZlbnVlcy5tYXAgeyBpdC52ZW51ZUlkIH0KICAgICAgICB2YWwgcmVwb3J0ID0gY2xhc3Nlc1JlcG9ydENvbnRyb2xsZXIuZ2V0Q2xhc3Nlc1JlcG9ydChDbGFzc2VzUmVwb3J0UmVxdWVzdCh2ZW51ZUlkKSkKICAgICAgICBhc3NlcnRUaGF0KHJlcG9ydC5zdW1tYXJ5LnJldmVudWUuc2l6ZSwgIlNpbmdsZSBWZW51ZSByZXZlbnVlIHN1bW1hcnkgc2l6ZSIpLmlzRXF1YWxUbygxKQogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICBtb2NrVmVudWVQb3J0YWxEYXRhR2VuZXJhdG9yID0gTW9ja1ZlbnVlUG9ydGFsRGF0YUdlbmVyYXRvcih2ZW51ZVBvcnRhbERiaSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXZlbnVlU3VtbWFyeS5tYXAge30K</text>
+        <text encoding="base64">ICAgICAgICBjbGFzc2VzUmVwb3J0U3VtbWFyeUxlZ2FjeURhbyA9IENsYXNzZXNSZXBvcnRTdW1tYXJ5TGVnYWN5RGFvKGxlZ2FjeURiaSkK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>mapper</last-search>
+      <last-search>usd</last-search>
       <last-offset />
-      <last-pattern>mapper</last-pattern>
+      <last-pattern>usd</last-pattern>
       <last-replace>first.</last-replace>
       <last-substitute>it\.</last-substitute>
       <last-dir>1</last-dir>
@@ -3594,9 +3594,6 @@
     </search>
     <history>
       <history-search>
-        <entry>get</entry>
-        <entry>setprop</entry>
-        <entry encoding="base64">XDxhc3NlcnRUaGF0XD4=</entry>
         <entry>docker</entry>
         <entry>list</entry>
         <entry encoding="base64">XDxERUZBVUxUX1BBU1NXT1JEX0hBU0hcPg==</entry>
@@ -3614,6 +3611,9 @@
         <entry>bigd</entry>
         <entry encoding="base64">XDxDbGFzc2VzUmVwb3J0U3VtbWFyeUxlZ2FjeURhb1w+</entry>
         <entry>mapper</entry>
+        <entry>bigde</entry>
+        <entry>5</entry>
+        <entry>usd</entry>
       </history-search>
       <history-cmd>
         <entry>s;class;teacher;g</entry>
