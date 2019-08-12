@@ -168,11 +168,11 @@
         <mark key="]" line="7" column="4" />
         <mark key="." line="7" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" timestamp="1565624315652">
-        <mark key="'" line="37" column="16" />
-        <mark key="[" line="47" column="20" />
-        <mark key="]" line="47" column="22" />
-        <mark key="." line="47" column="22" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" timestamp="1565625768535">
+        <mark key="'" line="20" column="8" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
         <mark key="^" line="47" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/pom.xml" timestamp="1551828939840">
@@ -371,7 +371,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="33" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockLegacyDataGenerator.kt" />
       <jump line="24" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockVenuePortalDataGenerator.kt" />
       <jump line="12" column="153" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockVenuePortalDataGenerator.kt" />
       <jump line="133" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockLegacyDataGenerator.kt" />
@@ -471,6 +470,7 @@
       <jump line="39" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
       <jump line="46" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
       <jump line="48" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
+      <jump line="20" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -548,16 +548,16 @@
         <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KCJVU0QiIGluIGFjdHVhbEN1cnJlbmNpZXMpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXZlbnVlU3VtbWFyeS5tYXAge30K</text>
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gdGVzdEdldENsYXNzZXNSZXBvcnQoKSB7CiAgICAgICAgdmFsIGZha2VEYXRhID0gZ2VuZXJhdGVSZWxhdGVkRGF0YSh3aXRoVmVudWVzID0gMSkKICAgICAgICB2YWwgdmVudWVJZCA9IGZha2VEYXRhLnZlbnVlcy5tYXAgeyBpdC52ZW51ZUlkIH0KICAgICAgICB2YWwgcmVwb3J0ID0gY2xhc3Nlc1JlcG9ydENvbnRyb2xsZXIuZ2V0Q2xhc3Nlc1JlcG9ydChDbGFzc2VzUmVwb3J0UmVxdWVzdCh2ZW51ZUlkKSkKICAgICAgICBhc3NlcnRUaGF0KHJlcG9ydC5zdW1tYXJ5LnJldmVudWUuc2l6ZSwgIlNpbmdsZSBWZW51ZSByZXZlbnVlIHN1bW1hcnkgc2l6ZSIpLmlzRXF1YWxUbygxKQogICAgfQoK</text>
       </register>
       <register name="q" type="4">
         <text>dlgUl</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBmYWtlRGF0YS5zY2hlZHVsZXMuZm9yRWFjaCB7IGNyZWF0ZVJhbmRvbVJldmVudWVJdGVtTG9nKHZlbnVlSWQgPSB2ZW51ZUlkc1swXSwgc2NoZWR1bGVJZCA9IGl0LnNjaGVkdWxlSWQpIH0K</text>
+        <text encoding="base64">ICAgICAgICByZXZlbnVlU3VtbWFyeS5tYXAge30K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBmYWtlRGF0YS5zY2hlZHVsZXMuZm9yRWFjaCB7IGNyZWF0ZVJhbmRvbVJldmVudWVJdGVtTG9nKHZlbnVlSWQgPSB2ZW51ZUlkc1swXSwgc2NoZWR1bGVJZCA9IGl0LnNjaGVkdWxlSWQpIH0K</text>
       </register>
       <register name="s" type="4">
         <text />
@@ -566,7 +566,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3577,19 +3577,19 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFJldmVudWVJdGVtTG9nKAogICAgICAgICAgICAgICAgICAgIHJlc2VydmF0aW9uSWQgPSBJZFNlcXVlbmNlLm5leHRWYWwoKSwKICAgICAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgICAgICBzY2hlZHVsZUlkID0gSWRTZXF1ZW5jZS5uZXh0VmFsKCksCiAgICAgICAgICAgICAgICAgICAgdmVudWVOYW1lID0gY2VsZWJyaXRpZXMoKS5yb2NrU3RhcnMoKS5nZXQoKSwKICAgICAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gY2l0aWVzKCkudXMoKS5nZXQoKSwKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWUgPSB3b3JkcygpLm5vdW5zKCkuZ2V0KCksCiAgICAgICAgICAgICAgICAgICAgY2xhc3NEYXRlID0gbG9jYWxEYXRlcygpLnBhc3QoTG9jYWxEYXRlLm5vdygpLm1pbnVzWWVhcnMoMSkpLmdldCgpLAogICAgICAgICAgICAgICAgICAgIHN0YXJ0VGltZSA9IExvY2FsVGltZS5vZihpbnRzKCkucmFuZ2UoMSwgMjQpLmdldCgpLCAwLCAwKSwKICAgICAgICAgICAgICAgICAgICBmaXJzdE5hbWUgPSBuYW1lcygpLmZpcnN0KCkuZ2V0KCksCiAgICAgICAgICAgICAgICAgICAgbGFzdE5hbWUgPSBuYW1lcygpLmxhc3QoKS5nZXQoKSwKICAgICAgICAgICAgICAgICAgICBlbWFpbCA9IGVtYWlscygpLmdldCgpLAogICAgICAgICAgICAgICAgICAgIHJhdGUgPSAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICkK</text>
       </register>
-      <register name="7" type="4">
-        <text>{}</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFJldmVudWVJdGVtTG9nKAogICAgICAgICAgICAgICAgICAgIHJlc2VydmF0aW9uSWQgPSBJZFNlcXVlbmNlLm5leHRWYWwoKSwKICAgICAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgICAgICBzY2hlZHVsZUlkID0gSWRTZXF1ZW5jZS5uZXh0VmFsKCksCiAgICAgICAgICAgICAgICAgICAgdmVudWVOYW1lID0gY2VsZWJyaXRpZXMoKS5yb2NrU3RhcnMoKS5nZXQoKSwKICAgICAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gY2l0aWVzKCkudXMoKS5nZXQoKSwKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWUgPSB3b3JkcygpLm5vdW5zKCkuZ2V0KCksCiAgICAgICAgICAgICAgICAgICAgY2xhc3NEYXRlID0gbG9jYWxEYXRlcygpLnBhc3QoTG9jYWxEYXRlLm5vdygpLm1pbnVzWWVhcnMoMSkpLmdldCgpLAogICAgICAgICAgICAgICAgICAgIHN0YXJ0VGltZSA9IExvY2FsVGltZS5vZihpbnRzKCkucmFuZ2UoMSwgMjQpLmdldCgpLCAwLCAwKSwKICAgICAgICAgICAgICAgICAgICBmaXJzdE5hbWUgPSBuYW1lcygpLmZpcnN0KCkuZ2V0KCksCiAgICAgICAgICAgICAgICAgICAgbGFzdE5hbWUgPSBuYW1lcygpLmxhc3QoKS5nZXQoKSwKICAgICAgICAgICAgICAgICAgICBlbWFpbCA9IGVtYWlscygpLmdldCgpLAogICAgICAgICAgICAgICAgICAgIHJhdGUgPSAK</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="4">
-        <text encoding="base64">IHZlbnVlSWQg</text>
+        <text>{}</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">IHZlbnVlSWQg</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
