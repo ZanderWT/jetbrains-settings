@@ -89,8 +89,10 @@
       <file name="$USER_HOME$/cp-projects/inventory-publisher/code/api/src/main/java/com/classpass/publisher/mindbody/MindbodyClient.java" timestamp="1551831806451">
         <mark key="'" line="50" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" timestamp="1565637164430">
-        <mark key="'" line="40" column="19" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" timestamp="1565640900190">
+        <mark key="[" line="70" column="0" />
+        <mark key="]" line="70" column="0" />
+        <mark key="." line="70" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/CapacityEventSpotRecProcessor.kt" timestamp="1551217131764">
         <mark key="'" line="62" column="117" />
@@ -152,10 +154,11 @@
         <mark key="." line="15" column="27" />
         <mark key="^" line="15" column="27" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ClassReportSummaryLegacyDaoTest.kt" timestamp="1565571780836">
-        <mark key="[" line="85" column="0" />
-        <mark key="]" line="85" column="0" />
-        <mark key="." line="85" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ClassReportSummaryLegacyDaoTest.kt" timestamp="1565640881596">
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="83" column="0" />
+        <mark key="." line="83" column="0" />
+        <mark key="^" line="70" column="76" />
       </file>
       <file name="$USER_HOME$/cp-projects/lead-generation/src/main/java/com/classpass/microservice/MicroserviceModule.java" timestamp="1549995827809">
         <mark key="'" line="40" column="22" />
@@ -234,8 +237,8 @@
       <file name="/Dummy.txt" timestamp="1565564018512">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" timestamp="1565385401845">
-        <mark key="'" line="41" column="47" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" timestamp="1565640919749">
+        <mark key="'" line="54" column="24" />
         <mark key="[" line="42" column="16" />
         <mark key="]" line="42" column="20" />
         <mark key="." line="42" column="20" />
@@ -320,9 +323,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockVenuePortalDataGenerator.kt" />
-      <jump line="53" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="30" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="55" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockVenuePortalDataGenerator.kt" />
       <jump line="58" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockVenuePortalDataGenerator.kt" />
       <jump line="59" column="49" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockVenuePortalDataGenerator.kt" />
@@ -420,6 +420,9 @@
       <jump line="30" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
       <jump line="183" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockLegacyDataGenerator.kt" />
       <jump line="188" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockLegacyDataGenerator.kt" />
+      <jump line="50" column="69" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
+      <jump line="71" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
+      <jump line="54" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -488,34 +491,34 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>schedule_id</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzY2hlZHVsZV9pZFw+</text>
+        <text>fakere</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KHJldmVudWVTdW1tYXJ5KS5jb250YWlucyhGYXN0TW9uZXkub2YoNS4wMCwgIlVTRCIpKQo=</text>
       </register>
-      <register name="1" type="4">
-        <text>requestVenues.toSet()</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>dlgUl</text>
       </register>
-      <register name="2" type="4">
-        <text>returnedVenueIds</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGZ1biBmYWtlUmVzcG9uc2UoKTogQ2xhc3Nlc1JlcG9ydFJlc3BvbnNlIHsKICAgICAgICB2YWwgc3VtbWFyeSA9IENsYXNzZXNSZXBvcnRTdW1tYXJ5KAogICAgICAgICAgICByZXZlbnVlID0gbGlzdE9mKAogICAgICAgICAgICAgICAgRmFzdE1vbmV5Lm9mKDE1MC40OSwgIlVTRCIpLCBGYXN0TW9uZXkub2YoMjIuMjMsICJFVVIiKQogICAgICAgICAgICApLAogICAgICAgICAgICB0b3RhbENsYXNzcGFzc0Jvb2tpbmdzID0gMzQsCiAgICAgICAgICAgIHRvdGFsU2NoZWR1bGVzID0gMiwKICAgICAgICAgICAgY2xhc3NOYW1lcyA9IGxpc3RPZigiQW1hdGV1ciBBY3VwdW5jdHVyZSIsICJDb2xkIFlvZ2EiKSwKICAgICAgICAgICAgc3RhcnRUaW1lcyA9IGxpc3RPZihMb2NhbFRpbWUub2YoMTAsIDMwKSwgTG9jYWxUaW1lLm9mKDExLCAyMikpCiAgICAgICAgKQogICAgICAgIHZhbCByZXBvcnRJdGVtcyA9IGxpc3RPZigKICAgICAgICAgICAgQ2xhc3Nlc1JlcG9ydEl0ZW0oCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gMSwKICAgICAgICAgICAgICAgIHNjaGVkdWxlSWQgPSAyLAogICAgICAgICAgICAgICAgdmVudWVOYW1lID0gIlJvdW5kaG91c2UgUmljaydzIERpc2NvdW50IERvam8iLAogICAgICAgICAgICAgICAgdmVudWVTdWJ0aXRsZSA9ICJEYXl0b25hIiwKICAgICAgICAgICAgICAgIGNsYXNzTmFtZSA9ICJBbWF0ZXVyIEFjdXB1bmN0dXJlIiwKICAgICAgICAgICAgICAgIGluc3RydWN0b3JOYW1lID0gIlJpY2siLAogICAgICAgICAgICAgICAgZGF0ZSA9IExvY2FsRGF0ZS5vZigyMDE5LCAxMiwgMjUpLAogICAgICAgICAgICAgICAgc3RhcnRUaW1lID0gTG9jYWxUaW1lLm9mKDEwLCAzMCksCiAgICAgICAgICAgICAgICBjbGFzc3Bhc3NCb29raW5ncyA9IDMsCiAgICAgICAgICAgICAgICByZXZlbnVlID0gRmFzdE1vbmV5Lm9mKDEyLjMzLCAiVVNEIikKICAgICAgICAgICAgKSwKICAgICAgICAgICAgQ2xhc3Nlc1JlcG9ydEl0ZW0oCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gMSwKICAgICAgICAgICAgICAgIHNjaGVkdWxlSWQgPSAzLAogICAgICAgICAgICAgICAgdmVudWVOYW1lID0gIlJvdW5kaG91c2UgUmljaydzIERpc2NvdW50IERvam8iLAogICAgICAgICAgICAgICAgdmVudWVTdWJ0aXRsZSA9ICJEYXl0b25hIiwKICAgICAgICAgICAgICAgIGNsYXNzTmFtZSA9ICJDb2xkIFlvZ2EiLAogICAgICAgICAgICAgICAgaW5zdHJ1Y3Rvck5hbWUgPSAiUmljayIsCiAgICAgICAgICAgICAgICBkYXRlID0gTG9jYWxEYXRlLm9mKDIwMTksIDEyLCAyNSksCiAgICAgICAgICAgICAgICBzdGFydFRpbWUgPSBMb2NhbFRpbWUub2YoMTEsIDMwKSwKICAgICAgICAgICAgICAgIGNsYXNzcGFzc0Jvb2tpbmdzID0gMywKICAgICAgICAgICAgICAgIHJldmVudWUgPSBGYXN0TW9uZXkub2YoOTkuMzMsICJVU0QiKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIHJldHVybiBDbGFzc2VzUmVwb3J0UmVzcG9uc2Uoc3VtbWFyeSwgcmVwb3J0SXRlbXMpCiAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXBvcnQucmVwb3J0Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAoYWN0dWFsU2NoZWR1bGVJZHMgIT0gZXhwZWN0ZWRTY2hlZHVsZUlkcykgewogICAgICAgIHByaW50bG4oIm9oIHNoaXQiKQogICAgICAgIH0KCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="4" type="4">
+        <text>requestVenues.toSet()</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="5" type="4">
+        <text>returnedVenueIds</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3526,28 +3529,28 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgcmV2ZW51ZUl0ZW1Mb2dzID0gY3JlYXRlUmFuCg==</text>
+        <text encoding="base64">ICAgICAgICByZXBvcnQucmVwb3J0Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgYWN0dWFsQ3VycmVuY2llcyA9IHJldmVudWVTdW1tYXJ5Lm1hcCB7IGl0LmN1cnJlbmN5LmN1cnJlbmN5Q29kZSB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KCJVU0QiIGluIGFjdHVhbEN1cnJlbmNpZXMpCiAgICAgICAgYXNzZXJ0VGhhdCgiR0JQIiBpbiBhY3R1YWxDdXJyZW5jaWVzKQogICAgICAgIGFzc2VydFRoYXQoIkVVUiIgaW4gYWN0dWFsQ3VycmVuY2llcykKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KCkK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgcmV2ZW51ZUl0ZW1Mb2dzID0gY3JlYXRlUmFuCg==</text>
       </register>
       <register name=":" type="4">
         <text>action VcsShowPrevChangeMarker</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzY2hlZHVsZV9pZFw+</last-search>
+      <last-search>fakere</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzY2hlZHVsZV9pZFw+</last-pattern>
+      <last-pattern>fakere</last-pattern>
       <last-replace>first.</last-replace>
       <last-substitute>it\.</last-substitute>
       <last-dir>1</last-dir>
@@ -3555,7 +3558,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxjcmVhdGVSZXZlbnVlSXRlbUxvZ1w+</entry>
         <entry>fak</entry>
         <entry>delete</entry>
         <entry>fake</entry>
@@ -3575,6 +3577,7 @@
         <entry>build</entry>
         <entry encoding="base64">XDxzY2hlZHVsZV9pZHNcPg==</entry>
         <entry encoding="base64">XDxzY2hlZHVsZV9pZFw+</entry>
+        <entry>fakere</entry>
       </history-search>
       <history-cmd>
         <entry>%s;longs().*.get();idSeq.get()</entry>
