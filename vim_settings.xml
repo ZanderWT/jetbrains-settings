@@ -187,7 +187,7 @@
         <mark key="^" line="773" column="15" />
         <mark key="." line="775" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1565029172149">
+      <file name="/Python Console" timestamp="1565806945770">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1560892692300">
@@ -555,6 +555,12 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="5" column="1" />
       </file>
+      <file name="$USER_HOME$/look-at-pancake/domath.py" timestamp="1565807313564">
+        <mark key="[" line="36" column="56" />
+        <mark key="]" line="37" column="44" />
+        <mark key="." line="37" column="44" />
+        <mark key="^" line="37" column="44" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" timestamp="1564515668476">
         <mark key="[" line="757" column="52" />
         <mark key="]" line="757" column="78" />
@@ -563,6 +569,13 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/stats.py" timestamp="1559081814510">
         <mark key="'" line="19" column="17" />
+      </file>
+      <file name="$USER_HOME$/look-at-pancake/with-reactions" timestamp="1565805706587">
+        <mark key="'" line="3113" column="0" />
+        <mark key="[" line="3113" column="1" />
+        <mark key="]" line="3113" column="1" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="3113" column="1" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/ratings_and_reviews_api_proxy.py" timestamp="1565048969774">
         <mark key="'" line="29" column="6" />
@@ -576,17 +589,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="459" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="208" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="179" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
-      <jump line="127" column="81" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="500" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="1025" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="118" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="143" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="147" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/schedules.py" />
-      <jump line="458" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="31" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="189" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
       <jump line="464" column="59" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="137" column="83" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -676,6 +678,17 @@
       <jump line="395" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="46" column="10" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" />
       <jump line="35" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
+      <jump line="3114" column="0" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="0" column="0" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="30" column="2" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="58" column="2" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="59" column="0" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="73" column="2" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="74" column="0" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="27" column="0" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="1" column="0" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="31" column="0" filename="$USER_HOME$/look-at-pancake/with-reactions" />
+      <jump line="3113" column="0" filename="$USER_HOME$/look-at-pancake/with-reactions" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -790,16 +803,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>dumps</text>
+        <text>'</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxfdmFsaWRhdGVfcmVxdWVzdF91c2VyX2Zvcl92ZW51ZV9pZHNcPg==</text>
+        <text>^}$</text>
       </register>
       <register name="0" type="4">
-        <text>schedule.start_date.weekday()</text>
+        <text>sorted(reaction_types, key=lambda r: len(r.value))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChqc29uLmR1bXBzKGVtYWlsX29wcHMpKQo=</text>
+        <text encoding="base64">ICAgICMgcmVhY3Rpb25fdHlwZXMgPSBzb3J0ZWQocmVhY3Rpb25fdHlwZXMsIGtleT1sYW1iZGEgcjogbGVuKHIudmFsdWUpKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -841,34 +854,34 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MudXRpbHMgaW1wb3J0IGpzb24K</text>
+        <text encoding="base64">ICAgIHByaW50KHJlYWN0aW9uX3R5cGVzKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGF5X2FiYnJldmlhdGlvbnMgPSBsaXN0KGNhbGVuZGFyLmRheV9hYmJyKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIHByaW50KHVzZXJfbmFtZV9tYXBbJ1VGOU5XMEtSViddKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfZmllbGRzX21hcFtdCg==</text>
+        <text encoding="base64">ICAgICAgICByZWFjdGlvbl9jb3VudHMK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="7" type="4">
-        <text>{}</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICByZWFjdGlvbnMgPSAK</text>
       </register>
-      <register name="8" type="4">
-        <text>&quot;Mon&quot;, &quot;Tue&quot;, &quot;Wed&quot;, &quot;Thu&quot;, &quot;Fri&quot;, &quot;Sat&quot;, &quot;Sun&quot;</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgbWVzc2FnZXMgPSBbJ2xpbmsnOm1bJ2xpbmsnXV0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bmFtZXNfbWFwID0ganNvbi5sb2FkKCkK</text>
       </register>
       <register name=":" type="4">
-        <text>action MethodUp</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1529,18 +1542,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxfdmFsaWRhdGVfcmVxdWVzdF91c2VyX2Zvcl92ZW51ZV9pZHNcPg==</last-search>
+      <last-search>^}$</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxfdmFsaWRhdGVfcmVxdWVzdF91c2VyX2Zvcl92ZW51ZV9pZHNcPg==</last-pattern>
-      <last-replace>test_get_upcoming_schedule_counts</last-replace>
-      <last-substitute>test_get_upcoming_schedules</last-substitute>
+      <last-pattern>^}$</last-pattern>
+      <last-replace>},</last-replace>
+      <last-substitute>^}$</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>schedule</entry>
-        <entry>add(</entry>
         <entry encoding="base64">XDxjbGFzc19kYXlzX29mX3dlZWtcPg==</entry>
         <entry>days_per_week</entry>
         <entry>days</entry>
@@ -1559,9 +1570,10 @@
         <entry>disab</entry>
         <entry>via_em</entry>
         <entry encoding="base64">XDxfdmFsaWRhdGVfcmVxdWVzdF91c2VyX2Zvcl92ZW51ZV9pZHNcPg==</entry>
+        <entry>}$</entry>
+        <entry>^}$</entry>
       </history-search>
       <history-cmd>
-        <entry>70</entry>
         <entry>175</entry>
         <entry>178</entry>
         <entry>151</entry>
@@ -1576,11 +1588,12 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
-        <entry>bnext</entry>
         <entry>487</entry>
         <entry>action MethodUp</entry>
+        <entry>%s;^}$;},;</entry>
+        <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
