@@ -20,8 +20,8 @@
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/databases/classtivity/models/OpportunityAuditLog.java" timestamp="1557346714017">
         <mark key="'" line="16" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1565735086459">
-        <mark key="'" line="28" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1565824280930">
+        <mark key="'" line="53" column="0" />
         <mark key="[" line="53" column="0" />
         <mark key="]" line="53" column="0" />
         <mark key="." line="53" column="0" />
@@ -362,7 +362,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryVenuePortalDao.kt" />
       <jump line="32" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryVenuePortalDao.kt" />
       <jump line="2" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryVenuePortalDao.kt" />
       <jump line="38" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryVenuePortalDao.kt" />
@@ -462,6 +461,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/ClasstivityVenues.java" />
       <jump line="12" column="33" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" />
       <jump line="65" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" />
+      <jump line="53" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1920,7 +1920,7 @@
         <text>,</text>
       </register>
       <register name="/" type="4">
-        <text>select</text>
+        <text>docker</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">LyoqCiAqIFJlcHJlc2VudHMgYSByb3cgaW4gdGhlIHJldmVudWVfcmV2ZW51ZWl0ZW1sb2cgdGFibGUgaW4gdGhlIHZlbnVlIHBvcnRhbCBkYXRhYmFzZS4gRWFjaCByb3cgcmVwcmVzZW50cyBhIHJlc2VydmF0aW9uCiAqIGluIGEgc2NoZWR1bGUsIHdpdGggcmV2ZW51ZSBmcm9tIHRoYXQgcmVzZXJ2YXRpb24gYXR0YWNoZWQuCiAqLwo=</text>
@@ -4974,9 +4974,9 @@
       </register>
     </registers>
     <search>
-      <last-search>select</last-search>
+      <last-search>docker</last-search>
       <last-offset />
-      <last-pattern>select</last-pattern>
+      <last-pattern>docker</last-pattern>
       <last-replace>first.</last-replace>
       <last-substitute>it\.</last-substitute>
       <last-dir>1</last-dir>
@@ -4984,7 +4984,6 @@
     </search>
     <history>
       <history-search>
-        <entry>las</entry>
         <entry>nu;;</entry>
         <entry>null</entry>
         <entry>set</entry>
@@ -5004,6 +5003,7 @@
         <entry>subti</entry>
         <entry>lastuser</entry>
         <entry>select</entry>
+        <entry>docker</entry>
       </history-search>
       <history-cmd>
         <entry>s;, ;&quot;, &quot;;g</entry>
