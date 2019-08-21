@@ -133,20 +133,21 @@
         <mark key="." line="6" column="105" />
         <mark key="^" line="6" column="105" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" timestamp="1566341405704">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" timestamp="1566396424884">
         <mark key="'" line="11" column="86" />
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="26" column="24" />
         <mark key="." line="18" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1566328511635">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" timestamp="1566341017469">
-        <mark key="[" line="19" column="75" />
-        <mark key="]" line="19" column="75" />
-        <mark key="^" line="19" column="75" />
-        <mark key="." line="19" column="75" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" timestamp="1566396545651">
+        <mark key="'" line="33" column="83" />
+        <mark key="[" line="43" column="58" />
+        <mark key="]" line="43" column="61" />
+        <mark key="^" line="43" column="61" />
+        <mark key="." line="43" column="61" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/request/SortRequestTest.kt" timestamp="1566254835322">
         <mark key="[" line="38" column="0" />
@@ -174,9 +175,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/LegacyClassesReportSummary.kt" />
-      <jump line="10" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/LegacyClassesReportSummary.kt" />
-      <jump line="43" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/LegacyClassesReportSummary.kt" />
       <jump line="32" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/LegacyClassesReportSummary.kt" />
       <jump line="25" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/LegacyClassesReportSummary.kt" />
       <jump line="50" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/LegacyClassesReportSummary.kt" />
@@ -274,6 +272,9 @@
       <jump line="19" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
       <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
       <jump line="78" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
+      <jump line="44" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" />
+      <jump line="35" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" />
+      <jump line="34" column="83" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenuePortalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1732,13 +1733,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>.),</text>
       </register>
       <register name="/" type="4">
-        <text>val</text>
+        <text>log\.\zs</text>
       </register>
-      <register name="0" type="4">
-        <text>venuePortalDao.getRevenueItemLogById(reservationId)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHZhbCB2ZW51ZUlkOiBWZW51ZUlkLAogICAgdmFsIHNjaGVkdWxlSWQ6IFNjaGVkdWxlSWQsCiAgICB2YWwgdmVudWVOYW1lOiBTdHJpbmc/LAogICAgdmFsIHZlbnVlU3VidGl0bGU6IFN0cmluZz8sCiAgICB2YWwgY2xhc3NOYW1lOiBTdHJpbmc/LAogICAgdmFsIGNsYXNzRGF0ZTogTG9jYWxEYXRlLAogICAgdmFsIHN0YXJ0VGltZTogTG9jYWxUaW1lPywKICAgIHZhbCBmaXJzdE5hbWU6IFN0cmluZz8sCiAgICB2YWwgbGFzdE5hbWU6IFN0cmluZz8sCiAgICB2YWwgZW1haWw6IFN0cmluZz8sCiAgICB2YWwgcmF0ZTogQmlnRGVjaW1hbAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIEBDb2x1bW4K</text>
@@ -4798,20 +4799,16 @@
       </register>
     </registers>
     <search>
-      <last-search>val</last-search>
+      <last-search>log\.\zs</last-search>
       <last-offset />
-      <last-pattern>val</last-pattern>
-      <last-replace>it</last-replace>
-      <last-substitute>first</last-substitute>
+      <last-pattern>log\.\zs</last-pattern>
+      <last-replace>it.getValue(REVENUE_REVENUEITEMLOG.</last-replace>
+      <last-substitute>= \zs.*</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>validjs</entry>
-        <entry>fie</entry>
-        <entry encoding="base64">XDxyZXNvdXJjZUluc3RhbmNlXD4=</entry>
-        <entry>this</entry>
         <entry>bad</entry>
         <entry>no</entry>
         <entry encoding="base64">XDx2ZW51ZUlkc1w+</entry>
@@ -4828,11 +4825,12 @@
         <entry encoding="base64">XDxyZXZlbnVlSXRlbUxvZ3NcPg==</entry>
         <entry>isnul</entry>
         <entry>val</entry>
+        <entry encoding="base64">dmFsIA==</entry>
+        <entry encoding="base64">OiA=</entry>
+        <entry>= \zs.*</entry>
+        <entry>log\.\zs</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zO0NsYXNzTmFtZTtTdGFydFRpbWU7Zw==</entry>
-        <entry encoding="base64">JzwsJz5zO3ZhbCA7Ow==</entry>
-        <entry encoding="base64">JzwsJz5zOzogXHdcKzs7</entry>
         <entry>s;, ;, :;g</entry>
         <entry>s;,; = ,;</entry>
         <entry encoding="base64">JzwsJz5zOyw7ID0gLDtn</entry>
@@ -4849,6 +4847,9 @@
         <entry encoding="base64">JzwsJz5zO2ZpcnN0O2l0O2c=</entry>
         <entry>bnext</entry>
         <entry>action VcsShowNextChangeMarker</entry>
+        <entry encoding="base64">JzwsJz5zO3ZhbCA7Ow==</entry>
+        <entry encoding="base64">JzwsJz5zOzogOyA9IDs=</entry>
+        <entry encoding="base64">JzwsJz5zOz0gXHpzLio7aXQuZ2V0VmFsdWUoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy47</entry>
         <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
