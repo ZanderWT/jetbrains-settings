@@ -6,12 +6,12 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/Result.java" timestamp="1565986870563">
         <mark key="'" line="69" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" timestamp="1566420192285">
-        <mark key="'" line="80" column="0" />
-        <mark key="[" line="76" column="114" />
-        <mark key="]" line="76" column="117" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" timestamp="1566425567069">
+        <mark key="'" line="84" column="8" />
+        <mark key="[" line="95" column="0" />
+        <mark key="]" line="95" column="0" />
         <mark key="^" line="80" column="46" />
-        <mark key="." line="76" column="117" />
+        <mark key="." line="95" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1566314086816">
         <mark key="'" line="60" column="39" />
@@ -48,12 +48,12 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/validation/ValidSortColumns.kt" timestamp="1566420897913">
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/validation/ValidSortColumns.kt" timestamp="1566425323280">
         <mark key="'" line="30" column="29" />
-        <mark key="[" line="15" column="57" />
-        <mark key="]" line="15" column="58" />
-        <mark key="^" line="15" column="58" />
-        <mark key="." line="15" column="58" />
+        <mark key="[" line="34" column="0" />
+        <mark key="]" line="34" column="0" />
+        <mark key="." line="34" column="0" />
+        <mark key="^" line="30" column="13" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/TeacherLegacyDao.kt" timestamp="1565303805850">
         <mark key="'" line="29" column="40" />
@@ -374,7 +374,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="22" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/SortRequest.kt" />
       <jump line="9" column="14" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/SortRequest.kt" />
       <jump line="4" column="36" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/ClassesReportRequest.kt" />
       <jump line="34" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/request/SortRequestTest.kt" />
@@ -474,6 +473,7 @@
       <jump line="49" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="46" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="30" column="29" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/validation/ValidSortColumns.kt" />
+      <jump line="84" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1932,42 +1932,40 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>an invalid sort</text>
+        <text>val invalidColumns =</text>
       </register>
       <register name="/" type="4">
-        <text>any</text>
+        <text>print</text>
       </register>
-      <register name="0" type="4">
-        <text>sortColumns.any {
-            it.column.toLowerCase() !in values
-        }</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaGliZXJuYXRlQ29udGV4dC5hZGRFeHByZXNzaW9uVmFyaWFibGUoImludmFsaWRDb2x1bW5zIiwgaW52YWxpZENvbHVtbnMubWFwIHsgaXQuY29sdW1uIH0pCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludGxuKGJvZHkpCg==</text>
       </register>
       <register name="q" type="4">
         <text>dlgUl</text>
       </register>
-      <register name="2" type="4">
-        <text>{}</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">b2ZmZW5kaW5nQ29sdW1ucy5zaXplID4gMA==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gaW52YWxpZENvbHVtbnMuaXNFbXB0eSgpCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBmaWVsZDpQYXR0ZXJuKHJlZ2V4cCA9IEFMTE9XRURfU09SVF9DT0xVTU5TKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y29uc3QgdmFsIEFMTE9XRURfU09SVF9DT0xVTU5TID0gIl4odmVudWV8Y2xhc3N8Y2xhc3NwYXNzX2Jvb2tpbmdzfHJldmVudWV8Y2xhc3NfZGF0ZXRpbWUpJCIK</text>
+        <text encoding="base64">ICAgICAgICBpZiAoaW52YWxpZENvbHVtbnMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgfQogICAgICAgIGlmIChpbnZhbGlkQ29sdW1ucy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgaGliZXJuYXRlQ29udGV4dC5hZGRFeHByZXNzaW9uVmFyaWFibGUoImludmFsaWRDb2x1bW5zIiwgaW52YWxpZENvbHVtbnMubWFwIHsgaXQuY29sdW1uIH0pCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ1ZQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -4977,32 +4975,34 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHZhbCB2YWxpZFNvcnRDb2x1bW5zOiBMaXN0PFN0cmluZz4K</text>
+      <register name="6" type="4">
+        <text>{}</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICIsIiA=</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIG92ZXJyaWRlIHZhbCB2YWxpZFNvcnRDb2x1bW5zOiBMaXN0PFN0cmluZz4gPSBsaXN0T2YoCiAgICAgICAgImNsYXNzIiwKICAgICAgICAiY2xhc3NwYXNzX2Jvb2tpbmdzIiwKICAgICAgICAicmV2ZW51ZSIsCiAgICAgICAgImNsYXNzX2RhdGV0aW1lIgogICAgKQo=</text>
+      <register name="8" type="4">
+        <text>.map {
+            hibernateContext.addExpressionVariable(&quot;invalidColumns&quot;, invalidColumns)
+        }</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBmaWVsZDpWYWxpZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>any</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>any</last-pattern>
+      <last-pattern>print</last-pattern>
       <last-replace>it.getValue(REVENUE_REVENUEITEMLOG.</last-replace>
       <last-substitute>= \zs.*</last-substitute>
       <last-dir>1</last-dir>
@@ -5010,7 +5010,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZXZlbnVlSXRlbUxvZ3NcPg==</entry>
         <entry>isnul</entry>
         <entry>val</entry>
         <entry encoding="base64">dmFsIA==</entry>
@@ -5030,6 +5029,7 @@
         <entry>book</entry>
         <entry encoding="base64">XDxzb3J0Q29sdW1uc1w+</entry>
         <entry>any</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOyw7ID0gLDtn</entry>
@@ -5048,8 +5048,8 @@
         <entry encoding="base64">JzwsJz5zOz0gXHpzLio7aXQuZ2V0VmFsdWUoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy47</entry>
         <entry>56</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','b')</entry>
-        <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
+        <entry>action VcsShowNextChangeMarker</entry>
         <entry>bnext</entry>
         <entry>action ReformatCode</entry>
       </history-cmd>
