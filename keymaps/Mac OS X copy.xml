@@ -73,6 +73,7 @@
   <action id="EditorSelectWord" />
   <action id="EditorStartNewLine" />
   <action id="EditorUnSelectWord" />
+  <action id="EvaluateExpression" />
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="meta add" />
     <keyboard-shortcut first-keystroke="meta equals" />
@@ -134,5 +135,8 @@
   </action>
   <action id="VimWindowSplitVertical">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="l" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="alt f8" />
   </action>
 </keymap>
