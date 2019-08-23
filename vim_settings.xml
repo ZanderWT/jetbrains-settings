@@ -3,6 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportRequest.json" timestamp="1566588601848">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="9" column="1" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" timestamp="1566429833699">
         <mark key="[" line="98" column="0" />
         <mark key="]" line="98" column="0" />
@@ -379,7 +384,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="78" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
       <jump line="82" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
       <jump line="68" column="78" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
       <jump line="52" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
@@ -479,6 +483,7 @@
       <jump line="105" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="179" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
       <jump line="274" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportRequest.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1943,7 +1948,7 @@
         <text>permi</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgbGFwaURhdGEgPSBnZW5lcmF0ZVJlbGF0ZWREYXRhKHdpdGhWZW51ZXMgPSAxLCB3aXRoQ2xhc3NlcyA9IDEsIHdpdGhTY2hlZHVsZXMgPSAxMDApCiAgICAgICAgbGFwaURhdGEuc2NoZWR1bGVzLm1hcCB7IHNjaGVkdWxlIC0+CiAgICAgICAgICAgIGNyZWF0ZVJhbmRvbVJldmVudWVJdGVtTG9nKAogICAgICAgICAgICAgICAgdmVudWVJZCA9IHNjaGVkdWxlLnZlbnVlLnZlbnVlSWQsCiAgICAgICAgICAgICAgICBzY2hlZHVsZUlkID0gc2NoZWR1bGUuaWQsCiAgICAgICAgICAgICAgICB2ZW51ZSA9ICJ2ZW51ZSBvZiBzY2hlZHVsZSAke3NjaGVkdWxlLmlkfSIsCiAgICAgICAgICAgICAgICBsb2NhdGlvbiA9ICJ2ZW51ZSBzdWJ0aXRsZSBvZiAke3NjaGVkdWxlLmlkfSIsCiAgICAgICAgICAgICAgICBjbGFzc05hbWUgPSAiY2xhc3MgbmFtZSBvZiAke3NjaGVkdWxlLmlkfSIsCiAgICAgICAgICAgICAgICBjbGFzc0RhdGUgPSBzY2hlZHVsZS5zdGFydERhdGUsCiAgICAgICAgICAgICAgICBzdGFydFRpbWUgPSBzY2hlZHVsZS5zdGFydFRpbWUKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgdmFsIHJlcXVlc3QgPSBDbGFzc2VzUmVwb3J0UmVxdWVzdCgKICAgICAgICAgICAgdmVudWVJZHMgPSBsYXBpRGF0YS52ZW51ZXMubWFwIHsgaXQudmVudWVJZCB9LAogICAgICAgICAgICBzdGFydERhdGUgPSBMb2NhbERhdGUubm93KCkubWludXNZZWFycygxKSwKICAgICAgICAgICAgZW5kRGF0ZSA9IExvY2FsRGF0ZS5ub3coKSwKICAgICAgICAgICAgcGFnZU51bWJlciA9IDExLAogICAgICAgICAgICBwYWdlU2l6ZSA9IDEwCiAgICAgICAgKQoKICAgICAgICAgYXNzZXJ0VGhhdCB7CiAgICAgICAgICAgICBydW5CbG9ja2luZyB7IGNsYXNzZXNSZXBvcnRDb250cm9sbGVyLmdldENsYXNzZXNSZXBvcnQobGFwaURhdGEudXNlci5pZCwgcmVxdWVzdCkgfQogICAgICAgICB9LnRocm93bkVycm9yIHsKICAgICAgICAgICAgIGlzSW5zdGFuY2VPZihOb3RGb3VuZEV4Y2VwdGlvbjo6Y2xhc3MpCiAgICAgICAgIH0K</text>
+        <text encoding="base64">ewogICJ2ZW51ZV9pZHMiOiBbMjY2OTBdLAogICJzdGFydF9kYXRlIjogIjIwMTgtMDgtMTQiLAogICJlbmRfZGF0ZSI6ICIyMDE5LTA4LTE0IiwKICAiZXhjbHVkZWRfY2xhc3NfaWRzIjogWzExMjIzM10sCiAgImV4Y2x1ZGVkX3N0YXJ0X3RpbWVzIjogWyIxMzozMDowMCIgXSwKICAicGFnZV9udW1iZXIiOiAxLAogICJwYWdlX3NpemUiOiA1MCwKICAic29ydCI6IFsiY2xhc3M6YXNjIiwgImNsYXNzX2RhdGV0aW1lOmRlc2MiXQp9Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcGFnZU51bWJlciA9IDExLAogICAgICAgICAgICBwYWdlU2l6ZSA9IDEwCg==</text>
