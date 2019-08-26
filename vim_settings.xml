@@ -197,8 +197,8 @@
       <file name="/Python Console" timestamp="1565808085187">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1560892692300">
-        <mark key="'" line="713" column="30" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1566859245735">
+        <mark key="'" line="110" column="0" />
         <mark key="[" line="7140" column="62" />
         <mark key="]" line="7141" column="40" />
         <mark key="^" line="7141" column="40" />
@@ -623,13 +623,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="704" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="365" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
-      <jump line="423" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
-      <jump line="509" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
-      <jump line="473" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
-      <jump line="515" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="514" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="510" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="450" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="472" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_calculate_email_opps_for_user.py" />
@@ -723,6 +716,13 @@
       <jump line="301" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/postgres_initial_data/0002_test_postgres_schema.sql" />
       <jump line="36" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/postgres_initial_data/0002_test_postgres_schema.sql" />
       <jump line="221" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/postgres_initial_data/0002_test_postgres_schema.sql" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
+      <jump line="24" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
+      <jump line="39" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
+      <jump line="54" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
+      <jump line="75" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
+      <jump line="93" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
+      <jump line="110" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -797,7 +797,7 @@
         <text>content</text>
       </register>
       <register name="/" type="4">
-        <text>venue_mess</text>
+        <text>create table</text>
       </register>
       <register name="0" type="4">
         <text>https://github.com/classpass/partner-dashboard/pull/434</text>
@@ -1533,9 +1533,9 @@
       </register>
     </registers>
     <search>
-      <last-search>venue_mess</last-search>
+      <last-search>create table</last-search>
       <last-offset />
-      <last-pattern>venue_mess</last-pattern>
+      <last-pattern>create table</last-pattern>
       <last-replace>},</last-replace>
       <last-substitute>^}$</last-substitute>
       <last-dir>1</last-dir>
@@ -1543,7 +1543,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ven</entry>
         <entry>classesreport</entry>
         <entry>venues</entry>
         <entry>venue</entry>
@@ -1563,6 +1562,7 @@
         <entry>migrationlo</entry>
         <entry>django_mig</entry>
         <entry>venue_mess</entry>
+        <entry>create table</entry>
       </history-search>
       <history-cmd>
         <entry>178</entry>
