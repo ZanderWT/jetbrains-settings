@@ -353,13 +353,18 @@
         <mark key="]" line="0" column="37" />
         <mark key="." line="0" column="37" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" timestamp="1566858496720">
+        <mark key="'" line="84" column="41" />
+        <mark key="[" line="40" column="18" />
+        <mark key="]" line="40" column="34" />
+        <mark key="." line="40" column="34" />
+        <mark key="^" line="40" column="34" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/ClassesReportRequest.kt" timestamp="1566510331341">
         <mark key="'" line="24" column="17" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ClassesReportResource.kt" />
-      <jump line="25" column="11" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/ClassesReportRequest.kt" />
       <jump line="53" column="18" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-annotations/2.0.8/829a0553d23e9565e1365327d593cd4e60cf8ca2/swagger-annotations-2.0.8-sources.jar!/io/swagger/v3/oas/annotations/media/Schema.java" />
       <jump line="195" column="175" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-annotations/2.0.8/829a0553d23e9565e1365327d593cd4e60cf8ca2/swagger-annotations-2.0.8-sources.jar!/io/swagger/v3/oas/annotations/media/Schema.java" />
       <jump line="249" column="91" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger.core.v3/swagger-annotations/2.0.8/829a0553d23e9565e1365327d593cd4e60cf8ca2/swagger-annotations-2.0.8-sources.jar!/io/swagger/v3/oas/annotations/media/Schema.java" />
@@ -458,6 +463,8 @@
       <jump line="12" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryLegacyDao.kt" />
       <jump line="134" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="27" column="79" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
+      <jump line="40" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
+      <jump line="84" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1916,40 +1923,40 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>getSchedules</text>
+        <text>defaultPageSize</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxsb2dnZXJcPg==</text>
+        <text encoding="base64">XDx0b3RhbF9pdGVtc1w+</text>
       </register>
       <register name="0" type="4">
         <text>.cast(ScheduleId::class.java)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXBWYWx1ZXMgeyBpdC52YWx1ZS50ZWFjaGVyPy50ZWFjaGVyTmFtZSA/OiAiIiB9Cg==</text>
+        <text encoding="base64">Y29uc3QgdmFsIGRlZmF1bHRQYWdlU2l6ZSA9IDIwCg==</text>
       </register>
       <register name="q" type="4">
         <text>dlgUl</text>
       </register>
-      <register name="2" type="4">
-        <text>{}</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBwcml2YXRlIHZhbCBkZWZhdWx0UGFnZVNpemUgPSAyMAo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="4">
-        <text>CLASSTIVITY_CLASSES_TIMETABLE.ID, CLASSTIVITY_TEACHERS.</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5tYXBWYWx1ZXMgeyBpdC52YWx1ZS50ZWFjaGVyPy50ZWFjaGVyTmFtZSA/OiAiIiB9Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="4" type="4">
+        <text>{}</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuamFkZS5kcm9wd2l6YXJkLmhlYWx0aC5IZWFsdGhSZXNvdXJjZS5Db21wYW5pb24ubG9nZ2VyCg==</text>
+      <register name="5" type="4">
+        <text>CLASSTIVITY_CLASSES_TIMETABLE.ID, CLASSTIVITY_TEACHERS.</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -4966,35 +4973,32 @@
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludGxuCg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuamFkZS5kcm9wd2l6YXJkLmhlYWx0aC5IZWFsdGhSZXNvdXJjZS5Db21wYW5pb24ubG9nZ2VyCg==</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgbGFwaVN1bW1hcnkgPSBmdXR1cmVMYXBpU3VtbWFyeS5hd2FpdCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludGxuCg==</text>
       </register>
       <register name=":" type="4">
         <text>63</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxsb2dnZXJcPg==</last-search>
+      <last-search encoding="base64">XDx0b3RhbF9pdGVtc1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxsb2dnZXJcPg==</last-pattern>
+      <last-pattern encoding="base64">XDx0b3RhbF9pdGVtc1w+</last-pattern>
       <last-replace encoding="base64">ID0gLA==</last-replace>
       <last-substitute>:.*</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>cl</entry>
-        <entry>defaultpa</entry>
-        <entry>list</entry>
         <entry>that</entry>
         <entry>for</entry>
         <entry>sch</entry>
@@ -5012,6 +5016,9 @@
         <entry>did.*\zs&quot;</entry>
         <entry>logger</entry>
         <entry encoding="base64">XDxsb2dnZXJcPg==</entry>
+        <entry>total_tim</entry>
+        <entry>total_it</entry>
+        <entry encoding="base64">XDx0b3RhbF9pdGVtc1w+</entry>
       </history-search>
       <history-cmd>
         <entry>26</entry>
