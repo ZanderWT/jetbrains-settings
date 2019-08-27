@@ -65,11 +65,11 @@
         <mark key="^" line="210" column="79" />
         <mark key="." line="210" column="79" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ScheduleReportResponse.kt" timestamp="1566933176103">
-        <mark key="[" line="18" column="8" />
-        <mark key="]" line="18" column="11" />
-        <mark key="." line="18" column="11" />
-        <mark key="^" line="18" column="11" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ScheduleReportResponse.kt" timestamp="1566936810896">
+        <mark key="[" line="20" column="28" />
+        <mark key="]" line="20" column="28" />
+        <mark key="." line="20" column="28" />
+        <mark key="^" line="20" column="28" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/ClassesReportResponseTest.kt" timestamp="1566926692009">
         <mark key="'" line="0" column="0" />
@@ -242,11 +242,12 @@
         <mark key="." line="6" column="105" />
         <mark key="^" line="6" column="105" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" timestamp="1566936180293">
-        <mark key="[" line="10" column="30" />
-        <mark key="]" line="10" column="50" />
-        <mark key="." line="10" column="50" />
-        <mark key="^" line="10" column="50" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" timestamp="1566936855576">
+        <mark key="'" line="28" column="48" />
+        <mark key="[" line="19" column="40" />
+        <mark key="]" line="19" column="50" />
+        <mark key="." line="19" column="50" />
+        <mark key="^" line="19" column="50" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" timestamp="1566491315041">
         <mark key="'" line="33" column="54" />
@@ -395,7 +396,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="70" column="109" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="2135" column="14" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/Field.java" />
       <jump line="76" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="82" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
@@ -495,6 +495,7 @@
       <jump line="67" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
       <jump line="21" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ScheduleReportResourceTest.kt" />
       <jump line="89" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
+      <jump line="28" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1953,28 +1954,28 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Reservation</text>
+        <text>it</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxIdHRwU3RhdHVzXD4=</text>
+        <text>it</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBiaW5kZXIuYmluZChSZXNlcnZhdGlvbkNvbnRyb2xsZXI6OmNsYXNzLmphdmEpCg==</text>
+      <register name="0" type="4">
+        <text>reservationRates[it.reservationId]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdXNlcklkID0gMQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text>dlgUl</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5IdHRwU3RhdHVzCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgdXNlcklkID0gMQo=</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5IdHRwU3RhdHVzCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
@@ -1986,7 +1987,7 @@
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHZhbCBjdXJyZW5jeUNvZGUgYnkgbGF6eSB7fQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -4997,32 +4998,32 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">dmFsIAo=</text>
+        <text encoding="base64">ICAgIHZhbCBjdXJyZW5jeUNvZGUgYnkgbGF6eSB7fQo=</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHZhCg==</text>
+        <text encoding="base64">dmFsIAo=</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHZhCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text encoding="base64">JzwsJz5zO2l0O3Jlc2VydmF0aW9u</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxIdHRwU3RhdHVzXD4=</last-search>
+      <last-search>it</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxIdHRwU3RhdHVzXD4=</last-pattern>
-      <last-replace>record</last-replace>
+      <last-pattern>it</last-pattern>
+      <last-replace>reservation</last-replace>
       <last-substitute>it</last-substitute>
       <last-dir>-1</last-dir>
       <show-last>true</show-last>
@@ -5031,7 +5032,6 @@
       <history-search>
         <entry>mapper</entry>
         <entry>tables</entry>
-        <entry>it</entry>
         <entry>first</entry>
         <entry>image</entry>
         <entry>moo</entry>
@@ -5049,9 +5049,9 @@
         <entry>currenc</entry>
         <entry>header</entry>
         <entry encoding="base64">XDxIdHRwU3RhdHVzXD4=</entry>
+        <entry>it</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zOzogXHdcKzsgPSA7Zw==</entry>
         <entry encoding="base64">JzwsJz5zOz87Ow==</entry>
         <entry encoding="base64">JzwsJz5zOyw7Ow==</entry>
         <entry encoding="base64">JzwsJz5zOz0gOz0gcmVjb3JkLnh4eCw7</entry>
@@ -5071,6 +5071,7 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
+        <entry encoding="base64">JzwsJz5zO2l0O3Jlc2VydmF0aW9u</entry>
       </history-cmd>
       <history-expr />
       <history-input />
