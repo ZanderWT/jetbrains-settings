@@ -389,12 +389,12 @@
         <mark key="." line="37" column="72" />
         <mark key="^" line="11" column="24" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" timestamp="1567201829188">
-        <mark key="'" line="362" column="0" />
-        <mark key="[" line="379" column="48" />
-        <mark key="]" line="379" column="58" />
-        <mark key="." line="379" column="58" />
-        <mark key="^" line="379" column="58" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" timestamp="1567523420584">
+        <mark key="'" line="343" column="23" />
+        <mark key="[" line="381" column="44" />
+        <mark key="]" line="381" column="59" />
+        <mark key="." line="381" column="59" />
+        <mark key="^" line="381" column="59" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/schedule/mindbody/fetcher.py" timestamp="1551803043266">
         <mark key="'" line="0" column="0" />
@@ -601,7 +601,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
       <jump line="158" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
       <jump line="295" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
       <jump line="25" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
@@ -701,6 +700,7 @@
       <jump line="113" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
       <jump line="120" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
       <jump line="110" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="343" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -772,7 +772,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>start_date</text>
+        <text>classes_report</text>
       </register>
       <register name="/" type="4">
         <text>params</text>
@@ -1517,7 +1517,7 @@
       <last-replace>schedule</last-replace>
       <last-substitute>classes</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
