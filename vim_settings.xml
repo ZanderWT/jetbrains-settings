@@ -85,6 +85,9 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/records/RevenueRevenueitemlogRecord.java" timestamp="1567107938163">
         <mark key="'" line="247" column="21" />
       </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SettingsResource.kt" timestamp="1567611699550">
+        <mark key="'" line="130" column="59" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" timestamp="1567031038993">
         <mark key="[" line="106" column="0" />
         <mark key="]" line="106" column="38" />
@@ -99,6 +102,11 @@
       </file>
       <file name="$USER_HOME$/cp-projects/hfr-service/svc/src/main/java/com/classpass/hfr/HumanFulfillableReservationsModule.kt" timestamp="1567539709421">
         <mark key="'" line="52" column="43" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/SpotRecsApplication.kt" timestamp="1567611627527">
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="42" column="0" />
+        <mark key="." line="42" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" timestamp="1567540746380">
         <mark key="'" line="30" column="6" />
@@ -152,9 +160,8 @@
         <mark key="." line="12" column="18" />
         <mark key="^" line="12" column="18" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ClassesReportVenuePortalDaoTest.kt" timestamp="1567185712663">
-        <mark key="'" line="69" column="12" />
-        <mark key="^" line="69" column="71" />
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/auth/VenueDashIdFilter.kt" timestamp="1567611617095">
+        <mark key="'" line="38" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/jooq/JooqHealthCheck.kt" timestamp="1567202870354">
         <mark key="'" line="5" column="11" />
@@ -163,6 +170,9 @@
         <mark key="[" line="15" column="26" />
         <mark key="]" line="15" column="26" />
         <mark key="." line="15" column="38" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" timestamp="1567611713854">
+        <mark key="'" line="37" column="41" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/records/ClasstivityVenuesRecord.java" timestamp="1566933919698">
         <mark key="'" line="23" column="13" />
@@ -332,14 +342,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="51" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" />
-      <jump line="53" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Reservation.kt" />
-      <jump line="32" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" />
-      <jump line="4" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ScheduleReportResponse.json" />
-      <jump line="35" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
-      <jump line="27" column="29" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ScheduleReportResponse.kt" />
-      <jump line="302" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="299" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="48" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="188" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="77" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
@@ -432,6 +434,14 @@
       <jump line="37" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryLegacyDao.kt" />
       <jump line="43" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
       <jump line="34" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
+      <jump line="38" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/auth/VenueDashIdFilter.kt" />
+      <jump line="4" column="63" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SettingsResource.kt" />
+      <jump line="41" column="37" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SettingsResource.kt" />
+      <jump line="42" column="16" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SettingsResource.kt" />
+      <jump line="102" column="55" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SettingsResource.kt" />
+      <jump line="147" column="54" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SettingsResource.kt" />
+      <jump line="130" column="59" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/resource/SettingsResource.kt" />
+      <jump line="37" column="41" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1896,13 +1906,13 @@
         <text>, tags = []</text>
       </register>
       <register name="/" type="4">
-        <text>Time</text>
+        <text encoding="base64">XDx1cGRhdGVkVXNlcklkXD4=</text>
       </register>
       <register name="0" type="4">
         <text>getScheduleReport</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBUaW1lKG5hbWUgPSAiZ2V0Q2xhc3Nlc1JlcG9ydCIsIHRhZ3MgPSBbXSkK</text>
+        <text encoding="base64">ICAgICAgICBlbnYuamVyc2V5KCkucmVnaXN0ZXIoVmVudWVEYXNoSWRGaWx0ZXIoKSkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2194,25 +2204,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uY2xhc3NwYXNzLmphZGU6dXRpbDoke2RlcHNbImphZGUiXX0iKQo=</text>
+        <text encoding="base64">ICAgIEBUaW1lKG5hbWUgPSAiZ2V0Q2xhc3Nlc1JlcG9ydCIsIHRhZ3MgPSBbXSkK</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uY2xhc3NwYXNzLmphZGU6ZXhjZXB0aW9uOiR7ZGVwc1siamFkZSJdfSIpCg==</text>
+        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uY2xhc3NwYXNzLmphZGU6dXRpbDoke2RlcHNbImphZGUiXX0iKQo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuamFkZS5tZXRyaWNzLmd1aWNlLkRhdGFkb2dNZXRyaWNzTW9kdWxlCg==</text>
+        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uY2xhc3NwYXNzLmphZGU6ZXhjZXB0aW9uOiR7ZGVwc1siamFkZSJdfSIpCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuamFkZS5tZXRyaWNzLmd1aWNlLkRhdGFkb2dNZXRyaWNzTW9kdWxlCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5223,13 +5233,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBQcm92aWRlcwogICAgQFNpbmdsZXRvbgogICAgZnVuIHByb3ZpZGVNZXRlclJlZ2lzdHJ5Q29uZmlnKGNvbmZpZzogUGFydG5lcnNDb25maWcpOiBNZXRlclJlZ2lzdHJ5Q29uZmlnICB7CiAgICAgICAgcmV0dXJuIE1ldGVyUmVnaXN0cnlDb25maWcoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgU3RyaW5nIGFwaUtleSgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBjb25maWcuZ2V0RGF0YWRvZ0FwaUtleSgpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIFN0cmluZyBwcmVmaXgoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gImNwLnB1Ymxpc2hlciI7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgU3RyaW5nIHNlcnZpY2VOYW1lKCkgewogICAgICAgICAgICAgICAgcmV0dXJuIGNvbmZpZy5nZXRTZXJ2aWNlTmFtZSgpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIFN0cmluZyBlbnYoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gU3lzdGVtLmdldGVudigpLmdldCgiQ1BfQ09ORklHX0VOViIpOwogICAgICAgICAgICB9CiAgICAgICAgfTsKICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5447,30 +5457,26 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuZGVjCg==</text>
+        <text encoding="base64">ICAgIEBQcm92aWRlcwogICAgQFNpbmdsZXRvbgogICAgZnVuIHByb3ZpZGVNZXRlclJlZ2lzdHJ5Q29uZmlnKGNvbmZpZzogUGFydG5lcnNDb25maWcpOiBNZXRlclJlZ2lzdHJ5Q29uZmlnICB7CiAgICAgICAgcmV0dXJuIE1ldGVyUmVnaXN0cnlDb25maWcoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgU3RyaW5nIGFwaUtleSgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBjb25maWcuZ2V0RGF0YWRvZ0FwaUtleSgpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIFN0cmluZyBwcmVmaXgoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gImNwLnB1Ymxpc2hlciI7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgU3RyaW5nIHNlcnZpY2VOYW1lKCkgewogICAgICAgICAgICAgICAgcmV0dXJuIGNvbmZpZy5nZXRTZXJ2aWNlTmFtZSgpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIFN0cmluZyBlbnYoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gU3lzdGVtLmdldGVudigpLmdldCgiQ1BfQ09ORklHX0VOViIpOwogICAgICAgICAgICB9CiAgICAgICAgfTsKICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuamFkZS5tZXRyaWNzLmd1aWNlLkRhdGFkb2dNZXRyaWNzTW9kdWxlCg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuZGVjCg==</text>
       </register>
       <register name=":" type="4">
         <text>action MethodDown</text>
       </register>
     </registers>
     <search>
-      <last-search>Time</last-search>
+      <last-search encoding="base64">XDx1cGRhdGVkVXNlcklkXD4=</last-search>
       <last-offset />
-      <last-pattern>Time</last-pattern>
+      <last-pattern encoding="base64">XDx1cGRhdGVkVXNlcklkXD4=</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">IDogLio=</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxnZXRTY2hlZHVsZVJlcG9ydFw+</entry>
-        <entry>forb</entry>
-        <entry>jooq</entry>
-        <entry>etr</entry>
         <entry>environ</entry>
         <entry encoding="base64">XDxNZXRyaWNzTW9kdWxlXD4=</entry>
         <entry>dropw</entry>
@@ -5487,6 +5493,10 @@
         <entry>binder</entry>
         <entry>@Time</entry>
         <entry>Time</entry>
+        <entry encoding="base64">XDxJRF9IRUFERVJfTkFNRVw+</entry>
+        <entry encoding="base64">XDx1c2VySWRIZWFkZXJcPg==</entry>
+        <entry encoding="base64">XDx1c2VySWRcPg==</entry>
+        <entry encoding="base64">XDx1cGRhdGVkVXNlcklkXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO2l0O3Jlc2VydmF0aW9u</entry>
