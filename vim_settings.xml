@@ -127,8 +127,8 @@
         <mark key="^" line="55" column="49" />
         <mark key="." line="55" column="49" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/models.py" timestamp="1567702413243">
-        <mark key="'" line="58" column="36" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/models.py" timestamp="1567717677763">
+        <mark key="'" line="92" column="6" />
         <mark key="[" line="32" column="70" />
         <mark key="]" line="33" column="59" />
         <mark key="." line="33" column="59" />
@@ -613,7 +613,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="150" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="3" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="137" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
@@ -713,6 +712,7 @@
       <jump line="19" column="32" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
       <jump line="40" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
       <jump line="122" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/runbook.md" />
+      <jump line="92" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/models.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -787,7 +787,7 @@
         <text>123</text>
       </register>
       <register name="/" type="4">
-        <text>migra</text>
+        <text>total_r</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">REpBTkdPX1NFVFRJTkdTX01PRFVMRT1jbGFzc3Bhc3Muc2V0dGluZ3MubG9jYWwgcHl0aG9uIHNlcnZlci9jbGFzc3Bhc3MvbWFuYWdlLnB5IG1pZ3JhdGUgcmV2ZW51ZSAtLWRhdGFiYXNlIHZwX3Bvc3RncmVzCg==</text>
@@ -1523,9 +1523,9 @@
       </register>
     </registers>
     <search>
-      <last-search>migra</last-search>
+      <last-search>total_r</last-search>
       <last-offset />
-      <last-pattern>migra</last-pattern>
+      <last-pattern>total_r</last-pattern>
       <last-replace>schedule</last-replace>
       <last-substitute>classes</last-substitute>
       <last-dir>1</last-dir>
@@ -1533,7 +1533,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxpbmNsdWRlX3Nwb3RfcmVjc1w+</entry>
         <entry encoding="base64">XDxyZXZlbnVlX2l0ZW1fbG9nX2Jhc2VfcXNcPg==</entry>
         <entry>whitel</entry>
         <entry>classes_re</entry>
@@ -1553,6 +1552,7 @@
         <entry>123</entry>
         <entry>class_name</entry>
         <entry>migra</entry>
+        <entry>total_r</entry>
       </history-search>
       <history-cmd>
         <entry>151</entry>
