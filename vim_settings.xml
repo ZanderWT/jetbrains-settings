@@ -134,12 +134,12 @@
         <mark key="." line="33" column="59" />
         <mark key="^" line="33" column="59" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1563567620155">
-        <mark key="'" line="468" column="6" />
-        <mark key="[" line="442" column="7" />
-        <mark key="]" line="442" column="6" />
-        <mark key="^" line="442" column="6" />
-        <mark key="." line="442" column="6" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" timestamp="1567721672589">
+        <mark key="'" line="703" column="36" />
+        <mark key="[" line="703" column="36" />
+        <mark key="]" line="703" column="72" />
+        <mark key="^" line="703" column="36" />
+        <mark key="." line="703" column="36" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/conf/urls/__init__.py" timestamp="1560286446018">
         <mark key="'" line="76" column="4" />
@@ -613,7 +613,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="150" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="3" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="137" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="116" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
@@ -713,6 +712,7 @@
       <jump line="40" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/testing/test_payments_api_models.py" />
       <jump line="122" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docs/runbook.md" />
       <jump line="92" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/models.py" />
+      <jump line="703" column="36" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -787,10 +787,10 @@
         <text>123</text>
       </register>
       <register name="/" type="4">
-        <text>total_r</text>
+        <text>fake.random.randint</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">REpBTkdPX1NFVFRJTkdTX01PRFVMRT1jbGFzc3Bhc3Muc2V0dGluZ3MubG9jYWwgcHl0aG9uIHNlcnZlci9jbGFzc3Bhc3MvbWFuYWdlLnB5IG1pZ3JhdGUgcmV2ZW51ZSAtLWRhdGFiYXNlIHZwX3Bvc3RncmVzCg==</text>
+      <register name="0" type="4">
+        <text>lambda: fake.random.randint(1, 1000)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHBlcm1pc3Npb25fY2xhc3NlcyA9IFtJc0Rpc3BsYXlSYXRlXQo=</text>
@@ -1523,17 +1523,16 @@
       </register>
     </registers>
     <search>
-      <last-search>total_r</last-search>
+      <last-search>fake.random.randint</last-search>
       <last-offset />
-      <last-pattern>total_r</last-pattern>
+      <last-pattern>fake.random.randint</last-pattern>
       <last-replace>schedule</last-replace>
       <last-substitute>classes</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZXZlbnVlX2l0ZW1fbG9nX2Jhc2VfcXNcPg==</entry>
         <entry>whitel</entry>
         <entry>classes_re</entry>
         <entry>classes</entry>
@@ -1553,6 +1552,7 @@
         <entry>class_name</entry>
         <entry>migra</entry>
         <entry>total_r</entry>
+        <entry>fake.random.randint</entry>
       </history-search>
       <history-cmd>
         <entry>151</entry>
