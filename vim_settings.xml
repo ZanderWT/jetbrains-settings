@@ -241,12 +241,12 @@
         <mark key="." line="42" column="63" />
         <mark key="^" line="42" column="63" />
       </file>
-      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/StudioDao.sql.stg" timestamp="1567703894711">
-        <mark key="'" line="186" column="0" />
-        <mark key="[" line="192" column="19" />
-        <mark key="]" line="193" column="16" />
-        <mark key="." line="193" column="16" />
-        <mark key="^" line="193" column="16" />
+      <file name="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/StudioDao.sql.stg" timestamp="1567711449445">
+        <mark key="'" line="221" column="16" />
+        <mark key="[" line="213" column="0" />
+        <mark key="]" line="213" column="28" />
+        <mark key="." line="221" column="16" />
+        <mark key="^" line="221" column="16" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" timestamp="1566933978700">
         <mark key="[" line="23" column="26" />
@@ -373,8 +373,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="74" column="68" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" />
-      <jump line="15" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
       <jump line="60" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
       <jump line="54" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
       <jump line="57" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
@@ -473,6 +471,8 @@
       <jump line="34" column="2" filename="$USER_HOME$/cp-projects/partners-service/config/use1-config.yml" />
       <jump line="57" column="14" filename="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" />
       <jump line="48" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/resources/ReportingResource.java" />
+      <jump line="185" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/StudioDao.sql.stg" />
+      <jump line="221" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/StudioDao.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1937,10 +1937,10 @@
         <text>String</text>
       </register>
       <register name="/" type="4">
-        <text>reservations_for_venues</text>
+        <text>getvenuereservationbyven</text>
       </register>
       <register name="0" type="4">
-        <text>reservations_for_venue</text>
+        <text>getVenueReservationByVenueIds</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBiaW5kZXIuaW5zdGFsbChNZXRyaWNzTW9kdWxlKCkpCg==</text>
@@ -5498,9 +5498,9 @@
       </register>
     </registers>
     <search>
-      <last-search>reservations_for_venues</last-search>
+      <last-search>getvenuereservationbyven</last-search>
       <last-offset />
-      <last-pattern>reservations_for_venues</last-pattern>
+      <last-pattern>getvenuereservationbyven</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">IDogLio=</last-substitute>
       <last-dir>1</last-dir>
@@ -5508,7 +5508,6 @@
     </search>
     <history>
       <history-search>
-        <entry>metr</entry>
         <entry>datad</entry>
         <entry>binder</entry>
         <entry>@Time</entry>
@@ -5528,6 +5527,7 @@
         <entry>protob</entry>
         <entry>admin</entry>
         <entry>reservations_for_venues</entry>
+        <entry>getvenuereservationbyven</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO2l0O3Jlc2VydmF0aW9u</entry>
