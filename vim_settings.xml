@@ -267,6 +267,12 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/db/models/fields/__init__.py" timestamp="1567702424690">
         <mark key="'" line="104" column="40" />
       </file>
+      <file name="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/revenue_db_class_ids/backfill-class-ids.py" timestamp="1568150674529">
+        <mark key="[" line="59" column="27" />
+        <mark key="]" line="59" column="28" />
+        <mark key="." line="59" column="28" />
+        <mark key="^" line="59" column="26" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/creditprice/swagger_client/api/credit_price_api.py" timestamp="1551114670169">
         <mark key="'" line="34" column="8" />
       </file>
@@ -634,7 +640,7 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/db/models/fields/related.py" timestamp="1562946815636">
         <mark key="'" line="1475" column="50" />
       </file>
-      <file name="/Dummy.txt" timestamp="1567010441338">
+      <file name="/Dummy.txt" timestamp="1568150390868">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/prod.py" timestamp="1563222175459">
@@ -862,16 +868,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>run_query</text>
+        <text>ql</text>
       </register>
       <register name="/" type="4">
-        <text>connect(</text>
+        <text>_enter</text>
       </register>
       <register name="0" type="4">
         <text>lapi_database</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgICAgICB2cF9jdXJzb3IuZXhlY3V0ZSgiU0VMRUNUIDIiKQogICAgICAgIHZwX2N1cnNvci5mZXRjaG9uZSgpCiAgICAgICAgbG9nZ2luZy5pbmZvKCJjb25uZWN0ZWQgdG8gdmVudWUgcG9ydGFsIGRiIik=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -913,31 +919,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBjdXJzb3IuZmV0Y2htYW55KGZldGNoX3NpemUpCg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxhcGkuCg==</text>
+        <text encoding="base64">ICAgICAgICB3aGlsZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxhcGlfY29ubmVjdG9yLnJ1bl9xdWVyeSgiU0VMRUNUIDEiKQo=</text>
+        <text encoding="base64">ICAgICAgICBzY2hlZHVsZV9pZHMgPSBbXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHZlbnVlX3BvcnRhbF9jb25uZWN0b3I6IENvbm5lY3RvciA9IE15U3FsQ29ubmVjdG9yKGNvbmZpZ1snbGFwaV9kYXRhYmFzZSddKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGxhcGlfY29ubmVjdG9yOiBDb25uZWN0b3IgPSBQb3N0Z3Jlc0Nvbm5lY3Rvcihjb25maWdbJ2xhcGlfZGF0YWJhc2UnXSkK</text>
+        <text encoding="base64">ICAgIGN1cnNvciA9IAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBkZWYgZmV0Y2hfcmVzdWx0cyhzZWxmKSAtPiBMaXN0W1R1cGxlXToKCg==</text>
+        <text encoding="base64">ICAgIHZwX2N1cnNvciA9IHZlbnVlX3BvcnRhbC5jdXJzb3IoKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHdpbmRvdyA9IDAK</text>
+        <text encoding="base64">ICAgIGxhcGlfY3Vyc29yID0gbGFwaS5jdXJzb3IoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -1601,9 +1607,9 @@
       </register>
     </registers>
     <search>
-      <last-search>connect(</last-search>
+      <last-search>_enter</last-search>
       <last-offset />
-      <last-pattern>connect(</last-pattern>
+      <last-pattern>_enter</last-pattern>
       <last-replace>schedule</last-replace>
       <last-substitute>classes</last-substitute>
       <last-dir>1</last-dir>
@@ -1611,7 +1617,6 @@
     </search>
     <history>
       <history-search>
-        <entry>fake.random.randint</entry>
         <entry>pending</entry>
         <entry encoding="base64">ID0g</entry>
         <entry encoding="base64">XDxyZXZlbnVlX2xvZ19kaWN0c1w+</entry>
@@ -1631,6 +1636,7 @@
         <entry>window</entry>
         <entry>mysq</entry>
         <entry>connect(</entry>
+        <entry>_enter</entry>
       </history-search>
       <history-cmd>
         <entry>1605</entry>
