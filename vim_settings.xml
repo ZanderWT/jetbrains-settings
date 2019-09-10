@@ -537,12 +537,12 @@
         <mark key="^" line="19" column="24" />
         <mark key="." line="19" column="24" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/revenue_db_class_ids/get-class-ids.py" timestamp="1568144711471">
-        <mark key="'" line="2" column="0" />
-        <mark key="[" line="41" column="16" />
-        <mark key="]" line="41" column="17" />
-        <mark key="." line="41" column="17" />
-        <mark key="^" line="32" column="70" />
+      <file name="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/revenue_db_class_ids/get-class-ids.py" timestamp="1568146885892">
+        <mark key="'" line="44" column="22" />
+        <mark key="[" line="13" column="4" />
+        <mark key="]" line="13" column="37" />
+        <mark key="." line="13" column="37" />
+        <mark key="^" line="13" column="37" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities_dal.py" timestamp="1559084823901">
         <mark key="'" line="118" column="8" />
@@ -667,11 +667,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="301" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/postgres_initial_data/0002_test_postgres_schema.sql" />
-      <jump line="36" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/postgres_initial_data/0002_test_postgres_schema.sql" />
-      <jump line="221" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/postgres_initial_data/0002_test_postgres_schema.sql" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
-      <jump line="24" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
       <jump line="39" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
       <jump line="54" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
       <jump line="75" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" />
@@ -767,6 +762,11 @@
       <jump line="28" column="0" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/passport_ratings/backfill_ratings_teacher_id.py" />
       <jump line="3" column="0" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/db_updater/db_updater.py" />
       <jump line="6" column="23" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/db_updater/db_updater.py" />
+      <jump line="34" column="24" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/revenue_db_class_ids/get-class-ids.py" />
+      <jump line="35" column="17" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/revenue_db_class_ids/get-class-ids.py" />
+      <jump line="11" column="64" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/revenue_db_class_ids/get-class-ids.py" />
+      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/revenue_db_class_ids/get-class-ids.py" />
+      <jump line="44" column="22" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/revenue_db_class_ids/get-class-ids.py" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -838,16 +838,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>venueportal</text>
+        <text>lapi_updater: DbUpdater, venue_portal_updater: DbUpdater</text>
       </register>
       <register name="/" type="4">
-        <text>connec</text>
+        <text>window</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">dXNlciA9IGNsYXNzdGl2aXR5cHJkCnBhc3N3b3JkID0gY2xhc3N0aXZpdHlwcmQKaG9zdCA9IGxvY2FsaG9zdApkYXRhYmFzZSA9IGNsYXNzdGl2aXR5cHJkCnBvcnQgPSAzMzU1Cg==</text>
+        <text encoding="base64">ICAgIGxhcGlDb25uZWN0b3I6IENvbm5lY3RvciA9IE15U3FsQ29ubmVjdG9yKGNvbmZpZ1snbGFwaV9kYXRhYmFzZSddKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IG15c3FsLmNvbm5lY3Rvcgo=</text>
+        <text encoding="base64">ICAgIHdpbmRvdyA9IDAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -889,34 +889,35 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZGVmIG1haW4odXBkYXRlcjogRGJVcGRhdGVyLCBidWxrX3NpemUpIC0+IE5vbmU6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkYXRhID0gcmVxdWVzdC5kYXRhCg==</text>
+      <register name="3" type="8">
+        <text>''
+''</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="4">
-        <text encoding="base64">ICAgICAgICBzZXJpYWxpemVyID0gUmV2ZW51ZVJlcG9ydFJlc2VydmF0aW9uU2VyaWFsaXplcihkYXRhPWRhdGEpCiAgICAgICAgaWYgbm90IHNlcmlhbGl6ZXIuaXNfdmFsaWQoKToKICAgICAgICAgICAgcmV0dXJuIFJlc3BvbnNlKHN0YXR1cz1IVFRQXzQwMF9CQURfUkVRVUVTVCkKICAgICAgICB2YWxpZGF0ZWRfZGF0YSA9IHNlcmlhbGl6ZXIudmFsaWRhdGVkX2RhdGEKICAgICAgICB2ZW51ZV9pZHMgPSB2YWxpZGF0ZWRfZGF0YVsndmVudWVfaWRzJ10KICAgICAgICBzZWxmLl92YWxpZGF0ZV9yZXF1ZXN0X3VzZXJfZm9yX3ZlbnVlX2lkcyhyZXF1ZXN0LCB2ZW51ZV9pZHMpCiAgICAgICAgc3RhcnRfZGF0ZSA9IHZhbGlkYXRlZF9kYXRhWydzdGFydF9kYXRlJ10KICAgICAgICBlbmRfZGF0ZSA9IHZhbGlkYXRlZF9kYXRhWydlbmRfZGF0ZSddCiAgICAgICAgZXhjbHVkZWRfc3RhdHVzZXMgPSB2YWxpZGF0ZWRfZGF0YVsnZXhjbHVkZWRfc3RhdHVzZXMnXQogICAgICAgIGV4Y2x1ZGVkX2NsYXNzX25hbWVzID0gdmFsaWRhdGVkX2RhdGFbJ2V4Y2x1ZGVkX2NsYXNzX25hbWVzJ10KICAgICAgICBleGNsdWRlZF9zdGFydF90aW1lcyA9IHZhbGlkYXRlZF9kYXRhWydleGNsdWRlZF9zdGFydF90aW1lcyddCiAgICAgICAgcGFnZSA9IHZhbGlkYXRlZF9kYXRhWydwYWdlJ10KICAgICAgICBsaW1pdCA9IHZhbGlkYXRlZF9kYXRhWydsaW1pdCddCiAgICAgICAgc29ydF9kaXJlY3Rpb24gPSB2YWxpZGF0ZWRfZGF0YVsnc29ydF9kaXJlY3Rpb24nXQogICAgICAgIHNvcnRfZmllbGQgPSB2YWxpZGF0ZWRfZGF0YVsnc29ydF9maWVsZCddCgogICAgICAgIHJlc2VydmF0aW9uc19kYXRhID0gUmV2ZW51ZVJlcG9ydGluZ0NvbnRyb2xsZXIuZ2V0X3JldmVudWVfcmVwb3J0X3Jlc2VydmF0aW9uc19kYXRhKAogICAgICAgICAgICB2ZW51ZV9pZHMsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlLCBleGNsdWRlZF9jbGFzc19uYW1lcywgZXhjbHVkZWRfc3RhcnRfdGltZXMsIGV4Y2x1ZGVkX3N0YXR1c2VzLAogICAgICAgICAgICBsaW1pdCwgcGFnZSwgc29ydF9kaXJlY3Rpb24sIHNvcnRfZmllbGQKICAgICAgICApCgogICAgICAgIHJldHVybiBSZXNwb25zZShyZXNlcnZhdGlvbnNfZGF0YSk=</text>
+        <text encoding="base64">ICAgICAgICBsYXBpX3VwZGF0ZXI9RGJVcGRhdGVyKAogICAgICAgICAgICBjb25uZWN0b3I9bGFwaV9jb25uZWN0b3IsCiAgICAgICAgICAgIGNvbW1pdF9jaHVua19zaXplPTEsCiAgICAgICAgICAgIHF1ZXJ5PUJVTEtfRlJPTV9TRUxFQ1QKICAgICAgICApLA==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZXJpYWxpemVyID0gUmV2ZW51ZVJlcG9ydFJlc2VydmF0aW9uU2VyaWFsaXplcihkYXRhPWRhdGEpCiAgICAgICAgaWYgbm90IHNlcmlhbGl6ZXIuaXNfdmFsaWQoKToKICAgICAgICAgICAgcmV0dXJuIFJlc3BvbnNlKHN0YXR1cz1IVFRQXzQwMF9CQURfUkVRVUVTVCkKICAgICAgICB2YWxpZGF0ZWRfZGF0YSA9IHNlcmlhbGl6ZXIudmFsaWRhdGVkX2RhdGEKICAgICAgICB2ZW51ZV9pZHMgPSB2YWxpZGF0ZWRfZGF0YVsndmVudWVfaWRzJ10KICAgICAgICBzZWxmLl92YWxpZGF0ZV9yZXF1ZXN0X3VzZXJfZm9yX3ZlbnVlX2lkcyhyZXF1ZXN0LCB2ZW51ZV9pZHMpCiAgICAgICAgc3RhcnRfZGF0ZSA9IHZhbGlkYXRlZF9kYXRhWydzdGFydF9kYXRlJ10KICAgICAgICBlbmRfZGF0ZSA9IHZhbGlkYXRlZF9kYXRhWydlbmRfZGF0ZSddCiAgICAgICAgZXhjbHVkZWRfc3RhdHVzZXMgPSB2YWxpZGF0ZWRfZGF0YVsnZXhjbHVkZWRfc3RhdHVzZXMnXQogICAgICAgIGV4Y2x1ZGVkX2NsYXNzX25hbWVzID0gdmFsaWRhdGVkX2RhdGFbJ2V4Y2x1ZGVkX2NsYXNzX25hbWVzJ10KICAgICAgICBleGNsdWRlZF9zdGFydF90aW1lcyA9IHZhbGlkYXRlZF9kYXRhWydleGNsdWRlZF9zdGFydF90aW1lcyddCiAgICAgICAgcGFnZSA9IHZhbGlkYXRlZF9kYXRhWydwYWdlJ10KICAgICAgICBsaW1pdCA9IHZhbGlkYXRlZF9kYXRhWydsaW1pdCddCiAgICAgICAgc29ydF9kaXJlY3Rpb24gPSB2YWxpZGF0ZWRfZGF0YVsnc29ydF9kaXJlY3Rpb24nXQogICAgICAgIHNvcnRfZmllbGQgPSB2YWxpZGF0ZWRfZGF0YVsnc29ydF9maWVsZCddCgogICAgICAgIHJlc2VydmF0aW9uc19kYXRhID0gUmV2ZW51ZVJlcG9ydGluZ0NvbnRyb2xsZXIuZ2V0X3JldmVudWVfcmVwb3J0X3Jlc2VydmF0aW9uc19kYXRhKAogICAgICAgICAgICB2ZW51ZV9pZHMsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlLCBleGNsdWRlZF9jbGFzc19uYW1lcywgZXhjbHVkZWRfc3RhcnRfdGltZXMsIGV4Y2x1ZGVkX3N0YXR1c2VzLAogICAgICAgICAgICBsaW1pdCwgcGFnZSwgc29ydF9kaXJlY3Rpb24sIHNvcnRfZmllbGQKICAgICAgICApCgogICAgICAgIHJldHVybiBSZXNwb25zZShyZXNlcnZhdGlvbnNfZGF0YSkK</text>
+        <text encoding="base64">ICAgIHdpdGggdXBkYXRlcjoKICAgICAgICB3aGlsZSBUcnVlOgogICAgICAgICAgICB3aW5kb3dfbWluID0gd2luZG93ICogYnVsa19zaXplCiAgICAgICAgICAgIHdpbmRvd19tYXggPSAod2luZG93ICsgMSkgKiBidWxrX3NpemUKCiAgICAgICAgICAgIHJvd3MgPSB1cGRhdGVyLnVwZGF0ZSh7CiAgICAgICAgICAgICAgICAnbGltaXQnOiBidWxrX3NpemUsCiAgICAgICAgICAgICAgICAnd2luZG93X21pbic6IHdpbmRvd19taW4sCiAgICAgICAgICAgICAgICAnd2luZG93X21heCc6IHdpbmRvd19tYXgKICAgICAgICAgICAgfSkKICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCIlcyByb3dzIHVwZGF0ZWQsIHVwIHRvIGlkICVzIiwgcm93cywgd2luZG93X21heCkKCiAgICAgICAgICAgIHdpbmRvdyArPSAxCiAgICAgICAgICAgIGlmIHdpbmRvd19tYXggPiA1MTAwMDAwMDoKICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
+        <text encoding="base64">aW1wb3J0IG15c3FsLmNvbm5lY3Rvcgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIF0K</text>
+        <text encoding="base64">ZGVmIG1haW4odXBkYXRlcjogRGJVcGRhdGVyLCBidWxrX3NpemUpIC0+IE5vbmU6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ2NsYXNzX2lkJzogODAwMCwK</text>
+        <text encoding="base64">ICAgICAgICBkYXRhID0gcmVxdWVzdC5kYXRhCg==</text>
       </register>
       <register name="9" type="4">
-        <text>''</text>
+        <text encoding="base64">ICAgICAgICBzZXJpYWxpemVyID0gUmV2ZW51ZVJlcG9ydFJlc2VydmF0aW9uU2VyaWFsaXplcihkYXRhPWRhdGEpCiAgICAgICAgaWYgbm90IHNlcmlhbGl6ZXIuaXNfdmFsaWQoKToKICAgICAgICAgICAgcmV0dXJuIFJlc3BvbnNlKHN0YXR1cz1IVFRQXzQwMF9CQURfUkVRVUVTVCkKICAgICAgICB2YWxpZGF0ZWRfZGF0YSA9IHNlcmlhbGl6ZXIudmFsaWRhdGVkX2RhdGEKICAgICAgICB2ZW51ZV9pZHMgPSB2YWxpZGF0ZWRfZGF0YVsndmVudWVfaWRzJ10KICAgICAgICBzZWxmLl92YWxpZGF0ZV9yZXF1ZXN0X3VzZXJfZm9yX3ZlbnVlX2lkcyhyZXF1ZXN0LCB2ZW51ZV9pZHMpCiAgICAgICAgc3RhcnRfZGF0ZSA9IHZhbGlkYXRlZF9kYXRhWydzdGFydF9kYXRlJ10KICAgICAgICBlbmRfZGF0ZSA9IHZhbGlkYXRlZF9kYXRhWydlbmRfZGF0ZSddCiAgICAgICAgZXhjbHVkZWRfc3RhdHVzZXMgPSB2YWxpZGF0ZWRfZGF0YVsnZXhjbHVkZWRfc3RhdHVzZXMnXQogICAgICAgIGV4Y2x1ZGVkX2NsYXNzX25hbWVzID0gdmFsaWRhdGVkX2RhdGFbJ2V4Y2x1ZGVkX2NsYXNzX25hbWVzJ10KICAgICAgICBleGNsdWRlZF9zdGFydF90aW1lcyA9IHZhbGlkYXRlZF9kYXRhWydleGNsdWRlZF9zdGFydF90aW1lcyddCiAgICAgICAgcGFnZSA9IHZhbGlkYXRlZF9kYXRhWydwYWdlJ10KICAgICAgICBsaW1pdCA9IHZhbGlkYXRlZF9kYXRhWydsaW1pdCddCiAgICAgICAgc29ydF9kaXJlY3Rpb24gPSB2YWxpZGF0ZWRfZGF0YVsnc29ydF9kaXJlY3Rpb24nXQogICAgICAgIHNvcnRfZmllbGQgPSB2YWxpZGF0ZWRfZGF0YVsnc29ydF9maWVsZCddCgogICAgICAgIHJlc2VydmF0aW9uc19kYXRhID0gUmV2ZW51ZVJlcG9ydGluZ0NvbnRyb2xsZXIuZ2V0X3JldmVudWVfcmVwb3J0X3Jlc2VydmF0aW9uc19kYXRhKAogICAgICAgICAgICB2ZW51ZV9pZHMsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlLCBleGNsdWRlZF9jbGFzc19uYW1lcywgZXhjbHVkZWRfc3RhcnRfdGltZXMsIGV4Y2x1ZGVkX3N0YXR1c2VzLAogICAgICAgICAgICBsaW1pdCwgcGFnZSwgc29ydF9kaXJlY3Rpb24sIHNvcnRfZmllbGQKICAgICAgICApCgogICAgICAgIHJldHVybiBSZXNwb25zZShyZXNlcnZhdGlvbnNfZGF0YSk=</text>
       </register>
       <register name=":" type="4">
-        <text>24</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1577,18 +1578,16 @@
       </register>
     </registers>
     <search>
-      <last-search>connec</last-search>
+      <last-search>window</last-search>
       <last-offset />
-      <last-pattern>connec</last-pattern>
+      <last-pattern>window</last-pattern>
       <last-replace>schedule</last-replace>
       <last-substitute>classes</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>class_n</entry>
-        <entry>123</entry>
         <entry>migra</entry>
         <entry>total_r</entry>
         <entry>fake.random.randint</entry>
@@ -1607,6 +1606,8 @@
         <entry>on</entry>
         <entry>request.data</entry>
         <entry>connec</entry>
+        <entry>config.ini</entry>
+        <entry>window</entry>
       </history-search>
       <history-cmd>
         <entry>1605</entry>
@@ -1627,8 +1628,8 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action MethodUp</entry>
-        <entry>action ReformatCode</entry>
         <entry>24</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
