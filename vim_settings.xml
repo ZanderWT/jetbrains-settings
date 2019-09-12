@@ -210,7 +210,7 @@
         <mark key="^" line="773" column="15" />
         <mark key="." line="775" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1568238727770">
+      <file name="/Python Console" timestamp="1568301191325">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1566859245735">
@@ -349,12 +349,12 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/urls/base.py" timestamp="1562884198364">
         <mark key="'" line="97" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" timestamp="1568238876433">
-        <mark key="'" line="64" column="9" />
-        <mark key="[" line="97" column="52" />
-        <mark key="]" line="97" column="56" />
-        <mark key="." line="97" column="56" />
-        <mark key="^" line="97" column="56" />
+      <file name="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" timestamp="1568301504589">
+        <mark key="'" line="135" column="4" />
+        <mark key="[" line="67" column="78" />
+        <mark key="]" line="67" column="103" />
+        <mark key="." line="67" column="103" />
+        <mark key="^" line="67" column="103" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local.py" timestamp="1558724367614">
         <mark key="'" line="2" column="0" />
@@ -730,10 +730,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="767" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
-      <jump line="810" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
-      <jump line="822" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
-      <jump line="823" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="917" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="950" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="197" column="73" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
@@ -805,7 +801,6 @@
       <jump line="62" column="75" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="59" column="52" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="14" column="72" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
-      <jump line="96" column="26" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="98" column="12" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="106" column="24" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/config.ini" />
@@ -830,6 +825,11 @@
       <jump line="100" column="4" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="52" column="9" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="64" column="9" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
+      <jump line="96" column="0" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
+      <jump line="10" column="40" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
+      <jump line="78" column="9" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
+      <jump line="135" column="4" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -901,16 +901,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IG15c3FsX2N1cnNvcg==</text>
+        <text>Fetching</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxteXNxbF9jdXJzb3JcPg==</text>
+        <text>logging</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">QGNvbnRleHRtYW5hZ2VyCg==</text>
       </register>
-      <register name="1" type="4">
-        <text>()</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oIkZldGNoZWQge2xlbihyZXNlcnZhdGlvbl9pZHMpfSByZXNlcnZhdGlvbiBpZHMiKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -951,32 +951,32 @@
           <key char="66" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>lapi</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBidWlsZF90ZW1wX2xhcGlfdGFibGUobGFwaSkK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gW3JlY29yZCBmb3IgcmVjb3JkIGluIGN1cnNvcl0K</text>
+      <register name="3" type="4">
+        <text>()</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="4">
+        <text>lapi</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gW3JlY29yZCBmb3IgcmVjb3JkIGluIGN1cnNvcl0K</text>
+      </register>
+      <register name="6" type="4">
         <text>()</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>reservation_id,</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIDpwYXJhbSBsYXBpOiAKICAgIDpwYXJhbSByZXNlcnZhdGlvbl9pZHNfY3Vyc29yOiAKICAgIDpyZXR1cm46IAo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBoYXNfbW9yZSA9IFRydWUK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkbzoK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBoYXNfbW9yZSA9IFRydWUK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -1640,9 +1640,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxteXNxbF9jdXJzb3JcPg==</last-search>
+      <last-search>logging</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxteXNxbF9jdXJzb3JcPg==</last-pattern>
+      <last-pattern>logging</last-pattern>
       <last-replace>schedule</last-replace>
       <last-substitute>classes</last-substitute>
       <last-dir>1</last-dir>
@@ -1650,8 +1650,6 @@
     </search>
     <history>
       <history-search>
-        <entry>lim</entry>
-        <entry>tmp</entry>
         <entry>select sc</entry>
         <entry>val</entry>
         <entry>schedule_id</entry>
@@ -1670,6 +1668,8 @@
         <entry encoding="base64">XDx1cGRhdGVfcmV2ZW51ZWl0ZW1sb2dcPg==</entry>
         <entry>buffered</entry>
         <entry encoding="base64">XDxteXNxbF9jdXJzb3JcPg==</entry>
+        <entry>cursor</entry>
+        <entry>logging</entry>
       </history-search>
       <history-cmd>
         <entry>1605</entry>
