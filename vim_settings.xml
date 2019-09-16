@@ -367,8 +367,8 @@
         <mark key="." line="0" column="33" />
         <mark key="^" line="0" column="33" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1567545805608">
-        <mark key="'" line="77" column="33" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" timestamp="1568674098356">
+        <mark key="'" line="74" column="62" />
         <mark key="[" line="77" column="63" />
         <mark key="]" line="77" column="70" />
         <mark key="." line="77" column="70" />
@@ -430,12 +430,6 @@
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/rest_framework-stubs/serializers.pyi" timestamp="1559074749611">
         <mark key="'" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/classpass-utilities/backfill-data/db_updater/connector/__init__.py" timestamp="1568148188779">
-        <mark key="'" line="4" column="19" />
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/django_rq/queues.py" timestamp="1542742105655">
         <mark key="'" line="21" column="10" />
@@ -705,7 +699,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="991" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="1066" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="1105" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
       <jump line="1130" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_revenue_cron_controller.py" />
@@ -805,6 +798,7 @@
       <jump line="107" column="11" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="55" column="9" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="84" column="67" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
+      <jump line="74" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -879,7 +873,7 @@
         <text>Fetching</text>
       </register>
       <register name="/" type="4">
-        <text>commit</text>
+        <text>revenue</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">QGNvbnRleHRtYW5hZ2VyCg==</text>
@@ -1615,9 +1609,9 @@
       </register>
     </registers>
     <search>
-      <last-search>commit</last-search>
+      <last-search>revenue</last-search>
       <last-offset />
-      <last-pattern>commit</last-pattern>
+      <last-pattern>revenue</last-pattern>
       <last-replace>schedule</last-replace>
       <last-substitute>classes</last-substitute>
       <last-dir>1</last-dir>
@@ -1625,7 +1619,6 @@
     </search>
     <history>
       <history-search>
-        <entry>schedule_id</entry>
         <entry>_and</entry>
         <entry>schedule</entry>
         <entry>batch</entry>
@@ -1645,6 +1638,7 @@
         <entry>.close()</entry>
         <entry>update_re</entry>
         <entry>commit</entry>
+        <entry>revenue</entry>
       </history-search>
       <history-cmd>
         <entry>1605</entry>
