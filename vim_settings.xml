@@ -85,12 +85,12 @@
       <file name="$USER_HOME$/cp-projects/hfr-service/svc/src/main/java/com/classpass/hfr/HumanFulfillableReservationsModule.kt" timestamp="1567539709421">
         <mark key="'" line="52" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1568748740987">
-        <mark key="'" line="46" column="56" />
-        <mark key="[" line="78" column="0" />
-        <mark key="]" line="78" column="0" />
-        <mark key="." line="78" column="0" />
-        <mark key="^" line="64" column="17" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1568753953782">
+        <mark key="'" line="47" column="56" />
+        <mark key="[" line="60" column="32" />
+        <mark key="]" line="60" column="56" />
+        <mark key="." line="60" column="56" />
+        <mark key="^" line="60" column="56" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" timestamp="1568235641680">
         <mark key="'" line="32" column="6" />
@@ -205,10 +205,10 @@
         <mark key="." line="18" column="44" />
         <mark key="^" line="18" column="44" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" timestamp="1568748544132">
-        <mark key="'" line="61" column="35" />
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="7" column="14" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" timestamp="1568753918152">
+        <mark key="'" line="6" column="0" />
+        <mark key="[" line="37" column="20" />
+        <mark key="]" line="37" column="26" />
         <mark key="." line="61" column="35" />
         <mark key="^" line="45" column="40" />
       </file>
@@ -335,7 +335,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="3" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="48" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="58" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="59" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
@@ -435,6 +434,7 @@
       <jump line="42" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="43" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="44" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
+      <jump line="6" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1898,13 +1898,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>null</text>
       </register>
       <register name="/" type="4">
-        <text>first</text>
+        <text>09</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBSZXNlcnZhdGlvbnNSZXBvcnRJdGVtKAogICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICApICAsCg==</text>
+      <register name="0" type="4">
+        <text>&quot;REIKI&quot;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -5462,9 +5462,9 @@
       </register>
     </registers>
     <search>
-      <last-search>first</last-search>
+      <last-search>09</last-search>
       <last-offset />
-      <last-pattern>first</last-pattern>
+      <last-pattern>09</last-pattern>
       <last-replace>Reservations</last-replace>
       <last-substitute>Classes</last-substitute>
       <last-dir>1</last-dir>
@@ -5472,7 +5472,6 @@
     </search>
     <history>
       <history-search>
-        <entry>\/reservation</entry>
         <entry>\/reservations&quot;</entry>
         <entry>class</entry>
         <entry>name</entry>
@@ -5492,6 +5491,7 @@
         <entry>status</entry>
         <entry>totalcl</entry>
         <entry>first</entry>
+        <entry>09</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOzo7IiA6Ow==</entry>
