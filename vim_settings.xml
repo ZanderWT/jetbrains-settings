@@ -201,6 +201,12 @@
         <mark key="." line="18" column="44" />
         <mark key="^" line="18" column="44" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" timestamp="1568732460104">
+        <mark key="[" line="10" column="45" />
+        <mark key="]" line="11" column="55" />
+        <mark key="." line="11" column="55" />
+        <mark key="^" line="11" column="55" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/PartnersResourceTest.kt" timestamp="1566946350386">
         <mark key="[" line="42" column="32" />
         <mark key="]" line="42" column="63" />
@@ -290,10 +296,10 @@
         <mark key="[" line="134" column="27" />
         <mark key="]" line="134" column="62" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportResponse.json" timestamp="1567098896809">
-        <mark key="'" line="41" column="18" />
-        <mark key="[" line="1" column="16" />
-        <mark key="]" line="4" column="2" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportResponse.json" timestamp="1568732343619">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="47" column="0" />
         <mark key="^" line="40" column="13" />
         <mark key="." line="40" column="13" />
       </file>
@@ -323,7 +329,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="54" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
       <jump line="57" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
       <jump line="16" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
       <jump line="42" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
@@ -423,6 +428,7 @@
       <jump line="185" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/StudioDao.sql.stg" />
       <jump line="221" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/StudioDao.sql.stg" />
       <jump line="29" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportResponse.json" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1889,8 +1895,8 @@
       <register name="/" type="4">
         <text encoding="base64">XDx0b3RhbENsYXNzcGFzc0Jvb2tpbmdzQ29sdW1uXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>getVenueReservationByVenueIds</text>
+      <register name="0" type="2">
+        <text encoding="base64">ewogICJyZXZlbnVlIiA6IFsgewogICAgImFtb3VudCIgOiAxNTAuNDksCiAgICAiY3VycmVuY3kiIDogIlVTRCIKICB9LCB7CiAgICAiYW1vdW50IiA6IDIyLjIzLAogICAgImN1cnJlbmN5IiA6ICJFVVIiCiAgfSBdLAogICJ0b3RhbF9jbGFzc3Bhc3NfYm9va2luZ3MiIDogMzQsCiAgImNsYXNzX25hbWVzIiA6IFsgIkFtYXRldXIgQWN1cHVuY3R1cmUiLCAiQ29sZCBZb2dhIiBdLAogICJzdGFydF90aW1lcyIgOiBbICIxMDozMDowMCIsICIxMToyMjowMCIgXSwKICAicmVwb3J0IiA6IFsgewogICAgInZlbnVlX2lkIiA6IDEsCiAgICAic2NoZWR1bGVfaWQiIDogMiwKICAgICJ2ZW51ZV9uYW1lIiA6ICJSb3VuZGhvdXNlIFJpY2sncyBEaXNjb3VudCBEb2pvIiwKICAgICJ2ZW51ZV9zdWJ0aXRsZSIgOiAiRGF5dG9uYSIsCiAgICAiY2xhc3NfbmFtZSIgOiAiQW1hdGV1ciBBY3VwdW5jdHVyZSIsCiAgICAiaW5zdHJ1Y3Rvcl9uYW1lIiA6ICJSaWNrIiwKICAgICJkYXRlIiA6ICIyMDE5LTEyLTI1IiwKICAgICJzdGFydF90aW1lIiA6ICIxMDozMDowMCIsCiAgICAiY2xhc3NwYXNzX2Jvb2tpbmdzIiA6IDMsCiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogMTIuMzMsCiAgICAgICJjdXJyZW5jeSIgOiAiVVNEIgogICAgfQogIH0sIHsKICAgICJ2ZW51ZV9pZCIgOiAxLAogICAgInNjaGVkdWxlX2lkIiA6IDMsCiAgICAidmVudWVfbmFtZSIgOiAiUm91bmRob3VzZSBSaWNrJ3MgRGlzY291bnQgRG9qbyIsCiAgICAidmVudWVfc3VidGl0bGUiIDogIkRheXRvbmEiLAogICAgImNsYXNzX25hbWUiIDogIkNvbGQgWW9nYSIsCiAgICAiaW5zdHJ1Y3Rvcl9uYW1lIiA6ICJSaWNrIiwKICAgICJkYXRlIiA6ICIyMDE5LTEyLTI1IiwKICAgICJzdGFydF90aW1lIiA6ICIxMTozMDowMCIsCiAgICAiY2xhc3NwYXNzX2Jvb2tpbmdzIiA6IDMsCiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogOTkuMzMsCiAgICAgICJjdXJyZW5jeSIgOiAiVVNEIgogICAgfQogIH0gXSwKICAicGFnZV9pbmZvIiA6IHsKICAgICJwYWdlX251bWJlciIgOiAyLAogICAgInBhZ2Vfc2l6ZSIgOiAyMCwKICAgICJ0b3RhbF9pdGVtcyIgOiAyMDIwLAogICAgInRvdGFsX3BhZ2VzIiA6IDEwMQogIH0KfQoK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBiaW5kZXIuaW5zdGFsbChNZXRyaWNzTW9kdWxlKCkpCg==</text>
