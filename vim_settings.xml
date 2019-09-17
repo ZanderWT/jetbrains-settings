@@ -201,11 +201,12 @@
         <mark key="." line="18" column="44" />
         <mark key="^" line="18" column="44" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" timestamp="1568732460104">
-        <mark key="[" line="10" column="45" />
-        <mark key="]" line="11" column="55" />
-        <mark key="." line="11" column="55" />
-        <mark key="^" line="11" column="55" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" timestamp="1568734294111">
+        <mark key="'" line="59" column="6" />
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="47" column="8" />
+        <mark key="." line="18" column="0" />
+        <mark key="^" line="11" column="26" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/PartnersResourceTest.kt" timestamp="1566946350386">
         <mark key="[" line="42" column="32" />
@@ -329,8 +330,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
-      <jump line="16" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
       <jump line="42" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
       <jump line="4" column="87" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/utils/BigDecimalExtensions.kt" />
       <jump line="29" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleReportControllerTest.kt" />
@@ -429,6 +428,8 @@
       <jump line="221" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/StudioDao.sql.stg" />
       <jump line="29" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportResponse.json" />
+      <jump line="9" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" />
+      <jump line="59" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1890,7 +1891,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>u</text>
+        <text>&quot;count_including_rebooked&quot;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx0b3RhbENsYXNzcGFzc0Jvb2tpbmdzQ29sdW1uXD4=</text>
@@ -1898,8 +1899,8 @@
       <register name="0" type="2">
         <text encoding="base64">ewogICJyZXZlbnVlIiA6IFsgewogICAgImFtb3VudCIgOiAxNTAuNDksCiAgICAiY3VycmVuY3kiIDogIlVTRCIKICB9LCB7CiAgICAiYW1vdW50IiA6IDIyLjIzLAogICAgImN1cnJlbmN5IiA6ICJFVVIiCiAgfSBdLAogICJ0b3RhbF9jbGFzc3Bhc3NfYm9va2luZ3MiIDogMzQsCiAgImNsYXNzX25hbWVzIiA6IFsgIkFtYXRldXIgQWN1cHVuY3R1cmUiLCAiQ29sZCBZb2dhIiBdLAogICJzdGFydF90aW1lcyIgOiBbICIxMDozMDowMCIsICIxMToyMjowMCIgXSwKICAicmVwb3J0IiA6IFsgewogICAgInZlbnVlX2lkIiA6IDEsCiAgICAic2NoZWR1bGVfaWQiIDogMiwKICAgICJ2ZW51ZV9uYW1lIiA6ICJSb3VuZGhvdXNlIFJpY2sncyBEaXNjb3VudCBEb2pvIiwKICAgICJ2ZW51ZV9zdWJ0aXRsZSIgOiAiRGF5dG9uYSIsCiAgICAiY2xhc3NfbmFtZSIgOiAiQW1hdGV1ciBBY3VwdW5jdHVyZSIsCiAgICAiaW5zdHJ1Y3Rvcl9uYW1lIiA6ICJSaWNrIiwKICAgICJkYXRlIiA6ICIyMDE5LTEyLTI1IiwKICAgICJzdGFydF90aW1lIiA6ICIxMDozMDowMCIsCiAgICAiY2xhc3NwYXNzX2Jvb2tpbmdzIiA6IDMsCiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogMTIuMzMsCiAgICAgICJjdXJyZW5jeSIgOiAiVVNEIgogICAgfQogIH0sIHsKICAgICJ2ZW51ZV9pZCIgOiAxLAogICAgInNjaGVkdWxlX2lkIiA6IDMsCiAgICAidmVudWVfbmFtZSIgOiAiUm91bmRob3VzZSBSaWNrJ3MgRGlzY291bnQgRG9qbyIsCiAgICAidmVudWVfc3VidGl0bGUiIDogIkRheXRvbmEiLAogICAgImNsYXNzX25hbWUiIDogIkNvbGQgWW9nYSIsCiAgICAiaW5zdHJ1Y3Rvcl9uYW1lIiA6ICJSaWNrIiwKICAgICJkYXRlIiA6ICIyMDE5LTEyLTI1IiwKICAgICJzdGFydF90aW1lIiA6ICIxMTozMDowMCIsCiAgICAiY2xhc3NwYXNzX2Jvb2tpbmdzIiA6IDMsCiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogOTkuMzMsCiAgICAgICJjdXJyZW5jeSIgOiAiVVNEIgogICAgfQogIH0gXSwKICAicGFnZV9pbmZvIiA6IHsKICAgICJwYWdlX251bWJlciIgOiAyLAogICAgInBhZ2Vfc2l6ZSIgOiAyMCwKICAgICJ0b3RhbF9pdGVtcyIgOiAyMDIwLAogICAgInRvdGFsX3BhZ2VzIiA6IDEwMQogIH0KfQoK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBiaW5kZXIuaW5zdGFsbChNZXRyaWNzTW9kdWxlKCkpCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">IHsKICAgICJ2ZW51ZV9pZCIgOiAxLAogICAgInNjaGVkdWxlX2lkIiA6IDIsCiAgICAidmVudWVfbmFtZSIgOiAiUm91bmRob3VzZSBSaWNrJ3MgRGlzY291bnQgRG9qbyIsCiAgICAidmVudWVfc3VidGl0bGUiIDogIkRheXRvbmEiLAogICAgImNsYXNzX25hbWUiIDogIkFtYXRldXIgQWN1cHVuY3R1cmUiLAogICAgImluc3RydWN0b3JfbmFtZSIgOiAiUmljayIsCiAgICAiZGF0ZSIgOiAiMjAxOS0xMi0yNSIsCiAgICAic3RhcnRfdGltZSIgOiAiMTA6MzA6MDAiLAogICAgImNsYXNzcGFzc19ib29raW5ncyIgOiAzLAogICAgInJldmVudWUiIDogewogICAgICAiYW1vdW50IiA6IDEyLjMzLAogICAgICAiY3VycmVuY3kiIDogIlVTRCIKICAgIH0KICB9LCB7CiAgICAidmVudWVfaWQiIDogMSwKICAgICJzY2hlZHVsZV9pZCIgOiAzLAogICAgInZlbnVlX25hbWUiIDogIlJvdW5kaG91c2UgUmljaydzIERpc2NvdW50IERvam8iLAogICAgInZlbnVlX3N1YnRpdGxlIiA6ICJEYXl0b25hIiwKICAgICJjbGFzc19uYW1lIiA6ICJDb2xkIFlvZ2EiLAogICAgImluc3RydWN0b3JfbmFtZSIgOiAiUmljayIsCiAgICAiZGF0ZSIgOiAiMjAxOS0xMi0yNSIsCiAgICAic3RhcnRfdGltZSIgOiAiMTE6MzA6MDAiLAogICAgImNsYXNzcGFzc19ib29raW5ncyIgOiAzLAogICAgInJldmVudWUiIDogewogICAgICAiYW1vdW50IiA6IDk5LjMzLAogICAgICAiY3VycmVuY3kiIDogIlVTRCIKICAgIH0KICB9IA==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2191,25 +2192,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBQcm92aWRlcwogICAgQFNpbmdsZXRvbgogICAgZnVuIHByb3ZpZGVzTWV0ZXJSZWdpc3RyeUNvbmZpZyhjb25maWc6IFBhcnRuZXJzQ29uZmlnKTogTWV0ZXJSZWdpc3RyeUNvbmZpZyB7CiAgICAgICAgcmV0dXJuIG9iamVjdCA6IE1ldGVyUmVnaXN0cnlDb25maWcoKSB7CiAgICAgICAgICAgIGZ1biBhcGlLZXkoKTogU3RyaW5nPyB7CiAgICAgICAgICAgICAgICByZXR1cm4gY29uZmlnLmRhdGFkb2dDb25maWcuYXBpS2V5Lm9yRWxzZShudWxsKQogICAgICAgICAgICB9CgogICAgICAgICAgICBmdW4gcHJlZml4KCk6IFN0cmluZyB7CiAgICAgICAgICAgICAgICByZXR1cm4gY29uZmlnLmRhdGFkb2dDb25maWcucHJlZml4CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1biBzZXJ2aWNlTmFtZSgpOiBTdHJpbmcgewogICAgICAgICAgICAgICAgcmV0dXJuIGNvbmZpZy5nZXRTZXJ2aWNlTmFtZSgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1biBlbnYoKTogU3RyaW5nIHsKICAgICAgICAgICAgICAgIHJldHVybiBTeXN0ZW0uZ2V0ZW52KClbIkNQX0NPTkZJR19FTlYiXQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQo=</text>
+        <text encoding="base64">ICAidG90YWxfY2xhc3NwYXNzX2Jvb2tpbmdzIiA6IDM0LAo=</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwdWJsaWMgRGF0YWRvZ1JlcG9ydGVyIHByb3ZpZGVzUmVwb3J0ZXIoUnRDb25maWcgY29uZmlnLCBNZXRyaWNSZWdpc3RyeSByZWdpc3RyeSkgewogICAgICAgIEh0dHBUcmFuc3BvcnQgdHJhbnNwb3J0ID0gbmV3IEh0dHBUcmFuc3BvcnQuQnVpbGRlcigpLndpdGhBcGlLZXkoY29uZmlnLmdldERhdGFkb2dBcGlLZXkoKSkuYnVpbGQoKTsKICAgICAgICBEYXRhZG9nUmVwb3J0ZXIgcmVwb3J0ZXIgPSBEYXRhZG9nUmVwb3J0ZXIuZm9yUmVnaXN0cnkocmVnaXN0cnkpCiAgICAgICAgICAgICAgICAud2l0aFByZWZpeCgiY3AucnQiKQogICAgICAgICAgICAgICAgLndpdGhUYWdzKEFycmF5cy5hc0xpc3QoInNlcnZpY2U6IiArIHNlcnZpY2VOYW1lKGNvbmZpZyksCiAgICAgICAgICAgICAgICAgICAgICAgICJlbnY6IiArIFN5c3RlbS5nZXRlbnYoKS5nZXQoIkNMQVNTUEFTU19FTlYiKS50b0xvd2VyQ2FzZSgpKSkKICAgICAgICAgICAgICAgIC53aXRoVHJhbnNwb3J0KHRyYW5zcG9ydCkKICAgICAgICAgICAgICAgIC5maWx0ZXIoKFN0cmluZyBuYW1lLCBNZXRyaWMgbWV0cmljKSAtPiAhbmFtZS5jb250YWlucygiZHJvcHdpemFyZCIpCiAgICAgICAgICAgICAgICAgICAgICAgICYmICFuYW1lLmNvbnRhaW5zKCJqZXR0eSIpCiAgICAgICAgICAgICAgICAgICAgICAgICYmICFuYW1lLmNvbnRhaW5zKCJqdm0iKWtra2trCiAgICAgICAgICAgICAgICAgICAgICAgICYmICFuYW1lLmNvbnRhaW5zKCJsb2diYWNrIikpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsKICAgICAgICByZXR1cm4gcmVwb3J0ZXI7CiAgICB9Cn0K</text>
+        <text encoding="base64">ICAgICAgICBiaW5kZXIuaW5zdGFsbChNZXRyaWNzTW9kdWxlKCkpCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBQcm92aWRlcwogICAgQFNpbmdsZXRvbgogICAgZnVuIHByb3ZpZGVzUmVwb3J0ZXIoUGFydG5lcnNDb25maWcgY29uZmlnLCBNZXRyaWNSZWdpc3RyeSByZWdpc3RyeSkgewogICAgICAgIEh0dHBUcmFuc3BvcnQgdHJhbnNwb3J0ID0gbmV3IEh0dHBUcmFuc3BvcnQuQnVpbGRlcigpLndpdGhBcGlLZXkoY29uZmlnLmdldERhdGFkb2dBcGlLZXkoKSkuYnVpbGQoKTsKICAgICAgICBEYXRhZG9nUmVwb3J0ZXIgcmVwb3J0ZXIgPSBEYXRhZG9nUmVwb3J0ZXIuZm9yUmVnaXN0cnkocmVnaXN0cnkpCiAgICAgICAgICAgICAgICAud2l0aFByZWZpeChjb25maWcuZGEpCiAgICAgICAgICAgICAgICAud2l0aFRhZ3MoCiAgICAgICAgICAgICAgICAgICAgQXJyYXlzLmFzTGlzdCgic2VydmljZToiICsgc2VydmljZU5hbWUoY29uZmlnKSwKICAgICAgICAgICAgICAgICAgICAgICAgImVudjoiICsgU3lzdGVtLmdldGVudigpLmdldCgiQ0xBU1NQQVNTX0VOViIpLnRvTG93ZXJDYXNlKCkpKQogICAgICAgICAgICAgICAgLndpdGhUcmFuc3BvcnQodHJhbnNwb3J0KQogICAgICAgICAgICAgICAgLmZpbHRlcigoU3RyaW5nIG5hbWUsIE1ldHJpYyBtZXRyaWMpIC0+ICFuYW1lLmNvbnRhaW5zKCJkcm9wd2l6YXJkIikKICAgICAgICAgICAgICAgICAgICAgICAgJiYgIW5hbWUuY29udGFpbnMoImpldHR5IikKICAgICAgICAgICAgICAgICAgICAgICAgJiYgIW5hbWUuY29udGFpbnMoImp2bSIpCiAgICAgICAgICAgICAgICAgICAgICAgICYmICFuYW1lLmNvbnRhaW5zKCJsb2diYWNrIikpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsKICAgICAgICByZXR1cm4gcmVwb3J0ZXI7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgIEBQcm92aWRlcwogICAgQFNpbmdsZXRvbgogICAgZnVuIHByb3ZpZGVzTWV0ZXJSZWdpc3RyeUNvbmZpZyhjb25maWc6IFBhcnRuZXJzQ29uZmlnKTogTWV0ZXJSZWdpc3RyeUNvbmZpZyB7CiAgICAgICAgcmV0dXJuIG9iamVjdCA6IE1ldGVyUmVnaXN0cnlDb25maWcoKSB7CiAgICAgICAgICAgIGZ1biBhcGlLZXkoKTogU3RyaW5nPyB7CiAgICAgICAgICAgICAgICByZXR1cm4gY29uZmlnLmRhdGFkb2dDb25maWcuYXBpS2V5Lm9yRWxzZShudWxsKQogICAgICAgICAgICB9CgogICAgICAgICAgICBmdW4gcHJlZml4KCk6IFN0cmluZyB7CiAgICAgICAgICAgICAgICByZXR1cm4gY29uZmlnLmRhdGFkb2dDb25maWcucHJlZml4CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1biBzZXJ2aWNlTmFtZSgpOiBTdHJpbmcgewogICAgICAgICAgICAgICAgcmV0dXJuIGNvbmZpZy5nZXRTZXJ2aWNlTmFtZSgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1biBlbnYoKTogU3RyaW5nIHsKICAgICAgICAgICAgICAgIHJldHVybiBTeXN0ZW0uZ2V0ZW52KClbIkNQX0NPTkZJR19FTlYiXQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBwdWJsaWMgRGF0YWRvZ1JlcG9ydGVyIHByb3ZpZGVzUmVwb3J0ZXIoUnRDb25maWcgY29uZmlnLCBNZXRyaWNSZWdpc3RyeSByZWdpc3RyeSkgewogICAgICAgIEh0dHBUcmFuc3BvcnQgdHJhbnNwb3J0ID0gbmV3IEh0dHBUcmFuc3BvcnQuQnVpbGRlcigpLndpdGhBcGlLZXkoY29uZmlnLmdldERhdGFkb2dBcGlLZXkoKSkuYnVpbGQoKTsKICAgICAgICBEYXRhZG9nUmVwb3J0ZXIgcmVwb3J0ZXIgPSBEYXRhZG9nUmVwb3J0ZXIuZm9yUmVnaXN0cnkocmVnaXN0cnkpCiAgICAgICAgICAgICAgICAud2l0aFByZWZpeCgiY3AucnQiKQogICAgICAgICAgICAgICAgLndpdGhUYWdzKEFycmF5cy5hc0xpc3QoInNlcnZpY2U6IiArIHNlcnZpY2VOYW1lKGNvbmZpZyksCiAgICAgICAgICAgICAgICAgICAgICAgICJlbnY6IiArIFN5c3RlbS5nZXRlbnYoKS5nZXQoIkNMQVNTUEFTU19FTlYiKS50b0xvd2VyQ2FzZSgpKSkKICAgICAgICAgICAgICAgIC53aXRoVHJhbnNwb3J0KHRyYW5zcG9ydCkKICAgICAgICAgICAgICAgIC5maWx0ZXIoKFN0cmluZyBuYW1lLCBNZXRyaWMgbWV0cmljKSAtPiAhbmFtZS5jb250YWlucygiZHJvcHdpemFyZCIpCiAgICAgICAgICAgICAgICAgICAgICAgICYmICFuYW1lLmNvbnRhaW5zKCJqZXR0eSIpCiAgICAgICAgICAgICAgICAgICAgICAgICYmICFuYW1lLmNvbnRhaW5zKCJqdm0iKWtra2trCiAgICAgICAgICAgICAgICAgICAgICAgICYmICFuYW1lLmNvbnRhaW5zKCJsb2diYWNrIikpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsKICAgICAgICByZXR1cm4gcmVwb3J0ZXI7CiAgICB9Cn0K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5220,13 +5221,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbnYuamVyc2V5KCkucmVnaXN0ZXIoVmVudWVEYXNoSWRGaWx0ZXIoKSkK</text>
+        <text encoding="base64">ICAgIEBQcm92aWRlcwogICAgQFNpbmdsZXRvbgogICAgZnVuIHByb3ZpZGVzUmVwb3J0ZXIoUGFydG5lcnNDb25maWcgY29uZmlnLCBNZXRyaWNSZWdpc3RyeSByZWdpc3RyeSkgewogICAgICAgIEh0dHBUcmFuc3BvcnQgdHJhbnNwb3J0ID0gbmV3IEh0dHBUcmFuc3BvcnQuQnVpbGRlcigpLndpdGhBcGlLZXkoY29uZmlnLmdldERhdGFkb2dBcGlLZXkoKSkuYnVpbGQoKTsKICAgICAgICBEYXRhZG9nUmVwb3J0ZXIgcmVwb3J0ZXIgPSBEYXRhZG9nUmVwb3J0ZXIuZm9yUmVnaXN0cnkocmVnaXN0cnkpCiAgICAgICAgICAgICAgICAud2l0aFByZWZpeChjb25maWcuZGEpCiAgICAgICAgICAgICAgICAud2l0aFRhZ3MoCiAgICAgICAgICAgICAgICAgICAgQXJyYXlzLmFzTGlzdCgic2VydmljZToiICsgc2VydmljZU5hbWUoY29uZmlnKSwKICAgICAgICAgICAgICAgICAgICAgICAgImVudjoiICsgU3lzdGVtLmdldGVudigpLmdldCgiQ0xBU1NQQVNTX0VOViIpLnRvTG93ZXJDYXNlKCkpKQogICAgICAgICAgICAgICAgLndpdGhUcmFuc3BvcnQodHJhbnNwb3J0KQogICAgICAgICAgICAgICAgLmZpbHRlcigoU3RyaW5nIG5hbWUsIE1ldHJpYyBtZXRyaWMpIC0+ICFuYW1lLmNvbnRhaW5zKCJkcm9wd2l6YXJkIikKICAgICAgICAgICAgICAgICAgICAgICAgJiYgIW5hbWUuY29udGFpbnMoImpldHR5IikKICAgICAgICAgICAgICAgICAgICAgICAgJiYgIW5hbWUuY29udGFpbnMoImp2bSIpCiAgICAgICAgICAgICAgICAgICAgICAgICYmICFuYW1lLmNvbnRhaW5zKCJsb2diYWNrIikpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsKICAgICAgICByZXR1cm4gcmVwb3J0ZXI7CiAgICB9Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBUaW1lKG5hbWUgPSAiZ2V0Q2xhc3Nlc1JlcG9ydCIsIHRhZ3MgPSBbXSkK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5444,13 +5445,13 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uY2xhc3NwYXNzLmphZGU6dXRpbDoke2RlcHNbImphZGUiXX0iKQo=</text>
+        <text encoding="base64">ICAgICAgICBlbnYuamVyc2V5KCkucmVnaXN0ZXIoVmVudWVEYXNoSWRGaWx0ZXIoKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uY2xhc3NwYXNzLmphZGU6ZXhjZXB0aW9uOiR7ZGVwc1siamFkZSJdfSIpCg==</text>
+        <text encoding="base64">ICAgIEBUaW1lKG5hbWUgPSAiZ2V0Q2xhc3Nlc1JlcG9ydCIsIHRhZ3MgPSBbXSkK</text>
       </register>
       <register name=":" type="4">
-        <text>45</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
@@ -5501,11 +5502,11 @@
         <entry encoding="base64">JzwsJz5zOyA6IC4qOzs=</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>action MethodUp</entry>
         <entry>action MethodDown</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>45</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
