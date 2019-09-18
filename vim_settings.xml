@@ -254,6 +254,13 @@
         <mark key="." line="18" column="44" />
         <mark key="^" line="18" column="44" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryLegacyDao.kt" timestamp="1568842969978">
+        <mark key="'" line="38" column="4" />
+        <mark key="[" line="42" column="35" />
+        <mark key="]" line="43" column="7" />
+        <mark key="." line="43" column="7" />
+        <mark key="^" line="43" column="7" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ReservationsReportResponse.json" timestamp="1568761243720">
         <mark key="'" line="18" column="31" />
         <mark key="[" line="41" column="13" />
@@ -425,9 +432,7 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/config/use1-config.yml" />
       <jump line="52" column="43" filename="$USER_HOME$/cp-projects/hfr-service/svc/src/main/java/com/classpass/hfr/HumanFulfillableReservationsModule.kt" />
-      <jump line="37" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryLegacyDao.kt" />
       <jump line="43" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
       <jump line="34" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
       <jump line="38" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/auth/VenueDashIdFilter.kt" />
@@ -525,6 +530,8 @@
       <jump line="114" column="49" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="74" column="49" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="54" column="49" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
+      <jump line="45" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryLegacyDao.kt" />
+      <jump line="37" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportSummaryLegacyDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1986,10 +1993,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>09/15/2019</text>
+        <text>dao.</text>
       </register>
       <register name="/" type="4">
-        <text>2019</text>
+        <text>dao</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB1aWQgPSAiZjFiZjgxZjkwZWIzNDVmZDk5YWE4OTU1MjUzNDcyMjciLAo=</text>
@@ -2287,25 +2294,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAiY291bnRfd2l0aG91dF9yZWJvb2tlZCI6IDI5MDM0LAogICJhdHRlbmRlZCI6IDIzMDE5LAogICJwcmVtaXVtIjogMjI1OSwKICAibGF0ZV9jYW5jZWxsZWQiOiAxNDQ2LAogICJtaXNzZWRfY2xhc3MiOiA5MTgsCiAgImZyZXF1ZW50X3Zpc2l0b3IiOiAxMzkyLAogICJyZXZlbnVlIjogWwogICAgewogICAgICAiYW1vdW50IjogMTUwLjQ5LAogICAgICAiY3VycmVuY3kiOiAiVVNEIgogICAgfSwKICAgIHsKICAgICAgImFtb3VudCI6IDIyLjIzLAogICAgICAiY3VycmVuY3kiOiAiRVVSIgogICAgfQogIF0sCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjbGFzc3Bhc3NCb29raW5ncyA9IDAsCg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIGRhbyA9IERhbyhjb250ZXh0KQo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="4">
-        <text>&quot;&quot;</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGNsYXNzIERhbyh2YWwgY29udGV4dDogRFNMQ29udGV4dCkgewo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text>\&quot;09/15/2019\&quot;</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5316,13 +5323,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHZhbCBjbGFzc3Bhc3NCb29raW5nczogSW50LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAiY291bnRfd2l0aG91dF9yZWJvb2tlZCI6IDI5MDM0LAogICJhdHRlbmRlZCI6IDIzMDE5LAogICJwcmVtaXVtIjogMjI1OSwKICAibGF0ZV9jYW5jZWxsZWQiOiAxNDQ2LAogICJtaXNzZWRfY2xhc3MiOiA5MTgsCiAgImZyZXF1ZW50X3Zpc2l0b3IiOiAxMzkyLAogICJyZXZlbnVlIjogWwogICAgewogICAgICAiYW1vdW50IjogMTUwLjQ5LAogICAgICAiY3VycmVuY3kiOiAiVVNEIgogICAgfSwKICAgIHsKICAgICAgImFtb3VudCI6IDIyLjIzLAogICAgICAiY3VycmVuY3kiOiAiRVVSIgogICAgfQogIF0sCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5542,17 +5549,17 @@
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjbGFzc3Bhc3NCb29raW5ncyA9IDAsCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>&quot;&quot;</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowNextChangeMarker</text>
+        <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>2019</last-search>
+      <last-search>dao</last-search>
       <last-offset />
-      <last-pattern>2019</last-pattern>
+      <last-pattern>dao</last-pattern>
       <last-replace>&quot; :</last-replace>
       <last-substitute>&quot;:</last-substitute>
       <last-dir>1</last-dir>
@@ -5560,8 +5567,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Classes</entry>
-        <entry>classes</entry>
         <entry>dis</entry>
         <entry>atten</entry>
         <entry>status</entry>
@@ -5580,9 +5585,10 @@
         <entry encoding="base64">XDxzY2hlZHVsZVJlcG9ydENvbnRyb2xsZXJcPg==</entry>
         <entry>reservation\zsre</entry>
         <entry>2019</entry>
+        <entry encoding="base64">XDxnZXRDbGFzc2VzUmVwb3J0U3VtbWFyeVw+</entry>
+        <entry>dao</entry>
       </history-search>
       <history-cmd>
-        <entry>s;it.venue.venueId;venue = it.venue;</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>66</entry>
         <entry>296</entry>
@@ -5597,11 +5603,12 @@
         <entry>45</entry>
         <entry encoding="base64">JzwsJz5zOyA9IC4qXHplLDs7</entry>
         <entry>%s;Classes;Reservations;g</entry>
-        <entry>action ReformatCode</entry>
         <entry>bnext</entry>
         <entry>s;/;-;g</entry>
         <entry>%s;&quot;:;&quot; :;</entry>
         <entry>action VcsShowNextChangeMarker</entry>
+        <entry>action QuickImplementations</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
