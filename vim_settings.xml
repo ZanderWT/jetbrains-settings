@@ -61,11 +61,7 @@
         <mark key="^" line="18" column="3" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReportingSummaryLegacyDao.kt" timestamp="1568846909153">
-        <mark key="'" line="37" column="45" />
-        <mark key="[" line="37" column="17" />
-        <mark key="]" line="37" column="46" />
-        <mark key="^" line="44" column="77" />
-        <mark key="." line="37" column="17" />
+        <mark key="^" line="41" column="77" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/AssociatedDashboardUsersResponse.kt" timestamp="1565286960522">
         <mark key="[" line="6" column="0" />
@@ -442,12 +438,11 @@
         <mark key="]" line="0" column="37" />
         <mark key="." line="0" column="37" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" timestamp="1568847271342">
-        <mark key="'" line="187" column="10" />
-        <mark key="[" line="154" column="80" />
-        <mark key="]" line="155" column="76" />
-        <mark key="." line="155" column="76" />
-        <mark key="^" line="155" column="76" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" timestamp="1568906716950">
+        <mark key="'" line="118" column="31" />
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/ClassesReportRequest.kt" timestamp="1568846617208">
         <mark key="'" line="18" column="0" />
@@ -458,7 +453,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="41" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
       <jump line="247" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
       <jump line="250" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ClassesReportControllerTest.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportRequest.json" />
@@ -558,6 +552,7 @@
       <jump line="151" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="41" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsReportResponse.kt" />
       <jump line="180" column="10" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
+      <jump line="119" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -2019,7 +2014,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">cmV0dXJuIA==</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
         <text>blackl</text>
@@ -2028,7 +2023,7 @@
         <text encoding="base64">ICAgICAgICAgICAgLndoZXJlKFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuVkVOVUVfSUQuYGluYChyZXF1ZXN0LnZlbnVlSWRzKSkKICAgICAgICAgICAgLmFuZChSRVZFTlVFX1JFVkVOVUVJVEVNTE9HLkNMQVNTX0RBVEUuYmV0d2VlbihyZXF1ZXN0LnN0YXJ0RGF0ZSwgcmVxdWVzdC5lbmREYXRlKSkKICAgICAgICAgICAgLmFuZChSRVZFTlVFX1JFVkVOVUVJVEVNTE9HLlNUQVJUX1RJTUUubm90SW4ocmVxdWVzdC5leGNsdWRlZFN0YXJ0VGltZXMpKQogICAgICAgICAgICAuYW5kKFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuQ0xBU1Mubm90SW4ocmVxdWVzdC5leGNsdWRlZENsYXNzTmFtZXMpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLndoZXJlCg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwucmVxdWVzdC5SZXNlcnZhdGlvbnNSZXBvcnRSZXF1ZXN0Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2320,25 +2315,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFsIAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLndoZXJlCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFsIAo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5349,13 +5344,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZ1biBnZXRMZWdhY3lSZXBvcnRpbmdTdW1tYXJ5KAogICAgICAgIHJlcXVlc3Q6IFJlc2VydmF0aW9uc1JlcG9ydFJlcXVlc3QKICAgICkgOiBMZWdhY3lSZXBvcnRpbmdTdW1tYXJ5IHsKICAgICAgICAKICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5573,7 +5568,7 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGZ1biBnZXRMZWdhY3lSZXNlcnZhdGlvbnNSZXBvcnRTdW1tYXJ5KHJlcXVlc3Q6IFJlc2VydmF0aW9uc1JlcG9ydFJlcXVlc3QpIHsKICAgICAgICAKICAgIH0K</text>
+        <text encoding="base64">ICAgIGZ1biBnZXRMZWdhY3lSZXBvcnRpbmdTdW1tYXJ5KAogICAgICAgIHJlcXVlc3Q6IFJlc2VydmF0aW9uc1JlcG9ydFJlcXVlc3QKICAgICkgOiBMZWdhY3lSZXBvcnRpbmdTdW1tYXJ5IHsKICAgICAgICAKICAgIH0K</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
