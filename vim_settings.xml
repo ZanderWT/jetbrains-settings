@@ -252,12 +252,9 @@
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" timestamp="1569258544894">
-        <mark key="'" line="151" column="37" />
-        <mark key="[" line="155" column="67" />
-        <mark key="]" line="155" column="80" />
-        <mark key="^" line="155" column="80" />
-        <mark key="." line="155" column="80" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" timestamp="1569259704024">
+        <mark key="'" line="202" column="47" />
+        <mark key="^" line="187" column="122" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" timestamp="1569018158289">
         <mark key="'" line="18" column="23" />
@@ -395,10 +392,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="81" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" />
-      <jump line="16" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" />
-      <jump line="21" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" />
-      <jump line="1569" column="18" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/ResultQuery.java" />
       <jump line="1592" column="14" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/ResultQuery.java" />
       <jump line="1615" column="14" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/ResultQuery.java" />
       <jump line="1638" column="14" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/ResultQuery.java" />
@@ -495,6 +488,10 @@
       <jump line="148" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="153" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="151" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="193" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="187" column="33" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="194" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="196" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1959,16 +1956,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>.toSortedSet()</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
-        <text>classes</text>
+        <text>ses</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYGdldENsYXNzZXNSZXBvcnQgZXhjbHVkZXMgY2xhc3NOYW1lc2AoKSB7CiAgICAgICAgdmFsIChsYXBpRGF0YSwgcmVxdWVzdCkgPSBzZXR1cENsYXNzTmFtZUZpbHRlclRlc3QoKQogICAgICAgIHZhbCByZXBvcnQgPQogICAgICAgICAgICBydW5CbG9ja2luZyB7IGNsYXNzZXNSZXBvcnRDb250cm9sbGVyLmdldENsYXNzZXNSZXBvcnQobGFwaURhdGEudXNlci5pZCwgQ2xhc3Nlc1JlcG9ydFJlcXVlc3QocmVxdWVzdCkpIH0KCiAgICAgICAgdmFsIGFsbENsYXNzTmFtZXMgPSBsYXBpRGF0YS5jbGFzc2VzLm1hcCB7IGl0LmNsYXNzTmFtZSB9LnRvU29ydGVkU2V0KCkKICAgICAgICB2YWwgZXhwZWN0ZWRDbGFzc05hbWVzID0gKGFsbENsYXNzTmFtZXMgLSByZXF1ZXN0LmV4Y2x1ZGVkQ2xhc3NOYW1lcykudG9Tb3J0ZWRTZXQoKQogICAgICAgIHZhbCBhY3R1YWxDbGFzc05hbWVzID0gcmVwb3J0LnJlcG9ydC5tYXAgeyBpdC5jbGFzc05hbWUgfS50b1NvcnRlZFNldCgpCiAgICAgICAgYXNzZXJ0VGhhdChhY3R1YWxDbGFzc05hbWVzLCAiQ2xhc3MgTmFtZXMgcmV0dXJuZWQgYnkgdGhlIHJlcG9ydCIpLmlzRXF1YWxUbyhleHBlY3RlZENsYXNzTmFtZXMpCgogICAgICAgIHZhbCBhY3R1YWxTdW1tYXJ5Q2xhc3NOYW1lcyA9IHJlcG9ydC5zdW1tYXJ5LmNsYXNzTmFtZXMudG9Tb3J0ZWRTZXQoKQogICAgICAgIGFzc2VydFRoYXQoYWN0dWFsU3VtbWFyeUNsYXNzTmFtZXMsICJDbGFzcyBOYW1lcyBpbiB0aGUgcmVwb3J0IHN1bW1hcnkiKS5pc0VxdWFsVG8oYWxsQ2xhc3NOYW1lcykKICAgIH0K</text>
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYGdldENsYXNzZXNSZXBvcnQgZXhjbHVkZXMgc3RhcnRUaW1lc2AoKSB7CiAgICAgICAgdmFsIChsYXBpRGF0YSwgYWxsU3RhcnRUaW1lcywgcmVxdWVzdCkgPSBzZXR1cFN0YXJ0VGltZUZpbHRlclRlc3QoKQogICAgICAgIHZhbCByZXBvcnQgPSBydW5CbG9ja2luZyB7IGNsYXNzZXNSZXBvcnRDb250cm9sbGVyLmdldENsYXNzZXNSZXBvcnQobGFwaURhdGEudXNlci5pZCwgcmVxdWVzdCkgfQoKICAgICAgICB2YWwgYWN0dWFsU3RhcnRUaW1lcyA9IHJlcG9ydC5yZXBvcnQubWFwIHsgaXQuc3RhcnRUaW1lISEgfS50b1NvcnRlZFNldCgpCiAgICAgICAgdmFsIGV4cGVjdGVkU3RhcnRUaW1lcyA9IChhbGxTdGFydFRpbWVzIC0gcmVxdWVzdC5leGNsdWRlZFN0YXJ0VGltZXMpLnRvU29ydGVkU2V0KCkKCiAgICAgICAgYXNzZXJ0VGhhdChhY3R1YWxTdGFydFRpbWVzLCAiU3RhcnQgVGltZXMgcmV0dXJuZWQgYnkgdGhlIHJlcG9ydCIpLmlzRXF1YWxUbyhleHBlY3RlZFN0YXJ0VGltZXMpCgogICAgICAgIHZhbCBhY3R1YWxTdW1tYXJ5U3RhcnRUaW1lcyA9IHJlcG9ydC5zdW1tYXJ5LnN0YXJ0VGltZXMudG9Tb3J0ZWRTZXQoKQogICAgICAgIGFzc2VydFRoYXQoYWN0dWFsU3VtbWFyeVN0YXJ0VGltZXMsICJTdGFydCBUaW1lcyByZXR1cm5lZCBpbiB0aGUgcmVwb3J0IHN1bW1hcnkiKS5pc0VxdWFsVG8oYWxsU3RhcnRUaW1lcykKICAgIH0K</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgcGFnZU51bWJlciA9IDEsCiAgICAgICAgICAgIHBhZ2VTaXplID0gMTAwMA==</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbGFwaURhdGEucmVzZXJ2YXRpb25zLm1hcCB7IHJldmVudWVJdGVtTG9nRmFjdG9yeS5jcmVhdGUocmVzZXJ2YXRpb24gPSBpdCkgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2260,25 +2257,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgYWxsQ2xhc3NOYW1lcyA9IGxhcGlEYXRhLmNsYXNzZXMubWFwIHsgaXQuY2xhc3NOYW1lIH0udG9TZXQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGFnZU51bWJlciA9IDEsCiAgICAgICAgICAgIHBhZ2VTaXplID0gMTAwMAo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgbGFwaURhdGEgPSBnZW5lcmF0ZVJlbGF0ZWREYXRhKHdpdGhWZW51ZXMgPSAxLCB3aXRoQ2xhc3NlcyA9IDUsIHdpdGhTY2hlZHVsZXMgPSA1KQogICAgICAgIHZhbCBleGNsdWRlZENsYXNzTmFtZXMgPSBsYXBpRGF0YS5jbGFzc2VzLnNsaWNlKDAuLjIpLm1hcCB7IGl0LmNsYXNzTmFtZSB9CiAgICAgICAgdmFsIGFsbENsYXNzTmFtZXMgPSBsYXBpRGF0YS5jbGFzc2VzLm1hcCB7IGl0LmNsYXNzTmFtZSB9LnRvU2V0KCkKICAgICAgICB2YWwgcmVxdWVzdCA9IENsYXNzZXNSZXBvcnRSZXF1ZXN0KAogICAgICAgICAgICByZXF1ZXN0VmVudWVzLAogICAgICAgICAgICBMb2NhbERhdGUubm93KCkubWludXNZZWFycygxKSwKICAgICAgICAgICAgTG9jYWxEYXRlLm5vdygpLAogICAgICAgICAgICBleGNsdWRlZENsYXNzTmFtZXMgPSBleGNsdWRlZENsYXNzTmFtZXMsCiAgICAgICAgICAgIHBhZ2VOdW1iZXIgPSAxLAogICAgICAgICAgICBwYWdlU2l6ZSA9IDEwMDAKICAgICAgICApCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZXhwZWN0ZWRTdGFydFRpbWVzID0gKGFsbFN0YXJ0VGltZXMgLSBleGNsdWRlZFN0YXJ0VGltZXMpLnRvU29ydGVkU2V0KCkK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsYXBpRGF0YS5yZXNlcnZhdGlvbnMubWFwIHsgcmV2ZW51ZUl0ZW1Mb2dGYWN0b3J5LmNyZWF0ZShyZXNlcnZhdGlvbiA9IGl0KSB9Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZXhwZWN0ZWRTdGFydFRpbWVzID0gKGFsbFN0YXJ0VGltZXMgLSBleGNsdWRlZFN0YXJ0VGltZXMpLnRvU29ydGVkU2V0KCkK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgcGFnZU51bWJlciA9IDEsCiAgICAgICAgICAgIHBhZ2VTaXplID0gMTAwMA==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgZXhjbHVkZWRTdGFydFRpbWVzID0gCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5289,13 +5286,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdHdvTW9udGhzQWdvID0gTG9jYWxEYXRlLm5vdygpLm1pbnVzTW9udGhzKDIpCiAgICAgICAgdmFsIGxhc3RNb250aCA9IExvY2FsRGF0ZS5ub3coKS5taW51c01vbnRocygxKQogICAgICAgIHZhbCBsYXBpRGF0YSA9IGdlbmVyYXRlUmVsYXRlZERhdGEod2l0aFZlbnVlcyA9IDEsIHdpdGhDbGFzc2VzID0gMSkKICAgICAgICB2YWwgcmVxdWVzdCA9IENsYXNzZXNSZXBvcnRSZXF1ZXN0KAogICAgICAgICAgICByZXF1ZXN0VmVudWVzLAogICAgICAgICAgICB0d29Nb250aHNBZ28sCiAgICAgICAgICAgIGxhc3RNb250aCwKICAgICAgICAgICAgcGFnZU51bWJlciA9IDEsCiAgICAgICAgICAgIHBhZ2VTaXplID0gMTAwMAogICAgICAgICkK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgcmVxdWVzdCA9IENsYXNzZXNSZXBvcnRSZXF1ZXN0KAogICAgICAgICAgICByZXF1ZXN0VmVudWVzLAogICAgICAgICAgICBMb2NhbERhdGUubm93KCkubWludXNZZWFycygxKSwKICAgICAgICAgICAgTG9jYWxEYXRlLm5vdygpLAogICAgICAgICAgICBleGNsdWRlZFN0YXJ0VGltZXMgPSBleGNsdWRlZFN0YXJ0VGltZXMsCiAgICAgICAgICAgIHBhZ2VOdW1iZXIgPSAxLAogICAgICAgICAgICBwYWdlU2l6ZSA9IDEwMDAKICAgICAgICApCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgcmVwb3J0ID0KICAgICAgICAgICAgcnVuQmxvY2tpbmcgeyBjbGFzc2VzUmVwb3J0Q29udHJvbGxlci5nZXRDbGFzc2VzUmVwb3J0KGxhcGlEYXRhLnVzZXIuaWQsIENsYXNzZXNSZXBvcnRSZXF1ZXN0KHJlcXVlc3QpKSB9CgogICAgICAgIHZhbCBleHBlY3RlZFJlcG9ydExlbmd0aCA9IGxhcGlEYXRhLnNjaGVkdWxlcy5maWx0ZXIgeyBpdC52ZW51ZS52ZW51ZUlkIGluIHJlcXVlc3RWZW51ZXMgfS5zaXplCiAgICAgICAgYXNzZXJ0VGhhdChyZXBvcnQucmVwb3J0LnNpemUsICJUaGUgbnVtYmVyIG9mIHJlY29yZHMgaW4gdGhlIGNsYXNzZXMgcmVwb3J0IikuaXNFcXVhbFRvKGV4cGVjdGVkUmVwb3J0TGVuZ3RoKQoKICAgICAgICB2YWwgYWN0dWFsVmVudWVJZHMgPSByZXBvcnQucmVwb3J0Lm1hcCB7IGl0LnZlbnVlSWQgfS50b1NldCgpCiAgICAgICAgYXNzZXJ0VGhhdChhY3R1YWxWZW51ZUlkcywgIlRoZSB2ZW51ZSBpZHMgcmV0dXJuZWQgaW4gdGhlIHJlcG9ydCIpLmlzRXF1YWxUbyhyZXF1ZXN0VmVudWVzLnRvU2V0KCkpCg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgcGFnZU51bWJlciA9IDEsCiAgICAgICAgICAgIHBhZ2VTaXplID0gMTAwMA==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5513,19 +5510,19 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcGFnZU51bWJlciA9IDEsCiAgICAgICAgICAgIHBhZ2VTaXplID0gMTAwMAo=</text>
+        <text encoding="base64">ICAgICAgICB2YWwgYWxsQ2xhc3NOYW1lcyA9IGxhcGlEYXRhLmNsYXNzZXMubWFwIHsgaXQuY2xhc3NOYW1lIH0udG9TZXQoKQo=</text>
       </register>
-      <register name="9" type="4">
-        <text>()</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgbGFwaURhdGEgPSBnZW5lcmF0ZVJlbGF0ZWREYXRhKHdpdGhWZW51ZXMgPSAxLCB3aXRoQ2xhc3NlcyA9IDUsIHdpdGhTY2hlZHVsZXMgPSA1KQogICAgICAgIHZhbCBleGNsdWRlZENsYXNzTmFtZXMgPSBsYXBpRGF0YS5jbGFzc2VzLnNsaWNlKDAuLjIpLm1hcCB7IGl0LmNsYXNzTmFtZSB9CiAgICAgICAgdmFsIGFsbENsYXNzTmFtZXMgPSBsYXBpRGF0YS5jbGFzc2VzLm1hcCB7IGl0LmNsYXNzTmFtZSB9LnRvU2V0KCkKICAgICAgICB2YWwgcmVxdWVzdCA9IENsYXNzZXNSZXBvcnRSZXF1ZXN0KAogICAgICAgICAgICByZXF1ZXN0VmVudWVzLAogICAgICAgICAgICBMb2NhbERhdGUubm93KCkubWludXNZZWFycygxKSwKICAgICAgICAgICAgTG9jYWxEYXRlLm5vdygpLAogICAgICAgICAgICBleGNsdWRlZENsYXNzTmFtZXMgPSBleGNsdWRlZENsYXNzTmFtZXMsCiAgICAgICAgICAgIHBhZ2VOdW1iZXIgPSAxLAogICAgICAgICAgICBwYWdlU2l6ZSA9IDEwMDAKICAgICAgICApCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>classes</last-search>
+      <last-search>ses</last-search>
       <last-offset />
-      <last-pattern>classes</last-pattern>
+      <last-pattern>ses</last-pattern>
       <last-replace>&quot; :</last-replace>
       <last-substitute>&quot;:</last-substitute>
       <last-dir>1</last-dir>
@@ -5533,8 +5530,6 @@
     </search>
     <history>
       <history-search>
-        <entry>fetc</entry>
-        <entry>it.getva</entry>
         <entry>totalsc</entry>
         <entry encoding="base64">XDxyZXNlcnZhdGlvbnNSZXBvcnRDb250cm9sbGVyXD4=</entry>
         <entry>getclassesrep</entry>
@@ -5552,7 +5547,9 @@
         <entry>base</entry>
         <entry>req</entry>
         <entry>Classes</entry>
+        <entry encoding="base64">XDxleGNsdWRlZFN0YXJ0VGltZXNcPg==</entry>
         <entry>classes</entry>
+        <entry>ses</entry>
       </history-search>
       <history-cmd>
         <entry>66</entry>
