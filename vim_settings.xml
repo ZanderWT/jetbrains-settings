@@ -510,12 +510,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1569616512985">
-        <mark key="'" line="11" column="26" />
-        <mark key="[" line="142" column="112" />
-        <mark key="]" line="142" column="112" />
-        <mark key="." line="142" column="112" />
-        <mark key="^" line="142" column="112" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1569619300911">
+        <mark key="'" line="152" column="50" />
+        <mark key="[" line="146" column="8" />
+        <mark key="]" line="146" column="7" />
+        <mark key="." line="146" column="7" />
+        <mark key="^" line="146" column="7" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1562945090062">
         <mark key="'" line="0" column="34" />
@@ -657,9 +657,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="66" column="28" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
-      <jump line="50" column="48" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
-      <jump line="16" column="4" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="17" column="4" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="18" column="32" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="13" column="6" filename="$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/1281341971/psycopg2/_psycopg/cursor.py" />
@@ -757,6 +754,9 @@
       <jump line="46" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/requirements.txt" />
       <jump line="124" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="11" column="26" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="143" column="22" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="147" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="152" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -828,16 +828,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Copmared</text>
+        <text>[</text>
       </register>
       <register name="/" type="4">
-        <text>partn</text>
+        <text>list</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiPT09PT09PT09PSBEYXNoYm9hcmQgb3V0cHV0ID09PT09PT09PT09PT09PSIpCg==</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhwcHJpbnQuUHJldHR5UHJpbnRlcigpLnBwcmludChsaXN0KGRpZmZlcmVuY2VzKSkpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -879,34 +879,36 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzb3J0X2RpcmVjdGlvbiA9IHJlcXVlc3RfZGEK</text>
+        <text encoding="base64">ICAgICAgICBwYXJ0Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmb3JtYXR0ZWRfcmVxdWVzdCA9IDYK</text>
+        <text encoding="base64">ICAgICAgICBwZm9ybWF0Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICMgVW5jb21tZW50IHRoaXMgbGluZSB3aGVuIGl0J3MgdGltZSB0byByb2xsIG91dCB0aGUgcmVzZXJ2YXRpb25zIHJlcG9ydAo=</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiPT09PT09PT09PSBwYXJ0bmVyJ3Mgc2VydmljZSBvdXRwdXQgPT09PT09PT09PT09PT09IikKICAgICAgICBsb2dnZXIuaW5mbyhwYXJ0bmVyc19zZXJ2aWNlX291dHB1dCkKCiAgICAgICAgbG9nZ2VyLmluZm8oIj09PT09PT09PT0gRGFzaGJvYXJkIG91dHB1dCA9PT09PT09PT09PT09PT0iKQogICAgICAgIGxvZ2dlci5pbmZvKHBhcnRuZXJfZGFzaGJvYXJkX291dHB1dCkK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAnJwo=</text>
+      <register name="6" type="4">
+        <text>['class_names', 'start_times', 
+                                                                                      'count_without_rebooked', 
+                                                                                      'count_including_rebooked']</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsYXBpLmNvbW1pdCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmVudWVfcG9ydGFsLmNvbW1pdCgpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjdXJzb3IgPSBsYXBpLmN1cnNvcigpCg==</text>
+        <text encoding="base64">ICAgICAgICBzb3J0X2RpcmVjdGlvbiA9IHJlcXVlc3RfZGEK</text>
       </register>
       <register name=":" type="4">
-        <text>s;start;end;g</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1567,9 +1569,9 @@
       </register>
     </registers>
     <search>
-      <last-search>partn</last-search>
+      <last-search>list</last-search>
       <last-offset />
-      <last-pattern>partn</last-pattern>
+      <last-pattern>list</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
@@ -1577,8 +1579,6 @@
     </search>
     <history>
       <history-search>
-        <entry>base_q</entry>
-        <entry>future</entry>
         <entry encoding="base64">XDxyZWN1cnJpbmdfb3Bwb3J0dW5pdHlfaWRzXD4=</entry>
         <entry encoding="base64">XDxuZXR3b3JrX2NhcF9jaGFuZ2VfcmVhc29uXD4=</entry>
         <entry>spot_log_id</entry>
@@ -1597,6 +1597,8 @@
         <entry>self</entry>
         <entry>start</entry>
         <entry>partn</entry>
+        <entry>igno</entry>
+        <entry>list</entry>
       </history-search>
       <history-cmd>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','b')</entry>
@@ -1617,8 +1619,8 @@
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action ShowBookmarks</entry>
         <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>s;start;end;g</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
