@@ -326,12 +326,12 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" timestamp="1569625243681">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" timestamp="1569865212766">
         <mark key="'" line="20" column="60" />
-        <mark key="[" line="20" column="91" />
-        <mark key="]" line="21" column="0" />
-        <mark key="." line="21" column="0" />
-        <mark key="^" line="21" column="0" />
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+        <mark key="^" line="24" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/lapi_test_data.sql" timestamp="1568220956137">
         <mark key="'" line="57" column="49" />
@@ -510,11 +510,11 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1569625117519">
-        <mark key="'" line="0" column="7" />
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="36" />
-        <mark key="." line="161" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1569865193271">
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
         <mark key="^" line="160" column="13" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1562945090062">
@@ -584,11 +584,11 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/core/cache/backends/memcached.py" timestamp="1563222923171">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" timestamp="1569607571129">
-        <mark key="'" line="126" column="23" />
-        <mark key="[" line="130" column="42" />
-        <mark key="]" line="130" column="42" />
-        <mark key="." line="130" column="53" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" timestamp="1569865185304">
+        <mark key="'" line="132" column="0" />
+        <mark key="[" line="138" column="0" />
+        <mark key="]" line="138" column="0" />
+        <mark key="." line="138" column="0" />
         <mark key="^" line="126" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1568386126759">
@@ -665,8 +665,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="135" column="4" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
-      <jump line="70" column="59" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="73" column="92" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="117" column="19" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/backfill-class-ids.py" />
@@ -765,6 +763,8 @@
       <jump line="48" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" />
       <jump line="98" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="20" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
+      <jump line="132" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="16" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -845,7 +845,7 @@
         <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MuYXBwcy52ZW51ZS5jb25zdGFudHMubG9nZ2luZ19wcmVmaXhlcyBpbXBvcnQgQVVUSEVOVElDQVRJT05fRVJST1IK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBkamFuZ29fZXh0ZW5zaW9ucyBpbXBvcnQgc2V0dGluZ3MK</text>
+        <text encoding="base64">aW1wb3J0IHBwcmludAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -887,35 +887,35 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhwcHJpbnQuUHJldHR5UHJpbnRlcigpLnBmb3JtYXQobGlzdChkaWZmZXJlbmNlcykpKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwYXJ0bgo=</text>
+        <text encoding="base64">ZnJvbSBkamFuZ29fZXh0ZW5zaW9ucyBpbXBvcnQgc2V0dGluZ3MK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhwcHJpbnQuUHJldHR5UHJpbnRlcigpLnBmb3JtYXQobGlzdChkaWZmZXJlbmNlcykpKQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBwYXJ0bgo=</text>
+      </register>
+      <register name="6" type="4">
         <text>pycountry.currencies.get(
                 numeric=pycountry.countries.get(alpha_3=country_code).numeric).alpha_3</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgJ3JldmVudWUnLCAndG90YWxfcmV2ZW51ZXMnXQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiPT09PT09PT09PSBDb21wYXJlZCA9PT09PT09PT09PT09PT0iKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgJ3JldmVudWUnLCAndG90YWxfcmV2ZW51ZXMnXQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzdGF0dXNfbmFtZXMgPSBbJ2F0dGVuZGVkJywgJ3ByZW1pdW0nLCAnbGF0ZV9jYW5jZWxsZWQnLCAnbWlzc2VkX2NsYXNzJywgJ2ZyZXF1ZW50X3Zpc2l0b3InXQogICAgICAgIHB0bmRhc2hfc3RhdHVzZXMgPSB7czogcGFydG5lcl9kYXNoYm9hcmRfb3V0cHV0W3NdIGZvciBzIGluIHN0YXR1c19uYW1lc30KICAgICAgICBwYXJ0bmVyc19zdGF0dXNlcyA9IHtzOiBwYXJ0bmVyc19zZXJ2aWNlX291dHB1dFtzXSBmb3IgcyBpbiBzdGF0dXNfbmFtZXN9CiAgICAgICAgc3RhdHVzZXNfZGlmZiA9IGRpZmYocHRuZGFzaF9zdGF0dXNlcywgcGFydG5lcnNfc3RhdHVzZXMpCiAgICAgICAgbG9nZ2VyLmluZm8ocHByaW50LlByZXR0eVByaW50ZXIoKS5wcHJpbnQobGlzdChzdGF0dXNlc19kaWZmKSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiPT09PT09PT09PSBDb21wYXJlZCA9PT09PT09PT09PT09PT0iKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>25</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1608,8 +1608,6 @@
         <entry encoding="base64">XDxSRVNFUlZBVElPTlNfUkVQT1JUX0RJU0NSRVBBTkNZXD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','b')</entry>
-        <entry>97</entry>
         <entry>181</entry>
         <entry>789</entry>
         <entry>813</entry>
@@ -1628,6 +1626,8 @@
         <entry>bnext</entry>
         <entry>s;start;end;g</entry>
         <entry>action ReformatCode</entry>
+        <entry>140</entry>
+        <entry>25</entry>
       </history-cmd>
       <history-expr />
       <history-input />
