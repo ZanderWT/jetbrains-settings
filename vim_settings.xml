@@ -191,7 +191,7 @@
         <mark key="^" line="773" column="15" />
         <mark key="." line="775" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1569870786407">
+      <file name="/Python Console" timestamp="1569871962168">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker/mysql_initial_data/0002_test_database_schema.sql" timestamp="1566859245735">
@@ -515,12 +515,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1569870777186">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1569871960785">
         <mark key="'" line="128" column="12" />
-        <mark key="[" line="143" column="46" />
-        <mark key="]" line="143" column="52" />
-        <mark key="." line="143" column="52" />
-        <mark key="^" line="143" column="52" />
+        <mark key="[" line="148" column="105" />
+        <mark key="]" line="148" column="105" />
+        <mark key="." line="148" column="112" />
+        <mark key="^" line="147" column="114" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1562945090062">
         <mark key="'" line="0" column="34" />
@@ -785,7 +785,7 @@
         <text>eligible_schedule =</text>
       </register>
       <register name="*" type="4">
-        <text>&quot;&quot;</text>
+        <text>()</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -841,16 +841,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>.sorted()</text>
+        <text>amount</text>
       </register>
       <register name="/" type="4">
         <text>return</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBkaWZmZWQ6CiAgICAgICAgICAgIHN0YXRzLmluY3JlbWVudCgncmVzZXJ2YXRpb25zX3JlcG9ydF9kaXNjcmVwYW5jeScpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc3RhdHMuaW5jcmVtZW50KCdyZXNlcnZhdGlvbnNfcmVwb3J0X2hhcm1vbnknKQo=</text>
+      <register name="0" type="4">
+        <text>, key=lambda d: d['amount']</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MudXRpbHMuc3RhdHMgaW1wb3J0IHN0YXRzCg==</text>
+        <text encoding="base64">ICAgICAgICBwYXJ0bmVyc19zZXJ2aWNlX291dHB1dFsncmV2ZW51ZSddCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -891,32 +891,32 @@
           <key char="66" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>()</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBzdGF0cy5pbmNyZW1lbnQoJ3Jlc2VydmF0aW9uc19yZXBvcnRfaGFybW9ueScpCg==</text>
+      <register name="3" type="4">
+        <text>partner_dashboard_output.pop('total_revenues')</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBkaWZmZWQ6Cg==</text>
+        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MudXRpbHMuc3RhdHMgaW1wb3J0IHN0YXRzCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MudXRpbHMgaW1wb3J0IHN0YXRzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>&quot;&quot;</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBzdGF0cy5pbmNyZW1lbnQoJ3Jlc2VydmF0aW9uc19yZXBvcnRfaGFybW9ueScpCg==</text>
       </register>
-      <register name="7" type="4">
-        <text>reservations</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBkaWZmZWQ6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IHBwcmludAo=</text>
+        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MudXRpbHMgaW1wb3J0IHN0YXRzCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>&quot;&quot;</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -1630,8 +1630,8 @@
         <entry>25</entry>
         <entry>action MethodUp</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
-        <entry>bnext</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
