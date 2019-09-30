@@ -627,8 +627,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1564084694224">
         <mark key="'" line="55" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" timestamp="1569625221393">
-        <mark key="'" line="48" column="23" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" timestamp="1569876485452">
+        <mark key="'" line="25" column="60" />
         <mark key="[" line="25" column="0" />
         <mark key="]" line="25" column="80" />
       </file>
@@ -670,7 +670,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="502" column="76" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="509" column="79" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="212" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="161" column="77" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -770,6 +769,7 @@
       <jump line="126" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="128" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="53" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
+      <jump line="25" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -844,7 +844,7 @@
         <text>'r</text>
       </register>
       <register name="/" type="4">
-        <text>increm</text>
+        <text>_(</text>
       </register>
       <register name="0" type="4">
         <text>f'{settings.</text>
@@ -1580,9 +1580,9 @@
       </register>
     </registers>
     <search>
-      <last-search>increm</last-search>
+      <last-search>_(</last-search>
       <last-offset />
-      <last-pattern>increm</last-pattern>
+      <last-pattern>_(</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
@@ -1590,7 +1590,6 @@
     </search>
     <history>
       <history-search>
-        <entry>count</entry>
         <entry>env</entry>
         <entry encoding="base64">XDxDUF9DT05GSUdfRU5WXD4=</entry>
         <entry>ENV</entry>
@@ -1610,6 +1609,7 @@
         <entry encoding="base64">XDxyZXNlcnZhdGlvbnNfZGF0YVw+</entry>
         <entry>return</entry>
         <entry>increm</entry>
+        <entry>_(</entry>
       </history-search>
       <history-cmd>
         <entry>181</entry>
