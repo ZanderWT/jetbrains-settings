@@ -515,12 +515,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1569871960785">
-        <mark key="'" line="128" column="12" />
-        <mark key="[" line="148" column="105" />
-        <mark key="]" line="148" column="105" />
-        <mark key="." line="148" column="112" />
-        <mark key="^" line="147" column="114" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1570036057684">
+        <mark key="'" line="130" column="15" />
+        <mark key="[" line="135" column="84" />
+        <mark key="]" line="136" column="24" />
+        <mark key="." line="136" column="24" />
+        <mark key="^" line="136" column="24" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1562945090062">
         <mark key="'" line="0" column="34" />
@@ -670,8 +670,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="509" column="79" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="212" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="161" column="77" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="461" column="80" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -723,7 +721,6 @@
       <jump line="90" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="19" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="20" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="127" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="12" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="121" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="136" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
@@ -770,6 +767,9 @@
       <jump line="128" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="53" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="25" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" />
+      <jump line="148" column="112" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="127" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="130" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -785,7 +785,7 @@
         <text>eligible_schedule =</text>
       </register>
       <register name="*" type="4">
-        <text>()</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -841,16 +841,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'r</text>
+        <text>.alpha_3</text>
       </register>
       <register name="/" type="4">
-        <text>_(</text>
+        <text encoding="base64">XDxjb3VudHJ5X3RvX2N1cnJlbmN5XD4=</text>
       </register>
       <register name="0" type="4">
         <text>[reservations_report_discrepancy]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwYXJ0bmVyc19zZXJ2aWNlX291dHB1dFsncmV2ZW51ZSddCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -892,34 +892,34 @@
         </keys>
       </register>
       <register name="2" type="4">
-        <text>()</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="3" type="4">
-        <text>partner_dashboard_output.pop('total_revenues')</text>
+        <text encoding="base64">Tm8gY291bnRyeSBmb3VuZCBmb3IgY291bnRyeSBjb2RlIA==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MudXRpbHMuc3RhdHMgaW1wb3J0IHN0YXRzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgogICAgICAgICAgICBzdGF0cy5pbmNyZW1lbnQoJ3Jlc2VydmF0aW9uc19yZXBvcnRfaGFybW9ueScpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHljb3VudHJ5LmN1cnJlbmNpZXMuZ2V0KG51bWVyaWM9cHljb3VudHJ5LmNvdW50cmllcy5nZXQoYWxwaGFfMz1jb3VudHJ5X2NvZGUpLm51bWVyaWMpLmFscGhhXzMK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBkaWZmZWQ6Cg==</text>
+        <text encoding="base64">ICAgICAgICBwYXJ0bmVyc19zZXJ2aWNlX291dHB1dFsncmV2ZW51ZSddCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBjbGFzc3Bhc3MudXRpbHMgaW1wb3J0IHN0YXRzCg==</text>
+      <register name="8" type="4">
+        <text>()</text>
       </register>
       <register name="9" type="4">
-        <text>&quot;&quot;</text>
+        <text>partner_dashboard_output.pop('total_revenues')</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowNextChangeMarker</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1580,9 +1580,9 @@
       </register>
     </registers>
     <search>
-      <last-search>_(</last-search>
+      <last-search encoding="base64">XDxjb3VudHJ5X3RvX2N1cnJlbmN5XD4=</last-search>
       <last-offset />
-      <last-pattern>_(</last-pattern>
+      <last-pattern encoding="base64">XDxjb3VudHJ5X3RvX2N1cnJlbmN5XD4=</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
@@ -1590,8 +1590,6 @@
     </search>
     <history>
       <history-search>
-        <entry>env</entry>
-        <entry encoding="base64">XDxDUF9DT05GSUdfRU5WXD4=</entry>
         <entry>ENV</entry>
         <entry>settings</entry>
         <entry>settings.env</entry>
@@ -1610,6 +1608,8 @@
         <entry>return</entry>
         <entry>increm</entry>
         <entry>_(</entry>
+        <entry>alpha</entry>
+        <entry encoding="base64">XDxjb3VudHJ5X3RvX2N1cnJlbmN5XD4=</entry>
       </history-search>
       <history-cmd>
         <entry>181</entry>
@@ -1621,17 +1621,17 @@
         <entry>s;classes;schedule;g</entry>
         <entry>action MethodDown</entry>
         <entry>24</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>s;start;end;g</entry>
         <entry>140</entry>
         <entry>25</entry>
         <entry>action MethodUp</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ReformatCode</entry>
-        <entry>bnext</entry>
         <entry>action VcsShowNextChangeMarker</entry>
+        <entry>action ShowBookmarks</entry>
+        <entry>bnext</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
