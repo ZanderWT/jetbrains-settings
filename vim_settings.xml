@@ -521,11 +521,11 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1570051605706">
-        <mark key="'" line="145" column="51" />
-        <mark key="[" line="153" column="28" />
-        <mark key="]" line="153" column="49" />
-        <mark key="." line="153" column="49" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1570052752373">
+        <mark key="'" line="142" column="76" />
+        <mark key="[" line="153" column="50" />
+        <mark key="]" line="153" column="64" />
+        <mark key="." line="153" column="50" />
         <mark key="^" line="153" column="49" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1562945090062">
@@ -680,9 +680,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="74" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
-      <jump line="179" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
-      <jump line="181" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" />
       <jump line="122" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="113" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="112" column="84" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -780,6 +777,9 @@
       <jump line="0" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/country_currency_codes.py" />
       <jump line="250" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/country_currency_codes.py" />
       <jump line="145" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="153" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="8" column="66" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="142" column="76" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -795,7 +795,7 @@
         <text>eligible_schedule =</text>
       </register>
       <register name="*" type="4">
-        <text>&quot;&quot;</text>
+        <text>()</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -854,13 +854,13 @@
         <text>country_to_currency</text>
       </register>
       <register name="/" type="4">
-        <text>pycoun</text>
+        <text encoding="base64">XDxDT1VOVFJZX0NVUlJFTkNZX0NPREVTXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY3VycmVuY3kgPSBweWNvdW50cnkuY3VycmVuY2llcy5nZXQobnVtZXJpYz1jb3VudHJ5Lm51bWVyaWMpCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>()</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -902,31 +902,31 @@
         </keys>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICBkZWYgY291bnRyeV90b19jdXJyZW5jeShjb3VudHJ5X2NvZGUpOgogICAgICAgICAgICBjb3VudHJ5ID0gcHljb3VudHJ5LmNvdW50cmllcy5nZXQoYWxwaGFfMz1jb3VudHJ5X2NvZGUpCiAgICAgICAgICAgIGlmIGNvdW50cnkgaXMgTm9uZToKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYnTm8gY291bnRyeSBmb3VuZCBmb3IgY291bnRyeSBjb2RlIHtjb3VudHJ5X2NvZGV9JykKICAgICAgICAgICAgICAgIHJldHVybiAnJwoKICAgICAgICAgICAgY291bnRyeV9uYW1lID0gY291bnRyeS5uYW1lLnVwcGVyKCkKICAgICAgICAgICAgY3VycmVuY3lfY29kZSA9IE5vbmUKCiAgICAgICAgICAgIGZvciBjdXJyZW5jeSwgZGF0YSBpbiBtb25leWVkLkNVUlJFTkNJRVMuaXRlcml0ZW1zKCk6CiAgICAgICAgICAgICAgICBpZiBjb3VudHJ5X25hbWUgaW4gZGF0YS5jb3VudHJpZXM6CiAgICAgICAgICAgICAgICAgICAgY3VycmVuY3lfY29kZSA9IGN1cnJlbmN5LmNvZGUKICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICAgICAgaWYgY3VycmVuY3lfY29kZSBpcyBOb25lOgogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZidObyBjdXJyZW5jeSBmb3VuZCBmb3IgY291bnRyeSB7Y291bnRyeV9uYW1lfScpCiAgICAgICAgICAgICAgICByZXR1cm4gJycKCiAgICAgICAgICAgIHJldHVybiBjdXJyZW5jeV9jb2Rl</text>
+        <text>country_code</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">cHljb3VudHJ5CnB5LW1vbmV5ZWQK</text>
+      <register name="3" type="4">
+        <text>()</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY3VycmVuY3kgPSBweWNvdW50cnkuY3VycmVuY2llcy5nZXQobnVtZXJpYz1jb3VudHJ5Lm51bWVyaWMpCg==</text>
+      <register name="4" type="4">
+        <text>row.pop('country_code')</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBjdXJyZW5jeQogICAgICAgICAgICAgICAgICAgIGJyZWFr</text>
+        <text encoding="base64">ICAgICAgICBkZWYgY291bnRyeV90b19jdXJyZW5jeShjb3VudHJ5X2NvZGUpOgogICAgICAgICAgICBjb3VudHJ5ID0gcHljb3VudHJ5LmNvdW50cmllcy5nZXQoYWxwaGFfMz1jb3VudHJ5X2NvZGUpCiAgICAgICAgICAgIGlmIGNvdW50cnkgaXMgTm9uZToKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYnTm8gY291bnRyeSBmb3VuZCBmb3IgY291bnRyeSBjb2RlIHtjb3VudHJ5X2NvZGV9JykKICAgICAgICAgICAgICAgIHJldHVybiAnJwoKICAgICAgICAgICAgY291bnRyeV9uYW1lID0gY291bnRyeS5uYW1lLnVwcGVyKCkKICAgICAgICAgICAgY3VycmVuY3lfY29kZSA9IE5vbmUKCiAgICAgICAgICAgIGZvciBjdXJyZW5jeSwgZGF0YSBpbiBtb25leWVkLkNVUlJFTkNJRVMuaXRlcml0ZW1zKCk6CiAgICAgICAgICAgICAgICBpZiBjb3VudHJ5X25hbWUgaW4gZGF0YS5jb3VudHJpZXM6CiAgICAgICAgICAgICAgICAgICAgY3VycmVuY3lfY29kZSA9IGN1cnJlbmN5LmNvZGUKICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICAgICAgaWYgY3VycmVuY3lfY29kZSBpcyBOb25lOgogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZidObyBjdXJyZW5jeSBmb3VuZCBmb3IgY291bnRyeSB7Y291bnRyeV9uYW1lfScpCiAgICAgICAgICAgICAgICByZXR1cm4gJycKCiAgICAgICAgICAgIHJldHVybiBjdXJyZW5jeV9jb2Rl</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cHljb3VudHJ5Cg==</text>
+        <text encoding="base64">cHljb3VudHJ5CnB5LW1vbmV5ZWQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY3VycmVuY3kgPSBweWNvdW50cnkuY3VycmVuY2llcy5nZXQobnVtZXJpYz1jb3VudHJ5Lm51bWVyaWMpCg==</text>
       </register>
-      <register name="9" type="4">
-        <text>&quot;&quot;</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>61</text>
@@ -1590,9 +1590,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pycoun</last-search>
+      <last-search encoding="base64">XDxDT1VOVFJZX0NVUlJFTkNZX0NPREVTXD4=</last-search>
       <last-offset />
-      <last-pattern>pycoun</last-pattern>
+      <last-pattern encoding="base64">XDxDT1VOVFJZX0NVUlJFTkNZX0NPREVTXD4=</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>start</last-substitute>
       <last-dir>1</last-dir>
@@ -1600,7 +1600,6 @@
     </search>
     <history>
       <history-search>
-        <entry>settings</entry>
         <entry>settings.env</entry>
         <entry>logg</entry>
         <entry>class</entry>
@@ -1620,6 +1619,7 @@
         <entry>alpha</entry>
         <entry encoding="base64">XDxjb3VudHJ5X3RvX2N1cnJlbmN5XD4=</entry>
         <entry>pycoun</entry>
+        <entry encoding="base64">XDxDT1VOVFJZX0NVUlJFTkNZX0NPREVTXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>813</entry>
@@ -1637,11 +1637,11 @@
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>action ReformatCode</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>bnext</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>49</entry>
         <entry>61</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
