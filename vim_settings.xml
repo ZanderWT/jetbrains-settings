@@ -579,12 +579,11 @@
         <mark key="^" line="74" column="14" />
         <mark key="." line="74" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1570039482984">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/base.py" timestamp="1570118100713">
         <mark key="'" line="9" column="32" />
-        <mark key="[" line="34" column="26" />
-        <mark key="]" line="35" column="34" />
-        <mark key="^" line="35" column="34" />
-        <mark key="." line="35" column="34" />
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/migrations/0011_auto_20190906_1349.py" timestamp="1567803863483">
         <mark key="'" line="23" column="34" />
@@ -595,6 +594,11 @@
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/rest_framework/response.py" timestamp="1549658923477">
         <mark key="'" line="18" column="8" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/testing.md" timestamp="1570118144272">
+        <mark key="[" line="126" column="0" />
+        <mark key="]" line="126" column="1" />
+        <mark key="." line="126" column="1" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/core/cache/backends/memcached.py" timestamp="1563222923171">
         <mark key="'" line="174" column="25" />
@@ -637,10 +641,11 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_opportunities.py" timestamp="1564084694224">
         <mark key="'" line="55" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" timestamp="1569876485452">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" timestamp="1570118125446">
         <mark key="'" line="25" column="60" />
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="80" />
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="0" />
+        <mark key="." line="55" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/logging_prefixes.py" timestamp="1570030755930">
         <mark key="'" line="5" column="0" />
@@ -859,8 +864,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY3VycmVuY3kgPSBweWNvdW50cnkuY3VycmVuY2llcy5nZXQobnVtZXJpYz1jb3VudHJ5Lm51bWVyaWMpCg==</text>
       </register>
-      <register name="1" type="4">
-        <text>()</text>
+      <register name="1" type="2">
+        <text encoding="base64">My4gTWFrZSBzdXJlIHlvdXIgZGV2IGFjY291bnQgaXMgbGlzdGVkIGluIFtERVZFTE9QRVJfVVNFUk5BTUVTXShodHRwczovL2dpdGh1Yi5jb20vY2xhc3NwYXNzL3BhcnRuZXItZGFzaGJvYXJkL2Jsb2IvbWFzdGVyL3NlcnZlci9jbGFzc3Bhc3Mvc2V0dGluZ3MvYmFzZS5weSNMMjcpCgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -901,29 +906,29 @@
           <key char="66" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>country_code</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>()</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgc2V0dGluZ3MuREVCVUc6CiAgICAgICAgICAgICAgICBwYXR0ZXJuID0gcmUuY29tcGlsZShyJ3N0dWRpb3NxdWFkX1xTK0BjbGFzc3Bhc3MuY29tJykKICAgICAgICAgICAgICAgIHRlc3RfYWNjb3VudCA9IGJvb2wocmUubWF0Y2gocGF0dGVybiwgc2VyaWFsaXplci5kYXRhWydlbWFpbCddKSkKICAgICAgICAgICAgICAgIHdoaXRlbGlzdGVkID0gc2VyaWFsaXplci5kYXRhWydlbWFpbCddIGluIHNldHRpbmdzLkRFVkVMT1BFUl9VU0VSTkFNRVMKICAgICAgICAgICAgICAgIGlmIG5vdCAodGVzdF9hY2NvdW50IG9yIHdoaXRlbGlzdGVkKToKICAgICAgICAgICAgICAgICAgICBsb2dnZXIuZXJyb3IoIlJlamVjdGluZyBlbWFpbD0lcyBmcm9tIGRldmVsb3BtZW50IGVudmlyb25tZW50Iiwgc2VyaWFsaXplci5kYXRhWydlbWFpbCddKQogICAgICAgICAgICAgICAgICAgIHJldHVybiBzZWxmLmhhbmRsZV9mYWlsZWRfdXNlcl9hdXRoKG1lc3NhZ2U9XygnRGVidWcgbW9kZSBlbmFibGVkIGFuZCB1c2VyIGlzIG5vdCBhIGRldmVsb3BlcicpKQo=</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="4">
-        <text>row.pop('country_code')</text>
+      <register name="4" type="2">
+        <text encoding="base64">REVWRUxPUEVSX1VTRVJOQU1FUyA9IFsKICAgICdqdXN0aW4rZmx5d2hlZWxAY2xhc3NwYXNzLmNvbScsCiAgICAnanVzdGluK3VuY2hhbmdlZEBjbGFzc3Bhc3MuY29tJywKICAgICdtYmVAY2xhc3NwYXNzLmNvbScsCiAgICAnc3R1ZGlvc3F1YWR0ZXN0QGNsYXNzcGFzcy5jb20nLAogICAgJ3N0dWRpb3NxdWFkX3JvY2tldEBjbGFzc3Bhc3MuY29tJywKICAgICdHSStzaW5nbGVfdmVudWVfdXNlckBjbGFzc3Bhc3MuY29tJywKICAgICdub29ybG9mZkBjbGFzc3Bhc3MuY29tJywKICAgICdkbWNrYXlAY2xhc3NwYXNzLmNvbScsCiAgICAna3lsZS5tYWNuYW1hcmFAY2xhc3NwYXNzLmNvbScsCiAgICAnbGphbWVzQGNsYXNzcGFzcy5jb20nLAogICAgJ3p3aWxzb24tdGhvbXBzb25AY2xhc3NwYXNzLmNvbScKXQo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>()</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICBkZWYgY291bnRyeV90b19jdXJyZW5jeShjb3VudHJ5X2NvZGUpOgogICAgICAgICAgICBjb3VudHJ5ID0gcHljb3VudHJ5LmNvdW50cmllcy5nZXQoYWxwaGFfMz1jb3VudHJ5X2NvZGUpCiAgICAgICAgICAgIGlmIGNvdW50cnkgaXMgTm9uZToKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYnTm8gY291bnRyeSBmb3VuZCBmb3IgY291bnRyeSBjb2RlIHtjb3VudHJ5X2NvZGV9JykKICAgICAgICAgICAgICAgIHJldHVybiAnJwoKICAgICAgICAgICAgY291bnRyeV9uYW1lID0gY291bnRyeS5uYW1lLnVwcGVyKCkKICAgICAgICAgICAgY3VycmVuY3lfY29kZSA9IE5vbmUKCiAgICAgICAgICAgIGZvciBjdXJyZW5jeSwgZGF0YSBpbiBtb25leWVkLkNVUlJFTkNJRVMuaXRlcml0ZW1zKCk6CiAgICAgICAgICAgICAgICBpZiBjb3VudHJ5X25hbWUgaW4gZGF0YS5jb3VudHJpZXM6CiAgICAgICAgICAgICAgICAgICAgY3VycmVuY3lfY29kZSA9IGN1cnJlbmN5LmNvZGUKICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICAgICAgaWYgY3VycmVuY3lfY29kZSBpcyBOb25lOgogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZidObyBjdXJyZW5jeSBmb3VuZCBmb3IgY291bnRyeSB7Y291bnRyeV9uYW1lfScpCiAgICAgICAgICAgICAgICByZXR1cm4gJycKCiAgICAgICAgICAgIHJldHVybiBjdXJyZW5jeV9jb2Rl</text>
+        <text>country_code</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">cHljb3VudHJ5CnB5LW1vbmV5ZWQK</text>
+      <register name="7" type="4">
+        <text>()</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY3VycmVuY3kgPSBweWNvdW50cnkuY3VycmVuY2llcy5nZXQobnVtZXJpYz1jb3VudHJ5Lm51bWVyaWMpCg==</text>
+      <register name="8" type="4">
+        <text>row.pop('country_code')</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
