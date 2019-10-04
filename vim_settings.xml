@@ -607,12 +607,12 @@
         <mark key="^" line="40" column="13" />
         <mark key="." line="40" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" timestamp="1570205665794">
-        <mark key="'" line="99" column="36" />
-        <mark key="[" line="76" column="95" />
-        <mark key="]" line="76" column="103" />
-        <mark key="." line="76" column="103" />
-        <mark key="^" line="76" column="103" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" timestamp="1570208109723">
+        <mark key="'" line="97" column="25" />
+        <mark key="[" line="100" column="70" />
+        <mark key="]" line="102" column="0" />
+        <mark key="." line="102" column="0" />
+        <mark key="^" line="102" column="9" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/RevenueReportResource.kt" timestamp="1570057049181">
         <mark key="'" line="20" column="36" />
@@ -659,10 +659,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="42" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
-      <jump line="20" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/LegacyReportingDigest.kt" />
-      <jump line="18" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReportingDigestLegacyDao.kt" />
-      <jump line="33" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="35" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="49" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="56" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
@@ -759,6 +755,10 @@
       <jump line="97" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" />
       <jump line="73" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" />
       <jump line="99" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" />
+      <jump line="74" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" />
+      <jump line="89" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" />
+      <jump line="91" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" />
+      <jump line="95" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -783,7 +783,9 @@
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="*" type="4">
-        <text>{}</text>
+        <text>{
+
+            }</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -2226,16 +2228,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>RangeClosed</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>private</text>
+        <text>illega</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQWdncmVnYXRlZFJldmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gcmVjb3JkLmdldFZhbHVlKFJFVkVOVUVfUkVWRU5VRUFHR1JFR0FUSU9OTE9HLlZFTlVFX0lEKSwKICAgICAgICAgICAgICAgIGRhdGVSYW5nZSA9IGRhdGVSYW5nZSwKICAgICAgICAgICAgICAgIGFnZ3JlZ2F0ZWRCeSA9IGFnZ3JlZ2F0ZWRCeSwKICAgICAgICAgICAgICAgIHJldmVudWUgPSByZWNvcmQuZ2V0VmFsdWUoc3VtKFJFVkVOVUVfUkVWRU5VRUFHR1JFR0FUSU9OTE9HLlRPVEFMX1JFVkVOVUUpKQoKICAgICAgICAgICAgKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgVmlld0J5VW5pdC5XRUVLTFkgLT4gTG9jYWxEYXRlLm5vdygpCiAgICAgICAgICAgICAgICAud2l0aFllYXIoeWVhcikKICAgICAgICAgICAgICAgIC53aXRoKFdlZWtGaWVsZHMuSVNPLndlZWtPZlllYXIoKSwgd2Vla09mWWVhciEhLnRvTG9uZygpKQogICAgICAgICAgICAgICAgLndpdGgoV2Vla0ZpZWxkcy5JU08uZGF5T2ZXZWVrKCksIDEpCgogICAgICAgICAgICBWaWV3QnlVbml0Lk1PTlRITFkgLT4gTG9jYWxEYXRlLm5vdygpCiAgICAgICAgICAgICAgICAud2l0aFllYXIoeWVhcikKICAgICAgICAgICAgICAgIC53aXRoTW9udGgobW9udGhPZlllYXIhISkKICAgICAgICAgICAgICAgIC53aXRoRGF5T2ZNb250aCgxKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgQ2hyb25vVW5pdC5XRUVLUwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2527,25 +2529,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZGF0ZUVuZCA9IHdoZW4gKGFnZ3JlZ2F0ZWRCeSkgewogICAgICAgICAgICBWaWV3QnlVbml0LldFRUtMWSAtPiBMb2NhbERhdGUubm93KCkKICAgICAgICAgICAgICAgIC53aXRoWWVhcih5ZWFyKQogICAgICAgICAgICAgICAgLndpdGgoV2Vla0ZpZWxkcy5JU08ud2Vla09mWWVhcigpLCB3ZWVrT2ZZZWFyISEudG9Mb25nKCkpCiAgICAgICAgICAgICAgICAud2l0aChXZWVrRmllbGRzLklTTy5kYXlPZldlZWsoKSwgMSkKCiAgICAgICAgICAgIFZpZXdCeVVuaXQuTU9OVEhMWSAtPiBMb2NhbERhdGUubm93KCkKICAgICAgICAgICAgICAgIC53aXRoWWVhcih5ZWFyKQogICAgICAgICAgICAgICAgLndpdGhNb250aChtb250aE9mWWVhciEhKQogICAgICAgICAgICAgICAgLndpdGhEYXlPZk1vbnRoKDEpCgoKICAgICAgICB9Cg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIGdldERhdGVSYW5nZUZyb21EYXRlUGFydHMoeWVhcjogSW50LCBtb250aE9mWWVhcjogSW50LCB3ZWVrT2ZZZWFyOiBJbnQpIHsKCiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBXZWVrRmllbGRzLklTTy53ZWUK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5mcm9tKFllYXJNb250aCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5555,14 +5557,16 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>{
+
+            }</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAud2l0aChXZWVrRmllbGRzLklTTy53ZWVrT2ZZZWFyKCksIHdlZWtPZlllYXIpCiAgICAgICAgICAgICAgICAgICAgLndpdGgoV2Vla0ZpZWxkcy5JU08uZGF5T2ZXZWVrKCksIDEpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5ub3coKQogICAgICAgICAgICAgICAgICAgIC53aXRoWWVhcih5ZWFyKQogICAgICAgICAgICAgICAgICAgIC53aXRoKFdlZWtGaWVsZHMuSVNPLndlZWtPZlllYXIoKSwgd2Vla09mWWVhciEhLnRvTG9uZygpKQogICAgICAgICAgICAgICAgICAgIC53aXRoKFdlZWtGaWVsZHMuSVNPLmRheU9mV2VlaygpLCAxKQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5780,19 +5784,19 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAud2l0aAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhbCB3ZWVrRmllbGRzID0gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAucnVuIHsKICAgICAgICAgICAgICAgICAgICAgICAgd2Vla09mWWVhcj8ubGV0IHsgd2VlayAtPgo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
       </register>
     </registers>
     <search>
-      <last-search>private</last-search>
+      <last-search>illega</last-search>
       <last-offset />
-      <last-pattern>private</last-pattern>
+      <last-pattern>illega</last-pattern>
       <last-replace>Aggregation</last-replace>
       <last-substitute>Item</last-substitute>
       <last-dir>-1</last-dir>
@@ -5800,17 +5804,12 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxmaXJzdERheU9mTW9udGhcPg==</entry>
-        <entry>todaty</entry>
-        <entry>today</entry>
-        <entry>adjustinto</entry>
         <entry>mont</entry>
         <entry>months</entry>
         <entry>yea</entry>
         <entry>year</entry>
         <entry>http</entry>
         <entry>mon</entry>
-        <entry>week</entry>
         <entry>groupf</entry>
         <entry>when</entry>
         <entry>weekc</entry>
@@ -5820,6 +5819,11 @@
         <entry>it.tol</entry>
         <entry>ss</entry>
         <entry>private</entry>
+        <entry>view</entry>
+        <entry>week</entry>
+        <entry>asdf</entry>
+        <entry>tol</entry>
+        <entry>illega</entry>
       </history-search>
       <history-cmd>
         <entry>action MethodUp</entry>
