@@ -78,11 +78,11 @@
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" timestamp="1571156098877">
-        <mark key="[" line="26" column="59" />
-        <mark key="]" line="26" column="83" />
-        <mark key="." line="26" column="83" />
-        <mark key="^" line="26" column="83" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" timestamp="1571158056424">
+        <mark key="[" line="35" column="70" />
+        <mark key="]" line="35" column="70" />
+        <mark key="." line="35" column="70" />
+        <mark key="^" line="35" column="21" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/RevenueItemLogVenuePortalDaoTest.kt" timestamp="1570056134694">
         <mark key="'" line="138" column="28" />
@@ -1986,16 +1986,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>(venueId, _)</text>
+        <text>.map {it.reportItems}</text>
       </register>
       <register name="/" type="4">
         <text>it</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgbG9jYWxlID0gTG9jYWxlKCIiLCBpdC5jb3VudHJ5Q29kZVNob3J0KQogICAgICAgIHZhbCBjdXJyZW5jeSA9IEN1cnJlbmN5LmdldEluc3RhbmNlKGxvY2FsZSkuY3VycmVuY3lDb2RlCg==</text>
+      <register name="0" type="4">
+        <text>summaryReportController.createReport(venues.associateBy { it.venueId }, aggregatedRevenue)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmFzc29jaWF0ZUJ5IHsgaXQudmVudWVJZCB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2287,25 +2287,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgY291bnRyaWVzID0gTGlzdCgzKSB7IGNvdW50cnlGYWN0b3J5LmNyZWF0ZSgpIH0KICAgICAgICB2YWwgc3RhcnQgPSBMb2NhbERhdGUub2YoMjAxNSwgNSwgMTMpCiAgICAgICAgdmFsIHZlbnVlcyA9IGNvdW50cmllcy5mbGF0TWFwIHsgY291bnRyeSAtPiBMaXN0KDIpIHsgdmVudWVGYWN0b3J5LmNyZWF0ZShjb3VudHJ5ID0gY291bnRyeSkgfSB9CiAgICAgICAgICAgIC5hc3NvY2lhdGVCeSB7IGl0LnZlbnVlSWQgfQoKICAgICAgICB2YWwgYWdncmVnYXRlZFJldmVudWUgPSB2ZW51ZXMuZmxhdE1hcCB7ICh2ZW51ZUlkLCBfKSAtPgogICAgICAgICAgICBMaXN0KDMpIHsKICAgICAgICAgICAgICAgIEFnZ3JlZ2F0ZWRSZXZlbnVlKAogICAgICAgICAgICAgICAgICAgIHZlbnVlSWQgPSB2ZW51ZUlkLAogICAgICAgICAgICAgICAgICAgIGRhdGVSYW5nZSA9IHN0YXJ0LnBsdXNXZWVrcyhpdC50b0xvbmcoKSkuLnN0YXJ0LnBsdXNXZWVrcygoaXQgKyAxKS50b0xvbmcoKSksCiAgICAgICAgICAgICAgICAgICAgYWdncmVnYXRlZEJ5ID0gVmlld0J5VW5pdC5XRUVLTFksCiAgICAgICAgICAgICAgICAgICAgcmV2ZW51ZSA9IEJpZ0RlY2ltYWwudmFsdWVPZih2ZW51ZUlkICsgKGl0ICsgMSkgKiAxMDBMKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPSBjb3VudHJpZXMucmVtb3ZlQXQoMCksCiAgICAgICAgICAgICAgICB0aW1lWm9uZSA9IG51bGwKICAgICAgICAgICAgKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB2ZW51ZUZhY3RvcnkuY3JlYXRlKCkK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0KCkuaXNFcXVhbFRvKCkK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5316,13 +5316,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTIikKICAgICAgICB2YWwgY2FuYWRhID0gQ291bnRyeSgxLCAiQ2FuYWRhIiwgIkNBIikK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgY291bnRyeUNvZGUgPSBjb3VudHJ5Q29kZVNob3J0ID86IGNyZWF0ZUNvdW50cnlJc28yKCkK</text>
+        <text encoding="base64">ICAgICAgIGFzc2VydFRoYXQoJEFDVFVBTCkuaXNFcXVhbFRvKCRFWFBFQ1RFRCkgIAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5540,10 +5540,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgYWN0dWFsVmVudWVJZHMgPSByZXBvcnQucmV2ZW51ZS52YWx1ZXMuZmxhdHRlbigpLmZsYXRNYXAge2l0LnJlcG9ydEl0ZW1zLmtleXN9LnNvcnRlZCgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHZhciB2YWxpZCA9IGZhbHNlCg==</text>
+        <text encoding="base64">ICAgICAgICByZXBvcnQK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
