@@ -116,7 +116,6 @@
         <mark key="^" line="58" column="26" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/SummaryReportResource.kt" timestamp="1571332092546">
-        <mark key="'" line="14" column="36" />
         <mark key="[" line="37" column="59" />
         <mark key="]" line="37" column="59" />
         <mark key="^" line="39" column="100" />
@@ -202,12 +201,12 @@
         <mark key="." line="21" column="62" />
         <mark key="^" line="21" column="62" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1571246706970">
-        <mark key="'" line="173" column="8" />
-        <mark key="[" line="487" column="40" />
-        <mark key="]" line="487" column="41" />
-        <mark key="^" line="487" column="41" />
-        <mark key="." line="487" column="41" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1571332956341">
+        <mark key="'" line="425" column="51" />
+        <mark key="[" line="486" column="40" />
+        <mark key="]" line="486" column="41" />
+        <mark key="^" line="486" column="41" />
+        <mark key="." line="486" column="41" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/ClassesReportRecords.kt" timestamp="1571245896600">
         <mark key="'" line="30" column="4" />
@@ -278,10 +277,10 @@
         <mark key="]" line="9" column="6" />
         <mark key="." line="9" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1571331442776">
-        <mark key="[" line="113" column="20" />
-        <mark key="]" line="113" column="39" />
-        <mark key="." line="113" column="39" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1571333410303">
+        <mark key="[" line="114" column="0" />
+        <mark key="]" line="114" column="0" />
+        <mark key="." line="114" column="0" />
         <mark key="^" line="113" column="39" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/cp_config.yaml" timestamp="1567539494247">
@@ -364,7 +363,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="140" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="125" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="126" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="132" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
@@ -464,6 +462,7 @@
       <jump line="2" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/SummaryReportResource.kt" />
       <jump line="14" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/SummaryReportResource.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ClassesReportResourceTest.kt" />
+      <jump line="425" column="51" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1943,7 +1942,7 @@
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oInZpZXdfYnlfcmFuZ2UiLCAiMyIpCg==</text>
+        <text encoding="base64">ICAgICAgICBiaW5kZXIuYmluZChTdW1tYXJ5UmVwb3J0UmVxdWVzdDo6Y2xhc3MuamF2YSkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2235,30 +2234,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBAQmVhblBhcmFtIEBWYWxpZCByZXF1ZXN0OiBTdW1tYXJ5UmVwb3J0UmVxdWVzdAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLnF1ZXJ5UGFyYW0oInZpZXdfYnlfcmFuZ2UiLCAiMyIpCg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="4">
-        <text>@QueryParam(&quot;view_by_range&quot;)</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAvLyBAQmVhblBhcmFtIEBWYWxpZCByZXF1ZXN0OiBTdW1tYXJ5UmVwb3J0UmVxdWVzdAo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="4">
-        <text>@QueryParam(&quot;view_by_unit&quot;)</text>
+        <text>@QueryParam(&quot;view_by_range&quot;)</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="4">
-        <text>{
-    val viewByUnit: ViewByUnit
-        get() = this.viewByUnitParam!!
-    val viewByRange: Int
-        get() = this.viewByRangeParam!!
-}</text>
+        <text>@QueryParam(&quot;view_by_unit&quot;)</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5268,14 +5262,19 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBiaW5kZXIuYmluZChzdW1tYXJ5UmVwb3J0Q29udHJvbGxlcjo6Y2xhc3MuamF2YSkK</text>
+      <register name="6" type="4">
+        <text>{
+    val viewByUnit: ViewByUnit
+        get() = this.viewByUnitParam!!
+    val viewByRange: Int
+        get() = this.viewByRangeParam!!
+}</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBiaW5kZXIuYmluZChzdW1tYXJ5UmVwb3J0Q29udHJvbGxlcjo6Y2xhc3MuamF2YSkK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5493,10 +5492,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYGdldExlZ2FjeVJlcG9ydGluZ0RpZ2VzdCByZXR1cm5zIGNsYXNzZXMgd2l0aCBubyBzY2hlZHVsZXNgKCkgewogICAgICAgIHZhbCBmYWtlRGF0YSA9IGdlbmVyYXRlUmVsYXRlZERhdGEod2l0aFZlbnVlcyA9IDMsIHdpdGhTY2hlZHVsZXMgPSAwLCB3aXRoQ2xhc3NlcyA9IDIpCiAgICAgICAgdmFsIHRvZGF5ID0gTG9jYWxEYXRlLm5vdygpCiAgICAgICAgdmFsIG9uZVllYXJBZ28gPSB0b2RheS5taW51c1llYXJzKDEpCiAgICAgICAgdmFsIHZlbnVlSWRzID0gZmFrZURhdGEudmVudWVzLm1hcCB7IGl0LnZlbnVlSWQgfQogICAgICAgIHZhbCBjbGFzc2VzUmVwb3J0RGlnZXN0ID0gcmVwb3J0aW5nRGlnZXN0TGVnYWN5RGFvLmdldExlZ2FjeVJlcG9ydGluZ0RpZ2VzdCgKICAgICAgICAgICAgQ2xhc3Nlc1JlcG9ydFJlcXVlc3QoCiAgICAgICAgICAgICAgICB2ZW51ZUlkcyA9IHZlbnVlSWRzLAogICAgICAgICAgICAgICAgc3RhcnREYXRlID0gb25lWWVhckFnbywKICAgICAgICAgICAgICAgIGVuZERhdGUgPSB0b2RheQogICAgICAgICAgICApCiAgICAgICAgKQoKICAgICAgICB2YWwgZXhwZWN0ZWRDbGFzc05hbWVzID0gZmFrZURhdGEuY2xhc3Nlcy5tYXAgeyBpdC5jbGFzc05hbWUgfS50b1NldCgpCiAgICAgICAgdmFsIGFjdHVhbENsYXNzTmFtZXMgPSBjbGFzc2VzUmVwb3J0RGlnZXN0LmNsYXNzTmFtZXMKICAgICAgICBhc3NlcnRUaGF0KGFjdHVhbENsYXNzTmFtZXMpLmlzRXF1YWxUbyhleHBlY3RlZENsYXNzTmFtZXMpCiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYGdldExlZ2FjeVJlcG9ydGluZ0RpZ2VzdCByZXR1cm5zIGNsYXNzZXMgd2l0aCBubyBzY2hlZHVsZXNgKCkgewogICAgICAgIHZhbCBmYWtlRGF0YSA9IGdlbmVyYXRlUmVsYXRlZERhdGEod2l0aFZlbnVlcyA9IDMsIHdpdGhTY2hlZHVsZXMgPSAwLCB3aXRoQ2xhc3NlcyA9IDIpCiAgICAgICAgdmFsIHRvZGF5ID0gTG9jYWxEYXRlLm5vdygpCiAgICAgICAgdmFsIG9uZVllYXJBZ28gPSB0b2RheS5taW51c1llYXJzKDEpCiAgICAgICAgdmFsIHZlbnVlSWRzID0gZmFrZURhdGEudmVudWVzLm1hcCB7IGl0LnZlbnVlSWQgfQogICAgICAgIHZhbCBjbGFzc2VzUmVwb3J0RGlnZXN0ID0gcmVwb3J0aW5nRGlnZXN0TGVnYWN5RGFvLmdldExlZ2FjeVJlcG9ydGluZ0RpZ2VzdCgKICAgICAgICAgICAgQ2xhc3Nlc1JlcG9ydFJlcXVlc3QoCiAgICAgICAgICAgICAgICB2ZW51ZUlkcyA9IHZlbnVlSWRzLAogICAgICAgICAgICAgICAgc3RhcnREYXRlID0gb25lWWVhckFnbywKICAgICAgICAgICAgICAgIGVuZERhdGUgPSB0b2RheQogICAgICAgICAgICApCiAgICAgICAgKQoKICAgICAgICB2YWwgZXhwZWN0ZWRDbGFzc05hbWVzID0gZmFrZURhdGEuY2xhc3Nlcy5tYXAgeyBpdC5jbGFzc05hbWUgfS50b1NldCgpCiAgICAgICAgdmFsIGFjdHVhbENsYXNzTmFtZXMgPSBjbGFzc2VzUmVwb3J0RGlnZXN0LmNsYXNzTmFtZXMKICAgICAgICBhc3NlcnRUaGF0KGFjdHVhbENsYXNzTmFtZXMpLmlzRXF1YWxUbyhleHBlY3RlZENsYXNzTmFtZXMpCiAgICB9Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
