@@ -433,6 +433,13 @@
         <mark key="." line="37" column="72" />
         <mark key="^" line="11" column="24" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" timestamp="1571330174132">
+        <mark key="'" line="379" column="8" />
+        <mark key="[" line="404" column="40" />
+        <mark key="]" line="404" column="58" />
+        <mark key="." line="404" column="58" />
+        <mark key="^" line="404" column="58" />
+      </file>
       <file name="$USER_HOME$/cp-projects/classpass-cron/classpass_job/classpass_job/schedule/mindbody/fetcher.py" timestamp="1551803043266">
         <mark key="'" line="0" column="0" />
       </file>
@@ -591,8 +598,8 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/core/cache/backends/memcached.py" timestamp="1563222923171">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" timestamp="1571328094792">
-        <mark key="'" line="147" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" timestamp="1571330142920">
+        <mark key="'" line="25" column="49" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/opportunities.py" timestamp="1568386126759">
         <mark key="'" line="46" column="10" />
@@ -669,8 +676,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
-      <jump line="136" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
       <jump line="152" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="213" column="63" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="373" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -769,6 +774,8 @@
       <jump line="27" column="99" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="46" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/revenue_reporting.py" />
       <jump line="147" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="25" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="379" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -840,10 +847,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>schedule_id</text>
+        <text>get_schedule_report</text>
       </register>
       <register name="/" type="4">
-        <text>attend</text>
+        <text>sumrepview</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB2aWV3X2J5X3VuaXQgPSByZXF1ZXN0LnF1ZXJ5X3BhcmFtcy5nZXQoJ3ZpZXdfYnlfdW5pdCcpCg==</text>
@@ -1579,9 +1586,9 @@
       </register>
     </registers>
     <search>
-      <last-search>attend</last-search>
+      <last-search>sumrepview</last-search>
       <last-offset />
-      <last-pattern>attend</last-pattern>
+      <last-pattern>sumrepview</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
       <last-dir>1</last-dir>
@@ -1589,8 +1596,6 @@
     </search>
     <history>
       <history-search>
-        <entry>compar</entry>
-        <entry>disc</entry>
         <entry encoding="base64">XDxzdGF0c1w+</entry>
         <entry>compare_res</entry>
         <entry encoding="base64">XDxyZXNlcnZhdGlvbnNfZGF0YVw+</entry>
@@ -1609,6 +1614,8 @@
         <entry encoding="base64">XDxjb21wYXJlX3Jlc2VydmF0aW9uc19yZXBvcnRfdG9fcGFydG5lcnNfc2VydmljZVw+</entry>
         <entry>status</entry>
         <entry>attend</entry>
+        <entry>get_schedule_report</entry>
+        <entry>sumrepview</entry>
       </history-search>
       <history-cmd>
         <entry>%s;^}$;},;</entry>
