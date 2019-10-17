@@ -7,11 +7,11 @@
         <mark key="[" line="84" column="43" />
         <mark key="]" line="84" column="66" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SummaryReportController.kt" timestamp="1571092011347">
-        <mark key="'" line="43" column="37" />
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="51" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SummaryReportController.kt" timestamp="1571323297290">
+        <mark key="'" line="50" column="16" />
+        <mark key="[" line="52" column="41" />
+        <mark key="]" line="52" column="41" />
+        <mark key="." line="52" column="41" />
         <mark key="^" line="55" column="92" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ReservationLegacyDaoTest.kt" timestamp="1567174763012">
@@ -133,6 +133,12 @@
         <mark key="]" line="7" column="0" />
         <mark key="^" line="7" column="0" />
         <mark key="." line="7" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportResponse.kt" timestamp="1571323272804">
+        <mark key="'" line="13" column="25" />
+        <mark key="[" line="8" column="98" />
+        <mark key="]" line="8" column="98" />
+        <mark key="." line="8" column="98" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/request/ReservationsReportRequestTest.kt" timestamp="1569273795394">
         <mark key="[" line="3" column="0" />
@@ -340,8 +346,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="115" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="466" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="89" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="220" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
       <jump line="97" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestBase.kt" />
@@ -440,6 +444,8 @@
       <jump line="95" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ReportingDigestLegacyDaoTest.kt" />
       <jump line="100" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ReportingDigestLegacyDaoTest.kt" />
       <jump line="113" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ReportingDigestLegacyDaoTest.kt" />
+      <jump line="13" column="25" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportResponse.kt" />
+      <jump line="50" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SummaryReportController.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1907,10 +1913,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>REVENUE_REVENUEITEMLOG</text>
+        <text encoding="base64">b3V0IA==</text>
       </register>
       <register name="/" type="4">
-        <text>asdf</text>
+        <text>out</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgY2xhc3Nlc1JlcG9ydERpZ2VzdCA9IHJlcG9ydGluZ0RpZ2VzdExlZ2FjeURhby5nZXRMZWdhY3lSZXBvcnRpbmdEaWdlc3QoCiAgICAgICAgICAgIENsYXNzZXNSZXBvcnRSZXF1ZXN0KAogICAgICAgICAgICAgICAgdmVudWVJZHMgPSB2ZW51ZUlkcywKICAgICAgICAgICAgICAgIHN0YXJ0RGF0ZSA9IG9uZVllYXJBZ28sCiAgICAgICAgICAgICAgICBlbmREYXRlID0gdG9kYXksCiAgICAgICAgICAgICAgICBleGNsdWRlZFN0YXJ0VGltZXMgPSBleGNsdWRlZFN0YXJ0VGltZXMKICAgICAgICAgICAgKQogICAgICAgICkK</text>
@@ -5477,9 +5483,9 @@
       </register>
     </registers>
     <search>
-      <last-search>asdf</last-search>
+      <last-search>out</last-search>
       <last-offset />
-      <last-pattern>asdf</last-pattern>
+      <last-pattern>out</last-pattern>
       <last-replace>getLegacyReportingDigest</last-replace>
       <last-substitute encoding="base64">XDxnZXRDbGFzc2VzUmVwb3J0RGlnZXN0XD4=</last-substitute>
       <last-dir>1</last-dir>
@@ -5487,7 +5493,6 @@
     </search>
     <history>
       <history-search>
-        <entry>class</entry>
         <entry>\.\.</entry>
         <entry>names</entry>
         <entry>.fil</entry>
@@ -5507,6 +5512,7 @@
         <entry>show</entry>
         <entry>clas</entry>
         <entry>asdf</entry>
+        <entry>out</entry>
       </history-search>
       <history-cmd>
         <entry>%s;excludes;filters;</entry>
