@@ -131,12 +131,12 @@
         <mark key="." line="58" column="26" />
         <mark key="^" line="58" column="26" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/SummaryReportResource.kt" timestamp="1571347897704">
-        <mark key="'" line="35" column="55" />
-        <mark key="[" line="35" column="36" />
-        <mark key="]" line="35" column="36" />
-        <mark key="^" line="35" column="117" />
-        <mark key="." line="35" column="36" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/SummaryReportResource.kt" timestamp="1571416567528">
+        <mark key="'" line="36" column="55" />
+        <mark key="[" line="41" column="97" />
+        <mark key="]" line="42" column="7" />
+        <mark key="^" line="42" column="7" />
+        <mark key="." line="42" column="7" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/validation/ValidSortColumns.kt" timestamp="1571347109076">
         <mark key="'" line="9" column="33" />
@@ -286,11 +286,11 @@
         <mark key="^" line="11" column="68" />
         <mark key="." line="11" column="68" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportRequest.kt" timestamp="1571348030429">
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="0" />
-        <mark key="^" line="12" column="54" />
-        <mark key="." line="22" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportRequest.kt" timestamp="1571416549157">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+        <mark key="^" line="7" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsResource.kt" timestamp="1571355022929">
         <mark key="'" line="0" column="0" />
@@ -506,7 +506,7 @@
     </jumps>
     <registers>
       <register name="a" type="4">
-        <text encoding="base64">IHZhbCB2aWV3QnlVbml0ID0gVmlld0J5VW5pdC52YWx1ZU9mKHZpZXdCeVVuaXQp</text>
+        <text>ViewByUnit.valueOf(viewByUnit.toUpperCase())</text>
       </register>
       <register name="&quot;" type="4">
         <text encoding="base64">IA==</text>
@@ -527,7 +527,7 @@
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IHZhbCB2aWV3QnlVbml0ID0gVmlld0J5VW5pdC52YWx1ZU9mKHZpZXdCeVVuaXQp</text>
+        <text>ViewByUnit.valueOf(viewByUnit.toUpperCase())</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -1970,7 +1970,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PFN1bW1hcnlSZXBvcnRDb250cm9sbGVyPg==</text>
+        <text>viewByUnit</text>
       </register>
       <register name="/" type="4">
         <text>app</text>
@@ -2274,25 +2274,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHZhbCBjb250cm9sbGVyID0gCiAgICB9Cg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB2ZW51ZUlkID0gaXQuZ2V0VmFsdWUoUkVWRU5VRV9SRVZFTlVFQUdHUkVHQVRJT05MT0cuVkVOVUVfSUQpLAo=</text>
+        <text encoding="base64">ICAgIEBKc29uQ3JlYXRvcgogICAgY29uc3RydWN0b3IoCiAgICAgICAgdmlld0J5VW5pdDogU3RyaW5nLAogICAgICAgIHZpZXdCeVJhbmdlOiBJbnQKICAgICkgOiB0aGlzKFZpZXdCeVVuaXQudmFsdWVPZih2aWV3QnlVbml0LnRvVXBwZXJDYXNlKCkpLCB2aWV3QnlSYW5nZSkK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhZ2dyZWdhdGVkQnkgPSB2aWV3QnlVbml0LAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZpc2l0c1RvT3JnYW5pemF0aW9uID0gbGlmZXRpbWVWaXNpdHMuZ2V0T3JEZWZhdWx0KHVzZXJJZCwgMCksCg==</text>
+        <text encoding="base64">ICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHZhbCBjb250cm9sbGVyID0gCiAgICB9Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5303,13 +5303,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB2ZW51ZUlkID0gaXQuZ2V0VmFsdWUoUkVWRU5VRV9SRVZFTlVFQUdHUkVHQVRJT05MT0cuVkVOVUVfSUQpLAo=</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIEBKc29uQ3JlYXRvcgogICAgICAgIEBKdm1TdGF0aWMKICAgICAgICBmdW4gb2YodmFsdWU6IFN0cmluZyk6IFZpZXdCeVVuaXQgewogICAgICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgICAgIHZhbHVlT2YodmFsdWUudG9VcHBlckNhc2UoKSkKICAgICAgICAgICAgfSBjYXRjaCAoZTogSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhZ2dyZWdhdGVkQnkgPSB2aWV3QnlVbml0LAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5527,13 +5527,13 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZpc2l0c1RvT3JnYW5pemF0aW9uID0gbGlmZXRpbWVWaXNpdHMuZ2V0T3JEZWZhdWx0KHVzZXJJZCwgMCksCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIG9wZW4gZnVuIGlzVmFsaWQoKSA9IHRydWUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>34</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -5588,10 +5588,10 @@
         <entry>s;WEEK;YEAR;g</entry>
         <entry>s;WEEK;MONTH;</entry>
         <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>34</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
