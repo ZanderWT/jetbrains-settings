@@ -517,8 +517,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1571691872923">
-        <mark key="'" line="1" column="0" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1571768356858">
+        <mark key="'" line="50" column="8" />
         <mark key="[" line="117" column="0" />
         <mark key="]" line="117" column="0" />
         <mark key="." line="117" column="0" />
@@ -674,7 +674,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="415" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="70" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="32" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
       <jump line="421" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -774,6 +773,7 @@
       <jump line="105" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="113" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="50" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -848,7 +848,7 @@
         <text>get_schedule_report</text>
       </register>
       <register name="/" type="4">
-        <text>pycoun</text>
+        <text>ify</text>
       </register>
       <register name="0" type="4">
         <text>revenue_reporting/reservation_data</text>
@@ -1584,9 +1584,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pycoun</last-search>
+      <last-search>ify</last-search>
       <last-offset />
-      <last-pattern>pycoun</last-pattern>
+      <last-pattern>ify</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
       <last-dir>1</last-dir>
@@ -1594,8 +1594,6 @@
     </search>
     <history>
       <history-search>
-        <entry>increm</entry>
-        <entry>_(</entry>
         <entry>alpha</entry>
         <entry encoding="base64">XDxjb3VudHJ5X3RvX2N1cnJlbmN5XD4=</entry>
         <entry encoding="base64">XDxDT1VOVFJZX0NVUlJFTkNZX0NPREVTXD4=</entry>
@@ -1614,6 +1612,8 @@
         <entry>dictdif</entry>
         <entry>discr</entry>
         <entry>pycoun</entry>
+        <entry>ofy</entry>
+        <entry>ify</entry>
       </history-search>
       <history-cmd>
         <entry>s;start;end;g</entry>
