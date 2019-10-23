@@ -435,10 +435,10 @@
         <mark key="." line="29" column="0" />
         <mark key="^" line="28" column="116" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" timestamp="1571851956800">
-        <mark key="[" line="47" column="0" />
-        <mark key="]" line="47" column="0" />
-        <mark key="." line="47" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" timestamp="1571868490118">
+        <mark key="[" line="54" column="27" />
+        <mark key="]" line="54" column="27" />
+        <mark key="." line="54" column="27" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" timestamp="1571246166793">
         <mark key="'" line="16" column="6" />
@@ -2027,19 +2027,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>) { &quot;&quot; }</text>
+        <text>, MediaType.TEXT_PLAIN</text>
       </register>
       <register name="/" type="4">
         <text>sched</text>
       </register>
       <register name="0" type="4">
-        <text>CSVPrinter(writer, CSVFormat.DEFAULT)</text>
+        <text>reservation_report_${Instant.now().epochSecond}.csv</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFsIGZpbGVuYW1lID0gInJlc2VydmF0aW9uX3JlcG9ydF8ke0luc3RhbnQubm93KCkuZXBvY2hTZWNvbmR9LmNzdiIK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2331,25 +2331,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGZ1biA8VD4gd2l0aENzdlByaW50ZXIoYmxvY2s6IChDU1ZQcmludGVyKSAtPiBUKTogVCA9CiAgICAgICAgQnVmZmVyZWRXcml0ZXIoU3RyaW5nV3JpdGVyKCkpLnVzZSB7IHdyaXRlciAtPgogICAgICAgICAgICBDU1ZQcmludGVyKHdyaXRlciwgQ1NWRm9ybWF0LkRFRkFVTFQpLnVzZSB7IGNzdlByaW50ZXIgLT4KICAgICAgICAgICAgICAgIGJsb2NrKGNzdlByaW50ZXIpCiAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGZ1biA8VD4gd2l0aENzdlByaW50ZXIoYmxvY2s6IChDU1ZQcmludGVyKSAtPiBUKTogVCA9CiAgICAgICAgQnVmZmVyZWRXcml0ZXIoU3RyaW5nV3JpdGVyKCkpLnVzZSB7IHdyaXRlciAtPgogICAgICAgICAgICBDU1ZQcmludGVyKHdyaXRlciwgQ1NWRm9ybWF0LkRFRkFVTFQpLnVzZSB7IGNzdlByaW50ZXIgLT4KICAgICAgICAgICAgICAgIGJsb2NrKGNzdlByaW50ZXIpCiAgICAgICAgICAgIH0K</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5360,13 +5360,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgd3JpdGVDc3ZSb3cgPSB7cm93OiBMaXN0PEFueT4gLT4gIG91dHB1dC5hcHBlbmRsbihyb3cuam9pblRvU3RyaW5nKCIsIiApKX0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="4">
-        <text>''</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgd3JpdGVDc3ZSb3cgPSB7cm93OiBMaXN0PEFueT4gLT4gIG91dHB1dC5hcHBlbmRsbihyb3cuam9pblRvU3RyaW5nKCIsIiApKX0K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5584,10 +5584,10 @@
         </keys>
       </register>
       <register name="8" type="4">
-        <text>,</text>
+        <text>''</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjc3ZQcmludGVyLmZsdXNoKCkKICAgICAgICBjc3ZQcmludGVyLm91dCBhcyBCdWZmZXJlZFdyaXRlcgo=</text>
+      <register name="9" type="4">
+        <text>,</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -5647,8 +5647,8 @@
         <entry>s;,;&quot;,&quot;;g</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action ReformatCode</entry>
         <entry>bnext</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
