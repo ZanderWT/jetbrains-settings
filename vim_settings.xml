@@ -25,6 +25,9 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/teachers.py" timestamp="1548866758461">
         <mark key="'" line="67" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" timestamp="1571838955137">
+        <mark key="'" line="58" column="9" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/user.py" timestamp="1562954383188">
         <mark key="'" line="37" column="0" />
         <mark key="[" line="5" column="0" />
@@ -197,8 +200,8 @@
         <mark key="^" line="7141" column="40" />
         <mark key="." line="7141" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1570220771095">
-        <mark key="'" line="203" column="30" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1571839122893">
+        <mark key="'" line="671" column="27" />
         <mark key="[" line="454" column="29" />
         <mark key="]" line="454" column="30" />
         <mark key="." line="454" column="30" />
@@ -674,13 +677,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="40" column="61" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
-      <jump line="45" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
-      <jump line="47" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" />
-      <jump line="33" column="53" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="112" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="125" column="3" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="126" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
       <jump line="109" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="75" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="38" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" />
@@ -774,6 +770,13 @@
       <jump line="96" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/revenue_reporting.py" />
       <jump line="67" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="127" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/revenue_reporting.py" />
+      <jump line="43" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="49" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="51" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="58" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
+      <jump line="476" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="606" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="671" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -848,7 +851,7 @@
         <text>get_schedule_report</text>
       </register>
       <register name="/" type="4">
-        <text>sold</text>
+        <text encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</text>
       </register>
       <register name="0" type="4">
         <text>revenue_reporting/reservation_data</text>
@@ -1584,20 +1587,16 @@
       </register>
     </registers>
     <search>
-      <last-search>sold</last-search>
+      <last-search encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</last-search>
       <last-offset />
-      <last-pattern>sold</last-pattern>
+      <last-pattern encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>report</entry>
-        <entry>unit</entry>
-        <entry>gbr</entry>
-        <entry encoding="base64">XDxjb21wYXJlX3Jlc2VydmF0aW9uc19yZXBvcnRfdG9fcGFydG5lcnNfc2VydmljZVw+</entry>
         <entry>status</entry>
         <entry>attend</entry>
         <entry>get_schedule_report</entry>
@@ -1614,6 +1613,10 @@
         <entry>instr</entry>
         <entry>teac</entry>
         <entry>sold</entry>
+        <entry>pull</entry>
+        <entry>save_rev</entry>
+        <entry>total_res</entry>
+        <entry encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>s;start;end;g</entry>
