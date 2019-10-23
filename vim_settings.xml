@@ -329,10 +329,10 @@
         <mark key="^" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" timestamp="1571691801940">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" timestamp="1571868082380">
         <mark key="'" line="105" column="8" />
-        <mark key="[" line="98" column="0" />
-        <mark key="]" line="98" column="0" />
+        <mark key="[" line="130" column="20" />
+        <mark key="]" line="130" column="44" />
         <mark key="." line="98" column="0" />
         <mark key="^" line="107" column="49" />
       </file>
@@ -520,8 +520,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1571770732746">
-        <mark key="'" line="67" column="12" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1571868061857">
+        <mark key="'" line="50" column="8" />
         <mark key="[" line="117" column="0" />
         <mark key="]" line="117" column="0" />
         <mark key="." line="117" column="0" />
@@ -677,7 +677,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="109" column="13" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="75" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="38" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" />
       <jump line="100" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
@@ -764,7 +763,6 @@
       <jump line="105" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="113" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="50" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="55" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="59" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="96" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/revenue_reporting.py" />
@@ -777,6 +775,8 @@
       <jump line="476" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="606" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="671" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="50" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -851,10 +851,10 @@
         <text>get_schedule_report</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</text>
+        <text encoding="base64">XDxnZXRfcmV2ZW51ZV9yZXBvcnRfcmVzZXJ2YXRpb25zX2Nzdl9kYXRhXD4=</text>
       </register>
       <register name="0" type="4">
-        <text>revenue_reporting/reservation_data</text>
+        <text>reservation_report_{}.csv</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -1587,18 +1587,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</last-search>
+      <last-search encoding="base64">XDxnZXRfcmV2ZW51ZV9yZXBvcnRfcmVzZXJ2YXRpb25zX2Nzdl9kYXRhXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxnZXRfcmV2ZW51ZV9yZXBvcnRfcmVzZXJ2YXRpb25zX2Nzdl9kYXRhXD4=</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>status</entry>
-        <entry>attend</entry>
         <entry>get_schedule_report</entry>
         <entry>sumrepview</entry>
         <entry>reporting</entry>
@@ -1617,6 +1615,8 @@
         <entry>save_rev</entry>
         <entry>total_res</entry>
         <entry encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</entry>
+        <entry>csv_</entry>
+        <entry encoding="base64">XDxnZXRfcmV2ZW51ZV9yZXBvcnRfcmVzZXJ2YXRpb25zX2Nzdl9kYXRhXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s;start;end;g</entry>
