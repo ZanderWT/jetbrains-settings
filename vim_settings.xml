@@ -188,10 +188,8 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/RevenueRevenueitemlog.java" timestamp="1571770770985">
         <mark key="'" line="41" column="46" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1571858690223">
-        <mark key="[" line="91" column="0" />
-        <mark key="]" line="91" column="0" />
-        <mark key="." line="91" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1571928181978">
+        <mark key="'" line="2" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportResponse.kt" timestamp="1571838527941">
         <mark key="'" line="9" column="44" />
@@ -335,13 +333,6 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" timestamp="1571772237308">
-        <mark key="'" line="44" column="40" />
-        <mark key="[" line="44" column="9" />
-        <mark key="]" line="44" column="17" />
-        <mark key="^" line="44" column="17" />
-        <mark key="." line="44" column="17" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsReportResponse.kt" timestamp="1571770107650">
         <mark key="'" line="80" column="11" />
         <mark key="[" line="93" column="0" />
@@ -433,7 +424,12 @@
         <mark key="." line="29" column="0" />
         <mark key="^" line="28" column="116" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" timestamp="1571868490118" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" timestamp="1571927991264">
+        <mark key="[" line="54" column="27" />
+        <mark key="]" line="54" column="48" />
+        <mark key="^" line="54" column="48" />
+        <mark key="." line="54" column="48" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" timestamp="1571246166793">
         <mark key="'" line="16" column="6" />
         <mark key="[" line="69" column="45" />
@@ -454,7 +450,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/SummaryReportResponse.json" />
       <jump line="57" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/SummaryReportResponse.json" />
       <jump line="30" column="9" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/SummaryReportResponse.json" />
       <jump line="45" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/SummaryReportResponse.json" />
@@ -554,6 +549,7 @@
       <jump line="141" column="27" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/records/RevenueRevenueaggregationlogRecord.java" />
       <jump line="146" column="71" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/records/RevenueRevenueaggregationlogRecord.java" />
       <jump line="148" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/records/RevenueRevenueaggregationlogRecord.java" />
+      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2033,7 +2029,7 @@
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmFsIGZpbGVuYW1lID0gInJlc2VydmF0aW9uX3JlcG9ydF8ke0luc3RhbnQubm93KCkuZXBvY2hTZWNvbmR9LmNzdiIK</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5hcGFjaGUuY29tbW9ucy5jc3YuQ1NWRm9ybWF0CmltcG9ydCBvcmcuYXBhY2hlLmNvbW1vbnMuY3N2LkNTVlByaW50ZXIK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2325,25 +2321,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFsIGZpbGVuYW1lID0gInJlc2VydmF0aW9uX3JlcG9ydF8ke0luc3RhbnQubm93KCkuZXBvY2hTZWNvbmR9LmNzdiIK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGZ1biA8VD4gd2l0aENzdlByaW50ZXIoYmxvY2s6IChDU1ZQcmludGVyKSAtPiBUKTogVCA9CiAgICAgICAgQnVmZmVyZWRXcml0ZXIoU3RyaW5nV3JpdGVyKCkpLnVzZSB7IHdyaXRlciAtPgogICAgICAgICAgICBDU1ZQcmludGVyKHdyaXRlciwgQ1NWRm9ybWF0LkRFRkFVTFQpLnVzZSB7IGNzdlByaW50ZXIgLT4KICAgICAgICAgICAgICAgIGJsb2NrKGNzdlByaW50ZXIpCiAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGZ1biA8VD4gd2l0aENzdlByaW50ZXIoYmxvY2s6IChDU1ZQcmludGVyKSAtPiBUKTogVCA9CiAgICAgICAgQnVmZmVyZWRXcml0ZXIoU3RyaW5nV3JpdGVyKCkpLnVzZSB7IHdyaXRlciAtPgogICAgICAgICAgICBDU1ZQcmludGVyKHdyaXRlciwgQ1NWRm9ybWF0LkRFRkFVTFQpLnVzZSB7IGNzdlByaW50ZXIgLT4KICAgICAgICAgICAgICAgIGJsb2NrKGNzdlByaW50ZXIpCiAgICAgICAgICAgIH0K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5354,13 +5350,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgd3JpdGVDc3ZSb3cgPSB7cm93OiBMaXN0PEFueT4gLT4gIG91dHB1dC5hcHBlbmRsbihyb3cuam9pblRvU3RyaW5nKCIsIiApKX0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5577,11 +5573,11 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="8" type="4">
-        <text>''</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgd3JpdGVDc3ZSb3cgPSB7cm93OiBMaXN0PEFueT4gLT4gIG91dHB1dC5hcHBlbmRsbihyb3cuam9pblRvU3RyaW5nKCIsIiApKX0K</text>
       </register>
       <register name="9" type="4">
-        <text>,</text>
+        <text>''</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
