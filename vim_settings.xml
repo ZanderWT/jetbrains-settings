@@ -287,6 +287,9 @@
         <mark key="]" line="15" column="26" />
         <mark key="." line="15" column="38" />
       </file>
+      <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" timestamp="1571954541283">
+        <mark key="'" line="111" column="8" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/jooq/JooqFactory.kt" timestamp="1568923083082">
         <mark key="[" line="18" column="72" />
         <mark key="]" line="18" column="73" />
@@ -462,10 +465,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="51" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SummaryReportController.kt" />
-      <jump line="34" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/RevenueAggregationLogVenuePortalDaoTest.kt" />
-      <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" />
-      <jump line="26" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="28" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="94" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="15" column="11" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/ReservationsReportRequest.kt" />
@@ -562,6 +561,10 @@
       <jump line="21" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="480" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="91" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
+      <jump line="74" column="41" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
+      <jump line="82" column="12" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
+      <jump line="88" column="42" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
+      <jump line="111" column="8" filename="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -2032,7 +2035,7 @@
         <text>2019</text>
       </register>
       <register name="/" type="4">
-        <text>copy</text>
+        <text>deleteve</text>
       </register>
       <register name="0" type="4">
         <text>.format(DateTimeFormatter.ofPattern(&quot;MM/dd/YYYY&quot;))</text>
@@ -5599,9 +5602,9 @@
       </register>
     </registers>
     <search>
-      <last-search>copy</last-search>
+      <last-search>deleteve</last-search>
       <last-offset />
-      <last-pattern>copy</last-pattern>
+      <last-pattern>deleteve</last-pattern>
       <last-replace>&quot;,&quot;</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5609,9 +5612,6 @@
     </search>
     <history>
       <history-search>
-        <entry>cor</entry>
-        <entry>await</entry>
-        <entry>.await</entry>
         <entry>makecsv</entry>
         <entry>date</entry>
         <entry>\.make</entry>
@@ -5629,6 +5629,9 @@
         <entry encoding="base64">ID8=</entry>
         <entry>forbid</entry>
         <entry>copy</entry>
+        <entry>return if</entry>
+        <entry>settingsdao</entry>
+        <entry>deleteve</entry>
       </history-search>
       <history-cmd>
         <entry>action MethodDown</entry>
