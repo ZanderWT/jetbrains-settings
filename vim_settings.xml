@@ -203,8 +203,8 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/RevenueRevenueitemlog.java" timestamp="1571770770985">
         <mark key="'" line="41" column="46" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1571952307525">
-        <mark key="'" line="96" column="14" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1572360205737">
+        <mark key="'" line="0" column="0" />
         <mark key="[" line="88" column="48" />
         <mark key="]" line="88" column="51" />
         <mark key="^" line="88" column="51" />
@@ -464,7 +464,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="146" column="52" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
       <jump line="151" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
       <jump line="155" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
       <jump line="159" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
@@ -564,6 +563,7 @@
       <jump line="81" column="69" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
       <jump line="6" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
       <jump line="82" column="120" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2036,7 +2036,7 @@
         <text>from the revenue_revenueaggregatelog table</text>
       </register>
       <register name="/" type="4">
-        <text>represents the</text>
+        <text>freq</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">W0FnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjUzLCBkYXRlUmFuZ2U9MjAxNi0xMi0wOC4uMjAxNi0xMi0wOCwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MSksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjUzLCBkYXRlUmFuZ2U9MjAxNi0xMi0wOS4uMjAxNi0xMi0wOSwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MSksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjUzLCBkYXRlUmFuZ2U9MjAxNi0xMi0xMS4uMjAxNi0xMi0xMSwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MiksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjUzLCBkYXRlUmFuZ2U9MjAxNi0xMi0xMi4uMjAxNi0xMi0xMiwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MSksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjUzLCBkYXRlUmFuZ2U9MjAxNi0xMi0xMy4uMjAxNi0xMi0xMywgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MiksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjUzLCBkYXRlUmFuZ2U9MjAxNi0xMi0xNS4uMjAxNi0xMi0xNSwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MiksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjUzLCBkYXRlUmFuZ2U9MjAxNi0xMi0xNi4uMjAxNi0xMi0xNiwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MiksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjUzLCBkYXRlUmFuZ2U9MjAxNi0xMi0xNy4uMjAxNi0xMi0xNywgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MiksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0wOC4uMjAxNi0xMi0wOCwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MiksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0wOS4uMjAxNi0xMi0wOSwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MSksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0xMC4uMjAxNi0xMi0xMCwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MyksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0xMS4uMjAxNi0xMi0xMSwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MiksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0xMi4uMjAxNi0xMi0xMiwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MSksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0xMy4uMjAxNi0xMi0xMywgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MyksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0xNC4uMjAxNi0xMi0xNCwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MiksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0xNS4uMjAxNi0xMi0xNSwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MSksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0xNi4uMjAxNi0xMi0xNiwgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MyksIEFnZ3JlZ2F0ZWRCb29raW5ncyh2ZW51ZUlkPTMxNTQzMjU0LCBkYXRlUmFuZ2U9MjAxNi0xMi0xNy4uMjAxNi0xMi0xNywgYWdncmVnYXRlZEJ5PURBWSwgYWdncmVnYXRlVmFsdWU9MyldCg==</text>
@@ -5603,9 +5603,9 @@
       </register>
     </registers>
     <search>
-      <last-search>represents the</last-search>
+      <last-search>freq</last-search>
       <last-offset />
-      <last-pattern>represents the</last-pattern>
+      <last-pattern>freq</last-pattern>
       <last-replace>REVENUE_REVENUEITEMLOG</last-replace>
       <last-substitute>REVENUE_REVENUEAGGREGATIONLOG</last-substitute>
       <last-dir>1</last-dir>
@@ -5613,10 +5613,6 @@
     </search>
     <history>
       <history-search>
-        <entry>venue</entry>
-        <entry>asdf</entry>
-        <entry encoding="base64">XDxyZXZlbnVlSXRlbUxvZ0ZhY3RvcnlcPg==</entry>
-        <entry>agg</entry>
         <entry>val req</entry>
         <entry>12</entry>
         <entry>daily</entry>
@@ -5633,6 +5629,10 @@
         <entry>white</entry>
         <entry encoding="base64">XDxSRVZFTlVFSVRFTUxPR19TVEFUVVNfV0hJVEVMSVNUXD4=</entry>
         <entry>represents the</entry>
+        <entry>max_</entry>
+        <entry>purchase</entry>
+        <entry>frew</entry>
+        <entry>freq</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
