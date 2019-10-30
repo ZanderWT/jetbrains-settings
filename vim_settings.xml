@@ -520,8 +520,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1571868061857">
-        <mark key="'" line="50" column="8" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" timestamp="1572451448511">
+        <mark key="'" line="66" column="54" />
         <mark key="[" line="117" column="0" />
         <mark key="]" line="117" column="0" />
         <mark key="." line="117" column="0" />
@@ -677,7 +677,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="38" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" />
       <jump line="100" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="95" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
@@ -777,6 +776,7 @@
       <jump line="671" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="13" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="50" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="66" column="54" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -851,7 +851,7 @@
         <text>get_schedule_report</text>
       </register>
       <register name="/" type="4">
-        <text>late cancel reb</text>
+        <text>present</text>
       </register>
       <register name="0" type="4">
         <text>reservation_report_{}.csv</text>
@@ -1587,9 +1587,9 @@
       </register>
     </registers>
     <search>
-      <last-search>late cancel reb</last-search>
+      <last-search>present</last-search>
       <last-offset />
-      <last-pattern>late cancel reb</last-pattern>
+      <last-pattern>present</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
       <last-dir>1</last-dir>
@@ -1597,7 +1597,6 @@
     </search>
     <history>
       <history-search>
-        <entry>sumrepview</entry>
         <entry>reporting</entry>
         <entry>dictidf</entry>
         <entry>dictdif</entry>
@@ -1617,6 +1616,7 @@
         <entry>csv_</entry>
         <entry encoding="base64">XDxnZXRfcmV2ZW51ZV9yZXBvcnRfcmVzZXJ2YXRpb25zX2Nzdl9kYXRhXD4=</entry>
         <entry>late cancel reb</entry>
+        <entry>present</entry>
       </history-search>
       <history-cmd>
         <entry>s;start;end;g</entry>
