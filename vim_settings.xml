@@ -35,11 +35,12 @@
         <mark key="." line="15" column="28" />
         <mark key="^" line="15" column="28" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportCsvBuilder.kt" timestamp="1571953504394">
-        <mark key="[" line="56" column="0" />
-        <mark key="]" line="56" column="57" />
-        <mark key="^" line="56" column="57" />
-        <mark key="." line="56" column="57" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportCsvBuilder.kt" timestamp="1572456428207">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="11" column="12" />
+        <mark key="]" line="11" column="23" />
+        <mark key="^" line="11" column="23" />
+        <mark key="." line="11" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/utils/DateUtils.kt" timestamp="1572015311205">
         <mark key="'" line="9" column="10" />
@@ -294,8 +295,8 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Schedule.kt" timestamp="1572381880502">
         <mark key="'" line="8" column="36" />
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="51" column="5" />
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="54" column="5" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/DashboardUser.kt" timestamp="1565980382650">
         <mark key="[" line="15" column="26" />
@@ -355,6 +356,13 @@
         <mark key="]" line="4" column="4" />
         <mark key="." line="4" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/README.md" timestamp="1572457120082">
+        <mark key="'" line="64" column="323" />
+        <mark key="[" line="69" column="3" />
+        <mark key="]" line="70" column="0" />
+        <mark key="." line="70" column="0" />
+        <mark key="^" line="70" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportLegacyDao.kt" timestamp="1572379142664">
         <mark key="'" line="19" column="26" />
         <mark key="[" line="19" column="0" />
@@ -372,9 +380,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="62" column="60" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
-      <jump line="73" column="78" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
-      <jump line="6" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
       <jump line="82" column="120" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/SummaryReportResponse.json" />
@@ -472,6 +477,9 @@
       <jump line="203" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportDao.kt" />
       <jump line="208" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportDao.kt" />
       <jump line="213" column="54" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportDao.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportCsvBuilder.kt" />
+      <jump line="13" column="0" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
+      <jump line="64" column="323" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1939,10 +1947,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>MYSQL_5_7</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>sold</text>
+        <text encoding="base64">dXNlIA==</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">dmlld0J5VW5pdDogVmlld0J5VW5pdCwgZmllbGQ6IEZpZWxkPExvY2FsRGF0ZT4=</text>
@@ -1951,7 +1959,7 @@
         <text>PASSPORT_SCHEDULES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29udGV4dDogRFNMQ29udGV4dAo=</text>
+        <text encoding="base64">JChhd3MgZWNyIGdldC1sb2dpbiAtLW5vLWluY2x1ZGUtZW1haWwpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2243,25 +2251,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Y3BfdG9vbHMgZGVwbG95X1tkZXZlbG9wbWVudHxwcm9kdWN0aW9uXSB1cGRhdGVfc2VydmljZSAK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29udGV4dC5kaWFsZWN0KCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29udGV4dDogRFNMQ29udGV4dAo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text>&quot;&quot;</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgY29udGV4dC5kaWFsZWN0KCkK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5271,8 +5279,8 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>year</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
@@ -5496,7 +5504,7 @@
         </keys>
       </register>
       <register name="8" type="4">
-        <text>month</text>
+        <text>year</text>
       </register>
       <register name="9" type="4">
         <text>&quot;&quot;</text>
@@ -5509,19 +5517,16 @@
       </register>
     </registers>
     <search>
-      <last-search>sold</last-search>
+      <last-search encoding="base64">dXNlIA==</last-search>
       <last-offset />
-      <last-pattern>sold</last-pattern>
+      <last-pattern encoding="base64">dXNlIA==</last-pattern>
       <last-replace>REVENUE_REVENUEITEMLOG</last-replace>
       <last-substitute>REVENUE_REVENUEAGGREGATIONLOG</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>passportsche</entry>
-        <entry>schedule</entry>
-        <entry>scheduleid</entry>
         <entry encoding="base64">XDxEYXNoYm9hcmRVc2VyRmFjdG9yeVw+</entry>
         <entry>key</entry>
         <entry>key,</entry>
@@ -5539,6 +5544,9 @@
         <entry encoding="base64">XDxEYXRlQWdncmVnYXRpb25cPg==</entry>
         <entry>dateTrunc</entry>
         <entry>sold</entry>
+        <entry>report</entry>
+        <entry>depl</entry>
+        <entry encoding="base64">dXNlIA==</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
