@@ -43,8 +43,8 @@
         <mark key="^" line="176" column="69" />
         <mark key="." line="176" column="69" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" timestamp="1572969278892">
-        <mark key="'" line="123" column="30" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" timestamp="1572970188504">
+        <mark key="'" line="153" column="39" />
         <mark key="[" line="135" column="74" />
         <mark key="]" line="135" column="86" />
         <mark key="^" line="135" column="86" />
@@ -426,9 +426,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="323" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
-      <jump line="52" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" />
-      <jump line="77" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" />
       <jump line="28" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" />
       <jump line="51" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/SummaryReportResponse.json" />
       <jump line="63" column="83" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" />
@@ -465,8 +462,6 @@
       <jump line="18" column="16" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportRequest.kt" />
       <jump line="19" column="49" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportRequest.kt" />
       <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportRequest.kt" />
-      <jump line="150" column="69" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
-      <jump line="151" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
       <jump line="183" column="110" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" />
       <jump line="13" column="23" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportRequest.kt" />
       <jump line="20" column="8" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SummaryReportRequest.kt" />
@@ -526,6 +521,11 @@
       <jump line="120" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" />
       <jump line="43" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SummaryReportController.kt" />
       <jump line="123" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
+      <jump line="133" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
+      <jump line="150" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
+      <jump line="151" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
+      <jump line="152" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
+      <jump line="153" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1996,7 +1996,7 @@
         <text>plus</text>
       </register>
       <register name="/" type="4">
-        <text>viewb</text>
+        <text>dateTrunc</text>
       </register>
       <register name="0" type="4">
         <text>aggregatedRevenue.await().groupBy { venues.getValue(it.venueId).country.currencyCode }</text>
@@ -5563,9 +5563,9 @@
       </register>
     </registers>
     <search>
-      <last-search>viewb</last-search>
+      <last-search>dateTrunc</last-search>
       <last-offset />
-      <last-pattern>viewb</last-pattern>
+      <last-pattern>dateTrunc</last-pattern>
       <last-replace />
       <last-substitute>)\ze,.*</last-substitute>
       <last-dir>1</last-dir>
@@ -5573,7 +5573,6 @@
     </search>
     <history>
       <history-search>
-        <entry>dateiter</entry>
         <entry>long</entry>
         <entry>days</entry>
         <entry encoding="base64">XDxkYXRlUmFuZ2VzXD4=</entry>
@@ -5593,6 +5592,7 @@
         <entry>dbre</entry>
         <entry>datecol</entry>
         <entry>viewb</entry>
+        <entry>dateTrunc</entry>
       </history-search>
       <history-cmd>
         <entry>s;WEEK;MONTH;</entry>
