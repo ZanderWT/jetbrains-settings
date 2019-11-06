@@ -116,8 +116,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/common/constants.py" timestamp="1570048022352">
         <mark key="'" line="174" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1573077165348">
-        <mark key="'" line="69" column="11" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" timestamp="1573080931749">
+        <mark key="'" line="67" column="12" />
         <mark key="[" line="36" column="0" />
         <mark key="]" line="36" column="8" />
         <mark key="^" line="78" column="7" />
@@ -606,8 +606,8 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5-django-2.0/lib/python3.6/site-packages/django/core/cache/backends/memcached.py" timestamp="1563222923171">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" timestamp="1573073956220">
-        <mark key="'" line="155" column="94" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" timestamp="1573080918451">
+        <mark key="'" line="54" column="39" />
         <mark key="[" line="18" column="30" />
         <mark key="]" line="19" column="29" />
         <mark key="^" line="19" column="29" />
@@ -681,13 +681,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="5" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/logging_prefixes.py" />
-      <jump line="21" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="48" column="23" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" />
-      <jump line="98" column="34" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="132" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="16" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="77" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/stats.py" />
       <jump line="63" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/stats.py" />
       <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
@@ -781,6 +774,13 @@
       <jump line="71" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
       <jump line="70" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
       <jump line="69" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
+      <jump line="19" column="29" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="132" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="145" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="185" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="54" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
+      <jump line="28" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
+      <jump line="67" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -855,7 +855,7 @@
         <text>{'content-disposition': content_disposition_header}</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxyZXNwb25zZVw+</text>
+        <text>raise</text>
       </register>
       <register name="0" type="4">
         <text>{'content-disposition': content_disposition_header}</text>
@@ -1591,19 +1591,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxyZXNwb25zZVw+</last-search>
+      <last-search>raise</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxyZXNwb25zZVw+</last-pattern>
+      <last-pattern>raise</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>instr</entry>
-        <entry>teac</entry>
-        <entry>sold</entry>
         <entry>pull</entry>
         <entry>save_rev</entry>
         <entry>total_res</entry>
@@ -1621,6 +1618,9 @@
         <entry encoding="base64">XDxieV9leHRlcm5hbF9pZFw+</entry>
         <entry>csv</entry>
         <entry encoding="base64">XDxyZXNwb25zZVw+</entry>
+        <entry>get_reservat</entry>
+        <entry encoding="base64">XDxhcGlfZXhjZXB0aW9uXD4=</entry>
+        <entry>raise</entry>
       </history-search>
       <history-cmd>
         <entry>140</entry>
