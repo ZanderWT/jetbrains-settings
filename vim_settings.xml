@@ -15,8 +15,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_login.py" timestamp="1552666472511">
         <mark key="'" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" timestamp="1562608894647">
-        <mark key="'" line="94" column="34" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" timestamp="1573162334245">
+        <mark key="'" line="0" column="0" />
         <mark key="[" line="151" column="72" />
         <mark key="]" line="151" column="98" />
         <mark key="^" line="27" column="3" />
@@ -79,8 +79,8 @@
         <mark key="^" line="67" column="29" />
         <mark key="." line="69" column="20" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1564766131443">
-        <mark key="'" line="141" column="6" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" timestamp="1573162520952">
+        <mark key="'" line="132" column="78" />
         <mark key="[" line="40" column="93" />
         <mark key="]" line="40" column="93" />
         <mark key="." line="40" column="93" />
@@ -681,13 +681,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="77" column="14" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/stats.py" />
-      <jump line="63" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/stats.py" />
-      <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="87" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="163" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="43" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" />
-      <jump line="164" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="11" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="34" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="160" column="91" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
@@ -781,6 +774,13 @@
       <jump line="54" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
       <jump line="28" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
       <jump line="67" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
+      <jump line="144" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
+      <jump line="24" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
+      <jump line="38" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
+      <jump line="88" column="66" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
+      <jump line="132" column="78" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -855,7 +855,7 @@
         <text>{'content-disposition': content_disposition_header}</text>
       </register>
       <register name="/" type="4">
-        <text>raise</text>
+        <text>_id</text>
       </register>
       <register name="0" type="4">
         <text>{'content-disposition': content_disposition_header}</text>
@@ -1591,9 +1591,9 @@
       </register>
     </registers>
     <search>
-      <last-search>raise</last-search>
+      <last-search>_id</last-search>
       <last-offset />
-      <last-pattern>raise</last-pattern>
+      <last-pattern>_id</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
       <last-dir>1</last-dir>
@@ -1601,9 +1601,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pull</entry>
-        <entry>save_rev</entry>
-        <entry>total_res</entry>
         <entry encoding="base64">XDx0b3RhbF9yZXNlcnZhdGlvbnNcPg==</entry>
         <entry>csv_</entry>
         <entry encoding="base64">XDxnZXRfcmV2ZW51ZV9yZXBvcnRfcmVzZXJ2YXRpb25zX2Nzdl9kYXRhXD4=</entry>
@@ -1621,6 +1618,9 @@
         <entry>get_reservat</entry>
         <entry encoding="base64">XDxhcGlfZXhjZXB0aW9uXD4=</entry>
         <entry>raise</entry>
+        <entry>venue</entry>
+        <entry>venue_id</entry>
+        <entry>_id</entry>
       </history-search>
       <history-cmd>
         <entry>140</entry>
