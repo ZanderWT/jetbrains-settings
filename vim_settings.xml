@@ -855,7 +855,7 @@
         <text>{'content-disposition': content_disposition_header}</text>
       </register>
       <register name="/" type="4">
-        <text>_id</text>
+        <text>csv</text>
       </register>
       <register name="0" type="4">
         <text>{'content-disposition': content_disposition_header}</text>
@@ -1591,9 +1591,9 @@
       </register>
     </registers>
     <search>
-      <last-search>_id</last-search>
+      <last-search>csv</last-search>
       <last-offset />
-      <last-pattern>_id</last-pattern>
+      <last-pattern>csv</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
       <last-dir>1</last-dir>
@@ -1613,7 +1613,6 @@
         <entry encoding="base64">XDxzY2hlZHVsZV9pbnN0cnVjdGlvbnNcPg==</entry>
         <entry encoding="base64">XDx1cGRhdGVfdmVudWVcPg==</entry>
         <entry encoding="base64">XDxieV9leHRlcm5hbF9pZFw+</entry>
-        <entry>csv</entry>
         <entry encoding="base64">XDxyZXNwb25zZVw+</entry>
         <entry>get_reservat</entry>
         <entry encoding="base64">XDxhcGlfZXhjZXB0aW9uXD4=</entry>
@@ -1621,6 +1620,7 @@
         <entry>venue</entry>
         <entry>venue_id</entry>
         <entry>_id</entry>
+        <entry>csv</entry>
       </history-search>
       <history-cmd>
         <entry>140</entry>
