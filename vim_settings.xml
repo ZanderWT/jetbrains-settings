@@ -278,12 +278,6 @@
         <mark key="^" line="176" column="69" />
         <mark key="." line="176" column="69" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ScheduleReportResponse.json" timestamp="1573230335644">
-        <mark key="[" line="10" column="28" />
-        <mark key="]" line="10" column="32" />
-        <mark key="." line="10" column="32" />
-        <mark key="^" line="10" column="32" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/SummaryReportVenuePortalDao.kt" timestamp="1573496628171">
         <mark key="[" line="104" column="36" />
         <mark key="]" line="104" column="36" />
@@ -322,11 +316,12 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/records/RevenueRevenueitemlogRecord.java" timestamp="1573257624263">
         <mark key="'" line="699" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" timestamp="1573510049205">
-        <mark key="[" line="93" column="0" />
-        <mark key="]" line="93" column="0" />
-        <mark key="^" line="92" column="45" />
-        <mark key="." line="93" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" timestamp="1573513883556">
+        <mark key="'" line="75" column="41" />
+        <mark key="[" line="83" column="12" />
+        <mark key="]" line="83" column="12" />
+        <mark key="." line="83" column="12" />
+        <mark key="^" line="75" column="40" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController_LOCAL_96465.kt" timestamp="1572883208391">
         <mark key="[" line="102" column="0" />
@@ -509,8 +504,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="92" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/SummaryReportLegacyDaoTest.kt" />
-      <jump line="96" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/SummaryReportLegacyDaoTest.kt" />
       <jump line="130" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/SummaryReportLegacyDaoTest.kt" />
       <jump line="224" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/SummaryReportVenuePortalDaoTest.kt" />
       <jump line="20" column="77" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/SummaryReportLegacyDaoTest.kt" />
@@ -609,10 +602,12 @@
       <jump line="27" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
       <jump line="138" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="83" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="58" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" />
+      <jump line="75" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" />
     </jumps>
     <registers>
-      <register name="a" type="4">
-        <text>CLASSTIVITY_CLASSES_TIMETABLE.ID.`in`(scheduleIds)</text>
+      <register name="a" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLndoZXJlKHJlcG9ydEZpbHRlcnMocmVxdWVzdCkpCg==</text>
       </register>
       <register name="&quot;" type="4">
         <text encoding="base64">IA==</text>
@@ -632,8 +627,8 @@
       <register name="i" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="*" type="4">
-        <text>()</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLndoZXJlKHJlcG9ydEZpbHRlcnMocmVxdWVzdCkpCg==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -2076,10 +2071,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>schedule</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>schedule</text>
+        <text>where</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGxhdGVpbml0IHZhciBzY2hlZHVsZURhbzogU2NoZWR1bGVMZWdhY3lEYW8K</text>
@@ -2088,7 +2083,7 @@
         <text>PASSPORT_SCHEDULES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLndoZXJlKAogICAgICAgICAgICAgICAgUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5WRU5VRV9JRC5gaW5gKHJlcXVlc3QudmVudWVJZHMpCiAgICAgICAgICAgICAgICAgICAgLmFuZChSRVZFTlVFX1JFVkVOVUVJVEVNTE9HLkNMQVNTX0RBVEUuYmV0d2VlbihyZXF1ZXN0LnN0YXJ0RGF0ZSwgcmVxdWVzdC5lbmREYXRlKSkKICAgICAgICAgICAgICAgICAgICAuYW5kKFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuU1RBUlRfVElNRS5ub3RJbihyZXF1ZXN0LmV4Y2x1ZGVkU3RhcnRUaW1lcykpCiAgICAgICAgICAgICAgICAgICAgLmFuZChSRVZFTlVFX1JFVkVOVUVJVEVNTE9HLkNMQVNTX0lELm5vdEluKHJlcXVlc3QuZXhjbHVkZWRDbGFzc0lkcykpCiAgICAgICAgICAgICAgICAgICAgLmFuZChSRVZFTlVFX1JFVkVOVUVJVEVNTE9HLlNUQVRVUy5ub3RJbihyZXF1ZXN0LmV4Y2x1ZGVkU3RhdHVzZXMpKQogICAgICAgICAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5TVEFUVVMuYGluYChSRVZFTlVFSVRFTUxPR19TVEFUVVNfV0hJVEVMSVNULm1hcCB7IGl0LnRvRGJTdHJpbmcoKSB9KSkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2379,26 +2374,26 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogQSBzcGVjaWFsaXplZCBxdWVyeSB0byBnZXQgdGVhY2hlciBuYW1lcyBmcm9tIGEgbGlzdCBvZiBzY2hlZHVsZSBpZHMuCiAgICAgKi8K</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuVkVOVUVfSUQuYGluYChyZXF1ZXN0LnZlbnVlSWRzKQogICAgICAgICAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5DTEFTU19EQVRFLmJldHdlZW4ocmVxdWVzdC5zdGFydERhdGUsIHJlcXVlc3QuZW5kRGF0ZSkpCiAgICAgICAgICAgICAgICAgICAgLmFuZChSRVZFTlVFX1JFVkVOVUVJVEVNTE9HLlNUQVJUX1RJTUUubm90SW4ocmVxdWVzdC5leGNsdWRlZFN0YXJ0VGltZXMpKQogICAgICAgICAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5DTEFTU19JRC5ub3RJbihyZXF1ZXN0LmV4Y2x1ZGVkQ2xhc3NJZHMpKQogICAgICAgICAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5TVEFUVVMubm90SW4ocmVxdWVzdC5leGNsdWRlZFN0YXR1c2VzKSkKICAgICAgICAgICAgICAgICAgICAuYW5kKFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuU1RBVFVTLmBpbmAoUkVWRU5VRUlURU1MT0dfU1RBVFVTX1dISVRFTElTVC5tYXAgeyBpdC50b0RiU3RyaW5nKCkgfSkp</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogQSBzcGVjaWFsaXplZCBxdWVyeSB0byBnZXQgdGVhY2hlciBuYW1lcyBmcm9tIGEgbGlzdCBvZiBzY2hlZHVsZSBpZHMuCiAgICAgKi8KICAgIGZ1biBnZXRUZWFjaGVyc0Zyb21TY2hlZHVsZUlkcyhzY2hlZHVsZUlkczogTGlzdDxTY2hlZHVsZUlkPik6IE1hcDxTY2hlZHVsZUlkLCBTdHJpbmc+IHsKICAgICAgICBpZiAoc2NoZWR1bGVJZHMuaXNFbXB0eSgpKSByZXR1cm4gZW1wdHlNYXAoKQogICAgICAgIHJldHVybiBjb250ZXh0LmRzbCgpCiAgICAgICAgICAgIC5zZWxlY3QoQ0xBU1NUSVZJVFlfQ0xBU1NFU19USU1FVEFCTEUuSUQsIENMQVNTVElWSVRZX1RFQUNIRVJTLlRFQUNIRVJfTkFNRSkKICAgICAgICAgICAgLmZyb20oQ0xBU1NUSVZJVFlfQ0xBU1NFU19USU1FVEFCTEUpCiAgICAgICAgICAgIC5sZWZ0Sm9pbihDTEFTU1RJVklUWV9URUFDSEVSUykKICAgICAgICAgICAgLm9uKENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFLlRFQUNIRVJfSUQuZXEoQ0xBU1NUSVZJVFlfVEVBQ0hFUlMuVEVBQ0hFUl9JRCkpCiAgICAgICAgICAgIC53aGVyZShDTEFTU1RJVklUWV9DTEFTU0VTX1RJTUVUQUJMRS5JRC5gaW5gKHNjaGVkdWxlSWRzKSkKICAgICAgICAgICAgLmZldGNoTWFwKENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFLklEKSB7IGl0LmdldChDTEFTU1RJVklUWV9URUFDSEVSUy5URUFDSEVSX05BTUUpID86ICIiIH0KICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZmlsdGVycyA9IFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuVkVOVUVfSUQuYGluYChyZXF1ZXN0LnZlbnVlSWRzKQogICAgICAgICAgICAuYW5kKFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuQ0xBU1NfREFURS5iZXR3ZWVuKHJlcXVlc3Quc3RhcnREYXRlLCByZXF1ZXN0LmVuZERhdGUpKQogICAgICAgICAgICAuYW5kKFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuU1RBUlRfVElNRS5ub3RJbihyZXF1ZXN0LmV4Y2x1ZGVkU3RhcnRUaW1lcykpCiAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5DTEFTU19JRC5ub3RJbihyZXF1ZXN0LmV4Y2x1ZGVkQ2xhc3NJZHMpKQogICAgICAgICAgICAuYW5kKFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuU1RBVFVTLm5vdEluKHJlcXVlc3QuZXhjbHVkZWRTdGF0dXNlcykpCiAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5TVEFUVVMuYGluYChSRVZFTlVFSVRFTUxPR19TVEFUVVNfV0hJVEVMSVNULm1hcCB7IGl0LnRvRGJTdHJpbmcoKSB9KSkK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">CiAgICBmdW4gZ2V0VGVhY2hlck5hbWVzKHNjaGVkdWxlSWRzOiBMaXN0PFNjaGVkdWxlSWQ+KTogTWFwPFNjaGVkdWxlSWQsIFN0cmluZz4gPQogICAgICAgIHNjaGVkdWxlRGFvLmdldFRlYWNoZXJzRnJvbVNjaGVkdWxlSWRzKHNjaGVkdWxlSWRzKQo=</text>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuVkVOVUVfSUQuYGluYChyZXF1ZXN0LnZlbnVlSWRzKQogICAgICAgICAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5DTEFTU19EQVRFLmJldHdlZW4ocmVxdWVzdC5zdGFydERhdGUsIHJlcXVlc3QuZW5kRGF0ZSkpCiAgICAgICAgICAgICAgICAgICAgLmFuZChSRVZFTlVFX1JFVkVOVUVJVEVNTE9HLlNUQVJUX1RJTUUubm90SW4ocmVxdWVzdC5leGNsdWRlZFN0YXJ0VGltZXMpKQogICAgICAgICAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5DTEFTU19JRC5ub3RJbihyZXF1ZXN0LmV4Y2x1ZGVkQ2xhc3NJZHMpKQogICAgICAgICAgICAgICAgICAgIC5hbmQoUkVWRU5VRV9SRVZFTlVFSVRFTUxPRy5TVEFUVVMubm90SW4ocmVxdWVzdC5leGNsdWRlZFN0YXR1c2VzKSkKICAgICAgICAgICAgICAgICAgICAuYW5kKFJFVkVOVUVfUkVWRU5VRUlURU1MT0cuU1RBVFVTLmBpbmAoUkVWRU5VRUlURU1MT0dfU1RBVFVTX1dISVRFTElTVC5tYXAgeyBpdC50b0RiU3RyaW5nKCkgfSkp</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmpvaW4oQ0xBU1NUSVZJVFlfVEVBQ0hFUlMpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5409,13 +5404,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGZ1biBnZXRTY2hlZHVsZXMocmVxdWVzdDogUmVzZXJ2YXRpb25zUmVwb3J0UmVxdWVzdCk6IE1hcDxTY2hlZHVsZUlkLCBTY2hlZHVsZT4gewogICAgICAgIHJldHVybiBnZXRTY2hlZHVsZXMoCiAgICAgICAgICAgIENMQVNTVElWSVRZX0NMQVNTRVMuVkVOVUVfSUQuYGluYChyZXF1ZXN0LnZlbnVlSWRzKQogICAgICAgICAgICAgICAgLmFuZChDTEFTU1RJVklUWV9DTEFTU0VTX1RJTUVUQUJMRS5TVEFSVF9EQVRFLmJldHdlZW4ocmVxdWVzdC5zdGFydERhdGUsIHJlcXVlc3QuZW5kRGF0ZSkpCiAgICAgICAgICAgICAgICAuYW5kKENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFLlNUQVJUX1RJTUUubm90SW4ocmVxdWVzdC5leGNsdWRlZFN0YXJ0VGltZXMpKQogICAgICAgICAgICAgICAgLmFuZChDTEFTU1RJVklUWV9DTEFTU0VTX1RJTUVUQUJMRS5DTEFTU19JRC5ub3RJbihyZXF1ZXN0LmV4Y2x1ZGVkQ2xhc3NJZHMpKQogICAgICAgICkKICAgIH0K</text>
+        <text encoding="base64">ICAgIC8qKgogICAgICogQSBzcGVjaWFsaXplZCBxdWVyeSB0byBnZXQgdGVhY2hlciBuYW1lcyBmcm9tIGEgbGlzdCBvZiBzY2hlZHVsZSBpZHMuCiAgICAgKi8K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5633,10 +5628,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8qKgogICAgICogQSBzcGVjaWFsaXplZCBxdWVyeSB0byBnZXQgdGVhY2hlciBuYW1lcyBmcm9tIGEgbGlzdCBvZiBzY2hlZHVsZSBpZHMuCiAgICAgKi8KICAgIGZ1biBnZXRUZWFjaGVyc0Zyb21TY2hlZHVsZUlkcyhzY2hlZHVsZUlkczogTGlzdDxTY2hlZHVsZUlkPik6IE1hcDxTY2hlZHVsZUlkLCBTdHJpbmc+IHsKICAgICAgICBpZiAoc2NoZWR1bGVJZHMuaXNFbXB0eSgpKSByZXR1cm4gZW1wdHlNYXAoKQogICAgICAgIHJldHVybiBjb250ZXh0LmRzbCgpCiAgICAgICAgICAgIC5zZWxlY3QoQ0xBU1NUSVZJVFlfQ0xBU1NFU19USU1FVEFCTEUuSUQsIENMQVNTVElWSVRZX1RFQUNIRVJTLlRFQUNIRVJfTkFNRSkKICAgICAgICAgICAgLmZyb20oQ0xBU1NUSVZJVFlfQ0xBU1NFU19USU1FVEFCTEUpCiAgICAgICAgICAgIC5sZWZ0Sm9pbihDTEFTU1RJVklUWV9URUFDSEVSUykKICAgICAgICAgICAgLm9uKENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFLlRFQUNIRVJfSUQuZXEoQ0xBU1NUSVZJVFlfVEVBQ0hFUlMuVEVBQ0hFUl9JRCkpCiAgICAgICAgICAgIC53aGVyZShDTEFTU1RJVklUWV9DTEFTU0VTX1RJTUVUQUJMRS5JRC5gaW5gKHNjaGVkdWxlSWRzKSkKICAgICAgICAgICAgLmZldGNoTWFwKENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFLklEKSB7IGl0LmdldChDTEFTU1RJVklUWV9URUFDSEVSUy5URUFDSEVSX05BTUUpID86ICIiIH0KICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">CiAgICBmdW4gZ2V0VGVhY2hlck5hbWVzKHNjaGVkdWxlSWRzOiBMaXN0PFNjaGVkdWxlSWQ+KTogTWFwPFNjaGVkdWxlSWQsIFN0cmluZz4gPQogICAgICAgIHNjaGVkdWxlRGFvLmdldFRlYWNoZXJzRnJvbVNjaGVkdWxlSWRzKHNjaGVkdWxlSWRzKQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -5646,12 +5641,12 @@
       </register>
     </registers>
     <search>
-      <last-search>schedule</last-search>
+      <last-search>where</last-search>
       <last-offset />
-      <last-pattern>schedule</last-pattern>
+      <last-pattern>where</last-pattern>
       <last-replace>teacher</last-replace>
       <last-substitute>schedule</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -5670,12 +5665,12 @@
         <entry>asdf</entry>
         <entry encoding="base64">XDxleHBlY3RlZFJvd1w+</entry>
         <entry>csv</entry>
-        <entry>where</entry>
         <entry>whe</entry>
         <entry encoding="base64">XDxnZXRUZWFjaGVyTmFtZXNcPg==</entry>
         <entry>scheduledao</entry>
         <entry encoding="base64">XDxzY2hlZHVsZURhb1w+</entry>
         <entry>schedule</entry>
+        <entry>where</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;&quot;,&quot;;g</entry>
