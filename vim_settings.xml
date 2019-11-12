@@ -209,10 +209,10 @@
         <mark key="^" line="7141" column="40" />
         <mark key="." line="7141" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1573588521016">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1573597396426">
         <mark key="'" line="671" column="27" />
-        <mark key="[" line="489" column="31" />
-        <mark key="]" line="77" column="7" />
+        <mark key="[" line="91" column="8" />
+        <mark key="]" line="91" column="42" />
         <mark key="." line="77" column="7" />
         <mark key="^" line="77" column="7" />
       </file>
@@ -505,12 +505,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/serializers/revenue_reporting.py" timestamp="1566249199614">
         <mark key="'" line="13" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1569432450376">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1573597512817">
         <mark key="'" line="136" column="13" />
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="25" column="1" />
-        <mark key="^" line="176" column="7" />
-        <mark key="." line="176" column="7" />
+        <mark key="[" line="47" column="15" />
+        <mark key="]" line="225" column="7" />
+        <mark key="^" line="225" column="7" />
+        <mark key="." line="225" column="7" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/mixins/venue.py" timestamp="1562345820219">
         <mark key="'" line="21" column="0" />
@@ -870,7 +870,7 @@
         <text>teach</text>
       </register>
       <register name="0" type="4">
-        <text>csv-fetch-teachers</text>
+        <text>get_latest_frozen_date_for_venue_id</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIG9wZXJhdGlvbnMgPSBbCiAgICAgICAgbWlncmF0aW9ucy5BbHRlckZpZWxkKAogICAgICAgICAgICBtb2RlbF9uYW1lPSdyZXZlbnVlaXRlbWxvZycsCiAgICAgICAgICAgIG5hbWU9J3N0YXR1cycsCiAgICAgICAgICAgIGZpZWxkPW1vZGVscy5DaGFyRmllbGQoYmxhbms9VHJ1ZSwgZGJfaW5kZXg9VHJ1ZSwgbWF4X2xlbmd0aD0yNTUsIG51bGw9VHJ1ZSksCiAgICAgICAgKSwKICAgIF0K</text>
@@ -942,7 +942,7 @@
         <text encoding="base64">ZnJvbSBkaWN0ZGlmZmVyIGltcG9ydCBkaWZmCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ShowBookmarks</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1638,7 +1638,6 @@
         <entry>140</entry>
         <entry>25</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>49</entry>
         <entry>61</entry>
         <entry>bnext</entry>
@@ -1655,6 +1654,7 @@
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
