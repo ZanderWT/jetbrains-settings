@@ -209,8 +209,8 @@
         <mark key="^" line="7141" column="40" />
         <mark key="." line="7141" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1573597396426">
-        <mark key="'" line="671" column="27" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" timestamp="1573661501639">
+        <mark key="'" line="97" column="8" />
         <mark key="[" line="91" column="8" />
         <mark key="]" line="91" column="42" />
         <mark key="." line="77" column="7" />
@@ -693,10 +693,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="126" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="128" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
-      <jump line="53" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
       <jump line="25" column="60" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/users.py" />
       <jump line="148" column="112" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
       <jump line="127" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
@@ -793,6 +789,10 @@
       <jump line="29" column="74" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/migrations/0015_auto_20191111_1353.py" />
       <jump line="30" column="71" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/migrations/0015_auto_20191111_1353.py" />
       <jump line="55" column="58" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/revenue_reporting.py" />
+      <jump line="337" column="43" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="348" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="96" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="97" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -867,7 +867,7 @@
         <text>class_id_4f838f29</text>
       </register>
       <register name="/" type="4">
-        <text>teach</text>
+        <text>latest</text>
       </register>
       <register name="0" type="4">
         <text>get_latest_frozen_date_for_venue_id</text>
@@ -1603,9 +1603,9 @@
       </register>
     </registers>
     <search>
-      <last-search>teach</last-search>
+      <last-search>latest</last-search>
       <last-offset />
-      <last-pattern>teach</last-pattern>
+      <last-pattern>latest</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
       <last-dir>1</last-dir>
@@ -1613,7 +1613,6 @@
     </search>
     <history>
       <history-search>
-        <entry>revenue_</entry>
         <entry>reserva</entry>
         <entry encoding="base64">XDxyZXNlcnZhdGlvbnNfcmVwb3J0X2Nzdlw+</entry>
         <entry>view</entry>
@@ -1633,6 +1632,7 @@
         <entry>status</entry>
         <entry>clas</entry>
         <entry>teach</entry>
+        <entry>latest</entry>
       </history-search>
       <history-cmd>
         <entry>140</entry>
