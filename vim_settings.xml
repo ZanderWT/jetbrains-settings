@@ -336,8 +336,8 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/records/RevenueRevenueitemlogRecord.java" timestamp="1573257624263">
         <mark key="'" line="699" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" timestamp="1573513883556">
-        <mark key="'" line="75" column="41" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" timestamp="1573835203661">
+        <mark key="'" line="82" column="13" />
         <mark key="[" line="83" column="12" />
         <mark key="]" line="83" column="12" />
         <mark key="." line="83" column="12" />
@@ -536,8 +536,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
-      <jump line="35" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
       <jump line="40" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
       <jump line="53" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportCsvBuilder.kt" />
       <jump line="699" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/records/RevenueRevenueitemlogRecord.java" />
@@ -555,8 +553,6 @@
       <jump line="27" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" />
       <jump line="138" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="83" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="58" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" />
-      <jump line="75" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" />
       <jump line="52" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
       <jump line="4" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
       <jump line="7" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleReportController.kt" />
@@ -636,6 +632,10 @@
       <jump line="72" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="96" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="51" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/ClassesReportResponseTest.kt" />
+      <jump line="44" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" />
+      <jump line="58" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" />
+      <jump line="75" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" />
+      <jump line="82" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportVenuePortalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -2106,7 +2106,7 @@
         <text encoding="base64">IGl0LnZhbHVlLmZsYXR0ZW4oKSA=</text>
       </register>
       <register name="/" type="4">
-        <text>min</text>
+        <text>where</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cmVzZXJ2YXRpb25zQnlVc2VyLmZpbHRlclZhbHVlcyB7IGl0LnNpemUgPiAxIH0udmFsdWVzLmZsYXR0ZW4oKS5tYXAgeyBpdC52ZW51ZUlkIH0udG9TZXQoKQ==</text>
@@ -5673,9 +5673,9 @@
       </register>
     </registers>
     <search>
-      <last-search>min</last-search>
+      <last-search>where</last-search>
       <last-offset />
-      <last-pattern>min</last-pattern>
+      <last-pattern>where</last-pattern>
       <last-replace>max</last-replace>
       <last-substitute>min</last-substitute>
       <last-dir>1</last-dir>
@@ -5683,7 +5683,6 @@
     </search>
     <history>
       <history-search>
-        <entry>one grea</entry>
         <entry>await</entry>
         <entry encoding="base64">XDxhZ2dyZWdhdGVkQm9va2luZ3NcPg==</entry>
         <entry>getdateran</entry>
@@ -5703,6 +5702,7 @@
         <entry>sm</entry>
         <entry encoding="base64">XDx0b3RhbEl0ZW1zQ29sdW1uXD4=</entry>
         <entry>min</entry>
+        <entry>where</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO3JldmVudWVBZ2dyZWdhdGlvbkxvZ0RhbztzdW1tYXJ5UmVwb3J0RGFvO2c=</entry>
