@@ -143,11 +143,11 @@
         <mark key="'" line="122" column="28" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Constants.kt" timestamp="1574203542987">
-        <mark key="'" line="54" column="39" />
-        <mark key="[" line="59" column="10" />
-        <mark key="]" line="59" column="33" />
-        <mark key="." line="53" column="86" />
-        <mark key="^" line="53" column="86" />
+        <mark key="'" line="55" column="39" />
+        <mark key="[" line="60" column="10" />
+        <mark key="]" line="60" column="33" />
+        <mark key="." line="54" column="86" />
+        <mark key="^" line="54" column="86" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/Condition.java" timestamp="1572286843576">
         <mark key="'" line="85" column="18" />
@@ -161,6 +161,13 @@
         <mark key="]" line="83" column="64" />
         <mark key="." line="83" column="64" />
         <mark key="^" line="83" column="64" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserVenuePortalDao.kt" timestamp="1574361417412">
+        <mark key="'" line="63" column="64" />
+        <mark key="[" line="63" column="0" />
+        <mark key="]" line="63" column="118" />
+        <mark key="." line="63" column="96" />
+        <mark key="^" line="63" column="96" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/validation/Enumerated.kt" timestamp="1571348167531">
         <mark key="[" line="11" column="41" />
@@ -488,8 +495,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PassportSchedule.kt" />
-      <jump line="9" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PassportVenue.kt" />
       <jump line="6" column="109" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PassportVenue.kt" />
       <jump line="7" column="49" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PassportVenue.kt" />
       <jump line="108" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" />
@@ -588,6 +593,8 @@
       <jump line="89" column="17" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/AbstractSpotRecProcessor.kt" />
       <jump line="167" column="48" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/async/1.0.0/855e17044449a4b50c5e686d2933ad3e803fad91/async-1.0.0-sources.jar!/com/classpass/async/processor/BaseProcessor.java" />
       <jump line="81" column="10" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/AbstractSpotRecProcessor.kt" />
+      <jump line="61" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserVenuePortalDao.kt" />
+      <jump line="63" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserVenuePortalDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -2055,19 +2062,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>?</text>
+        <text>settingName</text>
       </register>
       <register name="/" type="4">
-        <text>processtask</text>
+        <text>setting</text>
       </register>
-      <register name="0" type="4">
-        <text>in process [{}]</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgc2V0dGluZ05hbWVDb25kaXRpb24gPSBzZXR0aW5nTmFtZT8ubGV0IHtWRU5VRV9VU0VSX1NFVFRJTkdfT1BUSU9OUy5PUFRJT05fTkFNRS5lcShpdCl9ID86IHRydWVDb25kaXRpb24oKQo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_SCHEDULES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmFwcGx5IHsgIH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2359,25 +2366,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmpvaW4oVkVOVUVfVVNFUl9TRVRUSU5HX09QVElPTlMpLm9uKFZFTlVFX1VTRVJfU0VUVElOR1MuU0VUVElOR19PUFRJT05fSUQuZXEoVkVOVUVfVVNFUl9TRVRUSU5HX09QVElPTlMuSUQpKQo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gY29udGV4dC5kc2woKS5zZWxlY3QoKQogICAgICAgICAgICAuZnJvbShWRU5VRV9VU0VSX1NFVFRJTkdTKQogICAgICAgICAgICAuam9pbihWRU5VRV9VU0VSX1NFVFRJTkdfT1BUSU9OUykub24oVkVOVUVfVVNFUl9TRVRUSU5HUy5TRVRUSU5HX09QVElPTl9JRC5lcShWRU5VRV9VU0VSX1NFVFRJTkdfT1BUSU9OUy5JRCkpCiAgICAgICAgICAgIC53aGVyZShWRU5VRV9VU0VSX1NFVFRJTkdTLlZFTlVFX0lELmVxKHZlbnVlSWQpKQogICAgICAgICAgICAuYW5kKFZFTlVFX1VTRVJfU0VUVElOR1MuVkVOVUVfVVNFUl9JRC5gaW5gKHVzZXJJZHMpKQogICAgICAgICAgICAuZmV0Y2ggewogICAgICAgICAgICAgICAgdmFsIHNldHRpbmdSZWNvcmQgPSBpdC5pbnRvKFZFTlVFX1VTRVJfU0VUVElOR1MpCiAgICAgICAgICAgICAgICB2YWwgb3B0aW9uc1JlY29yZCA9IGl0LmludG8oVkVOVUVfVVNFUl9TRVRUSU5HX09QVElPTlMpCiAgICAgICAgICAgICAgICBEYXNoYm9hcmRVc2VyU2V0dGluZ0ZvclZlbnVlLmNyZWF0ZShzZXR0aW5nUmVjb3JkLCBvcHRpb25zUmVjb3JkKQogICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBUT0RPKCJub3QgaW1wbGVtZW50ZWQiKSAvL1RvIGNoYW5nZSBib2R5IG9mIGNyZWF0ZWQgZnVuY3Rpb25zIHVzZSBGaWxlIHwgU2V0dGluZ3MgfCBGaWxlIFRlbXBsYXRlcy4K</text>
+      <register name="4" type="4">
+        <text encoding="base64">aWYgKHNldHRpbmdOYW1lICE9IG51bGwpIA==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIG92ZXJyaWRlIGZ1biBwcm9jZXNzVGFzaygpOiAK</text>
+        <text encoding="base64">ICAgIHB1YmxpYwo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5387,14 +5394,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>&quot;</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHB1YmxpYwo=</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="4">
-        <text>()</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5611,23 +5618,23 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="8" type="4">
-        <text>&quot;foo&quot;</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBUT0RPKCJub3QgaW1wbGVtZW50ZWQiKSAvL1RvIGNoYW5nZSBib2R5IG9mIGNyZWF0ZWQgZnVuY3Rpb25zIHVzZSBGaWxlIHwgU2V0dGluZ3MgfCBGaWxlIFRlbXBsYXRlcy4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">cHJpbnRsbigiSSBhbSBhIGJhbmFuYSIpCg==</text>
+        <text encoding="base64">ICAgIG92ZXJyaWRlIGZ1biBwcm9jZXNzVGFzaygpOiAK</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowNextChangeMarker</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
       </register>
     </registers>
     <search>
-      <last-search>processtask</last-search>
+      <last-search>setting</last-search>
       <last-offset />
-      <last-pattern>processtask</last-pattern>
+      <last-pattern>setting</last-pattern>
       <last-replace>NoSpots</last-replace>
       <last-substitute>val \w\+\zs</last-substitute>
       <last-dir>1</last-dir>
@@ -5635,8 +5642,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxwYXNzcG9ydFZlbnVlRmFjdG9yeVw+</entry>
-        <entry>passportven</entry>
         <entry>create</entry>
         <entry>passpor</entry>
         <entry>else</entry>
@@ -5655,6 +5660,8 @@
         <entry>in pro</entry>
         <entry>snsme</entry>
         <entry>processtask</entry>
+        <entry>ret</entry>
+        <entry>setting</entry>
       </history-search>
       <history-cmd>
         <entry>72</entry>
@@ -5675,8 +5682,8 @@
         <entry>action MethodDown</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action ReformatCode</entry>
         <entry>action VcsShowNextChangeMarker</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
