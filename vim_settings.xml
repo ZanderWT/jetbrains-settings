@@ -359,6 +359,9 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/core/exceptions.py" timestamp="1556309020525">
         <mark key="'" line="101" column="32" />
       </file>
+      <file name="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/base.py" timestamp="1574720320194">
+        <mark key="'" line="114" column="33" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/__init__.py" timestamp="1572642001611">
         <mark key="'" line="38" column="25" />
         <mark key="[" line="49" column="46" />
@@ -664,6 +667,9 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="3113" column="1" />
       </file>
+      <file name="$USER_HOME$/cp-projects/ms-inventory/code/config/config.ini.tmpl" timestamp="1574720142964">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/ratings_and_reviews_api_proxy.py" timestamp="1565048969774">
         <mark key="'" line="29" column="6" />
       </file>
@@ -676,9 +682,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="34" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="598" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/serializers.py" />
       <jump line="92" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/ms_inventory/client.py" />
       <jump line="86" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/ms_inventory/client.py" />
       <jump line="18" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/ms_inventory/client.py" />
@@ -776,6 +779,9 @@
       <jump line="207" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="211" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="216" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/config/config.ini.tmpl" />
+      <jump line="92" column="61" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/base.py" />
+      <jump line="114" column="33" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/base.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -850,7 +856,7 @@
         <text>updated_at</text>
       </register>
       <register name="/" type="4">
-        <text>user</text>
+        <text>class reserv</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHVwZGF0ZWRfYXQgPSBDb2x1bW4oRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIG51bGxhYmxlPUZhbHNlKSAgIyBEQiB0cmlnZ2VyCg==</text>
@@ -1586,9 +1592,9 @@
       </register>
     </registers>
     <search>
-      <last-search>user</last-search>
+      <last-search>class reserv</last-search>
       <last-offset />
-      <last-pattern>user</last-pattern>
+      <last-pattern>class reserv</last-pattern>
       <last-replace>range</last-replace>
       <last-substitute>unit</last-substitute>
       <last-dir>1</last-dir>
@@ -1596,9 +1602,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pricw</entry>
-        <entry>rate</entry>
-        <entry>present</entry>
         <entry>consult</entry>
         <entry>payapi</entry>
         <entry>pay</entry>
@@ -1616,6 +1619,9 @@
         <entry>date</entry>
         <entry>customi</entry>
         <entry>user</entry>
+        <entry>datab</entry>
+        <entry>reservation</entry>
+        <entry>class reserv</entry>
       </history-search>
       <history-cmd>
         <entry>140</entry>
