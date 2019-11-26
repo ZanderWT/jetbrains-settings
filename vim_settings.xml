@@ -104,12 +104,12 @@
         <mark key="." line="40" column="93" />
         <mark key="^" line="40" column="93" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" timestamp="1558714403477">
-        <mark key="'" line="130" column="62" />
-        <mark key="[" line="136" column="0" />
-        <mark key="]" line="136" column="0" />
-        <mark key="." line="136" column="0" />
-        <mark key="^" line="130" column="62" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" timestamp="1574799093254">
+        <mark key="'" line="42" column="42" />
+        <mark key="[" line="49" column="31" />
+        <mark key="]" line="49" column="31" />
+        <mark key="." line="49" column="35" />
+        <mark key="^" line="36" column="27" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_revenue_presenter.py" timestamp="1559758814866">
         <mark key="'" line="44" column="49" />
@@ -538,12 +538,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/serializers/revenue_reporting.py" timestamp="1566249199614">
         <mark key="'" line="13" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1573834685416">
-        <mark key="'" line="218" column="8" />
-        <mark key="[" line="47" column="15" />
-        <mark key="]" line="225" column="7" />
-        <mark key="^" line="225" column="7" />
-        <mark key="." line="225" column="7" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" timestamp="1574799199020">
+        <mark key="'" line="217" column="8" />
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="49" column="0" />
+        <mark key="^" line="224" column="7" />
+        <mark key="." line="49" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/mixins/venue.py" timestamp="1562345820219">
         <mark key="'" line="21" column="0" />
@@ -747,9 +747,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="348" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
-      <jump line="96" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
-      <jump line="97" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="25" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
       <jump line="82" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="218" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
@@ -847,6 +844,9 @@
       <jump line="157" column="17" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/db/versions/37e264ee18b4_generate_appointment_model_triggers.py" />
       <jump line="19" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/db/versions/37e264ee18b4_generate_appointment_model_triggers.py" />
+      <jump line="32" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" />
+      <jump line="36" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" />
+      <jump line="42" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -918,16 +918,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>, nullable=True</text>
+        <text>enabled_p_venues</text>
       </register>
       <register name="/" type="4">
-        <text>def up</text>
+        <text>enabled</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIG9wLmdldF9iaW5kKCkuZXhlY3V0ZShzYS50ZXh0KCJEUk9QIFRSSUdHRVIgSUYgRVhJU1RTIHJlc291cmNlc19jcmVhdGVkX2F0X21vZHRpbWUgT04gcHVibGljLnJlc291cmNlczsiKSkKICAgIG9wLmdldF9iaW5kKCkuZXhlY3V0ZShzYS50ZXh0KCJEUk9QIFRSSUdHRVIgSUYgRVhJU1RTIHJlc291cmNlc191cGRhdGVkX2F0X21vZHRpbWUgT04gcHVibGljLnJlc291cmNlczsiKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZGVmIHVwZ3JhZGUoKToKICAgIHBhc3MKCgpkZWYgZG93bmdyYWRlKCk6CiAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICBxcyA9IHFzLmZpbHRlcihlbmFibGVkPVRydWUpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -969,7 +969,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHBhc3MK</text>
+        <text encoding="base64">ZGVmIHVwZ3JhZGUoKToKICAgIHBhc3MKCgpkZWYgZG93bmdyYWRlKCk6CiAgICBwYXNzCg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgIHBhc3MK</text>
@@ -978,22 +978,22 @@
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHNlcnZpY2VfaWQgPSBDb2x1bW4oSW50ZWdlciwgRm9yZWlnbktleSgnc2VydmljZXMuaWQnKSkK</text>
+        <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByYWN0aXRpb25lcl9pZCA9Cg==</text>
+        <text encoding="base64">ICAgIHNlcnZpY2VfaWQgPSBDb2x1bW4oSW50ZWdlciwgRm9yZWlnbktleSgnc2VydmljZXMuaWQnKSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Y2xhc3MgQXBwb2ludG1lbnQoQmFzZSk6CiAgICBfX3RhYmxlbmFtZV9fID0gJ2FwcG9pbnRtZW50cycKCiAgICBpZCA9IENvbHVtbigKICAgICAgICBJbnRlZ2VyLCBwcmltYXJ5X2tleT1UcnVlCiAgICApCgogICAgdXVpZCA9IENvbHVtbigKICAgICAgICBVVUlEKGFzX3V1aWQ9VHJ1ZSksIHVuaXF1ZT1UcnVlLCBudWxsYWJsZT1GYWxzZSwKICAgICAgICBzZXJ2ZXJfZGVmYXVsdD1zcWxhbGNoZW15LnRleHQoInV1aWRfZ2VuZXJhdGVfdjQoKSIpCiAgICApCgogICAgc2VydmljZV9pZCA9IENvbHVtbihJbnRlZ2VyLCBGb3JlaWduS2V5KCdzZXJ2aWNlcy5pZCcsIG9uZGVsZXRlPSdDQVNDQURFJykpCiAgICBzdGFydF9kYXRldGltZSA9IENvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpCgoK</text>
+        <text encoding="base64">ICAgIHByYWN0aXRpb25lcl9pZCA9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGZpcnN0X25hbWUgPSBDb2x1bW4oU3RyaW5nKDI1NSkpCiAgICBsYXN0X25hbWUgPSBDb2x1bW4oU3RyaW5nKDI1NSkpCgogICAgZW1haWwgPSBDb2x1bW4oRW1haWxUeXBlKCksIG51bGxhYmxlPVRydWUpCiAgICBwaG9uZSA9IENvbHVtbihTdHJpbmcoKSwgbnVsbGFibGU9VHJ1ZSkKCiAgICBvcmdhbml6YXRpb25faWQgPSBDb2x1bW4oSW50ZWdlciwgRm9yZWlnbktleSgib3JnYW5pemF0aW9ucy5pZCIsIG9uZGVsZXRlPSdDQVNDQURFJyksIG51bGxhYmxlPUZhbHNlKQoKICAgIG9yZ2FuaXphdGlvbiA9IHJlbGF0aW9uc2hpcCgiT3JnYW5pemF0aW9uIikKICAgIHZlbnVlcyA9IHJlbGF0aW9uc2hpcCgiVmVudWUiLCBzZWNvbmRhcnk9InZlbnVlX3ByYWN0aXRpb25lcnMiKQogICAgaW1hZ2VzID0gcmVsYXRpb25zaGlwKCJJbWFnZSIsIHNlY29uZGFyeT0iaW1hZ2VzX3ByYWN0aXRpb25lcnMiKQogICAgc2VydmljZXMgPSByZWxhdGlvbnNoaXAoIlNlcnZpY2UiLCBiYWNrX3BvcHVsYXRlcz0icHJhY3RpdGlvbmVycyIsIHNlY29uZGFyeT0ic2VydmljZXNfcHJhY3RpdGlvbmVycyIpCgogICAgc3RhdHVzID0gQ29sdW1uKAogICAgICAgIENob2ljZVR5cGUoU3RhdHVzLCBpbXBsPUludGVnZXIoKSksCiAgICAgICAgc2VydmVyX2RlZmF1bHQ9c3RyKFN0YXR1cy5hY3RpdmUudmFsdWUpLAogICAgICAgIG51bGxhYmxlPUZhbHNlLAogICAgICAgIGRlZmF1bHQ9U3RhdHVzLmFjdGl2ZSwKICAgICkKCiAgICBjcmVhdGVkX2F0ID0gQ29sdW1uKERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSkgICMgREIgdHJpZ2dlcgogICAgdXBkYXRlZF9hdCA9IENvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpICAjIERCIHRyaWdnZXIKCiAgICBAaHlicmlkLmh5YnJpZF9wcm9wZXJ0eQogICAgZGVmIG5hbWUoc2VsZik6CiAgICAgICAgcmV0dXJuICcgJy5qb2luKGZpbHRlcihOb25lLCAoc2VsZi5maXJzdF9uYW1lLCBzZWxmLmxhc3RfbmFtZSkpKQoKICAgIEBoeWJyaWQuaHlicmlkX3Byb3BlcnR5CiAgICBkZWYgcGljdHVyZShzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5pbWFnZXNbMF0ucGF0aCBpZiBzZWxmLmltYWdlcyBlbHNlIE5vbmUK</text>
+        <text encoding="base64">Y2xhc3MgQXBwb2ludG1lbnQoQmFzZSk6CiAgICBfX3RhYmxlbmFtZV9fID0gJ2FwcG9pbnRtZW50cycKCiAgICBpZCA9IENvbHVtbigKICAgICAgICBJbnRlZ2VyLCBwcmltYXJ5X2tleT1UcnVlCiAgICApCgogICAgdXVpZCA9IENvbHVtbigKICAgICAgICBVVUlEKGFzX3V1aWQ9VHJ1ZSksIHVuaXF1ZT1UcnVlLCBudWxsYWJsZT1GYWxzZSwKICAgICAgICBzZXJ2ZXJfZGVmYXVsdD1zcWxhbGNoZW15LnRleHQoInV1aWRfZ2VuZXJhdGVfdjQoKSIpCiAgICApCgogICAgc2VydmljZV9pZCA9IENvbHVtbihJbnRlZ2VyLCBGb3JlaWduS2V5KCdzZXJ2aWNlcy5pZCcsIG9uZGVsZXRlPSdDQVNDQURFJykpCiAgICBzdGFydF9kYXRldGltZSA9IENvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpCgoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG9wZXJhdGlvbnMgPSBbCiAgICAgICAgbWlncmF0aW9ucy5BbHRlckZpZWxkKAogICAgICAgICAgICBtb2RlbF9uYW1lPSdyZXZlbnVlaXRlbWxvZycsCiAgICAgICAgICAgIG5hbWU9J3N0YXR1cycsCiAgICAgICAgICAgIGZpZWxkPW1vZGVscy5DaGFyRmllbGQoYmxhbms9VHJ1ZSwgZGJfaW5kZXg9VHJ1ZSwgbWF4X2xlbmd0aD0yNTUsIG51bGw9VHJ1ZSksCiAgICAgICAgKSwKICAgIF0K</text>
+        <text encoding="base64">ICAgIGZpcnN0X25hbWUgPSBDb2x1bW4oU3RyaW5nKDI1NSkpCiAgICBsYXN0X25hbWUgPSBDb2x1bW4oU3RyaW5nKDI1NSkpCgogICAgZW1haWwgPSBDb2x1bW4oRW1haWxUeXBlKCksIG51bGxhYmxlPVRydWUpCiAgICBwaG9uZSA9IENvbHVtbihTdHJpbmcoKSwgbnVsbGFibGU9VHJ1ZSkKCiAgICBvcmdhbml6YXRpb25faWQgPSBDb2x1bW4oSW50ZWdlciwgRm9yZWlnbktleSgib3JnYW5pemF0aW9ucy5pZCIsIG9uZGVsZXRlPSdDQVNDQURFJyksIG51bGxhYmxlPUZhbHNlKQoKICAgIG9yZ2FuaXphdGlvbiA9IHJlbGF0aW9uc2hpcCgiT3JnYW5pemF0aW9uIikKICAgIHZlbnVlcyA9IHJlbGF0aW9uc2hpcCgiVmVudWUiLCBzZWNvbmRhcnk9InZlbnVlX3ByYWN0aXRpb25lcnMiKQogICAgaW1hZ2VzID0gcmVsYXRpb25zaGlwKCJJbWFnZSIsIHNlY29uZGFyeT0iaW1hZ2VzX3ByYWN0aXRpb25lcnMiKQogICAgc2VydmljZXMgPSByZWxhdGlvbnNoaXAoIlNlcnZpY2UiLCBiYWNrX3BvcHVsYXRlcz0icHJhY3RpdGlvbmVycyIsIHNlY29uZGFyeT0ic2VydmljZXNfcHJhY3RpdGlvbmVycyIpCgogICAgc3RhdHVzID0gQ29sdW1uKAogICAgICAgIENob2ljZVR5cGUoU3RhdHVzLCBpbXBsPUludGVnZXIoKSksCiAgICAgICAgc2VydmVyX2RlZmF1bHQ9c3RyKFN0YXR1cy5hY3RpdmUudmFsdWUpLAogICAgICAgIG51bGxhYmxlPUZhbHNlLAogICAgICAgIGRlZmF1bHQ9U3RhdHVzLmFjdGl2ZSwKICAgICkKCiAgICBjcmVhdGVkX2F0ID0gQ29sdW1uKERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSkgICMgREIgdHJpZ2dlcgogICAgdXBkYXRlZF9hdCA9IENvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpICAjIERCIHRyaWdnZXIKCiAgICBAaHlicmlkLmh5YnJpZF9wcm9wZXJ0eQogICAgZGVmIG5hbWUoc2VsZik6CiAgICAgICAgcmV0dXJuICcgJy5qb2luKGZpbHRlcihOb25lLCAoc2VsZi5maXJzdF9uYW1lLCBzZWxmLmxhc3RfbmFtZSkpKQoKICAgIEBoeWJyaWQuaHlicmlkX3Byb3BlcnR5CiAgICBkZWYgcGljdHVyZShzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5pbWFnZXNbMF0ucGF0aCBpZiBzZWxmLmltYWdlcyBlbHNlIE5vbmUK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmaWVsZD1tb2RlbHMuSW50ZWdlckZpZWxkKGRiX2luZGV4PVRydWUsIG51bGw9VHJ1ZSksCg==</text>
+        <text encoding="base64">ICAgIG9wZXJhdGlvbnMgPSBbCiAgICAgICAgbWlncmF0aW9ucy5BbHRlckZpZWxkKAogICAgICAgICAgICBtb2RlbF9uYW1lPSdyZXZlbnVlaXRlbWxvZycsCiAgICAgICAgICAgIG5hbWU9J3N0YXR1cycsCiAgICAgICAgICAgIGZpZWxkPW1vZGVscy5DaGFyRmllbGQoYmxhbms9VHJ1ZSwgZGJfaW5kZXg9VHJ1ZSwgbWF4X2xlbmd0aD0yNTUsIG51bGw9VHJ1ZSksCiAgICAgICAgKSwKICAgIF0K</text>
       </register>
       <register name=":" type="4">
         <text>%s;resources;appointments;g</text>
@@ -1657,9 +1657,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def up</last-search>
+      <last-search>enabled</last-search>
       <last-offset />
-      <last-pattern>def up</last-pattern>
+      <last-pattern>enabled</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
       <last-dir>1</last-dir>
@@ -1667,7 +1667,6 @@
     </search>
     <history>
       <history-search>
-        <entry>customi</entry>
         <entry>user</entry>
         <entry>datab</entry>
         <entry>reservation</entry>
@@ -1687,6 +1686,7 @@
         <entry>primar</entry>
         <entry>user_</entry>
         <entry>def up</entry>
+        <entry>enabled</entry>
       </history-search>
       <history-cmd>
         <entry>25</entry>
