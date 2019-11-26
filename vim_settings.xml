@@ -68,11 +68,21 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/classes.py" timestamp="1563466135833">
         <mark key="'" line="200" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/docs/runbook.md" timestamp="1573506345044">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="131" column="0" />
+        <mark key="]" line="131" column="46" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/spot_recs_api_proxy.py" timestamp="1560286017254">
         <mark key="'" line="88" column="8" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/misc.py" timestamp="1556905106770">
         <mark key="'" line="50" column="20" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/sqs/smartspot_sqs_processor.py" timestamp="1569866159826">
+        <mark key="'" line="43" column="8" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="39" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/constants/venue.py" timestamp="1551308267277">
         <mark key="'" line="17" column="23" />
@@ -207,6 +217,15 @@
         <mark key="]" line="91" column="42" />
         <mark key="." line="77" column="7" />
         <mark key="^" line="77" column="7" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/ms-inventory/code/db/versions/18293fd4d9fc_add_appointment_triggers.py" timestamp="1574722903115">
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="39" column="110" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/schedule.py" timestamp="1574721522649">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="634" column="0" />
+        <mark key="]" line="634" column="44" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/presenters/opportunities.py" timestamp="1568997435027">
         <mark key="'" line="181" column="65" />
@@ -375,12 +394,12 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/db/models/fields/related.py" timestamp="1562344429338">
         <mark key="'" line="946" column="22" />
       </file>
-      <file name="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" timestamp="1574717822195">
-        <mark key="'" line="216" column="0" />
-        <mark key="[" line="166" column="68" />
-        <mark key="]" line="167" column="48" />
-        <mark key="." line="167" column="48" />
-        <mark key="^" line="167" column="48" />
+      <file name="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" timestamp="1574722596363">
+        <mark key="'" line="126" column="0" />
+        <mark key="[" line="173" column="4" />
+        <mark key="]" line="174" column="78" />
+        <mark key="^" line="172" column="3" />
+        <mark key="." line="173" column="0" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/snowplow_tracker/tracker.py" timestamp="1549930598690">
         <mark key="'" line="68" column="19" />
@@ -532,6 +551,12 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_ghost_inspector_view.py" timestamp="1562599597048">
         <mark key="'" line="18" column="39" />
       </file>
+      <file name="$USER_HOME$/cp-projects/ms-inventory/code/db/versions/83322e741b4e_generate_appointment_model_triggers.py" timestamp="1574722917178">
+        <mark key="'" line="20" column="50" />
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="26" column="110" />
+        <mark key="." line="25" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/urls.py" timestamp="1562945090062">
         <mark key="'" line="0" column="34" />
         <mark key="[" line="7" column="36" />
@@ -612,6 +637,9 @@
         <mark key="^" line="19" column="29" />
         <mark key="." line="19" column="29" />
       </file>
+      <file name="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" timestamp="1574722231197">
+        <mark key="'" line="1017" column="8" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/migrations/0015_auto_20191111_1353.py" timestamp="1573498656491">
         <mark key="'" line="24" column="71" />
         <mark key="[" line="6" column="0" />
@@ -660,6 +688,11 @@
         <mark key="." line="15" column="0" />
         <mark key="^" line="14" column="6" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/utils/stats.py" timestamp="1569865811956">
+        <mark key="'" line="63" column="28" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="32" />
+      </file>
       <file name="$USER_HOME$/look-at-pancake/with-reactions" timestamp="1565805706587">
         <mark key="'" line="3113" column="0" />
         <mark key="[" line="3113" column="1" />
@@ -682,40 +715,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="92" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/ms_inventory/client.py" />
-      <jump line="86" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/ms_inventory/client.py" />
-      <jump line="18" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/ms_inventory/client.py" />
-      <jump line="79" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="133" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="105" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="107" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="111" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="125" column="86" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="129" column="41" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="16" column="28" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/revenue_reporting.py" />
-      <jump line="63" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="386" column="24" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
-      <jump line="61" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="391" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
-      <jump line="154" column="94" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
-      <jump line="77" column="19" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="73" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="72" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="71" column="17" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="70" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="69" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="19" column="29" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="132" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="145" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="185" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="54" column="39" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/partners_service/client.py" />
-      <jump line="28" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="67" column="12" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/base_client.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/venue.py" />
-      <jump line="144" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="24" column="9" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="38" column="18" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
       <jump line="88" column="66" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/models/classes.py" />
@@ -782,6 +781,40 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/config/config.ini.tmpl" />
       <jump line="92" column="61" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/base.py" />
       <jump line="114" column="33" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/base.py" />
+      <jump line="634" column="23" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/schedule.py" />
+      <jump line="424" column="38" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/schedule.py" />
+      <jump line="138" column="39" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/schedule.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/schedule.py" />
+      <jump line="186" column="11" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="187" column="27" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="1073" column="10" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1074" column="47" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1077" column="33" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1119" column="28" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1190" column="32" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="170" column="22" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="1206" column="15" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1672" column="8" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1701" column="15" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="3526" column="45" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="3524" column="21" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="3523" column="6" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="2332" column="35" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1550" column="12" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1500" column="21" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="1017" column="8" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
+      <jump line="165" column="3" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="164" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="159" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="155" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="152" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="148" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="141" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="138" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="135" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="132" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="126" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="20" column="50" filename="$USER_HOME$/cp-projects/ms-inventory/code/db/versions/83322e741b4e_generate_appointment_model_triggers.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -853,16 +886,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>updated_at</text>
+        <text>, ondelete='CASCADE'</text>
       </register>
       <register name="/" type="4">
-        <text>class reserv</text>
+        <text>resources</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHVwZGF0ZWRfYXQgPSBDb2x1bW4oRGF0ZVRpbWUodGltZXpvbmU9VHJ1ZSksIG51bGxhYmxlPUZhbHNlKSAgIyBEQiB0cmlnZ2VyCg==</text>
+        <text encoding="base64">ICAgIG9wLmdldF9iaW5kKCkuZXhlY3V0ZShzYS50ZXh0KCJEUk9QIFRSSUdHRVIgSUYgRVhJU1RTIHJlc291cmNlc19jcmVhdGVkX2F0X21vZHRpbWUgT04gcHVibGljLnJlc291cmNlczsiKSkKICAgIG9wLmdldF9iaW5kKCkuZXhlY3V0ZShzYS50ZXh0KCJEUk9QIFRSSUdHRVIgSUYgRVhJU1RTIHJlc291cmNlc191cGRhdGVkX2F0X21vZHRpbWUgT04gcHVibGljLnJlc291cmNlczsiKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Y2xhc3MgQXBwb2ludG1lbnQoQmFzZSk6CiAgICBfX3RhYmxlbmFtZV9fID0gJ2FwcG9pbnRtZW50cycKCiAgICBpZCA9IENvbHVtbigKICAgICAgICBJbnRlZ2VyLCBwcmltYXJ5X2tleT1UcnVlCiAgICApCgogICAgdXVpZCA9IENvbHVtbigKICAgICAgICBVVUlEKGFzX3V1aWQ9VHJ1ZSksIHVuaXF1ZT1UcnVlLCBudWxsYWJsZT1GYWxzZSwKICAgICAgICBzZXJ2ZXJfZGVmYXVsdD1zcWxhbGNoZW15LnRleHQoInV1aWRfZ2VuZXJhdGVfdjQoKSIpCiAgICApCgogICAgc2VydmljZV9pZCA9IENvbHVtbihJbnRlZ2VyLCBGb3JlaWduS2V5KCdzZXJ2aWNlcy5pZCcsIG9uZGVsZXRlPSdDQVNDQURFJykpCiAgICBzdGFydF9kYXRldGltZSA9IENvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpCgoK</text>
+        <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -904,34 +937,34 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGZpcnN0X25hbWUgPSBDb2x1bW4oU3RyaW5nKDI1NSkpCiAgICBsYXN0X25hbWUgPSBDb2x1bW4oU3RyaW5nKDI1NSkpCgogICAgZW1haWwgPSBDb2x1bW4oRW1haWxUeXBlKCksIG51bGxhYmxlPVRydWUpCiAgICBwaG9uZSA9IENvbHVtbihTdHJpbmcoKSwgbnVsbGFibGU9VHJ1ZSkKCiAgICBvcmdhbml6YXRpb25faWQgPSBDb2x1bW4oSW50ZWdlciwgRm9yZWlnbktleSgib3JnYW5pemF0aW9ucy5pZCIsIG9uZGVsZXRlPSdDQVNDQURFJyksIG51bGxhYmxlPUZhbHNlKQoKICAgIG9yZ2FuaXphdGlvbiA9IHJlbGF0aW9uc2hpcCgiT3JnYW5pemF0aW9uIikKICAgIHZlbnVlcyA9IHJlbGF0aW9uc2hpcCgiVmVudWUiLCBzZWNvbmRhcnk9InZlbnVlX3ByYWN0aXRpb25lcnMiKQogICAgaW1hZ2VzID0gcmVsYXRpb25zaGlwKCJJbWFnZSIsIHNlY29uZGFyeT0iaW1hZ2VzX3ByYWN0aXRpb25lcnMiKQogICAgc2VydmljZXMgPSByZWxhdGlvbnNoaXAoIlNlcnZpY2UiLCBiYWNrX3BvcHVsYXRlcz0icHJhY3RpdGlvbmVycyIsIHNlY29uZGFyeT0ic2VydmljZXNfcHJhY3RpdGlvbmVycyIpCgogICAgc3RhdHVzID0gQ29sdW1uKAogICAgICAgIENob2ljZVR5cGUoU3RhdHVzLCBpbXBsPUludGVnZXIoKSksCiAgICAgICAgc2VydmVyX2RlZmF1bHQ9c3RyKFN0YXR1cy5hY3RpdmUudmFsdWUpLAogICAgICAgIG51bGxhYmxlPUZhbHNlLAogICAgICAgIGRlZmF1bHQ9U3RhdHVzLmFjdGl2ZSwKICAgICkKCiAgICBjcmVhdGVkX2F0ID0gQ29sdW1uKERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSkgICMgREIgdHJpZ2dlcgogICAgdXBkYXRlZF9hdCA9IENvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpICAjIERCIHRyaWdnZXIKCiAgICBAaHlicmlkLmh5YnJpZF9wcm9wZXJ0eQogICAgZGVmIG5hbWUoc2VsZik6CiAgICAgICAgcmV0dXJuICcgJy5qb2luKGZpbHRlcihOb25lLCAoc2VsZi5maXJzdF9uYW1lLCBzZWxmLmxhc3RfbmFtZSkpKQoKICAgIEBoeWJyaWQuaHlicmlkX3Byb3BlcnR5CiAgICBkZWYgcGljdHVyZShzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5pbWFnZXNbMF0ucGF0aCBpZiBzZWxmLmltYWdlcyBlbHNlIE5vbmUK</text>
+        <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIG9wZXJhdGlvbnMgPSBbCiAgICAgICAgbWlncmF0aW9ucy5BbHRlckZpZWxkKAogICAgICAgICAgICBtb2RlbF9uYW1lPSdyZXZlbnVlaXRlbWxvZycsCiAgICAgICAgICAgIG5hbWU9J3N0YXR1cycsCiAgICAgICAgICAgIGZpZWxkPW1vZGVscy5DaGFyRmllbGQoYmxhbms9VHJ1ZSwgZGJfaW5kZXg9VHJ1ZSwgbWF4X2xlbmd0aD0yNTUsIG51bGw9VHJ1ZSksCiAgICAgICAgKSwKICAgIF0K</text>
+        <text encoding="base64">ICAgIHNlcnZpY2VfaWQgPSBDb2x1bW4oSW50ZWdlciwgRm9yZWlnbktleSgnc2VydmljZXMuaWQnKSkK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmaWVsZD1tb2RlbHMuSW50ZWdlckZpZWxkKGRiX2luZGV4PVRydWUsIG51bGw9VHJ1ZSksCg==</text>
+        <text encoding="base64">ICAgIHByYWN0aXRpb25lcl9pZCA9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICA6cmV0dXJuOiB0aGUganNvbiBib2R5IG9mIHRoZSByZXNwb25zZQo=</text>
+        <text encoding="base64">Y2xhc3MgQXBwb2ludG1lbnQoQmFzZSk6CiAgICBfX3RhYmxlbmFtZV9fID0gJ2FwcG9pbnRtZW50cycKCiAgICBpZCA9IENvbHVtbigKICAgICAgICBJbnRlZ2VyLCBwcmltYXJ5X2tleT1UcnVlCiAgICApCgogICAgdXVpZCA9IENvbHVtbigKICAgICAgICBVVUlEKGFzX3V1aWQ9VHJ1ZSksIHVuaXF1ZT1UcnVlLCBudWxsYWJsZT1GYWxzZSwKICAgICAgICBzZXJ2ZXJfZGVmYXVsdD1zcWxhbGNoZW15LnRleHQoInV1aWRfZ2VuZXJhdGVfdjQoKSIpCiAgICApCgogICAgc2VydmljZV9pZCA9IENvbHVtbihJbnRlZ2VyLCBGb3JlaWduS2V5KCdzZXJ2aWNlcy5pZCcsIG9uZGVsZXRlPSdDQVNDQURFJykpCiAgICBzdGFydF9kYXRldGltZSA9IENvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpCgoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBjb250ZW50X2Rpc3Bvc2l0aW9uX2hlYWRlciA9IAo=</text>
+        <text encoding="base64">ICAgIGZpcnN0X25hbWUgPSBDb2x1bW4oU3RyaW5nKDI1NSkpCiAgICBsYXN0X25hbWUgPSBDb2x1bW4oU3RyaW5nKDI1NSkpCgogICAgZW1haWwgPSBDb2x1bW4oRW1haWxUeXBlKCksIG51bGxhYmxlPVRydWUpCiAgICBwaG9uZSA9IENvbHVtbihTdHJpbmcoKSwgbnVsbGFibGU9VHJ1ZSkKCiAgICBvcmdhbml6YXRpb25faWQgPSBDb2x1bW4oSW50ZWdlciwgRm9yZWlnbktleSgib3JnYW5pemF0aW9ucy5pZCIsIG9uZGVsZXRlPSdDQVNDQURFJyksIG51bGxhYmxlPUZhbHNlKQoKICAgIG9yZ2FuaXphdGlvbiA9IHJlbGF0aW9uc2hpcCgiT3JnYW5pemF0aW9uIikKICAgIHZlbnVlcyA9IHJlbGF0aW9uc2hpcCgiVmVudWUiLCBzZWNvbmRhcnk9InZlbnVlX3ByYWN0aXRpb25lcnMiKQogICAgaW1hZ2VzID0gcmVsYXRpb25zaGlwKCJJbWFnZSIsIHNlY29uZGFyeT0iaW1hZ2VzX3ByYWN0aXRpb25lcnMiKQogICAgc2VydmljZXMgPSByZWxhdGlvbnNoaXAoIlNlcnZpY2UiLCBiYWNrX3BvcHVsYXRlcz0icHJhY3RpdGlvbmVycyIsIHNlY29uZGFyeT0ic2VydmljZXNfcHJhY3RpdGlvbmVycyIpCgogICAgc3RhdHVzID0gQ29sdW1uKAogICAgICAgIENob2ljZVR5cGUoU3RhdHVzLCBpbXBsPUludGVnZXIoKSksCiAgICAgICAgc2VydmVyX2RlZmF1bHQ9c3RyKFN0YXR1cy5hY3RpdmUudmFsdWUpLAogICAgICAgIG51bGxhYmxlPUZhbHNlLAogICAgICAgIGRlZmF1bHQ9U3RhdHVzLmFjdGl2ZSwKICAgICkKCiAgICBjcmVhdGVkX2F0ID0gQ29sdW1uKERhdGVUaW1lKHRpbWV6b25lPVRydWUpLCBudWxsYWJsZT1GYWxzZSkgICMgREIgdHJpZ2dlcgogICAgdXBkYXRlZF9hdCA9IENvbHVtbihEYXRlVGltZSh0aW1lem9uZT1UcnVlKSwgbnVsbGFibGU9RmFsc2UpICAjIERCIHRyaWdnZXIKCiAgICBAaHlicmlkLmh5YnJpZF9wcm9wZXJ0eQogICAgZGVmIG5hbWUoc2VsZik6CiAgICAgICAgcmV0dXJuICcgJy5qb2luKGZpbHRlcihOb25lLCAoc2VsZi5maXJzdF9uYW1lLCBzZWxmLmxhc3RfbmFtZSkpKQoKICAgIEBoeWJyaWQuaHlicmlkX3Byb3BlcnR5CiAgICBkZWYgcGljdHVyZShzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5pbWFnZXNbMF0ucGF0aCBpZiBzZWxmLmltYWdlcyBlbHNlIE5vbmUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBRdWVyeSAK</text>
+        <text encoding="base64">ICAgIG9wZXJhdGlvbnMgPSBbCiAgICAgICAgbWlncmF0aW9ucy5BbHRlckZpZWxkKAogICAgICAgICAgICBtb2RlbF9uYW1lPSdyZXZlbnVlaXRlbWxvZycsCiAgICAgICAgICAgIG5hbWU9J3N0YXR1cycsCiAgICAgICAgICAgIGZpZWxkPW1vZGVscy5DaGFyRmllbGQoYmxhbms9VHJ1ZSwgZGJfaW5kZXg9VHJ1ZSwgbWF4X2xlbmd0aD0yNTUsIG51bGw9VHJ1ZSksCiAgICAgICAgKSwKICAgIF0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmaWVsZD1tb2RlbHMuSW50ZWdlckZpZWxkKGRiX2luZGV4PVRydWUsIG51bGw9VHJ1ZSksCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZXR0aW5ncy5FTlYgPT0gJ2xvY2FsJyBvciBzZXR0aW5ncy5FTlYgPT0gJ2Rldicgb3IgcmVxdWVzdC51c2VyLnZlbnVlcy5maWx0ZXIodmVudWVfaWQ9MzE0OTQpOgogICAgICAgICAgICBkaWZmID0gUmV2ZW51ZVJlcG9ydGluZ0NvbnRyb2xsZXIuY29tcGFyZV9yZXNlcnZhdGlvbnNfcmVwb3J0X3RvX3BhcnRuZXJzX3NlcnZpY2UocmVxdWVzdC51c2VyLmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsaWRhdGVkX2RhdGEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb3B5LmRlZXBjb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc2VydmF0aW9uc19kYXRhKSkKICAgICAgICAgICAgaWYgZGlmZjoKICAgICAgICAgICAgICAgIHN0YXRzLmluY3JlbWVudChmJ3tzZXR0aW5ncy5FTlZ9LnJlc2VydmF0aW9uc19yZXBvcnRfZGlzY3JlcGFuY3knKQogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZid7UkVTRVJWQVRJT05TX1JFUE9SVF9ESVNDUkVQQU5DWX0ge2RpZmZ9JykKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHN0YXRzLmluY3JlbWVudChmJ3tzZXR0aW5ncy5FTlZ9LnJlc2VydmF0aW9uc19yZXBvcnRfaGFybW9ueScpCgo=</text>
+        <text encoding="base64">ICAgICAgICA6cmV0dXJuOiB0aGUganNvbiBib2R5IG9mIHRoZSByZXNwb25zZQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>%s;resources;appointments;g</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1592,27 +1625,19 @@
       </register>
     </registers>
     <search>
-      <last-search>class reserv</last-search>
+      <last-search>resources</last-search>
       <last-offset />
-      <last-pattern>class reserv</last-pattern>
-      <last-replace>range</last-replace>
-      <last-substitute>unit</last-substitute>
+      <last-pattern>resources</last-pattern>
+      <last-replace>appointments</last-replace>
+      <last-substitute>resources</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>consult</entry>
-        <entry>payapi</entry>
-        <entry>pay</entry>
-        <entry encoding="base64">XDxQYXltZW50c0RhbFw+</entry>
-        <entry encoding="base64">XDxnZXRfZXhwb3J0ZWRfcGF5b3V0c1w+</entry>
-        <entry encoding="base64">XDxnZXRfcmVzZXJ2YXRpb25zX2Zvcl9wYXlvdXRcPg==</entry>
-        <entry>cadence</entry>
         <entry>salesforce</entry>
         <entry>caden</entry>
         <entry>f</entry>
-        <entry>practi</entry>
         <entry>uuid</entry>
         <entry>appointment</entry>
         <entry>start</entry>
@@ -1622,9 +1647,16 @@
         <entry>datab</entry>
         <entry>reservation</entry>
         <entry>class reserv</entry>
+        <entry encoding="base64">XDxKU09OQlw+</entry>
+        <entry>practi</entry>
+        <entry>primary</entry>
+        <entry>primary_key</entry>
+        <entry>ondelete</entry>
+        <entry>index</entry>
+        <entry>resou</entry>
+        <entry>resources</entry>
       </history-search>
       <history-cmd>
-        <entry>140</entry>
         <entry>25</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>49</entry>
@@ -1644,6 +1676,7 @@
         <entry>action MethodUp</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>%s;resources;appointments;g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -1699,6 +1732,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed K</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
       </shortcut-conflict>
     </shortcut-conflicts>
     <editor>
