@@ -134,7 +134,6 @@
         <mark key="^" line="56" column="25" />
         <mark key="." line="56" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/ms-inventory/code/src/app/components/schedule_instance/features.py" timestamp="1574792110628" />
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/common/constants.py" timestamp="1570048022352">
         <mark key="'" line="174" column="4" />
       </file>
@@ -421,11 +420,12 @@
       <file name="$USER_HOME$/.pyenv/versions/ptndash-3.6.5/lib/python3.6/site-packages/django/db/models/fields/related.py" timestamp="1562344429338">
         <mark key="'" line="946" column="22" />
       </file>
-      <file name="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" timestamp="1574798225913">
-        <mark key="'" line="157" column="17" />
-        <mark key="[" line="167" column="28" />
-        <mark key="]" line="167" column="28" />
-        <mark key="." line="167" column="28" />
+      <file name="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" timestamp="1575312254071">
+        <mark key="'" line="160" column="30" />
+        <mark key="[" line="160" column="0" />
+        <mark key="]" line="160" column="30" />
+        <mark key="." line="160" column="30" />
+        <mark key="^" line="160" column="30" />
       </file>
       <file name="$USER_HOME$/.pyenv/versions/ptndash-2.7.12/lib/python2.7/site-packages/snowplow_tracker/tracker.py" timestamp="1549930598690">
         <mark key="'" line="68" column="19" />
@@ -777,8 +777,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/reports.py" />
-      <jump line="82" column="50" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
       <jump line="218" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/dal.py" />
       <jump line="54" column="6" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/rosters.py" />
       <jump line="11" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/urls.py" />
@@ -819,7 +817,6 @@
       <jump line="243" column="40" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="235" column="6" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="233" column="8" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
-      <jump line="237" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="244" column="28" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="236" column="24" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="205" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
@@ -877,6 +874,9 @@
       <jump line="32" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" />
       <jump line="36" column="27" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" />
       <jump line="42" column="42" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" />
+      <jump line="167" column="28" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="237" column="6" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
+      <jump line="160" column="30" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -951,13 +951,13 @@
         <text>DEMO_VENUE_IDS</text>
       </register>
       <register name="/" type="4">
-        <text>enabled</text>
+        <text>external</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIG9wLmdldF9iaW5kKCkuZXhlY3V0ZShzYS50ZXh0KCJEUk9QIFRSSUdHRVIgSUYgRVhJU1RTIHJlc291cmNlc19jcmVhdGVkX2F0X21vZHRpbWUgT04gcHVibGljLnJlc291cmNlczsiKSkKICAgIG9wLmdldF9iaW5kKCkuZXhlY3V0ZShzYS50ZXh0KCJEUk9QIFRSSUdHRVIgSUYgRVhJU1RTIHJlc291cmNlc191cGRhdGVkX2F0X21vZHRpbWUgT04gcHVibGljLnJlc291cmNlczsiKSkK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">REVNT19WRU5VRV9JRFMgPSBbXQo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgIHV1aWQgPSBDb2x1bW4oCiAgICAgICAgVVVJRChhc191dWlkPVRydWUpLCB1bmlxdWU9VHJ1ZSwgbnVsbGFibGU9RmFsc2UsCiAgICAgICAgc2VydmVyX2RlZmF1bHQ9c3FsYWxjaGVteS50ZXh0KCJ1dWlkX2dlbmVyYXRlX3Y0KCkiKQogICAgKQ==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -999,31 +999,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">REVNT19WRU5VRV9JRFMgPSBbXQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ID0gW1dPUktPVVRfQ0VOVFJBTF9WRU5VRV9JRCwgV0VMTE5FU1NfQ0VOVFJBTF9WRU5VRV9JRF0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGZvciBkZW1vX3ZlbnVlX2lkIGluIHNldHRpbmdzLkRFTU9fVkVOVUVfSURTOgogICAgICAgIGlmIGRlbW9fdmVudWVfaWQgbm90IGluIHZlbnVlX2lkczoKICAgICAgICAgICAgdmVudWVfaWRzICs9IFtkZW1vX3ZlbnVlX2lkXQo=</text>
+        <text encoding="base64">ID0gW1dPUktPVVRfQ0VOVFJBTF9WRU5VRV9JRCwgV0VMTE5FU1NfQ0VOVFJBTF9WRU5VRV9JRF0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBxcyA9IHFzLmZpbHRlcihlbmFibGVkPVRydWUpCg==</text>
+        <text encoding="base64">ICAgIGZvciBkZW1vX3ZlbnVlX2lkIGluIHNldHRpbmdzLkRFTU9fVkVOVUVfSURTOgogICAgICAgIGlmIGRlbW9fdmVudWVfaWQgbm90IGluIHZlbnVlX2lkczoKICAgICAgICAgICAgdmVudWVfaWRzICs9IFtkZW1vX3ZlbnVlX2lkXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGVmIHVwZ3JhZGUoKToKICAgIHBhc3MKCgpkZWYgZG93bmdyYWRlKCk6CiAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICBxcyA9IHFzLmZpbHRlcihlbmFibGVkPVRydWUpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHBhc3MK</text>
+        <text encoding="base64">ZGVmIHVwZ3JhZGUoKToKICAgIHBhc3MKCgpkZWYgZG93bmdyYWRlKCk6CiAgICBwYXNzCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHNlcnZpY2VfaWQgPSBDb2x1bW4oSW50ZWdlciwgRm9yZWlnbktleSgnc2VydmljZXMuaWQnKSkK</text>
+        <text encoding="base64">ICAgIHBhc3MK</text>
       </register>
       <register name=":" type="4">
         <text>83</text>
@@ -1687,9 +1687,9 @@
       </register>
     </registers>
     <search>
-      <last-search>enabled</last-search>
+      <last-search>external</last-search>
       <last-offset />
-      <last-pattern>enabled</last-pattern>
+      <last-pattern>external</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
       <last-dir>1</last-dir>
@@ -1697,8 +1697,6 @@
     </search>
     <history>
       <history-search>
-        <entry>user</entry>
-        <entry>datab</entry>
         <entry>reservation</entry>
         <entry>class reserv</entry>
         <entry encoding="base64">XDxKU09OQlw+</entry>
@@ -1717,6 +1715,8 @@
         <entry>user_</entry>
         <entry>def up</entry>
         <entry>enabled</entry>
+        <entry>uuid</entry>
+        <entry>external</entry>
       </history-search>
       <history-cmd>
         <entry>49</entry>
