@@ -41,11 +41,11 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/dao/requests/PayoutItemRequest.java" timestamp="1574118427460">
         <mark key="'" line="11" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestAppender.kt" timestamp="1575656980135">
-        <mark key="[" line="12" column="12" />
-        <mark key="]" line="12" column="26" />
-        <mark key="." line="12" column="26" />
-        <mark key="^" line="12" column="26" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TestAppender.kt" timestamp="1575658534876">
+        <mark key="[" line="6" column="6" />
+        <mark key="]" line="6" column="6" />
+        <mark key="." line="6" column="6" />
+        <mark key="^" line="11" column="31" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummarizeRevenueTest.kt" timestamp="1570056430936">
         <mark key="[" line="15" column="12" />
@@ -87,6 +87,11 @@
         <mark key="]" line="34" column="26" />
         <mark key="^" line="34" column="26" />
         <mark key="." line="34" column="26" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/SQLWarningDetectingAppender.kt" timestamp="1575658545147">
+        <mark key="]" line="6" column="32" />
+        <mark key="^" line="6" column="32" />
+        <mark key="." line="6" column="32" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/ClassesReportResponseTest.kt" timestamp="1574112684632">
         <mark key="'" line="53" column="30" />
@@ -242,12 +247,12 @@
         <mark key="." line="22" column="23" />
         <mark key="^" line="22" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1575656144754">
-        <mark key="'" line="79" column="0" />
-        <mark key="[" line="389" column="35" />
-        <mark key="]" line="389" column="46" />
-        <mark key="." line="389" column="46" />
-        <mark key="^" line="389" column="46" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1575658034134">
+        <mark key="'" line="77" column="0" />
+        <mark key="[" line="395" column="24" />
+        <mark key="]" line="395" column="66" />
+        <mark key="." line="395" column="66" />
+        <mark key="^" line="395" column="66" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ReservationControllerTest.kt" timestamp="1571174368044">
         <mark key="[" line="176" column="46" />
@@ -2076,7 +2081,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>event?.throwableProxy?.className</text>
+        <text>TestAppender</text>
       </register>
       <register name="/" type="4">
         <text>ROOT</text>
@@ -2088,7 +2093,7 @@
         <text>PASSPORT_SCHEDULES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAvLyB2YWwgbWF0Y2hlZFdhcm5pbmcgPSB0aHJvd2FibGVDbE5hbWUgPT0gU1FMV2FybmluZzo6Y2xhc3MucXVhbGlmaWVkTmFtZQogICAgICAgIC8vIGlmIChtc2cubWF0Y2hlcyhSZWdleCgiLipBbWJpZ3VvdXMgbWF0Y2guKiIpKSkgewogICAgICAgIC8vIGlmIChtc2cubWF0Y2hlcyhSZWdleCgiLipTUUxXYXJuaW5nLioiKSkpIHsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2380,19 +2385,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgbXNnID0gZXZlbnQhIS5mb3JtYXR0ZWRNZXNzYWdlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaW52b2NhdGlvbi5mCg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHZhbCBwYXQgPSBQYXR0ZXJuLmNvbXBpbGUoIlNRTFdhcm5pbmciKQogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhyb3cgUnVudGltZUV4Y2VwdGlvbigic3FsIHdhcm5pbmcgZGV0ZWN0ZWQiKQo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgbXNnID0gZXZlbnQhIS5mb3JtYXR0ZWRNZXNzYWdlCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
@@ -5409,13 +5414,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGNvbnN0Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgbXNnID0gZXZlbnQhIS5mb3JtYXR0ZWRNZXNzYWdlCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBUT0RPKCJub3QgaW1wbGVtZW50ZWQiKSAvL1RvIGNoYW5nZSBib2R5IG9mIGNyZWF0ZWQgZnVuY3Rpb25zIHVzZSBGaWxlIHwgU2V0dGluZ3MgfCBGaWxlIFRlbXBsYXRlcy4K</text>
+        <text encoding="base64">ICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHZhbCBwYXQgPSBQYXR0ZXJuLmNvbXBpbGUoIlNRTFdhcm5pbmciKQogICAgfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5633,10 +5638,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygiZmxvcnAiKQo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zbGY0ai5Mb2dnZXIuUk9PVF9MT0dHRVJfTkFNRQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>action VcsShowNextChangeMarker</text>
