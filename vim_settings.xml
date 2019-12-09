@@ -511,10 +511,12 @@
         <mark key="^" line="0" column="8" />
         <mark key="." line="0" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575924543392">
-        <mark key="'" line="188" column="8" />
-        <mark key="[" line="59" column="19" />
-        <mark key="]" line="59" column="22" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575926775141">
+        <mark key="'" line="165" column="63" />
+        <mark key="[" line="165" column="90" />
+        <mark key="]" line="165" column="98" />
+        <mark key="^" line="165" column="98" />
+        <mark key="." line="165" column="98" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1562345844033">
         <mark key="'" line="113" column="0" />
@@ -559,9 +561,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="247" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
-      <jump line="240" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
-      <jump line="221" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="234" column="29" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="257" column="6" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
@@ -659,10 +658,13 @@
       <jump line="11" column="25" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-prod.py" />
       <jump line="39" column="51" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-prod.py" />
       <jump line="40" column="46" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-prod.py" />
+      <jump line="164" column="38" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="174" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="165" column="63" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
-        <text encoding="base64">IFBhcnRuZXJzU2VydmljZUFwaUNsaWVudC5nZXRfcmVzZXJ2YXRpb25zX3JlcG9ydCh1c2VyX2lkLCByZXF1ZXN0X2RhdGEpLmNvbnRlbnQ=</text>
+        <text>logger.info(f'[wellness_debug]</text>
       </register>
       <register name="&quot;" type="4">
         <text encoding="base64">IA==</text>
@@ -674,7 +676,7 @@
         <text>eligible_schedule =</text>
       </register>
       <register name="*" type="4">
-        <text>()</text>
+        <text>logger.info(f'[wellness_debug]</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -730,16 +732,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text>wellness_schedules</text>
       </register>
       <register name="/" type="4">
-        <text>develop</text>
+        <text>s.&quot;sc</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">IiIiVGhpcyBmaWxlIGlzIHVzZWQgZm9yIGxvY2FsIGRldiBvbmx5IiIiCgpmcm9tIC5iYXNlIGltcG9ydCAqCgpmcm9tIC4gaW1wb3J0IHNlY3JldHMKCkNBQ0hFUyA9IHsKICAgICdkZWZhdWx0JzogewogICAgICAgICdCQUNLRU5EJzogJ2RqYW5nby5jb3JlLmNhY2hlLmJhY2tlbmRzLm1lbWNhY2hlZC5QeUxpYk1DQ2FjaGUnLAogICAgICAgICdMT0NBVElPTic6ICJsb2NhbGhvc3Q6MTEyMTEiLAogICAgICAgICdPUFRJT05TJzogewogICAgICAgICAgICAnYmVoYXZpb3JzJzogewogICAgICAgICAgICAgICAgIyBFbmFibGUgZmFzdGVyIElPCiAgICAgICAgICAgICAgICAndGNwX25vZGVsYXknOiBUcnVlLAogICAgICAgICAgICAgICAgJ25vX2Jsb2NrJzogVHJ1ZSwKCiAgICAgICAgICAgICAgICAjIEtlZXAgY29ubmVjdGlvbiBhbGl2ZQogICAgICAgICAgICAgICAgJ3RjcF9rZWVwYWxpdmUnOiBUcnVlLAoKICAgICAgICAgICAgICAgICMgVGltZW91dCBmb3Igc2V0L2dldCByZXF1ZXN0cwogICAgICAgICAgICAgICAgJ19wb2xsX3RpbWVvdXQnOiAyMDAwLAoKICAgICAgICAgICAgICAgICMgVXNlIGNvbnNpc3RlbnQgaGFzaGluZyBmb3IgZmFpbG92ZXIKICAgICAgICAgICAgICAgICdrZXRhbWEnOiBUcnVlLAoKICAgICAgICAgICAgICAgICMgQ29uZmlndXJlIGZhaWxvdmVyIHRpbWluZ3MKICAgICAgICAgICAgICAgICdjb25uZWN0X3RpbWVvdXQnOiAyMDAwLAogICAgICAgICAgICAgICAgJ3JlbW92ZV9mYWlsZWQnOiA0LAogICAgICAgICAgICAgICAgJ3JldHJ5X3RpbWVvdXQnOiAyLAogICAgICAgICAgICAgICAgJ2RlYWRfdGltZW91dCc6IDEwCiAgICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICAgICAnVElNRU9VVCc6IDYwMAogICAgfQp9CgpERUJVRyA9IFRydWUKRU5WID0gJ2xvY2FsJwoKREFUQUJBU0VTW0xFR0FDWV9EQVRBQkFTRV9LRVldWydIT1NUJ10gPSAnZGV2ZWxvcG1lbnQtcGxhdGZvcm0tbWFzdGVyLWRiLmNsYXNzcGFzcy5jb20nCkRBVEFCQVNFU1tSRVZFTlVFX0RCX0tFWV1bJ0hPU1QnXSA9ICdkZXZlbG9wbWVudC11c2UxLXZlbnVlLXBvcnRhbC1tYXN0ZXItZGIuY2xhc3NwYXNzLmNvbScKYWRkX3JlYWRfZGJzKERBVEFCQVNFUywgWydyZWFkLWRiMScsICdyZWFkLWRiMiddKQoKREVGQVVMVF9GUk9NX0VNQUlMID0gJ2luZm9AY2xhc3NwYXNzLmNvbScKCklOVEVSTkFMX0lQUyA9ICgnMTI3LjAuMC4xJywpCgpTVVBFUl9VU0VSID0gewogICAgJ2VtYWlsJzogJ2FkbWluQGV4YW1wbGUuY29tJywKICAgICdwYXNzd29yZCc6ICcxMTExJwp9CgpTRVNTSU9OX0NPT0tJRV9ET01BSU4gPSAnbG9jYWxob3N0JwpDU1JGX0NPT0tJRV9ET01BSU4gPSAnbG9jYWxob3N0JwpTRVNTSU9OX0NPT0tJRV9TRUNVUkUgPSBGYWxzZQoKTUFJTl9TSVRFWydkb21haW4nXSA9ICdsb2NhbC5jbGFzc3Bhc3MnCk1BSU5fU0lURVsndXJsJ10gPSAnaHR0cHM6Ly9kZXZlbG9wLmNsYXNzcGFzcy5jb20vJwoKU0lURV9VUkwgPSAnaHR0cDovL2xvY2FsaG9zdDo4ODg4LycKClJFRElTX1VSTCA9ICdyZWRpczovL2xvY2FsaG9zdDo2Mzc5JwpSRURJU19EQiA9ICcwJwpidWlsZF9ycV9xdWV1ZXMoUkVESVNfVVJMLCBSRURJU19EQikKClNFQ1VSRV9TU0xfUkVESVJFQ1QgPSBGYWxzZQpSRUFDVF9IT1RfTE9BREVSX0VOQUJMRUQgPSAnUkVBQ1RfSE9UX0xPQURFUicgaW4gb3MuZW52aXJvbgoKIyBUaGlzIGlzIHRvIGRpc2FibGUgdGhlIFNOU0NsaWVudCB3aGVuIHJ1bm5pbmcgbG9jYWxseSAoaXQgd29uJ3QgdHJ5IHRvIGluaXRpYWxpemUgaXRzZWxmIHdpdGggYSBibGFuayB0b3BpYyBuYW1lKQpTTUFSVFNQT1RfQURKVVNUTUVOVF9UT1BJQ19OQU1FID0gJycKCgojIFVuY29tbWVudCBiZWxvdyBzZWN0aW9uIHRvIGVuYWJsZSBTUUwgbG9nZ2luZwoKIyBMT0dHSU5HWydoYW5kbGVycyddWydzcWxoYW5kbGVyJ10gPSB7CiMgICAgICdsZXZlbCc6ICdERUJVRycsCiMgICAgICdjbGFzcyc6ICdsb2dnaW5nLlN0cmVhbUhhbmRsZXInLAojICAgICAnZm9ybWF0dGVyJzogJ3NxbGZvcm1hdHRlcicKIyB9CiMgTE9HR0lOR1snZm9ybWF0dGVycyddWydzcWxmb3JtYXR0ZXInXSA9IHsKIyAgICAgJygpJzogJ3NxbGZvcm1hdHRlci5TcWxGb3JtYXR0ZXInLAojICAgICAnZm9ybWF0JzogJyUobGV2ZWxuYW1lKXMgJShtZXNzYWdlKXMnLAojIH0KIyBMT0dHSU5HWydsb2dnZXJzJ11bJ2RqYW5nby5kYi5iYWNrZW5kcyddID0gewojICAgICAnaGFuZGxlcnMnOiBbJ3NxbGhhbmRsZXInXSwKIyAgICAgJ2xldmVsJzogJ0RFQlVHJywKIyB9Cg==</text>
+      <register name="0" type="4">
+        <text>[s[&quot;schedule_id&quot;] for s in wellness_schedules]</text>
       </register>
-      <register name="1" type="4">
-        <text>()</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -780,35 +782,35 @@
           <key char="66" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>WELLNESS_TAG_ID</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlPU5vbmUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oZidbd2VsbG5lc3NfZGVidWddIHtzY2hlZHVsZVsiY2xhc3Npdml0eV9jbGFzc19pZCJdfSBpcyBhIHdlbGxuZXNzIGNsYXNzJykK</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxfdmVudWVzID0gbm9fY2xhc3N0aXZpdHlfdmVudWVzICsgd2l0aF9jbGFzc3Rpdml0eV92ZW51ZXMK</text>
+      <register name="4" type="4">
+        <text>()</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ZGVmIHVwZ3JhZGUoKToKICAgIHBhc3MKCgpkZWYgZG93bmdyYWRlKCk6CiAgICBwYXNzCg==</text>
+      <register name="5" type="4">
+        <text>WELLNESS_TAG_ID</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGVmIHVwZ3JhZGUoKToKICAgIHBhc3MKCgpkZWYgZG93bmdyYWRlKCk6CiAgICBwYXNzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlPU5vbmUK</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBhbGxfdmVudWVzID0gbm9fY2xhc3N0aXZpdHlfdmVudWVzICsgd2l0aF9jbGFzc3Rpdml0eV92ZW51ZXMK</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ZGVmIHVwZ3JhZGUoKToKICAgIHBhc3MKCgpkZWYgZG93bmdyYWRlKCk6CiAgICBwYXNzCg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgIHV1aWQgPSBDb2x1bW4oCiAgICAgICAgVVVJRChhc191dWlkPVRydWUpLCB1bmlxdWU9VHJ1ZSwgbnVsbGFibGU9RmFsc2UsCiAgICAgICAgc2VydmVyX2RlZmF1bHQ9c3FsYWxjaGVteS50ZXh0KCJ1dWlkX2dlbmVyYXRlX3Y0KCkiKQogICAgKQ==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">REVNT19WRU5VRV9JRFMgPSBbXQo=</text>
+        <text encoding="base64">ZGVmIHVwZ3JhZGUoKToKICAgIHBhc3MKCgpkZWYgZG93bmdyYWRlKCk6CiAgICBwYXNzCg==</text>
       </register>
       <register name=":" type="4">
-        <text>%y</text>
+        <text>action ShowBookmarks</text>
       </register>
       <register name="z" type="4">
         <keys>
@@ -1469,9 +1471,9 @@
       </register>
     </registers>
     <search>
-      <last-search>develop</last-search>
+      <last-search>s.&quot;sc</last-search>
       <last-offset />
-      <last-pattern>develop</last-pattern>
+      <last-pattern>s.&quot;sc</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
       <last-dir>1</last-dir>
@@ -1479,8 +1481,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def up</entry>
-        <entry>enabled</entry>
         <entry>uuid</entry>
         <entry>external</entry>
         <entry>index</entry>
@@ -1499,6 +1499,8 @@
         <entry>database</entry>
         <entry>secrets</entry>
         <entry>develop</entry>
+        <entry>schedule_id</entry>
+        <entry>s.&quot;sc</entry>
       </history-search>
       <history-cmd>
         <entry>61</entry>
@@ -1513,14 +1515,14 @@
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action ReformatCode</entry>
         <entry>action MethodUp</entry>
-        <entry>action ShowBookmarks</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>%s;resources;appointments;g</entry>
         <entry>54</entry>
         <entry>83</entry>
         <entry>50</entry>
         <entry>bnext</entry>
         <entry>%y</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
       </history-cmd>
       <history-expr />
       <history-input />
