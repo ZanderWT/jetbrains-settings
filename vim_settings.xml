@@ -710,8 +710,10 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1573853815598">
-        <mark key="'" line="104" column="46" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575913673246">
+        <mark key="'" line="166" column="35" />
+        <mark key="[" line="59" column="19" />
+        <mark key="]" line="59" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1562345844033">
         <mark key="'" line="113" column="0" />
@@ -761,9 +763,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="43" column="4" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
-      <jump line="51" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
-      <jump line="82" column="16" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tasks.py" />
       <jump line="476" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="34" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
       <jump line="39" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
@@ -861,6 +860,9 @@
       <jump line="31" column="21" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/tests/test_payments_dal.py" />
       <jump line="348" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
       <jump line="12" column="20" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/factories.py" />
+      <jump line="59" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="188" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="166" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -935,10 +937,10 @@
         <text>venue__</text>
       </register>
       <register name="/" type="4">
-        <text>venue\.</text>
+        <text encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</text>
       </register>
       <register name="0" type="4">
-        <text>can_view_email_in_reports</text>
+        <text>1143</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlPU5vbmUK</text>
@@ -1671,18 +1673,16 @@
       </register>
     </registers>
     <search>
-      <last-search>venue\.</last-search>
+      <last-search encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</last-search>
       <last-offset />
-      <last-pattern>venue\.</last-pattern>
+      <last-pattern encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
-      <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <last-dir>-1</last-dir>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>resou</entry>
-        <entry>resources</entry>
         <entry>today</entry>
         <entry encoding="base64">XDxpbnN0YW5jZXNcPg==</entry>
         <entry>create</entry>
@@ -1701,6 +1701,8 @@
         <entry>classt</entry>
         <entry>len</entry>
         <entry>venue\.</entry>
+        <entry encoding="base64">XDxXRUxMTkVTU19UQUdfSURcPg==</entry>
+        <entry encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</entry>
       </history-search>
       <history-cmd>
         <entry>49</entry>
