@@ -710,7 +710,7 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575914774427">
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575920393183">
         <mark key="'" line="169" column="57" />
         <mark key="[" line="59" column="19" />
         <mark key="]" line="59" column="22" />
@@ -937,7 +937,7 @@
         <text>venue__</text>
       </register>
       <register name="/" type="4">
-        <text>is_schedule_welln</text>
+        <text>is_sch</text>
       </register>
       <register name="0" type="4">
         <text>1143</text>
@@ -1673,9 +1673,9 @@
       </register>
     </registers>
     <search>
-      <last-search>is_schedule_welln</last-search>
+      <last-search>is_sch</last-search>
       <last-offset />
-      <last-pattern>is_schedule_welln</last-pattern>
+      <last-pattern>is_sch</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
       <last-dir>1</last-dir>
@@ -1683,7 +1683,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxpbnN0YW5jZXNcPg==</entry>
         <entry>create</entry>
         <entry>instance</entry>
         <entry>primar</entry>
@@ -1703,6 +1702,7 @@
         <entry encoding="base64">XDxXRUxMTkVTU19UQUdfSURcPg==</entry>
         <entry encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</entry>
         <entry>is_schedule_welln</entry>
+        <entry>is_sch</entry>
       </history-search>
       <history-cmd>
         <entry>49</entry>
