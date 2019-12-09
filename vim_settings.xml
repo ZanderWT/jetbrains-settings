@@ -232,8 +232,12 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/impl/Fields.java" timestamp="1575492978160">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" timestamp="1575566005383">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" timestamp="1575912281781">
+        <mark key="'" line="70" column="8" />
+        <mark key="[" line="47" column="0" />
+        <mark key="]" line="47" column="0" />
+        <mark key="." line="47" column="0" />
+        <mark key="^" line="51" column="49" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" timestamp="1574199636617">
         <mark key="'" line="53" column="8" />
@@ -403,6 +407,12 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Schedule.kt" timestamp="1574207770583">
         <mark key="'" line="20" column="15" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResourceDeprecated.kt" timestamp="1575912089133">
+        <mark key="[" line="26" column="11" />
+        <mark key="]" line="26" column="84" />
+        <mark key="^" line="26" column="84" />
+        <mark key="." line="26" column="84" />
+      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/SelectFinalStep.java" timestamp="1573252755406">
         <mark key="'" line="100" column="28" />
       </file>
@@ -446,11 +456,6 @@
         <mark key="]" line="9" column="25" />
         <mark key="^" line="9" column="18" />
         <mark key="." line="9" column="25" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/DashboardUserControllerTest.kt" timestamp="1574368847847">
-        <mark key="[" line="189" column="0" />
-        <mark key="]" line="189" column="0" />
-        <mark key="." line="189" column="0" />
       </file>
       <file name="$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-core/1.11.63/aws-java-sdk-core-1.11.63-sources.jar!/com/amazonaws/util/XpathUtils.java" timestamp="1574359155138">
         <mark key="'" line="58" column="71" />
@@ -511,7 +516,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="94" column="16" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/models/pricing/task/PayableReservation.java" />
       <jump line="25" column="11" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/models/pricing/task/PayableReservation.java" />
       <jump line="70" column="18" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
       <jump line="231" column="6" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/PricingRuleDao.sql.stg" />
@@ -611,6 +615,7 @@
       <jump line="403" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="102" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="26" column="195" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/SQLWarningDetectingAppender.kt" />
+      <jump line="50" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -2080,19 +2085,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Jg==</text>
+        <text>1</text>
       </register>
       <register name="/" type="4">
         <text>thr</text>
       </register>
-      <register name="0" type="4">
-        <text>SQLWarningDetectingInvocationInterceptor</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIEBQT1NUCiAgICBAUGF0aCgiL3YxL3JlcG9ydHMvcmVzZXJ2YXRpb25zIikKICAgIEBPcGVyYXRpb24oCiAgICAgICAgc3VtbWFyeSA9ICJSZXRyaWV2ZSB0aGUgZGF0YSBmb3IgdGhlIHJlc2VydmF0aW9ucyB0YWIgb24gdGhlIHJlcG9ydHMgcGFnZSIsCiAgICAgICAgdGFncyA9IFsiUmVwb3J0czogUmVzZXJ2YXRpb25zIFRhYiJdCiAgICApCiAgICBARGVwcmVjYXRlZCgiUmVwbGFjZWQgYnkgdjIiKQo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_SCHEDULES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBEZXByZWNhdGVkKCJSZXBsYWNlZCBieSB2MiIpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2383,26 +2388,26 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYG1ha2UgYSBzcWxXYXJuaW5nYCgpIHsKICAgICAgICByZXNlcnZhdGlvbkZhY3RvcnkuY3JlYXRlKCkKICAgIH0K</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICB2YWwgY3N2ID0gY29udHJvbGxlci5nZXRSZXNlcnZhdGlvbnNSZXBvcnRDc3YodXNlcklkLCByZXF1ZXN0KQogICAgICAgICAgICBSZXNwb25zZS5vayhjc3YsIE1lZGlhVHlwZS5URVhUX1BMQUlOKQogICAgICAgICAgICAgICAgLmhlYWRlcigKICAgICAgICAgICAgICAgICAgICAiY29udGVudC1kaXNwb3NpdGlvbiIsCiAgICAgICAgICAgICAgICAgICAgImF0dGFjaG1lbnQ7IGZpbGVuYW1lPXJlc2VydmF0aW9uX3JlcG9ydF8ke0luc3RhbnQubm93KCkuZXBvY2hTZWNvbmR9LmNzdiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgfQ==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAodGhyb3dhYmxlUHJveHkgPT0gbnVsbCkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICBjb250cm9sbGVyLmdldFJlc2VydmF0aW9uc1JlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICAgICAgfQ==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBoYXlzdGFjawo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5413,13 +5418,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsaQo=</text>
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYG1ha2UgYSBzcWxXYXJuaW5nYCgpIHsKICAgICAgICByZXNlcnZhdGlvbkZhY3RvcnkuY3JlYXRlKCkKICAgIH0K</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFja1RyYWNlLgo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAodGhyb3dhYmxlUHJveHkgPT0gbnVsbCkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5637,10 +5642,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdGhyb3dhYmxlTWV0aG9kTmFtCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBoYXlzdGFjawo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
