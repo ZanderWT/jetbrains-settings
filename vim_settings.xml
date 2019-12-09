@@ -710,8 +710,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/utils.py" timestamp="1559330239089">
         <mark key="'" line="43" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575913673246">
-        <mark key="'" line="166" column="35" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575914774427">
+        <mark key="'" line="169" column="57" />
         <mark key="[" line="59" column="19" />
         <mark key="]" line="59" column="22" />
       </file>
@@ -763,8 +763,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="476" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
-      <jump line="34" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
       <jump line="39" column="37" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/api/payments/client.py" />
       <jump line="15" column="35" filename="$USER_HOME$/cp-projects/ms-inventory/code/tests/unit/app/scraperapi/components/organization/controllers/test_create_org_with_venue.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/swagger/scraperapi.yaml" />
@@ -863,6 +861,8 @@
       <jump line="59" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="188" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="166" column="35" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="169" column="57" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -937,7 +937,7 @@
         <text>venue__</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</text>
+        <text>is_schedule_welln</text>
       </register>
       <register name="0" type="4">
         <text>1143</text>
@@ -1673,17 +1673,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</last-search>
+      <last-search>is_schedule_welln</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</last-pattern>
+      <last-pattern>is_schedule_welln</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>today</entry>
         <entry encoding="base64">XDxpbnN0YW5jZXNcPg==</entry>
         <entry>create</entry>
         <entry>instance</entry>
@@ -1703,6 +1702,7 @@
         <entry>venue\.</entry>
         <entry encoding="base64">XDxXRUxMTkVTU19UQUdfSURcPg==</entry>
         <entry encoding="base64">XDxpc19zY2hlZHVsZV93ZWxsbmVzc1w+</entry>
+        <entry>is_schedule_welln</entry>
       </history-search>
       <history-cmd>
         <entry>49</entry>
