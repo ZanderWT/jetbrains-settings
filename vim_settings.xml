@@ -511,12 +511,12 @@
         <mark key="^" line="0" column="8" />
         <mark key="." line="0" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575932522501">
-        <mark key="'" line="222" column="62" />
-        <mark key="[" line="174" column="46" />
-        <mark key="]" line="175" column="58" />
-        <mark key="^" line="175" column="58" />
-        <mark key="." line="175" column="58" />
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" timestamp="1575933560638">
+        <mark key="'" line="195" column="0" />
+        <mark key="[" line="188" column="0" />
+        <mark key="]" line="201" column="20" />
+        <mark key="^" line="196" column="105" />
+        <mark key="." line="196" column="105" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/tests/test_reservations_dal.py" timestamp="1562345844033">
         <mark key="'" line="113" column="0" />
@@ -561,9 +561,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
-      <jump line="11" column="43" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
-      <jump line="45" column="4" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="47" column="40" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="81" column="4" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
       <jump line="122" column="4" filename="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/appointments.py" />
@@ -661,6 +658,9 @@
       <jump line="165" column="63" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="723" column="29" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="222" column="62" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="192" column="81" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="193" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
+      <jump line="195" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -670,13 +670,13 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="b" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2xhc3NfaWQ9NzAwMCwK</text>
+        <text encoding="base64">ICAgIGRlZiBpc19zY2hlZHVsZV93ZWxsbmVzcyhjbHMsIHNjaGVkdWxlLCBjbGFzc190YWdzLCB2ZW51ZV90YWdzKToKICAgICAgICBpZiBzY2hlZHVsZVsnY2xhc3NfZW50aXR5X3R5cGUnXSA9PSBDbGFzc0VudGl0eVR5cGUuQVBQT0lOVE1FTlQ6CiAgICAgICAgICAgIHJldHVybiBUcnVlCgogICAgICAgIGxvZ2dlci5pbmZvKGYnW3dlbGxuZXNzX2RlYnVnXSBsb29raW5nIGZvciB7V0VMTE5FU1NfVEFHX0lEfSBpbiB0YWdzIGZvciB7c2NoZWR1bGVbImNsYXNzaXZpdHlfY2xhc3NfaWQiXX0nKQogICAgICAgIGlmIFdFTExORVNTX1RBR19JRCBpbiBjbGFzc190YWdzLmdldChzY2hlZHVsZVsnY2xhc3Npdml0eV9jbGFzc19pZCddLCB7fSk6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKGYnW3dlbGxuZXNzX2RlYnVnXSB7V0VMTE5FU1NfVEFHX0lEfSBsb2NhdGVkIGluIHRhZ3MgZm9yIHtzY2hlZHVsZVsiY2xhc3Npdml0eV9jbGFzc19pZCJdfScpCiAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgbG9nZ2VyLmluZm8oZidbd2VsbG5lc3NfZGVidWddIHtXRUxMTkVTU19UQUdfSUR9IG5vdCBpbiB0YWdzIGZvciB7c2NoZWR1bGVbImNsYXNzaXZpdHlfY2xhc3NfaWQiXX0nKQoKICAgICAgICBpZiBub3QgY2xhc3NfdGFncy5nZXQoc2NoZWR1bGVbJ2NsYXNzaXZpdHlfY2xhc3NfaWQnXSk6CiAgICAgICAgICAgIHJldHVybiBXRUxMTkVTU19UQUdfSUQgaW4gdmVudWVfdGFncwoKICAgICAgICByZXR1cm4gRmFsc2UK</text>
       </register>
       <register name="c" type="4">
         <text>eligible_schedule =</text>
       </register>
-      <register name="*" type="4">
-        <text>logger.info(f'[wellness_debug]</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIGRlZiBpc19zY2hlZHVsZV93ZWxsbmVzcyhjbHMsIHNjaGVkdWxlLCBjbGFzc190YWdzLCB2ZW51ZV90YWdzKToKICAgICAgICBpZiBzY2hlZHVsZVsnY2xhc3NfZW50aXR5X3R5cGUnXSA9PSBDbGFzc0VudGl0eVR5cGUuQVBQT0lOVE1FTlQ6CiAgICAgICAgICAgIHJldHVybiBUcnVlCgogICAgICAgIGxvZ2dlci5pbmZvKGYnW3dlbGxuZXNzX2RlYnVnXSBsb29raW5nIGZvciB7V0VMTE5FU1NfVEFHX0lEfSBpbiB0YWdzIGZvciB7c2NoZWR1bGVbImNsYXNzaXZpdHlfY2xhc3NfaWQiXX0nKQogICAgICAgIGlmIFdFTExORVNTX1RBR19JRCBpbiBjbGFzc190YWdzLmdldChzY2hlZHVsZVsnY2xhc3Npdml0eV9jbGFzc19pZCddLCB7fSk6CiAgICAgICAgICAgIGxvZ2dlci5pbmZvKGYnW3dlbGxuZXNzX2RlYnVnXSB7V0VMTE5FU1NfVEFHX0lEfSBsb2NhdGVkIGluIHRhZ3MgZm9yIHtzY2hlZHVsZVsiY2xhc3Npdml0eV9jbGFzc19pZCJdfScpCiAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgbG9nZ2VyLmluZm8oZidbd2VsbG5lc3NfZGVidWddIHtXRUxMTkVTU19UQUdfSUR9IG5vdCBpbiB0YWdzIGZvciB7c2NoZWR1bGVbImNsYXNzaXZpdHlfY2xhc3NfaWQiXX0nKQoKICAgICAgICBpZiBub3QgY2xhc3NfdGFncy5nZXQoc2NoZWR1bGVbJ2NsYXNzaXZpdHlfY2xhc3NfaWQnXSk6CiAgICAgICAgICAgIHJldHVybiBXRUxMTkVTU19UQUdfSUQgaW4gdmVudWVfdGFncwoKICAgICAgICByZXR1cm4gRmFsc2UK</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -732,13 +732,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>wellness_schedules</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
-        <text>wellness_debug</text>
+        <text>to check</text>
       </register>
-      <register name="0" type="4">
-        <text>[s[&quot;schedule_id&quot;] for s in wellness_schedules]</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbyhmJ1t3ZWxsbmVzc19kZWJ1Z10ge1dFTExORVNTX1RBR19JRH0gbm90IGluIHRhZ3MgZm9yIHNjaGVkdWxlWyJjbGFzc2l2aXR5X2NsYXNzX2lkIl0nKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBsb2dnZXIuCg==</text>
@@ -1471,19 +1471,16 @@
       </register>
     </registers>
     <search>
-      <last-search>wellness_debug</last-search>
+      <last-search>to check</last-search>
       <last-offset />
-      <last-pattern>wellness_debug</last-pattern>
+      <last-pattern>to check</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>class appoin</entry>
-        <entry>class app</entry>
-        <entry>extern</entry>
         <entry>upgr</entry>
         <entry>classt</entry>
         <entry>len</entry>
@@ -1501,6 +1498,9 @@
         <entry>are_inele</entry>
         <entry>are_inel</entry>
         <entry>wellness_debug</entry>
+        <entry>not</entry>
+        <entry>schedule</entry>
+        <entry>to check</entry>
       </history-search>
       <history-cmd>
         <entry>61</entry>
