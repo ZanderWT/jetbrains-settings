@@ -85,11 +85,12 @@
         <mark key="^" line="34" column="43" />
         <mark key="." line="34" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1576002902650">
-        <mark key="'" line="34" column="16" />
-        <mark key="[" line="34" column="0" />
-        <mark key="]" line="34" column="83" />
-        <mark key="." line="34" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1576085828228">
+        <mark key="'" line="151" column="12" />
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="79" column="13" />
+        <mark key="." line="42" column="0" />
+        <mark key="^" line="92" column="0" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/SelectUnionStep.java" timestamp="1573252749489">
         <mark key="'" line="122" column="28" />
@@ -424,7 +425,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="74" column="0" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/AbstractSpotRecProcessor.kt" />
       <jump line="25" column="2" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/AbstractSpotRecProcessor.kt" />
       <jump line="37" column="49" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/AbstractSpotRecProcessor.kt" />
       <jump line="86" column="24" filename="$USER_HOME$/cp-projects/spot-recs-service/code/rex-ingester/src/main/kotlin/com/classpass/spotrecs/ingester/AbstractSpotRecProcessor.kt" />
@@ -524,6 +524,7 @@
       <jump line="69" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ReservationsReportLegacyDaoTest.kt" />
       <jump line="70" column="111" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/ReservationsReportLegacyDaoTest.kt" />
       <jump line="48" column="58" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
+      <jump line="114" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -1997,13 +1998,13 @@
         <text>sta</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgYWN0dWFsU3RhdHVzID0KICAgICAgICAgICAgcmVzZXJ2YXRpb25zUmVwb3J0TGVnYWN5RGFvLmdldERpc3BsYXlTdGF0dXNlcyhsaXN0T2YobWlzc2VkQ2xhc3NSZXNlcnZhdGlvbi5yZXNlcnZhdGlvbklkKSlbbWlzc2VkQ2xhc3NSZXNlcnZhdGlvbi5yZXNlcnZhdGlvbklkXQoKICAgICAgICBhc3NlcnRUaGF0KGFjdHVhbFN0YXR1cykuaXNFcXVhbFRvKERpc3BsYXlTdGF0dXMuVVNFUl9MQVRFX0NBTkNFTCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFsIHVzZXJWZW51ZXMgPSB1c2VyRGFvLmdldExpbmtlZFZlbnVlSWRzKHVzZXJJZCkKICAgICAgICAgICAgaWYgKCF1c2VyVmVudWVzLmNvbnRhaW5zQWxsKHJlcXVlc3QudmVudWVJZHMpKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBGb3JiaWRkZW5FeGNlcHRpb24oTk9fVkVOVUVfQUNDRVNTKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgZnV0dXJlTGFwaURpZ2VzdCA9CiAgICAgICAgICAgICAgICBhc3luYyB7IHJlcG9ydGluZ0RpZ2VzdExlZ2FjeURhby5nZXRMZWdhY3lSZXBvcnRpbmdEaWdlc3QocmVxdWVzdCkgfQogICAgICAgICAgICB2YWwgZnV0dXJlUmV2ZW51ZURpZ2VzdCA9CiAgICAgICAgICAgICAgICBhc3luYyB7IHJldmVudWVJdGVtTG9nVmVudWVQb3J0YWxEYW8uZ2V0VmVudWVSZXZlbnVlcyhyZXF1ZXN0KSB9CiAgICAgICAgICAgIHZhbCBmdXR1cmVTdGF0dXNDb3VudHMgPSBhc3luYyB7IHJlc2VydmF0aW9uc1JlcG9ydFZlbnVlUG9ydGFsRGFvLmdldFN0YXR1c0NvdW50cyhyZXF1ZXN0KSB9CiAgICAgICAgICAgIHZhbCBmdXR1cmVSZXZlbnVlSXRlbUxvZ3MgPSBhc3luYyB7IHJlc2VydmF0aW9uc1JlcG9ydFZlbnVlUG9ydGFsRGFvLmdldFJldmVudWVJdGVtTG9ncyhyZXF1ZXN0KSB9CgogICAgICAgICAgICB2YWwgbGFwaURpZ2VzdCA9IGZ1dHVyZUxhcGlEaWdlc3QuYXdhaXQoKQogICAgICAgICAgICB2YWwgcmV2ZW51ZURpZ2VzdCA9IGZ1dHVyZVJldmVudWVEaWdlc3QuYXdhaXQoKQogICAgICAgICAgICB2YWwgc3RhdHVzQ291bnRzID0gZnV0dXJlU3RhdHVzQ291bnRzLmF3YWl0KCkKICAgICAgICAgICAgdmFsIChyZXZlbnVlSXRlbUxvZ3MsIHBhZ2VJbmZvKSA9IGZ1dHVyZVJldmVudWVJdGVtTG9ncy5hd2FpdCgpCgogICAgICAgICAgICB2YWwgcmVib29rZWRDb3VudCA9IHN0YXR1c0NvdW50c1tSZXZlbnVlSXRlbUxvZ1N0YXR1cy5SRUJPT0tFRF0gPzogMAogICAgICAgICAgICB2YWwgY291bnRXaXRob3V0UmVib29rZWQgPSBwYWdlSW5mby50b3RhbEl0ZW1zIC0gcmVib29rZWRDb3VudAoKICAgICAgICAgICAgUmVzZXJ2YXRpb25zUmVwb3J0UmVzcG9uc2UoCiAgICAgICAgICAgICAgICBkaWdlc3QgPSBSZXNlcnZhdGlvbnNSZXBvcnREaWdlc3QoCiAgICAgICAgICAgICAgICAgICAgY291bnRXaXRob3V0UmVib29rZWQgPSBjb3VudFdpdGhvdXRSZWJvb2tlZCwKICAgICAgICAgICAgICAgICAgICBhdHRlbmRlZCA9IChzdGF0dXNDb3VudHNbUmV2ZW51ZUl0ZW1Mb2dTdGF0dXMuQVRURU5ERURdCiAgICAgICAgICAgICAgICAgICAgICAgID86IDApICsgKHN0YXR1c0NvdW50c1tSZXZlbnVlSXRlbUxvZ1N0YXR1cy5GSVJTVF9DTEFTU19GUkVFXSA/OiAwKSwKICAgICAgICAgICAgICAgICAgICBwcmVtaXVtID0gc3RhdHVzQ291bnRzW1JldmVudWVJdGVtTG9nU3RhdHVzLlBSRU1JVU1dID86IDAsCiAgICAgICAgICAgICAgICAgICAgbGF0ZUNhbmNlbGxlZCA9IHN0YXR1c0NvdW50c1tSZXZlbnVlSXRlbUxvZ1N0YXR1cy5VU0VSX0xBVEVfQ0FOQ0VMXSA/OiAwLAogICAgICAgICAgICAgICAgICAgIG1pc3NlZENsYXNzID0gc3RhdHVzQ291bnRzW1JldmVudWVJdGVtTG9nU3RhdHVzLk1JU1NFRF9DTEFTU10gPzogMCwKICAgICAgICAgICAgICAgICAgICBmcmVxdWVudFZpc2l0b3IgPSBzdGF0dXNDb3VudHNbUmV2ZW51ZUl0ZW1Mb2dTdGF0dXMuRlJFUVVFTlRfVklTSVRPUl0gPzogMCwKICAgICAgICAgICAgICAgICAgICByZXZlbnVlID0gYWdncmVnYXRlUmV2ZW51ZUJ5Q3VycmVuY3kocmV2ZW51ZURpZ2VzdCwgbGFwaURpZ2VzdC52ZW51ZXNDdXJyZW5jaWVzKSwKICAgICAgICAgICAgICAgICAgICBjbGFzc0lkcyA9IGxhcGlEaWdlc3QuY2xhc3NJZHMsCiAgICAgICAgICAgICAgICAgICAgc3RhcnRUaW1lcyA9IGxhcGlEaWdlc3Quc3RhcnRUaW1lcy50b0xpc3QoKSwKICAgICAgICAgICAgICAgICAgICBzdGF0dXNlcyA9IHN0YXR1c0NvdW50cy5rZXlzLnRvTGlzdCgpCgogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIHJlcG9ydCA9IHJldmVudWVJdGVtTG9ncy50b1Jlc2VydmF0aW9uc1JlcG9ydChsYXBpRGlnZXN0LnZlbnVlc0N1cnJlbmNpZXMpLAogICAgICAgICAgICAgICAgcGFnZUluZm8gPSBwYWdlSW5mbwogICAgICAgICAgICApCg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ2V0UmVzZXJ2YXRpb25zUmVwb3J0Q3N2VjEodXNlcklkLCByZXF1ZXN0KQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2295,22 +2296,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuUmVzZXJ2YXRpb25zUmVwb3J0RGlzcGxheVN0YXR1cwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ2V0UmVzZXJ2YXRpb25zUmVwb3J0VjEodXNlcklkLCByZXF1ZXN0KQo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="4">
-        <text>`when`(PASSPORT_RESERVATIONS.CANCELLATION_TYPE.`in`(missedClassTypes), &quot;MISSED_CLASS&quot;)
-                    .`when`(PASSPORT_RESERVATIONS.STATUS.eq(PassportReservationsStatus.processed), &quot;ATTENDED&quot;)
-                    .`when`(API_RESERVATION.API_CANCELLATION_TYPE.eq(CancellationType.LATE), &quot;USER_LATE_CANCEL&quot;)
-                    .otherwise(null as String?)</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBnZXRSZXNlcnZhdGlvbnNSZXBvcnRDc3ZWMSh1c2VySWQsIHJlcXVlc3QpCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gZW1wdHlNYXAoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
@@ -5326,14 +5324,17 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ZnVuIFJlc2VydmF0aW9uc1JlcG9ydERpc3BsYXlTdGF0dXMuQ29tcGFuaW9uLmZyb21EYlN0cmluZyhkYlN0cmluZzogU3RyaW5nKSA6IFJlc2VydmF0aW9uc1JlcG9ydERpc3BsYXlTdGF0dXMgewogICAgUmVzZXJ2YXRpb25zUmVwb3J0RGlzcGxheVN0YXR1cy52YWx1ZU9mKGRiU3RyaW5nLnRvVXBwZXJDYXNlKCkpCn0K</text>
+      <register name="6" type="4">
+        <text>`when`(PASSPORT_RESERVATIONS.CANCELLATION_TYPE.`in`(missedClassTypes), &quot;MISSED_CLASS&quot;)
+                    .`when`(PASSPORT_RESERVATIONS.STATUS.eq(PassportReservationsStatus.processed), &quot;ATTENDED&quot;)
+                    .`when`(API_RESERVATION.API_CANCELLATION_TYPE.eq(CancellationType.LATE), &quot;USER_LATE_CANCEL&quot;)
+                    .otherwise(null as String?)</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIFBlcm1pc3Npb25Sb2xlLnZhbHVlT2YoZGJTdHJpbmcudG9VcHBlckNhc2UoKSkK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gZW1wdHlNYXAoKQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5551,10 +5552,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuUmVzZXJ2YXRpb25zUmVwb3J0RGlzcGxheVN0YXR1cwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZW51bSBjbGFzcyBEaXNwbGF5U3RhdHVzIHsKICAgIE1JU1NFRF9DTEFTUywKICAgIFVTRVJfTEFURV9DQU5DRUwsCiAgICBBVFRFTkRFRAp9Cg==</text>
+        <text encoding="base64">ZnVuIFJlc2VydmF0aW9uc1JlcG9ydERpc3BsYXlTdGF0dXMuQ29tcGFuaW9uLmZyb21EYlN0cmluZyhkYlN0cmluZzogU3RyaW5nKSA6IFJlc2VydmF0aW9uc1JlcG9ydERpc3BsYXlTdGF0dXMgewogICAgUmVzZXJ2YXRpb25zUmVwb3J0RGlzcGxheVN0YXR1cy52YWx1ZU9mKGRiU3RyaW5nLnRvVXBwZXJDYXNlKCkpCn0K</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
