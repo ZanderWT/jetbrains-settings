@@ -296,12 +296,12 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsResource.kt" timestamp="1571355022929">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" timestamp="1576265661766">
-        <mark key="'" line="88" column="12" />
-        <mark key="[" line="68" column="0" />
-        <mark key="]" line="68" column="0" />
-        <mark key="." line="68" column="0" />
-        <mark key="^" line="67" column="105" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" timestamp="1576266756871">
+        <mark key="'" line="92" column="76" />
+        <mark key="[" line="94" column="21" />
+        <mark key="]" line="94" column="21" />
+        <mark key="." line="94" column="21" />
+        <mark key="^" line="94" column="21" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PassportClasses.kt" timestamp="1574205133076">
         <mark key="'" line="19" column="47" />
@@ -421,11 +421,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReportingDigestLegacyDao.kt" />
-      <jump line="38" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" />
-      <jump line="39" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ReservationsReportResource.kt" />
-      <jump line="181" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
-      <jump line="179" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="178" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="224" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="278" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
@@ -521,6 +516,11 @@
       <jump line="12" column="12" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" />
       <jump line="29" column="32" filename="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/StudioDaoTest.java" />
       <jump line="88" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
+      <jump line="43" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
+      <jump line="89" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
+      <jump line="90" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
+      <jump line="91" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
+      <jump line="92" column="76" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1988,10 +1988,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>trueCondition()</text>
+        <text>false</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxQUkVNSVVNX1JFQVNPTlw+</text>
+        <text>false</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIFJlc2VydmF0aW9uUHVyY2hhc2VQdXJjaGFzZVR5cGUucHVyY2hhc2VfYWxjCg==</text>
@@ -2000,7 +2000,7 @@
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2291,26 +2291,26 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>&quot;venue_max_per_cycle&quot;</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>&quot;venue_max_per_cycle&quot;</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFJlc2VydmF0aW9uUHVyY2hhc2VQdXJjaGFzZVR5cGUuCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFJlc2VydmF0aW9uUHVyY2hhc2VQdXJjaGFzZVR5cGUuCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5558,20 +5558,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxQUkVNSVVNX1JFQVNPTlw+</last-search>
+      <last-search>false</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxQUkVNSVVNX1JFQVNPTlw+</last-pattern>
-      <last-replace />
-      <last-substitute>(.*)</last-substitute>
+      <last-pattern>false</last-pattern>
+      <last-replace>,\r</last-replace>
+      <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>csv</entry>
-        <entry encoding="base64">XDxnZXRSZXNlcnZhdGlvbnNSZXBvcnRDc3ZcPg==</entry>
-        <entry>V1</entry>
-        <entry>attended</entry>
         <entry>todo</entry>
         <entry encoding="base64">djEg</entry>
         <entry>val dig</entry>
@@ -5588,9 +5584,12 @@
         <entry>status</entry>
         <entry>adjustfor</entry>
         <entry encoding="base64">XDxQUkVNSVVNX1JFQVNPTlw+</entry>
+        <entry>dis</entry>
+        <entry>,</entry>
+        <entry>fasle</entry>
+        <entry>false</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zO1NjaGVkdWxlO1ZlbnVlO2c=</entry>
         <entry>s;Schedule;Class;g</entry>
         <entry>s;Schedule;Venue;g</entry>
         <entry encoding="base64">JzwsJz5zO3ZhbCBcd1wrXHpzO05vU3BvdHM7</entry>
@@ -5609,6 +5608,7 @@
         <entry>action QuickImplementations</entry>
         <entry>action MethodUp</entry>
         <entry>bnext</entry>
+        <entry>s;,;,\r;g</entry>
         <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
