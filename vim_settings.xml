@@ -255,6 +255,12 @@
         <mark key="]" line="26" column="116" />
         <mark key="." line="19" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local_testing.py" timestamp="1578344193586">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="^" line="7" column="3" />
+        <mark key="." line="7" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/dal/reservations.py" timestamp="1573834966119">
         <mark key="'" line="428" column="66" />
         <mark key="[" line="949" column="50" />
@@ -761,8 +767,8 @@
       <register name="0" type="4">
         <text>str(schedule['classivity_class_id'])</text>
       </register>
-      <register name="1" type="4">
-        <text>()</text>
+      <register name="1" type="2">
+        <text encoding="base64">ZGVhbAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -804,31 +810,31 @@
         </keys>
       </register>
       <register name="2" type="4">
-        <text>venue.venue_id</text>
+        <text>()</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuCg==</text>
+      <register name="3" type="4">
+        <text>venue.venue_id</text>
       </register>
       <register name="s" type="4">
         <text />
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuCg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oZidbd2VsbG5lc3NfZGVidWddIHtzY2hlZHVsZVsiY2xhc3Npdml0eV9jbGFzc19pZCJdfSBpcyBhIHdlbGxuZXNzIGNsYXNzJykK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>()</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>WELLNESS_TAG_ID</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlPU5vbmUK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxfdmVudWVzID0gbm9fY2xhc3N0aXZpdHlfdmVudWVzICsgd2l0aF9jbGFzc3Rpdml0eV92ZW51ZXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlPU5vbmUK</text>
       </register>
       <register name=":" type="4">
         <text>action MethodDown</text>
