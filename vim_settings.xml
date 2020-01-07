@@ -436,6 +436,11 @@
         <mark key="^" line="0" column="8" />
         <mark key="." line="0" column="8" />
       </file>
+      <file name="$USER_HOME$/cp-projects/social/code/src/app/controllers/user_controller.py" timestamp="1578424587460">
+        <mark key="'" line="42" column="37" />
+        <mark key="[" line="229" column="23" />
+        <mark key="]" line="229" column="46" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" timestamp="1560549643044">
         <mark key="'" line="190" column="6" />
         <mark key="[" line="245" column="0" />
@@ -588,7 +593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1073" column="10" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
       <jump line="1074" column="47" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
       <jump line="1077" column="33" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
       <jump line="1119" column="28" filename="$USER_HOME$/.venvs/code-MFuMf-3s/lib/python3.7/site-packages/sqlalchemy/sql/schema.py" />
@@ -688,6 +692,7 @@
       <jump line="138" column="11" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/management/commands/create_test_database.py" />
       <jump line="176" column="40" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/testing/management/commands/create_test_database.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/docker_testing.py" />
+      <jump line="42" column="37" filename="$USER_HOME$/cp-projects/social/code/src/app/controllers/user_controller.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -762,10 +767,10 @@
         <text>str</text>
       </register>
       <register name="/" type="4">
-        <text>LEGACY</text>
+        <text>image</text>
       </register>
       <register name="0" type="4">
-        <text>str(schedule['classivity_class_id'])</text>
+        <text>/v1/users/profile_images</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZGVhbAo=</text>
@@ -1498,9 +1503,9 @@
       </register>
     </registers>
     <search>
-      <last-search>LEGACY</last-search>
+      <last-search>image</last-search>
       <last-offset />
-      <last-pattern>LEGACY</last-pattern>
+      <last-pattern>image</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
       <last-dir>1</last-dir>
@@ -1508,7 +1513,6 @@
     </search>
     <history>
       <history-search>
-        <entry>are_inele</entry>
         <entry>are_inel</entry>
         <entry>wellness_debug</entry>
         <entry>not</entry>
@@ -1528,6 +1532,7 @@
         <entry encoding="base64">XDxkYl91c2VyXD4=</entry>
         <entry>execute_create</entry>
         <entry>LEGACY</entry>
+        <entry>image</entry>
       </history-search>
       <history-cmd>
         <entry>116</entry>
