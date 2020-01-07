@@ -156,8 +156,11 @@
         <mark key="[" line="7" column="0" />
         <mark key="]" line="15" column="59" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1578418296216">
+      <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1578419933810">
         <mark key="[" line="34" column="0" />
+        <mark key="]" line="36" column="85" />
+        <mark key="^" line="36" column="85" />
+        <mark key="." line="36" column="85" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/NotificationRecipientsResource.kt" timestamp="1574290411635">
         <mark key="'" line="22" column="0" />
@@ -359,12 +362,11 @@
         <mark key="^" line="19" column="70" />
         <mark key="." line="19" column="70" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1578418211467">
-        <mark key="'" line="222" column="0" />
-        <mark key="[" line="226" column="34" />
-        <mark key="]" line="226" column="34" />
-        <mark key="." line="226" column="34" />
-        <mark key="^" line="238" column="43" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1578419962786">
+        <mark key="'" line="224" column="0" />
+        <mark key="[" line="229" column="20" />
+        <mark key="]" line="229" column="20" />
+        <mark key="." line="229" column="20" />
       </file>
       <file name="$USER_HOME$/cp-projects/mindbody-proxy-service/code/api/src/main/java/com/classpass/mps/mbo/ClientServiceClient.java" timestamp="1578077846906">
         <mark key="'" line="129" column="64" />
@@ -1992,7 +1994,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>k</text>
+        <text>Client</text>
       </register>
       <register name="/" type="4">
         <text>emai</text>
@@ -2003,10 +2005,8 @@
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
-      <register name="1" type="4">
-        <text>{
-
-}</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2298,25 +2298,27 @@
         </keys>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgIHZhbCB1cmw6IFN0cmluZw==</text>
+        <text>{
+
+}</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuYWRkSW50ZXJjZXB0b3IoYWRtaW5Vc2VySWRQcm92aWRlcikK</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgIHZhbCB1cmw6IFN0cmluZw==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhZG1pblVzZXJJZFByb3ZpZGVyOiBBZG1pblVzZXJJZFByb3ZpZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuYWRkSW50ZXJjZXB0b3IoYWRtaW5Vc2VySWRQcm92aWRlcikK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLlBPU1QK</text>
+        <text encoding="base64">ICAgICAgICBhZG1pblVzZXJJZFByb3ZpZGVyOiBBZG1pblVzZXJJZFByb3ZpZGVyCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5326,14 +5328,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgLmZyb20oUEFTU1BPUlRfUkVTRVJWQVRJT05TKQogICAgICAgICAgICAubGVmdEpvaW4oQVBJX1JFU0VSVkFUSU9OKS5vbihQQVNTUE9SVF9SRVNFUlZBVElPTlMuSUQuZXEoQVBJX1JFU0VSVkFUSU9OLlJFU0VSVkFUSU9OX0lEKSkKICAgICAgICAgICAgLmxlZnRKb2luKFJFQk9PS0VEX1JFU0VSVkFUSU9OKS5vbigKICAgICAgICAgICAgICAgIFBBU1NQT1JUX1JFU0VSVkFUSU9OUy5JRC5lcShSRUJPT0tFRF9SRVNFUlZBVElPTi5SRVNFUlZBVElPTl9JRCkuYW5kKAogICAgICAgICAgICAgICAgICAgIFJFQk9PS0VEX1JFU0VSVkFUSU9OLlNUQVRVUy5lcShSZWJvb2tlZFJlc2VydmF0aW9uU3RhdHVzLnByb2Nlc3NlZCkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICAgICAubGVmdEpvaW4oUkVTRVJWQVRJT05fUFVSQ0hBU0UpLm9uKFBBU1NQT1JUX1JFU0VSVkFUSU9OUy5JRC5lcShSRVNFUlZBVElPTl9QVVJDSEFTRS5SRVNFUlZBVElPTl9JRCkpCiAgICAgICAgICAgIC5sZWZ0Sm9pbihWRU5VRV9QQVlNRU5UX0hJU1RPUlkpLm9uKFBBU1NQT1JUX1JFU0VSVkFUSU9OUy5JRC5lcShWRU5VRV9QQVlNRU5UX0hJU1RPUlkuUkVTRVJWQVRJT05fSUQpKQogICAgICAgICAgICAud2hlcmUoUEFTU1BPUlRfUkVTRVJWQVRJT05TLklELmBpbmAocmVzZXJ2YXRpb25JZHMpKQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLlBPU1QK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZGlzcGxheVN0YXR1c0NvbHVtbiA9IGB3aGVuYChQQVNTUE9SVF9SRVNFUlZBVElPTlMuQ0FOQ0VMTEFUSU9OX1RZUEUuYGluYChtaXNzZWRDbGFzc1R5cGVzKSwgIk1JU1NFRF9DTEFTUyIpCiAgICAgICAgICAgIC5gd2hlbmAoUEFTU1BPUlRfUkVTRVJWQVRJT05TLlNUQVRVUy5lcShQYXNzcG9ydFJlc2VydmF0aW9uc1N0YXR1cy5wcm9jZXNzZWQpLCAiQVRURU5ERUQiKQogICAgICAgICAgICAuYHdoZW5gKEFQSV9SRVNFUlZBVElPTi5BUElfQ0FOQ0VMTEFUSU9OX1RZUEUuZXEoQ2FuY2VsbGF0aW9uVHlwZS5MQVRFKSwgIlVTRVJfTEFURV9DQU5DRUwiKQogICAgICAgICAgICAub3RoZXJ3aXNlKG51bGwgYXMgU3RyaW5nPykKICAgICAgICB2YWwgcmVib29rZWRDb2x1bW4gPSBpaWYoUkVCT09LRURfUkVTRVJWQVRJT04uUkVTRVJWQVRJT05fSUQuaXNOb3ROdWxsLCB0cnVlLCBmYWxzZSkKICAgICAgICB2YWwgcHJlbWl1bUNvbHVtbiA9IGlpZigKICAgICAgICAgICAgUkVTRVJWQVRJT05fUFVSQ0hBU0UuUFVSQ0hBU0VfVFlQRS5gaW5gKAogICAgICAgICAgICAgICAgUmVzZXJ2YXRpb25QdXJjaGFzZVB1cmNoYXNlVHlwZS5wdXJjaGFzZV9vdmVyYWdlLAogICAgICAgICAgICAgICAgUmVzZXJ2YXRpb25QdXJjaGFzZVB1cmNoYXNlVHlwZS5wdXJjaGFzZV9ub25fY3Bfc3BvdCwKICAgICAgICAgICAgICAgIFJlc2VydmF0aW9uUHVyY2hhc2VQdXJjaGFzZVR5cGUucHVyY2hhc2VfZnJpZW5kLAogICAgICAgICAgICAgICAgUmVzZXJ2YXRpb25QdXJjaGFzZVB1cmNoYXNlVHlwZS5wcmVtaXVtX2NyZWRpdHNfcmVzZXJ2YXRpb24sCiAgICAgICAgICAgICAgICBSZXNlcnZhdGlvblB1cmNoYXNlUHVyY2hhc2VUeXBlLnB1cmNoYXNlX2FsYwogICAgICAgICAgICApLmFuZCgKICAgICAgICAgICAgICAgIChQQVNTUE9SVF9SRVNFUlZBVElPTlMuU1RBVFVTLmVxKFBhc3Nwb3J0UmVzZXJ2YXRpb25zU3RhdHVzLnByb2Nlc3NlZCkpLm9yKAogICAgICAgICAgICAgICAgICAgIEFQSV9SRVNFUlZBVElPTi5BUElfQ0FOQ0VMTEFUSU9OX1RZUEUuZXEoCiAgICAgICAgICAgICAgICAgICAgICAgIEFwaVJlc2VydmF0aW9uQXBpQ2FuY2VsbGF0aW9uVHlwZS5MQVRFCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApLAogICAgICAgICAgICB0cnVlLCBmYWxzZQogICAgICAgICkKICAgICAgICB2YWwgZmlyc3RDbGFzc0ZyZWVDb2x1bW4gPSBpaWYoVkVOVUVfUEFZTUVOVF9ISVNUT1JZLlNUQVRVUy5lcSgiZmlyc3RfY2xhc3NfZnJlZSIpLCB0cnVlLCBmYWxzZSkKICAgICAgICB2YWwgZnJlcXVlbnRWaXNpdG9yQ29sdW1uID0gaWlmKFJFU0VSVkFUSU9OX1BVUkNIQVNFLlJFQVNPTi5lcSgidmVudWVfbWF4X3Blcl9jeWNsZSIpLCB0cnVlLCBmYWxzZSkK</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgLmZyb20oUEFTU1BPUlRfUkVTRVJWQVRJT05TKQogICAgICAgICAgICAubGVmdEpvaW4oQVBJX1JFU0VSVkFUSU9OKS5vbihQQVNTUE9SVF9SRVNFUlZBVElPTlMuSUQuZXEoQVBJX1JFU0VSVkFUSU9OLlJFU0VSVkFUSU9OX0lEKSkKICAgICAgICAgICAgLmxlZnRKb2luKFJFQk9PS0VEX1JFU0VSVkFUSU9OKS5vbigKICAgICAgICAgICAgICAgIFBBU1NQT1JUX1JFU0VSVkFUSU9OUy5JRC5lcShSRUJPT0tFRF9SRVNFUlZBVElPTi5SRVNFUlZBVElPTl9JRCkuYW5kKAogICAgICAgICAgICAgICAgICAgIFJFQk9PS0VEX1JFU0VSVkFUSU9OLlNUQVRVUy5lcShSZWJvb2tlZFJlc2VydmF0aW9uU3RhdHVzLnByb2Nlc3NlZCkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICAgICAubGVmdEpvaW4oUkVTRVJWQVRJT05fUFVSQ0hBU0UpLm9uKFBBU1NQT1JUX1JFU0VSVkFUSU9OUy5JRC5lcShSRVNFUlZBVElPTl9QVVJDSEFTRS5SRVNFUlZBVElPTl9JRCkpCiAgICAgICAgICAgIC5sZWZ0Sm9pbihWRU5VRV9QQVlNRU5UX0hJU1RPUlkpLm9uKFBBU1NQT1JUX1JFU0VSVkFUSU9OUy5JRC5lcShWRU5VRV9QQVlNRU5UX0hJU1RPUlkuUkVTRVJWQVRJT05fSUQpKQogICAgICAgICAgICAud2hlcmUoUEFTU1BPUlRfUkVTRVJWQVRJT05TLklELmBpbmAocmVzZXJ2YXRpb25JZHMpKQ==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5551,10 +5553,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAqIAogICAgICogCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZGlzcGxheVN0YXR1c0NvbHVtbiA9IGB3aGVuYChQQVNTUE9SVF9SRVNFUlZBVElPTlMuQ0FOQ0VMTEFUSU9OX1RZUEUuYGluYChtaXNzZWRDbGFzc1R5cGVzKSwgIk1JU1NFRF9DTEFTUyIpCiAgICAgICAgICAgIC5gd2hlbmAoUEFTU1BPUlRfUkVTRVJWQVRJT05TLlNUQVRVUy5lcShQYXNzcG9ydFJlc2VydmF0aW9uc1N0YXR1cy5wcm9jZXNzZWQpLCAiQVRURU5ERUQiKQogICAgICAgICAgICAuYHdoZW5gKEFQSV9SRVNFUlZBVElPTi5BUElfQ0FOQ0VMTEFUSU9OX1RZUEUuZXEoQ2FuY2VsbGF0aW9uVHlwZS5MQVRFKSwgIlVTRVJfTEFURV9DQU5DRUwiKQogICAgICAgICAgICAub3RoZXJ3aXNlKG51bGwgYXMgU3RyaW5nPykKICAgICAgICB2YWwgcmVib29rZWRDb2x1bW4gPSBpaWYoUkVCT09LRURfUkVTRVJWQVRJT04uUkVTRVJWQVRJT05fSUQuaXNOb3ROdWxsLCB0cnVlLCBmYWxzZSkKICAgICAgICB2YWwgcHJlbWl1bUNvbHVtbiA9IGlpZigKICAgICAgICAgICAgUkVTRVJWQVRJT05fUFVSQ0hBU0UuUFVSQ0hBU0VfVFlQRS5gaW5gKAogICAgICAgICAgICAgICAgUmVzZXJ2YXRpb25QdXJjaGFzZVB1cmNoYXNlVHlwZS5wdXJjaGFzZV9vdmVyYWdlLAogICAgICAgICAgICAgICAgUmVzZXJ2YXRpb25QdXJjaGFzZVB1cmNoYXNlVHlwZS5wdXJjaGFzZV9ub25fY3Bfc3BvdCwKICAgICAgICAgICAgICAgIFJlc2VydmF0aW9uUHVyY2hhc2VQdXJjaGFzZVR5cGUucHVyY2hhc2VfZnJpZW5kLAogICAgICAgICAgICAgICAgUmVzZXJ2YXRpb25QdXJjaGFzZVB1cmNoYXNlVHlwZS5wcmVtaXVtX2NyZWRpdHNfcmVzZXJ2YXRpb24sCiAgICAgICAgICAgICAgICBSZXNlcnZhdGlvblB1cmNoYXNlUHVyY2hhc2VUeXBlLnB1cmNoYXNlX2FsYwogICAgICAgICAgICApLmFuZCgKICAgICAgICAgICAgICAgIChQQVNTUE9SVF9SRVNFUlZBVElPTlMuU1RBVFVTLmVxKFBhc3Nwb3J0UmVzZXJ2YXRpb25zU3RhdHVzLnByb2Nlc3NlZCkpLm9yKAogICAgICAgICAgICAgICAgICAgIEFQSV9SRVNFUlZBVElPTi5BUElfQ0FOQ0VMTEFUSU9OX1RZUEUuZXEoCiAgICAgICAgICAgICAgICAgICAgICAgIEFwaVJlc2VydmF0aW9uQXBpQ2FuY2VsbGF0aW9uVHlwZS5MQVRFCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApLAogICAgICAgICAgICB0cnVlLCBmYWxzZQogICAgICAgICkKICAgICAgICB2YWwgZmlyc3RDbGFzc0ZyZWVDb2x1bW4gPSBpaWYoVkVOVUVfUEFZTUVOVF9ISVNUT1JZLlNUQVRVUy5lcSgiZmlyc3RfY2xhc3NfZnJlZSIpLCB0cnVlLCBmYWxzZSkKICAgICAgICB2YWwgZnJlcXVlbnRWaXNpdG9yQ29sdW1uID0gaWlmKFJFU0VSVkFUSU9OX1BVUkNIQVNFLlJFQVNPTi5lcSgidmVudWVfbWF4X3Blcl9jeWNsZSIpLCB0cnVlLCBmYWxzZSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">QERlcHJlY2F0ZWQoIlRoaXMgaXMgdXNlZCBmb3IgdGhlIFYiKQo=</text>
+        <text encoding="base64">ICAgICAqIAogICAgICogCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
