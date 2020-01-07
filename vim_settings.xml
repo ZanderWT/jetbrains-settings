@@ -145,6 +145,9 @@
       <file name="$USER_HOME$/cp-projects/zingfit-proxy-service/code/api/src/main/java/com/classpass/zps/zingfit/ZingfitService.java" timestamp="1578089185884">
         <mark key="'" line="58" column="19" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsResponse.kt" timestamp="1578430939265">
+        <mark key="'" line="34" column="70" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsReportResponseV1.kt" timestamp="1576172007176">
         <mark key="'" line="80" column="3" />
         <mark key="[" line="17" column="0" />
@@ -349,6 +352,9 @@
         <mark key="^" line="9" column="18" />
         <mark key="." line="9" column="25" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" timestamp="1578431383261">
+        <mark key="'" line="55" column="12" />
+      </file>
       <file name="$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-core/1.11.63/aws-java-sdk-core-1.11.63-sources.jar!/com/amazonaws/util/XpathUtils.java" timestamp="1574359155138">
         <mark key="'" line="58" column="71" />
       </file>
@@ -424,9 +430,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="393" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
-      <jump line="493" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
-      <jump line="500" column="85" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="492" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="509" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
       <jump line="517" column="85" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
@@ -524,6 +527,9 @@
       <jump line="115" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="124" column="52" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="15" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="20" column="31" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsResponse.kt" />
+      <jump line="34" column="70" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsResponse.kt" />
+      <jump line="55" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1996,7 +2002,7 @@
         <text>Client</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxFbWFpbE5vdGlmaWNhdGlvbkNsaWVudFw+</text>
+        <text encoding="base64">XDxjbGFzc1Bhc3NVc2VySWRzXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CiAgICBAUHJvdmlkZXMKICAgIGZ1biBwcm92aWRlRW1haWxOb3RpZmljYXRpb25DbGllbnQoCiAgICAgICAgY29uZmlnOiBFbWFpbEFwaUNvbmZpZywKICAgICAgICBva0h0dHBDbGllbnRCdWlsZGVyOiBPa0h0dHBDbGllbnQuQnVpbGRlciwKICAgICAgICBvYmplY3RNYXBwZXI6IE9iamVjdE1hcHBlciwKICAgICAgICBhZG1pblVzZXJJZFByb3ZpZGVyOiBBZG1pblVzZXJJZFByb3ZpZGVyCiAgICApOiBFbWFpbE5vdGlmaWNhdGlvblNlcnZpY2UgewoKICAgICAgICB2YWwgcmV0cm9maXQgPSBSZXRyb2ZpdC5CdWlsZGVyKCkKICAgICAgICAgICAgLmJhc2VVcmwoY29uZmlnLnVybCkKICAgICAgICAgICAgLmNsaWVudCgKICAgICAgICAgICAgICAgIG9rSHR0cENsaWVudEJ1aWxkZXIKICAgICAgICAgICAgICAgICAgICAuYWRkSW50ZXJjZXB0b3IoYWRtaW5Vc2VySWRQcm92aWRlcikKICAgICAgICAgICAgICAgICAgICAuYnVpbGQoKQogICAgICAgICAgICApCiAgICAgICAgICAgIC5hZGRDb252ZXJ0ZXJGYWN0b3J5KEphY2tzb25Db252ZXJ0ZXJGYWN0b3J5LmNyZWF0ZShvYmplY3RNYXBwZXIpKQogICAgICAgICAgICAuYnVpbGQoKQoKICAgICAgICByZXR1cm4gcmV0cm9maXQuY3JlYXRlKEVtYWlsTm90aWZpY2F0aW9uU2VydmljZTo6Y2xhc3MuamF2YSkKICAgIH0K</text>
@@ -5565,9 +5571,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxFbWFpbE5vdGlmaWNhdGlvbkNsaWVudFw+</last-search>
+      <last-search encoding="base64">XDxjbGFzc1Bhc3NVc2VySWRzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxFbWFpbE5vdGlmaWNhdGlvbkNsaWVudFw+</last-pattern>
+      <last-pattern encoding="base64">XDxjbGFzc1Bhc3NVc2VySWRzXD4=</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5575,8 +5581,6 @@
     </search>
     <history>
       <history-search>
-        <entry>from</entry>
-        <entry encoding="base64">XDxnZXRSZXNlcnZhdGlvbnNSZXBvcnRDc3ZWMVw+</entry>
         <entry>apicanc</entry>
         <entry>setup</entry>
         <entry>cp</entry>
@@ -5595,6 +5599,8 @@
         <entry>emai</entry>
         <entry>email</entry>
         <entry encoding="base64">XDxFbWFpbE5vdGlmaWNhdGlvbkNsaWVudFw+</entry>
+        <entry>url</entry>
+        <entry encoding="base64">XDxjbGFzc1Bhc3NVc2VySWRzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s;Schedule;Venue;g</entry>
