@@ -195,7 +195,8 @@
         <mark key="." line="11" column="44" />
         <mark key="^" line="11" column="44" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1578432696236">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1578509348221">
+        <mark key="'" line="352" column="43" />
         <mark key="[" line="200" column="115" />
         <mark key="]" line="200" column="135" />
         <mark key="." line="200" column="135" />
@@ -290,12 +291,12 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/SelectForUpdateStep.java" timestamp="1573252745593">
         <mark key="'" line="118" column="37" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/clients/SocialServiceClientTest.kt" timestamp="1578503736157">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/clients/SocialServiceClientTest.kt" timestamp="1578509354561">
         <mark key="'" line="2" column="7" />
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
-        <mark key="^" line="5" column="54" />
+        <mark key="[" line="5" column="57" />
+        <mark key="]" line="14" column="30" />
+        <mark key="." line="14" column="30" />
+        <mark key="^" line="14" column="30" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/records/ReservationPurchaseRecord.java" timestamp="1573579425806">
         <mark key="'" line="155" column="60" />
@@ -449,8 +450,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="37" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsReportResponse.kt" />
-      <jump line="46" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
       <jump line="44" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
       <jump line="47" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
       <jump line="48" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationsReportLegacyDao.kt" />
@@ -549,6 +548,8 @@
       <jump line="15" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/clients/SocialServiceClientTest.kt" />
       <jump line="6" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/clients/SocialServiceClientTest.kt" />
       <jump line="7" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/clients/SocialServiceClientTest.kt" />
+      <jump line="93" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="352" column="43" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2019,7 +2020,7 @@
         <text encoding="base64">Y29uc3Qg</text>
       </register>
       <register name="/" type="4">
-        <text>retro</text>
+        <text encoding="base64">XDxvYmplY3RNYXBwZXJcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgdXNlcklkID0gOTI4MDY2OAogICAgICAgIHZhbCByZXN1bHQgPSBzb2NpYWxTZXJ2aWNlQ2xpZW50LmZldGNoVXNlclByb2ZpbGVJbWFnZXMoVXNlclByb2ZpbGVJbWFnZVJlcXVlc3QobGlzdE9mKHVzZXJJZCkpKQogICAgICAgIHByaW50bG4ocmVzdWx0KQo=</text>
@@ -2028,7 +2029,7 @@
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIG1hcHBlciA9IFBhcnRuZXJzQXBwbGljYXRpb24oKS5sYXRlQ29uZmlndXJlT2JqZWN0TWFwcGVyKEphY2tzb24ubmV3T2JqZWN0TWFwcGVyKCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2319,26 +2320,26 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Ly8gVE9ETyBkZWxldGUgbWUK</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICB2YWwgcmVzdWx0ID0gc29jaWFsU2VydmljZUNsaWVudC5mZXRjaFVzZXJQcm9maWxlSW1hZ2VzKFVzZXJQcm9maWxlSW1hZ2VSZXF1ZXN0KGxpc3RPZih1c2VySWQpKSkKICAgICAgICBwcmludGxuKHJlc3VsdCk=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIHNvY2lhbFNlcnZpY2VDbGllbnQgPSBSZXRyb2ZpdC5CdWlsZGVyKCkKICAgICAgICAuYmFzZVVybCgiaHR0cHM6Ly9kZXZlbG9wbWVudC11c2UxLXNvY2lhbC5jbGFzc3Bhc3MuY29tIikKICAgICAgICAuY2xpZW50KAogICAgICAgICAgICBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAuYWRkSW50ZXJjZXB0b3IoSHR0cExvZ2dpbmdJbnRlcmNlcHRvcigpLmFsc28geyBpdC5sZXZlbCA9IEh0dHBMb2dnaW5nSW50ZXJjZXB0b3IuTGV2ZWwuQk9EWSB9KQogICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICApCiAgICAgICAgLmFkZENvbnZlcnRlckZhY3RvcnkoSmFja3NvbkNvbnZlcnRlckZhY3RvcnkuY3JlYXRlKG1hcHBlcikpCiAgICAgICAgLmJ1aWxkKCkKICAgICAgICAuY3JlYXRlKFNvY2lhbFNlcnZpY2U6OmNsYXNzLmphdmEpCiAgICAgICAgLnJ1biB7IFNvY2lhbFNlcnZpY2VDbGllbnQodGhpcykgfQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIG1hcHBlciA9IFBhcnRuZXJzQXBwbGljYXRpb24oKS5sYXRlQ29uZmlndXJlT2JqZWN0TWFwcGVyKEphY2tzb24ubmV3T2JqZWN0TWFwcGVyKCkpCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IHZhbCBSRVNQT05TRSA9ICIiInsgIjkyODA2NjgiOiAiaHR0cHM6Ly9jbGFzc3Bhc3MtcmVzLmNsb3VkaW5hcnkuY29tL2ltYWdlL3VwbG9hZC92MTU3ODQyNTEwMi8wZTY1MDU4YS00ZGNkLTQyNmUtYjE2Zi00YzBkODc1YjJkMTcucG5nIiB9IiIiCg==</text>
+        <text encoding="base64">Ly8gVE9ETyBkZWxldGUgbWUK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text>()</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIHNvY2lhbFNlcnZpY2VDbGllbnQgPSBSZXRyb2ZpdC5CdWlsZGVyKCkKICAgICAgICAuYmFzZVVybCgiaHR0cHM6Ly9kZXZlbG9wbWVudC11c2UxLXNvY2lhbC5jbGFzc3Bhc3MuY29tIikKICAgICAgICAuY2xpZW50KAogICAgICAgICAgICBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAuYWRkSW50ZXJjZXB0b3IoSHR0cExvZ2dpbmdJbnRlcmNlcHRvcigpLmFsc28geyBpdC5sZXZlbCA9IEh0dHBMb2dnaW5nSW50ZXJjZXB0b3IuTGV2ZWwuQk9EWSB9KQogICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICApCiAgICAgICAgLmFkZENvbnZlcnRlckZhY3RvcnkoSmFja3NvbkNvbnZlcnRlckZhY3RvcnkuY3JlYXRlKG1hcHBlcikpCiAgICAgICAgLmJ1aWxkKCkKICAgICAgICAuY3JlYXRlKFNvY2lhbFNlcnZpY2U6OmNsYXNzLmphdmEpCiAgICAgICAgLnJ1biB7IFNvY2lhbFNlcnZpY2VDbGllbnQodGhpcykgfQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5348,14 +5349,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>HttpLoggingInterceptor.Level.BODY</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGNvbnN0IHZhbCBSRVNQT05TRSA9ICIiInsgIjkyODA2NjgiOiAiaHR0cHM6Ly9jbGFzc3Bhc3MtcmVzLmNsb3VkaW5hcnkuY29tL2ltYWdlL3VwbG9hZC92MTU3ODQyNTEwMi8wZTY1MDU4YS00ZGNkLTQyNmUtYjE2Zi00YzBkODc1YjJkMTcucG5nIiB9IiIiCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="4">
-        <text>socialService.fetchUserProfileImages(request)</text>
+        <text>()</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5572,11 +5573,11 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="8" type="4">
+        <text>HttpLoggingInterceptor.Level.BODY</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="9" type="4">
+        <text>socialService.fetchUserProfileImages(request)</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -5586,9 +5587,9 @@
       </register>
     </registers>
     <search>
-      <last-search>retro</last-search>
+      <last-search encoding="base64">XDxvYmplY3RNYXBwZXJcPg==</last-search>
       <last-offset />
-      <last-pattern>retro</last-pattern>
+      <last-pattern encoding="base64">XDxvYmplY3RNYXBwZXJcPg==</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5596,8 +5597,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxFbWFpbE5vdGlmaWNhdGlvblJlc3BvbnNlXD4=</entry>
-        <entry encoding="base64">XDxVc2VyUHJvZmlsZVJlc3BvbnNlXD4=</entry>
         <entry>userid</entry>
         <entry encoding="base64">XDx1c2VySWRzXD4=</entry>
         <entry>emai</entry>
@@ -5616,6 +5615,8 @@
         <entry>socialser</entry>
         <entry>.exe</entry>
         <entry>retro</entry>
+        <entry>mapper</entry>
+        <entry encoding="base64">XDxvYmplY3RNYXBwZXJcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>s;Schedule;Venue;g</entry>
