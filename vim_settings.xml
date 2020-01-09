@@ -49,12 +49,12 @@
         <mark key="." line="38" column="50" />
         <mark key="^" line="38" column="51" />
       </file>
-      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" timestamp="1578599152985">
+      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" timestamp="1578600700145">
         <mark key="'" line="297" column="0" />
-        <mark key="[" line="303" column="4" />
-        <mark key="]" line="303" column="3" />
-        <mark key="." line="303" column="3" />
-        <mark key="^" line="303" column="3" />
+        <mark key="[" line="299" column="38" />
+        <mark key="]" line="299" column="38" />
+        <mark key="." line="299" column="38" />
+        <mark key="^" line="299" column="38" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/SummaryReportControllerTest.kt" timestamp="1574284563251">
         <mark key="'" line="41" column="8" />
@@ -138,6 +138,12 @@
       </file>
       <file name="$USER_HOME$/cp-projects/spot-recs-service/code/api/src/main/kotlin/com/classpass/spotrecs/logic/SettingsLogic.kt" timestamp="1575400379453">
         <mark key="'" line="104" column="8" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partners/PartnersTest.kt" timestamp="1578600552116">
+        <mark key="'" line="7" column="1" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/mindbody-proxy-service/code/api/src/main/java/com/mindbodyonline/clients/api/_5_1/Client.java" timestamp="1578075993559">
         <mark key="'" line="213" column="24" />
@@ -272,6 +278,11 @@
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/test/java/com/classpass/dao/StudioDaoTest.java" timestamp="1576265196617">
         <mark key="'" line="29" column="32" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partnerdashboard/OpportunitiesTest.kt" timestamp="1578600542001">
+        <mark key="'" line="20" column="1" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="25" column="28" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" timestamp="1575492819337">
         <mark key="'" line="105" column="13" />
@@ -493,10 +504,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="13" filename="$USER_HOME$/cp-projects/zingfit-proxy-service/code/api/src/main/java/com/classpass/zps/dao/ReservationDao.java" />
-      <jump line="121" column="13" filename="$USER_HOME$/cp-projects/zingfit-proxy-service/code/api/src/main/java/com/classpass/zps/dao/ReservationDao.java" />
-      <jump line="221" column="42" filename="$USER_HOME$/cp-projects/zingfit-proxy-service/code/api/src/main/java/com/classpass/zps/business/ReservationController.java" />
-      <jump line="61" column="40" filename="$USER_HOME$/cp-projects/zingfit-proxy-service/code/api/src/main/java/com/classpass/zps/business/ReservationController.java" />
       <jump line="58" column="19" filename="$USER_HOME$/cp-projects/zingfit-proxy-service/code/api/src/main/java/com/classpass/zps/zingfit/ZingfitService.java" />
       <jump line="23" column="10" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/EmailNotificationClient.kt" />
       <jump line="32" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/EmailNotificationClient.kt" />
@@ -593,6 +600,10 @@
       <jump line="299" column="4" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" />
       <jump line="302" column="6" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" />
       <jump line="297" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/suites.yml" />
+      <jump line="7" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partners/PartnersTest.kt" />
+      <jump line="20" column="1" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partnerdashboard/OpportunitiesTest.kt" />
+      <jump line="11" column="5" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partners/PartnersTest.kt" />
+      <jump line="6" column="1" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partners/PartnersTest.kt" />
     </jumps>
     <registers>
       <register name="a" type="2">
@@ -2060,19 +2071,19 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Dashboard</text>
+        <text>oppInsertTrigger</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwYXJ0bmVyc1w+</text>
+        <text encoding="base64">XDxEZXNjcmlwdGlvblw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIC0gY29tLmNsYXNzcGFzcy5jYXRlZ29yaWVzLlBhcnRuZXJEYXNoYm9hcmRTdWl0ZQo=</text>
+        <text encoding="base64">QERlc2NyaXB0aW9uKCIiIgogICAgVGVzdHMgZm9yIHRoZSB2cF92ZW51ZV9vcHBvcnR1bml0eSBjbGFzc3Rpdml0eSB0YWJsZSwgYW5kIGl0cyByZWxhdGVkIGF1ZGl0IGxvZyB0YWJsZSBhbmQgdHJpZ2dlcnMKICAgICIiIikKQENhdGVnb3J5KFBhcnRuZXJEYXNoYm9hcmRTdWl0ZTo6Y2xhc3MpCmNsYXNzIE9wcG9ydHVuaXRpZXNUZXN0IHsKCiAgICBARGVzY3JpcHRpb24oIkNoZWNrIHRoZSBPTiBJTlNFUlQgdHJpZ2dlciBmb3IgdGhlIGF1ZGl0IHRhYmxlIikKICAgIEBUZXN0CiAgICBmdW4gb3BwSW5zZXJ0VHJpZ2dlcigpIHsK</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC0gCg==</text>
+        <text encoding="base64">aW1wb3J0IGpkay5qZnIuRGVzY3JpcHRpb24K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2364,25 +2375,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC0gCg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC0gCg==</text>
+        <text encoding="base64">Y2xhc3MgT3Bwb3J0dW5pdGllc1Rlc3Qgewo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgLQo=</text>
+        <text encoding="base64">ICAgIEBEZXNjcmlwdGlvbigiQ2hlY2sgdGhlIE9OIElOU0VSVCB0cmlnZ2VyIGZvciB0aGUgYXVkaXQgdGFibGUiKQogICAgQFRlc3QKICAgIGZ1biBvcHBJbnNlcnRUcmlnZ2VyKCkgewo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">QERlc2NyaXB0aW9uKCIiIgogICAgVGVzdHMgZm9yIHRoZSB2cF92ZW51ZV9vcHBvcnR1bml0eSBjbGFzc3Rpdml0eSB0YWJsZSwgYW5kIGl0cyByZWxhdGVkIGF1ZGl0IGxvZyB0YWJsZSBhbmQgdHJpZ2dlcnMKICAgICIiIikKQENhdGVnb3J5KFBhcnRuZXJEYXNoYm9hcmRTdWl0ZTo6Y2xhc3MpCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5393,13 +5404,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmFkZEludGVyY2VwdG9yKGh0dHBMb2dnaW5nSW50ZXJjZXB0b3IpCg==</text>
+        <text encoding="base64">ICAgIC0gCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgaHR0cExvZ2dpbmdJbnRlcmNlcHRvciA9IEh0dHBMb2dnaW5nSW50ZXJjZXB0b3IoKS5zZXRMZXZlbChIdHRwTG9nZ2luZ0ludGVyY2VwdG9yLkxldmVsLkJBU0lDKQo=</text>
+        <text encoding="base64">ICAgIC0gCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5617,10 +5628,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgCg==</text>
+        <text encoding="base64">ICAgIC0gCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdXNlciA9IGNsYXNzUGFzc1VzZXJGYWN0b3J5LmNyZWF0ZShwaG90b1VybCA9IGZ1bGxTdG9yeVVybCkK</text>
+        <text encoding="base64">ICAgICAgLQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -5630,19 +5641,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwYXJ0bmVyc1w+</last-search>
+      <last-search encoding="base64">XDxEZXNjcmlwdGlvblw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwYXJ0bmVyc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxEZXNjcmlwdGlvblw+</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry>do</entry>
-        <entry>doret</entry>
-        <entry>answer</entry>
         <entry>moc</entry>
         <entry>socialser</entry>
         <entry encoding="base64">XDxva0h0dHBDbGllbnRCdWlsZGVyXD4=</entry>
@@ -5660,6 +5668,9 @@
         <entry>partner-dashboard:</entry>
         <entry>das</entry>
         <entry encoding="base64">XDxwYXJ0bmVyc1w+</entry>
+        <entry>check</entry>
+        <entry encoding="base64">XDxDYXRlZ29yeVw+</entry>
+        <entry encoding="base64">XDxEZXNjcmlwdGlvblw+</entry>
       </history-search>
       <history-cmd>
         <entry>s;Schedule;Venue;g</entry>
