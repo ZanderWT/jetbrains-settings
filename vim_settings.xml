@@ -31,6 +31,9 @@
         <mark key="^" line="1" column="16" />
         <mark key="." line="1" column="16" />
       </file>
+      <file name="$USER_HOME$/cp-projects/userfeedback-service/code/api/pom.xml" timestamp="1579023735216">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/README.md" timestamp="1578939083448">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="28" column="38" />
@@ -145,6 +148,9 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/NotificationRecipientsResource.kt" timestamp="1574290411635">
         <mark key="'" line="22" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/business/InsertDataController.kt" timestamp="1579023652926">
+        <mark key="'" line="54" column="12" />
       </file>
       <file name="$USER_HOME$/cp-projects/mindbody-proxy-service/code/api/src/main/java/com/classpass/mps/dto/User.java" timestamp="1578075432997">
         <mark key="'" line="14" column="22" />
@@ -399,13 +405,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="1" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partnerdashboard/OpportunitiesTest.kt" />
-      <jump line="11" column="5" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partners/PartnersTest.kt" />
-      <jump line="6" column="1" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/partners/PartnersTest.kt" />
-      <jump line="725" column="6" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/config/services.yml" />
-      <jump line="54" column="29" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/endpoints/SocialService.kt" />
-      <jump line="52" column="43" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/context/core/RegisteredUser.kt" />
-      <jump line="129" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/context/core/RegisteredUser.kt" />
       <jump line="10" column="38" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/context/pushnotifications/RegisteredUserExtensions.kt" />
       <jump line="31" column="64" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/context/social/RegisteredUserExtensions.kt" />
       <jump line="55" column="8" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/pricing/VenueLimitManipulationTest.kt" />
@@ -499,6 +498,13 @@
       <jump line="318" column="103" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ReservationControllerTest.kt" />
       <jump line="322" column="57" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ReservationControllerTest.kt" />
       <jump line="58" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
+      <jump line="42" column="15" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/business/InsertDataController.kt" />
+      <jump line="45" column="12" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/business/InsertDataController.kt" />
+      <jump line="46" column="35" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/business/InsertDataController.kt" />
+      <jump line="53" column="31" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/business/InsertDataController.kt" />
+      <jump line="60" column="63" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/business/InsertDataController.kt" />
+      <jump line="54" column="12" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/business/InsertDataController.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/pom.xml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1969,7 +1975,7 @@
         <text encoding="base64">dGhlIHN0YXJ0IGRhdGUg</text>
       </register>
       <register name="/" type="4">
-        <text>processre</text>
+        <text>importer</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYHRlc3QgcmVzZXJ2YXRpb24gaW5jbHVkZXMgYSB2aXNpdCBjb3VudGAoKSB7CiAgICAgICAgdmFsIGNsYXNzUGFzc1VzZXIgPSBjbGFzc1Bhc3NVc2VyRmFjdG9yeS5jcmVhdGUoKQogICAgICAgIHZhbCBvdGhlckNsYXNzUGFzc1VzZXIgPSBjbGFzc1Bhc3NVc2VyRmFjdG9yeS5jcmVhdGUoKQoKICAgICAgICB2YWwgY2xhc3N0aXZpdHlDbGFzcyA9IGNsYXNzRmFjdG9yeS5jcmVhdGUoKQogICAgICAgIHZhbCBub3cgPSBMb2NhbERhdGUubm93KCkKCiAgICAgICAgdmFsIHNjaGVkdWxlMSA9IHNjaGVkdWxlRmFjdG9yeS5jcmVhdGUoY2xhc3N0aXZpdHlDbGFzcyA9IGNsYXNzdGl2aXR5Q2xhc3MsIGRhdGUgPSBub3cubWludXNXZWVrcygzKSkKICAgICAgICB2YWwgc2NoZWR1bGUyID0gc2NoZWR1bGVGYWN0b3J5LmNyZWF0ZShjbGFzc3Rpdml0eUNsYXNzID0gY2xhc3N0aXZpdHlDbGFzcywgZGF0ZSA9IG5vdy5taW51c1dlZWtzKDIpKQogICAgICAgIHZhbCBzY2hlZHVsZTMgPSBzY2hlZHVsZUZhY3RvcnkuY3JlYXRlKGNsYXNzdGl2aXR5Q2xhc3MgPSBjbGFzc3Rpdml0eUNsYXNzLCBkYXRlID0gbm93Lm1pbnVzV2Vla3MoMSkpCiAgICAgICAgdmFsIHNjaGVkdWxlNCA9IHNjaGVkdWxlRmFjdG9yeS5jcmVhdGUoY2xhc3N0aXZpdHlDbGFzcyA9IGNsYXNzdGl2aXR5Q2xhc3MsIGRhdGUgPSBub3cucGx1c1dlZWtzKDEpKQoKICAgICAgICB2YWwgcmVzZXJ2YXRpb24xID0gcmVzZXJ2YXRpb25GYWN0b3J5LmNyZWF0ZSh1c2VyID0gY2xhc3NQYXNzVXNlciwgc2NoZWR1bGUgPSBzY2hlZHVsZTEpCiAgICAgICAgdmFsIHJlc2VydmF0aW9uMiA9IHJlc2VydmF0aW9uRmFjdG9yeS5jcmVhdGVDYW5jZWxsZWQodXNlciA9IGNsYXNzUGFzc1VzZXIsIHNjaGVkdWxlID0gc2NoZWR1bGUyKQogICAgICAgIHZhbCByZXNlcnZhdGlvbjMgPSByZXNlcnZhdGlvbkZhY3RvcnkuY3JlYXRlKHVzZXIgPSBjbGFzc1Bhc3NVc2VyLCBzY2hlZHVsZSA9IHNjaGVkdWxlMykKICAgICAgICB2YWwgcmVzZXJ2YXRpb240ID0gcmVzZXJ2YXRpb25GYWN0b3J5LmNyZWF0ZSh1c2VyID0gY2xhc3NQYXNzVXNlciwgc2NoZWR1bGUgPSBzY2hlZHVsZTQpCiAgICAgICAgdmFsIHJlc2VydmF0aW9uNSA9IHJlc2VydmF0aW9uRmFjdG9yeS5jcmVhdGUodXNlciA9IG90aGVyQ2xhc3NQYXNzVXNlciwgc2NoZWR1bGUgPSBzY2hlZHVsZTQpCgogICAgICAgIHZhbCBkYXNoYm9hcmRVc2VyID0gZGFzaGJvYXJkVXNlckZhY3RvcnkuY3JlYXRlKGxpbmtlZFZlbnVlSWRzID0gbGlzdE9mKGNsYXNzdGl2aXR5Q2xhc3MudmVudWVJZCkpCiAgICAgICAgdmFsIGZldGNoZWRSZXNlcnZhdGlvbnMgPQogICAgICAgICAgICByZXNlcnZhdGlvbkNvbnRyb2xsZXIuZ2V0UmVzZXJ2YXRpb25zKGRhc2hib2FyZFVzZXIuaWQsIGNsYXNzdGl2aXR5Q2xhc3MudmVudWVJZCwgbnVsbCwgbnVsbCkKICAgICAgICAgICAgICAgIC5hc3NvY2lhdGVCeSB7IGl0LnJlc2VydmF0aW9uSWQgfQoKICAgICAgICBhc3NlcnRUaGF0KGZldGNoZWRSZXNlcnZhdGlvbnMuZ2V0VmFsdWUocmVzZXJ2YXRpb24xLnJlc2VydmF0aW9uSWQpLnZpc2l0TnVtYmVyVG9PcmcpLmlzRXF1YWxUbygxKQogICAgICAgIC8vIEVuc3VyZSBjYW5jZWxsZWQgcmVzZXJ2YXRpb25zIGRvbid0IGdldCBhIGNvdW50LgogICAgICAgIGFzc2VydFRoYXQoZmV0Y2hlZFJlc2VydmF0aW9ucy5nZXRWYWx1ZShyZXNlcnZhdGlvbjIucmVzZXJ2YXRpb25JZCkudmlzaXROdW1iZXJUb09yZykuaXNFcXVhbFRvKG51bGwpCiAgICAgICAgYXNzZXJ0VGhhdChmZXRjaGVkUmVzZXJ2YXRpb25zLmdldFZhbHVlKHJlc2VydmF0aW9uMy5yZXNlcnZhdGlvbklkKS52aXNpdE51bWJlclRvT3JnKS5pc0VxdWFsVG8oMikKICAgICAgICBhc3NlcnRUaGF0KGZldGNoZWRSZXNlcnZhdGlvbnMuZ2V0VmFsdWUocmVzZXJ2YXRpb240LnJlc2VydmF0aW9uSWQpLnZpc2l0TnVtYmVyVG9PcmcpLmlzRXF1YWxUbygzKQogICAgICAgIGFzc2VydFRoYXQoZmV0Y2hlZFJlc2VydmF0aW9ucy5nZXRWYWx1ZShyZXNlcnZhdGlvbjUucmVzZXJ2YXRpb25JZCkudmlzaXROdW1iZXJUb09yZykuaXNFcXVhbFRvKDEpCiAgICB9Cg==</text>
@@ -5536,9 +5542,9 @@
       </register>
     </registers>
     <search>
-      <last-search>processre</last-search>
+      <last-search>importer</last-search>
       <last-offset />
-      <last-pattern>processre</last-pattern>
+      <last-pattern>importer</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5546,11 +5552,6 @@
     </search>
     <history>
       <history-search>
-        <entry>ema</entry>
-        <entry encoding="base64">XDxDUF9URVNUX1BBUlRORVJTX1RPX0VNQUlMX05PVElGSUNBVElPTlNfVVJMXD4=</entry>
-        <entry>social</entry>
-        <entry>id</entry>
-        <entry encoding="base64">XDxzdWJjb250ZXh0XD4=</entry>
         <entry>also</entry>
         <entry>venue</entry>
         <entry>subp</entry>
@@ -5566,6 +5567,11 @@
         <entry>can</entry>
         <entry>nul</entry>
         <entry>processre</entry>
+        <entry>bucket</entry>
+        <entry>s3</entry>
+        <entry encoding="base64">XDxzM1BhdGhcPg==</entry>
+        <entry encoding="base64">XDxmaWxlVHlwZVw+</entry>
+        <entry>importer</entry>
       </history-search>
       <history-cmd>
         <entry>action QuickImplementations</entry>
