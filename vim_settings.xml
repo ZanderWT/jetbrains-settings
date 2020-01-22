@@ -314,8 +314,8 @@
       <file name="$USER_HOME$/cp-projects/partner-dashboard/docker-compose.yml" timestamp="1578093397167">
         <mark key="'" line="150" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/base.py" timestamp="1579732399160">
-        <mark key="'" line="589" column="36" />
+      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/base.py" timestamp="1579733021409">
+        <mark key="'" line="589" column="42" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/views/tests/test_users.py" timestamp="1562950769626">
         <mark key="'" line="36" column="0" />
@@ -659,7 +659,7 @@
       <jump line="577" column="77" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/base.py" />
       <jump line="584" column="15" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/base.py" />
       <jump line="588" column="41" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/base.py" />
-      <jump line="589" column="36" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/base.py" />
+      <jump line="589" column="42" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/base.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -734,7 +734,7 @@
         <text>str</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzb3VyY2VcPg==</text>
+        <text>adapt</text>
       </register>
       <register name="0" type="4">
         <text>/v1/users/profile_images</text>
@@ -1470,9 +1470,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxzb3VyY2VcPg==</last-search>
+      <last-search>adapt</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzb3VyY2VcPg==</last-pattern>
+      <last-pattern>adapt</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
       <last-dir>1</last-dir>
@@ -1480,7 +1480,6 @@
     </search>
     <history>
       <history-search>
-        <entry>lapi</entry>
         <entry>user</entry>
         <entry encoding="base64">XDxkYl91c2VyXD4=</entry>
         <entry>execute_create</entry>
@@ -1500,6 +1499,7 @@
         <entry>fulfill</entry>
         <entry>queued_reservation</entry>
         <entry encoding="base64">XDxzb3VyY2VcPg==</entry>
+        <entry>adapt</entry>
       </history-search>
       <history-cmd>
         <entry>116</entry>
