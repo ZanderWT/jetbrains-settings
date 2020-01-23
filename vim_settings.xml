@@ -486,6 +486,9 @@
       <file name="$USER_HOME$/cp-projects/classpass-api/external_service/external_service/flywheel.py" timestamp="1579800605660">
         <mark key="'" line="89" column="25" />
       </file>
+      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/hooks/send_reservation_event_hook.py" timestamp="1579807350541">
+        <mark key="'" line="39" column="8" />
+      </file>
       <file name="$USER_HOME$/cp-projects/classpass-utilities/backfill_revenue_db_class_ids/lapi_test_data.sql" timestamp="1568220956137">
         <mark key="'" line="57" column="49" />
         <mark key="[" line="0" column="33" />
@@ -552,8 +555,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="195" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
-      <jump line="173" column="49" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="200" column="30" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="205" column="15" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="730" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
@@ -652,6 +653,8 @@
       <jump line="502" column="8" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/adapter_actions/classpass.py" />
       <jump line="200" column="8" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/adapter_actions/classpass.py" />
       <jump line="645" column="13" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/base.py" />
+      <jump line="61" column="17" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/hooks/send_reservation_event_hook.py" />
+      <jump line="39" column="8" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/hooks/send_reservation_event_hook.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -726,7 +729,7 @@
         <text>str</text>
       </register>
       <register name="/" type="4">
-        <text>proc</text>
+        <text encoding="base64">XDxvbl9yZXNlcnZhdGlvbl9zdWNjZXNzZnVsXD4=</text>
       </register>
       <register name="0" type="4">
         <text>_update_reservation_status</text>
@@ -1462,17 +1465,16 @@
       </register>
     </registers>
     <search>
-      <last-search>proc</last-search>
+      <last-search encoding="base64">XDxvbl9yZXNlcnZhdGlvbl9zdWNjZXNzZnVsXD4=</last-search>
       <last-offset />
-      <last-pattern>proc</last-pattern>
+      <last-pattern encoding="base64">XDxvbl9yZXNlcnZhdGlvbl9zdWNjZXNzZnVsXD4=</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxhZGFwdGVyXD4=</entry>
         <entry>_fulf</entry>
         <entry encoding="base64">XDx0aGlyZF9wYXJ0eV9yZXNlcnZlXD4=</entry>
         <entry>implement</entry>
@@ -1492,6 +1494,7 @@
         <entry>on_req</entry>
         <entry encoding="base64">XDxfdXBkYXRlX3Jlc2VydmF0aW9uX3N0YXR1c1w+</entry>
         <entry>proc</entry>
+        <entry encoding="base64">XDxvbl9yZXNlcnZhdGlvbl9zdWNjZXNzZnVsXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s;unit;range;g</entry>
