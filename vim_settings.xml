@@ -318,6 +318,9 @@
       <file name="$USER_HOME$/cp-projects/mindbody-proxy-service/code/api/src/main/java/com/classpass/mps/dto/User.java" timestamp="1578075432997">
         <mark key="'" line="14" column="22" />
       </file>
+      <file name="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" timestamp="1579887779980">
+        <mark key="'" line="119" column="11" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/README.md" timestamp="1575572604095">
         <mark key="'" line="0" column="0" />
       </file>
@@ -352,10 +355,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="149" column="49" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/synthetic/generator/SyntheticDataGenerator.kt" />
-      <jump line="4" column="41" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/push_notifications/NotificationsTest.kt" />
-      <jump line="9" column="103" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/partners/RosterVerifier.kt" />
-      <jump line="51" column="46" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/bundles/BundlePurchaseTest.kt" />
       <jump line="93" column="42" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/core/SubscriptionV2Verifier.kt" />
       <jump line="7" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/partners/RosterVerifier.kt" />
       <jump line="25" column="33" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/partners/RosterVerifier.kt" />
@@ -452,6 +451,10 @@
       <jump line="83" column="104" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/resource/RatingStatisticsResource.kt" />
       <jump line="70" column="62" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/resource/RatingStatisticsResource.kt" />
+      <jump line="235" column="0" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" />
+      <jump line="149" column="11" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" />
+      <jump line="139" column="11" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" />
+      <jump line="119" column="11" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1922,7 +1925,7 @@
         <text>.`as`(&quot;network_cap&quot;)</text>
       </register>
       <register name="/" type="4">
-        <text>venue_id</text>
+        <text encoding="base64">XDxnZW5lcmFsRmlsdGVyc1w+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLmZldGNoTWFwKENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFLlNUQVJUX0RBVEUpIHsgaXQuZ2V0VmFsdWUoIm5ldHdvcmtfY2FwIiwgSW50OjpjbGFzcy5qYXZhKSB9Cg==</text>
@@ -5312,16 +5315,16 @@
         <text>``</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
       </register>
     </registers>
     <search>
-      <last-search>venue_id</last-search>
+      <last-search encoding="base64">XDxnZW5lcmFsRmlsdGVyc1w+</last-search>
       <last-offset />
-      <last-pattern>venue_id</last-pattern>
+      <last-pattern encoding="base64">XDxnZW5lcmFsRmlsdGVyc1w+</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5329,8 +5332,6 @@
     </search>
     <history>
       <history-search>
-        <entry>8080</entry>
-        <entry encoding="base64">XDxwcmlvclRvRGF0ZVRpbWVcPg==</entry>
         <entry encoding="base64">XDxsb2NhbERhdGVcPg==</entry>
         <entry>can</entry>
         <entry>nul</entry>
@@ -5349,6 +5350,8 @@
         <entry>it</entry>
         <entry>parentlist</entry>
         <entry>venue_id</entry>
+        <entry>getvenuereviews</entry>
+        <entry encoding="base64">XDxnZW5lcmFsRmlsdGVyc1w+</entry>
       </history-search>
       <history-cmd>
         <entry>action QuickImplementations</entry>
@@ -5368,9 +5371,9 @@
         <entry>bnext</entry>
         <entry>15</entry>
         <entry>1094</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>131</entry>
         <entry>action ReformatCode</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
