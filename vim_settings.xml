@@ -174,6 +174,9 @@
       <file name="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/InsertData.kt" timestamp="1579024574316">
         <mark key="'" line="48" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/resource/RatingStatisticsResource.kt" timestamp="1579886985647">
+        <mark key="'" line="70" column="62" />
+      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/Condition.java" timestamp="1572286843576">
         <mark key="'" line="85" column="18" />
       </file>
@@ -270,12 +273,6 @@
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/PORTS.md" timestamp="1578700790074">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsResponse.kt" timestamp="1578701577242">
-        <mark key="'" line="25" column="26" />
-        <mark key="]" line="23" column="0" />
-        <mark key="^" line="23" column="0" />
-        <mark key="." line="23" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/mindbody-proxy-service/code/api/src/main/java/com/classpass/mps/mbo/ClientServiceClient.java" timestamp="1578077846906">
         <mark key="'" line="129" column="64" />
       </file>
@@ -317,6 +314,7 @@
       <file name="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/business/InsertDataController.kt" timestamp="1579024603150">
         <mark key="'" line="36" column="33" />
       </file>
+      <file name="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.kt" timestamp="1579887128425" />
       <file name="$USER_HOME$/cp-projects/mindbody-proxy-service/code/api/src/main/java/com/classpass/mps/dto/User.java" timestamp="1578075432997">
         <mark key="'" line="14" column="22" />
       </file>
@@ -354,8 +352,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="141" column="8" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/synthetic/generator/SyntheticDataGenerator.kt" />
-      <jump line="142" column="18" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/synthetic/generator/SyntheticDataGenerator.kt" />
       <jump line="149" column="49" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/synthetic/generator/SyntheticDataGenerator.kt" />
       <jump line="4" column="41" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/tests/push_notifications/NotificationsTest.kt" />
       <jump line="9" column="103" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/partners/RosterVerifier.kt" />
@@ -454,6 +450,8 @@
       <jump line="91" column="13" filename="$USER_HOME$/cp-projects/zingfit-proxy-service/code/api/src/main/java/com/classpass/zps/business/ReservationController.java" />
       <jump line="86" column="68" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
       <jump line="83" column="104" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/resource/RatingStatisticsResource.kt" />
+      <jump line="70" column="62" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/java/com/classpass/userfeedback/resource/RatingStatisticsResource.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1924,7 +1922,7 @@
         <text>.`as`(&quot;network_cap&quot;)</text>
       </register>
       <register name="/" type="4">
-        <text>it</text>
+        <text>venue_id</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLmZldGNoTWFwKENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFLlNUQVJUX0RBVEUpIHsgaXQuZ2V0VmFsdWUoIm5ldHdvcmtfY2FwIiwgSW50OjpjbGFzcy5qYXZhKSB9Cg==</text>
@@ -5321,9 +5319,9 @@
       </register>
     </registers>
     <search>
-      <last-search>it</last-search>
+      <last-search>venue_id</last-search>
       <last-offset />
-      <last-pattern>it</last-pattern>
+      <last-pattern>venue_id</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5331,8 +5329,6 @@
     </search>
     <history>
       <history-search>
-        <entry>visitnumber</entry>
-        <entry encoding="base64">XDxyZXNlcnZhdGlvbjNcPg==</entry>
         <entry>8080</entry>
         <entry encoding="base64">XDxwcmlvclRvRGF0ZVRpbWVcPg==</entry>
         <entry encoding="base64">XDxsb2NhbERhdGVcPg==</entry>
@@ -5351,6 +5347,8 @@
         <entry>return</entry>
         <entry encoding="base64">XDxyZXNlcnZhdGlvbklkXD4=</entry>
         <entry>it</entry>
+        <entry>parentlist</entry>
+        <entry>venue_id</entry>
       </history-search>
       <history-cmd>
         <entry>action QuickImplementations</entry>
