@@ -201,8 +201,8 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-s3/1.11.63/3e16f5adbdad7fb9b05326d211f9a19a7a2fd63a/aws-java-sdk-s3-1.11.63-sources.jar!/com/amazonaws/services/s3/event/S3EventNotification.java" timestamp="1574187271609">
         <mark key="'" line="260" column="24" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" timestamp="1579823195434">
-        <mark key="'" line="83" column="104" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" timestamp="1579891501078">
+        <mark key="'" line="76" column="22" />
         <mark key="[" line="83" column="104" />
         <mark key="]" line="83" column="104" />
         <mark key="^" line="83" column="104" />
@@ -355,7 +355,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="42" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/core/SubscriptionV2Verifier.kt" />
       <jump line="7" column="0" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/partners/RosterVerifier.kt" />
       <jump line="25" column="33" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/partners/RosterVerifier.kt" />
       <jump line="21" column="66" filename="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/partners/RosterVerifier.kt" />
@@ -455,6 +454,7 @@
       <jump line="149" column="11" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" />
       <jump line="139" column="11" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" />
       <jump line="119" column="11" filename="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" />
+      <jump line="76" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1925,7 +1925,7 @@
         <text>.`as`(&quot;network_cap&quot;)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZW5lcmFsRmlsdGVyc1w+</text>
+        <text encoding="base64">XDxQQVNTUE9SVF9DTEFTU0VTXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLmZldGNoTWFwKENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFLlNUQVJUX0RBVEUpIHsgaXQuZ2V0VmFsdWUoIm5ldHdvcmtfY2FwIiwgSW50OjpjbGFzcy5qYXZhKSB9Cg==</text>
@@ -5322,17 +5322,16 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxnZW5lcmFsRmlsdGVyc1w+</last-search>
+      <last-search encoding="base64">XDxQQVNTUE9SVF9DTEFTU0VTXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZW5lcmFsRmlsdGVyc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxQQVNTUE9SVF9DTEFTU0VTXD4=</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxsb2NhbERhdGVcPg==</entry>
         <entry>can</entry>
         <entry>nul</entry>
         <entry>processre</entry>
@@ -5352,6 +5351,7 @@
         <entry>venue_id</entry>
         <entry>getvenuereviews</entry>
         <entry encoding="base64">XDxnZW5lcmFsRmlsdGVyc1w+</entry>
+        <entry encoding="base64">XDxQQVNTUE9SVF9DTEFTU0VTXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>action QuickImplementations</entry>
