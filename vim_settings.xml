@@ -360,8 +360,8 @@
       <file name="$USER_HOME$/cp-projects/userfeedback-service/code/api/src/main/resources/com/classpass/userfeedback/dao/ReviewLegacyDaoSql.sql.stg" timestamp="1579887779980">
         <mark key="'" line="119" column="11" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/README.md" timestamp="1575572604095">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/README.md" timestamp="1580238607811">
+        <mark key="'" line="48" column="120" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/records/RevenueRevenueaggregationlogRecord.java" timestamp="1571839015142">
         <mark key="'" line="148" column="30" />
@@ -381,8 +381,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="26" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsResponse.kt" />
-      <jump line="37" column="64" filename="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" />
       <jump line="199" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
       <jump line="122" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
       <jump line="96" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
@@ -481,6 +479,8 @@
       <jump line="81" column="4" filename="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" />
       <jump line="50" column="4" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.data-importer/importer/1.0.8/93ca81cf4555e4cb8c01bc6d0ecb0d9819d441b1/importer-1.0.8-sources.jar!/com/classpass/common/importer/Importer.kt" />
       <jump line="173" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
+      <jump line="48" column="120" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1951,7 +1951,7 @@
         <text>, s3Bucket = config.dataImportS3Bucket</text>
       </register>
       <register name="/" type="4">
-        <text>bucket</text>
+        <text>migra</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uY2xhc3NwYXNzLmphZGU6YXN5bmM6JHtkZXBzWyJqYWRlIl19IikK</text>
@@ -5348,9 +5348,9 @@
       </register>
     </registers>
     <search>
-      <last-search>bucket</last-search>
+      <last-search>migra</last-search>
       <last-offset />
-      <last-pattern>bucket</last-pattern>
+      <last-pattern>migra</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5358,7 +5358,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxmaWxlVHlwZVw+</entry>
         <entry>importer</entry>
         <entry>coale</entry>
         <entry>netwo</entry>
@@ -5378,6 +5377,7 @@
         <entry>spots</entry>
         <entry>getnet</entry>
         <entry>bucket</entry>
+        <entry>migra</entry>
       </history-search>
       <history-cmd>
         <entry>action QuickImplementations</entry>
