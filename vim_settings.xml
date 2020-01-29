@@ -62,6 +62,9 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/RevenueRevenueitemlog.java" timestamp="1571770770985">
         <mark key="'" line="41" column="46" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1580314664172">
+        <mark key="'" line="90" column="12" />
+      </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/logic/firstclassfree/FirstClassFreeLogic.java" timestamp="1576265001610">
         <mark key="'" line="12" column="12" />
       </file>
@@ -123,6 +126,9 @@
       </file>
       <file name="$USER_HOME$/cp-projects/zingfit-proxy-service/code/api/src/main/java/com/classpass/zps/zingfit/ZingfitService.java" timestamp="1578089185884">
         <mark key="'" line="58" column="19" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersApplication.kt" timestamp="1580314859864">
+        <mark key="'" line="94" column="51" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1580237118238">
         <mark key="'" line="73" column="4" />
@@ -312,7 +318,9 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" timestamp="1573230223317">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1580237513721" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1580314827301">
+        <mark key="'" line="137" column="43" />
+      </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/PORTS.md" timestamp="1578700790074">
         <mark key="'" line="0" column="0" />
       </file>
@@ -372,9 +380,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="199" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
-      <jump line="122" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
-      <jump line="96" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
       <jump line="95" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
       <jump line="94" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
       <jump line="83" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" />
@@ -472,6 +477,9 @@
       <jump line="173" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
       <jump line="48" column="120" filename="$USER_HOME$/cp-projects/partners-service/README.md" />
+      <jump line="90" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
+      <jump line="137" column="43" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="94" column="51" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersApplication.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1942,7 +1950,7 @@
         <text>, s3Bucket = config.dataImportS3Bucket</text>
       </register>
       <register name="/" type="4">
-        <text>migra</text>
+        <text>aws</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uY2xhc3NwYXNzLmphZGU6YXN5bmM6JHtkZXBzWyJqYWRlIl19IikK</text>
@@ -5339,9 +5347,9 @@
       </register>
     </registers>
     <search>
-      <last-search>migra</last-search>
+      <last-search>aws</last-search>
       <last-offset />
-      <last-pattern>migra</last-pattern>
+      <last-pattern>aws</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5349,8 +5357,6 @@
     </search>
     <history>
       <history-search>
-        <entry>importer</entry>
-        <entry>coale</entry>
         <entry>netwo</entry>
         <entry encoding="base64">XDxTUE9UX0NBUF9DT0xVTU5cPg==</entry>
         <entry>classfactory</entry>
@@ -5369,6 +5375,8 @@
         <entry>getnet</entry>
         <entry>bucket</entry>
         <entry>migra</entry>
+        <entry>getc</entry>
+        <entry>aws</entry>
       </history-search>
       <history-cmd>
         <entry>action QuickImplementations</entry>
