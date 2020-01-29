@@ -3,11 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/settings/local-dev.py" timestamp="1575922391017">
-        <mark key="'" line="40" column="10" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="86" column="3" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/manage_spots.py" timestamp="1569510467309">
         <mark key="'" line="47" column="8" />
         <mark key="[" line="228" column="24" />
@@ -294,6 +289,9 @@
         <mark key="^" line="74" column="14" />
         <mark key="." line="74" column="8" />
       </file>
+      <file name="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/mindbody_adapter.py" timestamp="1580318994875">
+        <mark key="'" line="143" column="20" />
+      </file>
       <file name="$USER_HOME$/cp-projects/ms-inventory/code/src/app/models/schedule.py" timestamp="1578438550280">
         <mark key="'" line="105" column="6" />
       </file>
@@ -359,11 +357,6 @@
       </file>
       <file name="$USER_HOME$/cp-projects/classpass-api/api_server/api_server/reservation.py" timestamp="1579800950814">
         <mark key="'" line="100" column="29" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/social/code/src/app/controllers/user_controller.py" timestamp="1578429817713">
-        <mark key="'" line="225" column="6" />
-        <mark key="[" line="229" column="23" />
-        <mark key="]" line="229" column="46" />
       </file>
       <file name="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/api_helpers/permissions.py" timestamp="1560549643044">
         <mark key="'" line="190" column="6" />
@@ -520,11 +513,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="774" column="65" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
-      <jump line="788" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
-      <jump line="789" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
-      <jump line="798" column="59" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
-      <jump line="811" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="812" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/tests/test_opportunities_controller.py" />
       <jump line="149" column="79" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/venue/controllers/opportunities.py" />
@@ -620,6 +608,11 @@
       <jump line="491" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="514" column="45" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
       <jump line="408" column="8" filename="$USER_HOME$/cp-projects/partner-dashboard/server/classpass/apps/revenue/controllers.py" />
+      <jump line="181" column="52" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/mindbody_adapter.py" />
+      <jump line="10" column="78" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/mindbody_adapter.py" />
+      <jump line="32" column="67" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/mindbody_adapter.py" />
+      <jump line="77" column="37" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/mindbody_adapter.py" />
+      <jump line="143" column="20" filename="$USER_HOME$/cp-projects/classpass-api/business_logic/business_logic/reservations/mindbody_adapter.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -694,7 +687,7 @@
         <text>str</text>
       </register>
       <register name="/" type="4">
-        <text>get_rea</text>
+        <text>save_aux</text>
       </register>
       <register name="0" type="4">
         <text>_update_reservation_status</text>
@@ -1430,9 +1423,9 @@
       </register>
     </registers>
     <search>
-      <last-search>get_rea</last-search>
+      <last-search>save_aux</last-search>
       <last-offset />
-      <last-pattern>get_rea</last-pattern>
+      <last-pattern>save_aux</last-pattern>
       <last-replace>appointments</last-replace>
       <last-substitute>resources</last-substitute>
       <last-dir>1</last-dir>
@@ -1440,8 +1433,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDxzaG91bGRfcXVldWVcPg==</entry>
-        <entry encoding="base64">XDxfZnVsZmlsbF9yZXNlcnZhdGlvblw+</entry>
         <entry>_on_reserv</entry>
         <entry>partners_</entry>
         <entry>_fulfill</entry>
@@ -1460,6 +1451,8 @@
         <entry>fetch_an</entry>
         <entry>get_Rea</entry>
         <entry>get_rea</entry>
+        <entry>auxiliar</entry>
+        <entry>save_aux</entry>
       </history-search>
       <history-cmd>
         <entry>s;unit;range;g</entry>
