@@ -26,6 +26,12 @@
         <mark key="[" line="61" column="0" />
         <mark key="]" line="66" column="53" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/ResPricingHistoryDao.kt" timestamp="1580428464560">
+        <mark key="[" line="23" column="9" />
+        <mark key="]" line="23" column="9" />
+        <mark key="." line="23" column="9" />
+        <mark key="^" line="23" column="19" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/DataImporter.kt" timestamp="1580492108481">
         <mark key="'" line="14" column="103" />
         <mark key="[" line="16" column="0" />
@@ -66,6 +72,12 @@
         <mark key="]" line="85" column="3" />
         <mark key="." line="85" column="3" />
         <mark key="^" line="85" column="3" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/InsertDataController.kt" timestamp="1580504310465">
+        <mark key="[" line="29" column="59" />
+        <mark key="]" line="29" column="66" />
+        <mark key="." line="29" column="66" />
+        <mark key="^" line="29" column="66" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1580342066239">
         <mark key="'" line="74" column="4" />
@@ -170,6 +182,12 @@
         <mark key="]" line="34" column="33" />
         <mark key="." line="34" column="33" />
         <mark key="^" line="34" column="33" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/PartnersConfig.kt" timestamp="1580342079103">
+        <mark key="[" line="14" column="22" />
+        <mark key="]" line="14" column="39" />
+        <mark key="^" line="14" column="39" />
+        <mark key="." line="14" column="39" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/InsertDataCommand.kt" timestamp="1580502342491">
         <mark key="'" line="42" column="83" />
@@ -1757,7 +1775,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text>Corporate</text>
       </register>
       <register name="/" type="4">
         <text>guice</text>
@@ -1769,7 +1787,7 @@
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">cGFja2FnZSBjb20uY2xhc3NwYXNzLmNvcnBvcmF0ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29ycG9yYXRlRnJpZW5kc0ZhY3Rvcnk6IENvcnBvcmF0ZUZyaWVuZHNGYWN0b3J5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjb3Jwb3JhdGVSZXNlcnZhdGlvbnNEYW86IENvcnBvcmF0ZVJlc2VydmF0aW9uc0RhbywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29ycG9yYXRlUmVzZXJ2YXRpb25zRmFjdG9yeTogQ29ycG9yYXRlUmVzZXJ2YXRpb25zRmFjdG9yeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29ycG9yYXRlU3Vic2NyaXB0aW9uVXNlcnNEYW86IENvcnBvcmF0ZVN1YnNjcmlwdGlvblVzZXJzRGFvLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjb3Jwb3JhdGVTdWJzY3JpcHRpb25Vc2Vyc0ZhY3Rvcnk6IENvcnBvcmF0ZVN1YnNjcmlwdGlvblVzZXJzRmFjdG9yeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29ycG9yYXRlVXNlcnNGYWN0b3J5OiBDb3Jwb3JhdGVVc2Vyc0ZhY3RvcnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNvcnBvcmF0ZVVzZXJzRGFvOiBDb3Jwb3JhdGVVc2Vyc0RhbywK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2060,26 +2078,33 @@
           <key char="98" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>val corporateFriendsDao: CorporateFriendsDao,
+                                               val corporateFriendsFactory: CorporateFriendsFactory,
+                                               val corporateReservationsDao: CorporateReservationsDao,
+                                               val corporateReservationsFactory: CorporateReservationsFactory,
+                                               val corporateSubscriptionUsersDao: CorporateSubscriptionUsersDao,
+                                               val corporateSubscriptionUsersFactory: CorporateSubscriptionUsersFactory,
+                                               val corporateUsersFactory: CorporateUsersFactory,
+                                               v</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBTZWN1cml0eS5hZGRQcm92aWRlcihCb3VuY3lDYXN0bGVQcm92aWRlcigpKQo=</text>
+        <text encoding="base64">cGFja2FnZSBjb20uY2xhc3NwYXNzLmNvcnBvcmF0ZQo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlci5wb3N0SW5pdGlhbGl6ZShib290c3RyYXAsIGd1aWNlKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHRoaXMuZ3VpY2UgPSBndWljZQogICAgc3VwZXIucG9zdEluaXRpYWxpemUoYm9vdHN0cmFwLCBndWljZSkKCiAgICBTZWN1cml0eS5hZGRQcm92aWRlcihCb3VuY3lDYXN0bGVQcm92aWRlcigpKQoKICAgIGJvb3RzdHJhcC5hZGRDb21tYW5kKEluc2VydERhdGFDb21tYW5kKHRoaXMpKQo=</text>
+        <text encoding="base64">ICAgICAgICBTZWN1cml0eS5hZGRQcm92aWRlcihCb3VuY3lDYXN0bGVQcm92aWRlcigpKQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5090,13 +5115,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuY29ycG9yYXRlLmNvbmZpZy5Db3Jwb3JhdGVDb25maWcK</text>
+        <text encoding="base64">ICAgICAgICBzdXBlci5wb3N0SW5pdGlhbGl6ZShib290c3RyYXAsIGd1aWNlKQo=</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRoaXMuZ3VpY2UgPSBndWljZQogICAgc3VwZXIucG9zdEluaXRpYWxpemUoYm9vdHN0cmFwLCBndWljZSkKCiAgICBTZWN1cml0eS5hZGRQcm92aWRlcihCb3VuY3lDYXN0bGVQcm92aWRlcigpKQoKICAgIGJvb3RzdHJhcC5hZGRDb21tYW5kKEluc2VydERhdGFDb21tYW5kKHRoaXMpKQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5144,10 +5169,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPIGZpZ3VyZSBvdXQgaG93IHRvIHVzZSB0aGUgamRiaSBwcm92aWRlZCBieSB0aGUgdHJhbnNhY3Rpb24gY29udGV4dAo=</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuY29ycG9yYXRlLmNvbmZpZy5Db3Jwb3JhdGVDb25maWcK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action VcsShowNextChangeMarker</text>
