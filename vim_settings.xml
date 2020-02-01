@@ -224,8 +224,11 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.data-importer/importer/1.0.8/93ca81cf4555e4cb8c01bc6d0ecb0d9819d441b1/importer-1.0.8-sources.jar!/com/classpass/common/importer/Importer.kt" timestamp="1580485243561">
         <mark key="'" line="215" column="36" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1580508594118">
-        <mark key="^" line="249" column="96" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1580514989927">
+        <mark key="'" line="87" column="0" />
+        <mark key="[" line="252" column="16" />
+        <mark key="]" line="252" column="16" />
+        <mark key="." line="252" column="16" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.10/2d06d3cf14cbd462bb2a649a9f22880fa87ebfa3/jackson-databind-2.9.10-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java" timestamp="1574359133169">
         <mark key="'" line="3998" column="19" />
@@ -458,16 +461,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="39" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/DataImporterTest.kt" />
-      <jump line="14" column="103" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/DataImporter.kt" />
-      <jump line="314" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="334" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="335" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="353" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="383" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="385" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="392" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="393" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="71" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="72" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
@@ -558,10 +551,20 @@
       <jump line="37" column="43" filename="$USER_HOME$/cp-projects/corporate-service/build.gradle.kts" />
       <jump line="193" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="95" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="248" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="104" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="187" column="68" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="194" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="247" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="320" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="50" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="65" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="355" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="87" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
     </jumps>
     <registers>
-      <register name="a" type="4">
-        <text>setupVenuePortalTestDatabase</text>
+      <register name="a" type="2">
+        <text encoding="base64">ICAgICAgICBpbnNlcnREYXRhQ29udHJvbGxlciA9IEluc2VydERhdGFDb250cm9sbGVyKAogICAgICAgICAgICBSZXNQcmljaW5nSGlzdG9yeURhbyhnbG9iYWxWZW51ZVBvcnRhbENvbnRleHQpLAogICAgICAgICAgICBpbXBvcnRlciwKICAgICAgICAgICAgbW9jazxQYXJ0bmVyc0NvbmZpZz4gewogICAgICAgICAgICAgICAgb24ge2RhdGFJbXBvcnRlcn0gZG9SZXR1cm4gRGF0YUltcG9ydGVyQ29uZmlnKCJ0ZXN0LWFuYWx5dGljcy1pbXBvcnQiKQogICAgICAgICAgICB9CiAgICAgICAgKQo=</text>
       </register>
       <register name="&quot;" type="4">
         <text>&quot;</text>
@@ -581,8 +584,8 @@
       <register name="i" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="*" type="4">
-        <text>&quot;&quot;</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBpbnNlcnREYXRhQ29udHJvbGxlciA9IEluc2VydERhdGFDb250cm9sbGVyKAogICAgICAgICAgICBSZXNQcmljaW5nSGlzdG9yeURhbyhnbG9iYWxWZW51ZVBvcnRhbENvbnRleHQpLAogICAgICAgICAgICBpbXBvcnRlciwKICAgICAgICAgICAgbW9jazxQYXJ0bmVyc0NvbmZpZz4gewogICAgICAgICAgICAgICAgb24ge2RhdGFJbXBvcnRlcn0gZG9SZXR1cm4gRGF0YUltcG9ydGVyQ29uZmlnKCJ0ZXN0LWFuYWx5dGljcy1pbXBvcnQiKQogICAgICAgICAgICB9CiAgICAgICAgKQo=</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -2025,10 +2028,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>res_pricing_history/res_pricing_history.jsonl.gz</text>
+        <text encoding="base64">PFBhcnRuZXJzQ29uZmlnPg==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxQYXJ0bmVyc0FwcGxpY2F0aW9uXD4=</text>
+        <text>dataimport</text>
       </register>
       <register name="0" type="4">
         <text>res_pricing_history/res_pricing_history.jsonl.gz</text>
@@ -2037,7 +2040,7 @@
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIi1zMyBmb28iLAo=</text>
+        <text encoding="base64">ICAgICAgICBpbnNlcnREYXRhQ29udHJvbGxlciA9IEluc2VydERhdGFDb250cm9sbGVyKFJlc1ByaWNpbmdIaXN0b3J5RGFvKGdsb2JhbFZlbnVlUG9ydGFsQ29udGV4dCksIGltcG9ydGVyLCBEYXRhSW1wb3J0ZXJDb25maWcoInRlc3QtYW5hbHl0aWNzLWltcG9ydCIpKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2329,19 +2332,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIiR7cm9vdFByb2plY3QucHJvamVjdERpcn0vY29uZmlnL3VzZTEtY29uZmlnLnltbCIsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIi1zMyBmb28iLAo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjbGFzc3BhdGggPSBjbGFzc3BhdGgK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIiR7cm9vdFByb2plY3QucHJvamVjdERpcn0vY29uZmlnL3VzZTEtY29uZmlnLnltbCIsCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjbGFzc3BhdGggPSBjbGFzc3BhdGgK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
@@ -5358,13 +5361,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">dmFsIHhpbnNlcnREYXRhIGJ5IHJlZ2lzdGVyaW5nKEphdmFFeGVjOjpjbGFzcykgewogICAgbWFpbiA9ICJjb20uY2xhc3NwYXNzLnBhcnRuZXJzLlBhcnRuZXJzQXBwbGljYXRpb24iCiAgICBhcmdzKCJpbnNlcnQiLAogICAgICAgICIke3Jvb3RQcm9qZWN0LnByb2plY3REaXJ9L2NvbmZpZy91c2UxLWNvbmZpZy55bWwiLAogICAgICAgICItczMgcmVzX3ByaWNpbmdfaGlzdG9yeS9yZXNfcHJpY2luZ19oaXN0b3J5Lmpzb25sLmd6IiwKICAgICAgICAiLXQgcmVzX3ByaWNpbmdfaGlzdG9yeSIpCn0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLi9rdAo=</text>
+        <text encoding="base64">dmFsIHhpbnNlcnREYXRhIGJ5IHJlZ2lzdGVyaW5nKEphdmFFeGVjOjpjbGFzcykgewogICAgbWFpbiA9ICJjb20uY2xhc3NwYXNzLnBhcnRuZXJzLlBhcnRuZXJzQXBwbGljYXRpb24iCiAgICBhcmdzKCJpbnNlcnQiLAogICAgICAgICIke3Jvb3RQcm9qZWN0LnByb2plY3REaXJ9L2NvbmZpZy91c2UxLWNvbmZpZy55bWwiLAogICAgICAgICItczMgcmVzX3ByaWNpbmdfaGlzdG9yeS9yZXNfcHJpY2luZ19oaXN0b3J5Lmpzb25sLmd6IiwKICAgICAgICAiLXQgcmVzX3ByaWNpbmdfaGlzdG9yeSIpCn0K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5412,22 +5415,22 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLi9rdAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHRhc2sgZG9JbnNlcnQodHlwZTogSmF2YUV4ZWMpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action VcsShowNextChangeMarker</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxQYXJ0bmVyc0FwcGxpY2F0aW9uXD4=</last-search>
+      <last-search>dataimport</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxQYXJ0bmVyc0FwcGxpY2F0aW9uXD4=</last-pattern>
+      <last-pattern>dataimport</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
       <last-dir>1</last-dir>
@@ -5435,11 +5438,6 @@
     </search>
     <history>
       <history-search>
-        <entry>guice</entry>
-        <entry encoding="base64">XDxjb3Jwb3JhdGVGcmllbmRzRmFjdG9yeVw+</entry>
-        <entry>speed</entry>
-        <entry encoding="base64">XDxkYXRhSW1wb3J0ZXJcPg==</entry>
-        <entry encoding="base64">XDxjb25maWdcPg==</entry>
         <entry>insertda</entry>
         <entry>sum</entry>
         <entry>arg</entry>
@@ -5455,9 +5453,13 @@
         <entry>dropw</entry>
         <entry>application</entry>
         <entry encoding="base64">XDxQYXJ0bmVyc0FwcGxpY2F0aW9uXD4=</entry>
+        <entry>config</entry>
+        <entry encoding="base64">XDxzZXR1cFZlbnVlUG9ydGFsVGVzdERhdGFiYXNlXD4=</entry>
+        <entry>mock</entry>
+        <entry>doreturn</entry>
+        <entry>dataimport</entry>
       </history-search>
       <history-cmd>
-        <entry>action MethodUp</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
         <entry>230</entry>
@@ -5468,15 +5470,16 @@
         <entry>s;,;\r,;g</entry>
         <entry>s;,;,\r;g</entry>
         <entry>46</entry>
-        <entry>action VcsShowPrevChangeMarker</entry>
         <entry>15</entry>
         <entry>1094</entry>
         <entry>131</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>action ReformatCode</entry>
         <entry>bnext</entry>
-        <entry>action VcsShowNextChangeMarker</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>249</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action VcsShowPrevChangeMarker</entry>
+        <entry>action VcsShowNextChangeMarker</entry>
       </history-cmd>
       <history-expr />
       <history-input />
