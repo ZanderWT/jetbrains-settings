@@ -120,10 +120,10 @@
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/endpoints/SocialService.kt" timestamp="1578602513712">
         <mark key="'" line="54" column="29" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/StatsReportResponseTest.kt" timestamp="1580851262839">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/StatsReportResponseTest.kt" timestamp="1580852428268">
         <mark key="'" line="42" column="31" />
-        <mark key="[" line="42" column="33" />
-        <mark key="]" line="42" column="42" />
+        <mark key="[" line="15" column="23" />
+        <mark key="]" line="43" column="8" />
         <mark key="^" line="42" column="42" />
         <mark key="." line="42" column="42" />
       </file>
@@ -382,10 +382,12 @@
         <mark key="." line="5" column="126" />
         <mark key="^" line="4" column="131" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/StatsResource.kt" timestamp="1580841931966">
-        <mark key="'" line="19" column="20" />
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="47" column="9" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/StatsResource.kt" timestamp="1580852497657">
+        <mark key="'" line="21" column="20" />
+        <mark key="[" line="20" column="27" />
+        <mark key="]" line="20" column="45" />
+        <mark key="." line="20" column="45" />
+        <mark key="^" line="20" column="45" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" timestamp="1580839289392">
         <mark key="'" line="57" column="0" />
@@ -2050,43 +2052,75 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">TWFwPFN0cmluZywgQW55Pg==</text>
       </register>
       <register name="/" type="4">
         <text>to</text>
       </register>
       <register name="0" type="4">
-        <text>{
-  &quot;bookings&quot; : 100,
-  &quot;bookings_percent_change&quot; : 0.5784,
-  &quot;revenue&quot; : [ {
-    &quot;revenue&quot; : {
-      &quot;amount&quot; : 100.9,
-      &quot;currency&quot; : &quot;USD&quot;
-    },
-    &quot;revenue_percent_change&quot; : 0.1
-  }, {
-    &quot;revenue&quot; : {
-      &quot;amount&quot; : 50.56,
-      &quot;currency&quot; : &quot;GBP&quot;
-    },
-    &quot;revenue_percent_change&quot; : 0.29
-  }, {
-    &quot;revenue&quot; : {
-      &quot;amount&quot; : 10000,
-      &quot;currency&quot; : &quot;THB&quot;
-    },
-    &quot;revenue_percent_change&quot; : 0.945
-  } ],
-  &quot;spots&quot; : 200,
-  &quot;spots_percent_change&quot; : 0.6666
-}</text>
+        <text>StatsReportResponse(
+            revenue = listOf(
+                mapOf(
+                    &quot;revenue&quot; to mapOf(
+                        &quot;amount&quot; to 100.9,
+                        &quot;currency&quot; to &quot;USD&quot;
+                    ),
+                    &quot;revenue_percent_change&quot; to .1
+                ),
+                mapOf(
+                    &quot;revenue&quot; to mapOf(
+                        &quot;amount&quot; to 50.56,
+                        &quot;currency&quot; to &quot;GBP&quot;
+                    ),
+                    &quot;revenue_percent_change&quot; to .29
+                ),
+                mapOf(
+                    &quot;revenue&quot; to mapOf(
+                        &quot;amount&quot; to 10000,
+                        &quot;currency&quot; to &quot;THB&quot;
+                    ),
+                    &quot;revenue_percent_change&quot; to .945
+                )
+            ),
+            bookings = 100,
+            bookingsPercentChange = BigDecimal(&quot;.5784&quot;),
+            spots = 200,
+            spotsPercentChange = BigDecimal(&quot;.6666&quot;)
+        )</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ewogICJyZXZlbnVlIiA6IFsgewogICAgInJldmVudWUiIDogewogICAgICAiYW1vdW50IiA6IDEwMC45LAogICAgICAiY3VycmVuY3kiIDogIlVTRCIKICAgIH0sCiAgICAicmV2ZW51ZV9wZXJjZW50X2NoYW5nZSIgOiAwLjEKICB9LCB7CiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogNTAuNTYsCiAgICAgICJjdXJyZW5jeSIgOiAiR0JQIgogICAgfSwKICAgICJyZXZlbnVlX3BlcmNlbnRfY2hhbmdlIiA6IDAuMjkKICB9LCB7CiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogMTAwMDAsCiAgICAgICJjdXJyZW5jeSIgOiAiVEhCIgogICAgfSwKICAgICJyZXZlbnVlX3BlcmNlbnRfY2hhbmdlIiA6IDAuOTQ1CiAgfSBdLAogICJib29raW5ncyIgOiAxMDAsCiAgImJvb2tpbmdzX3BlcmNlbnRfY2hhbmdlIiA6IDAuNTc4NCwKICAic3BvdHMiIDogMjAwLAogICJzcG90c19wZXJjZW50X2NoYW5nZSIgOiAwLjY2NjYKfQo=</text>
+      <register name="1" type="4">
+        <text>mapOf(
+            &quot;revenue&quot; to listOf(
+                mapOf(
+                    &quot;revenue&quot; to mapOf(
+                        &quot;amount&quot; to 100.9,
+                        &quot;currency&quot; to &quot;USD&quot;
+                    ),
+                    &quot;revenue_percent_change&quot; to .1
+                ),
+                mapOf(
+                    &quot;revenue&quot; to mapOf(
+                        &quot;amount&quot; to 50.56,
+                        &quot;currency&quot; to &quot;GBP&quot;
+                    ),
+                    &quot;revenue_percent_change&quot; to .29
+                ),
+                mapOf(
+                    &quot;revenue&quot; to mapOf(
+                        &quot;amount&quot; to 10000,
+                        &quot;currency&quot; to &quot;THB&quot;
+                    ),
+                    &quot;revenue_percent_change&quot; to .945
+                )
+                ),
+            &quot;bookings&quot; to 100,
+            &quot;bookings_percent_change&quot; to .5784,
+            &quot;spots&quot; to 200,
+            &quot;spots_percent_change&quot; to .6666
+        )</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2112,26 +2146,26 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text>&quot;&quot;</text>
+      <register name="2" type="2">
+        <text encoding="base64">ewogICJyZXZlbnVlIiA6IFsgewogICAgInJldmVudWUiIDogewogICAgICAiYW1vdW50IiA6IDEwMC45LAogICAgICAiY3VycmVuY3kiIDogIlVTRCIKICAgIH0sCiAgICAicmV2ZW51ZV9wZXJjZW50X2NoYW5nZSIgOiAwLjEKICB9LCB7CiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogNTAuNTYsCiAgICAgICJjdXJyZW5jeSIgOiAiR0JQIgogICAgfSwKICAgICJyZXZlbnVlX3BlcmNlbnRfY2hhbmdlIiA6IDAuMjkKICB9LCB7CiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogMTAwMDAsCiAgICAgICJjdXJyZW5jeSIgOiAiVEhCIgogICAgfSwKICAgICJyZXZlbnVlX3BlcmNlbnRfY2hhbmdlIiA6IDAuOTQ1CiAgfSBdLAogICJib29raW5ncyIgOiAxMDAsCiAgImJvb2tpbmdzX3BlcmNlbnRfY2hhbmdlIiA6IDAuNTc4NCwKICAic3BvdHMiIDogMjAwLAogICJzcG90c19wZXJjZW50X2NoYW5nZSIgOiAwLjY2NjYKfQo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="4">
-        <text>spots_percent_change</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="4">
-        <text>&quot;&quot;</text>
+        <text>spots_percent_change</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="4">
-        <text>spots</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5142,13 +5176,13 @@
         </keys>
       </register>
       <register name="6" type="4">
-        <text>&quot;&quot;</text>
+        <text>spots</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="4">
-        <text>bookings_percent_change</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5196,10 +5230,10 @@
         </keys>
       </register>
       <register name="8" type="4">
-        <text>&quot;&quot;</text>
+        <text>bookings_percent_change</text>
       </register>
       <register name="9" type="4">
-        <text>bookings</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
