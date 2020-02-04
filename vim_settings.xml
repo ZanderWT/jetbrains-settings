@@ -9,12 +9,10 @@
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/core/UserVenueVerifier.kt" timestamp="1578697130190">
         <mark key="'" line="8" column="6" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/StatsReportResponse.json" timestamp="1580843314436">
-        <mark key="'" line="24" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/StatsReportResponse.json" timestamp="1580851381471">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="1" />
-        <mark key="^" line="0" column="1" />
-        <mark key="." line="0" column="1" />
+        <mark key="]" line="24" column="1" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/models/pricing/task/PayableReservation.java" timestamp="1574269927476">
         <mark key="'" line="25" column="11" />
@@ -122,12 +120,12 @@
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/endpoints/SocialService.kt" timestamp="1578602513712">
         <mark key="'" line="54" column="29" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/StatsReportResponseTest.kt" timestamp="1580842013685">
-        <mark key="'" line="40" column="22" />
-        <mark key="[" line="44" column="0" />
-        <mark key="]" line="44" column="0" />
-        <mark key="^" line="43" column="12" />
-        <mark key="." line="44" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/StatsReportResponseTest.kt" timestamp="1580851262839">
+        <mark key="'" line="42" column="31" />
+        <mark key="[" line="42" column="33" />
+        <mark key="]" line="42" column="42" />
+        <mark key="^" line="42" column="42" />
+        <mark key="." line="42" column="42" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" timestamp="1579899987550">
         <mark key="'" line="74" column="22" />
@@ -270,6 +268,12 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" timestamp="1580839334210">
         <mark key="'" line="42" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/StatsReportResponse.kt" timestamp="1580851177201">
+        <mark key="'" line="13" column="2" />
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="13" column="0" />
       </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/time/Period.java" timestamp="1572627889630">
         <mark key="'" line="770" column="4" />
@@ -479,10 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="351" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="357" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="247" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="320" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="422" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="361" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="339" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
@@ -579,6 +579,10 @@
       <jump line="34" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/StatsReportResponseTest.kt" />
       <jump line="25" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportCsvBuilder.kt" />
       <jump line="24" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/StatsReportResponse.json" />
+      <jump line="8" column="2" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/StatsReportResponse.kt" />
+      <jump line="43" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/StatsReportResponseTest.kt" />
+      <jump line="41" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/model/response/StatsReportResponseTest.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/StatsReportResponse.json" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -603,7 +607,7 @@
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="*" type="4">
-        <text>ResPricingHistoryRecord(</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -2046,19 +2050,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>{</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>use</text>
+        <text>to</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIG1hcHBlciA9IFBhcnRuZXJzQXBwbGljYXRpb24oKS5sYXRlQ29uZmlndXJlT2JqZWN0TWFwcGVyKEphY2tzb24ubmV3T2JqZWN0TWFwcGVyKCkpCg==</text>
+      <register name="0" type="4">
+        <text>{
+  &quot;bookings&quot; : 100,
+  &quot;bookings_percent_change&quot; : 0.5784,
+  &quot;revenue&quot; : [ {
+    &quot;revenue&quot; : {
+      &quot;amount&quot; : 100.9,
+      &quot;currency&quot; : &quot;USD&quot;
+    },
+    &quot;revenue_percent_change&quot; : 0.1
+  }, {
+    &quot;revenue&quot; : {
+      &quot;amount&quot; : 50.56,
+      &quot;currency&quot; : &quot;GBP&quot;
+    },
+    &quot;revenue_percent_change&quot; : 0.29
+  }, {
+    &quot;revenue&quot; : {
+      &quot;amount&quot; : 10000,
+      &quot;currency&quot; : &quot;THB&quot;
+    },
+    &quot;revenue_percent_change&quot; : 0.945
+  } ],
+  &quot;spots&quot; : 200,
+  &quot;spots_percent_change&quot; : 0.6666
+}</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">e30K</text>
+        <text encoding="base64">ewogICJyZXZlbnVlIiA6IFsgewogICAgInJldmVudWUiIDogewogICAgICAiYW1vdW50IiA6IDEwMC45LAogICAgICAiY3VycmVuY3kiIDogIlVTRCIKICAgIH0sCiAgICAicmV2ZW51ZV9wZXJjZW50X2NoYW5nZSIgOiAwLjEKICB9LCB7CiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogNTAuNTYsCiAgICAgICJjdXJyZW5jeSIgOiAiR0JQIgogICAgfSwKICAgICJyZXZlbnVlX3BlcmNlbnRfY2hhbmdlIiA6IDAuMjkKICB9LCB7CiAgICAicmV2ZW51ZSIgOiB7CiAgICAgICJhbW91bnQiIDogMTAwMDAsCiAgICAgICJjdXJyZW5jeSIgOiAiVEhCIgogICAgfSwKICAgICJyZXZlbnVlX3BlcmNlbnRfY2hhbmdlIiA6IDAuOTQ1CiAgfSBdLAogICJib29raW5ncyIgOiAxMDAsCiAgImJvb2tpbmdzX3BlcmNlbnRfY2hhbmdlIiA6IDAuNTc4NCwKICAic3BvdHMiIDogMjAwLAogICJzcG90c19wZXJjZW50X2NoYW5nZSIgOiAwLjY2NjYKfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2084,26 +2112,26 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV2ZW51ZUl0ZW1zLnVzZSB7IHN0cmVhbSAtPgo=</text>
+      <register name="2" type="4">
+        <text>&quot;&quot;</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+      <register name="3" type="4">
+        <text>spots_percent_change</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>&quot;&quot;</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGZ1biBnZXRCb29raW5ncygpOgogICAgICAgIHJldHVybiAiZm9vIgo=</text>
+      <register name="5" type="4">
+        <text>spots</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5113,14 +5141,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="6" type="4">
+        <text>&quot;&quot;</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">LyoKICogUG93ZXJzIHRoZSBzdGF0cyAKICovCg==</text>
+      <register name="7" type="4">
+        <text>bookings_percent_change</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5167,11 +5195,11 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>&quot;&quot;</text>
       </register>
       <register name="9" type="4">
-        <text>api/build/libs/partners-api-all</text>
+        <text>bookings</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -5181,9 +5209,9 @@
       </register>
     </registers>
     <search>
-      <last-search>use</last-search>
+      <last-search>to</last-search>
       <last-offset />
-      <last-pattern>use</last-pattern>
+      <last-pattern>to</last-pattern>
       <last-replace>true)</last-replace>
       <last-substitute>1 )</last-substitute>
       <last-dir>1</last-dir>
@@ -5191,7 +5219,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx1c2VyVmVudWVQb3J0YWxEYW9cPg==</entry>
         <entry encoding="base64">XDx0cmFuc2FjdGlvbmFsVmVudWVQb3J0YWxDb250ZXh0XD4=</entry>
         <entry encoding="base64">XDx0cmFuc2FjdGlvbmFsTGVnYWN5Q29udGV4dFw+</entry>
         <entry encoding="base64">XDx2ZW51ZVBvcnRhbFRyYW5zYWN0aW9uQ29udGV4dFw+</entry>
@@ -5211,6 +5238,7 @@
         <entry>speedlimit</entry>
         <entry encoding="base64">XDxjdXJyZW50Q3ljbGVcPg==</entry>
         <entry>use</entry>
+        <entry>to</entry>
       </history-search>
       <history-cmd>
         <entry>131</entry>
@@ -5219,7 +5247,6 @@
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>s;|;,;g</entry>
         <entry>action VcsShowNextChangeMarker</entry>
-        <entry>bnext</entry>
         <entry encoding="base64">JzwsJz5zO1JhdGU7cmF0ZTtn</entry>
         <entry encoding="base64">JzwsJz5zO1N1cmdlRmxhZztzdXJnZUZsYWc7Zw==</entry>
         <entry>s;&quot;\(\w\+\)&quot;:\([^,]\+\);\1 = \2;g</entry>
@@ -5233,6 +5260,7 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
