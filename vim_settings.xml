@@ -313,11 +313,11 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/SelectForUpdateStep.java" timestamp="1573252745593">
         <mark key="'" line="118" column="37" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" timestamp="1580926836955">
-        <mark key="[" line="14" column="33" />
-        <mark key="]" line="16" column="0" />
-        <mark key="." line="16" column="0" />
-        <mark key="^" line="14" column="6" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" timestamp="1580927918401">
+        <mark key="[" line="23" column="72" />
+        <mark key="]" line="23" column="74" />
+        <mark key="^" line="23" column="74" />
+        <mark key="." line="23" column="74" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/context/pushnotifications/RegisteredUserExtensions.kt" timestamp="1578606084725">
         <mark key="'" line="10" column="38" />
@@ -499,7 +499,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="291" column="1" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/001_initial_migration.sql" />
       <jump line="294" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/001_initial_migration.sql" />
       <jump line="303" column="1" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/001_initial_migration.sql" />
       <jump line="306" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/001_initial_migration.sql" />
@@ -599,6 +598,7 @@
       <jump line="14" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReportingDigestLegacyDao.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" />
       <jump line="3" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" />
+      <jump line="28" column="54" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -2066,10 +2066,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Z2l2ZW4gYSBsaXN0IG9mIHZlbnVlIGlkcywg</text>
+        <text>LocalDate.now()</text>
       </register>
       <register name="/" type="4">
-        <text>linkedven</text>
+        <text>mont</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgYm9va2luZ3MgPSAxMDAsCiAgICAgICAgICAgIGJvb2tpbmdzUGVyY2VudENoYW5nZSA9IEJpZ0RlY2ltYWwoIi41Nzg0IiksCiAgICAgICAgICAgIHNwb3RzID0gMjAwLAogICAgICAgICAgICBzcG90c1BlcmNlbnRDaGFuZ2UgPSBCaWdEZWNpbWFsKCIuNjY2NiIpCg==</text>
@@ -2078,7 +2078,7 @@
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZWN0KCkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -2105,25 +2105,25 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZmFrZVJldmVudWUgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICBtYXBPZigKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZSIgdG8gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgICAgICJhbW91bnQiIHRvIDEwMC45LAogICAgICAgICAgICAgICAgICAgICAgICAiY3VycmVuY3kiIHRvICJVU0QiCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZV9wZXJjZW50X2NoYW5nZSIgdG8gLjEKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBtYXBPZigKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZSIgdG8gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgICAgICJhbW91bnQiIHRvIDUwLjU2LAogICAgICAgICAgICAgICAgICAgICAgICAiY3VycmVuY3kiIHRvICJHQlAiCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZV9wZXJjZW50X2NoYW5nZSIgdG8gLjI5CiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgInJldmVudWUiIHRvIG1hcE9mKAogICAgICAgICAgICAgICAgICAgICAgICAiYW1vdW50IiB0byAxMDAwMCwKICAgICAgICAgICAgICAgICAgICAgICAgImN1cnJlbmN5IiB0byAiVEhCIgogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgInJldmVudWVfcGVyY2VudF9jaGFuZ2UiIHRvIC45NDUKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgIHZhbCBmYWtlQm9va2luZ3MgPSAxMDAsCiAgICAgICAgdmFsIGZha2VCb29raW5nc1BlcmNlbnRDaGFuZ2UgPSBCaWdEZWNpbWFsKCIuNTc4NCIpLAogICAgICAgIHZhbCBmYWtlU3BvdHMgPSAyMDAsCiAgICAgICAgdmFsIGZha2VTcG90c1BlcmNlbnRDaGFuZ2UgPSBCaWdEZWNpbWFsKCIuNjY2NiIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmZldGNoQ291bnQoKQo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgcmV2ZW51ZXMgPSBmYWtlUmV2ZW51ZSwKICAgICAgICAgICAgYm9va2luZ3MgPSBmYWtlQm9va2luZ3MsCiAgICAgICAgICAgIGJvb2tpbmdzUGVyY2VudENoYW5nZSA9IGZha2VCb29raW5nc1BlcmNlbnRDaGFuZ2UsCiAgICAgICAgICAgIHNwb3RzID0gZmFrZVNwb3RzLAogICAgICAgICAgICBzcG90c1BlcmNlbnRDaGFuZ2UgPSBmYWtlU3BvdHNQZXJjZW50Q2hhbmdlLA==</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzKCkKICAgIH0K</text>
+        <text encoding="base64">ICAgIGZ1biBmaXJzdE9mQ3VycmVudE1vbnRoID0gTG9jYWxEYXRlLm5vdygpLndpdGhEYXlPZk1vbnRoKDEpCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZmFrZUJvb2tpbmdzID0gMTAwLAogICAgICAgIHZhbCBmYWtlQm9va2luZ3NQZXJjZW50Q2hhbmdlID0gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -5133,36 +5133,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>listOf(
-                mapOf(
-                    &quot;revenue&quot; to mapOf(
-                        &quot;amount&quot; to 100.9,
-                        &quot;currency&quot; to &quot;USD&quot;
-                    ),
-                    &quot;revenue_percent_change&quot; to .1
-                ),
-                mapOf(
-                    &quot;revenue&quot; to mapOf(
-                        &quot;amount&quot; to 50.56,
-                        &quot;currency&quot; to &quot;GBP&quot;
-                    ),
-                    &quot;revenue_percent_change&quot; to .29
-                ),
-                mapOf(
-                    &quot;revenue&quot; to mapOf(
-                        &quot;amount&quot; to 10000,
-                        &quot;currency&quot; to &quot;THB&quot;
-                    ),
-                    &quot;revenue_percent_change&quot; to .945
-                )
-            )</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgIH0K</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5210,10 +5188,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZmFrZVJldmVudWUgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICBtYXBPZigKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZSIgdG8gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgICAgICJhbW91bnQiIHRvIDEwMC45LAogICAgICAgICAgICAgICAgICAgICAgICAiY3VycmVuY3kiIHRvICJVU0QiCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZV9wZXJjZW50X2NoYW5nZSIgdG8gLjEKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBtYXBPZigKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZSIgdG8gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgICAgICJhbW91bnQiIHRvIDUwLjU2LAogICAgICAgICAgICAgICAgICAgICAgICAiY3VycmVuY3kiIHRvICJHQlAiCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZV9wZXJjZW50X2NoYW5nZSIgdG8gLjI5CiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgInJldmVudWUiIHRvIG1hcE9mKAogICAgICAgICAgICAgICAgICAgICAgICAiYW1vdW50IiB0byAxMDAwMCwKICAgICAgICAgICAgICAgICAgICAgICAgImN1cnJlbmN5IiB0byAiVEhCIgogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgInJldmVudWVfcGVyY2VudF9jaGFuZ2UiIHRvIC45NDUKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgIHZhbCBmYWtlQm9va2luZ3MgPSAxMDAsCiAgICAgICAgdmFsIGZha2VCb29raW5nc1BlcmNlbnRDaGFuZ2UgPSBCaWdEZWNpbWFsKCIuNTc4NCIpLAogICAgICAgIHZhbCBmYWtlU3BvdHMgPSAyMDAsCiAgICAgICAgdmFsIGZha2VTcG90c1BlcmNlbnRDaGFuZ2UgPSBCaWdEZWNpbWFsKCIuNjY2NiIpCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gU3RhdHNSZXBvcnRSZXNwb25zZSgKICAgICAgICAgICAgcmV2ZW51ZSA9IGxpc3RPZigKICAgICAgICAgICAgICAgIG1hcE9mKAogICAgICAgICAgICAgICAgICAgICJyZXZlbnVlIiB0byBtYXBPZigKICAgICAgICAgICAgICAgICAgICAgICAgImFtb3VudCIgdG8gMTAwLjksCiAgICAgICAgICAgICAgICAgICAgICAgICJjdXJyZW5jeSIgdG8gIlVTRCIKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICJyZXZlbnVlX3BlcmNlbnRfY2hhbmdlIiB0byAuMQogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIG1hcE9mKAogICAgICAgICAgICAgICAgICAgICJyZXZlbnVlIiB0byBtYXBPZigKICAgICAgICAgICAgICAgICAgICAgICAgImFtb3VudCIgdG8gNTAuNTYsCiAgICAgICAgICAgICAgICAgICAgICAgICJjdXJyZW5jeSIgdG8gIkdCUCIKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICJyZXZlbnVlX3BlcmNlbnRfY2hhbmdlIiB0byAuMjkKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBtYXBPZigKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZSIgdG8gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgICAgICJhbW91bnQiIHRvIDEwMDAwLAogICAgICAgICAgICAgICAgICAgICAgICAiY3VycmVuY3kiIHRvICJUSEIiCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAicmV2ZW51ZV9wZXJjZW50X2NoYW5nZSIgdG8gLjk0NQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApLAogICAgICAgICAgICBib29raW5ncyA9IDEwMCwKICAgICAgICAgICAgYm9va2luZ3NQZXJjZW50Q2hhbmdlID0gQmlnRGVjaW1hbCgiLjU3ODQiKSwKICAgICAgICAgICAgc3BvdHMgPSAyMDAsCiAgICAgICAgICAgIHNwb3RzUGVyY2VudENoYW5nZSA9IEJpZ0RlY2ltYWwoIi42NjY2IikKICAgICAgICApCg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgcmV2ZW51ZXMgPSBmYWtlUmV2ZW51ZSwKICAgICAgICAgICAgYm9va2luZ3MgPSBmYWtlQm9va2luZ3MsCiAgICAgICAgICAgIGJvb2tpbmdzUGVyY2VudENoYW5nZSA9IGZha2VCb29raW5nc1BlcmNlbnRDaGFuZ2UsCiAgICAgICAgICAgIHNwb3RzID0gZmFrZVNwb3RzLAogICAgICAgICAgICBzcG90c1BlcmNlbnRDaGFuZ2UgPSBmYWtlU3BvdHNQZXJjZW50Q2hhbmdlLA==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -5223,17 +5201,16 @@
       </register>
     </registers>
     <search>
-      <last-search>linkedven</last-search>
+      <last-search>mont</last-search>
       <last-offset />
-      <last-pattern>linkedven</last-pattern>
+      <last-pattern>mont</last-pattern>
       <last-replace>true)</last-replace>
       <last-substitute>1 )</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">XDx2ZW51ZVBvcnRhbFRyYW5zYWN0aW9uQ29udGV4dFw+</entry>
         <entry encoding="base64">XDxpbml0XD4=</entry>
         <entry encoding="base64">XDx2ZW51ZVBvcnRhbEpkYmlcPg==</entry>
         <entry encoding="base64">XDxzZXR1cEpvb3FWZW51ZVBvcnRhbFRlc3REYXRhYmFzZVw+</entry>
@@ -5253,6 +5230,7 @@
         <entry>to</entry>
         <entry>in</entry>
         <entry>linkedven</entry>
+        <entry>mont</entry>
       </history-search>
       <history-cmd>
         <entry>131</entry>
