@@ -155,11 +155,6 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.data-importer/importer/1.0.8/93ca81cf4555e4cb8c01bc6d0ecb0d9819d441b1/importer-1.0.8-sources.jar!/com/classpass/common/importer/Importer.kt" timestamp="1580485243561">
         <mark key="'" line="215" column="36" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/StatsController.kt" timestamp="1580842108683">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1580933870499">
         <mark key="'" line="110" column="46" />
         <mark key="[" line="175" column="101" />
@@ -219,11 +214,11 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/EmailNotificationClient.kt" timestamp="1578417726681">
         <mark key="'" line="68" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/StatsReportDaoTest.kt" timestamp="1580938992207">
-        <mark key="[" line="15" column="85" />
-        <mark key="]" line="15" column="129" />
-        <mark key="^" line="15" column="129" />
-        <mark key="." line="15" column="129" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/StatsReportDaoTest.kt" timestamp="1580943696501">
+        <mark key="[" line="17" column="13" />
+        <mark key="]" line="17" column="13" />
+        <mark key="^" line="17" column="82" />
+        <mark key="." line="17" column="86" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/SelectLimitStep.java" timestamp="1573252743310">
         <mark key="'" line="121" column="28" />
@@ -298,6 +293,10 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" timestamp="1580839289392">
         <mark key="'" line="57" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/DashboardUserControllerTest.kt" timestamp="1580943461056">
+        <mark key="[" line="55" column="9" />
+        <mark key="." line="55" column="53" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/synthetic/generator/SyntheticDataGenerator.kt" timestamp="1578692471269">
         <mark key="'" line="149" column="49" />
@@ -1907,10 +1906,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>.start, dateRange.endInclusive</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>asdf</text>
+        <text>schedules</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgdmVudWVzID0KICAgICAgICAgICAgY291bnRyaWVzLmZsYXRNYXAgeyBjb3VudHJ5IC0+IExpc3QoMikgeyB2ZW51ZUZhY3RvcnkuY3JlYXRlKGNvdW50cnkgPSBjb3VudHJ5KSB9IH0KICAgICAgICB2YWwgdXNlciA9IGRhc2hib2FyZFVzZXJGYWN0b3J5LmNyZWF0ZShsaW5rZWRWZW51ZUlkcyA9IHZlbnVlcy5tYXAgeyBpdC52ZW51ZUlkIH0pCiAgICAgICAgdmFsIGNsYXNzZXMgPSB2ZW51ZXMubWFwIHsgY2xhc3NGYWN0b3J5LmNyZWF0ZSh2ZW51ZSA9IGl0KSB9CgogICAgICAgIHZhbCBzY2hlZHVsZXMgPSBjbGFzc2VzLmZsYXRNYXAgeyBjbGFzc3Rpdml0eUNsYXNzIC0+CiAgICAgICAgICAgIHZhbCBjbGFzc1Bhc3NTcG90cyA9IEludHMuaW50cygpLnJhbmdlKDAsIDQwKS5nZXQoKQogICAgICAgICAgICBkYXlzLm1hcCB7IGRhdGUgLT4KICAgICAgICAgICAgICAgIHNjaGVkdWxlRmFjdG9yeS5jcmVhdGUoY2xhc3NwYXNzU3BvdHMgPSBjbGFzc1Bhc3NTcG90cywgY2xhc3N0aXZpdHlDbGFzcyA9IGNsYXNzdGl2aXR5Q2xhc3MsIGRhdGUgPSBkYXRlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHZhbCByZXNlcnZhdGlvbnMgPSBzY2hlZHVsZXMubWFwIHsgcmVzZXJ2YXRpb25GYWN0b3J5LmNyZWF0ZShzY2hlZHVsZSA9IGl0KSB9CiAgICAgICAgdmFsIHJldmVudWVJdGVtTG9ncyA9IHJlc2VydmF0aW9ucy5tYXAgeyByZXZlbnVlSXRlbUxvZ0ZhY3RvcnkuY3JlYXRlKHJlc2VydmF0aW9uID0gaXQpIH0K</text>
@@ -5042,9 +5041,9 @@
       </register>
     </registers>
     <search>
-      <last-search>asdf</last-search>
+      <last-search>schedules</last-search>
       <last-offset />
-      <last-pattern>asdf</last-pattern>
+      <last-pattern>schedules</last-pattern>
       <last-replace>true)</last-replace>
       <last-substitute>1 )</last-substitute>
       <last-dir>1</last-dir>
@@ -5052,7 +5051,6 @@
     </search>
     <history>
       <history-search>
-        <entry>replace</entry>
         <entry>build</entry>
         <entry>csv</entry>
         <entry>flush</entry>
@@ -5072,6 +5070,7 @@
         <entry>100</entry>
         <entry>y</entry>
         <entry>asdf</entry>
+        <entry>schedules</entry>
       </history-search>
       <history-cmd>
         <entry>131</entry>
