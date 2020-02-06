@@ -180,6 +180,9 @@
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/resources/ReportingResource.java" timestamp="1574117864123">
         <mark key="'" line="55" column="13" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" timestamp="1581004394140">
+        <mark key="'" line="71" column="25" />
+      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/SQLDialect.java" timestamp="1572987886408">
         <mark key="'" line="56" column="12" />
       </file>
@@ -240,11 +243,12 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/SelectForUpdateStep.java" timestamp="1573252745593">
         <mark key="'" line="118" column="37" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" timestamp="1580938412277">
-        <mark key="[" line="22" column="46" />
-        <mark key="]" line="23" column="67" />
-        <mark key="^" line="23" column="67" />
-        <mark key="." line="23" column="67" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" timestamp="1581004356581">
+        <mark key="'" line="25" column="63" />
+        <mark key="[" line="34" column="80" />
+        <mark key="]" line="34" column="82" />
+        <mark key="^" line="34" column="82" />
+        <mark key="." line="34" column="82" />
       </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/main/kotlin/com/classpass/framework/context/pushnotifications/RegisteredUserExtensions.kt" timestamp="1578606084725">
         <mark key="'" line="10" column="38" />
@@ -347,14 +351,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/data/initial_venue_postgres_data.sql" />
-      <jump line="4" column="149" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/data/initial_venue_postgres_data.sql" />
-      <jump line="5" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/data/initial_venue_postgres_data.sql" />
-      <jump line="161" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="192" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="22" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
-      <jump line="17" column="116" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
-      <jump line="15" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
       <jump line="14" column="98" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
       <jump line="13" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
       <jump line="24" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
@@ -447,6 +443,14 @@
       <jump line="33" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/StatsReportControllerTest.kt" />
       <jump line="37" column="72" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/StatsReportControllerTest.kt" />
       <jump line="40" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/StatsReportControllerTest.kt" />
+      <jump line="29" column="42" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" />
+      <jump line="24" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" />
+      <jump line="562" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="11" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="12" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="31" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="70" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
+      <jump line="71" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/RevenueReportingTest.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1914,13 +1918,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>36</text>
+        <text>BigDecimal</text>
       </register>
       <register name="/" type="4">
-        <text>date</text>
+        <text>revenue</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gdGVzdEdldEJvb2tpbmdzKCkgewogICAgICAgIHZhbCBkYXRlUmFuZ2UgPSBMb2NhbERhdGUubm93KCkubWludXNNb250aHMoMSkuLkxvY2FsRGF0ZS5ub3coKQogICAgICAgIHZhbCB2ZW51ZXMgPSBMaXN0KDIpIHsgdmVudWVGYWN0b3J5LmNyZWF0ZSgpIH0KICAgICAgICB2YWwgY2xhc3NlcyA9IHZlbnVlcy5tYXAgeyBjbGFzc0ZhY3RvcnkuY3JlYXRlKHZlbnVlID0gaXQpIH0KICAgICAgICB2YWwgc2NoZWR1bGVzID0KICAgICAgICAgICAgRGF0ZVV0aWxzLkRhdGVQcm9ncmVzc2lvbihkYXRlUmFuZ2Uuc3RhcnQubWludXNEYXlzKDEpLCBkYXRlUmFuZ2UuZW5kSW5jbHVzaXZlKS5mbGF0TWFwIHsgZGF0ZSAtPgogICAgICAgICAgICAgICAgY2xhc3Nlcy5tYXAgeyBzY2hlZHVsZUZhY3RvcnkuY3JlYXRlKGNsYXNzdGl2aXR5Q2xhc3MgPSBpdCwgZGF0ZSA9IGRhdGUpIH0KICAgICAgICAgICAgfQogICAgICAgIHZhbCByZXNlcnZhdGlvbnMgPSBzY2hlZHVsZXMuZmxhdE1hcCB7IHNjaGVkdWxlIC0+IExpc3QoMykgeyByZXNlcnZhdGlvbkZhY3RvcnkuY3JlYXRlKHNjaGVkdWxlID0gc2NoZWR1bGUpIH0gfQogICAgICAgIHZhbCByZXZlbnVlSXRlbUxvZ3MgPSByZXNlcnZhdGlvbnMubWFwIHsKICAgICAgICAgICAgcmV2ZW51ZUl0ZW1Mb2dGYWN0b3J5LmNyZWF0ZSgKICAgICAgICAgICAgICAgIHJlc2VydmF0aW9uID0gaXQsCiAgICAgICAgICAgICAgICBzdGF0dXMgPSBSZXZlbnVlSXRlbUxvZ1N0YXR1cy5BVFRFTkRFRC50b0RiU3RyaW5nKCkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgICAgICB2YWwgYWN0dWFsID0gc3RhdHNSZXBvcnREYW8uZ2V0Qm9va2luZ3ModmVudWVzLm1hcCB7IGl0LnZlbnVlSWQgfSwgZGF0ZVJhbmdlKQogICAgICAgIHZhbCBleHBlY3RlZCA9IHJldmVudWVJdGVtTG9ncy5maWx0ZXIgeyBpdC5jbGFzc0RhdGUgaW4gZGF0ZVJhbmdlIH0uc2l6ZQogICAgICAgIGFzc2VydFRoYXQoYWN0dWFsKS5pc0VxdWFsVG8oZXhwZWN0ZWQpCiAgICB9Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">dmVudWVJZHM6IExpc3Q8VmVudWVJZD4sIGRhdGVSYW5nZTogQ2xvc2VkUmFuZ2U8TG9jYWxEYXRlPg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
@@ -5049,9 +5053,9 @@
       </register>
     </registers>
     <search>
-      <last-search>date</last-search>
+      <last-search>revenue</last-search>
       <last-offset />
-      <last-pattern>date</last-pattern>
+      <last-pattern>revenue</last-pattern>
       <last-replace>true)</last-replace>
       <last-substitute>1 )</last-substitute>
       <last-dir>1</last-dir>
@@ -5059,8 +5063,6 @@
     </search>
     <history>
       <history-search>
-        <entry>speedlimit</entry>
-        <entry encoding="base64">XDxjdXJyZW50Q3ljbGVcPg==</entry>
         <entry>use</entry>
         <entry>to</entry>
         <entry>in</entry>
@@ -5079,6 +5081,8 @@
         <entry encoding="base64">ZnVuIA==</entry>
         <entry>min</entry>
         <entry>date</entry>
+        <entry encoding="base64">XDxkYXRlUmFuZ2VcPg==</entry>
+        <entry>revenue</entry>
       </history-search>
       <history-cmd>
         <entry>131</entry>
