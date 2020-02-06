@@ -330,6 +330,12 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/RevenueItemLog.kt" timestamp="1573230223317">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1581011566876">
+        <mark key="[" line="133" column="20" />
+        <mark key="]" line="133" column="33" />
+        <mark key="." line="133" column="33" />
+        <mark key="^" line="133" column="33" />
+      </file>
       <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/PORTS.md" timestamp="1578700790074">
         <mark key="'" line="0" column="0" />
       </file>
@@ -362,11 +368,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
-      <jump line="28" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
-      <jump line="30" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
-      <jump line="31" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
-      <jump line="29" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
       <jump line="23" column="106" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
       <jump line="34" column="1" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
       <jump line="25" column="110" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dataimporter/InsertDataControllerTest.kt" />
@@ -462,6 +463,11 @@
       <jump line="10" column="19" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ReservationsReportResponse.kt" />
       <jump line="95" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" />
       <jump line="44" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/RevenueItemLogVenuePortalDao.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="3" column="52" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="111" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="112" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="12" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -1929,13 +1935,13 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>0.945</text>
+        <text>SummaryReportLegacyDao</text>
       </register>
       <register name="/" type="4">
-        <text>map</text>
+        <text>statsrep</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgY3VyciA9IDc0NTAKICAgICAgICB2YWwgcHJldiA9IDEwMDAwCiAgICAgICAgdmFsIGFjdHVhbCA9IHN0YXRzUmVwb3J0Q29udHJvbGxlci5wZXJjZW50Q2hhbmdlKHByZXYsIGN1cnIpCiAgICAgICAgdmFsIGV4cGVjdGVkID0gQmlnRGVjaW1hbCgiLS4yNTUwIikKICAgICAgICBhc3NlcnRUaGF0KGFjdHVhbCkuaXNFcXVhbFRvKGV4cGVjdGVkKQo=</text>
+        <text encoding="base64">ICAgICAgICBiaW5kZXIuYmluZChTdW1tYXJ5UmVwb3J0TGVnYWN5RGFvOjpjbGFzcy5qYXZhKQo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
@@ -5064,9 +5070,9 @@
       </register>
     </registers>
     <search>
-      <last-search>map</last-search>
+      <last-search>statsrep</last-search>
       <last-offset />
-      <last-pattern>map</last-pattern>
+      <last-pattern>statsrep</last-pattern>
       <last-replace>true)</last-replace>
       <last-substitute>1 )</last-substitute>
       <last-dir>1</last-dir>
@@ -5074,9 +5080,6 @@
     </search>
     <history>
       <history-search>
-        <entry>in</entry>
-        <entry>linkedven</entry>
-        <entry>mont</entry>
         <entry>controller</entry>
         <entry encoding="base64">XDxyZXNlcnZhdGlvbnNSZXBvcnRDb250cm9sbGVyXD4=</entry>
         <entry encoding="base64">XDxzdGF0c1JlcG9ydENvbnRyb2xsZXJcPg==</entry>
@@ -5094,6 +5097,9 @@
         <entry>monet</entry>
         <entry>revenue</entry>
         <entry>map</entry>
+        <entry>control</entry>
+        <entry>not</entry>
+        <entry>statsrep</entry>
       </history-search>
       <history-cmd>
         <entry>131</entry>
