@@ -42,6 +42,7 @@
     <keyboard-shortcut first-keystroke="meta 9" />
     <keyboard-shortcut first-keystroke="shift meta 9" />
     <keyboard-shortcut first-keystroke="alt 9" />
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta alt left" />
@@ -55,10 +56,28 @@
     <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
-  <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="ctrl k" />
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+    <keyboard-shortcut first-keystroke="meta minus" />
   </action>
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorStartNewLine" />
   <action id="EditorUnSelectWord" />
+  <action id="EvaluateExpression" />
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="meta add" />
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
   <action id="ExportToTextFile" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
@@ -79,7 +98,6 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="HideActiveWindow" />
   <action id="MarkdownNavigator.ToggleCodeSpan" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift alt l" />
@@ -90,43 +108,41 @@
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
+  <action id="OpenElementInNewWindow" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="meta alt o" />
     <keyboard-shortcut first-keystroke="alt i" />
-  </action>
-  <action id="PlaybackLastMacro">
-    <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
-  <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  <action id="RerunFailedTests">
+    <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
-  <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
-  <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-  </action>
-  <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
-  </action>
-  <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
-  </action>
+  <action id="Switcher" />
   <action id="VimWindowSplitHorizontal">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="j" />
   </action>
   <action id="VimWindowSplitVertical">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="l" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="alt f8" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.RepeatAction">
+    <keyboard-shortcut first-keystroke="alt period" />
   </action>
 </keymap>
