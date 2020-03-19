@@ -1,7 +1,7 @@
 <templateSet group="Kotlin">
   <template name="aeq" value="assertThat($ACTUAL$).isEqualTo($EXPECTED$)" description="Assert Equals" toReformat="true" toShortenFQNames="true">
-    <variable name="ACTUAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="EXPECTED" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTUAL" expression="" defaultValue="actual" alwaysStopAt="true" />
+    <variable name="EXPECTED" expression="" defaultValue="expected" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_EXPRESSION" value="true" />
       <option name="KOTLIN_STATEMENT" value="true" />
