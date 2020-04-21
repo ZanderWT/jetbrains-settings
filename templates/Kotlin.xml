@@ -7,7 +7,7 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="genny" value="fun $LOWER$(name: String? = null,&#10;    init: Generator&lt;$CLASSNAME$&gt;.() -&gt; Unit = {}&#10;) = $CLASSNAME$Generator(name).apply(init).generate()&#10;private class $CLASSNAME$Generator(val name: String?): Generator&lt;$CLASSNAME$&gt;() {&#10;    override fun build(): Pair&lt;$CLASSNAME$, List&lt;TableRecord&lt;*&gt;&gt;&gt; {&#10;        TODO()&#10;        return Pair($CLASSNAME$.create(record), listOf(record))&#10;    }&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="genny" value="fun $LOWER$(name: String? = null,&#10;    init: Generator&lt;$CLASSNAME$&gt;.() -&gt; Unit = {}&#10;) = $CLASSNAME$Generator(name).apply(init).generate()&#10;private class $CLASSNAME$Generator(val name: String?): Generator&lt;$CLASSNAME$&gt;() {&#10;    override fun build(): Pair&lt;$CLASSNAME$, List&lt;TableRecord&lt;*&gt;&gt;&gt; {&#10;        TODO()&#10;        return Pair($CLASSNAME$.create(record), listOf(record))&#10;    }&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="LOWER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
