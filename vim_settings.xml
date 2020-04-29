@@ -47,8 +47,8 @@
         <entry>action MethodUp</entry>
         <entry>bnext</entry>
         <entry>s;-;_;g</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -124,12 +124,12 @@
       <file name="$USER_HOME$/cp-projects/segments/code/application/src/main/resources/com/classpass/segments/dao/SegmentsDao.sql.stg" timestamp="1588098585042">
         <mark key="'" line="40" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588188786786">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588188857421">
         <mark key="'" line="493" column="0" />
-        <mark key="[" line="237" column="69" />
-        <mark key="]" line="237" column="72" />
-        <mark key="." line="237" column="71" />
-        <mark key="^" line="237" column="72" />
+        <mark key="[" line="237" column="79" />
+        <mark key="]" line="237" column="100" />
+        <mark key="." line="236" column="12" />
+        <mark key="^" line="237" column="101" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/SegmentsServiceConfig.kt" timestamp="1588188103781">
         <mark key="'" line="2" column="0" />
@@ -202,12 +202,12 @@
         <mark key="^" line="6" column="3" />
         <mark key="." line="6" column="3" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588188646907">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588193712410">
         <mark key="'" line="24" column="31" />
-        <mark key="[" line="17" column="30" />
-        <mark key="]" line="17" column="36" />
-        <mark key="." line="17" column="35" />
-        <mark key="^" line="17" column="36" />
+        <mark key="[" line="26" column="95" />
+        <mark key="]" line="26" column="101" />
+        <mark key="." line="26" column="100" />
+        <mark key="^" line="26" column="101" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Constants.kt" timestamp="1588187732777">
         <mark key="'" line="5" column="4" />
@@ -321,8 +321,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="a" type="2">
-        <text encoding="base64">dHlwZWFsaWFzIFNlZ21lbnRTZWFyY2hTY2hlZHVsZSA9IGNvbS5jbGFzc3Bhc3MuCg==</text>
+      <register name="a" type="4">
+        <text>covidDisabledSegmentId</text>
       </register>
       <register name="&quot;" type="4">
         <text>&quot;</text>
@@ -342,8 +342,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="*" type="4">
+        <text>covidDisabledSegmentId</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -723,38 +723,38 @@
       <register name="/" type="4">
         <text>legacydbi</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjb25maWc6IFNlZ21lbnRzU2VydmljZUNvbmZpZywKICAgICAgICBva0h0dHBDbGllbnRCdWlsZGVyOiBPa0h0dHBDbGllbnQuQnVpbGRlciwKICAgICAgICBvYmplY3RNYXBwZXI6IE9iamVjdE1hcHBlcgo=</text>
+      <register name="0" type="4">
+        <text>covidDisabledSegmentId</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="1" type="4">
+        <text>covidDisablingSegmentId</text>
       </register>
       <register name="q" type="4">
         <text>%&quot;apn</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBQcm92aWRlcwogICAgZnVuIHByb3ZpZGVDb3ZpZENvbnRyb2xzQ29udHJvbGxlcigKICAgICAgICAKICAgICk6IENvdmlkQ29udHJvbHNDb250cm9sbGVyCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dHlwZWFsaWFzIFNlZ21lbnRTZWFyY2hTY2hlZHVsZSA9IGNvbS5jbGFzc3Bhc3Muc2VnbWVudHMucmVxdWVzdHMuU2NoZWR1bGUK</text>
+        <text encoding="base64">ICAgIEBQcm92aWRlcwogICAgZnVuIHByb3ZpZGVDb3ZpZENvbnRyb2xzQ29udHJvbGxlcigKICAgICAgICAKICAgICk6IENvdmlkQ29udHJvbHNDb250cm9sbGVyCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2VnbWVudHMucmVxdWVzdHMuU2NoZWR1bGUK</text>
+        <text encoding="base64">dHlwZWFsaWFzIFNlZ21lbnRTZWFyY2hTY2hlZHVsZSA9IGNvbS5jbGFzc3Bhc3Muc2VnbWVudHMucmVxdWVzdHMuU2NoZWR1bGUK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">dHlwZWFsaWFzIFNlZ21lbnRTZWFyY2hTY2hlZHVsZSA9IGNvbS5jbGFzc3Bhc3MuCg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2VnbWVudHMucmVxdWVzdHMuU2NoZWR1bGUK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3765,13 +3765,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">dHlwZWFsaWFzIFNlZ21lbnRTZWFyY2hTY2hlZHVsZSA9IGNvbS5jbGFzc3Bhc3MuCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBQQVRIKCIvIikK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -3819,13 +3819,13 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuCg==</text>
+        <text encoding="base64">ICAgIEBQQVRIKCIvIikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2VnCg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuCg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ToggleBookmarkWithMnemonic</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
