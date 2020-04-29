@@ -24,9 +24,9 @@
         <entry>provide.*client</entry>
         <entry>tags</entry>
         <entry>SegmentsService</entry>
-        <entry>segment</entry>
         <entry>segm</entry>
         <entry encoding="base64">XDxNZWRpYVR5cGVcPg==</entry>
+        <entry>segment</entry>
       </history-search>
       <history-cmd>
         <entry>s;,;\r;g</entry>
@@ -124,8 +124,8 @@
       <file name="$USER_HOME$/cp-projects/segments/code/application/src/main/resources/com/classpass/segments/dao/SegmentsDao.sql.stg" timestamp="1588098585042">
         <mark key="'" line="40" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588183222458">
-        <mark key="'" line="383" column="7" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588186738432">
+        <mark key="'" line="91" column="37" />
         <mark key="[" line="2" column="30" />
         <mark key="]" line="2" column="36" />
         <mark key="." line="2" column="36" />
@@ -214,7 +214,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" />
       <jump line="621" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
       <jump line="629" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
       <jump line="15" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
@@ -307,13 +306,14 @@
       <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/SegmentsServiceConfig.kt" />
       <jump line="395" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="396" column="3" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="46" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="379" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="380" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="62" column="7" filename="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" />
-      <jump line="2" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="383" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="89" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/clients/EmailNotificationClientTest.kt" />
+      <jump line="2" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="46" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="91" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -718,7 +718,7 @@
         <text>segments</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxNZWRpYVR5cGVcPg==</text>
+        <text>segment</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">dGFnc1NlcnZpY2U6CiAgICB1cmw6ICR7Q1BfQ09ORklHX1RBR1NfVVJMOi1odHRwczovLyR7Q1BfQ09ORklHX0VOVn0tJHtDUF9DT05GSUdfUFVSUE9TRX0tdGFncy5jbGFzc3Bhc3MuY29tfQogICAgdGltZW91dE1pbGxpczogJHtDUF9DT05GSUdfVEFHU19USU1FT1VUX01JTExJUzotIjAifQo=</text>
@@ -3833,12 +3833,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxNZWRpYVR5cGVcPg==</last-search>
+      <last-search>segment</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxNZWRpYVR5cGVcPg==</last-pattern>
+      <last-pattern>segment</last-pattern>
       <last-replace>,\r</last-replace>
       <last-substitute>,</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
