@@ -46,9 +46,9 @@
         <entry>s;0;-1;g</entry>
         <entry encoding="base64">JzwsJz5zOzA7LTE7Zw==</entry>
         <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>action MethodUp</entry>
         <entry>111</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -121,9 +121,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" timestamp="1588187433539">
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="104" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1588262297948">
+        <mark key="[" line="28" column="23" />
+        <mark key="]" line="28" column="34" />
+        <mark key="." line="28" column="33" />
+        <mark key="^" line="28" column="34" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/MessageMembersController.kt" timestamp="1588203401010">
         <mark key="[" line="151" column="8" />
@@ -168,9 +170,6 @@
         <mark key="." line="29" column="31" />
         <mark key="^" line="29" column="10" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/clients/EmailNotificationClientTest.kt" timestamp="1588183754465">
-        <mark key="'" line="89" column="56" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/CovidControlsResponseItem.kt" timestamp="1588202613134">
         <mark key="[" line="8" column="28" />
         <mark key="]" line="12" column="14" />
@@ -209,6 +208,9 @@
         <mark key="]" line="20" column="26" />
         <mark key="." line="20" column="25" />
         <mark key="^" line="20" column="26" />
+      </file>
+      <file name="/fragment.java" timestamp="1588261873417">
+        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -338,7 +340,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>sendLiveStreamInstructionsToSchedule</text>
+        <text encoding="base64">TGlzdDxJbnQ+KDUp</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -713,7 +715,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Item</text>
+        <text encoding="base64">TGlzdDxJbnQ+KDUp</text>
       </register>
       <register name="/" type="4">
         <text>getlifetimevisitcountsprior</text>
@@ -725,31 +727,31 @@
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwucmVzcG9uc2UuQ292aWRDb250cm9sc1Jlc3BvbnNlSXRlbQo=</text>
+        <text encoding="base64">ICAgIEBNb2NrCg==</text>
       </register>
       <register name="q" type="4">
         <text>%&quot;apn</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwucmVzcG9uc2UuQ292aWRDb250cm9sc1Jlc3BvbnNlSXRlbQo=</text>
+        <text encoding="base64">ICAgIEBNb2NrCg==</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5tb2NraXRvLk1vY2sK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgdmVudWVTZWdtZW50cy5tYXAgeyAodmVudWVJZCwgc2VnbWVudHMpIC0+CiAgICAgICAgICAgIEdldENvdmlkQ29udHJvbHNSZXNwb25zZUl0ZW0oCiAgICAgICAgICAgICAgICB2ZW51ZUlkLAogICAgICAgICAgICAgICAgaWYgKHNlZ21lbnRzLmNvbnRhaW5zKHRoaXMuY292aWRTZWdtZW50SWQpKSBJblBlcnNvblNlcnZpY2VzU3RhdHVzLlBBVVNFRCBlbHNlIEluUGVyc29uU2VydmljZXNTdGF0dXMuTElWRQogICAgICAgICAgICApCiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdmVudWVTZWdtZW50cy5tYXAgeyh2ZW51ZUlkLCBzZWdtZW50cykgLT4gCiAgICAgICAgICAgICAgICBHZXRDb3ZpZENvbnRyb2xzUmVzcG9uc2VJdGVtKHZlbnVlSWQsIHNlZ21lbnRzLmNvbnRhaW5zKHRoaXMuY292aWRTZWdtZW50SWQpKQogICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIGNvbnN0IHZhbCBDT1ZJRF9TRUdNRU5UX0lEID0gNDA2Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3760,13 +3762,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">QEpzb25OYW1pbmcoUHJvcGVydHlOYW1pbmdTdHJhdGVneS5TbmFrZUNhc2VTdHJhdGVneTo6Y2xhc3MpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">IiIK</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwucmVzcG9uc2UuQ292aWRDb250cm9sc1Jlc3BvbnNlSXRlbQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -3814,13 +3816,13 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">LyoqCiAqIFRoZXJlJ3MgYWxyZWFkeSBhIC5ncm91cEJ5IGZ1bmN0aW9uIGluIHRoZSBzdGFuZGFyZCBsaWJyYXJ5IHRoYXQgb3V0cHV0cyBhIE1hcDxLLCBMaXN0PFY+Pi4gVGhpcyBpcyB0aGUgc2FtZSwgYnV0CiAqIGdpdmVzIHlvdSBhIE1hcDxLLCBTZXQ8Vj4+CiAqLwpmdW4gPFQsIEssIFY+IEl0ZXJhYmxlPFQ+Lmdyb3VwQnlUb011bHRpbWFwKGtleVNlbGVjdG9yOiAoVCkgLT4gSywgdmFsdWVTZWxlY3RvcjogKFQpIC0+IFYpOiBNYXA8SywgU2V0PFY+PiA9CiAgICB0aGlzLmdyb3VwaW5nQnkoa2V5U2VsZWN0b3IpCiAgICAgICAgLmZvbGQobXV0YWJsZVNldE9mKCksIHsgYWNjLCB2YWx1ZSAtPiBhY2MuYXBwbHkgeyBhZGQodmFsdWVTZWxlY3Rvcih2YWx1ZSkpIH0gfSkKCg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwucmVzcG9uc2UuQ292aWRDb250cm9sc1Jlc3BvbnNlSXRlbQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmZvbGQobXV0YWJsZVNldE9mPFNlZ21lbnRJZD4oKSwKICAgICAgICAgICAgICAgIHsgYWNjLCBzZWdtZW50IC0+IGFjYy5hcHBseSB7IGFkZChzZWdtZW50LmF0dHJpYnV0ZUlkKSB9IH0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>111</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
