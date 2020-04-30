@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>provide</entry>
-        <entry>segment</entry>
         <entry>legacydbi</entry>
         <entry>search</entry>
         <entry>return</entry>
@@ -27,6 +25,8 @@
         <entry>name</entry>
         <entry encoding="base64">XDxyZXNlcnZhdGlvblRhYmxlc1w+</entry>
         <entry>getlifetimevisitcountsprior</entry>
+        <entry>meth</entry>
+        <entry>arg</entry>
       </history-search>
       <history-cmd>
         <entry>s;this\.;;g</entry>
@@ -45,9 +45,9 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>s;0;-1;g</entry>
         <entry encoding="base64">JzwsJz5zOzA7LTE7Zw==</entry>
-        <entry>bnext</entry>
         <entry>action MethodUp</entry>
         <entry>111</entry>
+        <entry>bnext</entry>
         <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
@@ -121,11 +121,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1588263970940">
-        <mark key="[" line="30" column="31" />
-        <mark key="]" line="30" column="55" />
-        <mark key="." line="30" column="54" />
-        <mark key="^" line="30" column="55" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1588265159255">
+        <mark key="[" line="63" column="0" />
+        <mark key="]" line="63" column="0" />
+        <mark key="." line="63" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/MessageMembersController.kt" timestamp="1588203401010">
         <mark key="[" line="151" column="8" />
@@ -214,8 +213,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/NotificationsResource.kt" />
-      <jump line="4" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/NotificationsResource.kt" />
       <jump line="5" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/NotificationsResource.kt" />
       <jump line="30" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/NotificationsController.kt" />
       <jump line="95" column="58" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/NotificationsControllerTest.kt" />
@@ -314,6 +311,8 @@
       <jump line="120" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
       <jump line="41" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
       <jump line="163" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
+      <jump line="47" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="64" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,8 +338,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="4">
-        <text>(1..5)</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -715,43 +714,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>(1..5)</text>
+        <text>method</text>
       </register>
       <register name="/" type="4">
-        <text>getlifetimevisitcountsprior</text>
+        <text>arg</text>
       </register>
-      <register name="0" type="4">
-        <text>sendLiveStreamInstructionsToSchedule</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgM0wgdG8gc2V0T2YoNkwsIDMwTCkK</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_RESERVATIONS</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBNb2NrCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text>%&quot;apn</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBNb2NrCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBjaGVjayB0aGF0IHdlIGNhbGxlZCB0aGUgc2VnbWVudHMgYXBpIGNvcnJlY3RseQogICAgICAgIHZlcmlmeShzZWdtZW50c0NsaWVudCkuc2VhcmNoU2NoZWR1bGVTZWdtZW50cyhhcmdUaGF0IHsgCiAgICAgICAgICAgIHRoaXMuc2NoZWR1bGVzLgogICAgICAgIH0pCg==</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5tb2NraXRvLk1vY2sK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ1ZQo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXQuCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IHZhbCBDT1ZJRF9TRUdNRU5UX0lEID0gNDA2Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3761,14 +3760,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>()</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwucmVzcG9uc2UuQ292aWRDb250cm9sc1Jlc3BvbnNlSXRlbQo=</text>
+      <register name="7" type="4">
+        <text>CompletableFuture() segmentsSearchResult</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -3816,10 +3815,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwucmVzcG9uc2UuQ292aWRDb250cm9sc1Jlc3BvbnNlSXRlbQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIFNlZ21lbnRNYXRjaChzZWdtZW50SWQ6IExvbmcsIHNlZ21lbnRSb3dJZDogTG9uZywgYXR0cmlidXRlOiBTZWdtZW50VHlwZUF0dHJpYnV0ZSwgYXR0cmlidXRlSWQ6IExvbmcpIHsKICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBNb2NrCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3831,9 +3830,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>getlifetimevisitcountsprior</last-search>
+      <last-search>arg</last-search>
       <last-offset />
-      <last-pattern>getlifetimevisitcountsprior</last-pattern>
+      <last-pattern>arg</last-pattern>
       <last-replace>-1</last-replace>
       <last-substitute>0</last-substitute>
       <last-dir>1</last-dir>
