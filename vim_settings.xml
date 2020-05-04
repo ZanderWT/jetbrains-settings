@@ -7,14 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>venue</entry>
-        <entry>link</entry>
-        <entry encoding="base64">XDxnZXRMaW5rZWRWZW51ZUlkc1w+</entry>
-        <entry>segment</entry>
-        <entry>member</entry>
-        <entry>insertsegmentmemb</entry>
-        <entry encoding="base64">XDxQYXRoUGFyYW1cPg==</entry>
-        <entry encoding="base64">XDxQYXRoXD4=</entry>
         <entry>cancel</entry>
         <entry>add</entry>
         <entry>1.2.\zs0</entry>
@@ -27,6 +19,14 @@
         <entry encoding="base64">XDxjb3ZpZFNlZ21lbnRTbHVnXD4=</entry>
         <entry>getUser</entry>
         <entry>else</entry>
+        <entry>ext</entry>
+        <entry>slug</entry>
+        <entry>{seg</entry>
+        <entry>segme</entry>
+        <entry>retrof</entry>
+        <entry>segmentsclient</entry>
+        <entry>segment</entry>
+        <entry>call</entry>
       </history-search>
       <history-cmd>
         <entry>s;xxthisxx;this;g</entry>
@@ -43,12 +43,12 @@
         <entry>action MethodUp</entry>
         <entry>111</entry>
         <entry>398</entry>
-        <entry>bnext</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>22</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -121,19 +121,19 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/segments/code/application/src/main/resources/com/classpass/segments/dao/SegmentsDao.sql.stg" timestamp="1588360625462">
-        <mark key="'" line="334" column="26" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1588620205415">
+        <mark key="'" line="57" column="40" />
+        <mark key="[" line="34" column="105" />
+        <mark key="]" line="34" column="125" />
+        <mark key="." line="34" column="124" />
+        <mark key="^" line="34" column="125" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" timestamp="1588367436042">
-        <mark key="'" line="38" column="0" />
-        <mark key="[" line="38" column="0" />
-        <mark key="]" line="67" column="1" />
-        <mark key="." line="20" column="0" />
-        <mark key="^" line="65" column="32" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/MessageMembersController.kt" timestamp="1588357543651">
-        <mark key="[" line="63" column="0" />
-        <mark key="]" line="63" column="76" />
+      <file name="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" timestamp="1588620689307">
+        <mark key="'" line="63" column="24" />
+        <mark key="[" line="58" column="25" />
+        <mark key="]" line="58" column="25" />
+        <mark key="." line="58" column="35" />
+        <mark key="^" line="63" column="36" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" timestamp="1588617535937">
         <mark key="'" line="15" column="6" />
@@ -171,8 +171,8 @@
         <mark key="]" line="13" column="55" />
         <mark key="." line="13" column="55" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588372029058">
-        <mark key="'" line="243" column="84" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588621719967">
+        <mark key="'" line="277" column="22" />
         <mark key="[" line="243" column="101" />
         <mark key="]" line="243" column="105" />
         <mark key="." line="243" column="104" />
@@ -184,6 +184,9 @@
         <mark key="." line="6" column="37" />
         <mark key="^" line="6" column="38" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/segments-api/1.2.0/abe54fbcf637dfe8adbd811161719853f3aed995/segments-api-1.2.0-sources.jar!/com/classpass/segments/models/SegmentMembers.java" timestamp="1588621051259">
+        <mark key="'" line="11" column="11" />
+      </file>
       <file name="$USER_HOME$/cp-projects/segments/pom.xml" timestamp="1588361820078">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="4" column="17" />
@@ -194,37 +197,40 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/PaymentsClient.kt" timestamp="1588367337968">
         <mark key="'" line="28" column="7" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationsReportController.kt" timestamp="1588357556895">
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="52" />
+      <file name="$USER_HOME$/cp-projects/partners-service/config/use1-config.yml" timestamp="1588621237246">
+        <mark key="[" line="90" column="4" />
+        <mark key="]" line="90" column="11" />
+        <mark key="^" line="90" column="11" />
+        <mark key="." line="90" column="10" />
+      </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/segments-client/1.2.0/507eebdcb4935c71b7265315e5080a4cf24e955e/segments-client-1.2.0-sources.jar!/com/classpass/segments/client/SegmentsClient.java" timestamp="1588620085822">
+        <mark key="'" line="37" column="17" />
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="56" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" timestamp="1588361252505">
         <mark key="'" line="35" column="20" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1588371729704">
-        <mark key="'" line="66" column="45" />
-        <mark key="[" line="66" column="105" />
-        <mark key="]" line="66" column="105" />
+      <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1588620978223">
+        <mark key="'" line="66" column="105" />
+        <mark key="[" line="66" column="79" />
+        <mark key="]" line="66" column="104" />
         <mark key="." line="66" column="105" />
         <mark key="^" line="66" column="76" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/application/src/main/java/com/classpass/segments/resource/SegmentsResourceV3.java" timestamp="1588361181628">
-        <mark key="'" line="33" column="8" />
-        <mark key="[" line="139" column="48" />
-        <mark key="]" line="140" column="84" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" timestamp="1588622244155">
+        <mark key="'" line="40" column="4" />
+        <mark key="[" line="40" column="71" />
+        <mark key="]" line="40" column="72" />
+        <mark key="." line="40" column="71" />
+        <mark key="^" line="40" column="72" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" timestamp="1588367524375">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="0" />
-        <mark key="." line="11" column="0" />
-        <mark key="^" line="10" column="55" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588618891993">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588622172724">
         <mark key="'" line="81" column="51" />
-        <mark key="[" line="92" column="0" />
-        <mark key="]" line="92" column="0" />
-        <mark key="." line="92" column="0" />
-        <mark key="^" line="92" column="8" />
+        <mark key="[" line="89" column="0" />
+        <mark key="]" line="89" column="93" />
+        <mark key="." line="89" column="0" />
+        <mark key="^" line="90" column="39" />
       </file>
       <file name="$USER_HOME$/cp-projects/segments/code/application/pom.xml" timestamp="1588361880797">
         <mark key="'" line="121" column="25" />
@@ -234,18 +240,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/VenuePaymentHistory.java" />
-      <jump line="78" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/VenuePaymentHistory.java" />
-      <jump line="80" column="95" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/VenuePaymentHistory.java" />
-      <jump line="98" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/VenuePaymentHistory.java" />
-      <jump line="100" column="95" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/VenuePaymentHistory.java" />
-      <jump line="140" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/VenuePaymentHistory.java" />
-      <jump line="120" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
-      <jump line="41" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
-      <jump line="163" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
-      <jump line="47" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="64" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="12" column="99" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/utils/Extensions.kt" />
       <jump line="14" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/utils/Extensions.kt" />
       <jump line="40" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="1240" column="11" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/fe3b9d48f4c3947639b6b1760213c1b79281383e/kotlin-stdlib-common-1.3.61-sources.jar!/generated/_Collections.kt" />
@@ -282,7 +276,6 @@
       <jump line="334" column="26" filename="$USER_HOME$/cp-projects/segments/code/application/src/main/resources/com/classpass/segments/dao/SegmentsDao.sql.stg" />
       <jump line="39" column="42" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="64" column="42" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
-      <jump line="63" column="42" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="20" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" />
       <jump line="22" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" />
       <jump line="33" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" />
@@ -304,7 +297,6 @@
       <jump line="23" column="0" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="28" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/PaymentsClient.kt" />
       <jump line="25" column="0" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
-      <jump line="38" column="0" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="13" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" />
       <jump line="237" column="79" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="397" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
@@ -318,14 +310,12 @@
       <jump line="18" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="23" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="74" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
-      <jump line="66" column="45" filename="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" />
       <jump line="57" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="28" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="410" column="33" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="240" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="241" column="9" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="242" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="243" column="84" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="29" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="26" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="116" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" />
@@ -334,12 +324,28 @@
       <jump line="75" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="86" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="81" column="51" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
+      <jump line="37" column="17" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/segments-client/1.2.0/507eebdcb4935c71b7265315e5080a4cf24e955e/segments-client-1.2.0-sources.jar!/com/classpass/segments/client/SegmentsClient.java" />
+      <jump line="10" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" />
+      <jump line="39" column="83" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" />
+      <jump line="38" column="0" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
+      <jump line="58" column="54" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
+      <jump line="63" column="24" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
+      <jump line="42" column="57" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" />
+      <jump line="66" column="105" filename="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" />
+      <jump line="6" column="0" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/segments-api/1.2.0/abe54fbcf637dfe8adbd811161719853f3aed995/segments-api-1.2.0-sources.jar!/com/classpass/segments/models/SegmentMembers.java" />
+      <jump line="9" column="12" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/segments-api/1.2.0/abe54fbcf637dfe8adbd811161719853f3aed995/segments-api-1.2.0-sources.jar!/com/classpass/segments/models/SegmentMembers.java" />
+      <jump line="11" column="11" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/segments-api/1.2.0/abe54fbcf637dfe8adbd811161719853f3aed995/segments-api-1.2.0-sources.jar!/com/classpass/segments/models/SegmentMembers.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" />
+      <jump line="243" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="276" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="277" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="40" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="a" type="4">
-        <text>(covidDisabledSegmentSlug, segmentMembersRequest)</text>
+        <text>segmentSlug</text>
       </register>
       <register name="&quot;" type="4">
         <text>&quot;</text>
@@ -359,8 +365,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="*" type="4">
+        <text>_s</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -735,48 +741,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>segmentMembersRequest</text>
+        <text>_s</text>
       </register>
       <register name="/" type="4">
-        <text>else</text>
+        <text>call</text>
       </register>
       <register name="0" type="4">
-        <text>, segmentMembersRequest)</text>
+        <text>partners-covid-segment-dev</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgSW5QZXJzb25TZXJ2aWNlc1N0YXR1cy5MSVZFIC0+IHNlZ21lbnRzQ2xpZW50OjppbmNyZW1lbnRhbFJlbW92ZVNlZ21lbnRNZW1iZXJzaGlwCg==</text>
       </register>
       <register name="q" type="4">
         <text>%&quot;apn</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgc2VnbWVudE1lbWJlcnNSZXF1ZXN0ID0gCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">PD4=</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="4">
-        <text>SegmentMembers(
-            userEmail, SEGMENT_MEMBERSHIP_CHANGE_REASON, SegmentMemberDefinition(
-                mapOf(SegmentTypeAttribute.VENUE_ID to listOf(venueId.toLong())),
-                emptyMap()
-            )
-        )</text>
+        <text encoding="base64">UmVzcG9uc2U8Vm9pZD4=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">PD4=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAoaWYgKGluUGVyc29uU2VydmljZXNTdGF0dXMgPT0gKSAKICAgICAgICBlbHNlICkK</text>
+      <register name="5" type="4">
+        <text encoding="base64">UmVzcG9uc2U8Vm9pZD4=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3787,13 +3788,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="4">
-        <text>(covidDisabledSegmentSlug, segmentMembersRequest)</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -3841,13 +3842,18 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIAo=</text>
+        <text encoding="base64">ICAgICAgICB2YWwgc2VnbWVudE1lbWJlcnNSZXF1ZXN0ID0gCg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHByCg==</text>
+      <register name="9" type="4">
+        <text>SegmentMembers(
+            userEmail, SEGMENT_MEMBERSHIP_CHANGE_REASON, SegmentMemberDefinition(
+                mapOf(SegmentTypeAttribute.VENUE_ID to listOf(venueId.toLong())),
+                emptyMap()
+            )
+        )</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3859,9 +3865,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>else</last-search>
+      <last-search>call</last-search>
       <last-offset />
-      <last-pattern>else</last-pattern>
+      <last-pattern>call</last-pattern>
       <last-replace>-1</last-replace>
       <last-substitute>0</last-substitute>
       <last-dir>1</last-dir>
