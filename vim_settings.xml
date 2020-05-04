@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>cancel</entry>
         <entry>add</entry>
         <entry>1.2.\zs0</entry>
         <entry>lint</entry>
@@ -27,9 +26,9 @@
         <entry>segmentsclient</entry>
         <entry>segment</entry>
         <entry>call</entry>
+        <entry>1.2.1</entry>
       </history-search>
       <history-cmd>
-        <entry>s;xxthisxx;this;g</entry>
         <entry encoding="base64">JzwsJz5zOyw7LFxyO2c=</entry>
         <entry>60</entry>
         <entry>12</entry>
@@ -48,6 +47,7 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
+        <entry>s;1.2.1;1.3;g</entry>
         <entry>bnext</entry>
       </history-cmd>
       <history-expr />
@@ -140,20 +140,20 @@
         <mark key="." line="122" column="53" />
         <mark key="^" line="122" column="54" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/common/pom.xml" timestamp="1588361867452">
-        <mark key="'" line="6" column="21" />
+      <file name="$USER_HOME$/cp-projects/segments/code/common/pom.xml" timestamp="1588625416854">
+        <mark key="'" line="6" column="17" />
         <mark key="[" line="11" column="17" />
         <mark key="]" line="11" column="17" />
         <mark key="." line="11" column="17" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/client/pom.xml" timestamp="1588361853310">
-        <mark key="'" line="6" column="21" />
+      <file name="$USER_HOME$/cp-projects/segments/code/client/pom.xml" timestamp="1588625403677">
+        <mark key="'" line="11" column="13" />
         <mark key="[" line="11" column="17" />
         <mark key="]" line="11" column="17" />
         <mark key="." line="11" column="17" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/api/pom.xml" timestamp="1588361834270">
-        <mark key="'" line="6" column="21" />
+      <file name="$USER_HOME$/cp-projects/segments/code/api/pom.xml" timestamp="1588625362750">
+        <mark key="'" line="11" column="13" />
         <mark key="[" line="11" column="17" />
         <mark key="]" line="11" column="17" />
         <mark key="." line="11" column="17" />
@@ -164,7 +164,8 @@
         <mark key="." line="3" column="3" />
         <mark key="^" line="3" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/Dockerfile" timestamp="1588361806405">
+      <file name="$USER_HOME$/cp-projects/segments/Dockerfile" timestamp="1588625373469">
+        <mark key="'" line="13" column="50" />
         <mark key="[" line="13" column="54" />
         <mark key="]" line="13" column="55" />
         <mark key="." line="13" column="55" />
@@ -185,8 +186,8 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/segments-api/1.2.0/abe54fbcf637dfe8adbd811161719853f3aed995/segments-api-1.2.0-sources.jar!/com/classpass/segments/models/SegmentMembers.java" timestamp="1588621051259">
         <mark key="'" line="11" column="11" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/pom.xml" timestamp="1588361820078">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/segments/pom.xml" timestamp="1588625377165">
+        <mark key="'" line="4" column="13" />
         <mark key="[" line="4" column="17" />
         <mark key="]" line="4" column="18" />
         <mark key="." line="4" column="17" />
@@ -206,9 +207,6 @@
         <mark key="[" line="37" column="0" />
         <mark key="]" line="56" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" timestamp="1588361252505">
-        <mark key="'" line="35" column="20" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1588620978223">
         <mark key="'" line="66" column="105" />
         <mark key="[" line="66" column="79" />
@@ -216,35 +214,31 @@
         <mark key="." line="66" column="105" />
         <mark key="^" line="66" column="76" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" timestamp="1588624060804">
-        <mark key="'" line="40" column="4" />
-        <mark key="[" line="38" column="0" />
-        <mark key="]" line="46" column="97" />
-        <mark key="." line="40" column="71" />
-        <mark key="^" line="40" column="72" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" timestamp="1588627702843">
+        <mark key="'" line="39" column="4" />
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="45" column="97" />
+        <mark key="." line="39" column="7" />
+        <mark key="^" line="39" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588622172724">
+      <file name="$USER_HOME$/cp-projects/segments/code/application/dependency-reduced-pom.xml" timestamp="1588625391527">
+        <mark key="'" line="11" column="11" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588627441666">
         <mark key="'" line="81" column="51" />
-        <mark key="[" line="89" column="0" />
-        <mark key="]" line="89" column="93" />
-        <mark key="." line="89" column="0" />
-        <mark key="^" line="90" column="39" />
+        <mark key="[" line="94" column="84" />
+        <mark key="]" line="94" column="94" />
+        <mark key="." line="94" column="93" />
+        <mark key="^" line="94" column="94" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/application/pom.xml" timestamp="1588361880797">
-        <mark key="'" line="121" column="25" />
+      <file name="$USER_HOME$/cp-projects/segments/code/application/pom.xml" timestamp="1588625397915">
+        <mark key="'" line="11" column="13" />
         <mark key="[" line="11" column="17" />
         <mark key="]" line="11" column="17" />
         <mark key="." line="11" column="17" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/utils/Extensions.kt" />
-      <jump line="40" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="1240" column="11" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/fe3b9d48f4c3947639b6b1760213c1b79281383e/kotlin-stdlib-common-1.3.61-sources.jar!/generated/_Collections.kt" />
-      <jump line="1253" column="11" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/fe3b9d48f4c3947639b6b1760213c1b79281383e/kotlin-stdlib-common-1.3.61-sources.jar!/generated/_Collections.kt" />
-      <jump line="1264" column="75" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/fe3b9d48f4c3947639b6b1760213c1b79281383e/kotlin-stdlib-common-1.3.61-sources.jar!/generated/_Collections.kt" />
-      <jump line="1282" column="78" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/fe3b9d48f4c3947639b6b1760213c1b79281383e/kotlin-stdlib-common-1.3.61-sources.jar!/generated/_Collections.kt" />
-      <jump line="35" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/DashboardUserControllerTest.kt" />
       <jump line="48" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="0" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="10" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
@@ -285,12 +279,7 @@
       <jump line="44" column="27" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/segments/pom.xml" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/segments/code/api/pom.xml" />
-      <jump line="6" column="21" filename="$USER_HOME$/cp-projects/segments/code/api/pom.xml" />
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/segments/code/client/pom.xml" />
-      <jump line="6" column="21" filename="$USER_HOME$/cp-projects/segments/code/client/pom.xml" />
-      <jump line="6" column="21" filename="$USER_HOME$/cp-projects/segments/code/common/pom.xml" />
-      <jump line="6" column="21" filename="$USER_HOME$/cp-projects/segments/code/application/pom.xml" />
-      <jump line="11" column="17" filename="$USER_HOME$/cp-projects/segments/code/application/pom.xml" />
       <jump line="121" column="25" filename="$USER_HOME$/cp-projects/segments/code/application/pom.xml" />
       <jump line="23" column="0" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="28" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/PaymentsClient.kt" />
@@ -338,6 +327,18 @@
       <jump line="276" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="277" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="40" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" />
+      <jump line="6" column="8" filename="$USER_HOME$/cp-projects/segments/code/api/pom.xml" />
+      <jump line="11" column="13" filename="$USER_HOME$/cp-projects/segments/code/api/pom.xml" />
+      <jump line="13" column="50" filename="$USER_HOME$/cp-projects/segments/Dockerfile" />
+      <jump line="4" column="13" filename="$USER_HOME$/cp-projects/segments/pom.xml" />
+      <jump line="5" column="13" filename="$USER_HOME$/cp-projects/segments/code/application/dependency-reduced-pom.xml" />
+      <jump line="11" column="11" filename="$USER_HOME$/cp-projects/segments/code/application/dependency-reduced-pom.xml" />
+      <jump line="6" column="17" filename="$USER_HOME$/cp-projects/segments/code/application/pom.xml" />
+      <jump line="11" column="13" filename="$USER_HOME$/cp-projects/segments/code/application/pom.xml" />
+      <jump line="6" column="17" filename="$USER_HOME$/cp-projects/segments/code/client/pom.xml" />
+      <jump line="11" column="13" filename="$USER_HOME$/cp-projects/segments/code/client/pom.xml" />
+      <jump line="11" column="13" filename="$USER_HOME$/cp-projects/segments/code/common/pom.xml" />
+      <jump line="6" column="17" filename="$USER_HOME$/cp-projects/segments/code/common/pom.xml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -364,7 +365,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIEBQT1NUKCIvdjMvc2VnbWVudHMve3NlZ21lbnRTbHVnfS9tZW1iZXJzaGlwL2FkZCIpCiAgICBAVGltZWQobmFtZSA9ICJtZW1iZXJzaGlwLmFkZCIpCiAgICBDYWxsPFZvaWQ+IGluY3JlbWVudGFsQWRkU2VnbWVudE1lbWJlcnNoaXAoQFBhdGgoInNlZ21lbnRTbHVnIikgU3RyaW5nIHNlZ21lbnRTbHVnLAogICAgICAgICAgICBAQm9keSBTZWdtZW50TWVtYmVycyBzZWdtZW50TWVtYmVycyk7CgogICAgQFBPU1QoIi92My9zZWdtZW50cy97c2VnbWVudFNsdWd9L21lbWJlcnNoaXAvcmVtb3ZlIikKICAgIEBUaW1lZChuYW1lID0gIm1lbWJlcnNoaXAucmVtb3ZlIikKICAgIENhbGw8Vm9pZD4gaW5jcmVtZW50YWxSZW1vdmVTZWdtZW50TWVtYmVyc2hpcChAUGF0aCgic2VnbWVudFNsdWciKSBTdHJpbmcgc2VnbWVudFNsdWcsCiAgICAgICAgICAgIEBCb2R5IFNlZ21lbnRNZW1iZXJzIHNlZ21lbnRNZW1iZXJzKTsK</text>
+        <text encoding="base64">ICAgIEBQT1NUKCIvdjMvc2VnbWVudHMve3NlZ21lbnRTbHVnfS9tZW1iZXJzaGlwL2FkZCIpCiAgICBAVGltZWQobmFtZSA9ICJtZW1iZXJzaGlwLmFkZCIpCiAgICBDYWxsPFZvaWQ+IGluY3JlbWVudGFsQWRkU2VnbWVudE1lbWJlcnNoaXAoQFBhdGgoInNlZ21lbnRTbHVnIikgU3RyaW5nIHNlZ21lbnRTbHVnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEBCb2R5IFNlZ21lbnRNZW1iZXJzIHNlZ21lbnRNZW1iZXJzKTsKCiAgICBAUE9TVCgiL3YzL3NlZ21lbnRzL3tzZWdtZW50U2x1Z30vbWVtYmVyc2hpcC9yZW1vdmUiKQogICAgQFRpbWVkKG5hbWUgPSAibWVtYmVyc2hpcC5yZW1vdmUiKQogICAgQ2FsbDxWb2lkPiBpbmNyZW1lbnRhbFJlbW92ZVNlZ21lbnRNZW1iZXJzaGlwKEBQYXRoKCJzZWdtZW50U2x1ZyIpIFN0cmluZyBzZWdtZW50U2x1ZywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQEJvZHkgU2VnbWVudE1lbWJlcnMgc2VnbWVudE1lbWJlcnMpOwo=</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -739,25 +740,25 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>_s</text>
+        <text>Response</text>
       </register>
       <register name="/" type="4">
-        <text>call</text>
+        <text>1.2.1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBQT1NUKCIvdjMvc2VnbWVudHMve3NlZ21lbnRTbHVnfS9tZW1iZXJzaGlwL2FkZCIpCiAgICBAVGltZWQobmFtZSA9ICJtZW1iZXJzaGlwLmFkZCIpCiAgICBDYWxsPFJlc3BvbnNlPFZvaWQ+PiBpbmNyZW1lbnRhbEFkZFNlZ21lbnRNZW1iZXJzaGlwKEBQYXRoKCJzZWdtZW50U2x1ZyIpIFN0cmluZyBzZWdtZW50U2x1ZywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBAQm9keSBTZWdtZW50TWVtYmVycyBzZWdtZW50TWVtYmVycyk7CgogICAgQFBPU1QoIi92My9zZWdtZW50cy97c2VnbWVudFNsdWd9L21lbWJlcnNoaXAvcmVtb3ZlIikKICAgIEBUaW1lZChuYW1lID0gIm1lbWJlcnNoaXAucmVtb3ZlIikKICAgIENhbGw8UmVzcG9uc2U8Vm9pZD4+IGluY3JlbWVudGFsUmVtb3ZlU2VnbWVudE1lbWJlcnNoaXAoQFBhdGgoInNlZ21lbnRTbHVnIikgU3RyaW5nIHNlZ21lbnRTbHVnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBAQm9keSBTZWdtZW50TWVtYmVycyBzZWdtZW50TWVtYmVycyk7Cg==</text>
+        <text encoding="base64">ICAgIEBQT1NUKCIvdjMvc2VnbWVudHMve3NlZ21lbnRTbHVnfS9tZW1iZXJzaGlwL2FkZCIpCiAgICBAVGltZWQobmFtZSA9ICJtZW1iZXJzaGlwLmFkZCIpCiAgICBDYWxsPFZvaWQ+IGluY3JlbWVudGFsQWRkU2VnbWVudE1lbWJlcnNoaXAoQFBhdGgoInNlZ21lbnRTbHVnIikgU3RyaW5nIHNlZ21lbnRTbHVnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEBCb2R5IFNlZ21lbnRNZW1iZXJzIHNlZ21lbnRNZW1iZXJzKTsKCiAgICBAUE9TVCgiL3YzL3NlZ21lbnRzL3tzZWdtZW50U2x1Z30vbWVtYmVyc2hpcC9yZW1vdmUiKQogICAgQFRpbWVkKG5hbWUgPSAibWVtYmVyc2hpcC5yZW1vdmUiKQogICAgQ2FsbDxWb2lkPiBpbmNyZW1lbnRhbFJlbW92ZVNlZ21lbnRNZW1iZXJzaGlwKEBQYXRoKCJzZWdtZW50U2x1ZyIpIFN0cmluZyBzZWdtZW50U2x1ZywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQEJvZHkgU2VnbWVudE1lbWJlcnMgc2VnbWVudE1lbWJlcnMpOwo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIEBQT1NUKCIvdjMvc2VnbWVudHMve3NlZ21lbnRTbHVnfS9tZW1iZXJzaGlwL2FkZCIpCiAgICBAVGltZWQobmFtZSA9ICJtZW1iZXJzaGlwLmFkZCIpCiAgICBDYWxsPFZvaWQ+IGluY3JlbWVudGFsQWRkU2VnbWVudE1lbWJlcnNoaXAoQFBhdGgoInNlZ21lbnRTbHVnIikgU3RyaW5nIHNlZ21lbnRTbHVnLAogICAgICAgICAgICBAQm9keSBTZWdtZW50TWVtYmVycyBzZWdtZW50TWVtYmVycyk7CgogICAgQFBPU1QoIi92My9zZWdtZW50cy97c2VnbWVudFNsdWd9L21lbWJlcnNoaXAvcmVtb3ZlIikKICAgIEBUaW1lZChuYW1lID0gIm1lbWJlcnNoaXAucmVtb3ZlIikKICAgIENhbGw8Vm9pZD4gaW5jcmVtZW50YWxSZW1vdmVTZWdtZW50TWVtYmVyc2hpcChAUGF0aCgic2VnbWVudFNsdWciKSBTdHJpbmcgc2VnbWVudFNsdWcsCiAgICAgICAgICAgIEBCb2R5IFNlZ21lbnRNZW1iZXJzIHNlZ21lbnRNZW1iZXJzKTsK</text>
+      <register name="1" type="4">
+        <text encoding="base64">PD4=</text>
       </register>
       <register name="q" type="4">
         <text>%&quot;apn</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSW5QZXJzb25TZXJ2aWNlc1N0YXR1cy5MSVZFIC0+IHNlZ21lbnRzQ2xpZW50OjppbmNyZW1lbnRhbFJlbW92ZVNlZ21lbnRNZW1iZXJzaGlwCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">UmVzcG9uc2U8Vm9pZD4=</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
@@ -774,8 +775,8 @@
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">PD4=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3785,14 +3786,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">UmVzcG9uc2U8Vm9pZD4=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIEBQT1NUKCIvdjMvc2VnbWVudHMve3NlZ21lbnRTbHVnfS9tZW1iZXJzaGlwL2FkZCIpCiAgICBAVGltZWQobmFtZSA9ICJtZW1iZXJzaGlwLmFkZCIpCiAgICBDYWxsPFZvaWQ+IGluY3JlbWVudGFsQWRkU2VnbWVudE1lbWJlcnNoaXAoQFBhdGgoInNlZ21lbnRTbHVnIikgU3RyaW5nIHNlZ21lbnRTbHVnLAogICAgICAgICAgICBAQm9keSBTZWdtZW50TWVtYmVycyBzZWdtZW50TWVtYmVycyk7CgogICAgQFBPU1QoIi92My9zZWdtZW50cy97c2VnbWVudFNsdWd9L21lbWJlcnNoaXAvcmVtb3ZlIikKICAgIEBUaW1lZChuYW1lID0gIm1lbWJlcnNoaXAucmVtb3ZlIikKICAgIENhbGw8Vm9pZD4gaW5jcmVtZW50YWxSZW1vdmVTZWdtZW50TWVtYmVyc2hpcChAUGF0aCgic2VnbWVudFNsdWciKSBTdHJpbmcgc2VnbWVudFNsdWcsCiAgICAgICAgICAgIEBCb2R5IFNlZ21lbnRNZW1iZXJzIHNlZ21lbnRNZW1iZXJzKTsK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgSW5QZXJzb25TZXJ2aWNlc1N0YXR1cy5MSVZFIC0+IHNlZ21lbnRzQ2xpZW50OjppbmNyZW1lbnRhbFJlbW92ZVNlZ21lbnRNZW1iZXJzaGlwCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -3839,17 +3840,17 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="8" type="4">
+        <text encoding="base64">PD4=</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgc2VnbWVudE1lbWJlcnNSZXF1ZXN0ID0gCg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">UmVzcG9uc2U8Vm9pZD4=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>s;1.2.1;1.3;g</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3858,11 +3859,11 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>call</last-search>
+      <last-search>1.2.1</last-search>
       <last-offset />
-      <last-pattern>call</last-pattern>
-      <last-replace>-1</last-replace>
-      <last-substitute>0</last-substitute>
+      <last-pattern>1.2.1</last-pattern>
+      <last-replace>1.3</last-replace>
+      <last-substitute>1.2.1</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
