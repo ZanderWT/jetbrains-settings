@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>getUser</entry>
-        <entry>else</entry>
-        <entry>ext</entry>
-        <entry>slug</entry>
-        <entry>{seg</entry>
         <entry>segme</entry>
         <entry>retrof</entry>
         <entry>segmentsclient</entry>
@@ -27,13 +22,17 @@
         <entry>public argu</entry>
         <entry encoding="base64">XDxpbnNlcnROb25lXD4=</entry>
         <entry>asdf</entry>
+        <entry>add</entry>
+        <entry>controller</entry>
+        <entry encoding="base64">XDxDbGFzc2VzUmVwb3J0Q29udHJvbGxlclw+</entry>
+        <entry>client</entry>
+        <entry>foo</entry>
       </history-search>
       <history-cmd>
         <entry>60</entry>
         <entry>12</entry>
         <entry encoding="base64">JzwsJz5zb3J0IHU=</entry>
         <entry>action MethodDown</entry>
-        <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>s;-;_;g</entry>
         <entry>s;0;-1;g</entry>
@@ -44,10 +43,11 @@
         <entry>22</entry>
         <entry>s;1.2.1;1.3;g</entry>
         <entry>s;1.3;1.3.0;g</entry>
-        <entry>action ShowBookmarks</entry>
         <entry>action MethodUp</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>bnext</entry>
+        <entry>action VcsShowNextChangeMarker</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
+        <entry>action ShowBookmarks</entry>
         <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
@@ -121,12 +121,18 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1588698144670">
-        <mark key="'" line="107" column="84" />
-        <mark key="[" line="57" column="0" />
-        <mark key="]" line="57" column="0" />
-        <mark key="^" line="28" column="36" />
-        <mark key="." line="57" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1588703200750">
+        <mark key="'" line="259" column="0" />
+        <mark key="[" line="259" column="25" />
+        <mark key="]" line="259" column="39" />
+        <mark key="." line="259" column="38" />
+        <mark key="^" line="259" column="39" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1588703598383">
+        <mark key="'" line="9" column="0" />
+        <mark key="[" line="110" column="0" />
+        <mark key="]" line="110" column="0" />
+        <mark key="." line="110" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588633556072">
         <mark key="'" line="402" column="7" />
@@ -196,8 +202,8 @@
       <file name="$USER_HOME$/cp-projects/segments/code/application/dependency-reduced-pom.xml" timestamp="1588628662446">
         <mark key="'" line="11" column="11" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588695713531">
-        <mark key="'" line="98" column="91" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588703278824">
+        <mark key="'" line="80" column="0" />
         <mark key="[" line="98" column="30" />
         <mark key="]" line="98" column="54" />
         <mark key="." line="98" column="53" />
@@ -224,19 +230,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="66" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
-      <jump line="33" column="8" filename="$USER_HOME$/cp-projects/segments/code/application/src/main/java/com/classpass/segments/resource/SegmentsResourceV3.java" />
-      <jump line="334" column="26" filename="$USER_HOME$/cp-projects/segments/code/application/src/main/resources/com/classpass/segments/dao/SegmentsDao.sql.stg" />
-      <jump line="39" column="42" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
-      <jump line="64" column="42" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
-      <jump line="20" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" />
-      <jump line="22" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" />
-      <jump line="33" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" />
-      <jump line="35" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/LegacyApiClient.kt" />
-      <jump line="61" column="0" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
-      <jump line="66" column="55" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
-      <jump line="67" column="35" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
-      <jump line="68" column="31" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="44" column="27" filename="$USER_HOME$/cp-projects/segments/code/client/src/main/java/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/segments/pom.xml" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/segments/code/api/pom.xml" />
@@ -319,11 +312,24 @@
       <jump line="99" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="98" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="26" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="101" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="103" column="84" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="156" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="821" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="837" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="55" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="108" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="125" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="109" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="101" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="9" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="125" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="156" column="42" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="258" column="75" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="4" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="114" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="259" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="80" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -341,7 +347,72 @@
         <text>PASSPORT_CLASSES</text>
       </register>
       <register name="d" type="4">
-        <text>ADDON_COVID_DONATIONS</text>
+        <keys>
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="113" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="60" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="62" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="104" code="0" mods="0" />
+          <key char="104" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="60" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="62" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="113" code="0" mods="0" />
+        </keys>
       </register>
       <register name="g" type="4">
         <text />
@@ -350,7 +421,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0IHsK</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -725,43 +796,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
-        <text>asdf</text>
+        <text>foo</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">cHJpdmF0ZSB2YWwgbG9nZ2VyID0gTG9nZ2VyRmFjdG9yeS5nZXRMb2dnZXIoUmVzZXJ2YXRpb246OmNsYXNzLmphdmEubmFtZSkK</text>
+        <text encoding="base64">ICAgIHZhbCBzb2NpYWxTZXJ2aWNlQ2xpZW50OiBTb2NpYWxTZXJ2aWNlQ2xpZW50ID0gbW9jaygpCg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0IHsK</text>
       </register>
       <register name="q" type="4">
         <text>%&quot;apn</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuZXZlcih1c2VyRGFvLmdldFVzZXIoYW55SW50KCkpKS50aGVuQW5zd2VyIHsKICAgICAgICAgICAgZGFzaGJvYXJkVXNlcihpZCA9IGl0LmFyZ3VtZW50c1swXSBhcyBEYXNoYm9hcmRVc2VySWQpIHsgaW5zZXJ0Tm9uZSgpIH0KICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICB9LmlzRmFpbHVyZSgpCg==</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgdmVudWUgPSAK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBkYXNoYm9hcmRVc2VyKGlkID0gZmlyc3RWYWx1ZSkge2luc2VydE5vbmUoKX0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0KICAgICAgICAgICAgICBkYXNoYm9hcmRVc2VyKGlkID0gZmlyc3RWYWx1ZSkge2luc2VydE5vbmUoKX0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3771,14 +3842,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>()</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYHNldENvdmlkQ29udHJvbHMgcmVxdWlyZXMgcGVybWlzc2lvbmAoKSB7CiAgICAgICAgdmFsIHVzZXJJZCA9IDExMTEKICAgICAgICB2YWwgdmVudWVJZCA9IDIyMjIKCiAgICAgICAgd2hlbmV2ZXIobW9ja1VzZXJEYW8uZ2V0VXNlcihhbnkoKSkpLmRvUmV0dXJuKGRhc2hib2FyZFVzZXIoaWQgPSB1c2VySWQpIHsgaW5zZXJ0Tm9uZSgpIH0pCgogICAgICAgIHdoZW5ldmVyKG1vY2tTZWdtZW50c0NsaWVudC5pbmNyZW1lbnRhbEFkZFNlZ21lbnRNZW1iZXJzaGlwKGFueSgpLCBhbnkoKSkpCiAgICAgICAgICAgIC5kb1JldHVybihDYWxscy5yZXNwb25zZTxWb2lkPihSZXNwb25zZS5zdWNjZXNzKG51bGwpKSkKCiAgICAgICAgd2hlbmV2ZXIobW9ja1NlZ21lbnRzQ2xpZW50LmluY3JlbWVudGFsUmVtb3ZlU2VnbWVudE1lbWJlcnNoaXAoYW55KCksIGFueSgpKSkKICAgICAgICAgICAgLmRvUmV0dXJuKENhbGxzLnJlc3BvbnNlPFZvaWQ+KFJlc3BvbnNlLnN1Y2Nlc3MobnVsbCkpKQoKICAgICAgICBjb250cm9sbGVyLnNldENvdmlkQ29udHJvbHModXNlcklkLCBTZXRDb3ZpZENvbnRyb2xzUmVxdWVzdCh2ZW51ZUlkLCBJblBlcnNvblNlcnZpY2VzU3RhdHVzLkxJVkUpKQogICAgICAgIHZlcmlmeShtb2NrUGVybWlzc2lvbkNoZWNrZXIpLmFzc2VydFVzZXJDYW5BY2Nlc3NWZW51ZSh1c2VySWQsIHZlbnVlSWQpCiAgICB9Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="4">
-        <text>dashboardUser(id = firstValue) {insertNone()}</text>
+        <text>()</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -3825,14 +3896,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      <register name="8" type="4">
+        <text>venueId</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhcmd1bWVudENhcHRvcjxEYXNoYm9hcmRVc2VySWQ+KCkuYXBwbHkgewo=</text>
+        <text encoding="base64">ICAgICAgICB2YWwgY2FsbFN1Y2Nlc3MgPQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3844,9 +3915,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>asdf</last-search>
+      <last-search>foo</last-search>
       <last-offset />
-      <last-pattern>asdf</last-pattern>
+      <last-pattern>foo</last-pattern>
       <last-replace>1.3.0</last-replace>
       <last-substitute>1.3</last-substitute>
       <last-dir>1</last-dir>
