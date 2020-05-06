@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>log</entry>
-        <entry encoding="base64">XDxzZXRDb3ZpZENvbnRyb2xzXD4=</entry>
-        <entry>dashboarduser</entry>
-        <entry>public argu</entry>
-        <entry encoding="base64">XDxpbnNlcnROb25lXD4=</entry>
         <entry>asdf</entry>
         <entry>controller</entry>
         <entry encoding="base64">XDxDbGFzc2VzUmVwb3J0Q29udHJvbGxlclw+</entry>
@@ -27,11 +22,13 @@
         <entry>remo</entry>
         <entry>when</entry>
         <entry encoding="base64">XDxNZWRpYVR5cGVcPg==</entry>
+        <entry>checks ven</entry>
+        <entry>li</entry>
+        <entry>neet to</entry>
+        <entry>need to</entry>
+        <entry>throw</entry>
       </history-search>
       <history-cmd>
-        <entry>60</entry>
-        <entry>12</entry>
-        <entry encoding="base64">JzwsJz5zb3J0IHU=</entry>
         <entry>action MethodDown</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>s;-;_;g</entry>
@@ -48,6 +45,9 @@
         <entry>bnext</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
+        <entry>157</entry>
+        <entry>158</entry>
+        <entry>181</entry>
         <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
@@ -128,12 +128,12 @@
         <mark key="." line="246" column="67" />
         <mark key="^" line="246" column="68" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1588707394205">
-        <mark key="'" line="30" column="0" />
-        <mark key="[" line="181" column="100" />
-        <mark key="]" line="181" column="101" />
-        <mark key="." line="181" column="100" />
-        <mark key="^" line="181" column="101" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1588792323819">
+        <mark key="'" line="157" column="58" />
+        <mark key="[" line="189" column="26" />
+        <mark key="]" line="189" column="29" />
+        <mark key="." line="189" column="28" />
+        <mark key="^" line="189" column="29" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/PermissionChecker.kt" timestamp="1588706215032">
         <mark key="'" line="36" column="61" />
@@ -148,23 +148,20 @@
         <mark key="]" line="35" column="53" />
         <mark key="." line="35" column="53" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/common/pom.xml" timestamp="1588628640779">
-        <mark key="'" line="11" column="13" />
-        <mark key="[" line="11" column="17" />
-        <mark key="]" line="11" column="17" />
-        <mark key="." line="11" column="17" />
-      </file>
       <file name="$USER_HOME$/cp-projects/segments/code/client/pom.xml" timestamp="1588628672910">
         <mark key="'" line="11" column="13" />
         <mark key="[" line="11" column="17" />
         <mark key="]" line="11" column="17" />
         <mark key="." line="11" column="17" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/api/pom.xml" timestamp="1588628657421">
-        <mark key="'" line="11" column="13" />
-        <mark key="[" line="11" column="17" />
-        <mark key="]" line="11" column="17" />
-        <mark key="." line="11" column="17" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/exception/AppException.kt" timestamp="1588792675830">
+        <mark key="[" line="7" column="40" />
+        <mark key="]" line="8" column="73" />
+        <mark key="^" line="8" column="73" />
+        <mark key="." line="8" column="72" />
+      </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.jade/exception/2.13.0/762568c6cf66f649eda234ec44e3580b2074faf5/exception-2.13.0-sources.jar!/com/classpass/jade/exceptions/BusinessException.java" timestamp="1588792177835">
+        <mark key="'" line="23" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PassportSchedule.kt" timestamp="1588791676018">
         <mark key="[" line="9" column="11" />
@@ -183,6 +180,12 @@
         <mark key="." line="4" column="17" />
         <mark key="^" line="4" column="18" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/exception/IllegalActionException.kt" timestamp="1588792469581">
+        <mark key="[" line="4" column="28" />
+        <mark key="]" line="4" column="100" />
+        <mark key="^" line="4" column="98" />
+        <mark key="." line="5" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Reservation.kt" timestamp="1588695469157">
         <mark key="[" line="33" column="0" />
         <mark key="]" line="33" column="74" />
@@ -190,18 +193,19 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1588697479419">
         <mark key="'" line="837" column="12" />
       </file>
-      <file name="$USER_HOME$/cp-projects/segments/code/application/dependency-reduced-pom.xml" timestamp="1588628662446">
-        <mark key="'" line="11" column="11" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588792343082">
+        <mark key="'" line="81" column="8" />
+        <mark key="[" line="106" column="18" />
+        <mark key="]" line="106" column="18" />
+        <mark key="." line="106" column="29" />
+        <mark key="^" line="103" column="34" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1588708064373">
-        <mark key="'" line="53" column="53" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Constants.kt" timestamp="1588706159024">
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Constants.kt" timestamp="1588792815793">
         <mark key="'" line="31" column="0" />
-        <mark key="[" line="30" column="10" />
-        <mark key="]" line="30" column="27" />
-        <mark key="^" line="30" column="11" />
-        <mark key="." line="30" column="10" />
+        <mark key="[" line="42" column="37" />
+        <mark key="]" line="42" column="45" />
+        <mark key="^" line="42" column="45" />
+        <mark key="." line="42" column="44" />
       </file>
       <file name="$USER_HOME$/cp-projects/segments/code/application/pom.xml" timestamp="1588628668667">
         <mark key="'" line="11" column="13" />
@@ -211,9 +215,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="410" column="33" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="240" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="241" column="9" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="242" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="29" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="26" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
@@ -284,7 +285,6 @@
       <jump line="4" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="114" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="259" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="80" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="14" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="109" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
@@ -303,7 +303,6 @@
       <jump line="35" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="141" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="126" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="142" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="152" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="158" column="108" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="159" column="76" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
@@ -311,12 +310,17 @@
       <jump line="182" column="73" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="30" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="53" column="53" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
+      <jump line="85" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="142" column="66" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="157" column="58" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="23" column="22" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.jade/exception/2.13.0/762568c6cf66f649eda234ec44e3580b2074faf5/exception-2.13.0-sources.jar!/com/classpass/jade/exceptions/BusinessException.java" />
+      <jump line="80" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="a" type="4">
-        <text>segmentSlug</text>
+        <text>(message: String, cause: Throwable)</text>
       </register>
       <register name="&quot;" type="4">
         <text>&quot;</text>
@@ -402,7 +406,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>MediaType.</text>
+        <text>external</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -777,43 +781,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>MediaType.</text>
+        <text>external</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxNZWRpYVR5cGVcPg==</text>
+        <text>throw</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuZXZlcihzZWdtZW50c0NsaWVudC5pbmNyZW1lbnRhbEFkZFNlZ21lbnRNZW1iZXJzaGlwKGFueSgpLCBhbnkoKSkpLnRoZW5SZXR1cm4oQ2FsbHMucmVzcG9uc2UoUmVzcG9uc2Uuc3VjY2VzczxWb2lkPihudWxsKSkpCg==</text>
+      <register name="0" type="4">
+        <text>(message: String, cause: Throwable) : BusinessException(message, cause) {</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLmNvcmUuTWVkaWFUeXBlCg==</text>
+      <register name="1" type="4">
+        <text>(message: String, cause: Throwable)</text>
       </register>
       <register name="q" type="4">
         <text>%&quot;apn</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">Ci8qKgogKiBSZXByZXNlbnRzIGFuIHVucmVjb3ZlcmFibGUgZXJyb3IgaW4gdGhlIGFwcGxpY2F0aW9uLiBSZXR1cm5zIGEgSFRUUCA1MDAgcmVzcG9uc2UgdG8gdGhlIGNhbGxlcgogKi8KY2xhc3MgQXBwRXhjZXB0aW9uKG1lc3NhZ2U6IFN0cmluZywgY2F1c2U6IFRocm93YWJsZSkgOiBCdXNpbmVzc0V4Y2VwdGlvbihtZXNzYWdlLCBjYXVzZSkgewogICAgY29uc3RydWN0b3IobWVzc2FnZTogU3RyaW5nKSA=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuZXZlcihzZWdtZW50c0NsaWVudC5pbmNyZW1lbnRhbEFkZFNlZ21lbnRNZW1iZXJzaGlwKGFueSgpLCBhbnkoKSkpLnRoZW5SZXR1cm4oQ2FsbHMucmVzcG9uc2UoUmVzcG9uc2Uuc3VjY2VzczxWb2lkPihudWxsKSkpCiAgICAgICAgd2hlbmV2ZXIoc2VnbWVudHNDbGllbnQuaW5jcmVtZW50YWxSZW1vdmVTZWdtZW50TWVtYmVyc2hpcChhbnkoKSwgYW55KCkpKS50aGVuUmV0dXJuKENhbGxzLnJlc3BvbnNlKFJlc3BvbnNlLnN1Y2Nlc3M8Vm9pZD4obnVsbCkpKQo=</text>
+        <text encoding="base64">ICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U6IFN0cmluZywgY2F1c2U6IFRocm93YWJsZSkgewogICAgICAgIAogICAgfQo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IHJldHJvZml0Mi5tb2NrLkNhbGxzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3824,13 +3828,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IHJldHJvZml0Mi5SZXNwb25zZS5zdWNjZXNzCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgdmVudWVJZCA9IHZlbnVlRmFjdG9yeS5jCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IGphdmF4LndzLnJzLmNvcmUuTWVkaWFUeXBlCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -3878,13 +3882,13 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHZhbCB2ZW51ZUlkID0gMTAwMAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdmVudWVJZCA9IDEwMDAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3896,12 +3900,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxNZWRpYVR5cGVcPg==</last-search>
+      <last-search>throw</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxNZWRpYVR5cGVcPg==</last-pattern>
+      <last-pattern>throw</last-pattern>
       <last-replace>1.3.0</last-replace>
       <last-substitute>1.3</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
