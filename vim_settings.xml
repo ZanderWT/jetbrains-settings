@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>controller</entry>
         <entry encoding="base64">XDxDbGFzc2VzUmVwb3J0Q29udHJvbGxlclw+</entry>
         <entry>client</entry>
         <entry>foo</entry>
@@ -27,6 +26,7 @@
         <entry>need to</entry>
         <entry>throw</entry>
         <entry encoding="base64">XDxBcHBFeGNlcHRpb25cPg==</entry>
+        <entry encoding="base64">XDxjYW5jZWxsYXRpb25Db250cm9sbGVyXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>action MethodDown</entry>
@@ -141,6 +141,7 @@
         <mark key="^" line="36" column="65" />
         <mark key="." line="36" column="64" />
       </file>
+      <file name="$USER_HOME$/cp-projects/reservation-service/code/api/src/main/java/com/classpass/reservation/business/ReservationController.java" timestamp="1588879776313" />
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/exception/AppException.kt" timestamp="1588792675830">
         <mark key="[" line="7" column="40" />
         <mark key="]" line="8" column="73" />
@@ -150,15 +151,14 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.jade/exception/2.13.0/762568c6cf66f649eda234ec44e3580b2074faf5/exception-2.13.0-sources.jar!/com/classpass/jade/exceptions/BusinessException.java" timestamp="1588792177835">
         <mark key="'" line="23" column="22" />
       </file>
+      <file name="$USER_HOME$/cp-projects/reservation-service/code/api/src/main/java/com/classpass/reservation/resource/ReservationResource.java" timestamp="1588879899424">
+        <mark key="'" line="64" column="53" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PassportSchedule.kt" timestamp="1588791676018">
         <mark key="[" line="9" column="11" />
         <mark key="]" line="9" column="13" />
         <mark key="^" line="9" column="13" />
         <mark key="." line="9" column="12" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588633556072">
-        <mark key="'" line="402" column="7" />
-        <mark key="^" line="402" column="21" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/exception/IllegalActionException.kt" timestamp="1588792469581">
         <mark key="[" line="4" column="28" />
@@ -169,6 +169,9 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Reservation.kt" timestamp="1588695469157">
         <mark key="[" line="33" column="0" />
         <mark key="]" line="33" column="74" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/reservation-service/code/api/src/main/java/com/classpass/reservation/business/ReservationCancellationController.java" timestamp="1588879783738">
+        <mark key="'" line="398" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1588697479419">
         <mark key="'" line="837" column="12" />
@@ -189,9 +192,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
-      <jump line="75" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
-      <jump line="86" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="81" column="51" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
       <jump line="37" column="17" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass/segments-client/1.2.0/507eebdcb4935c71b7265315e5080a4cf24e955e/segments-client-1.2.0-sources.jar!/com/classpass/segments/client/SegmentsClient.java" />
       <jump line="10" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/ShegmentsClient.java" />
@@ -289,6 +289,9 @@
       <jump line="32" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="188" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="10" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="398" column="22" filename="$USER_HOME$/cp-projects/reservation-service/code/api/src/main/java/com/classpass/reservation/business/ReservationCancellationController.java" />
+      <jump line="60" column="65" filename="$USER_HOME$/cp-projects/reservation-service/code/api/src/main/java/com/classpass/reservation/resource/ReservationResource.java" />
+      <jump line="64" column="53" filename="$USER_HOME$/cp-projects/reservation-service/code/api/src/main/java/com/classpass/reservation/resource/ReservationResource.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -758,7 +761,7 @@
         <text>external</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxBcHBFeGNlcHRpb25cPg==</text>
+        <text encoding="base64">XDxjYW5jZWxsYXRpb25Db250cm9sbGVyXD4=</text>
       </register>
       <register name="0" type="4">
         <text>(message: String, cause: Throwable) : BusinessException(message, cause) {</text>
@@ -3874,12 +3877,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxBcHBFeGNlcHRpb25cPg==</last-search>
+      <last-search encoding="base64">XDxjYW5jZWxsYXRpb25Db250cm9sbGVyXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxBcHBFeGNlcHRpb25cPg==</last-pattern>
+      <last-pattern encoding="base64">XDxjYW5jZWxsYXRpb25Db250cm9sbGVyXD4=</last-pattern>
       <last-replace>1.3.0</last-replace>
       <last-substitute>1.3</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
