@@ -29,14 +29,11 @@
         <entry encoding="base64">XDxQZXJtaXNzaW9uVHlwZVw+</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zOzA7LTE7Zw==</entry>
-        <entry>111</entry>
         <entry>398</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>22</entry>
         <entry>s;1.2.1;1.3;g</entry>
         <entry>s;1.3;1.3.0;g</entry>
-        <entry>bnext</entry>
         <entry>157</entry>
         <entry>158</entry>
         <entry>181</entry>
@@ -47,8 +44,11 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>125</entry>
-        <entry>source ~/.ideavimrc</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
+        <entry>source ~/.ideavimrc</entry>
+        <entry>action MoveElementLeft</entry>
+        <entry>action MoveElementRight</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -129,16 +129,26 @@
         <mark key="." line="35" column="47" />
         <mark key="^" line="30" column="19" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/AssociatedDashboardUsersResponse.kt" timestamp="1589220366375">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="60" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ProductsReportResponse.kt" timestamp="1589220926458">
+        <mark key="[" line="39" column="24" />
+        <mark key="]" line="39" column="60" />
+        <mark key="." line="39" column="59" />
+        <mark key="^" line="39" column="60" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" timestamp="1589214701370">
         <mark key="[" line="18" column="0" />
         <mark key="]" line="18" column="10" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" timestamp="1589216107158">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" timestamp="1589220337778">
         <mark key="'" line="18" column="58" />
-        <mark key="[" line="19" column="56" />
-        <mark key="]" line="20" column="26" />
-        <mark key="." line="20" column="25" />
-        <mark key="^" line="20" column="26" />
+        <mark key="[" line="20" column="44" />
+        <mark key="]" line="20" column="52" />
+        <mark key="." line="20" column="51" />
+        <mark key="^" line="20" column="52" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleCancelDispatcher.kt" timestamp="1588972372266">
         <mark key="'" line="27" column="36" />
@@ -172,9 +182,6 @@
         <mark key="." line="185" column="0" />
         <mark key="^" line="185" column="65" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.jade/async/2.13.0/8c026acb9c5dfdaad3ac097c921cbcf7ee538c7f/async-2.13.0-sources.jar!/com/classpass/jade/async/sqs/SQSClient.java" timestamp="1588971839181">
-        <mark key="'" line="112" column="12" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleCancelDispatcherTest.kt" timestamp="1588972999240">
         <mark key="'" line="53" column="51" />
         <mark key="[" line="13" column="0" />
@@ -189,18 +196,11 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" timestamp="1588979594836">
         <mark key="'" line="74" column="8" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" timestamp="1589215689071">
-        <mark key="[" line="10" column="66" />
-        <mark key="]" line="10" column="74" />
-        <mark key="." line="10" column="73" />
-        <mark key="^" line="10" column="74" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1588969932938">
-        <mark key="'" line="4" column="39" />
-        <mark key="[" line="524" column="20" />
-        <mark key="]" line="526" column="28" />
-        <mark key="." line="526" column="27" />
-        <mark key="^" line="526" column="28" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" timestamp="1589220460186">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="7" column="38" />
+        <mark key="." line="7" column="37" />
+        <mark key="^" line="7" column="38" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/cp_config.yaml" timestamp="1588972039890">
         <mark key="'" line="1" column="0" />
@@ -410,8 +410,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2VnbWVudHMuZW51bXMuUGVybWlzc2lvblR5cGUK</text>
+      <register name="*" type="4">
+        <text>have been used so far in the pack</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -786,46 +786,43 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>permi.</text>
+        <text>have been used so far in the pack</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxQZXJtaXNzaW9uVHlwZVw+</text>
       </register>
-      <register name="0" type="4">
-        <text>@Inject constructor(
-    @Named(&quot;legacyJooq&quot;) val context: DSLContext
-) {</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIC8qKgogICAgICogSG93IG1hbnkgY2xhc3NlcyBoYXZlIGJlZW4gdXNlZCBzbyBmYXIgaW4gdGhlIHBhY2sKICAgICAqLwo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2VnbWVudHMuZW51bXMuUGVybWlzc2lvblR5cGUK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text>%&quot;apn</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICAgICoqLwo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="4">
-        <text>,
-    permissionChecker: PermissionChecker</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHZhbCB2ZW51ZUlkczogTGlzdFZlbnVlSWQsCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBATm90TnVsbCBAVmFsaWQgcmVxdWVzdDogUHJvZHVjdHNSZXBvcnRSZXF1ZXN0Cg==</text>
+      <register name="5" type="4">
+        <text>{}</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3835,14 +3832,14 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Y2xhc3MgIHsKfQo=</text>
+      <register name="6" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8qIHp3dCBwdG5kYXNoIHNvcnRzIGJ5IHN0YXJ0VGltZSB0aGVuIGVuZFRpbWUgKi8K</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3Muc2VnbWVudHMuZW51bXMuUGVybWlzc2lvblR5cGUK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -3890,16 +3887,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB2ZXJpZnkoc2NoZWR1bGVDYW5jZWxEaXNwYXRjaGVyKS5hZGRVcGNvbWluZ1NjaGVkdWxlc1RvQ2FuY2VsUXVldWUoZXEodmVudWVJZCkpCg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5qdW5pdC5qdXBpdGVyLmFwaS5Bc3NlcnRpb25zLioK</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>action MoveElementRight</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
