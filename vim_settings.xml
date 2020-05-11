@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxjb250YWN0RW1haWxzXD4=</entry>
-        <entry>constr</entry>
-        <entry encoding="base64">XDxoYW5kbGVzQmxvY2tPZmZUaW1lc1w+</entry>
         <entry>msa</entry>
         <entry>venuefact</entry>
         <entry encoding="base64">XDxyZXBsYWNlV2l0aFw+</entry>
@@ -19,17 +16,19 @@
         <entry>venuefac</entry>
         <entry>newrec</entry>
         <entry>classfactory</entry>
-        <entry encoding="base64">ID0uKg==</entry>
         <entry>init</entry>
-        <entry>:.*</entry>
-        <entry>asdf</entry>
         <entry encoding="base64">XDxjbGFzc3Rpdml0eUNsYXNzXD4=</entry>
         <entry encoding="base64">XDxDbGFzc0ZhY3RvcnlcPg==</entry>
         <entry>ven</entry>
         <entry>teacherfac</entry>
+        <entry encoding="base64">XDx0ZWFjaGVyXD4=</entry>
+        <entry encoding="base64">ID0uKg==</entry>
+        <entry>schedulecap</entry>
+        <entry encoding="base64">XDxjbGFzc3Bhc3NTcG90c1w+</entry>
+        <entry>:.*</entry>
+        <entry>asdf</entry>
       </history-search>
       <history-cmd>
-        <entry>157</entry>
         <entry>158</entry>
         <entry>181</entry>
         <entry>action MethodDown</entry>
@@ -42,13 +41,14 @@
         <entry>action MethodUp</entry>
         <entry encoding="base64">JzwsJz5zOzouKiw7LDs=</entry>
         <entry encoding="base64">JzwsJz5zOyA9LiosOyw7</entry>
-        <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>s; =.*;,;g</entry>
-        <entry encoding="base64">JzwsJz5zOzouKjssOw==</entry>
         <entry>action VcsShowNextChangeMarker</entry>
-        <entry>action ReformatCode</entry>
+        <entry encoding="base64">JzwsJz5zOyA9Lio7LDs=</entry>
         <entry>bnext</entry>
+        <entry>action VcsShowPrevChangeMarker</entry>
+        <entry encoding="base64">JzwsJz5zOzouKjssOw==</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -121,9 +121,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589222311891">
-        <mark key="'" line="415" column="40" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/OrganizationFactory.kt" timestamp="1589229741657">
         <mark key="[" line="2" column="18" />
         <mark key="]" line="2" column="18" />
@@ -147,12 +144,12 @@
         <mark key="^" line="47" column="106" />
         <mark key="." line="47" column="105" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589235413380">
-        <mark key="'" line="177" column="16" />
-        <mark key="[" line="177" column="15" />
-        <mark key="]" line="177" column="17" />
-        <mark key="^" line="177" column="17" />
-        <mark key="." line="177" column="16" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589236427852">
+        <mark key="'" line="197" column="4" />
+        <mark key="[" line="344" column="45" />
+        <mark key="]" line="344" column="45" />
+        <mark key="." line="344" column="45" />
+        <mark key="^" line="181" column="46" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/Generator.kt" timestamp="1589225003857">
         <mark key="'" line="134" column="12" />
@@ -161,11 +158,12 @@
         <mark key="." line="134" column="12" />
         <mark key="^" line="96" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" timestamp="1589235236805">
-        <mark key="[" line="3" column="6" />
-        <mark key="]" line="3" column="6" />
-        <mark key="." line="3" column="6" />
-        <mark key="^" line="3" column="25" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" timestamp="1589236293696">
+        <mark key="'" line="72" column="28" />
+        <mark key="[" line="54" column="36" />
+        <mark key="]" line="54" column="38" />
+        <mark key="." line="54" column="37" />
+        <mark key="^" line="54" column="38" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" timestamp="1589232569243">
         <mark key="'" line="17" column="13" />
@@ -229,6 +227,13 @@
         <mark key="." line="329" column="36" />
         <mark key="^" line="329" column="37" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Schedule.kt" timestamp="1589236098807">
+        <mark key="'" line="28" column="3" />
+        <mark key="[" line="70" column="0" />
+        <mark key="]" line="79" column="48" />
+        <mark key="^" line="73" column="62" />
+        <mark key="." line="38" column="0" />
+      </file>
       <file name="/fragment.java" timestamp="1589226120252">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -236,13 +241,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="311" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="327" column="10" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="337" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="847" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="333" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="807" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="813" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="883" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="884" column="3" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="769" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
@@ -334,20 +332,27 @@
       <jump line="199" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="205" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="13" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" />
-      <jump line="206" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="176" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="178" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="22" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" />
+      <jump line="42" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" />
+      <jump line="26" column="3" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Schedule.kt" />
+      <jump line="43" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" />
+      <jump line="72" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" />
+      <jump line="206" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="207" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="a" type="2">
-        <text encoding="base64">ICAgICAgICB0ZWFjaGVySWQ6IFRlYWNoZXJJZD8gPSBudWxsLAogICAgICAgIHRlYWNoZXJOYW1lOiBTdHJpbmc/ID0gbnVsbAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmFsIG5ldHdvcmtDYXAgPSBjb21wdXRlTmV0d29ya0NhcCgKICAgICAgICAgICAgICAgIHNjaGVkdWxlUGFzc3BvcnRSZWNvcmQuY2xhc3NwYXNzU3BvdHM/LnRvSW50KCksCiAgICAgICAgICAgICAgICBjbGFzc1Bhc3Nwb3J0UmVjb3JkLmNsYXNzcGFzc1Nwb3RzPy50b0ludCgpLAogICAgICAgICAgICAgICAgdmVudWVQYXNzcG9ydFJlY29yZC5zcG90cz8udG9JbnQoKQogICAgICAgICAgICApCg==</text>
       </register>
       <register name="&quot;" type="4">
         <text>&quot;</text>
       </register>
       <register name="b" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgcmVjb3JkID0gY29udGV4dC5uZXdSZWNvcmQoQ0xBU1NUSVZJVFlfVEVBQ0hFUlMpLmFwcGx5IHsKICAgICAgICAgICAgdGhpcy50ZWFjaGVySWQgPSB0ZWFjaGVySWQgPzogaWRTZXF1ZW5jZS5uZXh0SW50KCkKICAgICAgICAgICAgdGhpcy50ZWFjaGVyTmFtZSA9IHRlYWNoZXJOYW1lID86IGNlbGVicml0aWVzKCkuamF6ekFydGlzdHMoKS5nZXQoKQogICAgICAgICAgICB0aGlzLmNyZWF0ZWRPbiA9IGNyZWF0ZUxvY2FsRGF0ZVRpbWUoKQogICAgICAgICAgICB0aGlzLnVwZGF0ZWRPbiA9IGNyZWF0ZUxvY2FsRGF0ZVRpbWUoKQogICAgICAgICAgICB0aGlzLnByb2Nlc3NlZCA9IDEKICAgICAgICB9CiAgICAgICAgcmVjb3JkLnN0b3JlKCkKICAgICAgICByZXR1cm4gVGVhY2hlci5jcmVhdGUocmVjb3JkKQo=</text>
+        <text encoding="base64">ICAgICAgICB2YWwgc2NoZWR1bGVSZWNvcmQgPSBjb250ZXh0Lm5ld1JlY29yZChDTEFTU1RJVklUWV9DTEFTU0VTX1RJTUVUQUJMRSkuYXBwbHkgewogICAgICAgICAgICB0aGlzLmlkID0gc2NoZWR1bGVJZCA/OiBpZFNlcXVlbmNlLm5leHRJbnQoKQogICAgICAgICAgICB0aGlzLmNsYXNzSWQgPSBjbGFzc3Rpdml0eUNsYXNzLmNsYXNzSWQKICAgICAgICAgICAgdGhpcy50ZWFjaGVySWQgPSB0ZWFjaGVyLnRlYWNoZXJJZAogICAgICAgICAgICB0aGlzLnN0YXJ0RGF0ZSA9IGRhdGUgPzogY3JlYXRlTG9jYWxEYXRlKCkKICAgICAgICAgICAgdGhpcy5zdGFydFRpbWUgPSBzdGFydFRpbWUgPzogY3JlYXRlTG9jYWxUaW1lKCkKICAgICAgICAgICAgdGhpcy5lbmRUaW1lID0gZW5kVGltZSA/OiB0aGlzLnN0YXJ0VGltZS5wbHVzTWludXRlcyg2MCkKICAgICAgICAgICAgdGhpcy5zb3VyY2UgPSBzb3VyY2UKICAgICAgICB9CgogICAgICAgIHZhbCBwYXNzcG9ydFNjaGVkdWxlUmVjb3JkID0gY29udGV4dC5uZXdSZWNvcmQoUEFTU1BPUlRfU0NIRURVTEVTKS5hcHBseSB7CiAgICAgICAgICAgIHRoaXMuaWQgPSBpZFNlcXVlbmNlLm5leHRJbnQoKS50b0xvbmcoKQogICAgICAgICAgICB0aGlzLnNjaGVkdWxlSWQgPSBzY2hlZHVsZVJlY29yZC5pZAogICAgICAgICAgICB0aGlzLmNsYXNzcGFzc1Nwb3RzID0gY2xhc3NwYXNzU3BvdHM/LnRvU2hvcnQoKQogICAgICAgICAgICB0aGlzLmNsYXNzcGFzc0Rpc2FibGVkID0gY2xhc3NwYXNzRGlzYWJsZWQ/LnRvQnl0ZSgpCiAgICAgICAgfQoKICAgICAgICBzY2hlZHVsZVJlY29yZC5zdG9yZSgpCiAgICAgICAgcGFzc3BvcnRTY2hlZHVsZVJlY29yZC5zdG9yZSgpCgogICAgICAgIHJldHVybiBkYW8uZ2V0U2NoZWR1bGUoc2NoZWR1bGVSZWNvcmQuaWQpISE=</text>
       </register>
       <register name="c" type="2">
         <text encoding="base64">ICAgIGluaXQ6IEdlbmVyYXRvcjxWZW51ZT4uKCkgLT4gVW5pdCA9IHt9Cg==</text>
@@ -427,7 +432,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>legacyTransactionContext</text>
+        <text>context, scheduleDao, venueDao</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -802,7 +807,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>legacyTransactionContext</text>
+        <text>context, scheduleDao, venueDao</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -838,44 +843,40 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>teacherfac</text>
+        <text>asdf</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGluaXQ6IEdlbmVyYXRvcjxWZW51ZT4uKCkgLT4gVW5pdCA9IHt9Cg==</text>
+        <text encoding="base64">ICAgICAgICBzY2hlZHVsZUlkOiBTY2hlZHVsZUlkPyA9IG51bGwsCiAgICAgICAgZGF0ZTogTG9jYWxEYXRlPyA9IG51bGwsCiAgICAgICAgc3RhcnRUaW1lOiBMb2NhbFRpbWU/ID0gbnVsbCwKICAgICAgICBlbmRUaW1lOiBMb2NhbFRpbWU/ID0gbnVsbCwKICAgICAgICBjbGFzc3Rpdml0eUNsYXNzOiBDbGFzc3Rpdml0eUNsYXNzID0gQ2xhc3NGYWN0b3J5KCkuY3JlYXRlKCksCiAgICAgICAgdGVhY2hlcjogVGVhY2hlciA9IFRlYWNoZXJGYWN0b3J5KCkuY3JlYXRlKCksCiAgICAgICAgY2xhc3NwYXNzU3BvdHM6IEludD8gPSBudWxsLAogICAgICAgIHNvdXJjZTogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgY2xhc3NwYXNzRGlzYWJsZWQ6IEludD8gPSBudWxsCg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
-        <text>%&quot;apn</text>
+        <text>classPassportRecord.classpassSpots?.toInt(),</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICk6IFRlYWNoZXIgewogICAgfQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IERTTENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBkYW86IFNjaGVkdWxlTGVnYWN5RGFvLAogICAgcHJpdmF0ZSB2YWwgdmVudWVEYW86IFZlbnVlTGVnYWN5RGFvCg==</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZWNvcmQuc3RvcmUoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="8">
-        <text>this
-this
-this
-this
-this</text>
+      <register name="4" type="2">
+        <text encoding="base64">CiAgICB9Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text>()</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVJZCA9IAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3885,59 +3886,17 @@ this</text>
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>CLASSTIVITY_TEACHERS</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBUT0RPKCJOb3QgeWV0IGltcGxlbWVudGVkIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
-        <keys>
-          <key char="65535" code="27" mods="0" />
-          <key char="119" code="0" mods="0" />
-          <key char="119" code="0" mods="0" />
-          <key char="71" code="0" mods="0" />
-          <key char="111" code="0" mods="0" />
-          <key char="65535" code="10" mods="0" />
-          <key char="118" code="0" mods="0" />
-          <key char="97" code="0" mods="0" />
-          <key char="108" code="0" mods="0" />
-          <key char="32" code="0" mods="0" />
-          <key char="83" code="0" mods="0" />
-          <key char="80" code="0" mods="0" />
-          <key char="79" code="0" mods="0" />
-          <key char="84" code="0" mods="0" />
-          <key char="95" code="0" mods="0" />
-          <key char="67" code="0" mods="0" />
-          <key char="65" code="0" mods="0" />
-          <key char="80" code="0" mods="0" />
-          <key char="123" code="0" mods="0" />
-          <key char="65535" code="8" mods="0" />
-          <key char="95" code="0" mods="0" />
-          <key char="67" code="0" mods="0" />
-          <key char="79" code="0" mods="0" />
-          <key char="76" code="0" mods="0" />
-          <key char="85" code="0" mods="0" />
-          <key char="77" code="0" mods="0" />
-          <key char="78" code="0" mods="0" />
-          <key char="32" code="0" mods="0" />
-          <key char="61" code="0" mods="0" />
-          <key char="32" code="0" mods="0" />
-          <key char="65535" code="27" mods="0" />
-          <key char="78" code="0" mods="0" />
-          <key char="118" code="0" mods="0" />
-          <key char="69" code="0" mods="0" />
-          <key char="37" code="0" mods="0" />
-          <key char="36" code="0" mods="0" />
-          <key char="121" code="0" mods="0" />
-          <key char="71" code="0" mods="0" />
-          <key char="36" code="0" mods="0" />
-          <key char="112" code="0" mods="0" />
-          <key char="103" code="0" mods="0" />
-        </keys>
+        <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
@@ -3946,7 +3905,7 @@ this</text>
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3958,9 +3917,9 @@ this</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>teacherfac</last-search>
+      <last-search>asdf</last-search>
       <last-offset />
-      <last-pattern>teacherfac</last-pattern>
+      <last-pattern>asdf</last-pattern>
       <last-replace>,</last-replace>
       <last-substitute>:.*</last-substitute>
       <last-dir>1</last-dir>
