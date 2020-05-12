@@ -7,14 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>msa</entry>
-        <entry>venuefact</entry>
-        <entry encoding="base64">XDxyZXBsYWNlV2l0aFw+</entry>
-        <entry>source</entry>
-        <entry encoding="base64">XDx2ZW51ZU5hbWVcPg==</entry>
-        <entry>venue</entry>
-        <entry>venuefac</entry>
-        <entry>newrec</entry>
         <entry>classfactory</entry>
         <entry>init</entry>
         <entry encoding="base64">XDxjbGFzc3Rpdml0eUNsYXNzXD4=</entry>
@@ -27,6 +19,14 @@
         <entry encoding="base64">XDxjbGFzc3Bhc3NTcG90c1w+</entry>
         <entry>:.*</entry>
         <entry>asdf</entry>
+        <entry>covid</entry>
+        <entry>muta</entry>
+        <entry>.also</entry>
+        <entry>}</entry>
+        <entry>inser</entry>
+        <entry encoding="base64">XDxjb3ZpZEN1cnJlbnRNYXJrZXRTZXZlcml0eURhb1w+</entry>
+        <entry>legacy</entry>
+        <entry>com.class</entry>
       </history-search>
       <history-cmd>
         <entry>158</entry>
@@ -121,10 +121,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/OrganizationFactory.kt" timestamp="1589229741657">
-        <mark key="[" line="2" column="18" />
-        <mark key="]" line="2" column="18" />
-        <mark key="." line="2" column="18" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589299567993">
+        <mark key="'" line="155" column="48" />
+        <mark key="[" line="248" column="40" />
+        <mark key="]" line="248" column="40" />
+        <mark key="." line="248" column="40" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueGenerator.kt" timestamp="1589235278819">
         <mark key="'" line="0" column="0" />
@@ -132,6 +133,13 @@
         <mark key="]" line="30" column="42" />
         <mark key="^" line="30" column="1" />
         <mark key="." line="30" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1589298139886">
+        <mark key="'" line="86" column="38" />
+        <mark key="[" line="95" column="77" />
+        <mark key="]" line="95" column="82" />
+        <mark key="." line="95" column="81" />
+        <mark key="^" line="95" column="82" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenueLegacyDao.kt" timestamp="1589233329631">
         <mark key="'" line="35" column="8" />
@@ -151,13 +159,6 @@
         <mark key="." line="344" column="45" />
         <mark key="^" line="181" column="46" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/Generator.kt" timestamp="1589225003857">
-        <mark key="'" line="134" column="12" />
-        <mark key="[" line="134" column="4" />
-        <mark key="]" line="134" column="4" />
-        <mark key="." line="134" column="12" />
-        <mark key="^" line="96" column="13" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" timestamp="1589236293696">
         <mark key="'" line="72" column="28" />
         <mark key="[" line="54" column="36" />
@@ -165,42 +166,33 @@
         <mark key="." line="54" column="37" />
         <mark key="^" line="54" column="38" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" timestamp="1589232569243">
-        <mark key="'" line="17" column="13" />
-        <mark key="]" line="56" column="62" />
-        <mark key="." line="22" column="48" />
-        <mark key="^" line="22" column="49" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/CovidCurrentMarketSeverityInsertDao.kt" timestamp="1589299343318">
+        <mark key="]" line="16" column="44" />
+        <mark key="^" line="16" column="44" />
+        <mark key="." line="16" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/OrganizationGenerator.kt" timestamp="1589229932058">
-        <mark key="[" line="8" column="26" />
-        <mark key="]" line="8" column="30" />
-        <mark key="^" line="8" column="30" />
-        <mark key="." line="8" column="29" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" timestamp="1589300035187">
+        <mark key="'" line="38" column="67" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+        <mark key="^" line="20" column="61" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/ClasstivityClass.kt" timestamp="1589297627933" />
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/TeacherGenerator.kt" timestamp="1589235369519">
         <mark key="[" line="16" column="4" />
         <mark key="]" line="16" column="16" />
         <mark key="." line="16" column="4" />
         <mark key="^" line="16" column="16" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/CountryGenerator.kt" timestamp="1589230674807">
-        <mark key="'" line="7" column="84" />
-        <mark key="[" line="7" column="46" />
-        <mark key="]" line="7" column="85" />
-        <mark key="^" line="10" column="8" />
-        <mark key="." line="10" column="7" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1589226120198">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1589300288896">
+        <mark key="'" line="118" column="0" />
+        <mark key="[" line="206" column="8" />
+        <mark key="]" line="206" column="8" />
+        <mark key="." line="206" column="8" />
       </file>
       <file name="/fragment.kt" timestamp="1589233336163">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/DashboardUserGenerator.kt" timestamp="1589224923762">
-        <mark key="'" line="19" column="0" />
-        <mark key="[" line="41" column="28" />
-        <mark key="]" line="41" column="28" />
-        <mark key="." line="41" column="28" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589236461532">
         <mark key="[" line="360" column="42" />
@@ -208,53 +200,33 @@
         <mark key="." line="360" column="42" />
         <mark key="^" line="355" column="65" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/DashboardUserGenerator.kt" timestamp="1589230943605">
-        <mark key="'" line="23" column="37" />
-        <mark key="[" line="27" column="22" />
-        <mark key="]" line="27" column="52" />
-        <mark key="." line="24" column="22" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/CovidCurrentMarketSeverityDao.kt" timestamp="1589299316992">
+        <mark key="[" line="12" column="32" />
+        <mark key="]" line="12" column="24" />
+        <mark key="^" line="12" column="24" />
+        <mark key="." line="12" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Country.kt" timestamp="1589228871134">
-        <mark key="[" line="8" column="18" />
-        <mark key="]" line="8" column="18" />
-        <mark key="^" line="8" column="26" />
-        <mark key="." line="8" column="18" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CovidCurrentMarketSeverityDao.kt" timestamp="1589299898451">
+        <mark key="'" line="26" column="17" />
+        <mark key="[" line="36" column="16" />
+        <mark key="]" line="36" column="16" />
+        <mark key="." line="36" column="16" />
+        <mark key="^" line="21" column="45" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589225376139">
-        <mark key="'" line="532" column="36" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589297906314">
+        <mark key="'" line="66" column="68" />
         <mark key="[" line="329" column="37" />
         <mark key="]" line="329" column="37" />
         <mark key="." line="329" column="36" />
         <mark key="^" line="329" column="37" />
       </file>
-      <file name="/fragment.java" timestamp="1589226120252">
+      <file name="/fragment.java" timestamp="1589300110692">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="883" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="884" column="3" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="769" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="775" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="763" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="10" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="309" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="919" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="809" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="308" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="19" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/DashboardUserGenerator.kt" />
-      <jump line="96" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/Generator.kt" />
-      <jump line="105" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/Generator.kt" />
-      <jump line="110" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/Generator.kt" />
-      <jump line="118" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/Generator.kt" />
-      <jump line="134" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/generators/Generator.kt" />
-      <jump line="277" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="303" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="305" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="532" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="108" column="91" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="22" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/DashboardUserGenerator.kt" />
@@ -334,6 +306,27 @@
       <jump line="72" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" />
       <jump line="206" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="207" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="86" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="534" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="708" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="713" column="59" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="59" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="66" column="68" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="12" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CovidCurrentMarketSeverityDao.kt" />
+      <jump line="26" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CovidCurrentMarketSeverityDao.kt" />
+      <jump line="34" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
+      <jump line="23" column="9" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
+      <jump line="29" column="27" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
+      <jump line="35" column="27" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
+      <jump line="154" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="155" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="20" column="60" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
+      <jump line="26" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
+      <jump line="33" column="66" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
+      <jump line="38" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="117" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -425,7 +418,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>legacyTransactionContext, scheduleDao, venueDao</text>
+        <text>dao.</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -800,7 +793,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>legacyTransactionContext, scheduleDao, venueDao</text>
+        <text>dao.</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -836,40 +829,40 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>asdf</text>
+        <text>com.class</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzY2hlZHVsZUlkOiBTY2hlZHVsZUlkPyA9IG51bGwsCiAgICAgICAgZGF0ZTogTG9jYWxEYXRlPyA9IG51bGwsCiAgICAgICAgc3RhcnRUaW1lOiBMb2NhbFRpbWU/ID0gbnVsbCwKICAgICAgICBlbmRUaW1lOiBMb2NhbFRpbWU/ID0gbnVsbCwKICAgICAgICBjbGFzc3Rpdml0eUNsYXNzOiBDbGFzc3Rpdml0eUNsYXNzID0gQ2xhc3NGYWN0b3J5KCkuY3JlYXRlKCksCiAgICAgICAgdGVhY2hlcjogVGVhY2hlciA9IFRlYWNoZXJGYWN0b3J5KCkuY3JlYXRlKCksCiAgICAgICAgY2xhc3NwYXNzU3BvdHM6IEludD8gPSBudWxsLAogICAgICAgIHNvdXJjZTogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgY2xhc3NwYXNzRGlzYWJsZWQ6IEludD8gPSBudWxsCg==</text>
+      <register name="0" type="4">
+        <text>.also {it.insert()}</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5qdW5pdC5qdXBpdGVyLmFwaS5Bc3NlcnRpb25zLioK</text>
       </register>
       <register name="q" type="4">
         <text>classPassportRecord.classpassSpots?.toInt(),</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IERTTENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBkYW86IFNjaGVkdWxlTGVnYWN5RGFvLAogICAgcHJpdmF0ZSB2YWwgdmVudWVEYW86IFZlbnVlTGVnYWN5RGFvCg==</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhZXF3ICAgIAo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RvcmUoKQo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2NoZWR1bGVJZCA9IAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RvcmUoKQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3880,13 +3873,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgaW5WZW51ZVBhcnRuZXJEZXRhCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgCg==</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
@@ -3898,7 +3891,7 @@
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IERTTENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBkYW86IFNjaGVkdWxlTGVnYWN5RGFvLAogICAgcHJpdmF0ZSB2YWwgdmVudWVEYW86IFZlbnVlTGVnYWN5RGFvCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3910,9 +3903,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>asdf</last-search>
+      <last-search>com.class</last-search>
       <last-offset />
-      <last-pattern>asdf</last-pattern>
+      <last-pattern>com.class</last-pattern>
       <last-replace>,</last-replace>
       <last-substitute>:.*</last-substitute>
       <last-dir>1</last-dir>
