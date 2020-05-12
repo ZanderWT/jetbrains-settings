@@ -202,10 +202,10 @@
         <mark key="]" line="41" column="28" />
         <mark key="." line="41" column="28" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589235404334">
-        <mark key="[" line="359" column="40" />
-        <mark key="]" line="359" column="40" />
-        <mark key="." line="359" column="40" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589236461532">
+        <mark key="[" line="360" column="42" />
+        <mark key="]" line="360" column="42" />
+        <mark key="." line="360" column="42" />
         <mark key="^" line="355" column="65" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/DashboardUserGenerator.kt" timestamp="1589230943605">
@@ -226,13 +226,6 @@
         <mark key="]" line="329" column="37" />
         <mark key="." line="329" column="36" />
         <mark key="^" line="329" column="37" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Schedule.kt" timestamp="1589236098807">
-        <mark key="'" line="28" column="3" />
-        <mark key="[" line="70" column="0" />
-        <mark key="]" line="79" column="48" />
-        <mark key="^" line="73" column="62" />
-        <mark key="." line="38" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1589226120252">
         <mark key="[" line="0" column="0" />
@@ -432,7 +425,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>context, scheduleDao, venueDao</text>
+        <text>legacyTransactionContext, scheduleDao, venueDao</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -807,7 +800,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>context, scheduleDao, venueDao</text>
+        <text>legacyTransactionContext, scheduleDao, venueDao</text>
       </register>
       <register name="n" type="4">
         <keys>
