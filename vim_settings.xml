@@ -121,13 +121,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1589404732481">
-        <mark key="'" line="230" column="16" />
-        <mark key="[" line="180" column="0" />
-        <mark key="]" line="180" column="0" />
-        <mark key="^" line="234" column="43" />
-        <mark key="." line="180" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SummaryReportController.kt" timestamp="1589410172022">
         <mark key="'" line="100" column="24" />
       </file>
@@ -146,6 +139,10 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" timestamp="1589482033419">
         <mark key="'" line="24" column="3" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/008_addon_partner_dashboard.sql" timestamp="1589490888695">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="95" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" timestamp="1589410397960">
         <mark key="[" line="19" column="58" />
@@ -381,7 +378,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBjb250ZXh0LmRzbCgpLnNlbGVjdChQQVNTUE9SVF9DTEFTU0VTLkNMQVNTX0lEKQogICAgICAgICAgICAuZnJvbShjbGFzc1RhYmxlcykKICAgICAgICAgICAgLndoZXJlKERJU0FCTEVEX0NMQVNTX0xPRy5DTEFTU19JRC5gaW5gKGNsYXNzSWRzKSkK</text>
+        <text>CREATE INDEX addon_partner_dashboard_venue_id_idx ON addon_partner_dashboard(venue_id int4_ops);</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -795,7 +792,7 @@
         <text encoding="base64">XDxzY2hlZHVsZURldGFpbHNcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjb250ZXh0LmRzbCgpLnNlbGVjdChQQVNTUE9SVF9DTEFTU0VTLkNMQVNTX0lEKQogICAgICAgICAgICAuZnJvbShjbGFzc1RhYmxlcykKICAgICAgICAgICAgLndoZXJlKERJU0FCTEVEX0NMQVNTX0xPRy5DTEFTU19JRC5gaW5gKGNsYXNzSWRzKSkK</text>
+        <text>CREATE INDEX addon_partner_dashboard_venue_id_idx ON addon_partner_dashboard(venue_id int4_ops);</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
