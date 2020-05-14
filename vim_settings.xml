@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>country</entry>
-        <entry encoding="base64">XDxMZWdhY3lSZXBvcnRpbmdEaWdlc3RSb3dcPg==</entry>
         <entry encoding="base64">XDxhZ2dyZWdhdGVSZXZlbnVlXD4=</entry>
         <entry>totalspots</entry>
         <entry>disabledclasses</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxkZWZhdWx0U29ydFw+</entry>
         <entry>limitand</entry>
         <entry>respo</entry>
+        <entry>reco</entry>
+        <entry>da</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOyA9Lio7LDs=</entry>
@@ -40,7 +40,6 @@
         <entry>24</entry>
         <entry>55</entry>
         <entry>98</entry>
-        <entry>bnext</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>110</entry>
@@ -49,6 +48,7 @@
         <entry>28</entry>
         <entry>40</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -124,11 +124,11 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SummaryReportController.kt" timestamp="1589410172022">
         <mark key="'" line="100" column="24" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/AddonPurchase.kt" timestamp="1589492719934">
-        <mark key="[" line="9" column="45" />
-        <mark key="]" line="9" column="30" />
-        <mark key="^" line="9" column="30" />
-        <mark key="." line="9" column="29" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/AddonPurchase.kt" timestamp="1589493971192">
+        <mark key="[" line="41" column="12" />
+        <mark key="]" line="41" column="14" />
+        <mark key="^" line="41" column="14" />
+        <mark key="." line="41" column="13" />
       </file>
       <file name="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/resources/BillingResource.java" timestamp="1589409694313">
         <mark key="'" line="78" column="27" />
@@ -143,6 +143,12 @@
         <mark key="^" line="202" column="12" />
         <mark key="." line="202" column="11" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ProductsReportResource.kt" timestamp="1589494165257">
+        <mark key="[" line="36" column="9" />
+        <mark key="]" line="36" column="19" />
+        <mark key="." line="36" column="18" />
+        <mark key="^" line="36" column="19" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" timestamp="1589482033419">
         <mark key="'" line="24" column="3" />
       </file>
@@ -150,12 +156,12 @@
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="95" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" timestamp="1589492544390">
-        <mark key="'" line="16" column="0" />
-        <mark key="[" line="29" column="66" />
-        <mark key="]" line="31" column="25" />
-        <mark key="." line="31" column="24" />
-        <mark key="^" line="31" column="25" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" timestamp="1589493720351">
+        <mark key="'" line="37" column="64" />
+        <mark key="[" line="45" column="88" />
+        <mark key="]" line="45" column="96" />
+        <mark key="." line="45" column="95" />
+        <mark key="^" line="45" column="96" />
       </file>
       <file name="/Dummy.txt" timestamp="1589475319275">
         <mark key="[" line="0" column="0" />
@@ -175,12 +181,11 @@
       <file name="/NetworkAndPremiumReservationCounts.kt" timestamp="1589475464163">
         <mark key="[" line="19" column="64" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" timestamp="1589492644235">
-        <mark key="'" line="34" column="21" />
-        <mark key="[" line="23" column="52" />
-        <mark key="]" line="23" column="52" />
-        <mark key="." line="23" column="52" />
-        <mark key="^" line="44" column="42" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" timestamp="1589493912189">
+        <mark key="[" line="19" column="8" />
+        <mark key="]" line="19" column="14" />
+        <mark key="." line="19" column="13" />
+        <mark key="^" line="19" column="14" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/PagingAndSortingDao.kt" timestamp="1589492435734">
         <mark key="'" line="25" column="8" />
@@ -206,8 +211,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="155" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="20" column="60" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
       <jump line="26" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
       <jump line="33" column="66" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
       <jump line="38" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/CovidCurrentMarketSeverityDaoTest.kt" />
@@ -306,6 +309,8 @@
       <jump line="29" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
       <jump line="31" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
       <jump line="34" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
+      <jump line="20" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" />
+      <jump line="37" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -331,8 +336,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>BeanParam</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -707,7 +712,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>request.</text>
+        <text>BeanParam</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -743,7 +748,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>respo</text>
+        <text>da</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgKGxpbWl0LCBvZmZzZXQpID0gZ2V0TGltaXRBbmRPZmZzZXQocmVxdWVzdC5wYWdlUmVxdWVzdCkK</text>
@@ -752,31 +757,31 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gcHJvZHVjdFJlY29yZHMK</text>
       </register>
       <register name="q" type="4">
         <text>classPassportRecord.classpassSpots?.toInt(),</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBnZXQoKSA9IFRPRE8oIk5vdCB5ZXQgaW1wbGVtZW50ZWQiKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIC8vIFJldHVybiBpbiBkZXNjZW5kaW5nIG9yZGVyIG9mIHB1cmNoYXNlIGRhdGUK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZnVuIGJ1aWxkUmVzcG9uc2UoCiAgICAgICAgdmVudWVzOiBNYXA8VmVudWVJZCwgVmVudWU+LAogICAgICAgIHByb2R1Y3RSZWNvcmRzOiBMaXN0PEFkZG9uUGFydG5lckRhc2hib2FyZFJlY29yZD4KICAgICk6IFByb2R1Y3RzUmVwb3J0UmVzcG9uc2UgPSBwcm9kdWN0UmVjb3Jkcy5tYXAgewogICAgfQo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBnZXQoKSA9IFRPRE8oIk5vdCB5ZXQgaW1wbGVtZW50ZWQiKQo=</text>
+        <text encoding="base64">ICAgICAgICB2YWwgY3VycmVuY3lDb2RlID0gdmVudWVzLmdldFZhbHVlKGl0LnZlbnVlSWQpLmNvdW50cnkuY3VycmVuY3lDb2RlCiAgICAgICAgQWRkb25QdXJjaGFzZSgKICAgICAgICAgICAgcHVyY2hhc2VEYXRlID0gaXQucHVyY2hhc2VEYXRlLAogICAgICAgICAgICBwdXJjaGFzZUFtb3VudCA9IEZhc3RNb25leS5vZihpdC5wYWNrYWdlQ29zdCwgY3VycmVuY3lDb2RlKSwKICAgICAgICAgICAgcGF5b3V0QW1vdW50ID0gRmFzdE1vbmV5Lm9mKGl0LnBhcnRuZXJQYXlvdXQsIGN1cnJlbmN5Q29kZSksCiAgICAgICAgICAgIHBhY2thZ2VOYW1lID0gaXQucGFja2FnZU5hbWUsCiAgICAgICAgICAgIHZlbnVlSWRzID0gaXQudmVudWVJZCAvLyBvaCBubwogICAgICAgICkK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3786,34 +3791,26 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmZldGNoR3JvdXBzKGNvbHVtbnMpCg==</text>
+      <register name="6" type="4">
+        <text>{}</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="4">
-        <text>listOf(
-            ADDON_PARTNER_DASHBOARD.PURCHASE_ID,
-            ADDON_PARTNER_DASHBOARD.PURCHASE_DATE,
-            ADDON_PARTNER_DASHBOARD.PACKAGE_COST,
-            ADDON_PARTNER_DASHBOARD.PARTNER_PAYOUT,
-            ADDON_PARTNER_DASHBOARD.VENUE_CURRENCY,
-            ADDON_PARTNER_DASHBOARD.PACKAGE_CT,
-            ADDON_PARTNER_DASHBOARD.PACKAGE_NAME
-        )</text>
+        <text encoding="base64">IHByb2R1Y3RzUmVwb3J0RGFvLmdldFByb2R1Y3RzUmVwb3J0KHZlbnVlSWRzKSA=</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgdmVudWVzID0gYXN5bmMgeyB2ZW51ZURhby5nZXRWZW51ZXModmVudWVJZHMpIH0K</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuVEFYX0FNT1VOVF9MT0NBTCwK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIHZlbnVlRGFvOiBWZW51ZUxlZ2FjeURhbywK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3825,9 +3822,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>respo</last-search>
+      <last-search>da</last-search>
       <last-offset />
-      <last-pattern>respo</last-pattern>
+      <last-pattern>da</last-pattern>
       <last-replace>,</last-replace>
       <last-substitute>:.*</last-substitute>
       <last-dir>1</last-dir>
