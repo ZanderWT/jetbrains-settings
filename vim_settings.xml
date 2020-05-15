@@ -7,26 +7,26 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>product</entry>
-        <entry>asdf</entry>
-        <entry>resource</entry>
-        <entry>produ</entry>
-        <entry>reser</entry>
-        <entry>postg</entry>
-        <entry>jvm</entry>
-        <entry>postgre</entry>
-        <entry encoding="base64">XDxpZFNlcXVlbmNlXD4=</entry>
-        <entry>,$</entry>
-        <entry>spotsva</entry>
-        <entry>disabledreasons</entry>
-        <entry>disabledrea</entry>
-        <entry encoding="base64">XDxuZXR3b3JrQW5kUHJlbWl1bVJlc2VydmF0aW9uQ291bnRzXD4=</entry>
-        <entry encoding="base64">XDx0b3RhbENhcGFjaXR5SW5mb1w+</entry>
-        <entry encoding="base64">XDx0b3RhbEJvb2tpbmdzSW5mb1w+</entry>
-        <entry encoding="base64">XDxzY2hlZHVsZVJlc2VydmF0aW9uQ291bnRzXD4=</entry>
         <entry encoding="base64">XDxzY2hlZHVsZURldGFpbHNcPg==</entry>
         <entry>mutab</entry>
         <entry encoding="base64">XDxzdHJlYW1EZXRhaWxzRm9yU2NoZWR1bGVzXD4=</entry>
+        <entry>aftermigr</entry>
+        <entry>nondisable</entry>
+        <entry>applydire</entry>
+        <entry>schedulecreated</entry>
+        <entry>disabledreas</entry>
+        <entry>deferred</entry>
+        <entry encoding="base64">XDxOT05fUFJFRElDVEFCTEVfU0NIRURVTEVTX1BSRURJQ0FURVw+</entry>
+        <entry>asd</entry>
+        <entry encoding="base64">XDxzbWFydFNwb3RTZXR0aW5nc1w+</entry>
+        <entry encoding="base64">XDxzbWFydFNwb3RTZXR0aW5nc0ZvclNjaGVkdWxlc1w+</entry>
+        <entry encoding="base64">XDxuZXR3b3JrU3BvdHNBbGxvY2F0aW9uc1w+</entry>
+        <entry encoding="base64">XDxuZXR3b3JrQW5kUHJlbWl1bVJlc2VydmF0aW9uQ291bnRzXD4=</entry>
+        <entry encoding="base64">XDxyZXNlcnZhdGlvbnNcPg==</entry>
+        <entry encoding="base64">XDx0b3RhbENhcGFjaXR5SW5mb3NcPg==</entry>
+        <entry encoding="base64">XDxnZXROZXR3b3JrQW5kUHJlbWl1bVJlc2VydmF0aW9uQ291bnRzRm9yU2NoZWR1bGVzXD4=</entry>
+        <entry encoding="base64">XDxzbWFydFNwb3RSZWNvbW1lbmRhdGlvbnNGb3JWZW51ZVw+</entry>
+        <entry encoding="base64">XDxkaXNhYmxlZFNjaGVkdWxlUmVhc29uc1w+</entry>
       </history-search>
       <history-cmd>
         <entry>110</entry>
@@ -163,13 +163,6 @@
         <mark key="." line="21" column="35" />
         <mark key="^" line="21" column="36" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ProductsReportDaoTest.kt" timestamp="1589560556053">
-        <mark key="'" line="37" column="0" />
-        <mark key="[" line="48" column="27" />
-        <mark key="]" line="48" column="36" />
-        <mark key="." line="48" column="35" />
-        <mark key="^" line="48" column="36" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1589569426290">
         <mark key="'" line="44" column="33" />
         <mark key="[" line="47" column="0" />
@@ -187,8 +180,8 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" timestamp="1589581114514">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" timestamp="1589581121879">
-        <mark key="'" line="107" column="20" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" timestamp="1589584542115">
+        <mark key="'" line="91" column="12" />
         <mark key="[" line="202" column="45" />
         <mark key="]" line="202" column="12" />
         <mark key="^" line="202" column="12" />
@@ -212,6 +205,13 @@
       <file name="/Dummy.txt" timestamp="1589573494247">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" timestamp="1589583776370">
+        <mark key="'" line="73" column="16" />
+        <mark key="[" line="93" column="51" />
+        <mark key="]" line="93" column="56" />
+        <mark key="." line="93" column="55" />
+        <mark key="^" line="93" column="56" />
+      </file>
       <file name="/fragment.java" timestamp="1589561274353">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -219,44 +219,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="25" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/PagingAndSortingDao.kt" />
-      <jump line="21" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
-      <jump line="29" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
-      <jump line="31" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
-      <jump line="34" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
-      <jump line="20" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" />
-      <jump line="37" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" />
-      <jump line="106" column="80" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
-      <jump line="66" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
-      <jump line="6" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ProductsReportResourceTest.kt" />
-      <jump line="7" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ProductsReportResourceTest.kt" />
-      <jump line="458" column="25" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.1.1/c8cd68f41c63e60c89321caa95513376aace6711/javax.ws.rs-api-2.1.1-sources.jar!/javax/ws/rs/core/Response.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.1.1/c8cd68f41c63e60c89321caa95513376aace6711/javax.ws.rs-api-2.1.1-sources.jar!/javax/ws/rs/core/Response.java" />
-      <jump line="1197" column="21" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.1.1/c8cd68f41c63e60c89321caa95513376aace6711/javax.ws.rs-api-2.1.1-sources.jar!/javax/ws/rs/core/Response.java" />
-      <jump line="52" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/resource/ProductsReportResourceTest.kt" />
-      <jump line="131" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="149" column="43" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="12" column="25" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/AddonPurchase.kt" />
-      <jump line="60" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="50" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="26" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="21" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="39" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="46" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="43" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="47" column="72" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="48" column="74" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="35" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="20" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="49" column="43" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="51" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="40" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="32" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="28" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="37" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" />
-      <jump line="100" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" />
-      <jump line="104" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" />
       <jump line="109" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" />
       <jump line="117" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" />
       <jump line="133" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" />
@@ -319,6 +281,44 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
       <jump line="86" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
       <jump line="107" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="106" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="181" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="99" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="132" column="96" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="94" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="178" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="103" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="120" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="183" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="12" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="48" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="107" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="60" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="29" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="93" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="167" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="63" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="166" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="70" column="68" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="74" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="82" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="79" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="65" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="64" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="101" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="73" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SpotRecommendationsController.kt" />
+      <jump line="104" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="69" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="72" column="60" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="112" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="74" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="75" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="82" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="154" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="78" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="79" column="43" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="91" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -345,7 +345,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>)</text>
+        <text>?</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -720,7 +720,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>?</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -756,7 +756,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzdHJlYW1EZXRhaWxzRm9yU2NoZWR1bGVzXD4=</text>
+        <text encoding="base64">XDxkaXNhYmxlZFNjaGVkdWxlUmVhc29uc1w+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHZhbCB0b3RhbENsYXNzUGFzc1Jlc2VydmF0aW9ucyA9IHByZW1pdW1SZXNlcnZhdGlvbnMgKyBuZXR3b3JrUmVzZXJ2YXRpb25zCiAgICBwcml2YXRlIHZhbCB0b3RhbFNwb3RzVGFrZW4gPSBwcmVtaXVtU3BvdHNUYWtlbiArIG5ldHdvcmtTcG90c1Rha2VuCiAgICB2YWwgc3BvdHNWYWxpZCA9IHRvdGFsQ2xhc3NQYXNzUmVzZXJ2YXRpb25zID09IHRvdGFsU3BvdHNUYWtlbgoKfQoKdmFsIExpc3Q8UmVzZXJ2YXRpb24+LnByZW1pdW1Db3VudDogSW50CiAgICBnZXQoKSA9IGNvdW50IHsgaXQuc3BvdFR5cGUgPT0gUFJFTUlVTSAmJiBpdC5wcmVtaXVtIH0KdmFsIExpc3Q8UmVzZXJ2YXRpb24+Lm5ldHdvcmtQcmVtaXVtQ291bnQ6IEludAogICAgZ2V0KCkgPSBjb3VudCB7IGl0LnNwb3RUeXBlID09IE5FVFdPUksgJiYgaXQucHJlbWl1bSB9Cg==</text>
@@ -777,7 +777,7 @@
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHZhbCB0b3RhbENsYXNzUGFzc1Jlc2VydmF0aW9ucyA9IHByZW1pdW1SZXNlcnZhdGlvbnMgKyBuZXR3b3JrUmVzZXJ2YXRpb25zCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
@@ -789,7 +789,7 @@
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHZhbCB0b3RhbENsYXNzUGFzc1Jlc2VydmF0aW9ucyA9IHByZW1pdW1SZXNlcnZhdGlvbnMgKyBuZXR3b3JrUmVzZXJ2YXRpb25zCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3800,25 +3800,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBnZXQoKSA9Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcml2YXRlIHZhbCB0b3RhbFNwb3RzVGFrZW4gPSBwcmVtaXVtU3BvdHNUYWtlbiArIG5ldHdvcmtTcG90c1Rha2VuCg==</text>
+        <text encoding="base64">ICAgICAgICBnZXQoKSA9Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vIHZhbCBwcmVtaXVtUmVzZXJ2YXRpb25zOiBJbnQgPSAwLAogICAgLy8gdmFsIHByZW1pdW1SZXNlcnZhdGlvbnNOZXR3b3JrU3BvdHM6IEludCA9IDAsCiAgICAvLyB2YWwgcHJlbWl1bVJlc2VydmF0aW9uc1ByZW1pdW1TcG90czogSW50ID0gMCwKICAgIC8vIHZhbCBwcmVtaXVtU3BvdHNUYWtlbjogSW50ID0gMCwKICAgIC8vIHZhbCBuZXR3b3JrUmVzZXJ2YXRpb25zOiBJbnQgPSAwLAogICAgLy8gdmFsIG5ldHdvcmtTcG90c1Rha2VuOiBJbnQgPSAwLAogICAgLy8gdmFsIGZyZXF1ZW50VmlzaXRvcnM6IEludCA9IDAK</text>
+        <text encoding="base64">ICAgICAgICBwcml2YXRlIHZhbCB0b3RhbFNwb3RzVGFrZW4gPSBwcmVtaXVtU3BvdHNUYWtlbiArIG5ldHdvcmtTcG90c1Rha2VuCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3830,9 +3830,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzdHJlYW1EZXRhaWxzRm9yU2NoZWR1bGVzXD4=</last-search>
+      <last-search encoding="base64">XDxkaXNhYmxlZFNjaGVkdWxlUmVhc29uc1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzdHJlYW1EZXRhaWxzRm9yU2NoZWR1bGVzXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxkaXNhYmxlZFNjaGVkdWxlUmVhc29uc1w+</last-pattern>
       <last-replace />
       <last-substitute>,$</last-substitute>
       <last-dir>1</last-dir>
