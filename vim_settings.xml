@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>:.*</entry>
-        <entry>createloc</entry>
         <entry encoding="base64">cHJvdGVjdGVkIA==</entry>
         <entry>protected</entry>
         <entry>\.00</entry>
@@ -27,9 +25,10 @@
         <entry>jvm</entry>
         <entry>postgre</entry>
         <entry encoding="base64">XDxpZFNlcXVlbmNlXD4=</entry>
+        <entry>,$</entry>
+        <entry>spotsva</entry>
       </history-search>
       <history-cmd>
-        <entry>98</entry>
         <entry>110</entry>
         <entry>67</entry>
         <entry>170</entry>
@@ -46,9 +45,10 @@
         <entry encoding="base64">JzwsJz5zO3Byb3RlY3RlZCA7Ow==</entry>
         <entry encoding="base64">JzwsJz5zO3Byb3RlY3RlZDtpbnRlcm5hbDs=</entry>
         <entry>18</entry>
-        <entry>action ReformatCode</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
+        <entry encoding="base64">JzwsJz5zOywkOzs=</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -121,13 +121,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589498048007">
-        <mark key="'" line="149" column="43" />
-        <mark key="[" line="243" column="101" />
-        <mark key="]" line="244" column="75" />
-        <mark key="." line="244" column="74" />
-        <mark key="^" line="244" column="75" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/AddonPurchase.kt" timestamp="1589500339324">
         <mark key="'" line="12" column="25" />
         <mark key="[" line="13" column="0" />
@@ -192,6 +185,18 @@
         <mark key="." line="47" column="0" />
         <mark key="^" line="46" column="40" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/NetworkAndPremiumReservationCounts.kt" timestamp="1589574974563">
+        <mark key="'" line="23" column="45" />
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="39" column="58" />
+        <mark key="." line="15" column="53" />
+        <mark key="^" line="39" column="10" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" timestamp="1589575150746">
+        <mark key="[" line="46" column="26" />
+        <mark key="]" line="46" column="26" />
+        <mark key="." line="46" column="26" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" timestamp="1589568034314">
         <mark key="'" line="41" column="64" />
         <mark key="[" line="16" column="12" />
@@ -210,8 +215,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="92" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
-      <jump line="91" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
       <jump line="33" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
       <jump line="26" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
       <jump line="27" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
@@ -310,6 +313,8 @@
       <jump line="235" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="20" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="190" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
+      <jump line="19" column="81" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/NetworkAndPremiumReservationCounts.kt" />
+      <jump line="23" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/NetworkAndPremiumReservationCounts.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -335,8 +340,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBzZXRWZW51ZU1hcmtldFNldmVyaXR5KHZlbnVlSWQsIE1hcmtldFNldmVyaXR5LkdSRUVOKQo=</text>
+      <register name="*" type="4">
+        <text>: LocalDate</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -711,7 +716,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>9.1-901-1.jdbc4</text>
+        <text>: LocalDate</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -747,40 +752,40 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpZFNlcXVlbmNlXD4=</text>
+        <text>spotsva</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdmVudWVJZCA9IHZlbnVlRmFjdG9yeS5jcmVhdGUoKS52ZW51ZUlkCiAgICAgICAgdmFsIHVzZXIgPSBkYXNoYm9hcmRVc2VyKGxpbmtlZFZlbnVlSWRzID0gbGlzdE9mKHZlbnVlSWQpLCBwZXJtaXNzaW9uTmFtZXMgPSBsaXN0T2YoRElTUExBWV9SQVRFKSkKICAgICAgICBzZXRWZW51ZU1hcmtldFNldmVyaXR5KHZlbnVlSWQsIE1hcmtldFNldmVyaXR5LkdSRUVOKQogICAgICAgIGFzc2VydFRoYXQgewogICAgICAgICAgICBjb3ZpZENvbnRyb2xzQ29udHJvbGxlci5zZXRDb3ZpZENvbnRyb2xzKAogICAgICAgICAgICAgICAgdXNlci5pZCwKICAgICAgICAgICAgICAgIFNldENvdmlkQ29udHJvbHNSZXF1ZXN0KHZlbnVlSWQsIEluUGVyc29uU2VydmljZXNTdGF0dXMuTElWRSkKICAgICAgICAgICAgKQogICAgICAgIH0uaXNGYWlsdXJlKCkKICAgICAgICAgICAgLmlzSW5zdGFuY2VPZihGb3JiaWRkZW5FeGNlcHRpb246OmNsYXNzKQo=</text>
+        <text encoding="base64">ICAgIHZhbCB0b3RhbENsYXNzUGFzc1Jlc2VydmF0aW9ucyA9IHByZW1pdW1SZXNlcnZhdGlvbnMgKyBuZXR3b3JrUmVzZXJ2YXRpb25zCiAgICBwcml2YXRlIHZhbCB0b3RhbFNwb3RzVGFrZW4gPSBwcmVtaXVtU3BvdHNUYWtlbiArIG5ldHdvcmtTcG90c1Rha2VuCiAgICB2YWwgc3BvdHNWYWxpZCA9IHRvdGFsQ2xhc3NQYXNzUmVzZXJ2YXRpb25zID09IHRvdGFsU3BvdHNUYWtlbgoKfQoKdmFsIExpc3Q8UmVzZXJ2YXRpb24+LnByZW1pdW1Db3VudDogSW50CiAgICBnZXQoKSA9IGNvdW50IHsgaXQuc3BvdFR5cGUgPT0gUFJFTUlVTSAmJiBpdC5wcmVtaXVtIH0KdmFsIExpc3Q8UmVzZXJ2YXRpb24+Lm5ldHdvcmtQcmVtaXVtQ291bnQ6IEludAogICAgZ2V0KCkgPSBjb3VudCB7IGl0LnNwb3RUeXBlID09IE5FVFdPUksgJiYgaXQucHJlbWl1bSB9Cg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZXRWZW51ZU1hcmtldFNldmVyaXR5KHZlbnVlSWQsIE1hcmtldFNldmVyaXR5LkdSRUVOKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text>classPassportRecord.classpassSpots?.toInt(),</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuZGFvLkdlbmVyYXRvck1peGlucy5Db21wYW5pb24uaWRTZXF1ZW5jZQo=</text>
+        <text encoding="base64">ICAgIHZhbCB0b3RhbENsYXNzUGFzc1Jlc2VydmF0aW9ucyA9IHByZW1pdW1SZXNlcnZhdGlvbnMgKyBuZXR3b3JrUmVzZXJ2YXRpb25zCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gInBvc3RncmVzcWwiIHRvICI5LjEtOTAxLTEuamRiYzQiLAo=</text>
+        <text encoding="base64">ICAgIHZhbCB0b3RhbENsYXNzUGFzc1Jlc2VydmF0aW9ucyA9IHByZW1pdW1SZXNlcnZhdGlvbnMgKyBuZXR3b3JrUmVzZXJ2YXRpb25zCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3797,22 +3802,22 @@
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBnZXQoKSA9Cg==</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Y2xhc3MgRnV1dSA6IFRyYW5zYWN0aW9uYWxUZXN0QmFzZSgpIHsKCiAgICBAVGVzdAogICAgZnVuIGBnZXRQcm9kdWN0c1JlcG9ydCByZXF1aXJlcyBwZXJtaXNzaW9uYCgpID0gcnVuQmxvY2tpbmc8VW5pdD4gewogICAgICAgIHZhbCB1c2VyID0gZGFzaGJvYXJkVXNlcihwZXJtaXNzaW9uTmFtZXMgPSBlbXB0eUxpc3QoKSkKCiAgICAgICAgYXNzZXJ0VGhhdCB7CiAgICAgICAgICAgIHByb2R1Y3RzUmVwb3J0Q29udHJvbGxlci5nZXRQcm9kdWN0c1JlcG9ydCh1c2VyLmlkLCBQYWdlUmVxdWVzdC5VTkxJTUlURUQpCiAgICAgICAgfS5pc0ZhaWx1cmUoKQogICAgICAgICAgICAuaXNJbnN0YW5jZU9mKEZvcmJpZGRlbkV4Y2VwdGlvbjo6Y2xhc3MuamF2YSkKCiAgICB9Cn0=</text>
+        <text encoding="base64">ICAgICAgICBwcml2YXRlIHZhbCB0b3RhbFNwb3RzVGFrZW4gPSBwcmVtaXVtU3BvdHNUYWtlbiArIG5ldHdvcmtTcG90c1Rha2VuCg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vIHZhbCBwcmVtaXVtUmVzZXJ2YXRpb25zOiBJbnQgPSAwLAogICAgLy8gdmFsIHByZW1pdW1SZXNlcnZhdGlvbnNOZXR3b3JrU3BvdHM6IEludCA9IDAsCiAgICAvLyB2YWwgcHJlbWl1bVJlc2VydmF0aW9uc1ByZW1pdW1TcG90czogSW50ID0gMCwKICAgIC8vIHZhbCBwcmVtaXVtU3BvdHNUYWtlbjogSW50ID0gMCwKICAgIC8vIHZhbCBuZXR3b3JrUmVzZXJ2YXRpb25zOiBJbnQgPSAwLAogICAgLy8gdmFsIG5ldHdvcmtTcG90c1Rha2VuOiBJbnQgPSAwLAogICAgLy8gdmFsIGZyZXF1ZW50VmlzaXRvcnM6IEludCA9IDAK</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowPrevChangeMarker</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3821,12 +3826,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxpZFNlcXVlbmNlXD4=</last-search>
+      <last-search>spotsva</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpZFNlcXVlbmNlXD4=</last-pattern>
-      <last-replace>internal</last-replace>
-      <last-substitute>protected</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-pattern>spotsva</last-pattern>
+      <last-replace />
+      <last-substitute>,$</last-substitute>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
