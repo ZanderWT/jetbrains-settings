@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">cHJvdGVjdGVkIA==</entry>
-        <entry>protected</entry>
         <entry>\.00</entry>
         <entry>req</entry>
         <entry>.to</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxpZFNlcXVlbmNlXD4=</entry>
         <entry>,$</entry>
         <entry>spotsva</entry>
+        <entry>disabledreasons</entry>
+        <entry>disabledrea</entry>
       </history-search>
       <history-cmd>
         <entry>110</entry>
@@ -121,13 +121,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/AddonPurchase.kt" timestamp="1589500339324">
-        <mark key="'" line="12" column="25" />
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="42" column="29" />
-        <mark key="^" line="41" column="14" />
-        <mark key="." line="41" column="13" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1589568719979">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="88" column="22" />
@@ -140,6 +133,12 @@
         <mark key="]" line="58" column="51" />
         <mark key="." line="58" column="50" />
         <mark key="^" line="58" column="51" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" timestamp="1589575797087">
+        <mark key="'" line="83" column="4" />
+        <mark key="[" line="30" column="45" />
+        <mark key="]" line="30" column="45" />
+        <mark key="." line="30" column="45" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/PartnersResourceTest.kt" timestamp="1589562727638">
         <mark key="[" line="23" column="0" />
@@ -166,10 +165,6 @@
         <mark key="]" line="21" column="36" />
         <mark key="." line="21" column="35" />
         <mark key="^" line="21" column="36" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/DashboardUserGenerator.kt" timestamp="1589501323446">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="50" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ProductsReportDaoTest.kt" timestamp="1589560556053">
         <mark key="'" line="37" column="0" />
@@ -205,6 +200,9 @@
         <mark key="^" line="16" column="23" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" timestamp="1589501873340" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/SchedulesForVenueResponse.kt" timestamp="1589575803889">
+        <mark key="'" line="14" column="11" />
+      </file>
       <file name="/Dummy.txt" timestamp="1589573494247">
         <mark key="[" line="0" column="0" />
       </file>
@@ -215,10 +213,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
-      <jump line="26" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
-      <jump line="27" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
-      <jump line="25" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
       <jump line="42" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
       <jump line="32" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesLegacyDao.kt" />
       <jump line="77" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
@@ -315,6 +309,10 @@
       <jump line="190" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="19" column="81" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/NetworkAndPremiumReservationCounts.kt" />
       <jump line="23" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/NetworkAndPremiumReservationCounts.kt" />
+      <jump line="29" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
+      <jump line="51" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
+      <jump line="83" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
+      <jump line="14" column="11" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/SchedulesForVenueResponse.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -341,7 +339,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>: LocalDate</text>
+        <text>)</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -716,7 +714,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>: LocalDate</text>
+        <text>)</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -752,7 +750,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>spotsva</text>
+        <text>disabledrea</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHZhbCB0b3RhbENsYXNzUGFzc1Jlc2VydmF0aW9ucyA9IHByZW1pdW1SZXNlcnZhdGlvbnMgKyBuZXR3b3JrUmVzZXJ2YXRpb25zCiAgICBwcml2YXRlIHZhbCB0b3RhbFNwb3RzVGFrZW4gPSBwcmVtaXVtU3BvdHNUYWtlbiArIG5ldHdvcmtTcG90c1Rha2VuCiAgICB2YWwgc3BvdHNWYWxpZCA9IHRvdGFsQ2xhc3NQYXNzUmVzZXJ2YXRpb25zID09IHRvdGFsU3BvdHNUYWtlbgoKfQoKdmFsIExpc3Q8UmVzZXJ2YXRpb24+LnByZW1pdW1Db3VudDogSW50CiAgICBnZXQoKSA9IGNvdW50IHsgaXQuc3BvdFR5cGUgPT0gUFJFTUlVTSAmJiBpdC5wcmVtaXVtIH0KdmFsIExpc3Q8UmVzZXJ2YXRpb24+Lm5ldHdvcmtQcmVtaXVtQ291bnQ6IEludAogICAgZ2V0KCkgPSBjb3VudCB7IGl0LnNwb3RUeXBlID09IE5FVFdPUksgJiYgaXQucHJlbWl1bSB9Cg==</text>
@@ -3826,9 +3824,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>spotsva</last-search>
+      <last-search>disabledrea</last-search>
       <last-offset />
-      <last-pattern>spotsva</last-pattern>
+      <last-pattern>disabledrea</last-pattern>
       <last-replace />
       <last-substitute>,$</last-substitute>
       <last-dir>1</last-dir>
