@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDx3aGVuZXZlclw+</entry>
-        <entry>isin</entry>
-        <entry>controller</entry>
         <entry>product</entry>
         <entry>asdf</entry>
         <entry>resource</entry>
@@ -27,6 +24,9 @@
         <entry encoding="base64">XDx0b3RhbENhcGFjaXR5SW5mb1w+</entry>
         <entry encoding="base64">XDx0b3RhbEJvb2tpbmdzSW5mb1w+</entry>
         <entry encoding="base64">XDxzY2hlZHVsZVJlc2VydmF0aW9uQ291bnRzXD4=</entry>
+        <entry encoding="base64">XDxzY2hlZHVsZURldGFpbHNcPg==</entry>
+        <entry>mutab</entry>
+        <entry encoding="base64">XDxzdHJlYW1EZXRhaWxzRm9yU2NoZWR1bGVzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>110</entry>
@@ -134,8 +134,8 @@
         <mark key="." line="58" column="50" />
         <mark key="^" line="58" column="51" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" timestamp="1589579563888">
-        <mark key="'" line="65" column="56" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" timestamp="1589579628871">
+        <mark key="'" line="58" column="12" />
         <mark key="[" line="30" column="45" />
         <mark key="]" line="30" column="45" />
         <mark key="." line="30" column="45" />
@@ -150,9 +150,6 @@
         <mark key="]" line="52" column="32" />
         <mark key="." line="52" column="31" />
         <mark key="^" line="52" column="32" />
-      </file>
-      <file name="/fragment.kt" timestamp="1589559835643">
-        <mark key="[" line="0" column="37" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589562553202">
         <mark key="'" line="246" column="8" />
@@ -187,6 +184,16 @@
         <mark key="." line="15" column="53" />
         <mark key="^" line="39" column="10" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" timestamp="1589581114514">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" timestamp="1589581121879">
+        <mark key="'" line="107" column="20" />
+        <mark key="[" line="202" column="45" />
+        <mark key="]" line="202" column="12" />
+        <mark key="^" line="202" column="12" />
+        <mark key="." line="202" column="11" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ReservationController.kt" timestamp="1589575150746">
         <mark key="[" line="46" column="26" />
         <mark key="]" line="46" column="26" />
@@ -199,7 +206,6 @@
         <mark key="." line="16" column="22" />
         <mark key="^" line="16" column="23" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" timestamp="1589501873340" />
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/SchedulesForVenueResponse.kt" timestamp="1589575803889">
         <mark key="'" line="14" column="11" />
       </file>
@@ -213,11 +219,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
-      <jump line="16" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
-      <jump line="24" column="3" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
-      <jump line="11" column="10" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/PagingAndSortingDao.kt" />
-      <jump line="16" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" />
       <jump line="25" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/PagingAndSortingDao.kt" />
       <jump line="21" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ClassesReportVenuePortalDao.kt" />
       <jump line="29" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
@@ -313,6 +314,11 @@
       <jump line="62" column="54" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
       <jump line="75" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
       <jump line="65" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
+      <jump line="77" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
+      <jump line="58" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ScheduleLegacyDao.kt" />
+      <jump line="86" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
+      <jump line="107" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -750,7 +756,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzY2hlZHVsZVJlc2VydmF0aW9uQ291bnRzXD4=</text>
+        <text encoding="base64">XDxzdHJlYW1EZXRhaWxzRm9yU2NoZWR1bGVzXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHZhbCB0b3RhbENsYXNzUGFzc1Jlc2VydmF0aW9ucyA9IHByZW1pdW1SZXNlcnZhdGlvbnMgKyBuZXR3b3JrUmVzZXJ2YXRpb25zCiAgICBwcml2YXRlIHZhbCB0b3RhbFNwb3RzVGFrZW4gPSBwcmVtaXVtU3BvdHNUYWtlbiArIG5ldHdvcmtTcG90c1Rha2VuCiAgICB2YWwgc3BvdHNWYWxpZCA9IHRvdGFsQ2xhc3NQYXNzUmVzZXJ2YXRpb25zID09IHRvdGFsU3BvdHNUYWtlbgoKfQoKdmFsIExpc3Q8UmVzZXJ2YXRpb24+LnByZW1pdW1Db3VudDogSW50CiAgICBnZXQoKSA9IGNvdW50IHsgaXQuc3BvdFR5cGUgPT0gUFJFTUlVTSAmJiBpdC5wcmVtaXVtIH0KdmFsIExpc3Q8UmVzZXJ2YXRpb24+Lm5ldHdvcmtQcmVtaXVtQ291bnQ6IEludAogICAgZ2V0KCkgPSBjb3VudCB7IGl0LnNwb3RUeXBlID09IE5FVFdPUksgJiYgaXQucHJlbWl1bSB9Cg==</text>
@@ -3824,12 +3830,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzY2hlZHVsZVJlc2VydmF0aW9uQ291bnRzXD4=</last-search>
+      <last-search encoding="base64">XDxzdHJlYW1EZXRhaWxzRm9yU2NoZWR1bGVzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzY2hlZHVsZVJlc2VydmF0aW9uQ291bnRzXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxzdHJlYW1EZXRhaWxzRm9yU2NoZWR1bGVzXD4=</last-pattern>
       <last-replace />
       <last-substitute>,$</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
