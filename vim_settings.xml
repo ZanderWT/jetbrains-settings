@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>fam</entry>
-        <entry>dao</entry>
-        <entry>prod</entry>
-        <entry encoding="base64">XDxSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhb1w+</entry>
-        <entry>\(\w\+\) = \zsxxx</entry>
         <entry>dash</entry>
         <entry>?: \zs</entry>
         <entry encoding="base64">ID86</entry>
@@ -27,6 +22,11 @@
         <entry>\.00</entry>
         <entry>req</entry>
         <entry>.to</entry>
+        <entry encoding="base64">XDxESVNQTEFZX1JBVEVcPg==</entry>
+        <entry encoding="base64">XDx3aGVuZXZlclw+</entry>
+        <entry>isin</entry>
+        <entry>controller</entry>
+        <entry>product</entry>
       </history-search>
       <history-cmd>
         <entry>98</entry>
@@ -135,11 +135,11 @@
         <mark key="^" line="41" column="14" />
         <mark key="." line="41" column="13" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" timestamp="1589560115930">
-        <mark key="[" line="25" column="1" />
-        <mark key="]" line="25" column="16" />
-        <mark key="." line="25" column="15" />
-        <mark key="^" line="25" column="16" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" timestamp="1589561175059">
+        <mark key="[" line="58" column="42" />
+        <mark key="]" line="58" column="51" />
+        <mark key="." line="58" column="50" />
+        <mark key="^" line="58" column="51" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ProductsReportResource.kt" timestamp="1589495421124">
         <mark key="[" line="39" column="49" />
@@ -147,8 +147,12 @@
         <mark key="." line="39" column="59" />
         <mark key="^" line="39" column="60" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" timestamp="1589482033419">
-        <mark key="'" line="24" column="3" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" timestamp="1589562474015">
+        <mark key="'" line="23" column="34" />
+        <mark key="[" line="67" column="12" />
+        <mark key="]" line="67" column="36" />
+        <mark key="." line="67" column="35" />
+        <mark key="^" line="67" column="36" />
       </file>
       <file name="/fragment.kt" timestamp="1589559835643">
         <mark key="[" line="0" column="37" />
@@ -158,11 +162,17 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" timestamp="1589496351738">
-        <mark key="[" line="24" column="35" />
-        <mark key="]" line="24" column="59" />
-        <mark key="." line="24" column="58" />
-        <mark key="^" line="24" column="59" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589562553202">
+        <mark key="'" line="246" column="8" />
+        <mark key="[" line="287" column="0" />
+        <mark key="]" line="287" column="0" />
+        <mark key="." line="287" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" timestamp="1589561894901">
+        <mark key="[" line="22" column="30" />
+        <mark key="]" line="22" column="36" />
+        <mark key="." line="22" column="35" />
+        <mark key="^" line="22" column="36" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/DashboardUserGenerator.kt" timestamp="1589501323446">
         <mark key="[" line="18" column="0" />
@@ -182,25 +192,21 @@
         <mark key="." line="48" column="52" />
         <mark key="^" line="48" column="53" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/008_addon_partner_dashboard.sql" timestamp="1589490888695">
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="95" />
-      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.1.1/c8cd68f41c63e60c89321caa95513376aace6711/javax.ws.rs-api-2.1.1-sources.jar!/javax/ws/rs/core/Response.java" timestamp="1589497214238">
         <mark key="'" line="1197" column="21" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" timestamp="1589560829001">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ProductsReportDao.kt" timestamp="1589561221727">
         <mark key="'" line="41" column="64" />
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="." line="35" column="0" />
-        <mark key="^" line="34" column="115" />
+        <mark key="[" line="24" column="75" />
+        <mark key="]" line="25" column="8" />
+        <mark key="." line="25" column="7" />
+        <mark key="^" line="25" column="8" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/Generator.kt" timestamp="1589501873340" />
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/PagingAndSortingDao.kt" timestamp="1589492435734">
         <mark key="'" line="25" column="8" />
       </file>
-      <file name="/fragment.java" timestamp="1589497869736">
+      <file name="/fragment.java" timestamp="1589561274353">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -212,23 +218,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="378" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="48" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="200" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="51" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ScheduleGenerator.kt" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/config/use1-config.yml" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/config/production-platform-config.yml" />
-      <jump line="57" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="220" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="173" column="60" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="225" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="78" column="27" filename="$USER_HOME$/cp-projects/payments/src/main/java/com/classpass/resources/BillingResource.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/BillingDao.sql.stg" />
-      <jump line="112" column="0" filename="$USER_HOME$/cp-projects/payments/src/main/resources/com/classpass/dao/BillingDao.sql.stg" />
-      <jump line="34" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReportingDigestLegacyDao.kt" />
-      <jump line="59" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReportingDigestLegacyDao.kt" />
       <jump line="100" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/SummaryReportController.kt" />
       <jump line="44" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
       <jump line="12" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
@@ -312,6 +301,23 @@
       <jump line="22" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ProductsReportDaoTest.kt" />
       <jump line="34" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ProductsReportDaoTest.kt" />
       <jump line="35" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ProductsReportDaoTest.kt" />
+      <jump line="2" column="49" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" />
+      <jump line="24" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" />
+      <jump line="8" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" />
+      <jump line="27" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" />
+      <jump line="34" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" />
+      <jump line="23" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" />
+      <jump line="579" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="10" column="52" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="353" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="343" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="342" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="248" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="257" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="256" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="191" column="42" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="286" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="246" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -338,7 +344,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -713,7 +719,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>ADDON_PARTNER_DASHBOARD</text>
+        <text>Controls</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -749,40 +755,40 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>.to</text>
+        <text>product</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgYWN0dWFsID0gcHJvZHVjdHNSZXBvcnREYW8uZ2V0UHJvZHVjdHNSZXBvcnQocmVxdWVzdFZlbnVlSWRzLCBQYWdlUmVxdWVzdC5VTkxJTUlURUQpLmZpcnN0LnRvU2V0KCkK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0IHsKICAgICAgICAgICAgY29udHJvbGxlci5nZXRQcm9kdWN0c1JlcG9ydCh1c2VySWQsIFBhZ2VSZXF1ZXN0LlVOTElNSVRFRCkKICAgICAgICB9LmlzRmFpbHVyZSgpCiAgICAgICAgICAgIC5pc0luc3RhbmNlT2YoRm9yYmlkZGVuRXhjZXB0aW9uOjpjbGFzcy5qYXZhKQo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text>classPassportRecord.classpassSpots?.toInt(),</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmpvaW4oc2VsZWN0KCkpLm9uKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcAo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3793,25 +3799,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgYWN0dWFsID0gCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQo=</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
-      <register name="8" type="4">
-        <text>FastMoney.of(ints().range(10, 100).get(), createCurrencyCode()),</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZXhwZWN0ZWQgPSBsaXN0T2YocHVyY2hhc2VBLCBwdXJjaGFzZUIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmpvaW4oc2VsZWN0KCkpLm9uKCkK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3823,12 +3829,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>.to</last-search>
+      <last-search>product</last-search>
       <last-offset />
-      <last-pattern>.to</last-pattern>
+      <last-pattern>product</last-pattern>
       <last-replace>internal</last-replace>
       <last-substitute>protected</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
