@@ -145,12 +145,12 @@
         <mark key="^" line="202" column="12" />
         <mark key="." line="202" column="11" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589834348003">
-        <mark key="'" line="260" column="8" />
-        <mark key="[" line="271" column="20" />
-        <mark key="]" line="271" column="43" />
-        <mark key="." line="271" column="42" />
-        <mark key="^" line="271" column="43" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589834449981">
+        <mark key="'" line="259" column="8" />
+        <mark key="[" line="254" column="43" />
+        <mark key="]" line="254" column="44" />
+        <mark key="." line="254" column="43" />
+        <mark key="^" line="254" column="44" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleDetails.kt" timestamp="1589579628871">
         <mark key="'" line="58" column="12" />
@@ -363,7 +363,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>legacyTransactionContext, reservationDao, scheduleDao, venueDao</text>
+        <text>cancelledR</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -738,7 +738,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>legacyTransactionContext, reservationDao, scheduleDao, venueDao</text>
+        <text>cancelledR</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -776,8 +776,8 @@
       <register name="/" type="4">
         <text>reservationfactory</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGZ1biBjcmVhdGVDYW5jZWxsZWQoCiAgICAgICAgdXNlcjogQ2xhc3NQYXNzVXNlciA9IENsYXNzUGFzc1VzZXJGYWN0b3J5KCkuY3JlYXRlKCksCiAgICAgICAgc2NoZWR1bGU6IFNjaGVkdWxlID0gU2NoZWR1bGVGYWN0b3J5KCkuY3JlYXRlKCkKICAgICk6IFJlc2VydmF0aW9uIHsKICAgICAgICByZXR1cm4gdGhpcy5jcmVhdGUoCiAgICAgICAgICAgIHVzZXIgPSB1c2VyLAogICAgICAgICAgICBzY2hlZHVsZSA9IHNjaGVkdWxlLAogICAgICAgICAgICByZXNlcnZhdGlvblN0YXR1cyA9IFBhc3Nwb3J0UmVzZXJ2YXRpb25zU3RhdHVzLmNhbmNlbGxlZCwKICAgICAgICAgICAgY2FuY2VsbGF0aW9uVHlwZSA9IFBhc3Nwb3J0UmVzZXJ2YXRpb25zQ2FuY2VsbGF0aW9uVHlwZS51c2VyX2NhbmNlbGxlZAogICAgICAgICkKICAgIH0K</text>
+      <register name="0" type="4">
+        <text>reservation(reservationId, user, schedule, reservationStatus, cancellationType, studioEarlyCancel, attendanceStatus, purchaseType, purchaseReason)</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
