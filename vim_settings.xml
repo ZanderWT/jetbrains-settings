@@ -7,30 +7,28 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxQYXNzcG9ydFJhdGluZ1w+</entry>
-        <entry>ratingfac</entry>
-        <entry>venufa</entry>
-        <entry>venuefac</entry>
-        <entry encoding="base64">XDxUYWJsZXNcPg==</entry>
-        <entry>this</entry>
-        <entry encoding="base64">XDxuZXh0TG9uZ1w+</entry>
         <entry>random.*</entry>
         <entry encoding="base64">XDxzdXJ2ZXlEYXRlXD4=</entry>
         <entry>protected</entry>
-        <entry>:.*</entry>
         <entry>group</entry>
         <entry>com.classpass</entry>
         <entry>dropwizard</entry>
         <entry>?: fal</entry>
         <entry>it.insert</entry>
-        <entry>DashboardUser</entry>
-        <entry encoding="base64">ID0uKg==</entry>
-        <entry>asdf</entry>
         <entry>addoncovi</entry>
+        <entry>DashboardUser</entry>
+        <entry>context.newRecord(\(\w\+\)).apply</entry>
+        <entry>videos</entry>
+        <entry>asd</entry>
+        <entry encoding="base64">ID0uKg==</entry>
+        <entry>aasdf</entry>
+        <entry>dashb</entry>
+        <entry>this</entry>
+        <entry encoding="base64">XDxUYWJsZXNcPg==</entry>
+        <entry>:.*</entry>
+        <entry>asdf</entry>
       </history-search>
       <history-cmd>
-        <entry>18</entry>
-        <entry encoding="base64">JzwsJz5zOywkOzs=</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action MethodDown</entry>
         <entry>s; =.*;,;</entry>
@@ -42,13 +40,15 @@
         <entry>28</entry>
         <entry>%s;DashboardUser;ResPricingHistoryRecord;g</entry>
         <entry>%s;DashboardUser;AttendanceSurveyFilteredRecord;g</entry>
-        <entry encoding="base64">JzwsJz5zO3RoaXM7aXQ7Zw==</entry>
         <entry encoding="base64">JzwsJz5zO3Byb3RlY3RlZDtpbnRlcm5hbA==</entry>
-        <entry encoding="base64">JzwsJz5zOzouKjssOw==</entry>
         <entry>%s;DashboardUser;AddonCovidDonations;g</entry>
-        <entry encoding="base64">JzwsJz5zOyA9Lio7LDs=</entry>
         <entry>bnext</entry>
+        <entry>%s;DashboardUser;ClasstivityVideosRecord;g</entry>
+        <entry>%s;context.newRecord(\(\w\+\)).apply;Tables.\1.newRecord().also</entry>
+        <entry encoding="base64">JzwsJz5zOyA9Lio7LDs=</entry>
+        <entry encoding="base64">JzwsJz5zO3RoaXM7aXQ7Zw==</entry>
         <entry>action ReformatCode</entry>
+        <entry encoding="base64">JzwsJz5zOzouKjssOw==</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -141,13 +141,6 @@
         <mark key="." line="15" column="38" />
         <mark key="^" line="15" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/ReservationGenerator.kt" timestamp="1589838376553">
-        <mark key="'" line="69" column="12" />
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="0" />
-        <mark key="." line="53" column="0" />
-        <mark key="^" line="47" column="28" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueAggregationLogGenerator.kt" timestamp="1589840480869">
         <mark key="'" line="41" column="95" />
         <mark key="[" line="41" column="46" />
@@ -173,9 +166,6 @@
         <mark key="^" line="32" column="8" />
         <mark key="." line="27" column="42" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/InsightsControllerTest.kt" timestamp="1589839289787">
-        <mark key="'" line="423" column="30" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueContactInfoGenerator.kt" timestamp="1589842472647">
         <mark key="'" line="44" column="34" />
         <mark key="[" line="17" column="13" />
@@ -200,18 +190,31 @@
         <mark key="^" line="84" column="21" />
         <mark key="." line="88" column="25" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589912865009">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" timestamp="1589914127238">
         <mark key="'" line="388" column="60" />
-        <mark key="[" line="390" column="64" />
-        <mark key="]" line="390" column="64" />
-        <mark key="." line="390" column="64" />
+        <mark key="[" line="392" column="50" />
+        <mark key="]" line="392" column="50" />
+        <mark key="." line="392" column="50" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589912859913">
-        <mark key="'" line="412" column="83" />
-        <mark key="[" line="407" column="33" />
-        <mark key="]" line="407" column="33" />
-        <mark key="^" line="412" column="88" />
-        <mark key="." line="407" column="33" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589914138908">
+        <mark key="'" line="449" column="47" />
+        <mark key="[" line="438" column="25" />
+        <mark key="]" line="438" column="25" />
+        <mark key="." line="438" column="25" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VideosGenerator.kt" timestamp="1589913416464">
+        <mark key="'" line="23" column="21" />
+        <mark key="[" line="20" column="29" />
+        <mark key="]" line="20" column="29" />
+        <mark key="." line="20" column="29" />
+        <mark key="^" line="29" column="41" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" timestamp="1589914180793">
+        <mark key="'" line="5" column="0" />
+        <mark key="[" line="60" column="9" />
+        <mark key="]" line="61" column="41" />
+        <mark key="." line="61" column="40" />
+        <mark key="^" line="61" column="41" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/StatsReportController.kt" timestamp="1589839379461">
         <mark key="'" line="100" column="16" />
@@ -228,12 +231,12 @@
         <mark key="]" line="12" column="18" />
         <mark key="." line="12" column="9" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/UserFeedbackGenerator.kt" timestamp="1589838648058">
-        <mark key="'" line="32" column="37" />
-        <mark key="[" line="42" column="28" />
-        <mark key="]" line="42" column="29" />
-        <mark key="." line="42" column="29" />
-        <mark key="^" line="42" column="78" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageGenerator.kt" timestamp="1589913861946">
+        <mark key="'" line="15" column="0" />
+        <mark key="[" line="5" column="18" />
+        <mark key="]" line="4" column="19" />
+        <mark key="^" line="4" column="19" />
+        <mark key="." line="4" column="18" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonCovidDonationsGenerator.kt" timestamp="1589912835989">
         <mark key="'" line="20" column="51" />
@@ -244,28 +247,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueItemLogGenerator.kt" />
-      <jump line="24" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueItemLogGenerator.kt" />
-      <jump line="27" column="69" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueItemLogGenerator.kt" />
-      <jump line="44" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueItemLogGenerator.kt" />
-      <jump line="50" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueItemLogGenerator.kt" />
-      <jump line="382" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="58" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="197" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
-      <jump line="51" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueItemLogGenerator.kt" />
-      <jump line="0" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueItemLogGenerator.kt" />
-      <jump line="43" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueItemLogGenerator.kt" />
-      <jump line="423" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/InsightsControllerTest.kt" />
-      <jump line="100" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/StatsReportController.kt" />
-      <jump line="10" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueAggregationLogGenerator.kt" />
-      <jump line="28" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueAggregationLogGenerator.kt" />
-      <jump line="20" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueAggregationLogGenerator.kt" />
-      <jump line="38" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/RevenueAggregationLogGenerator.kt" />
-      <jump line="325" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="326" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="331" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="318" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
-      <jump line="25" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="10" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
       <jump line="90" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/SummaryReportControllerTest.kt" />
       <jump line="85" column="33" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/SummaryReportControllerTest.kt" />
@@ -344,18 +325,51 @@
       <jump line="9" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonCovidDonationsGenerator.kt" />
       <jump line="14" column="51" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonCovidDonationsGenerator.kt" />
       <jump line="388" column="60" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="10" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VideosGenerator.kt" />
+      <jump line="19" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VideosGenerator.kt" />
+      <jump line="22" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VideosGenerator.kt" />
+      <jump line="428" column="78" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="441" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="13" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageGenerator.kt" />
+      <jump line="12" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageGenerator.kt" />
+      <jump line="17" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageGenerator.kt" />
+      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageGenerator.kt" />
+      <jump line="16" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="30" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="14" column="27" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="37" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="41" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="64" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="51" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="4" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="52" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="3" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
+      <jump line="457" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
+      <jump line="448" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="a" type="2">
-        <text encoding="base64">ICAgICAgICB2ZW51ZUlkOiBWZW51ZUlkID0gaWRTZXF1ZW5jZS5uZXh0SW50KCksCiAgICAgICAgY3VycmVuY3k6IEN1cnJlbmN5Q29kZSA9IGNyZWF0ZUN1cnJlbmN5Q29kZSgpLAogICAgICAgIHRvdGFsRG9uYXRpb25zOiBJbnQgPSBpbnRzKCkucmFuZ2UoNSwgMTAwMDApLmdldCgpCg==</text>
+        <text encoding="base64">ICAgICAgICBtZXNzYWdlVUlEOiBVVUlEID0gVVVJRC5yYW5kb21VVUlEKCksCiAgICAgICAgbWVzc2FnZVRpbWVzdGFtcDogT2Zmc2V0RGF0ZVRpbWUgPSBPZmZzZXREYXRlVGltZS5ub3coKSwKICAgICAgICBjbGFzc1Bhc3NVc2VySWQ6IENsYXNzUGFzc1VzZXJJZCA9IGlkU2VxdWVuY2UubmV4dEludCgpLAogICAgICAgIGRhc2hib2FyZFVzZXJJZDogRGFzaGJvYXJkVXNlcklkID0gaWRTZXF1ZW5jZS5uZXh0SW50KCksCiAgICAgICAgdmVudWVJZDogVmVudWVJZCA9IGlkU2VxdWVuY2UubmV4dEludCgpLAogICAgICAgIG1lc3NhZ2U6IFN0cmluZyA9ICJQTEFDRUhPTERFUiBNRVNTQUdFIiwKICAgICAgICByZXNlcnZhdGlvbklkOiBSZXNlcnZhdGlvbklkID0gaWRTZXF1ZW5jZS5uZXh0SW50KCksCiAgICAgICAgbWVzc2FnZVR5cGU6IFZlbnVlTWVzc2FnZVR5cGUgPSBWZW51ZU1lc3NhZ2VUeXBlLkdFTkVSSUMsCiAgICAgICAgbm90aWZpY2F0aW9uVHlwZTogVmVudWVNZXNzYWdlTm90aWZpY2F0aW9uVHlwZSA9IFZlbnVlTWVzc2FnZU5vdGlmaWNhdGlvblR5cGUuRU1BSUwK</text>
       </register>
       <register name="&quot;" type="4">
         <text>&quot;</text>
       </register>
       <register name="b" type="4">
-        <text encoding="base64">IGNvbnRleHQubmV3UmVjb3JkKEFERE9OX0NPVklEX0RPTkFUSU9OUykuYXBwbHkgewogICAgICAgIHRoaXMudmVudWVJZCA9IHZlbnVlSWQKICAgICAgICB0aGlzLmN1cnJlbmN5ID0gY3VycmVuY3kKICAgICAgICB0aGlzLnRvdGFsRG9uYXRpb25zID0gdG90YWxEb25hdGlvbnMKICAgICAgICBpbnNlcnQoKQogICAgfQ==</text>
+        <text>context.newRecord(VENUE_MESSAGE_LOG).apply {
+        this.messageUuid = messageUID
+        this.messageTimestamp = messageTimestamp
+        this.userId = classPassUserId
+        this.venueUserId = dashboardUserId
+        this.venueId = venueId
+        this.message = message
+        this.reservationId = reservationId
+        this.messageType = messageType.toString()
+        this.notificationType = notificationType.toString()
+        insert()
+    }</text>
       </register>
       <register name="c" type="2">
         <text encoding="base64">ICAgIGluaXQ6IEdlbmVyYXRvcjxEYXNoYm9hcmRVc2VyPi4oKSAtPiBVbml0ID0ge30KKSA9IERhc2hib2FyZFVzZXJHZW5lcmF0b3IoaWQsIHBlcm1pc3Npb25OYW1lcywgbGlua2VkVmVudWVJZHMsIGVtYWlsLCBpc0FjdGl2ZSkuYXBwbHkoaW5pdCkuZ2VuZXJhdGUoKQo=</text>
@@ -370,7 +384,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>venuePortalTransactionContext</text>
+        <text encoding="base64">KCkg</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -745,7 +759,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>venuePortalTransactionContext</text>
+        <text encoding="base64">KCkg</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -781,7 +795,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>addoncovi</text>
+        <text>asdf</text>
       </register>
       <register name="0" type="4">
         <text>createLocalDate(),</text>
@@ -790,13 +804,24 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text>longs().range(0, 5).get(),</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnZlbnVlSWQgPSB2ZW51ZUlkCiAgICAgICAgdGhpcy5jdXJyZW5jeSA9IGN1cnJlbmN5CiAgICAgICAgdGhpcy50b3RhbERvbmF0aW9ucyA9IHRvdGFsRG9uYXRpb25zCiAgICAgICAgaW5zZXJ0KCkK</text>
+      <register name="2" type="4">
+        <text>context.newRecord(VENUE_MESSAGE_LOG).apply {
+        this.messageUuid = messageUID
+        this.messageTimestamp = messageTimestamp
+        this.userId = classPassUserId
+        this.venueUserId = dashboardUserId
+        this.venueId = venueId
+        this.message = message
+        this.reservationId = reservationId
+        this.messageType = messageType.toString()
+        this.notificationType = notificationType.toString()
+        insert()
+    }</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
@@ -807,16 +832,14 @@
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="8">
-        <text>this
-this
-this</text>
+      <register name="4" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuam9vcS5sZWdhY3kuVGFibGVzCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text>()</text>
+      <register name="5" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuam9vcS52ZW51ZV9wb3J0YWwuVGFibGVzLlZFTlVFX01FU1NBR0VfTE9HCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3826,8 +3849,8 @@ this</text>
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>ADDON_COVID_DONATIONS</text>
+      <register name="6" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuam9vcS52ZW51ZV9wb3J0YWwudGFibGVzLnJlY29yZHMuVmVudWVNZXNzYWdlTG9nUmVjb3JkCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
@@ -3839,16 +3862,16 @@ this</text>
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBUT0RPKCJOb3QgeWV0IGltcGxlbWVudGVkIikK</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuam9vcS52ZW51ZV9wb3J0YWwudGFibGVzLnJlY29yZHMuVmVudWVNZXNzYWdlTG9nUmVjb3JkCg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text encoding="base64">JzwsJz5zOzouKjssOw==</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3857,11 +3880,11 @@ this</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>addoncovi</last-search>
+      <last-search>asdf</last-search>
       <last-offset />
-      <last-pattern>addoncovi</last-pattern>
+      <last-pattern>asdf</last-pattern>
       <last-replace>,</last-replace>
-      <last-substitute encoding="base64">ID0uKg==</last-substitute>
+      <last-substitute>:.*</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
