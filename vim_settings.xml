@@ -7,10 +7,7 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>reservationfac</entry>
-        <entry>mock</entry>
         <entry encoding="base64">XDxpbml0R2VuZXJhdG9yc1w+</entry>
-        <entry>dashboardUserFactory.create</entry>
         <entry>revenueItemLogFactory.create</entry>
         <entry>classFactory.create</entry>
         <entry>scheduleFactory.create</entry>
@@ -27,11 +24,11 @@
         <entry>CurrencyCode</entry>
         <entry>Factory</entry>
         <entry>import .*dao.\w\+Factory</entry>
+        <entry>dashboardUserFactory.create</entry>
+        <entry>organizationFactory.create</entry>
+        <entry>venueFactory.create</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zO3Byb3RlY3RlZDtpbnRlcm5hbA==</entry>
-        <entry>%s;DashboardUser;AddonCovidDonations;g</entry>
-        <entry>%s;DashboardUser;ClasstivityVideosRecord;g</entry>
         <entry>%s;context.newRecord(\(\w\+\)).apply;Tables.\1.newRecord().also</entry>
         <entry encoding="base64">JzwsJz5zOyA9Lio7LDs=</entry>
         <entry encoding="base64">JzwsJz5zO3RoaXM7aXQ7Zw==</entry>
@@ -49,6 +46,9 @@
         <entry encoding="base64">JzwsJz5zb3J0IHU=</entry>
         <entry>%s;import .*dao.\w\+Factory;;</entry>
         <entry>action ReformatCode</entry>
+        <entry>%s;dashboardUserFactory.create;dashboardUser;g</entry>
+        <entry>%s;organizationFactory.create;organization;g</entry>
+        <entry>%s;venueFactory.create;venue;g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,8 +133,8 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ReservationLegacyDaoTest.kt" timestamp="1589921253307">
         <mark key="'" line="62" column="28" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" timestamp="1589999231048">
-        <mark key="'" line="165" column="21" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" timestamp="1590000043863">
+        <mark key="'" line="292" column="18" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/MockDataFactories.kt" timestamp="1589921347630">
         <mark key="'" line="78" column="0" />
@@ -193,9 +193,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageGenerator.kt" />
-      <jump line="17" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageGenerator.kt" />
-      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageGenerator.kt" />
       <jump line="16" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
       <jump line="30" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
       <jump line="14" column="27" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueMessageLogGenerator.kt" />
@@ -293,6 +290,9 @@
       <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="37" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="38" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="173" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" />
+      <jump line="292" column="68" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" />
+      <jump line="291" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -741,7 +741,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>import .*dao.\w\+Factory</text>
+        <text>venueFactory.create</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWN0dWFsID0gcHJvZHVjdHNSZXBvcnREYW8uZ2V0UHJvZHVjdHNSZXBvcnQocmVxdWVzdFZlbnVlSWRzLCBQYWdlUmVxdWVzdC5VTkxJTUlURUQpLmZpcnN0LnRvU2V0KCkK</text>
@@ -3806,7 +3806,7 @@
         <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuZ2VuZXJhdG9ycy52ZW51ZQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action ReformatCode</text>
+        <text>%s;venueFactory.create;venue;g</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3815,11 +3815,11 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>import .*dao.\w\+Factory</last-search>
+      <last-search>venueFactory.create</last-search>
       <last-offset />
-      <last-pattern>import .*dao.\w\+Factory</last-pattern>
-      <last-replace />
-      <last-substitute>import .*dao.\w\+Factory</last-substitute>
+      <last-pattern>venueFactory.create</last-pattern>
+      <last-replace>venue</last-replace>
+      <last-substitute>venueFactory.create</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
