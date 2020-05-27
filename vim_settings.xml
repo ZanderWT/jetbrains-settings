@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>classes</entry>
-        <entry encoding="base64">XDxjbGFzc1w+</entry>
         <entry>classFactory.create</entry>
         <entry>\(\w\+\)Factory.create</entry>
         <entry>tpo</entry>
@@ -27,9 +25,10 @@
         <entry>addo</entry>
         <entry>getreve</entry>
         <entry>_canc</entry>
+        <entry encoding="base64">XDx1c2VyVmVudWVzXD4=</entry>
+        <entry>with</entry>
       </history-search>
       <history-cmd>
-        <entry>%s;dashboardUserFactory.create;dashboardUser</entry>
         <entry>%s;revenueItemLogFactory.create;revenueItemLog;</entry>
         <entry>%s;scheduleFactory.create;schedule;</entry>
         <entry>%s;venueFactory.create();venue();</entry>
@@ -41,14 +40,15 @@
         <entry>%s;organizationFactory.create;organization;g</entry>
         <entry>%s;venueFactory.create;venue;g</entry>
         <entry>action MethodUp</entry>
-        <entry>bnext</entry>
         <entry encoding="base64">JzwsJz5zO3ZhbCA7Ow==</entry>
         <entry encoding="base64">JzwsJz5zOzouKjsgPSB4eHgsOw==</entry>
         <entry>%s;classFactory.create;classtivityClass;</entry>
         <entry>%s;\(\w\+\)Factory.create;\1;</entry>
         <entry>%y</entry>
         <entry>%s;buffer: \zsString;Buffer;g</entry>
+        <entry>31</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -171,12 +171,12 @@
         <mark key="." line="24" column="42" />
         <mark key="^" line="24" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" timestamp="1590013317735">
-        <mark key="'" line="26" column="25" />
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="17" column="0" />
-        <mark key="^" line="26" column="26" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" timestamp="1590599557765">
+        <mark key="'" line="27" column="107" />
+        <mark key="[" line="28" column="17" />
+        <mark key="]" line="28" column="25" />
+        <mark key="." line="28" column="24" />
+        <mark key="^" line="28" column="25" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" timestamp="1590529596798">
         <mark key="'" line="3" column="35" />
@@ -212,11 +212,15 @@
         <mark key="." line="23" column="11" />
         <mark key="^" line="23" column="12" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" timestamp="1590599529291">
+        <mark key="'" line="85" column="46" />
+        <mark key="[" line="136" column="45" />
+        <mark key="]" line="136" column="46" />
+        <mark key="." line="136" column="45" />
+        <mark key="^" line="136" column="46" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="41" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ProductsReportDaoTest.kt" />
-      <jump line="242" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
-      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="44" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="166" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="29" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/AddOnController.kt" />
@@ -314,6 +318,9 @@
       <jump line="92" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/StatsReportDaoTest.kt" />
       <jump line="70" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/StatsReportDaoTest.kt" />
       <jump line="87" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
+      <jump line="30" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
+      <jump line="85" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ProductsReportControllerTest.kt" />
+      <jump line="27" column="107" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ProductsReportController.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -351,7 +358,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>,</text>
+        <text>any</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -726,7 +733,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>any</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -762,43 +769,40 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>_canc</text>
+        <text>with</text>
       </register>
-      <register name="0" type="4">
-        <text>+ addonPurchasesRevenue.rangeA,</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgZXhwZWN0ZWQgPSBQcm9kdWN0c1JlcG9ydFJlc3BvbnNlKAogICAgICAgICAgICByZXBvcnQgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICBQcm9kdWN0c1JlcG9ydFJvdygKICAgICAgICAgICAgICAgICAgICBwdXJjaGFzZURhdGUgPSBhZGRvblB1cmNoYXNlLnB1cmNoYXNlRGF0ZSwKICAgICAgICAgICAgICAgICAgICBwdXJjaGFzZUFtb3VudCA9IGFkZG9uUHVyY2hhc2UucHVyY2hhc2VBbW91bnQsCiAgICAgICAgICAgICAgICAgICAgcGF5b3V0QW1vdW50ID0gYWRkb25QdXJjaGFzZS5wYXlvdXRBbW91bnQsCiAgICAgICAgICAgICAgICAgICAgcGFja2FnZU5hbWUgPSBhZGRvblB1cmNoYXNlLnBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgICAgIHZlbnVlcyA9IGxpc3RPZihQcm9kdWN0c1JlcG9ydFZlbnVlKHZlbnVlLnZlbnVlSWQsIHZlbnVlLnZlbnVlTmFtZSwgdmVudWUudmVudWVTdWJ0aXRsZSkpLAogICAgICAgICAgICAgICAgICAgIHB1cmNoYXNlck5hbWUgPSBhZGRvblB1cmNoYXNlLnB1cmNoYXNlck5hbWUsCiAgICAgICAgICAgICAgICAgICAgZXhwaXJhdGlvbkRhdGUgPSBhZGRvblB1cmNoYXNlLmV4cGlyYXRpb25EYXRlLAogICAgICAgICAgICAgICAgICAgIHVzZWRDbGFzc2VzID0gYWRkb25QdXJjaGFzZS51c2VkQ2xhc3NlcywKICAgICAgICAgICAgICAgICAgICByZW1haW5pbmdDbGFzc2VzID0gYWRkb25QdXJjaGFzZS5yZW1haW5pbmdDbGFzc2VzCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICksIHBhZ2VJbmZvID0gcGFnZUluZm8KICAgICAgICApCg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
-      <register name="1" type="4">
-        <text>+ addonPurchases.filter { it.purchaseDate in rangeB }
-                    .map { it.payoutAmount.number.numberValue(BigDecimal::class.java) }.sum()</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICB3aAo=</text>
       </register>
       <register name="q" type="4">
         <text>longs().range(0, 5).get(),</text>
       </register>
       <register name="2" type="4">
-        <text>+ addonPurchases.filter { it.purchaseDate in rangeA }
-                    .map { it.payoutAmount.number.numberValue(BigDecimal::class.java) }.sum()</text>
+        <text>()</text>
       </register>
       <register name="r" type="4">
         <text>PASSPORT_RATINGS</text>
       </register>
       <register name="3" type="4">
-        <text>addonPurchases.filter { it.purchaseDate in rangeB }
-                    .map { it.payoutAmount.number.numberValue(BigDecimal::class.java) }.sum()</text>
+        <text>addonPurchases.flatMap {it.venueIds}.distinct() - userVenues.keys</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZm9vID0gIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZlbnVlRGFvLmdldFZlbnVlcyhtaXNzaW5nVikKICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZm9vID0gIGFkZG9uUHVyY2hhc2VzLmZpbHRlciB7IGl0LnB1cmNoYXNlRGF0ZSBpbiByYW5nZUF9Lm1hcCB7aXQucGF5b3V0QW1vdW50Lm51bWJlcn0uc3VtKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3809,25 +3813,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBnZXQoKSA9IFRPRE8oIk5vdCB5ZXQgaW1wbGVtZW50ZWQiKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gQW4gYWRkb24gcHVyY2hhc2UgY2FuIGJlIHVzZWQgYXQgbXVsdGlwbGUgdmVudWVzLCBhbmQgc29tZXRpbWVzIHRoZSBzZXQgb2YgdmVudWVzIAo=</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmVudWVEYW8uZ2V0VmVudWVzKCkK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmVudWVEYW8uZ2V0Vgo=</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHZhciBidWZmZXI6IFN0cmluZyA9ICIiCiAgICB2YXIgY2FyZXQ6IEludCA9IDAK</text>
+      <register name="9" type="4">
+        <text>()</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3839,12 +3843,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>_canc</last-search>
+      <last-search>with</last-search>
       <last-offset />
-      <last-pattern>_canc</last-pattern>
+      <last-pattern>with</last-pattern>
       <last-replace>Buffer</last-replace>
       <last-substitute>buffer: \zsString</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
