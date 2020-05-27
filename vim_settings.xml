@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>wri</entry>
         <entry>classes</entry>
         <entry encoding="base64">XDxjbGFzc1w+</entry>
         <entry>classFactory.create</entry>
@@ -27,6 +26,7 @@
         <entry>rangea</entry>
         <entry>addo</entry>
         <entry>getreve</entry>
+        <entry>_canc</entry>
       </history-search>
       <history-cmd>
         <entry>%s;dashboardUserFactory.create;dashboardUser</entry>
@@ -143,11 +143,9 @@
         <mark key="." line="2" column="101" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/StatsReportDaoTest.kt" timestamp="1590531860606">
-        <mark key="'" line="70" column="14" />
-        <mark key="[" line="111" column="56" />
-        <mark key="]" line="111" column="57" />
-        <mark key="." line="111" column="57" />
-        <mark key="^" line="105" column="57" />
+        <mark key="[" line="9" column="56" />
+        <mark key="]" line="9" column="57" />
+        <mark key="." line="9" column="57" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/DashboardUserLegacyDao.kt" timestamp="1590012785753">
         <mark key="'" line="55" column="12" />
@@ -191,6 +189,9 @@
         <mark key="[" line="77" column="26" />
         <mark key="]" line="77" column="92" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" timestamp="1590592414833">
+        <mark key="'" line="87" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/java/com/classpass/partners/business/ScheduleControllerTest.kt" timestamp="1590103404949">
         <mark key="'" line="74" column="20" />
         <mark key="[" line="96" column="17" />
@@ -213,7 +214,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="18" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.willowtreeapps.assertk/assertk-jvm/0.19/6e7c0236714d06598e9e393903c75508db277439/assertk-jvm-0.19-sources.jar!/commonMain/assertk/assertions/any.kt" />
       <jump line="41" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ProductsReportDaoTest.kt" />
       <jump line="242" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
       <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" />
@@ -313,6 +313,7 @@
       <jump line="111" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/StatsReportDaoTest.kt" />
       <jump line="92" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/StatsReportDaoTest.kt" />
       <jump line="70" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/StatsReportDaoTest.kt" />
+      <jump line="87" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -761,7 +762,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>getreve</text>
+        <text>_canc</text>
       </register>
       <register name="0" type="4">
         <text>+ addonPurchasesRevenue.rangeA,</text>
@@ -3838,9 +3839,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>getreve</last-search>
+      <last-search>_canc</last-search>
       <last-offset />
-      <last-pattern>getreve</last-pattern>
+      <last-pattern>_canc</last-pattern>
       <last-replace>Buffer</last-replace>
       <last-substitute>buffer: \zsString</last-substitute>
       <last-dir>1</last-dir>
