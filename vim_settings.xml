@@ -169,11 +169,10 @@
       <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1592495191555">
         <mark key="'" line="37" column="17" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/CovidControlsResourceTest.kt" timestamp="1592514349083">
-        <mark key="[" line="26" column="47" />
-        <mark key="]" line="27" column="31" />
-        <mark key="." line="27" column="30" />
-        <mark key="^" line="27" column="31" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/CovidControlsResourceTest.kt" timestamp="1592515545044">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="." line="25" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/AddOnResource.kt" timestamp="1592496950067">
         <mark key="'" line="48" column="8" />
@@ -203,12 +202,6 @@
         <mark key="]" line="46" column="47" />
         <mark key="." line="46" column="46" />
         <mark key="^" line="46" column="47" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SetCovidControlsRequest.kt" timestamp="1592513509848">
-        <mark key="[" line="18" column="29" />
-        <mark key="]" line="18" column="30" />
-        <mark key="^" line="18" column="30" />
-        <mark key="." line="18" column="29" />
       </file>
     </filemarks>
     <jumps>
@@ -349,7 +342,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>setup</text>
+        <text>?</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -724,7 +717,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>setup</text>
+        <text>?</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -769,31 +762,31 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZm9vID0gSW50UGFyYW0obnVsbCkK</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLnJlc291cmNlcy5jbGllbnQoKS5yZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIoKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnJlc291cmNlcy5jbGllbnQoKS5yZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIoKSkK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAuYXBwbHkgewo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3804,7 +3797,7 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAuYXBwbHkgewogICAgICAgICAgICBjbGllbnQoKS5yZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIoKSkKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAuYXBwbHkgewo=</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
@@ -3816,13 +3809,13 @@
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBtYXBwZXIucHJvdgo=</text>
+        <text encoding="base64">ICAgICAgICAuYXBwbHkgewogICAgICAgICAgICBjbGllbnQoKS5yZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIoKSkKICAgICAgICB9Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYQo=</text>
+        <text encoding="base64">ICAgICAgICBtYXBwZXIucHJvdgo=</text>
       </register>
       <register name=":" type="4">
         <text>action ToggleBookmarkWithMnemonic</text>
