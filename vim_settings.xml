@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>media</entry>
-        <entry>entity</entry>
-        <entry encoding="base64">XDxFbnRpdHlcPg==</entry>
-        <entry>request</entry>
         <entry>valida</entry>
         <entry>dropwizard</entry>
         <entry>final</entry>
@@ -27,6 +23,10 @@
         <entry encoding="base64">XDxzaW5nbGV0b25zXD4=</entry>
         <entry>jersey</entry>
         <entry>register</entry>
+        <entry encoding="base64">XDxyZXNvdXJjZUluc3RhbmNlXD4=</entry>
+        <entry>resourcecon</entry>
+        <entry encoding="base64">XDxjb25maWd1cmF0aW9uXD4=</entry>
+        <entry>resourceconfig</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOzouKjsgPSB4eHgsOw==</entry>
@@ -121,20 +121,14 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jersey/1.3.10/99b3fcaf7eddbc993a4305ae79dad40d10c19c45/dropwizard-jersey-1.3.10-sources.jar!/io/dropwizard/jersey/DropwizardResourceConfig.java" timestamp="1592500955551">
-        <mark key="[" line="75" column="0" />
-        <mark key="]" line="75" column="55" />
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.test-framework/jersey-test-framework-core/2.25.1/688f815432ff340bb6650ad93377201f2593e870/jersey-test-framework-core-2.25.1-sources.jar!/org/glassfish/jersey/test/JerseyTest.java" timestamp="1592501658930">
+        <mark key="'" line="627" column="14" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1592495149820">
-        <mark key="'" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/ClassesReportResourceTest.kt" timestamp="1592434745064">
-        <mark key="'" line="23" column="23" />
-        <mark key="[" line="31" column="19" />
-        <mark key="]" line="31" column="57" />
-      </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/common/Resource.java" timestamp="1592501357039">
-        <mark key="'" line="78" column="12" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersApplication.kt" timestamp="1592512781717">
+        <mark key="'" line="64" column="0" />
+        <mark key="[" line="63" column="0" />
+        <mark key="]" line="63" column="0" />
+        <mark key="." line="63" column="0" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.jade/dropwizard/2.13.0/7f7d80321b20538dcf5d3c3b8bc60327835ae408/dropwizard-2.13.0-sources.jar!/com/classpass/jade/dropwizard/BaseApplication.kt" timestamp="1592500915282">
         <mark key="'" line="48" column="6" />
@@ -142,35 +136,49 @@
       <file name="/fragment.kt" timestamp="1592434746576">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jersey/1.3.10/99b3fcaf7eddbc993a4305ae79dad40d10c19c45/dropwizard-jersey-1.3.10-sources.jar!/io/dropwizard/jersey/DropwizardResourceConfig.java" timestamp="1592500955551">
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="75" column="55" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1592495149820">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ScheduleReportResource.kt" timestamp="1592500791079">
+        <mark key="'" line="36" column="40" />
+        <mark key="[" line="36" column="8" />
+        <mark key="]" line="36" column="38" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/VisualizationModule.kt" timestamp="1592436034841">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="5" column="60" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassesReportController.kt" timestamp="1592433655757">
         <mark key="'" line="28" column="68" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.25.1/f0c3629e116829bb892a86d1fabfbc3e18550b7c/jersey-server-2.25.1-sources.jar!/org/glassfish/jersey/server/ResourceConfig.java" timestamp="1592512618506">
+        <mark key="'" line="450" column="26" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/ClassesReportResourceTest.kt" timestamp="1592434745064">
+        <mark key="'" line="23" column="23" />
+        <mark key="[" line="31" column="19" />
+        <mark key="]" line="31" column="57" />
+      </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/common/Resource.java" timestamp="1592512656474">
+        <mark key="'" line="139" column="12" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1592495191555">
         <mark key="'" line="37" column="17" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/CovidControlsResourceTest.kt" timestamp="1592513147709">
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/AddOnResource.kt" timestamp="1592496950067">
         <mark key="'" line="48" column="8" />
         <mark key="[" line="23" column="0" />
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
-      </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.test-framework/jersey-test-framework-core/2.25.1/688f815432ff340bb6650ad93377201f2593e870/jersey-test-framework-core-2.25.1-sources.jar!/org/glassfish/jersey/test/JerseyTest.java" timestamp="1592501658930">
-        <mark key="'" line="627" column="14" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/VisualizationModule.kt" timestamp="1592436034841">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="60" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersApplication.kt" timestamp="1592501590347">
-        <mark key="'" line="64" column="0" />
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="0" />
-        <mark key="." line="64" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ScheduleReportResource.kt" timestamp="1592500791079">
-        <mark key="'" line="36" column="40" />
-        <mark key="[" line="36" column="8" />
-        <mark key="]" line="36" column="38" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/build.gradle.kts" timestamp="1592497832726">
         <mark key="'" line="13" column="21" />
@@ -179,8 +187,8 @@
         <mark key="^" line="13" column="40" />
         <mark key="." line="13" column="39" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/junit5/ResourceExtension.java" timestamp="1592501648524">
-        <mark key="'" line="72" column="6" />
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/junit5/ResourceExtension.java" timestamp="1592512661600">
+        <mark key="'" line="41" column="20" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1592498120726">
         <mark key="[" line="101" column="75" />
@@ -188,20 +196,19 @@
         <mark key="^" line="99" column="40" />
         <mark key="." line="101" column="75" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/PartnersResourceTest.kt" timestamp="1592513185526">
+        <mark key="'" line="39" column="21" />
+        <mark key="[" line="46" column="8" />
+        <mark key="]" line="46" column="47" />
+        <mark key="." line="46" column="46" />
+        <mark key="^" line="46" column="47" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/ClassesReportRequest.kt" timestamp="1592433600942">
         <mark key="[" line="17" column="0" />
         <mark key="]" line="17" column="16" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="112" column="93" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/StatsReportController.kt" />
-      <jump line="107" column="82" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/StatsReportControllerTest.kt" />
-      <jump line="102" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/StatsReportControllerTest.kt" />
-      <jump line="110" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/StatsReportControllerTest.kt" />
-      <jump line="111" column="54" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/StatsReportControllerTest.kt" />
-      <jump line="113" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/StatsReportControllerTest.kt" />
-      <jump line="196" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/StatsReportDaoTest.kt" />
-      <jump line="154" column="26" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/logic/GeocodingHierarchyLogic.java" />
       <jump line="146" column="29" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/services/GoogleAPI.java" />
       <jump line="7" column="29" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/003_location_table.sql" />
       <jump line="8" column="29" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/003_location_table.sql" />
@@ -294,12 +301,20 @@
       <jump line="145" column="58" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.test-framework/jersey-test-framework-core/2.25.1/688f815432ff340bb6650ad93377201f2593e870/jersey-test-framework-core-2.25.1-sources.jar!/org/glassfish/jersey/test/JerseyTest.java" />
       <jump line="603" column="12" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.test-framework/jersey-test-framework-core/2.25.1/688f815432ff340bb6650ad93377201f2593e870/jersey-test-framework-core-2.25.1-sources.jar!/org/glassfish/jersey/test/JerseyTest.java" />
       <jump line="627" column="14" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.test-framework/jersey-test-framework-core/2.25.1/688f815432ff340bb6650ad93377201f2593e870/jersey-test-framework-core-2.25.1-sources.jar!/org/glassfish/jersey/test/JerseyTest.java" />
+      <jump line="38" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/PartnersResourceTest.kt" />
+      <jump line="41" column="24" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/common/Resource.java" />
+      <jump line="182" column="64" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/common/Resource.java" />
+      <jump line="130" column="44" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/common/Resource.java" />
+      <jump line="45" column="25" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/common/Resource.java" />
+      <jump line="450" column="26" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.25.1/f0c3629e116829bb892a86d1fabfbc3e18550b7c/jersey-server-2.25.1-sources.jar!/org/glassfish/jersey/server/ResourceConfig.java" />
+      <jump line="139" column="12" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/common/Resource.java" />
+      <jump line="41" column="20" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-testing/1.3.10/3ad6b985b067aff2a621a1db2becff4f8c737fda/dropwizard-testing-1.3.10-sources.jar!/io/dropwizard/testing/junit5/ResourceExtension.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="a" type="2">
-        <text encoding="base64">ICAgIHZhbCB2ZW51ZUlkOiBWZW51ZUlkLAogICAgdmFsIGluUGVyc29uU2VydmljZXNTdGF0dXM6IEluUGVyc29uU2VydmljZXNTdGF0dXMK</text>
+        <text encoding="base64">ICAgICAgICAuYXBwbHkgewogICAgICAgICAgICBjbGllbnQoKS5yZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIoKSkKICAgICAgICB9Cg==</text>
       </register>
       <register name="&quot;" type="4">
         <text>&quot;</text>
@@ -330,8 +345,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="*" type="4">
+        <text>setup</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -706,7 +721,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>jerseyTest.</text>
+        <text>setup</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -742,7 +757,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>register</text>
+        <text>resourceconfig</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICByZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIuY2xhc3MpOwo=</text>
@@ -751,31 +766,31 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVnaXMK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnJlc291cmNlcy5jbGllbnQoKS5yZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIoKSkK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAuCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAuamVyKEFic3RyYWN0UGFyYW1Db252ZXJ0ZXJQcm92aWRlcigpKQo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBtYXBwZXIucGFyYW0K</text>
+        <text encoding="base64">ICAgICAgICAuYXBwbHkgewo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3786,25 +3801,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAuamVyCg==</text>
+        <text encoding="base64">ICAgICAgICAuYXBwbHkgewogICAgICAgICAgICBjbGllbnQoKS5yZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIoKSkKICAgICAgICB9Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAuCg==</text>
+        <text encoding="base64">ICAgICAgICAuYXBwbHkgewogICAgICAgICAgICBjbGllbnQoKS5yZWdpc3RlcihBYnN0cmFjdFBhcmFtQ29udmVydGVyUHJvdmlkZXIoKSkKICAgICAgICB9Cg==</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBtYXBwZXIucHJvdgo=</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgYQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ToggleBookmarkWithMnemonic</text>
@@ -3816,9 +3831,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>register</last-search>
+      <last-search>resourceconfig</last-search>
       <last-offset />
-      <last-pattern>register</last-pattern>
+      <last-pattern>resourceconfig</last-pattern>
       <last-replace encoding="base64">ID0gbW9jaygp</last-replace>
       <last-substitute>:.*</last-substitute>
       <last-dir>1</last-dir>
