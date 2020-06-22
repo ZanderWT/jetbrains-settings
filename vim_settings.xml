@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>asdf</entry>
         <entry>val</entry>
         <entry>jers</entry>
         <entry>param</entry>
@@ -27,6 +26,7 @@
         <entry>type</entry>
         <entry>source</entry>
         <entry>initialize-db</entry>
+        <entry>lon</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOzouKjsgPSB4eHgsOw==</entry>
@@ -125,6 +125,12 @@
         <mark key="[" line="22" column="0" />
         <mark key="]" line="24" column="29" />
       </file>
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/request/SaveRawLocationRequest.kt" timestamp="1592857719407">
+        <mark key="'" line="2" column="60" />
+        <mark key="[" line="2" column="76" />
+        <mark key="]" line="2" column="76" />
+        <mark key="." line="2" column="76" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" timestamp="1592847071745">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="97" column="0" />
@@ -137,11 +143,12 @@
         <mark key="]" line="13" column="0" />
         <mark key="." line="13" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/RawLocationResource.kt" timestamp="1592852925592">
-        <mark key="[" line="16" column="24" />
-        <mark key="]" line="16" column="24" />
-        <mark key="." line="16" column="23" />
-        <mark key="^" line="16" column="24" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/RawLocationResource.kt" timestamp="1592857965296">
+        <mark key="'" line="12" column="26" />
+        <mark key="[" line="23" column="8" />
+        <mark key="]" line="24" column="40" />
+        <mark key="." line="24" column="39" />
+        <mark key="^" line="24" column="40" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/LocationResource.java" timestamp="1592852751914">
         <mark key="'" line="70" column="0" />
@@ -156,18 +163,18 @@
         <mark key="." line="38" column="38" />
         <mark key="^" line="38" column="39" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/PartnersResourceTest.kt" timestamp="1592513185526">
-        <mark key="'" line="29" column="21" />
-        <mark key="[" line="44" column="8" />
-        <mark key="]" line="44" column="47" />
-        <mark key="." line="44" column="46" />
-        <mark key="^" line="44" column="47" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/GlobalLocationService.java" timestamp="1592857918064">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="61" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/DataSource.java" timestamp="1592853004029">
         <mark key="[" line="7" column="20" />
         <mark key="]" line="7" column="21" />
         <mark key="^" line="7" column="21" />
         <mark key="." line="7" column="20" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1592856717646">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersApplication.kt" timestamp="1592516411516">
         <mark key="'" line="97" column="55" />
@@ -198,27 +205,17 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/VenueResource.kt" timestamp="1592847114775">
         <mark key="'" line="6" column="44" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/validation/JacksonPropertyNodeNameProvider.kt" timestamp="1592516327882">
-        <mark key="[" line="9" column="72" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/AddOnResource.kt" timestamp="1592517265650">
         <mark key="'" line="53" column="17" />
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1592856573301">
+      <file name="/fragment.java" timestamp="1592856717659">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SetCovidControlsRequest.kt" timestamp="1592516121462">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="0" />
-        <mark key="." line="12" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="21" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/AddOnPack.kt" />
-      <jump line="23" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/AddOnResource.kt" />
       <jump line="48" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/AddOnResource.kt" />
       <jump line="65" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
       <jump line="139" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ScheduleController.kt" />
@@ -317,6 +314,8 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/docker-compose.yml" />
       <jump line="25" column="8" filename="$USER_HOME$/cp-projects/gls/docker-compose.yml" />
       <jump line="38" column="8" filename="$USER_HOME$/cp-projects/gls/docker-compose.yml" />
+      <jump line="2" column="60" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/request/SaveRawLocationRequest.kt" />
+      <jump line="12" column="26" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/RawLocationResource.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -343,7 +342,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IGNvb3JkaW5hdGUgYnkgaWQ=</text>
+        <text>)</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -718,7 +717,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGNvb3JkaW5hdGUgYnkgaWQ=</text>
+        <text>)</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -754,40 +753,40 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>initialize-db</text>
+        <text>lon</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBBcGlPcGVyYXRpb24oIkdldCBNYXJrZXQgRGF0YSBGb3IgVmVudWUiKQogICAgQEdFVAogICAgQFBhdGgoIi92ZW51ZS97dmVudWVJZH0iKQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgTG9nZ2VyIGxvZyA9IExvZ2dlckZhY3RvcnkuZ2V0TG9nZ2VyKGdldENsYXNzKCkpOwo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBQYXRoKCIvdmVudWUve3ZlbnVlSWR9IikK</text>
+        <text encoding="base64">ICAgICAgICBUT0RPKCkK</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CiAgICBAR0VUCiAgICAK</text>
+        <text encoding="base64">ICAgIGNvbnN0cnVjdG9yIChsYXRpdHVkZTogRG91YmxlPywgbG9uZ2l0dWRlOiBEb3VibGU/KSA6IHRoaXMoCiAgICAgICAgICAgIGxhdGl0dWRlPy5sZXQKICAgICkK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjb3JvdXRpbmVTY29wZSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICB0aGlzKGxhdGl0dWRlLCBsb25naXR1ZGUpCiAgICB9Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICJpbl9wZXJzb25fc2VydmljZXNfc3RhdHVzIjogIkxJVkUiCg==</text>
+      <register name="4" type="4">
+        <text>{}</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LnZhbGlkYXRpb24udmFsdWVleHRyYWN0aW9uLlVud3JhcHBpbmcK</text>
+      <register name="5" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3798,25 +3797,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5oaWJlcm5hdGUudmFsaWRhdG9yLnZhbHVlaGFuZGxpbmcuVW53cmFwVmFsaWRhdGVkVmFsdWUK</text>
+        <text encoding="base64">ICAgIEBQYXRoKCIvdmVudWUve3ZlbnVlSWR9IikK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZm9vID0gYXJyYXlPZiggVW53cmFwOjpjbGFzcy5qYXZhICkK</text>
+        <text encoding="base64">CiAgICBAR0VUCiAgICAK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
-      <register name="8" type="4">
-        <text>[]</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBjb3JvdXRpbmVTY29wZSB7Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
-      <register name="9" type="4">
-        <text>Unwrap::class.java</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICJpbl9wZXJzb25fc2VydmljZXNfc3RhdHVzIjogIkxJVkUiCg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3828,12 +3827,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>initialize-db</last-search>
+      <last-search>lon</last-search>
       <last-offset />
-      <last-pattern>initialize-db</last-pattern>
+      <last-pattern>lon</last-pattern>
       <last-replace encoding="base64">ID0gbW9jaygp</last-replace>
       <last-substitute>:.*</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
