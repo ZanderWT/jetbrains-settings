@@ -45,8 +45,8 @@
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action ReformatCode</entry>
-        <entry>action MethodUp</entry>
         <entry>action MethodDown</entry>
+        <entry>action MethodUp</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
       </history-cmd>
@@ -127,12 +127,12 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueGenerator.kt" timestamp="1592921660512">
         <mark key="'" line="30" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" timestamp="1592952239882">
-        <mark key="'" line="269" column="30" />
-        <mark key="[" line="243" column="39" />
-        <mark key="]" line="243" column="39" />
-        <mark key="^" line="243" column="61" />
-        <mark key="." line="243" column="39" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" timestamp="1592953607588">
+        <mark key="'" line="56" column="0" />
+        <mark key="[" line="248" column="17" />
+        <mark key="]" line="248" column="17" />
+        <mark key="^" line="248" column="17" />
+        <mark key="." line="248" column="17" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/response/SaveRawLocationResponse.kt" timestamp="1592859216845">
         <mark key="[" line="3" column="0" />
@@ -214,7 +214,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="313" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenueLegacyDao.kt" />
       <jump line="94" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/ClasstivityWebsites.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/PassportVenues.java" />
       <jump line="30" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueGenerator.kt" />
@@ -314,6 +313,7 @@
       <jump line="248" column="22" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" />
       <jump line="257" column="30" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" />
       <jump line="269" column="30" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" />
+      <jump line="56" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -340,7 +340,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>!</text>
+        <text>best</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -715,7 +715,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>!</text>
+        <text>best</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -754,25 +754,25 @@
         <text encoding="base64">XDx1cHNlcnRMb2NhdGlvblw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBJbmplY3QKICAgIHByaXZhdGUgTG9jYXRpb25Mb2dpYyBsb2dpYzsK</text>
+        <text encoding="base64">ICAgICAgICBMb2NhdGlvbiBiZXN0Q2xhc3NQYXNzT2ZmaWNlID0gZGVmYXVsdExvY2F0aW9uQnVpbGRlcigpCiAgICAgICAgICAgIC5wb3N0YWxDb2RlSWQocG9zdGFsQ29kZUlkKQogICAgICAgICAgICAuYnVpbGQoKTsKCiAgICAgICAgU3RyaW5nIGZha2VEYXRhU291cmNlID0gRGF0YVNvdXJjZS5HT09HTEUudmFsdWU7CiAgICAgICAgU3RyaW5nIGZha2VEYXRhU291cmNlSWQgPSBkZWZhdWx0VGVzdExvY2F0aW9uR29vZ2xlUGxhY2VJZDsKCiAgICAgICAgbG9uZyBsb2NhdGlvbklkID0gZGFvLnVwc2VydExvY2F0aW9uKGJlc3RDbGFzc1Bhc3NPZmZpY2UudG9TY2hlbWFNb2RlbCgKICAgICAgICAgICAgZmFrZURhdGFTb3VyY2UsCiAgICAgICAgICAgIGZha2VEYXRhU291cmNlSWQpKTsK</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBmaWVsZDpJbmplY3QKICAgIHZhbCBsb2dpYzogTG9jYXRpb25Mb2dpYwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIEBmaWVsZDpJbmplY3QKICAgIHZhbCBsb2dpYzogTG9jYXRpb25Mb2dpYwo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
@@ -784,7 +784,7 @@
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRFCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3795,25 +3795,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnRFCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBMb2NhdGlvbiBnZXRSYXdMb2NhdGlvbkJ5Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBMb2NhdGlvbiBnZXRSYXdMb2NhdGlvbkJ5Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ShowBookmarks</text>
