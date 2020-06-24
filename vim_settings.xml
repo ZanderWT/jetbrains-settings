@@ -130,10 +130,10 @@
         <mark key="^" line="9" column="44" />
         <mark key="." line="9" column="43" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/VenueResource.java" timestamp="1593034142436">
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/VenueResource.java" timestamp="1593034719938">
         <mark key="'" line="32" column="0" />
-        <mark key="[" line="27" column="0" />
-        <mark key="]" line="29" column="37" />
+        <mark key="[" line="67" column="0" />
+        <mark key="]" line="69" column="30" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/logic/LocationLogicTest.java" timestamp="1593017437113">
         <mark key="'" line="231" column="42" />
@@ -152,13 +152,6 @@
         <mark key="]" line="151" column="7" />
         <mark key="." line="149" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/RawLocationResource.kt" timestamp="1592951657438">
-        <mark key="'" line="16" column="26" />
-        <mark key="[" line="28" column="70" />
-        <mark key="]" line="28" column="70" />
-        <mark key="." line="28" column="70" />
-        <mark key="^" line="28" column="49" />
-      </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" timestamp="1593033258678">
         <mark key="'" line="249" column="45" />
         <mark key="[" line="256" column="36" />
@@ -173,11 +166,11 @@
         <mark key="^" line="132" column="94" />
         <mark key="." line="132" column="93" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/ClasstivityClassResource.kt" timestamp="1593034147131">
-        <mark key="[" line="7" column="6" />
-        <mark key="]" line="7" column="13" />
-        <mark key="." line="7" column="12" />
-        <mark key="^" line="7" column="13" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/ClasstivityClassResource.kt" timestamp="1593034703887">
+        <mark key="[" line="10" column="6" />
+        <mark key="]" line="10" column="6" />
+        <mark key="." line="10" column="6" />
+        <mark key="^" line="11" column="4" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/com/classpass/gls/dao/LocationDao.sql.stg" timestamp="1593032750504">
         <mark key="'" line="273" column="43" />
@@ -225,6 +218,12 @@
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/util/TestLocationBuilder.java" timestamp="1592953937153">
         <mark key="[" line="11" column="36" />
         <mark key="]" line="11" column="52" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/ClassResource.kt" timestamp="1593034803430">
+        <mark key="[" line="22" column="5" />
+        <mark key="]" line="22" column="8" />
+        <mark key="." line="22" column="7" />
+        <mark key="^" line="22" column="8" />
       </file>
       <file name="/fragment.java" timestamp="1593010689566">
         <mark key="[" line="0" column="0" />
@@ -357,7 +356,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>Venues</text>
+        <text>POST</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -732,7 +731,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Venues</text>
+        <text>POST</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -771,37 +770,37 @@
         <text>findraw</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">QEFwaSgiVmVudWVzIikKQFBhdGgoIi92MSIpCkBQcm9kdWNlcyhNZWRpYVR5cGUuQVBQTElDQVRJT05fSlNPTikK</text>
+        <text encoding="base64">ICAgIEBBcGlPcGVyYXRpb24oIkFkZCBvciB1cGRhdGUgYSBjbGFzcydzIGxvY2F0aW9uIikKICAgIEBQT1NUCiAgICBAUGF0aCgiL3tjbGFzcy1pZH0iKQo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogUmV0dXJucyB0aGUgbmVhcmVzdCBzYXZlZCByYXcgbG9jYXRpb24gdG8gdGhlIHN1cHBsaWVkIGNvb3JkaW5hdGVzIHdpdGhpbiAxMCBtZXRlcnMuCiAgICAgKi8K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2aWV3X2xldmVscy5wcmlvcml0eSwK</text>
+        <text encoding="base64">ICAgIC8qKgogICAgICogUmV0dXJucyB0aGUgbmVhcmVzdCBzYXZlZCByYXcgbG9jYXRpb24gdG8gdGhlIHN1cHBsaWVkIGNvb3JkaW5hdGVzIHdpdGhpbiAxMCBtZXRlcnMuCiAgICAgKi8K</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB2aWV3X2xldmVscy5wcmlvcml0eSwK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBwYXNzd29yZDogCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmF3RGF0YVNvdXJjZSA9IERhdGFTb3VyY2UuUkFXLnZhbHVlOwogICAgICAgIFN0cmluZyByYXdEYXRhU291cmNlSWQgPSAiUkFXX2RhdGFfc291cmNlX2lkIjsK</text>
+        <text encoding="base64">ICBwYXNzd29yZDogCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3812,25 +3811,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmF3RGF0YVNvdXJjZSA9IERhdGFTb3VyY2UuUkFXLnZhbHVlOwogICAgICAgIFN0cmluZyByYXdEYXRhU291cmNlSWQgPSAiUkFXX2RhdGFfc291cmNlX2lkIjsK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIFN0ciAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgIFN0ciAK</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>action VcsShowPrevChangeMarker</text>
