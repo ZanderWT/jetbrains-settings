@@ -127,6 +127,12 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueGenerator.kt" timestamp="1592921660512">
         <mark key="'" line="30" column="4" />
       </file>
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/031_view_levels_point.sql" timestamp="1593008876869">
+        <mark key="[" line="9" column="42" />
+        <mark key="]" line="9" column="44" />
+        <mark key="^" line="9" column="44" />
+        <mark key="." line="9" column="43" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenueLegacyDao.kt" timestamp="1592922542895">
         <mark key="[" line="333" column="0" />
         <mark key="]" line="333" column="0" />
@@ -191,31 +197,27 @@
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/GeocodingResource.java" timestamp="1592951717030">
         <mark key="'" line="104" column="45" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" timestamp="1592945496126">
-        <mark key="'" line="168" column="34" />
-        <mark key="[" line="166" column="66" />
-        <mark key="]" line="167" column="30" />
-        <mark key="^" line="167" column="30" />
-        <mark key="." line="167" column="29" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" timestamp="1593008980096">
+        <mark key="'" line="114" column="36" />
+        <mark key="[" line="39" column="53" />
+        <mark key="]" line="39" column="63" />
+        <mark key="^" line="39" column="63" />
+        <mark key="." line="39" column="62" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/ClasstivityWebsites.java" timestamp="1592921486979">
         <mark key="'" line="94" column="11" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/mapper/LocationRowMapper.java" timestamp="1592860532266">
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/024_view_levels.sql" timestamp="1593008766649">
         <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="32" column="46" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/util/TestLocationBuilder.java" timestamp="1592953937153">
         <mark key="[" line="11" column="36" />
         <mark key="]" line="11" column="52" />
       </file>
-      <file name="/fragment.java" timestamp="1592859379698">
-        <mark key="[" line="0" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="24" column="31" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="28" column="51" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
       <jump line="108" column="31" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
       <jump line="156" column="15" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
       <jump line="12" column="13" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Geolocation.java" />
@@ -313,6 +315,9 @@
       <jump line="229" column="30" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/com/classpass/gls/dao/LocationDao.sql.stg" />
       <jump line="57" column="15" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/com/classpass/gls/dao/LocationDao.sql.stg" />
       <jump line="58" column="23" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/com/classpass/gls/dao/LocationDao.sql.stg" />
+      <jump line="90" column="13" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/024_view_levels.sql" />
+      <jump line="114" column="36" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -339,7 +344,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>nearby</text>
+        <text>raw</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -714,7 +719,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>nearby</text>
+        <text>raw</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -753,7 +758,7 @@
         <text>view_levels</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC50eXBlKCJzdHJlZXRfYWRkcmVzcyIpCg==</text>
+        <text encoding="base64">LS1saXF1aWJhc2UgZm9ybWF0dGVkIHNxbAoKLS1jaGFuZ2VzZXQgYXBpOjI0CgpEUk9QIFZJRVcgSUYgRVhJU1RTIHZpZXdfbGV2ZWxzOwoKQ1JFQVRFIE9SIFJFUExBQ0UgVklFVyB2aWV3X2xldmVscyBBUwpTRUxFQ1QgKiBGUk9NICgKICAgIFZBTFVFUwogICAgICAgICgnc3RyZWV0X2FkZHJlc3MnLCAgICAgICAgICAgICAgIDApLAogICAgICAgICgncm91dGUnLCAgICAgICAgICAgICAgICAgICAgICAgIDEpLAogICAgICAgICgnc3VicHJlbWlzZScsICAgICAgICAgICAgICAgICAgIDIpLAogICAgICAgICgncHJlbWlzZScsICAgICAgICAgICAgICAgICAgICAgIDMpLAogICAgICAgICgnZXN0YWJsaXNobWVudCcsICAgICAgICAgICAgICAgIDQpLAogICAgICAgICgnaW50ZXJzZWN0aW9uJywgICAgICAgICAgICAgICAgIDUpLAogICAgICAgICgnbmVpZ2hib3Job29kJywgICAgICAgICAgICAgICAgIDYpLAogICAgICAgICgnc3VibG9jYWxpdHknLCAgICAgICAgICAgICAgICAgIDcpLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfNScsICAgICAgICAgIDgpLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfNCcsICAgICAgICAgIDkpLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfMycsICAgICAgICAgMTApLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfMicsICAgICAgICAgMTEpLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfMScsICAgICAgICAgMTIpLAogICAgICAgICgnd2FyZCcsICAgICAgICAgICAgICAgICAgICAgICAgMTMpLAogICAgICAgICgnbG9jYWxpdHknLCAgICAgICAgICAgICAgICAgICAgMTQpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF81JywgMTUpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF80JywgMTYpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8zJywgMTcpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yJywgMTgpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xJywgMTkpLAogICAgICAgICgnY291bnRyeScsICAgICAgICAgICAgICAgICAgICAgMjApCikgQVMgbGV2ZWxzICh0eXBlLCBwcmlvcml0eSk7CgpHUkFOVCBTRUxFQ1QgT04gVEFCTEUgdmlld19sZXZlbHMgVE8gYXBwX3VzZXI7Cg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
