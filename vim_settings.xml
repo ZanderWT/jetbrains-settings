@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>assert</entry>
-        <entry>lat</entry>
         <entry>locbox</entry>
         <entry>raw</entry>
         <entry>name</entry>
@@ -27,6 +25,8 @@
         <entry>any</entry>
         <entry>nearest</entry>
         <entry>view_levels</entry>
+        <entry>migr</entry>
+        <entry>app-user</entry>
       </history-search>
       <history-cmd>
         <entry>%s;classFactory.create;classtivityClass;</entry>
@@ -124,19 +124,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/VenueGenerator.kt" timestamp="1592921660512">
-        <mark key="'" line="30" column="4" />
-      </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/031_view_levels_point.sql" timestamp="1593008876869">
         <mark key="[" line="9" column="42" />
         <mark key="]" line="9" column="44" />
         <mark key="^" line="9" column="44" />
         <mark key="." line="9" column="43" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenueLegacyDao.kt" timestamp="1592922542895">
-        <mark key="[" line="333" column="0" />
-        <mark key="]" line="333" column="0" />
-        <mark key="." line="333" column="0" />
       </file>
       <file name="$USER_HOME$/.sdkman/candidates/java/11.0.6.j9-adpt/lib/src.zip!/java.base/java/time/ZonedDateTime.java" timestamp="1592944748627">
         <mark key="'" line="263" column="32" />
@@ -147,6 +139,10 @@
         <mark key="]" line="494" column="54" />
         <mark key="." line="494" column="53" />
         <mark key="^" line="494" column="54" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/gls/code/api/development.yml" timestamp="1593010655949">
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="20" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/dao/LocationDao.java" timestamp="1592950982409">
         <mark key="'" line="124" column="0" />
@@ -165,9 +161,6 @@
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/LocationResource.java" timestamp="1592951555260">
         <mark key="[" line="32" column="0" />
         <mark key="]" line="33" column="32" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/PassportVenues.java" timestamp="1592921499568">
-        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" timestamp="1592954984524">
         <mark key="'" line="248" column="45" />
@@ -197,6 +190,9 @@
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/GeocodingResource.java" timestamp="1592951717030">
         <mark key="'" line="104" column="45" />
       </file>
+      <file name="$USER_HOME$/cp-projects/gls/docker/config/config.yml.tmpl" timestamp="1593010603786">
+        <mark key="'" line="23" column="48" />
+      </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" timestamp="1593008980096">
         <mark key="'" line="114" column="36" />
         <mark key="[" line="39" column="53" />
@@ -204,8 +200,13 @@
         <mark key="^" line="39" column="63" />
         <mark key="." line="39" column="62" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/ClasstivityWebsites.java" timestamp="1592921486979">
-        <mark key="'" line="94" column="11" />
+      <file name="$USER_HOME$/cp-projects/gls/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" timestamp="1593010125886">
+        <mark key="'" line="69" column="31" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/config/local.yml" timestamp="1593010658485">
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="20" />
+        <mark key="." line="51" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/024_view_levels.sql" timestamp="1593008766649">
         <mark key="'" line="0" column="0" />
@@ -216,18 +217,11 @@
         <mark key="[" line="11" column="36" />
         <mark key="]" line="11" column="52" />
       </file>
+      <file name="/fragment.java" timestamp="1593010689566">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="108" column="31" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="156" column="15" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="12" column="13" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Geolocation.java" />
-      <jump line="70" column="4" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="131" column="23" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="53" column="4" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="69" column="4" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="137" column="34" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="149" column="46" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
-      <jump line="153" column="45" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
       <jump line="151" column="24" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
       <jump line="162" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
       <jump line="263" column="32" filename="$USER_HOME$/.sdkman/candidates/java/11.0.6.j9-adpt/lib/src.zip!/java.base/java/time/ZonedDateTime.java" />
@@ -318,6 +312,16 @@
       <jump line="90" column="13" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/024_view_levels.sql" />
       <jump line="114" column="36" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" />
+      <jump line="86" column="16" filename="$USER_HOME$/cp-projects/gls/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
+      <jump line="20" column="32" filename="$USER_HOME$/cp-projects/gls/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
+      <jump line="48" column="42" filename="$USER_HOME$/cp-projects/gls/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
+      <jump line="49" column="46" filename="$USER_HOME$/cp-projects/gls/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
+      <jump line="52" column="33" filename="$USER_HOME$/cp-projects/gls/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
+      <jump line="69" column="31" filename="$USER_HOME$/cp-projects/gls/code/common/src/main/java/com/classpass/common/AbstractMicroserviceApplication.java" />
+      <jump line="21" column="35" filename="$USER_HOME$/cp-projects/gls/docker/config/config.yml.tmpl" />
+      <jump line="22" column="48" filename="$USER_HOME$/cp-projects/gls/docker/config/config.yml.tmpl" />
+      <jump line="50" column="47" filename="$USER_HOME$/cp-projects/gls/docker/config/config.yml.tmpl" />
+      <jump line="23" column="48" filename="$USER_HOME$/cp-projects/gls/docker/config/config.yml.tmpl" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -343,8 +347,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="4">
-        <text>raw</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICBwYXNzd29yZDogCg==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -755,40 +759,40 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>view_levels</text>
+        <text>app-user</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">LS1saXF1aWJhc2UgZm9ybWF0dGVkIHNxbAoKLS1jaGFuZ2VzZXQgYXBpOjI0CgpEUk9QIFZJRVcgSUYgRVhJU1RTIHZpZXdfbGV2ZWxzOwoKQ1JFQVRFIE9SIFJFUExBQ0UgVklFVyB2aWV3X2xldmVscyBBUwpTRUxFQ1QgKiBGUk9NICgKICAgIFZBTFVFUwogICAgICAgICgnc3RyZWV0X2FkZHJlc3MnLCAgICAgICAgICAgICAgIDApLAogICAgICAgICgncm91dGUnLCAgICAgICAgICAgICAgICAgICAgICAgIDEpLAogICAgICAgICgnc3VicHJlbWlzZScsICAgICAgICAgICAgICAgICAgIDIpLAogICAgICAgICgncHJlbWlzZScsICAgICAgICAgICAgICAgICAgICAgIDMpLAogICAgICAgICgnZXN0YWJsaXNobWVudCcsICAgICAgICAgICAgICAgIDQpLAogICAgICAgICgnaW50ZXJzZWN0aW9uJywgICAgICAgICAgICAgICAgIDUpLAogICAgICAgICgnbmVpZ2hib3Job29kJywgICAgICAgICAgICAgICAgIDYpLAogICAgICAgICgnc3VibG9jYWxpdHknLCAgICAgICAgICAgICAgICAgIDcpLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfNScsICAgICAgICAgIDgpLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfNCcsICAgICAgICAgIDkpLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfMycsICAgICAgICAgMTApLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfMicsICAgICAgICAgMTEpLAogICAgICAgICgnc3VibG9jYWxpdHlfbGV2ZWxfMScsICAgICAgICAgMTIpLAogICAgICAgICgnd2FyZCcsICAgICAgICAgICAgICAgICAgICAgICAgMTMpLAogICAgICAgICgnbG9jYWxpdHknLCAgICAgICAgICAgICAgICAgICAgMTQpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF81JywgMTUpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF80JywgMTYpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8zJywgMTcpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8yJywgMTgpLAogICAgICAgICgnYWRtaW5pc3RyYXRpdmVfYXJlYV9sZXZlbF8xJywgMTkpLAogICAgICAgICgnY291bnRyeScsICAgICAgICAgICAgICAgICAgICAgMjApCikgQVMgbGV2ZWxzICh0eXBlLCBwcmlvcml0eSk7CgpHUkFOVCBTRUxFQ1QgT04gVEFCTEUgdmlld19sZXZlbHMgVE8gYXBwX3VzZXI7Cg==</text>
+        <text encoding="base64">ICBwYXNzd29yZDogbEQhNlFqeEUK</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmF3RGF0YVNvdXJjZSA9IERhdGFTb3VyY2UuUkFXLnZhbHVlOwogICAgICAgIFN0cmluZyByYXdEYXRhU291cmNlSWQgPSAiUkFXX2RhdGFfc291cmNlX2lkIjsK</text>
+        <text encoding="base64">ICBwYXNzd29yZDogCg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgcmF3RGF0YVNvdXJjZSA9IERhdGFTb3VyY2UuUkFXLnZhbHVlOwogICAgICAgIFN0cmluZyByYXdEYXRhU291cmNlSWQgPSAiUkFXX2RhdGFfc291cmNlX2lkIjsK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgIFN0ciAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgIFN0ciAK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3799,25 +3803,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBMb2NhdGlvbiAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC4K</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMb2NhdGlvbiAK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBmaWVsZDpJbmplY3QKICAgIHZhbCBsb2dpYzogTG9jYXRpb25Mb2dpYwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3829,9 +3833,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>view_levels</last-search>
+      <last-search>app-user</last-search>
       <last-offset />
-      <last-pattern>view_levels</last-pattern>
+      <last-pattern>app-user</last-pattern>
       <last-replace encoding="base64">ID0gbW9jaygp</last-replace>
       <last-substitute>:.*</last-substitute>
       <last-dir>1</last-dir>
