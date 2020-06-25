@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>bestclass</entry>
-        <entry>gps</entry>
-        <entry>any</entry>
         <entry>nearest</entry>
         <entry>view_levels</entry>
         <entry>migr</entry>
@@ -27,6 +24,9 @@
         <entry>findraw</entry>
         <entry>venue</entry>
         <entry encoding="base64">XDxMb2NhdGlvblw+</entry>
+        <entry>this</entry>
+        <entry>asdf</entry>
+        <entry>latln</entry>
       </history-search>
       <history-cmd>
         <entry>%s;classFactory.create;classtivityClass;</entry>
@@ -47,8 +47,8 @@
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
-        <entry>action ReformatCode</entry>
         <entry>bnext</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -210,11 +210,12 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/request/SetClassLocationRequest.kt" timestamp="1593110557868">
-        <mark key="[" line="4" column="93" />
-        <mark key="]" line="4" column="93" />
-        <mark key="." line="4" column="93" />
-        <mark key="^" line="4" column="93" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/request/SetClassLocationRequest.kt" timestamp="1593111449879">
+        <mark key="'" line="6" column="3" />
+        <mark key="[" line="8" column="28" />
+        <mark key="]" line="8" column="29" />
+        <mark key="." line="8" column="28" />
+        <mark key="^" line="8" column="29" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/ClassLocationResponse.kt" timestamp="1593100638371">
         <mark key="'" line="7" column="12" />
@@ -234,8 +235,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="266" column="1" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/com/classpass/gls/dao/LocationDao.sql.stg" />
-      <jump line="124" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/dao/LocationDao.java" />
       <jump line="239" column="7" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" />
       <jump line="6" column="24" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" />
       <jump line="241" column="8" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" />
@@ -334,6 +333,8 @@
       <jump line="8" column="48" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/mapper/ClassLocationMapper.kt" />
       <jump line="11" column="19" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/mapper/ClassLocationMapper.kt" />
       <jump line="7" column="12" filename="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/ClassLocationResponse.kt" />
+      <jump line="7" column="29" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/request/SetClassLocationRequest.kt" />
+      <jump line="5" column="3" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/request/SetClassLocationRequest.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -360,7 +361,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+        <text>!</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -735,7 +736,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>!</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -771,7 +772,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxMb2NhdGlvblw+</text>
+        <text>latln</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGludCB1cHNlcnQoQEJpbmQoImNsYXNzX2lkIikgaW50IGNsYXNzSWQsIEBCaW5kKCJsb2NhdGlvbl9pZCIpIGxvbmcgbG9jYXRpb25JZCk7Cg==</text>
@@ -780,31 +781,31 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZGF0YSBjbGFzcyAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
-      <register name="2" type="4">
-        <text>{}</text>
+      <register name="2" type="2">
+        <text encoding="base64">ZGF0YSBjbGFzcyBMYXRMbmcodmFsIGxhdGl0dWRlOiBEb3VibGUsIHZhbCBsb25naXR1ZGU6IERvdWJsZSkK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZGF0YSBjbGFzcyBMYXRMbmcodmFsIGxhdGl0dWRlOiBEb3VibGUsIHZhbCBsb25naXR1ZGU6IERvdWJsZSkK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjbGFzc0xvZ2ljLnVwc2VydENsYXNzTG9jYXRpb24oKQo=</text>
+        <text encoding="base64">ZGF0YSBjbGFzcyBGb28oYmFyOiBFaXRoZXI8SW50LCBEb3VibGU+KQ==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3815,25 +3816,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZGF0YSBjbGFzcyAK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="7" type="4">
+        <text>{}</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuY29tbW9uLmNsaWVudHMuZ2xzLkxvY2F0aW9uCg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3845,12 +3846,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxMb2NhdGlvblw+</last-search>
+      <last-search>latln</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxMb2NhdGlvblw+</last-pattern>
+      <last-pattern>latln</last-pattern>
       <last-replace encoding="base64">ID0gbW9jaygp</last-replace>
       <last-substitute>:.*</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
