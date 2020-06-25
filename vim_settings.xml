@@ -47,8 +47,8 @@
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
-        <entry>bnext</entry>
         <entry>action ReformatCode</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -199,9 +199,6 @@
         <mark key="." line="266" column="10" />
         <mark key="^" line="272" column="15" />
       </file>
-      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.data-importer/importer/1.0.12/3a34b43364756baec450bbf994ffbe78a3c4543f/importer-1.0.12-sources.jar!/com/classpass/common/importer/Importer.kt" timestamp="1593023580137">
-        <mark key="'" line="504" column="42" />
-      </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/ClassLocation.kt" timestamp="1593040005440">
         <mark key="]" line="8" column="24" />
         <mark key="^" line="8" column="24" />
@@ -212,6 +209,12 @@
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/request/SetClassLocationRequest.kt" timestamp="1593110557868">
+        <mark key="[" line="4" column="93" />
+        <mark key="]" line="4" column="93" />
+        <mark key="." line="4" column="93" />
+        <mark key="^" line="4" column="93" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/ClassLocationResponse.kt" timestamp="1593100638371">
         <mark key="'" line="7" column="12" />
@@ -356,8 +359,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -732,7 +735,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">SWQ6IA==</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -777,31 +780,31 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZGF0YSBjbGFzcyAK</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjbGFzc0xvZ2ljLnVwc2VydENsYXNzTG9jYXRpb24oKQo=</text>
+      <register name="2" type="4">
+        <text>{}</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="2">
+      <register name="3" type="4">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuY29tbW9uLmNsaWVudHMuZ2xzLkxvY2F0aW9uCg==</text>
+        <text encoding="base64">ICAgICAgICBjbGFzc0xvZ2ljLnVwc2VydENsYXNzTG9jYXRpb24oKQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3812,25 +3815,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="4">
-        <text>{}</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="2">
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuY29tbW9uLmNsaWVudHMuZ2xzLkxvY2F0aW9uCg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
