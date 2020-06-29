@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxsb2NhdGlvbklkXD4=</entry>
-        <entry>asdf</entry>
-        <entry>option</entry>
         <entry encoding="base64">XDx2ZW51ZVNvY2lhbE1lZGlhXD4=</entry>
         <entry>amen</entry>
         <entry encoding="base64">XDx0b0NsYXNzdGl2aXR5VmVudWVBbWVuaXRpZXNDb2x1bW5zTWFwXD4=</entry>
@@ -27,6 +24,9 @@
         <entry encoding="base64">XDxwYXJ0bmVyQXR0cmlidXRlc0Rhb1w+</entry>
         <entry>classesrep</entry>
         <entry encoding="base64">XDxjbGFzc2VzUmVwb3J0VmVudWVQb3J0YWxEYW9cPg==</entry>
+        <entry>sses</entry>
+        <entry encoding="base64">XDxpbXBvcnRXaXRoRGF0YUltcG9ydGVyXD4=</entry>
+        <entry encoding="base64">XDxpbXBvcnRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>%y</entry>
@@ -124,9 +124,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenueLegacyDao.kt" timestamp="1593201746128">
-        <mark key="'" line="359" column="33" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" timestamp="1593205459865">
         <mark key="'" line="28" column="49" />
         <mark key="[" line="73" column="0" />
@@ -150,6 +147,12 @@
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="60" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" timestamp="1593212498944">
+        <mark key="[" line="10" column="27" />
+        <mark key="]" line="11" column="21" />
+        <mark key="^" line="11" column="21" />
+        <mark key="." line="11" column="20" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/ClasstivityClassOverrides.kt" timestamp="1593210010347">
         <mark key="'" line="13" column="46" />
         <mark key="[" line="10" column="37" />
@@ -163,22 +166,19 @@
         <mark key="." line="17" column="17" />
         <mark key="^" line="17" column="18" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/logic/ClassLogicTest.kt" timestamp="1593127815633">
-        <mark key="'" line="70" column="40" />
-        <mark key="[" line="96" column="1" />
-        <mark key="]" line="97" column="0" />
-        <mark key="." line="96" column="1" />
-        <mark key="^" line="97" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonCovidDonationsGenerator.kt" timestamp="1593210323103">
         <mark key="[" line="14" column="0" />
         <mark key="]" line="14" column="62" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/dao/LocationDaoTest.java" timestamp="1593192483344">
-        <mark key="'" line="14" column="17" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1593212538749">
+        <mark key="'" line="170" column="8" />
+        <mark key="[" line="225" column="8" />
+        <mark key="]" line="225" column="25" />
+        <mark key="." line="225" column="24" />
+        <mark key="^" line="225" column="25" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/InsertDataController.kt" timestamp="1593441797196">
+        <mark key="'" line="94" column="46" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/NotificationsResource.kt" timestamp="1593207941650">
         <mark key="[" line="20" column="0" />
@@ -209,22 +209,15 @@
         <mark key="." line="11" column="39" />
         <mark key="^" line="11" column="65" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/ClassResource.kt" timestamp="1593127802225">
-        <mark key="'" line="39" column="1" />
-        <mark key="[" line="39" column="1" />
-        <mark key="]" line="40" column="0" />
-        <mark key="^" line="40" column="0" />
-        <mark key="." line="39" column="1" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Constants.kt" timestamp="1593441826205">
+        <mark key="[" line="50" column="36" />
+        <mark key="]" line="50" column="56" />
       </file>
       <file name="/fragment.java" timestamp="1593210452433">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="36" filename="$USER_HOME$/cp-projects/gls/code/common/src/main/java/com/classpass/common/utils/ExceptionHandler.java" />
-      <jump line="27" column="18" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/ClassResource.kt" />
-      <jump line="154" column="5" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/dao/LocationDao.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/logic/LocationLogic.java" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/004_venue_table.sql" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/032_class_location_table.sql" />
       <jump line="5" column="17" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/migrations/032_class_location_table.sql" />
@@ -321,6 +314,10 @@
       <jump line="238" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="137" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
       <jump line="136" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" />
+      <jump line="167" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="90" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/InsertDataController.kt" />
+      <jump line="82" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/InsertDataController.kt" />
+      <jump line="94" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/InsertDataController.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -347,7 +344,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>insert()</text>
+        <text>data_importer_failure</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -722,7 +719,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>insert()</text>
+        <text>ClassesReportVenuePortalDao</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -758,13 +755,13 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbGFzc2VzUmVwb3J0VmVudWVQb3J0YWxEYW9cPg==</text>
+        <text encoding="base64">XDxpbXBvcnRcPg==</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnROdWxsKGNsYXNzT3ZlcnJpZGVzRGFvLmdldENsYXNzT3ZlcnJpZGVzKDEyMzQ1KSkK</text>
+      <register name="0" type="4">
+        <text>data_importer_failure</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
@@ -3835,9 +3832,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjbGFzc2VzUmVwb3J0VmVudWVQb3J0YWxEYW9cPg==</last-search>
+      <last-search encoding="base64">XDxpbXBvcnRcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbGFzc2VzUmVwb3J0VmVudWVQb3J0YWxEYW9cPg==</last-pattern>
+      <last-pattern encoding="base64">XDxpbXBvcnRcPg==</last-pattern>
       <last-replace>Logic</last-replace>
       <last-substitute>Dao</last-substitute>
       <last-dir>1</last-dir>
