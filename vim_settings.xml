@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>livestream</entry>
-        <entry>response</entry>
-        <entry>lat</entry>
         <entry>location</entry>
         <entry>asdf</entry>
         <entry>errorob</entry>
@@ -27,6 +24,9 @@
         <entry>jackson</entry>
         <entry>jack</entry>
         <entry>drop</entry>
+        <entry>timez</entry>
+        <entry>classlocationresp</entry>
+        <entry>imp</entry>
       </history-search>
       <history-cmd>
         <entry>%s;buffer: \zsString;Buffer;g</entry>
@@ -124,11 +124,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" timestamp="1593528011605">
-        <mark key="[" line="30" column="56" />
-        <mark key="]" line="30" column="75" />
-        <mark key="^" line="30" column="75" />
-        <mark key="." line="30" column="74" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" timestamp="1593533933752">
+        <mark key="'" line="81" column="45" />
+        <mark key="[" line="81" column="45" />
+        <mark key="]" line="81" column="46" />
+        <mark key="^" line="81" column="46" />
+        <mark key="." line="81" column="45" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/pom.xml" timestamp="1593525157946">
         <mark key="'" line="10" column="17" />
@@ -144,6 +145,12 @@
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/Location.java" timestamp="1593468819710">
         <mark key="'" line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ClassOverridesDaoTest.kt" timestamp="1593533967204">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/interfaces/GlobalLocationService.kt" timestamp="1593469917872">
         <mark key="'" line="23" column="17" />
@@ -174,22 +181,18 @@
         <mark key="]" line="13" column="1" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" timestamp="1593525253523">
-        <mark key="'" line="16" column="45" />
-        <mark key="[" line="37" column="34" />
-        <mark key="]" line="38" column="32" />
-        <mark key="." line="38" column="31" />
+      <file name="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" timestamp="1593533102515">
+        <mark key="'" line="33" column="23" />
+        <mark key="[" line="33" column="75" />
+        <mark key="]" line="33" column="75" />
+        <mark key="." line="33" column="75" />
         <mark key="^" line="38" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/CovidControlsControllerTest.kt" timestamp="1593463637914">
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="65" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/response/ClassOverridesResponse.kt" timestamp="1593466009637">
-        <mark key="[" line="10" column="27" />
-        <mark key="]" line="7" column="25" />
-        <mark key="." line="10" column="27" />
-        <mark key="^" line="7" column="25" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ClassOverridesResource.kt" timestamp="1593533686353">
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="." line="21" column="0" />
+        <mark key="^" line="20" column="68" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/GlsClient.kt" timestamp="1593469909852">
         <mark key="'" line="75" column="36" />
@@ -198,11 +201,11 @@
         <mark key="." line="65" column="100" />
         <mark key="^" line="65" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/ClassLocationResponse.kt" timestamp="1593525199419">
-        <mark key="[" line="13" column="70" />
-        <mark key="]" line="13" column="71" />
-        <mark key="." line="13" column="70" />
-        <mark key="^" line="13" column="71" />
+      <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/ClassLocationResponse.kt" timestamp="1593533068249">
+        <mark key="[" line="6" column="48" />
+        <mark key="]" line="6" column="65" />
+        <mark key="." line="6" column="64" />
+        <mark key="^" line="6" column="65" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/ClassResource.kt" timestamp="1593466758699">
         <mark key="'" line="25" column="71" />
@@ -211,12 +214,12 @@
         <mark key="^" line="40" column="0" />
         <mark key="." line="39" column="1" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/LocationResponse.kt" timestamp="1593525182904">
+      <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/LocationResponse.kt" timestamp="1593533073796">
         <mark key="'" line="22" column="0" />
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="31" column="5" />
+        <mark key="[" line="26" column="71" />
+        <mark key="]" line="26" column="72" />
         <mark key="." line="26" column="71" />
-        <mark key="^" line="26" column="76" />
+        <mark key="^" line="26" column="72" />
       </file>
       <file name="/fragment.java" timestamp="1593471853439">
         <mark key="[" line="0" column="0" />
@@ -228,12 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="8" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/logic/ClassLogicTest.kt" />
-      <jump line="9" column="37" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/logic/ClassLogicTest.kt" />
-      <jump line="29" column="12" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/util/modules/TestLogicModule.java" />
-      <jump line="40" column="48" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/logic/ClassLogicTest.kt" />
-      <jump line="10" column="12" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/logic/ClassLogic.kt" />
-      <jump line="11" column="13" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/logic/ClassLogic.kt" />
       <jump line="40" column="4" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/ClassResource.kt" />
       <jump line="37" column="50" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/resource/ClassResource.kt" />
       <jump line="30" column="38" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/dao/VenueLocationDao.java" />
@@ -320,7 +317,6 @@
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/pom.xml" />
       <jump line="36" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
       <jump line="9" column="56" filename="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/ClassLocationResponse.kt" />
-      <jump line="33" column="99" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
       <jump line="4" column="44" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
       <jump line="16" column="45" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
@@ -328,6 +324,13 @@
       <jump line="38" column="34" filename="$USER_HOME$/cp-projects/gls/code/client/pom.xml" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
       <jump line="10" column="17" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
+      <jump line="34" column="97" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
+      <jump line="8" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
+      <jump line="33" column="23" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
+      <jump line="49" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
+      <jump line="81" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
+      <jump line="33" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ClassOverridesDaoTest.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ClassOverridesDaoTest.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -353,8 +356,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="4">
-        <text>LocationResponse.</text>
+      <register name="*" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5qdW5pdC5qdXBpdGVyLmFwaS5Bc3NlcnRpb25zLioK</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -729,7 +732,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>LocationResponse.</text>
+        <text>1</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -765,7 +768,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>drop</text>
+        <text>imp</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -777,33 +780,31 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBtYXBwZXIucmVnaXN0ZXJNb2R1bGUoS290bGluTW9kdWxlKCkpCg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5qdW5pdC5qdXBpdGVyLmFwaS5Bc3NlcnRpb25zLioK</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
-      <register name="2" type="4">
-        <text>{
-
-}</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICB2YWwgY2xhc3N0aXZpdHlDbGFzc092ZXJyaWRlcyA9IENsYXNzdGl2aXR5Q2xhc3NPdmVycmlkZXMoY2xhc3NJZCwgImhvdyB0byBnZXQgdGhlcmUiLCAid2hhdCB0byBicmluZyIpCg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRhdGEgY2xhc3MgTG9jYXRpb24oQEpzb25Qcm9wZXJ0eSgiaWQiKSB2YWwgaWQ6IExvbmcsCiAgICAgICAgICAgICAgICAgICAgICAgIEBKc29uUHJvcGVydHkoIm5hbWUiKSB2YWwgbmFtZTogU3RyaW5nLAogICAgICAgICAgICAgICAgICAgICAgICBASnNvblByb3BlcnR5KCJzaG9ydF9uYW1lIikgdmFsIHNob3J0TmFtZTogU3RyaW5nLAogICAgICAgICAgICAgICAgICAgICAgICBASnNvblByb3BlcnR5KCJjZW50cm9pZCIpIHZhbCBjZW50cm9pZDogQ2VudHJvaWQsCiAgICAgICAgICAgICAgICAgICAgICAgIEBKc29uUHJvcGVydHkoInRpbWV6b25lIikgdmFsIHRpbWV6b25lOiBTdHJpbmc/LAogICAgICAgICAgICAgICAgICAgICAgICBASnNvblByb3BlcnR5KCJwYXJlbnQiKSB2YWwgcGFyZW50OiBMb2NhdGlvbj8pIHsKCiAgICAgICAgZGF0YSBjbGFzcyBDZW50cm9pZChASnNvblByb3BlcnR5KCJsb25naXR1ZGUiKSB2YWwgbG9uZ2l0dWRlOiBEb3VibGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBASnNvblByb3BlcnR5KCJsYXRpdHVkZSIpIHZhbCBsYXRpdHVkZTogRG91YmxlKQogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICB2Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRpbWV6b25lID0gbnVsbCwK</text>
+        <text encoding="base64">CiAgICB9Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBAUGF0aFBhcmFtKCJ2ZW51ZV9pZCIpIHZlbnVlSWQ6IFZlbnVlSWQsCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3814,25 +3815,27 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBUT0RPKCkK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5zdW4udG9vbHMuamF2YWMucmVzb3VyY2VzLkNvbXBpbGVyUHJvcGVydGllcy5GcmFnbWVudHMuTG9jYXRpb24K</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="8" type="4">
+        <text>{
+
+}</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIG1zYVJlc3BvbnNlMiA9IHRoaXMuamF2YUNsYXNzLmNsYXNzTG9hZGVyLmdldFJlc291cmNlKCJtc2FzL3Jlc3BvbnNlXzAwMi5qc29uIikucmVhZFRleHQoKQo=</text>
+        <text encoding="base64">ICAgIGRhdGEgY2xhc3MgTG9jYXRpb24oQEpzb25Qcm9wZXJ0eSgiaWQiKSB2YWwgaWQ6IExvbmcsCiAgICAgICAgICAgICAgICAgICAgICAgIEBKc29uUHJvcGVydHkoIm5hbWUiKSB2YWwgbmFtZTogU3RyaW5nLAogICAgICAgICAgICAgICAgICAgICAgICBASnNvblByb3BlcnR5KCJzaG9ydF9uYW1lIikgdmFsIHNob3J0TmFtZTogU3RyaW5nLAogICAgICAgICAgICAgICAgICAgICAgICBASnNvblByb3BlcnR5KCJjZW50cm9pZCIpIHZhbCBjZW50cm9pZDogQ2VudHJvaWQsCiAgICAgICAgICAgICAgICAgICAgICAgIEBKc29uUHJvcGVydHkoInRpbWV6b25lIikgdmFsIHRpbWV6b25lOiBTdHJpbmc/LAogICAgICAgICAgICAgICAgICAgICAgICBASnNvblByb3BlcnR5KCJwYXJlbnQiKSB2YWwgcGFyZW50OiBMb2NhdGlvbj8pIHsKCiAgICAgICAgZGF0YSBjbGFzcyBDZW50cm9pZChASnNvblByb3BlcnR5KCJsb25naXR1ZGUiKSB2YWwgbG9uZ2l0dWRlOiBEb3VibGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBASnNvblByb3BlcnR5KCJsYXRpdHVkZSIpIHZhbCBsYXRpdHVkZTogRG91YmxlKQogICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
@@ -3844,9 +3847,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>drop</last-search>
+      <last-search>imp</last-search>
       <last-offset />
-      <last-pattern>drop</last-pattern>
+      <last-pattern>imp</last-pattern>
       <last-replace>set</last-replace>
       <last-substitute>get</last-substitute>
       <last-dir>1</last-dir>
