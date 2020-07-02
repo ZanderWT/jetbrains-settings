@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>locationtype.\(\w\+\)</entry>
         <entry>get</entry>
         <entry>origin</entry>
         <entry>that</entry>
@@ -27,6 +26,7 @@
         <entry>val lo</entry>
         <entry>var tags</entry>
         <entry>CL</entry>
+        <entry>getcov</entry>
       </history-search>
       <history-cmd>
         <entry>226</entry>
@@ -191,8 +191,8 @@
         <mark key="[" line="41" column="36" />
         <mark key="]" line="41" column="89" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" timestamp="1593708753559">
-        <mark key="'" line="71" column="8" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" timestamp="1593709025145">
+        <mark key="'" line="86" column="8" />
         <mark key="[" line="78" column="111" />
         <mark key="]" line="78" column="111" />
         <mark key="^" line="80" column="53" />
@@ -217,6 +217,9 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/clients/TagsClient.kt" timestamp="1593548317105">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" timestamp="1593708830870">
+        <mark key="'" line="48" column="8" />
+      </file>
       <file name="$USER_HOME$/cp-projects/gls/code/common-test/pom.xml" timestamp="1593629874800">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="6" column="17" />
@@ -225,11 +228,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="54" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/GlsClientTest.kt" />
-      <jump line="102" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/GlsClientTest.kt" />
-      <jump line="3" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
-      <jump line="32" column="36" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/resources/classlocations/response.json" />
-      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/resources/classlocations/response.json" />
       <jump line="6" column="4" filename="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/ClassLocationResponse.kt" />
       <jump line="44" column="8" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/pom.xml" />
@@ -325,6 +323,11 @@
       <jump line="47" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
       <jump line="69" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
       <jump line="71" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
+      <jump line="14" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
+      <jump line="15" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
+      <jump line="48" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
+      <jump line="86" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -762,7 +765,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>CL</text>
+        <text>getcov</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -3841,12 +3844,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>CL</last-search>
+      <last-search>getcov</last-search>
       <last-offset />
-      <last-pattern>CL</last-pattern>
+      <last-pattern>getcov</last-pattern>
       <last-replace>&quot;\1&quot;</last-replace>
       <last-substitute>locationtype.\(\w\+\)</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
