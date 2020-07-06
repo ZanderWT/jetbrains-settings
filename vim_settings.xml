@@ -7,18 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>spots</entry>
-        <entry>serv</entry>
-        <entry>servic</entry>
-        <entry encoding="base64">XDxDbGFzc0J1bmRsZXNDbGllbnRcPg==</entry>
-        <entry>classbundles</entry>
-        <entry>glscl</entry>
-        <entry>client</entry>
-        <entry>glsclient</entry>
-        <entry>intercep</entry>
-        <entry>gls</entry>
-        <entry>setclas</entry>
-        <entry encoding="base64">XDw+XD4=</entry>
         <entry>resource</entry>
         <entry>conf</entry>
         <entry>src</entry>
@@ -27,6 +15,18 @@
         <entry>get</entry>
         <entry>raw</entry>
         <entry>logg</entry>
+        <entry>loc</entry>
+        <entry>db</entry>
+        <entry>java</entry>
+        <entry>mock</entry>
+        <entry>core</entry>
+        <entry encoding="base64">PjI=</entry>
+        <entry>mockito</entry>
+        <entry>okhttp</entry>
+        <entry>before</entry>
+        <entry>HttpUrl</entry>
+        <entry>repl</entry>
+        <entry>2.0.0</entry>
       </history-search>
       <history-cmd>
         <entry>s;Dao;Logic</entry>
@@ -45,10 +45,10 @@
         <entry>s;class;venue;g</entry>
         <entry>action MethodDown</entry>
         <entry>action MethodUp</entry>
-        <entry>action ReformatCode</entry>
-        <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>bnext</entry>
+        <entry>action ReformatCode</entry>
+        <entry>action VcsShowNextChangeMarker</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -124,9 +124,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/gls/code/common-test/src/main/java/com/classpass/common/helpers/DbTests.java" timestamp="1594058708504">
-        <mark key="[" line="150" column="15" />
-        <mark key="]" line="150" column="50" />
+      <file name="$USER_HOME$/cp-projects/gls/pom.xml" timestamp="1594067660662">
+        <mark key="'" line="4" column="17" />
+        <mark key="[" line="16" column="24" />
+        <mark key="]" line="16" column="24" />
+        <mark key="." line="16" column="28" />
+        <mark key="^" line="4" column="18" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/resources/org.mockito.plugins.MockMaker" timestamp="1594058930380">
         <mark key="[" line="0" column="0" />
@@ -134,20 +137,20 @@
         <mark key="^" line="0" column="17" />
         <mark key="." line="0" column="16" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/GdprResourceTest.java" timestamp="1594057774826">
-        <mark key="'" line="40" column="28" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/GdprResourceTest.java" timestamp="1594063726929">
+        <mark key="'" line="85" column="8" />
         <mark key="[" line="36" column="0" />
         <mark key="]" line="42" column="21" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/GlsServiceConfig.kt" timestamp="1593721242167">
-        <mark key="[" line="2" column="23" />
-        <mark key="]" line="2" column="23" />
-        <mark key="^" line="2" column="1" />
-        <mark key="." line="2" column="69" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/logic/ClassLogicTest.kt" timestamp="1594063685008">
+        <mark key="'" line="54" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/UserResourceTest.java" timestamp="1594060736814">
         <mark key="[" line="89" column="15" />
         <mark key="]" line="89" column="94" />
+      </file>
+      <file name="/fragment.kt" timestamp="1594064474386">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/config/local.yml" timestamp="1594061671533">
         <mark key="'" line="29" column="26" />
@@ -161,105 +164,80 @@
         <mark key="." line="6" column="41" />
         <mark key="^" line="6" column="42" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" timestamp="1594057290152">
-        <mark key="'" line="33" column="23" />
-        <mark key="[" line="33" column="75" />
-        <mark key="]" line="33" column="75" />
-        <mark key="." line="33" column="75" />
-        <mark key="^" line="38" column="32" />
+      <file name="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" timestamp="1594067382867">
+        <mark key="'" line="16" column="38" />
+        <mark key="[" line="16" column="4" />
+        <mark key="]" line="16" column="41" />
+        <mark key="^" line="15" column="4" />
+        <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" timestamp="1594062689669">
-        <mark key="'" line="61" column="45" />
-        <mark key="[" line="61" column="43" />
-        <mark key="]" line="61" column="46" />
-        <mark key="." line="61" column="45" />
-        <mark key="^" line="61" column="46" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/pom.xml" timestamp="1594067631207">
+        <mark key="'" line="67" column="21" />
+        <mark key="[" line="6" column="17" />
+        <mark key="]" line="6" column="22" />
+        <mark key="." line="6" column="21" />
+        <mark key="^" line="6" column="22" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/interfaces/GlobalLocationService.kt" timestamp="1594061781553">
-        <mark key="[" line="25" column="5" />
-        <mark key="]" line="23" column="11" />
-        <mark key="." line="25" column="10" />
+      <file name="$USER_HOME$/cp-projects/gls/code/common-test/pom.xml" timestamp="1594067645932">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="6" column="17" />
+        <mark key="]" line="6" column="17" />
+        <mark key="." line="6" column="21" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" timestamp="1594067860000">
+        <mark key="'" line="40" column="0" />
+        <mark key="[" line="18" column="25" />
+        <mark key="]" line="18" column="44" />
+        <mark key="." line="62" column="1" />
+        <mark key="^" line="63" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/interfaces/GlobalLocationService.kt" timestamp="1594065257007">
+        <mark key="[" line="56" column="13" />
+        <mark key="]" line="56" column="13" />
+        <mark key="." line="56" column="13" />
         <mark key="^" line="23" column="11" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/SetClassOverridesRequest.kt" timestamp="1593727496351">
-        <mark key="[" line="12" column="18" />
-        <mark key="]" line="12" column="18" />
-        <mark key="." line="12" column="17" />
-        <mark key="^" line="12" column="18" />
+      <file name="$USER_HOME$/cp-projects/gls/Dockerfile" timestamp="1594067617002">
+        <mark key="'" line="13" column="29" />
+        <mark key="[" line="13" column="25" />
+        <mark key="]" line="13" column="30" />
+        <mark key="." line="13" column="29" />
+        <mark key="^" line="13" column="30" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" timestamp="1593729389325">
-        <mark key="'" line="35" column="32" />
+      <file name="$USER_HOME$/cp-projects/gls/code/common/pom.xml" timestamp="1594067653475">
+        <mark key="'" line="6" column="21" />
+        <mark key="[" line="6" column="17" />
+        <mark key="]" line="6" column="17" />
+        <mark key="." line="6" column="21" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/LegacyApiServiceConfig.kt" timestamp="1593721234941">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="28" />
+      <file name="$USER_HOME$/cp-projects/gls/code/client/pom.xml" timestamp="1594067641316">
+        <mark key="'" line="5" column="34" />
+        <mark key="[" line="6" column="17" />
+        <mark key="]" line="6" column="17" />
+        <mark key="." line="6" column="21" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/GlsClient.kt" timestamp="1594061175561">
-        <mark key="'" line="10" column="0" />
+      <file name="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/GlsClient.kt" timestamp="1594065223190">
+        <mark key="'" line="68" column="0" />
         <mark key="[" line="65" column="40" />
         <mark key="]" line="65" column="40" />
         <mark key="." line="65" column="40" />
         <mark key="^" line="65" column="101" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1594061379331">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1594064999751">
         <mark key="'" line="141" column="34" />
-        <mark key="[" line="400" column="37" />
-        <mark key="]" line="400" column="104" />
+        <mark key="[" line="400" column="0" />
+        <mark key="]" line="400" column="105" />
         <mark key="^" line="400" column="104" />
         <mark key="." line="400" column="103" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594058648400">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/resources/config/test.yml" timestamp="1594063789872">
+        <mark key="'" line="41" column="29" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/config/use1-config.yml" timestamp="1593729092230">
-        <mark key="'" line="100" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/testing/automated-tests/integration-tests/src/test/java/com/classpass/framework/verifiers/partnerdashboard/CreateDashboardUserReplyVerifier.kt" timestamp="1594057063260">
-        <mark key="[" line="30" column="61" />
-        <mark key="]" line="30" column="61" />
-        <mark key="^" line="30" column="61" />
-        <mark key="." line="30" column="60" />
-      </file>
-      <file name="/fragment.java" timestamp="1594058648412">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/MsaGetterTest.kt" timestamp="1594058227338">
-        <mark key="'" line="87" column="12" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="42" column="69" />
+      <file name="$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/HttpUrl.java" timestamp="1594065466758">
+        <mark key="'" line="865" column="19" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="51" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
-      <jump line="16" column="24" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
-      <jump line="4" column="17" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
-      <jump line="6" column="21" filename="$USER_HOME$/cp-projects/gls/code/common/pom.xml" />
-      <jump line="29" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ClassOverridesDaoTest.kt" />
-      <jump line="35" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ClassOverridesDaoTest.kt" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="53" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
-      <jump line="56" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
-      <jump line="66" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
-      <jump line="27" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
-      <jump line="47" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
-      <jump line="69" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
-      <jump line="71" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
-      <jump line="14" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
-      <jump line="15" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
-      <jump line="48" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CovidControlsController.kt" />
-      <jump line="86" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
-      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="17" column="7" filename="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" />
-      <jump line="13" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
-      <jump line="81" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
-      <jump line="102" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
-      <jump line="134" column="3" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
-      <jump line="138" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" />
-      <jump line="23" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ClassOverridesResource.kt" />
-      <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ClassOverridesResource.kt" />
-      <jump line="28" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ClassOverridesResource.kt" />
       <jump line="30" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
       <jump line="4" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
       <jump line="67" column="78" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
@@ -318,7 +296,6 @@
       <jump line="27" column="11" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/GdprResourceTest.java" />
       <jump line="37" column="42" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/GdprResourceTest.java" />
       <jump line="40" column="28" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/GdprResourceTest.java" />
-      <jump line="25" column="8" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
       <jump line="35" column="8" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
       <jump line="34" column="8" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
       <jump line="6" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
@@ -330,6 +307,37 @@
       <jump line="62" column="30" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
       <jump line="29" column="26" filename="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/config/local.yml" />
       <jump line="61" column="45" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
+      <jump line="54" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/logic/ClassLogicTest.kt" />
+      <jump line="85" column="8" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/GdprResourceTest.java" />
+      <jump line="23" column="110" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
+      <jump line="32" column="21" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/resources/config/test.yml" />
+      <jump line="41" column="29" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/resources/config/test.yml" />
+      <jump line="16" column="28" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
+      <jump line="75" column="71" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
+      <jump line="102" column="28" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
+      <jump line="107" column="28" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
+      <jump line="65" column="71" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
+      <jump line="7" column="21" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="64" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="74" column="19" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="60" column="25" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="61" column="24" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="65" column="25" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="66" column="24" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="62" column="25" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="17" column="8" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
+      <jump line="25" column="25" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
+      <jump line="38" column="5" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
+      <jump line="68" column="0" filename="$USER_HOME$/cp-projects/gls/code/client/src/main/kotlin/com/classpass/common/clients/gls/GlsClient.kt" />
+      <jump line="350" column="19" filename="$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/HttpUrl.java" />
+      <jump line="865" column="19" filename="$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/HttpUrl.java" />
+      <jump line="29" column="24" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
+      <jump line="17" column="38" filename="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" />
+      <jump line="47" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
+      <jump line="40" column="0" filename="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" />
+      <jump line="13" column="29" filename="$USER_HOME$/cp-projects/gls/Dockerfile" />
+      <jump line="67" column="21" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
+      <jump line="4" column="17" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -355,8 +363,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0VGhyb3duQnkgeyAK</text>
+      <register name="*" type="4">
+        <text>DropwizardClientRule</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -731,7 +739,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>.matches { it.message.contains(&quot;&quot;)}</text>
+        <text>2.0.0</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -767,43 +775,43 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>logg</text>
+        <text>2.0.0</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">aW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50Cg==</text>
+      <register name="0" type="4">
+        <text>DropwizardClientRule</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnRUaGF0VGhyb3duQnkgeyAK</text>
+        <text encoding="base64">CiAgICBAVGVzdAogICAgZnVuIGBzZXRDbGFzc0xvY2F0aW9uIHdpdGggbG9jYXRpb24gaWQgQU5EIGxhdCtsbmcgaXMgcmVqZWN0ZWRgKCkgewogICAgICAgIHZhbCBjbGFzc0lkID0gMTIzNAogICAgICAgIHZhbCBsYXQgPSAxMi4xMjEyCiAgICAgICAgdmFsIGxuZyA9IDM0LjQzNDM0CiAgICAgICAgdmFsIGxvY2F0aW9uSWQgPSA5OTlMCiAgICAgICAgZ2xzQ2xpZW50LnNldENsYXNzTG9jYXRpb24oY2xhc3NJZCwgbGF0LCBsbmcpCiAgICB9Cgo=</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBnbHNDbGllbnQuZ2V0Q2xhc3NMb2NhdGlvbihjbGFzc0lkKQo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IG9raHR0cDMuaHQK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIG1hcHBlcjogT2JqZWN0TWFwcGVyID0gT2JqZWN0TWFwcGVyKCkKICAgIHByaXZhdGUgdmFsIGdsczogR2xvYmFsTG9jYXRpb25TZXJ2aWNlCiAgICBwcml2YXRlIHZhbCBnbHNDbGllbnQ6IEdsc0NsaWVudAo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3814,28 +3822,28 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHZhbCBodHRwQ2xpZW50ID0gT2tIdHRwQ2xpZW50LkJ1aWxkZXIoKQogICAgICAgICAgICAuYnVpbGQoKQo=</text>
+        <text encoding="base64">ICAgIEBnZXQ6UnVsZQogICAgdmFsIHdpcmVNb2NrUnVsZTogV2lyZU1vY2tSdWxlID0gV2lyZU1vY2tSdWxlKDEwOTQpCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmFkZEludGVyY2VwdG9yKEh0dHBMb2dnaW5nSW50ZXJjZXB0b3IoKS5zZXRMZXZlbChIdHRwTG9nZ2luZ0ludGVyY2VwdG9yLkxldmVsLkJPRFkpKQo=</text>
+        <text encoding="base64">ICAgIGNvbXBhbmlvbiBvYmplY3Qgewo=</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBKc29uUHJvcGVydHkoImNsYXNzX2lkIikgdmFsIGNsYXNzSWQ6IEludCwK</text>
+        <text encoding="base64">ICAgICAgICBASnZtRmllbGQK</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowPrevChangeMarker</text>
+        <text>action VcsShowNextChangeMarker</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3844,9 +3852,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>logg</last-search>
+      <last-search>2.0.0</last-search>
       <last-offset />
-      <last-pattern>logg</last-pattern>
+      <last-pattern>2.0.0</last-pattern>
       <last-replace>venue</last-replace>
       <last-substitute>class</last-substitute>
       <last-dir>1</last-dir>
