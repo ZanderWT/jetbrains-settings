@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>resource</entry>
         <entry>conf</entry>
         <entry>src</entry>
         <entry encoding="base64">XDxEYlRlc3RzXD4=</entry>
@@ -27,6 +26,7 @@
         <entry>HttpUrl</entry>
         <entry>repl</entry>
         <entry>2.0.0</entry>
+        <entry>gls</entry>
       </history-search>
       <history-cmd>
         <entry>s;Dao;Logic</entry>
@@ -126,10 +126,14 @@
     <filemarks>
       <file name="$USER_HOME$/cp-projects/gls/pom.xml" timestamp="1594067660662">
         <mark key="'" line="4" column="17" />
-        <mark key="[" line="16" column="24" />
-        <mark key="]" line="16" column="24" />
-        <mark key="." line="16" column="28" />
         <mark key="^" line="4" column="18" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1594142282195">
+        <mark key="'" line="14" column="0" />
+        <mark key="[" line="39" column="49" />
+        <mark key="]" line="39" column="50" />
+        <mark key="." line="39" column="50" />
+        <mark key="^" line="38" column="50" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/GdprResourceTest.java" timestamp="1594063726929">
         <mark key="'" line="85" column="8" />
@@ -139,18 +143,8 @@
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/logic/ClassLogicTest.kt" timestamp="1594063685008">
         <mark key="'" line="54" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/UserResourceTest.java" timestamp="1594060736814">
-        <mark key="[" line="89" column="15" />
-        <mark key="]" line="89" column="94" />
-      </file>
       <file name="/fragment.kt" timestamp="1594064474386">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/resources/config/local.yml" timestamp="1594061671533">
-        <mark key="'" line="29" column="26" />
-        <mark key="[" line="75" column="0" />
-        <mark key="]" line="75" column="4" />
-        <mark key="." line="75" column="4" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/main/java/com/classpass/gls/models/request/SetClassLocationRequest.kt" timestamp="1594061725637">
         <mark key="[" line="6" column="36" />
@@ -177,6 +171,12 @@
         <mark key="[" line="6" column="17" />
         <mark key="]" line="6" column="17" />
         <mark key="." line="6" column="21" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/dao/ClassOverridesDaoTest.kt" timestamp="1594076716495">
+        <mark key="[" line="49" column="27" />
+        <mark key="]" line="49" column="68" />
+        <mark key="." line="49" column="67" />
+        <mark key="^" line="49" column="68" />
       </file>
       <file name="$USER_HOME$/cp-projects/gls/code/api/src/test/java/com/classpass/gls/resource/ClassResourceTest.kt" timestamp="1594067860000">
         <mark key="'" line="40" column="0" />
@@ -232,7 +232,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
       <jump line="4" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
       <jump line="67" column="78" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
       <jump line="31" column="52" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/ClassOverridesController.kt" />
@@ -332,6 +331,7 @@
       <jump line="13" column="29" filename="$USER_HOME$/cp-projects/gls/Dockerfile" />
       <jump line="67" column="21" filename="$USER_HOME$/cp-projects/gls/code/api/pom.xml" />
       <jump line="4" column="17" filename="$USER_HOME$/cp-projects/gls/pom.xml" />
+      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -358,7 +358,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">OiBDbGFzc092ZXJyaWRlc1Jlc3BvbnNlIA==</text>
+        <text>doesn't return schedule overrides</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -733,7 +733,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">OiBDbGFzc092ZXJyaWRlc1Jlc3BvbnNlIA==</text>
+        <text>doesn't return schedule overrides</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -769,7 +769,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>2.0.0</text>
+        <text>gls</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -3846,9 +3846,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>2.0.0</last-search>
+      <last-search>gls</last-search>
       <last-offset />
-      <last-pattern>2.0.0</last-pattern>
+      <last-pattern>gls</last-pattern>
       <last-replace>venue</last-replace>
       <last-substitute>class</last-substitute>
       <last-dir>1</last-dir>
