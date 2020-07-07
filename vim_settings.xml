@@ -141,6 +141,11 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.25.1/f0c3629e116829bb892a86d1fabfbc3e18550b7c/jersey-server-2.25.1-sources.jar!/org/glassfish/jersey/server/ApplicationHandler.java" timestamp="1594150726192">
         <mark key="'" line="435" column="37" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" timestamp="1594154761494">
+        <mark key="[" line="53" column="24" />
+        <mark key="]" line="53" column="24" />
+        <mark key="." line="53" column="24" />
+      </file>
       <file name="$USER_HOME$/cp-projects/gls/code/client/src/test/kotlin/com/classpass/common/clients/gls/ClassLocationsTest.kt" timestamp="1594067382867">
         <mark key="'" line="16" column="38" />
         <mark key="[" line="16" column="4" />
@@ -202,13 +207,7 @@
         <mark key="^" line="50" column="5" />
         <mark key="." line="50" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/TagsController.kt" timestamp="1594153358762">
-        <mark key="'" line="38" column="12" />
-        <mark key="[" line="36" column="78" />
-        <mark key="]" line="36" column="86" />
-        <mark key="^" line="36" column="86" />
-        <mark key="." line="36" column="85" />
-      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/TagsController.kt" timestamp="1594153358762" />
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1594149648658">
         <mark key="'" line="610" column="0" />
         <mark key="[" line="610" column="0" />
@@ -217,12 +216,6 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/TagsControllerTest.kt" timestamp="1594152639100">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="62" column="0" />
-        <mark key="]" line="62" column="0" />
-        <mark key="." line="62" column="0" />
-      </file>
-      <file name="$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/HttpUrl.java" timestamp="1594065466758">
-        <mark key="'" line="865" column="19" />
       </file>
       <file name="/fragment.java" timestamp="1594151135900">
         <mark key="[" line="0" column="0" />
@@ -355,7 +348,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>UI</text>
+        <text>.</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -730,7 +723,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>UI</text>
+        <text>.</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -778,31 +771,31 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmRzbCgpCg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgaW52YWxpZEFjdGl2aXR5VGFnSWRzID0gbGlzdE9mKCJhY3Rpdml0eSIsICJhY3Rpdml0eS01OTkiKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRleHQuZHNsKCkK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuYWRkSW50ZXJjZXB0b3IoSHR0cExvZ2dpbmdJbnRlcmNlcHRvcigpLnNldExldmVsKEh0dHBMb2dnaW5nSW50ZXJjZXB0b3IuTGV2ZWwuQk9EWSkpCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgaW52YWxpZEFjdGl2aXR5VGFnSWRzID0gbGlzdE9mKCJhY3Rpdml0eSIsICJhY3Rpdml0eS01OTkiKQo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICBAVGVzdAogICAgZnVuIGBzZXRDbGFzc0xvY2F0aW9uIHdpdGggbG9jYXRpb24gaWQgQU5EIGxhdCtsbmcgaXMgcmVqZWN0ZWRgKCkgewogICAgICAgIHZhbCBjbGFzc0lkID0gMTIzNAogICAgICAgIHZhbCBsYXQgPSAxMi4xMjEyCiAgICAgICAgdmFsIGxuZyA9IDM0LjQzNDM0CiAgICAgICAgdmFsIGxvY2F0aW9uSWQgPSA5OTlMCiAgICAgICAgZ2xzQ2xpZW50LnNldENsYXNzTG9jYXRpb24oY2xhc3NJZCwgbGF0LCBsbmcpCiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3813,25 +3806,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuYWRkSW50ZXJjZXB0b3IoSHR0cExvZ2dpbmdJbnRlcmNlcHRvcigpLnNldExldmVsKEh0dHBMb2dnaW5nSW50ZXJjZXB0b3IuTGV2ZWwuQk9EWSkpCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBnbHNDbGllbnQuZ2V0Q2xhc3NMb2NhdGlvbihjbGFzc0lkKQo=</text>
+        <text encoding="base64">CiAgICBAVGVzdAogICAgZnVuIGBzZXRDbGFzc0xvY2F0aW9uIHdpdGggbG9jYXRpb24gaWQgQU5EIGxhdCtsbmcgaXMgcmVqZWN0ZWRgKCkgewogICAgICAgIHZhbCBjbGFzc0lkID0gMTIzNAogICAgICAgIHZhbCBsYXQgPSAxMi4xMjEyCiAgICAgICAgdmFsIGxuZyA9IDM0LjQzNDM0CiAgICAgICAgdmFsIGxvY2F0aW9uSWQgPSA5OTlMCiAgICAgICAgZ2xzQ2xpZW50LnNldENsYXNzTG9jYXRpb24oY2xhc3NJZCwgbGF0LCBsbmcpCiAgICB9Cgo=</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIG1hcHBlcjogT2JqZWN0TWFwcGVyID0gT2JqZWN0TWFwcGVyKCkKICAgIHByaXZhdGUgdmFsIGdsczogR2xvYmFsTG9jYXRpb25TZXJ2aWNlCiAgICBwcml2YXRlIHZhbCBnbHNDbGllbnQ6IEdsc0NsaWVudAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBnbHNDbGllbnQuZ2V0Q2xhc3NMb2NhdGlvbihjbGFzc0lkKQo=</text>
       </register>
       <register name=":" type="4">
         <text>action MethodDown</text>
