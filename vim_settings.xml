@@ -7,15 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxhZGRUYWdzRnV0dXJlXD4=</entry>
-        <entry>an</entry>
-        <entry>any</entry>
-        <entry>anyobject</entry>
-        <entry>save</entry>
-        <entry>eq</entry>
-        <entry encoding="base64">XDxkZXBzXD4=</entry>
-        <entry>mock</entry>
-        <entry>mockito</entry>
         <entry encoding="base64">XDxtb2NraXRvXD4=</entry>
         <entry>mocki</entry>
         <entry>whenever</entry>
@@ -27,6 +18,15 @@
         <entry encoding="base64">ID0gLio=</entry>
         <entry>asdf</entry>
         <entry>listof</entry>
+        <entry>aslist</entry>
+        <entry>null</entry>
+        <entry>if nu</entry>
+        <entry>ignore</entry>
+        <entry>with docker</entry>
+        <entry>inventory-l</entry>
+        <entry>tru</entry>
+        <entry>class</entry>
+        <entry>new</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO09VVERPT1I7TElWRVNUUkVBTTtn</entry>
@@ -47,8 +47,8 @@
         <entry encoding="base64">JzwsJz5zOzogXHdcKzs7</entry>
         <entry encoding="base64">JzwsJz5zOyA9IC4qOzs=</entry>
         <entry>action ReformatCode</entry>
-        <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
+        <entry>action VcsShowNextChangeMarker</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -138,8 +138,12 @@
         <mark key="." line="70" column="37" />
         <mark key="^" line="70" column="38" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/client/src/main/java/com/classpass/inventory/InventoryServiceClient.java" timestamp="1594248617214">
-        <mark key="^" line="38" column="56" />
+      <file name="$USER_HOME$/cp-projects/inventory-service/code/client/src/main/java/com/classpass/inventory/InventoryServiceClient.java" timestamp="1594321619280">
+        <mark key="'" line="42" column="36" />
+        <mark key="[" line="47" column="50" />
+        <mark key="]" line="48" column="4" />
+        <mark key="." line="48" column="3" />
+        <mark key="^" line="48" column="4" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" timestamp="1594235301265" />
       <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1594250002326">
@@ -152,11 +156,15 @@
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/ResultQuery.java" timestamp="1594233273512">
         <mark key="'" line="2477" column="33" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" timestamp="1594245481658">
-        <mark key="'" line="35" column="7" />
+      <file name="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" timestamp="1594322934892">
+        <mark key="'" line="241" column="83" />
+        <mark key="[" line="234" column="31" />
+        <mark key="]" line="234" column="32" />
+        <mark key="." line="234" column="31" />
+        <mark key="^" line="234" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/README.md" timestamp="1594245282258">
-        <mark key="'" line="87" column="2" />
+      <file name="$USER_HOME$/cp-projects/inventory-service/README.md" timestamp="1594321877022">
+        <mark key="'" line="24" column="73" />
         <mark key="[" line="53" column="22" />
         <mark key="]" line="53" column="36" />
       </file>
@@ -208,23 +216,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="88" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="51" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="17" column="10" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/ClassResource.kt" />
-      <jump line="67" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="77" column="121" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="72" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="76" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="92" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="73" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="75" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="97" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="95" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="2459" column="34" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/ResultQuery.java" />
-      <jump line="2469" column="14" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/ResultQuery.java" />
-      <jump line="2477" column="33" filename="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.11.11/f375b8946b57e741c614d5702ced0b508b8b5d52/jooq-3.11.11-sources.jar!/org/jooq/ResultQuery.java" />
-      <jump line="101" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
       <jump line="89" column="72" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
       <jump line="80" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
       <jump line="74" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
@@ -259,7 +250,6 @@
       <jump line="194" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
       <jump line="0" column="12" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
       <jump line="2" column="11" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
-      <jump line="23" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
       <jump line="35" column="7" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
       <jump line="88" column="19" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/resource/ClassResource.java" />
       <jump line="6" column="46" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/resource/ClassResource.java" />
@@ -308,6 +298,24 @@
       <jump line="176" column="8" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/business/ClassControllerTest.kt" />
       <jump line="177" column="36" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/business/ClassControllerTest.kt" />
       <jump line="33" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/business/ClassControllerTest.kt" />
+      <jump line="122" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="212" column="75" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="10" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="42" column="36" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/main/java/com/classpass/inventory/InventoryServiceClient.java" />
+      <jump line="5" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="23" column="17" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="40" column="3" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="216" column="57" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="78" column="17" filename="$USER_HOME$/cp-projects/inventory-service/README.md" />
+      <jump line="45" column="52" filename="$USER_HOME$/cp-projects/inventory-service/README.md" />
+      <jump line="24" column="73" filename="$USER_HOME$/cp-projects/inventory-service/README.md" />
+      <jump line="218" column="41" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="226" column="11" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="235" column="69" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="236" column="12" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="237" column="64" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="240" column="65" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
+      <jump line="241" column="83" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -333,8 +341,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuZXZlcih0YWdzQ2xpZW50LnNhdmVMaXZlc3RyZWFtVGFncyhhbnlTZXQ8TG9uZz4oKSwgYW55T3JOdWxsKCkpKS50aGVuUmV0dXJuKENvbXBsZXRhYmxlRnV0dXJlLmNvbXBsZXRlZEZ1dHVyZShudWxsKSkKICAgICAgICB3aGVuZXZlcih0YWdzQ2xpZW50LnJlbW92ZUxpdmVzdHJlYW1UYWdzKGFueVNldDxMb25nPigpLCBhbnlPck51bGwoKSkpLnRoZW5SZXR1cm4oQ29tcGxldGFibGVGdXR1cmUuY29tcGxldGVkRnV0dXJlKG51bGwpKQo=</text>
+      <register name="*" type="4">
+        <text>Class</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -709,7 +717,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>livestreamClassId</text>
+        <text>Class</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -745,19 +753,19 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>listof</text>
+        <text>new</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3aGVuZXZlcih0YWdzQ2xpZW50LnNhdmVMaXZlc3RyZWFtVGFncyhhbnlTZXQ8TG9uZz4oKSwgYW55T3JOdWxsKCkpKS50aGVuUmV0dXJuKENvbXBsZXRhYmxlRnV0dXJlLmNvbXBsZXRlZEZ1dHVyZShudWxsKSkKICAgICAgICB3aGVuZXZlcih0YWdzQ2xpZW50LnJlbW92ZUxpdmVzdHJlYW1UYWdzKGFueVNldDxMb25nPigpLCBhbnlPck51bGwoKSkpLnRoZW5SZXR1cm4oQ29tcGxldGFibGVGdXR1cmUuY29tcGxldGVkRnV0dXJlKG51bGwpKQo=</text>
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCB0ZXN0U2F2ZUxpdmVzdHJlYW1DbGFzcygpIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgSW52ZW50b3J5U2VydmljZUNsaWVudE1vZHVsZSBtb2R1bGUgPSBuZXcgSW52ZW50b3J5U2VydmljZUNsaWVudE1vZHVsZSgpOwogICAgICAgIEludmVudG9yeVNlcnZpY2VDbGllbnRDb25maWcgY29uZmlnID0gSW52ZW50b3J5U2VydmljZUNsaWVudENvbmZpZy5Db21wYW5pb24ub2YoImh0dHA6Ly9sb2NhbGhvc3QiLAogICAgICAgICAgICAgICAgT3B0aW9uYWwub2YoODA4MCksIE9wdGlvbmFsLmVtcHR5KCksIE9wdGlvbmFsLmVtcHR5KCksIE9wdGlvbmFsLmVtcHR5KCkpOwogICAgICAgIEludmVudG9yeVNlcnZpY2VDbGllbnQgY2xpZW50ID0gbW9kdWxlLnByb3ZpZGVzSW52ZW50b3J5U2VydmljZUNsaWVudChjb25maWcsIG1hcHBlcik7CgogICAgICAgIGxvbmcgY2xhc3NJZCA9IDEyMzRMOwoKICAgICAgICBTYXZlQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdCBlbmFibGVMaXZlc3RyZWFtUmVxdWVzdCA9IG5ldyBTYXZlQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdCgKICAgICAgICAgICAgICAgIENvbGxlY3Rpb25zLnNpbmdsZXRvbkxpc3QobmV3IENsYXNzTGl2ZXN0cmVhbVJlcXVlc3QoY2xhc3NJZCwgdHJ1ZSkpKTsKICAgICAgICBjbGllbnQuc2F2ZUxpdmVzdHJlYW1JbmZvKGVuYWJsZUxpdmVzdHJlYW1SZXF1ZXN0LCAicGFydG5lci1kYXNoYm9hcmQiKS5leGVjdXRlKCk7CgogICAgICAgIFNhdmVDbGFzc0xpdmVzdHJlYW1SZXF1ZXN0IGRpc2FibGVMaXZlc3RyZWFtUmVxdWVzdCA9IG5ldyBTYXZlQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdCgKICAgICAgICAgICAgICAgIENvbGxlY3Rpb25zLnNpbmdsZXRvbkxpc3QobmV3IENsYXNzTGl2ZXN0cmVhbVJlcXVlc3QoY2xhc3NJZCwgZmFsc2UpKSk7CiAgICAgICAgY2xpZW50LnNhdmVMaXZlc3RyZWFtSW5mbyhkaXNhYmxlTGl2ZXN0cmVhbVJlcXVlc3QpOwogICAgfQo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBBbHNvIHRyeSB3aXRoIGEgbnVsbCBzY29wZSwgdXNpbmcgYSBkaWZmZXJlbnQgY2xhc3MgaWQgdG8gbWlzcyB0aGUgY2FjaGUK</text>
+        <text encoding="base64">ICAgICAqIEBwYXJhbSB0YWdTY29wZSAgICAgICAgICAgICAgbnVsbGFibGUuIElmIHByZXNlbnQsIHNldCB0aGUgc2NvcGUgb2YgdGhlIHRhZyBvbiB0aGUgdGFncyBzZXJ2aWNlLiBJZiBudWxsLCB1c2UgdGhlCiAgICAgKiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQgc2NvcGUgb2YgInNlcnZpY2UtdGFnZ2VyIgo=</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
@@ -769,7 +777,7 @@
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBBbHNvIHRyeSB3aXRoIGEgbnVsbCBzY29wZSwgdXNpbmcgYSBkaWZmZXJlbnQgY2xhc3MgaWQgdG8gbWlzcyB0aGUgY2FjaGUKICAgICAgICB2YWwgb3RoZXJDbGFzc0lkID0gOTk5OUwKICAgICAgICB2YWwgb3RoZXJMaXZlc3RyZWFtUmVxdWVzdCA9IGxpc3RPZihDbGFzc0xpdmVzdHJlYW1SZXF1ZXN0KG90aGVyQ2xhc3NJZCwgdHJ1ZSkpCiAgICAgICAgY2xhc3NDb250cm9sbGVyLnNhdmVMaXZlc3RyZWFtRGF0YShvdGhlckxpdmVzdHJlYW1SZXF1ZXN0LCBudWxsKQogICAgICAgIE1vY2tpdG8udmVyaWZ5KHRhZ3NDbGllbnQpLnNhdmVMaXZlc3RyZWFtVGFncyhlcShzZXRPZihvdGhlckNsYXNzSWQpKSwgZXEobnVsbCkpCiAgICAgICAgTW9ja2l0by52ZXJpZnkodGFnc0NsaWVudCkucmVtb3ZlTGl2ZXN0cmVhbVRhZ3MoZXEoZW1wdHlTZXQoKSksIGVxKG51bGwpKQo=</text>
+        <text encoding="base64">ICAgIEBQT1NUKCIvdjEvc2NoZWR1bGVzL2xpdmVzdHJlYW0iKQogICAgQ2FsbDxWb2lkPiBzYXZlTGl2ZXN0cmVhbUluZm8oQEJvZHkgU2F2ZUxpdmVzdHJlYW1SZXF1ZXN0IHNhdmVMaXZlc3RyZWFtUmVxdWVzdCk7Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
@@ -781,7 +789,7 @@
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBNb2NraXRvLnJlc2V0KHRhZ3NDbGllbnQpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3792,28 +3800,28 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBNb2NraXRvLnZlcmlmeSh0YWdzQ2xpZW50KS5yZW1vdmVMaXZlc3RyZWFtVGFncyhlcShlbXB0eVNldCgpKSwgZXEoc2NvcGUpKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBNb2NraXRvLnZlcmlmeSh0YWdzQ2xpZW50KS5yZW1vdmVMaXZlc3RyZWFtVGFncyhlcShlbXB0eVNldCgpKSwgZXEobnVsbCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBBbHNvIHRyeSB3aXRoIGEgbnVsbCBzY29wZSwgdXNpbmcgYSBkaWZmZXJlbnQgY2xhc3MgaWQgdG8gbWlzcyB0aGUgY2FjaGUK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAogICAgQFRlc3QKICAgIGZ1biBgc2F2ZUxpdmVzdHJlYW1EYXRhIHBhc3NlcyBzY29wZSB0byB0aGUgdGFncyBzZXJ2aWNlYCgpIHsKICAgICAgICB2YWwgbGl2ZXN0cmVhbUNsYXNzSWQgPSAxMjM0TAogICAgICAgIHZhbCBpblBlcnNvbkNsYXNzSWQgPSA1NDMyTAogICAgICAgIHZhbCBzY29wZSA9ICJ0aGUtc2NvcGUiCiAgICAgICAgdmFsIGxpdmVzdHJlYW1SZXF1ZXN0ID0gbGlzdE9mKENsYXNzTGl2ZXN0cmVhbVJlcXVlc3QobGl2ZXN0cmVhbUNsYXNzSWQsIHRydWUpLAogICAgICAgICAgICAgICAgQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdChpblBlcnNvbkNsYXNzSWQsIGZhbHNlKSkKICAgICAgICB3aGVuZXZlcih0YWdzQ2xpZW50LnNhdmVMaXZlc3RyZWFtVGFncyhhbnlTZXQ8TG9uZz4oKSwgYW55T3JOdWxsKCkpKS50aGVuUmV0dXJuKENvbXBsZXRhYmxlRnV0dXJlLmNvbXBsZXRlZEZ1dHVyZShudWxsKSkKICAgICAgICB3aGVuZXZlcih0YWdzQ2xpZW50LnJlbW92ZUxpdmVzdHJlYW1UYWdzKGFueVNldDxMb25nPigpLCBhbnlPck51bGwoKSkpLnRoZW5SZXR1cm4oQ29tcGxldGFibGVGdXR1cmUuY29tcGxldGVkRnV0dXJlKG51bGwpKQoKICAgICAgICBjbGFzc0NvbnRyb2xsZXIuc2F2ZUxpdmVzdHJlYW1EYXRhKGxpdmVzdHJlYW1SZXF1ZXN0LCBzY29wZSkKICAgICAgICBNb2NraXRvLnZlcmlmeSh0YWdzQ2xpZW50KS5zYXZlTGl2ZXN0cmVhbVRhZ3MoZXEoc2V0T2YobGl2ZXN0cmVhbUNsYXNzSWQpKSwgZXEoc2NvcGUpKQogICAgICAgIE1vY2tpdG8udmVyaWZ5KHRhZ3NDbGllbnQpLnJlbW92ZUxpdmVzdHJlYW1UYWdzKGVxKGVtcHR5U2V0KCkpLCBlcShzY29wZSkpCgogICAgfQp9Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBBbHNvIHRyeSB3aXRoIGEgbnVsbCBzY29wZSwgdXNpbmcgYSBkaWZmZXJlbnQgY2xhc3MgaWQgdG8gbWlzcyB0aGUgY2FjaGUKICAgICAgICB2YWwgb3RoZXJDbGFzc0lkID0gOTk5OUwKICAgICAgICB2YWwgb3RoZXJMaXZlc3RyZWFtUmVxdWVzdCA9IGxpc3RPZihDbGFzc0xpdmVzdHJlYW1SZXF1ZXN0KG90aGVyQ2xhc3NJZCwgdHJ1ZSkpCiAgICAgICAgY2xhc3NDb250cm9sbGVyLnNhdmVMaXZlc3RyZWFtRGF0YShvdGhlckxpdmVzdHJlYW1SZXF1ZXN0LCBudWxsKQogICAgICAgIE1vY2tpdG8udmVyaWZ5KHRhZ3NDbGllbnQpLnNhdmVMaXZlc3RyZWFtVGFncyhlcShzZXRPZihvdGhlckNsYXNzSWQpKSwgZXEobnVsbCkpCiAgICAgICAgTW9ja2l0by52ZXJpZnkodGFnc0NsaWVudCkucmVtb3ZlTGl2ZXN0cmVhbVRhZ3MoZXEoZW1wdHlTZXQoKSksIGVxKG51bGwpKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowPrevChangeMarker</text>
+        <text>action VcsShowNextChangeMarker</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3822,9 +3830,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>listof</last-search>
+      <last-search>new</last-search>
       <last-offset />
-      <last-pattern>listof</last-pattern>
+      <last-pattern>new</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">ID0gLio=</last-substitute>
       <last-dir>-1</last-dir>
