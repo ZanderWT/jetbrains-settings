@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>mocki</entry>
-        <entry>whenever</entry>
-        <entry>match</entry>
-        <entry>@Bef</entry>
-        <entry encoding="base64">XDxhbnlcPg==</entry>
         <entry encoding="base64">XDxjbGFzc0lkVG9Jc0xpdmVzdHJlYW1DYWNoZVw+</entry>
         <entry>: \w\+</entry>
         <entry encoding="base64">ID0gLio=</entry>
@@ -27,6 +22,11 @@
         <entry>class</entry>
         <entry>new</entry>
         <entry encoding="base64">XDx1cGRhdGVMaXZlc3RyZWFtVGFnc1w+</entry>
+        <entry>savelive</entry>
+        <entry>shor</entry>
+        <entry encoding="base64">XDxlcVw+</entry>
+        <entry>save</entry>
+        <entry>true</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zO09VVERPT1I7TElWRVNUUkVBTTtn</entry>
@@ -45,10 +45,10 @@
         <entry>bnext</entry>
         <entry encoding="base64">JzwsJz5zOzogXHdcKzs7</entry>
         <entry encoding="base64">JzwsJz5zOyA9IC4qOzs=</entry>
-        <entry>action ReformatCode</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action MethodUp</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -145,10 +145,12 @@
         <mark key="." line="48" column="3" />
         <mark key="^" line="48" column="4" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" timestamp="1594328584455">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" timestamp="1594329306807">
+        <mark key="'" line="54" column="56" />
+        <mark key="[" line="23" column="52" />
+        <mark key="]" line="23" column="102" />
+        <mark key="." line="23" column="101" />
+        <mark key="^" line="23" column="102" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1594250002326">
         <mark key="'" line="61" column="17" />
@@ -186,10 +188,10 @@
         <mark key="^" line="87" column="82" />
         <mark key="." line="87" column="81" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/services/tags/TagsClient.kt" timestamp="1594323043405">
-        <mark key="'" line="100" column="16" />
-        <mark key="[" line="66" column="62" />
-        <mark key="]" line="66" column="62" />
+      <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/services/tags/TagsClient.kt" timestamp="1594329011393">
+        <mark key="'" line="61" column="12" />
+        <mark key="[" line="109" column="33" />
+        <mark key="]" line="109" column="71" />
         <mark key="." line="66" column="62" />
         <mark key="^" line="70" column="55" />
       </file>
@@ -221,14 +223,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="89" column="72" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="80" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="74" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="105" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="60" column="58" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/CampaignController.kt" />
-      <jump line="91" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
-      <jump line="215" column="55" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/business/ClassController.java" />
-      <jump line="237" column="35" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/business/ClassController.java" />
       <jump line="241" column="59" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/business/ClassController.java" />
       <jump line="33" column="37" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/business/ClassController.java" />
       <jump line="17" column="6" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/services/tags/TagsClient.kt" />
@@ -321,6 +315,14 @@
       <jump line="241" column="83" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
       <jump line="40" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" />
       <jump line="100" column="16" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/services/tags/TagsClient.kt" />
+      <jump line="61" column="12" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/services/tags/TagsClient.kt" />
+      <jump line="27" column="8" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" />
+      <jump line="43" column="48" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" />
+      <jump line="50" column="14" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" />
+      <jump line="51" column="24" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" />
+      <jump line="56" column="14" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" />
+      <jump line="58" column="24" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" />
+      <jump line="52" column="56" filename="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -347,7 +349,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">aW50ZXJuYWwg</text>
+        <text>()</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -722,7 +724,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">aW50ZXJuYWwg</text>
+        <text>()</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -758,43 +760,43 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1cGRhdGVMaXZlc3RyZWFtVGFnc1w+</text>
+        <text>true</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCB0ZXN0U2F2ZUxpdmVzdHJlYW1DbGFzcygpIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgSW52ZW50b3J5U2VydmljZUNsaWVudE1vZHVsZSBtb2R1bGUgPSBuZXcgSW52ZW50b3J5U2VydmljZUNsaWVudE1vZHVsZSgpOwogICAgICAgIEludmVudG9yeVNlcnZpY2VDbGllbnRDb25maWcgY29uZmlnID0gSW52ZW50b3J5U2VydmljZUNsaWVudENvbmZpZy5Db21wYW5pb24ub2YoImh0dHA6Ly9sb2NhbGhvc3QiLAogICAgICAgICAgICAgICAgT3B0aW9uYWwub2YoODA4MCksIE9wdGlvbmFsLmVtcHR5KCksIE9wdGlvbmFsLmVtcHR5KCksIE9wdGlvbmFsLmVtcHR5KCkpOwogICAgICAgIEludmVudG9yeVNlcnZpY2VDbGllbnQgY2xpZW50ID0gbW9kdWxlLnByb3ZpZGVzSW52ZW50b3J5U2VydmljZUNsaWVudChjb25maWcsIG1hcHBlcik7CgogICAgICAgIGxvbmcgY2xhc3NJZCA9IDEyMzRMOwoKICAgICAgICBTYXZlQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdCBlbmFibGVMaXZlc3RyZWFtUmVxdWVzdCA9IG5ldyBTYXZlQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdCgKICAgICAgICAgICAgICAgIENvbGxlY3Rpb25zLnNpbmdsZXRvbkxpc3QobmV3IENsYXNzTGl2ZXN0cmVhbVJlcXVlc3QoY2xhc3NJZCwgdHJ1ZSkpKTsKICAgICAgICBjbGllbnQuc2F2ZUxpdmVzdHJlYW1JbmZvKGVuYWJsZUxpdmVzdHJlYW1SZXF1ZXN0LCAicGFydG5lci1kYXNoYm9hcmQiKS5leGVjdXRlKCk7CgogICAgICAgIFNhdmVDbGFzc0xpdmVzdHJlYW1SZXF1ZXN0IGRpc2FibGVMaXZlc3RyZWFtUmVxdWVzdCA9IG5ldyBTYXZlQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdCgKICAgICAgICAgICAgICAgIENvbGxlY3Rpb25zLnNpbmdsZXRvbkxpc3QobmV3IENsYXNzTGl2ZXN0cmVhbVJlcXVlc3QoY2xhc3NJZCwgZmFsc2UpKSk7CiAgICAgICAgY2xpZW50LnNhdmVMaXZlc3RyZWFtSW5mbyhkaXNhYmxlTGl2ZXN0cmVhbVJlcXVlc3QpOwogICAgfQo=</text>
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYHNhdmVMaXZlc3RyZWFtVGFncyB1c2VzIGRlZmF1bHQgc2NvcGVgKCkgewogICAgICAgIHRhZ3NDbGllbnQuc2F2ZUxpdmVzdHJlYW1UYWdzKGNsYXNzSWRzLCBudWxsKQogICAgICAgIGV4cGVjdFVwZGF0ZUxpdmVzdHJlYW1UYWdzUmVxdWVzdChjbGFzc0lkcywgdHJ1ZSwgQ29udGVudFRhZ1Y0SW5zZXJ0UmVxdWVzdC5ERUZBVUxUX1NDT1BFKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHNhdmVMaXZlc3RyZWFtVGFncyBhY2NlcHRzIGN1c3RvbSBzY29wZWAoKSB7CiAgICAgICAgdmFsIHNjb3BlID0gInRlc3Qtc2NvcGUiCiAgICAgICAgdGFnc0NsaWVudC5zYXZlTGl2ZXN0cmVhbVRhZ3MoY2xhc3NJZHMsIHNjb3BlKQogICAgICAgIGV4cGVjdFVwZGF0ZUxpdmVzdHJlYW1UYWdzUmVxdWVzdChjbGFzc0lkcywgdHJ1ZSwgc2NvcGUpCiAgICB9Cg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAqIEBwYXJhbSB0YWdTY29wZSAgICAgICAgICAgICAgbnVsbGFibGUuIElmIHByZXNlbnQsIHNldCB0aGUgc2NvcGUgb2YgdGhlIHRhZyBvbiB0aGUgdGFncyBzZXJ2aWNlLiBJZiBudWxsLCB1c2UgdGhlCiAgICAgKiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQgc2NvcGUgb2YgInNlcnZpY2UtdGFnZ2VyIgo=</text>
+        <text encoding="base64">ICAgIEBUZXN0Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZXhwZWN0ZWRSZXF1ZXN0ID0gQ29udGVudFRhZ1Y0SW5zZXJ0UmVxdWVzdAo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBQT1NUKCIvdjEvc2NoZWR1bGVzL2xpdmVzdHJlYW0iKQogICAgQ2FsbDxWb2lkPiBzYXZlTGl2ZXN0cmVhbUluZm8oQEJvZHkgU2F2ZUxpdmVzdHJlYW1SZXF1ZXN0IHNhdmVMaXZlc3RyZWFtUmVxdWVzdCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgIHZhbCBjbGFzc0lkcyA9ICAK</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB2YWwgY2xhc3NJZHMgPSBlbXB0eVNldCgpCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3805,13 +3807,13 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBBbHNvIHRyeSB3aXRoIGEgbnVsbCBzY29wZSwgdXNpbmcgYSBkaWZmZXJlbnQgY2xhc3MgaWQgdG8gbWlzcyB0aGUgY2FjaGUK</text>
+        <text encoding="base64">ICAgICAqIEBwYXJhbSB0YWdTY29wZSAgICAgICAgICAgICAgbnVsbGFibGUuIElmIHByZXNlbnQsIHNldCB0aGUgc2NvcGUgb2YgdGhlIHRhZyBvbiB0aGUgdGFncyBzZXJ2aWNlLiBJZiBudWxsLCB1c2UgdGhlCiAgICAgKiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQgc2NvcGUgb2YgInNlcnZpY2UtdGFnZ2VyIgo=</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
@@ -3823,10 +3825,10 @@
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBBbHNvIHRyeSB3aXRoIGEgbnVsbCBzY29wZSwgdXNpbmcgYSBkaWZmZXJlbnQgY2xhc3MgaWQgdG8gbWlzcyB0aGUgY2FjaGUKICAgICAgICB2YWwgb3RoZXJDbGFzc0lkID0gOTk5OUwKICAgICAgICB2YWwgb3RoZXJMaXZlc3RyZWFtUmVxdWVzdCA9IGxpc3RPZihDbGFzc0xpdmVzdHJlYW1SZXF1ZXN0KG90aGVyQ2xhc3NJZCwgdHJ1ZSkpCiAgICAgICAgY2xhc3NDb250cm9sbGVyLnNhdmVMaXZlc3RyZWFtRGF0YShvdGhlckxpdmVzdHJlYW1SZXF1ZXN0LCBudWxsKQogICAgICAgIE1vY2tpdG8udmVyaWZ5KHRhZ3NDbGllbnQpLnNhdmVMaXZlc3RyZWFtVGFncyhlcShzZXRPZihvdGhlckNsYXNzSWQpKSwgZXEobnVsbCkpCiAgICAgICAgTW9ja2l0by52ZXJpZnkodGFnc0NsaWVudCkucmVtb3ZlTGl2ZXN0cmVhbVRhZ3MoZXEoZW1wdHlTZXQoKSksIGVxKG51bGwpKQo=</text>
+        <text encoding="base64">ICAgIEBQT1NUKCIvdjEvc2NoZWR1bGVzL2xpdmVzdHJlYW0iKQogICAgQ2FsbDxWb2lkPiBzYXZlTGl2ZXN0cmVhbUluZm8oQEJvZHkgU2F2ZUxpdmVzdHJlYW1SZXF1ZXN0IHNhdmVMaXZlc3RyZWFtUmVxdWVzdCk7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action MethodUp</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3835,9 +3837,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx1cGRhdGVMaXZlc3RyZWFtVGFnc1w+</last-search>
+      <last-search>true</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1cGRhdGVMaXZlc3RyZWFtVGFnc1w+</last-pattern>
+      <last-pattern>true</last-pattern>
       <last-replace />
       <last-substitute encoding="base64">ID0gLio=</last-substitute>
       <last-dir>-1</last-dir>
