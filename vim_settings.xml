@@ -131,13 +131,6 @@
         <mark key="." line="234" column="31" />
         <mark key="^" line="234" column="32" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/resource/ClassResource.java" timestamp="1594245557180">
-        <mark key="'" line="6" column="46" />
-        <mark key="[" line="87" column="72" />
-        <mark key="]" line="87" column="82" />
-        <mark key="^" line="87" column="82" />
-        <mark key="." line="87" column="81" />
-      </file>
       <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/services/tags/TagsClient.kt" timestamp="1594336254828">
         <mark key="'" line="66" column="8" />
         <mark key="[" line="109" column="0" />
@@ -174,6 +167,12 @@
         <mark key="." line="47" column="102" />
         <mark key="^" line="47" column="103" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/TagsResourceTest.kt" timestamp="1594402982303">
+        <mark key="[" line="6" column="36" />
+        <mark key="]" line="6" column="37" />
+        <mark key="." line="6" column="36" />
+        <mark key="^" line="6" column="37" />
+      </file>
       <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/business/ClassController.java" timestamp="1594250560670">
         <mark key="'" line="83" column="8" />
         <mark key="[" line="277" column="44" />
@@ -195,13 +194,6 @@
         <mark key="]" line="14" column="81" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/main/java/com/classpass/inventory/business/ScheduleController.kt" timestamp="1594242796283">
-        <mark key="'" line="97" column="49" />
-        <mark key="[" line="109" column="89" />
-        <mark key="]" line="109" column="95" />
-        <mark key="^" line="109" column="95" />
-        <mark key="." line="109" column="94" />
-      </file>
       <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" timestamp="1594333729376">
         <mark key="'" line="28" column="30" />
         <mark key="[" line="73" column="1" />
@@ -215,6 +207,10 @@
         <mark key="]" line="78" column="98" />
         <mark key="." line="6" column="32" />
         <mark key="^" line="6" column="33" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/ClassesReportResourceTest.kt" timestamp="1594402966031">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="25" column="5" />
       </file>
       <file name="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" timestamp="1594250110395">
         <mark key="'" line="0" column="0" />
@@ -364,17 +360,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>.fetch {
-                Venue.create(
-                    it.into(CLASSTIVITY_VENUES),
-                    it.into(PASSPORT_VENUES),
-                    it.into(COUNTRY),
-                    it.into(CLASSTIVITY_MSA),
-                    it.into(CLASSTIVITY_PHONE_NUMBERS),
-                    it.into(CLASSTIVITY_WEBSITES),
-                    it.into(CLASSTIVITY_VENUES_AMENITIES)
-                )
-            }</text>
+        <text>valid request is accepted</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -749,7 +735,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>valid request is accepted</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -790,48 +776,38 @@
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
-      <register name="0" type="4">
-        <text>.fetch {
-                Venue.create(
-                    it.into(CLASSTIVITY_VENUES),
-                    it.into(PASSPORT_VENUES),
-                    it.into(COUNTRY),
-                    it.into(CLASSTIVITY_MSA),
-                    it.into(CLASSTIVITY_PHONE_NUMBERS),
-                    it.into(CLASSTIVITY_WEBSITES),
-                    it.into(CLASSTIVITY_VENUES_AMENITIES)
-                )
-            }</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBmdW4gYHRlc3QgdmFsaWQgcmVxdWVzdCBpcyBhY2NlcHRlZGAoKSB7CiAgICAgICAgdmFsIHZhbGlkSnNvbiA9ICIiIgogICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAidmVudWVfaWRzIjogWzI2NjkwXSwKICAgICAgICAgICAgICAgICAgICAgICJzdGFydF9kYXRlIjogIjIwMTgtMDgtMTQiLAogICAgICAgICAgICAgICAgICAgICAgImVuZF9kYXRlIjogIjIwMTktMDgtMTQiCiAgICAgICAgICAgICAgICAgICAgfSAiIiIudHJpbUluZGVudCgpCiAgICAgICAgdmFsIHJlc3BvbnNlID0gcmVxdWVzdCgiL3YxL3JlcG9ydHMvY2xhc3NlcyIpCiAgICAgICAgICAgIC5idWlsZFBvc3QoRW50aXR5Lmpzb24odmFsaWRKc29uKSkuaW52b2tlKCkKICAgICAgICBhc3NlcnRUaGF0KHJlc3BvbnNlLnN0YXR1cykuaXNFcXVhbFRvKEh0dHBTdGF0dXMuTk9fQ09OVEVOVF8yMDQpCiAgICB9Cg==</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuYnVzaW5lc3MuT3V0ZG9vcnNCZWhhdmlvcgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZW51bSBjbGFzcyBPdXRkb29yc0JlaGF2aW9yIHsgSU5DTFVERSwgRVhDTFVERSB9Cg==</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMuYnVzaW5lc3MuT3V0ZG9vcnNCZWhhdmlvcgo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IG9rdHRocDMuCg==</text>
+        <text encoding="base64">ZW51bSBjbGFzcyBPdXRkb29yc0JlaGF2aW9yIHsgSU5DTFVERSwgRVhDTFVERSB9Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uc3F1YXJldXAub2todHRwMyIsICJsb2dnaW5nLWludGVyY2VwdG9yIiwgZGVwc1sib2todHRwIl0pCg==</text>
+        <text encoding="base64">aW1wb3J0IG9rdHRocDMuCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uc3F1YXJldXAub2todHRwMyIsICJsb2dnaW5nLWludGVyY2VwdG9yIiwgZGVwc1sib2todHRwIl0pCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3842,25 +3818,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBUZXN0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZXhwZWN0ZWRSZXF1ZXN0ID0gQ29udGVudFRhZ1Y0SW5zZXJ0UmVxdWVzdAo=</text>
+        <text encoding="base64">ICAgIEBUZXN0Cg==</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZXhwZWN0ZWRSZXF1ZXN0ID0gQ29udGVudFRhZ1Y0SW5zZXJ0UmVxdWVzdAo=</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgIHZhbCBjbGFzc0lkcyA9ICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>action ReformatCode</text>
