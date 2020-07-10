@@ -145,6 +145,10 @@
         <mark key="." line="109" column="12" />
         <mark key="^" line="70" column="55" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/VenueLegacyDao.kt" timestamp="1594401749279">
+        <mark key="[" line="63" column="62" />
+        <mark key="]" line="73" column="12" />
+      </file>
       <file name="$USER_HOME$/cp-projects/inventory-service/README.md" timestamp="1594321877022">
         <mark key="'" line="24" column="73" />
         <mark key="[" line="53" column="22" />
@@ -197,12 +201,6 @@
         <mark key="]" line="109" column="95" />
         <mark key="^" line="109" column="95" />
         <mark key="." line="109" column="94" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/model/src/main/java/com/classpass/inventory/request/ContentTagV4InsertRequest.kt" timestamp="1594241418167">
-        <mark key="[" line="10" column="44" />
-        <mark key="]" line="10" column="60" />
-        <mark key="." line="10" column="59" />
-        <mark key="^" line="10" column="60" />
       </file>
       <file name="$USER_HOME$/cp-projects/inventory-service/code/api/src/test/java/com/classpass/inventory/services/tags/TagsClientTest.kt" timestamp="1594333729376">
         <mark key="'" line="28" column="30" />
@@ -366,7 +364,17 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+        <text>.fetch {
+                Venue.create(
+                    it.into(CLASSTIVITY_VENUES),
+                    it.into(PASSPORT_VENUES),
+                    it.into(COUNTRY),
+                    it.into(CLASSTIVITY_MSA),
+                    it.into(CLASSTIVITY_PHONE_NUMBERS),
+                    it.into(CLASSTIVITY_WEBSITES),
+                    it.into(CLASSTIVITY_VENUES_AMENITIES)
+                )
+            }</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -782,8 +790,18 @@
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">aW1wb3J0IG9raHR0cDMuUHJvdG9jb2w7Cg==</text>
+      <register name="0" type="4">
+        <text>.fetch {
+                Venue.create(
+                    it.into(CLASSTIVITY_VENUES),
+                    it.into(PASSPORT_VENUES),
+                    it.into(COUNTRY),
+                    it.into(CLASSTIVITY_MSA),
+                    it.into(CLASSTIVITY_PHONE_NUMBERS),
+                    it.into(CLASSTIVITY_WEBSITES),
+                    it.into(CLASSTIVITY_VENUES_AMENITIES)
+                )
+            }</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
