@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDx0YWdzQ2xpZW50XD4=</entry>
-        <entry>.map</entry>
-        <entry>it</entry>
-        <entry>LIVESTREAM_TAG</entry>
-        <entry>tagsclient</entry>
         <entry encoding="base64">XDxpbnZlbnRvcnlTZXJ2aWNlQ2xpZW50XD4=</entry>
         <entry>savelive</entry>
         <entry>Call</entry>
@@ -27,9 +22,13 @@
         <entry encoding="base64">XDxQYXJ0bmVyc0NvbmZpZ1w+</entry>
         <entry>mockit</entry>
         <entry>mock</entry>
+        <entry>@json</entry>
+        <entry>time</entry>
+        <entry>inventory</entry>
+        <entry>metr</entry>
+        <entry>mocki</entry>
       </history-search>
       <history-cmd>
-        <entry>10</entry>
         <entry>s;class;venue;g</entry>
         <entry>s;CAMPAIGNS;PARTNER_CAMPAIGNS;g</entry>
         <entry encoding="base64">JzwsJz5zOzogXHdcKzs7</entry>
@@ -45,10 +44,11 @@
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>701</entry>
         <entry>49</entry>
+        <entry>action QuickJavaDoc</entry>
+        <entry>bnext</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -124,19 +124,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.java" timestamp="1594660935738">
-        <mark key="'" line="209" column="11" />
-        <mark key="[" line="208" column="0" />
-        <mark key="]" line="243" column="5" />
-        <mark key="." line="234" column="31" />
-        <mark key="^" line="234" column="32" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/ProductsReportResourceTest.kt" timestamp="1594404170348">
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="8" />
-        <mark key="^" line="16" column="8" />
-        <mark key="." line="16" column="7" />
-      </file>
       <file name="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.kt" timestamp="1594663438316">
         <mark key="[" line="25" column="0" />
         <mark key="]" line="25" column="0" />
@@ -150,13 +137,6 @@
         <mark key="." line="40" column="64" />
         <mark key="^" line="40" column="65" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/TagsResourceTest.kt" timestamp="1594404280942">
-        <mark key="'" line="31" column="25" />
-        <mark key="[" line="32" column="57" />
-        <mark key="]" line="32" column="63" />
-        <mark key="." line="32" column="62" />
-        <mark key="^" line="32" column="63" />
-      </file>
       <file name="$USER_HOME$/cp-projects/gls/code/common-test/src/main/java/com/classpass/common/helpers/DbTests.java" timestamp="1594672447663">
         <mark key="'" line="109" column="57" />
       </file>
@@ -166,6 +146,12 @@
         <mark key="]" line="99" column="9" />
         <mark key="^" line="111" column="92" />
         <mark key="." line="97" column="0" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/InventoryServiceConfig.kt" timestamp="1594678568180">
+        <mark key="[" line="2" column="5" />
+        <mark key="]" line="2" column="5" />
+        <mark key="^" line="2" column="5" />
+        <mark key="." line="2" column="75" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" timestamp="1594673746481">
         <mark key="'" line="327" column="0" />
@@ -182,18 +168,16 @@
       <file name="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" timestamp="1594667773423">
         <mark key="'" line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/TagsControllerTest.kt" timestamp="1594404402545">
-        <mark key="[" line="66" column="5" />
-        <mark key="]" line="67" column="4" />
-        <mark key="^" line="67" column="4" />
-        <mark key="." line="67" column="3" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/GlsServiceConfig.kt" timestamp="1594678562648">
+        <mark key="[" line="2" column="43" />
+        <mark key="]" line="2" column="67" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1594674500333">
-        <mark key="'" line="412" column="37" />
-        <mark key="[" line="412" column="22" />
-        <mark key="]" line="412" column="38" />
-        <mark key="." line="412" column="37" />
-        <mark key="^" line="412" column="38" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" timestamp="1594679174462">
+        <mark key="'" line="502" column="4" />
+        <mark key="[" line="648" column="0" />
+        <mark key="]" line="648" column="68" />
+        <mark key="." line="648" column="0" />
+        <mark key="^" line="414" column="38" />
       </file>
       <file name="/Dummy.txt" timestamp="1594671575478">
         <mark key="[" line="0" column="0" />
@@ -218,20 +202,25 @@
         <mark key="^" line="359" column="35" />
         <mark key="." line="359" column="34" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1594674431466">
+      <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1594678590921">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="93" column="90" />
-        <mark key="]" line="93" column="99" />
-        <mark key="^" line="93" column="99" />
-        <mark key="." line="93" column="98" />
+        <mark key="[" line="94" column="31" />
+        <mark key="]" line="94" column="41" />
+        <mark key="^" line="94" column="41" />
+        <mark key="." line="94" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/PartnersConfig.kt" timestamp="1594674384161">
-        <mark key="[" line="26" column="8" />
-        <mark key="]" line="26" column="54" />
-        <mark key="^" line="26" column="54" />
-        <mark key="." line="26" column="53" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/PartnersConfig.kt" timestamp="1594678640188">
+        <mark key="[" line="25" column="42" />
+        <mark key="]" line="25" column="42" />
+        <mark key="^" line="25" column="54" />
+        <mark key="." line="25" column="42" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1594677733671">
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.inventory-service/client/1.13.4/c6c40a7a2ef59f500d1cbbd59e9ef6e646f2f943/client-1.13.4-sources.jar!/com/classpass/inventory/config/InventoryServiceClientConfig.kt" timestamp="1594678456019">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="17" column="1" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1594679247385">
+        <mark key="'" line="46" column="41" />
         <mark key="[" line="61" column="30" />
         <mark key="]" line="61" column="35" />
         <mark key="." line="61" column="34" />
@@ -240,32 +229,12 @@
       <file name="/fragment.java" timestamp="1594671575490">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.inventory-service/client/1.13.4/c6c40a7a2ef59f500d1cbbd59e9ef6e646f2f943/client-1.13.4-sources.jar!/com/classpass/inventory/config/InventoryServiceClientModule.kt" timestamp="1594678115422">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="47" column="5" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/TagsResourceTest.kt" />
-      <jump line="31" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/resource/TagsResourceTest.kt" />
-      <jump line="44" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/TagsControllerTest.kt" />
-      <jump line="43" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/TagsControllerTest.kt" />
-      <jump line="87" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/TagsControllerTest.kt" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/TagsControllerTest.kt" />
-      <jump line="12" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/TagsControllerTest.kt" />
-      <jump line="186" column="8" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.kt" />
-      <jump line="228" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.kt" />
-      <jump line="223" column="13" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.kt" />
-      <jump line="225" column="4" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.kt" />
-      <jump line="30" column="33" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.kt" />
-      <jump line="33" column="0" filename="$USER_HOME$/cp-projects/inventory-service/code/client/src/test/java/com/classpass/inventory/InventoryServiceClientTest.kt" />
-      <jump line="70" column="37" filename="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" />
-      <jump line="4" column="18" filename="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" />
-      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" />
-      <jump line="5" column="18" filename="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" />
-      <jump line="6" column="29" filename="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" />
-      <jump line="7" column="0" filename="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" />
-      <jump line="81" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="127" column="25" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="107" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="97" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="77" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="21" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="35" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
@@ -342,6 +311,30 @@
       <jump line="40" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="80" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="86" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="3" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/InventoryServiceConfig.kt" />
+      <jump line="2" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/InventoryServiceConfig.kt" />
+      <jump line="4" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/InventoryServiceConfig.kt" />
+      <jump line="635" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="638" column="7" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="650" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="11" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="13" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="14" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="46" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="60" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="158" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="181" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="281" column="10" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="353" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="354" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="485" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="414" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="415" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="486" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="488" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="491" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="503" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="46" column="41" filename="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -367,8 +360,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="4">
-        <text>2.28.2</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLmFkZENvbnZlcnRlckZhY3RvcnkoSmFja3NvbkNvbnZlcnRlckZhY3RvcnkuY3JlYXRlKG9iamVjdE1hcHBlcikpCg==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -743,7 +736,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>2.28.2</text>
+        <text>Client</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -779,43 +772,43 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>mock</text>
+        <text>mocki</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBpbnZlbnRvcnlTZXJ2aWNlQ2xpZW50LnNhdmVMaXZlc3RyZWFtSW5mbygKICAgICAgICAgICAgU2F2ZUNsYXNzTGl2ZXN0cmVhbVJlcXVlc3QobGlzdE9mKENsYXNzTGl2ZXN0cmVhbVJlcXVlc3QoY2xhc3NJZC50b0xvbmcoKSwgZmFsc2UpKSkKICAgICAgICApCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmFkZENvbnZlcnRlckZhY3RvcnkoSnNvbkNvbnZlcnRlckZhY3Rvcnkob2JqZWN0TWFwcGVyKSkK</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0YWdzQ2xpZW50LnJldm9rZUNvbnRlbnRUYWdzRm9yQ2xhc3NJZHMobGlzdE9mKGNsYXNzSWQpLCBsaXN0T2YoTElWRVNUUkVBTV9UQUdfSUQpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmFkZENvbnZlcnRlckZhY3RvcnkoSmFja3NvbkNvbnZlcnRlckZhY3RvcnkuY3JlYXRlKG9iamVjdE1hcHBlcikpCg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0YWdzQ2xpZW50LmdyYW50Q29udGVudFRhZ3NGb3JDbGFzc0lkcyhsaXN0T2YoY2xhc3NJZCksIGxpc3RPZihMSVZFU1RSRUFNX1RBR19JRCkpCg==</text>
+      <register name="2" type="4">
+        <text>SPOT_RECOMMENDATIONS_</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
-      <register name="3" type="4">
-        <text>()</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICB2YWwgY29ubmVjdFRpbWVvdXQ6IER1cmF0aW9uID0gREVGQVVMVF9DT05ORUNUX1RJTUVPVVQsCiAgICAgdmFsIHJlYWRUaW1lb3V0OiBEdXJhdGlvbiA9IERFRkFVTFRfUkVBRF9USU1FT1VULAogICAgIHZhbCB3cml0ZVRpbWVvdXQ6IER1cmF0aW9uID0gREVGQVVMVF9XUklURV9USU1FT1VUIAo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="4">
-        <text>classId.toLong(), true</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuY29ubmVjdFRpbWVvdXQoY29uZmlnLmNvbm5lY3RUaW1lb3V0KQogICAgICAgICAgICAgICAgICAgIC5yZWFkVGltZW91dChjb25maWcucmVhZFRpbWVvdXQpCiAgICAgICAgICAgICAgICAgICAgLndyaXRlVGltZW91dChjb25maWcud3JpdGVUaW1lb3V0KQo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text>retrofit2.mock.</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAuY29ubmVjCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3825,46 +3818,31 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>)
-
-        val user =
-            dashboardUser(linkedVenueIds = listOf(venue.venueId))
-
-        val livestreamDetails = livestreamController.getLivestreamDetailsForClasses(user.id, venue.venueId)
-        val expectedLivestreamDetails = listOf(
-            ClassLivestreamDetails(
-                className = someClass.className,
-                classId = someClass.classId,
-                isLivestream = true</text>
+      <register name="6" type="2">
+        <text encoding="base64">ZGF0YSBjbGFzcyBJbnZlbnRvcnlTZXJ2aWNlQ2xpZW50Q29uZmlnCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="4">
-        <text>.revokeContentTagsForClassIds(
-            listOf(otherClass.classId), listOf(LIVESTREAM_TAG_ID)
-        )</text>
+      <register name="7" type="2">
+        <text encoding="base64">QEp2bU92ZXJsb2FkcyBjb25zdHJ1Y3RvcigKICAgIEBKc29uUHJvcGVydHkoInVybCIpIHZhbCB1cmw6IFN0cmluZywKICAgIEBKc29uUHJvcGVydHkoImNvbm5lY3RfdGltZW91dCIpIHZhbCBjb25uZWN0VGltZW91dDogRHVyYXRpb24gPSBERUZBVUxUX0NPTk5FQ1RfVElNRU9VVCwKICAgIEBKc29uUHJvcGVydHkoInJlYWRfdGltZW91dCIpIHZhbCByZWFkVGltZW91dDogRHVyYXRpb24gPSBERUZBVUxUX1JFQURfVElNRU9VVCwKICAgIEBKc29uUHJvcGVydHkoIndyaXRlX3RpbWVvdXQiKSB2YWwgd3JpdGVUaW1lb3V0OiBEdXJhdGlvbiA9IERFRkFVTFRfV1JJVEVfVElNRU9VVAopIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHZhbCBERUZBVUxUX0NPTk5FQ1RfVElNRU9VVDogRHVyYXRpb24gPSBEdXJhdGlvbi5vZlNlY29uZHMoMTApCiAgICAgICAgdmFsIERFRkFVTFRfUkVBRF9USU1FT1VUOiBEdXJhdGlvbiA9IER1cmF0aW9uLm9mU2Vjb25kcygzMCkKICAgICAgICB2YWwgREVGQVVMVF9XUklURV9USU1FT1VUOiBEdXJhdGlvbiA9IER1cmF0aW9uLm9mU2Vjb25kcygzMCkKICAgIH0KfQo=</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="4">
-        <text>SaveClassLivestreamRequest(classIds.map {
-            ClassLivestreamRequest(
-                it.toLong(),
-                enabled
-            )
-        })</text>
+        <text>{
+
+}</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZm9vID0gY2xhc3NJZHMubWFwIHsgQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdChpdC50b0xvbmcoKSwgZW5hYmxlZCkgfS50YWtlSWYgeyBpdC5pc05vdEVtcHR5KCkgfT8ubGV0IHtTYXZlQ2xhc3NMaXZlc3RyZWFtUmVxdWVzdChpdCl9Cg==</text>
+        <text encoding="base64">ICAgIEBKc29uUHJvcGVydHkoInVybCIpIHZhbCB1cmw6IFN0cmluZywKICAgIEBKc29uUHJvcGVydHkoImNvbm5lY3RfdGltZW91dCIpIHZhbCBjb25uZWN0VGltZW91dDogRHVyYXRpb24gPSBERUZBVUxUX0NPTk5FQ1RfVElNRU9VVCwKICAgIEBKc29uUHJvcGVydHkoInJlYWRfdGltZW91dCIpIHZhbCByZWFkVGltZW91dDogRHVyYXRpb24gPSBERUZBVUxUX1JFQURfVElNRU9VVCwKICAgIEBKc29uUHJvcGVydHkoIndyaXRlX3RpbWVvdXQiKSB2YWwgd3JpdGVUaW1lb3V0OiBEdXJhdGlvbiA9IERFRkFVTFRfV1JJVEVfVElNRU9VVA==</text>
       </register>
       <register name=":" type="4">
-        <text>49</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3873,9 +3851,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>mock</last-search>
+      <last-search>mocki</last-search>
       <last-offset />
-      <last-pattern>mock</last-pattern>
+      <last-pattern>mocki</last-pattern>
       <last-replace />
       <last-substitute>emailnotification</last-substitute>
       <last-dir>1</last-dir>
