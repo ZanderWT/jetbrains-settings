@@ -23,10 +23,10 @@
         <entry>visu</entry>
         <entry>metr</entry>
         <entry encoding="base64">XDxUaW1lXD4=</entry>
-        <entry>okhttp</entry>
         <entry>gls</entry>
         <entry encoding="base64">XDxPa0h0dHBDbGllbnRcPg==</entry>
         <entry>httplogging</entry>
+        <entry>okhttp</entry>
       </history-search>
       <history-cmd>
         <entry>s;CAMPAIGNS;PARTNER_CAMPAIGNS;g</entry>
@@ -127,11 +127,11 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" timestamp="1594926215354">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1594933132792">
-        <mark key="'" line="85" column="37" />
-        <mark key="[" line="30" column="58" />
-        <mark key="]" line="30" column="65" />
-        <mark key="." line="30" column="64" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1594935263947">
+        <mark key="'" line="30" column="59" />
+        <mark key="[" line="61" column="0" />
+        <mark key="]" line="61" column="0" />
+        <mark key="." line="61" column="0" />
         <mark key="^" line="30" column="65" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" timestamp="1594927476859" />
@@ -196,12 +196,12 @@
         <mark key="[" line="5" column="0" />
         <mark key="]" line="17" column="1" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1594933148022">
-        <mark key="'" line="81" column="0" />
-        <mark key="[" line="57" column="0" />
-        <mark key="]" line="57" column="16" />
-        <mark key="." line="57" column="16" />
-        <mark key="^" line="57" column="35" />
+      <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1594935268204">
+        <mark key="'" line="80" column="0" />
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="54" column="0" />
+        <mark key="." line="54" column="0" />
+        <mark key="^" line="56" column="35" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.inventory-service/client/1.13.4/c6c40a7a2ef59f500d1cbbd59e9ef6e646f2f943/client-1.13.4-sources.jar!/com/classpass/inventory/config/InventoryServiceClientModule.kt" timestamp="1594678115422">
         <mark key="[" line="22" column="0" />
@@ -209,8 +209,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="252" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="164" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="163" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="155" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="128" column="78" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
@@ -309,6 +307,8 @@
       <jump line="334" column="22" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="485" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="147" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
+      <jump line="61" column="69" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="30" column="59" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -335,7 +335,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmFkZEludGVyY2VwdG9yKFVzZXJBZ2VudEludGVyY2VwdG9yKG9rSHR0cENvbmZpZy51c2VyQWdlbnQpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJva2h0dHAiIHRvICIzLjYuMCIsCg==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -746,43 +746,43 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>httplogging</text>
+        <text>okhttp</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJqYWRlIiB0byAiMi4xMy4wIiwK</text>
+      <register name="0" type="4">
+        <text>com.squareup.okhttp3:logging-interceptor:</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLmFkZEludGVyY2VwdG9yKFVzZXJBZ2VudEludGVyY2VwdG9yKG9rSHR0cENvbmZpZy51c2VyQWdlbnQpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJva2h0dHAiIHRvICIzLjYuMCIsCg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5jaGVja2VyZnJhbWV3b3JrLmNoZWNrZXIudW5pdHMucXVhbC5UaW1lCg==</text>
+        <text encoding="base64">ICAgIGltcGxlbWVudGF0aW9uKCJjb20uc3F1YXJldXAub2todHRwMzpsb2dnaW5nLWludGVyY2VwdG9yOiR7ZGVwc1sib2todHRwIl19IikK</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuamFkZS5tZXRyaWNzLmFubm90YXRpb25zLlRpbWUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgLmFkZEludGVyY2VwdG9yKFVzZXJBZ2VudEludGVyY2VwdG9yKG9rSHR0cENvbmZpZy51c2VyQWdlbnQpKQo=</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLnVzCg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5jaGVja2VyZnJhbWV3b3JrLmNoZWNrZXIudW5pdHMucXVhbC5UaW1lCg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MuamFkZS5tZXRyaWNzLmFubm90YXRpb25zLlRpbWUK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3792,28 +3792,28 @@
           <key char="103" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text>{
-        exclude(&quot;com.fasterxml.jackson.module&quot;, &quot;jackson-module-kotlin&quot;)
-    }</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLnVzCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAiY29tLmZhc3RlcnhtbC5qYWNrc29uLm1vZHVsZTpqYWNrc29uLW1vZHVsZS1rb3RsaW46JHtkZXBzWyJqYWNrc29uIl19Igo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="4">
-        <text>()</text>
+        <text>{
+        exclude(&quot;com.fasterxml.jackson.module&quot;, &quot;jackson-module-kotlin&quot;)
+    }</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
-      <register name="9" type="4">
-        <text>&quot;com.fasterxml.jackson.module:jackson-module-kotlin:${deps[&quot;jackson&quot;]}&quot;</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAiY29tLmZhc3RlcnhtbC5qYWNrc29uLm1vZHVsZTpqYWNrc29uLW1vZHVsZS1rb3RsaW46JHtkZXBzWyJqYWNrc29uIl19Igo=</text>
       </register>
       <register name=":" type="4">
         <text>action VcsShowPrevChangeMarker</text>
@@ -3825,9 +3825,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>httplogging</last-search>
+      <last-search>okhttp</last-search>
       <last-offset />
-      <last-pattern>httplogging</last-pattern>
+      <last-pattern>okhttp</last-pattern>
       <last-replace />
       <last-substitute>emailnotification</last-substitute>
       <last-dir>1</last-dir>
