@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>email</entry>
         <entry>binder.ins</entry>
         <entry>locationtype</entry>
         <entry>conf</entry>
@@ -27,6 +26,7 @@
         <entry>mock</entry>
         <entry>it.into</entry>
         <entry encoding="base64">XDxmZXRjaEludG9cPg==</entry>
+        <entry>visu</entry>
       </history-search>
       <history-cmd>
         <entry>s;CAMPAIGNS;PARTNER_CAMPAIGNS;g</entry>
@@ -124,6 +124,9 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" timestamp="1594926215354">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1594682544189">
         <mark key="'" line="85" column="37" />
         <mark key="[" line="38" column="68" />
@@ -153,14 +156,6 @@
         <mark key="." line="237" column="60" />
         <mark key="^" line="237" column="61" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/TagsController.kt" timestamp="1594668135199">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/inventory-service/build.gradle.kts" timestamp="1594667773423">
-        <mark key="'" line="7" column="0" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/GlsServiceConfig.kt" timestamp="1594678562648">
         <mark key="[" line="2" column="43" />
         <mark key="]" line="2" column="67" />
@@ -171,9 +166,6 @@
         <mark key="]" line="648" column="68" />
         <mark key="." line="648" column="0" />
         <mark key="^" line="414" column="38" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1594671575478">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/ClassOverridesControllerTest.kt" timestamp="1594675784661">
         <mark key="[" line="49" column="58" />
@@ -200,13 +192,6 @@
         <mark key="^" line="94" column="41" />
         <mark key="." line="94" column="40" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" timestamp="1594917425966">
-        <mark key="'" line="118" column="13" />
-        <mark key="[" line="118" column="0" />
-        <mark key="]" line="118" column="51" />
-        <mark key="." line="118" column="21" />
-        <mark key="^" line="118" column="22" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/config/PartnersConfig.kt" timestamp="1594679564648">
         <mark key="[" line="24" column="36" />
         <mark key="]" line="24" column="36" />
@@ -224,16 +209,12 @@
         <mark key="." line="80" column="56" />
         <mark key="^" line="80" column="57" />
       </file>
-      <file name="/fragment.java" timestamp="1594671575490">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classpass.inventory-service/client/1.13.4/c6c40a7a2ef59f500d1cbbd59e9ef6e646f2f943/client-1.13.4-sources.jar!/com/classpass/inventory/config/InventoryServiceClientModule.kt" timestamp="1594678115422">
         <mark key="[" line="22" column="0" />
         <mark key="]" line="47" column="5" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="40" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="174" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="274" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
       <jump line="431" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
@@ -333,6 +314,7 @@
       <jump line="86" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="52" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
       <jump line="118" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -770,7 +752,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmZXRjaEludG9cPg==</text>
+        <text>visu</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -3852,12 +3834,12 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxmZXRjaEludG9cPg==</last-search>
+      <last-search>visu</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmZXRjaEludG9cPg==</last-pattern>
+      <last-pattern>visu</last-pattern>
       <last-replace />
       <last-substitute>emailnotification</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
   </component>
