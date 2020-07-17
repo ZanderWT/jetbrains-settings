@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>asf</entry>
-        <entry encoding="base64">XDx2ZW51ZVw+</entry>
         <entry>desc</entry>
         <entry>socialmedia</entry>
         <entry>venue.\zssoc</entry>
@@ -27,6 +25,8 @@
         <entry>sched</entry>
         <entry>scheduleinst</entry>
         <entry>it.</entry>
+        <entry>asdf</entry>
+        <entry>venuesoc</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOzogXHdcKzs7</entry>
@@ -45,10 +45,10 @@
         <entry>action MethodDown</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry encoding="base64">JzwsJz5zOz86IGZhbHNlOzs=</entry>
-        <entry>action ReformatCode</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action ShowBookmarks</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -156,8 +156,12 @@
         <mark key="^" line="11" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" timestamp="1595023267155">
-        <mark key="'" line="36" column="105" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" timestamp="1595025101651">
+        <mark key="'" line="99" column="3" />
+        <mark key="[" line="86" column="35" />
+        <mark key="]" line="86" column="35" />
+        <mark key="^" line="95" column="30" />
+        <mark key="." line="86" column="35" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" timestamp="1595019634649">
         <mark key="[" line="2" column="25" />
@@ -178,10 +182,11 @@
       <file name="$USER_HOME$/cp-projects/partners-service/config/use1-config.yml" timestamp="1594933420993">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" timestamp="1595019733421">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" timestamp="1595025002619">
+        <mark key="[" line="22" column="1" />
+        <mark key="]" line="22" column="21" />
+        <mark key="." line="22" column="20" />
+        <mark key="^" line="22" column="21" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1594933400743">
         <mark key="'" line="94" column="40" />
@@ -223,12 +228,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="488" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="491" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="503" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="46" column="41" filename="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" />
-      <jump line="83" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="42" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="81" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="101" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="33" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
@@ -323,6 +322,12 @@
       <jump line="319" column="45" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
       <jump line="125" column="42" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
       <jump line="61" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
+      <jump line="101" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
+      <jump line="123" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
+      <jump line="94" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
+      <jump line="111" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
+      <jump line="103" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
+      <jump line="99" column="3" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -349,7 +354,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>venueSocialMedia</text>
+        <text>Venue</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -724,7 +729,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>venueSocialMedia</text>
+        <text>Venue</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -760,45 +765,43 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>it.</text>
+        <text>venuesoc</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBUT0RPIFpBTkRFUiB3ZSBuZWVkIHRvIGFkZCB2ZW51ZUF0dHJpYnV0ZXMgdG8gdGhlIHJldHVybmVkIHZhbHVlCg==</text>
+        <text encoding="base64">ICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgdmFsIFRXSVRURVJfSEFORExFX1JFR0VYID0gIiIiaHR0cHM/Oi8vKD8hbW9iaWxlXC4pP3R3aXR0ZXJcLmNvbS8oPyEjISk/KFtcd19dezEsMjB9KSIiIi50b1JlZ2V4KCkKCiAgICAgICAgZnVuIGNyZWF0ZSgKICAgICAgICAgICAgdmVudWVDbGFzc3Rpdml0eVJlY29yZDogQ2xhc3N0aXZpdHlWZW51ZXNSZWNvcmQsCiAgICAgICAgICAgIHBob25lTnVtYmVyc1JlY29yZDogQ2xhc3N0aXZpdHlQaG9uZU51bWJlcnNSZWNvcmQ/LAogICAgICAgICAgICB3ZWJzaXRlc1JlY29yZDogQ2xhc3N0aXZpdHlXZWJzaXRlc1JlY29yZD8KICAgICAgICApOiBWZW51ZVNvY2lhbE1lZGlhIHsKICAgICAgICAgICAgdmFsIHR3aXR0ZXJIYW5kbGUgPSB2ZW51ZUNsYXNzdGl2aXR5UmVjb3JkLnR3aXR0ZXJVcmw/LmxldCB7CiAgICAgICAgICAgICAgICBUV0lUVEVSX0hBTkRMRV9SRUdFWC5maW5kKGl0KT8uZ3JvdXBWYWx1ZXM/LmdldCgxKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBWZW51ZVNvY2lhbE1lZGlhKAogICAgICAgICAgICAgICAgdmVudWVDbGFzc3Rpdml0eVJlY29yZC5mYWNlYm9va1BhZ2VVcmwsCiAgICAgICAgICAgICAgICB2ZW51ZUNsYXNzdGl2aXR5UmVjb3JkLnllbHBVcmwsCiAgICAgICAgICAgICAgICB2ZW51ZUNsYXNzdGl2aXR5UmVjb3JkLmluc3RhZ3JhbUhhbmRsZSwKICAgICAgICAgICAgICAgIHR3aXR0ZXJIYW5kbGUsCiAgICAgICAgICAgICAgICBwaG9uZU51bWJlcnNSZWNvcmQ/LnBob25lTnVtYmVyLAogICAgICAgICAgICAgICAgd2Vic2l0ZXNSZWNvcmQ/LndlYnNpdGUKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0K</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgKHNjaGVkdWxlSW5zdHJ1Y3Rpb25zLCBzY2hlZHVsZVVybCkgPSBpdC5zY2hlZHVsZUNyZWF0aW9uSW5mbyhtc0ludmVudG9yeUNsaWVudCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgKHNjaGVkdWxlSW5zdHJ1Y3Rpb25zLCBzY2hlZHVsZVVybCkgPSBpdC5zY2hlZHVsZUNyZWF0aW9uSW5mbyhtc0ludmVudG9yeUNsaWVudCkK</text>
+        <text encoding="base64">ZGF0YSBjbGFzcyBWZW51ZVNvY2lhbE1lZGlhKAogICAgdmFsIGZhY2Vib29rUGFnZVVybDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgeWVscFVybDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgaW5zdGFncmFtSGFuZGxlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB0d2l0dGVySGFuZGxlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBwaG9uZU51bWJlcjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgd2Vic2l0ZTogU3RyaW5nPyA9IG51bGwKKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIHZhbCBUV0lUVEVSX0hBTkRMRV9SRUdFWCA9ICIiImh0dHBzPzovLyg/IW1vYmlsZVwuKT90d2l0dGVyXC5jb20vKD8hIyEpPyhbXHdfXXsxLDIwfSkiIiIudG9SZWdleCgpCgogICAgICAgIGZ1biBjcmVhdGUoCiAgICAgICAgICAgIHZlbnVlQ2xhc3N0aXZpdHlSZWNvcmQ6IENsYXNzdGl2aXR5VmVudWVzUmVjb3JkLAogICAgICAgICAgICBwaG9uZU51bWJlcnNSZWNvcmQ6IENsYXNzdGl2aXR5UGhvbmVOdW1iZXJzUmVjb3JkPywKICAgICAgICAgICAgd2Vic2l0ZXNSZWNvcmQ6IENsYXNzdGl2aXR5V2Vic2l0ZXNSZWNvcmQ/CiAgICAgICAgKTogVmVudWVTb2NpYWxNZWRpYSB7CiAgICAgICAgICAgIHZhbCB0d2l0dGVySGFuZGxlID0gdmVudWVDbGFzc3Rpdml0eVJlY29yZC50d2l0dGVyVXJsPy5sZXQgewogICAgICAgICAgICAgICAgVFdJVFRFUl9IQU5ETEVfUkVHRVguZmluZChpdCk/Lmdyb3VwVmFsdWVzPy5nZXQoMSkKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gVmVudWVTb2NpYWxNZWRpYSgKICAgICAgICAgICAgICAgIHZlbnVlQ2xhc3N0aXZpdHlSZWNvcmQuZmFjZWJvb2tQYWdlVXJsLAogICAgICAgICAgICAgICAgdmVudWVDbGFzc3Rpdml0eVJlY29yZC55ZWxwVXJsLAogICAgICAgICAgICAgICAgdmVudWVDbGFzc3Rpdml0eVJlY29yZC5pbnN0YWdyYW1IYW5kbGUsCiAgICAgICAgICAgICAgICB0d2l0dGVySGFuZGxlLAogICAgICAgICAgICAgICAgcGhvbmVOdW1iZXJzUmVjb3JkPy5waG9uZU51bWJlciwKICAgICAgICAgICAgICAgIHdlYnNpdGVzUmVjb3JkPy53ZWJzaXRlCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdmVudWUgPSBnZXRWZW51ZSh1c2VySWQsIHZlbnVlSWQpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="4">
-        <text>{
-            val (scheduleInstructions, scheduleUrl) = it.scheduleCreationInfo(msInventoryClient)
-        }</text>
+      <register name="4" type="2">
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">Y29tcGFuaW9uIG9iamVjdCB7Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3809,28 +3812,30 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgKHNjaGVkdWxlSW5zdHJ1Y3Rpb25zLCBzY2hlZHVsZVVybCkgPSBpdC5zY2hlZHVsZUNyZWF0aW9uSW5mbyhtc0ludmVudG9yeUNsaWVudCkK</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2l0aChpdCkgewogICAgICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICAgICAgdmVudWVJZCA9IHZlbnVlSWQsCiAgICAgICAgICAgICAgICAgICAgdmVudWVOYW1lID0gdmVudWVOYW1lLAogICAgICAgICAgICAgICAgICAgIHZlbnVlU3VidGl0bGUgPSB2ZW51ZVN1YnRpdGxlLAogICAgICAgICAgICAgICAgICAgIHJlc2VydmFibGVNaW51dGVzQmVmb3JlID0gcmVzZXJ2YWJsZU1pbnV0ZXNCZWZvcmUsCiAgICAgICAgICAgICAgICAgICAgYXR0cmlidXRlcyA9IHZlbnVlQXR0cmlidXRlcywKICAgICAgICAgICAgICAgICAgICB2ZW51ZUFsaWFzVXJsID0gdmVudWVBbGlhcywKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IHZlbnVlRGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICAgICAgd2hhdFRvQnJpbmcgPSB3aGF0VG9CcmluZywKICAgICAgICAgICAgICAgICAgICBob3dUb0dldFRoZXJlID0gaG93VG9HZXRUaGVyZSwKICAgICAgICAgICAgICAgICAgICBzb2NpYWxNZWRpYSA9IFNvY2lhbE1lZGlhKGZhY2Vib29rUGFnZVVybCA9IHZlbnVlU29jaWFsTWVkaWEuZmFjZWJvb2tQYWdlVXJsLAogICAgICAgICAgICAgICAgICAgICAgICB5ZWxwVXJsID0gdmVudWVTb2NpYWxNZWRpYS55ZWxwVXJsLAogICAgICAgICAgICAgICAgICAgICAgICBpbnN0YWdyYW1IYW5kbGUgPSB2ZW51ZVNvY2lhbE1lZGlhLmluc3RhZ3JhbUhhbmRsZSwKICAgICAgICAgICAgICAgICAgICAgICAgdHdpdHRlckhhbmRsZSA9IHZlbnVlU29jaWFsTWVkaWEudHdpdHRlckhhbmRsZSwKICAgICAgICAgICAgICAgICAgICAgICAgcGhvbmVOdW1iZXIgPSB2ZW51ZVNvY2lhbE1lZGlhLnBob25lTnVtYmVyLAogICAgICAgICAgICAgICAgICAgICAgICB3ZWJzaXRlID0gdmVudWVTb2NpYWxNZWRpYS53ZWJzaXRlCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBzY2hlZHVsZUluc3RydWN0aW9ucyA9IHNjaGVkdWxlSW5zdHJ1Y3Rpb25zLAogICAgICAgICAgICAgICAgICAgIHNjaGVkdWxlVXJsID0gc2NoZWR1bGVVcmwsCiAgICAgICAgICAgICAgICAgICAgdmVudWVBbWVuaXRpZXMgPSB2ZW51ZUFtZW5pdGllcy50b01vZGVsVmVudWVBbWVuaXRpZXMoKQogICAgICAgICAgICAgICAgKQo=</text>
+        <text encoding="base64">ICAgICAgICB2YWwgKHNjaGVkdWxlSW5zdHJ1Y3Rpb25zLCBzY2hlZHVsZVVybCkgPSBpdC5zY2hlZHVsZUNyZWF0aW9uSW5mbyhtc0ludmVudG9yeUNsaWVudCkK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuVmVudWUK</text>
+        <text encoding="base64">ICAgICAgICB2YWwgdmVudWUgPSBnZXRWZW51ZSh1c2VySWQsIHZlbnVlSWQpCg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">QEpzb25OYW1pbmcoUHJvcGVydHlOYW1pbmdTdHJhdGVneS5TbmFrZUNhc2VTdHJhdGVneTo6Y2xhc3MpCmRhdGEgY2xhc3MgVmVudWUoCiAgICB2YWwgdmVudWVJZDogSW50LAogICAgdmFsIHZlbnVlTmFtZTogU3RyaW5nLAogICAgdmFsIHZlbnVlU3VidGl0bGU6IFN0cmluZz8sCiAgICB2YWwgdmVudWVBbGlhc1VybDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgcmVzZXJ2YWJsZU1pbnV0ZXNCZWZvcmU6IFNob3J0PyA9IG51bGwsCiAgICB2YWwgYXR0cmlidXRlczogTGlzdDxWZW51ZVBhcnRuZXJBdHRyaWJ1dGU+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHdoYXRUb0JyaW5nOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBob3dUb0dldFRoZXJlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBzb2NpYWxNZWRpYTogU29jaWFsTWVkaWE/ID0gbnVsbCwKICAgIHZhbCBzY2hlZHVsZUluc3RydWN0aW9uczogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgc2NoZWR1bGVVcmw6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHZlbnVlQW1lbml0aWVzOiBWZW51ZUFtZW5pdGllcz8gPSBudWxsCikKCg==</text>
+      <register name="9" type="4">
+        <text>{
+            val (scheduleInstructions, scheduleUrl) = it.scheduleCreationInfo(msInventoryClient)
+        }</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowPrevChangeMarker</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3839,9 +3844,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>it.</last-search>
+      <last-search>venuesoc</last-search>
       <last-offset />
-      <last-pattern>it.</last-pattern>
+      <last-pattern>venuesoc</last-pattern>
       <last-replace />
       <last-substitute>?: false</last-substitute>
       <last-dir>1</last-dir>
