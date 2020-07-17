@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>@json</entry>
         <entry>time</entry>
         <entry>inventory</entry>
         <entry>mocki</entry>
@@ -27,6 +26,7 @@
         <entry>httplogging</entry>
         <entry>okhttp</entry>
         <entry>schedulecreation</entry>
+        <entry>attrib</entry>
       </history-search>
       <history-cmd>
         <entry>s;CAMPAIGNS;PARTNER_CAMPAIGNS;g</entry>
@@ -158,10 +158,8 @@
       <file name="$USER_HOME$/cp-projects/partners-service/config/use1-config.yml" timestamp="1594933420993">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/TransactionalTestBase.kt" timestamp="1594677566706">
-        <mark key="]" line="9" column="35" />
-        <mark key="^" line="9" column="35" />
-        <mark key="." line="9" column="34" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" timestamp="1595007769869">
+        <mark key="'" line="4" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/config/config.yml.tmpl" timestamp="1594933400743">
         <mark key="'" line="94" column="40" />
@@ -206,11 +204,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="155" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/PartnersModule.kt" />
-      <jump line="128" column="78" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
-      <jump line="315" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
-      <jump line="251" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
-      <jump line="217" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
       <jump line="16" column="38" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
       <jump line="67" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/LivestreamController.kt" />
@@ -306,6 +299,11 @@
       <jump line="61" column="69" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="30" column="59" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="48" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
+      <jump line="42" column="19" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" />
+      <jump line="40" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" />
+      <jump line="30" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" />
+      <jump line="21" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" />
+      <jump line="4" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -743,7 +741,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>schedulecreation</text>
+        <text>attrib</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -3822,9 +3820,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>schedulecreation</last-search>
+      <last-search>attrib</last-search>
       <last-offset />
-      <last-pattern>schedulecreation</last-pattern>
+      <last-pattern>attrib</last-pattern>
       <last-replace />
       <last-substitute>emailnotification</last-substitute>
       <last-dir>1</last-dir>
