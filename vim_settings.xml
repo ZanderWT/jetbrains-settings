@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>socialmedia</entry>
         <entry>venue.\zssoc</entry>
         <entry>socia</entry>
         <entry>\?.</entry>
@@ -27,6 +26,7 @@
         <entry>asdf</entry>
         <entry>venuesoc</entry>
         <entry>amenities</entry>
+        <entry>amen</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz5zOzogXHdcKzs7</entry>
@@ -172,8 +172,8 @@
         <mark key="." line="60" column="54" />
         <mark key="^" line="60" column="55" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" timestamp="1595026228043">
-        <mark key="'" line="24" column="52" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" timestamp="1595270380085">
+        <mark key="'" line="7" column="4" />
         <mark key="[" line="24" column="0" />
         <mark key="]" line="36" column="1" />
         <mark key="." line="22" column="20" />
@@ -225,15 +225,14 @@
         <mark key="." line="54" column="0" />
         <mark key="^" line="54" column="35" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/VenueResource.kt" timestamp="1595026114245">
-        <mark key="[" line="45" column="12" />
-        <mark key="]" line="45" column="28" />
-        <mark key="^" line="45" column="28" />
-        <mark key="." line="45" column="27" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/VenueResource.kt" timestamp="1595270354622">
+        <mark key="[" line="48" column="12" />
+        <mark key="]" line="48" column="26" />
+        <mark key="^" line="48" column="26" />
+        <mark key="." line="48" column="25" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="40" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="80" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="86" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="52" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
@@ -333,6 +332,7 @@
       <jump line="86" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
       <jump line="44" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
       <jump line="24" column="52" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" />
+      <jump line="7" column="4" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -358,8 +358,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">QEpzb25OYW1pbmcoUHJvcGVydHlOYW1pbmdTdHJhdGVneS5TbmFrZUNhc2VTdHJhdGVneTo6Y2xhc3MpCmRhdGEgY2xhc3MgVmVudWVBbWVuaXRpZXMoCiAgICB2YWwgbG9ja2VyczogQm9vbGVhbj8gPSBudWxsLAogICAgdmFsIG1hdHM6IEJvb2xlYW4/ID0gbnVsbCwKICAgIHZhbCBzaG93ZXJzOiBCb29sZWFuPyA9IG51bGwsCiAgICB2YWwgdG93ZWxzOiBCb29sZWFuPyA9IG51bGwsCiAgICB2YWwgZm9vZEJldmVyYWdlczogQm9vbGVhbj8gPSBudWxsLAogICAgdmFsIHBhcmtpbmc6IEJvb2xlYW4/ID0gbnVsbCwKICAgIHZhbCBjaGlsZGNhcmU6IEJvb2xlYW4/ID0gbnVsbCwKICAgIHZhbCBoYWlyZHJ5ZXI6IEJvb2xlYW4/ID0gbnVsbCwKICAgIHZhbCB0b2lsZXRyaWVzOiBCb29sZWFuPyA9IG51bGwsCiAgICB2YWwgcHVibGljVHJhbnNwb3J0OiBCb29sZWFuPyA9IG51bGwKKQo=</text>
+      <register name="*" type="4">
+        <text>venueAmenities</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -734,7 +734,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Venue</text>
+        <text>venueAmenities</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -770,7 +770,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>amenities</text>
+        <text>amen</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -3849,13 +3849,13 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>amenities</last-search>
+      <last-search>amen</last-search>
       <last-offset />
-      <last-pattern>amenities</last-pattern>
+      <last-pattern>amen</last-pattern>
       <last-replace />
       <last-substitute>?: false</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
   </component>
   <component name="VimSettings">
