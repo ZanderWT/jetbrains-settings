@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxkb2NrZXJDb21wb3NlXD4=</entry>
-        <entry>downl</entry>
         <entry encoding="base64">XDxkb3dubG9hZFN3YWdnZXJVSVw+</entry>
         <entry encoding="base64">XDx1bnBhY2tTd2FnZ2VyVUlGaWxlc1w+</entry>
         <entry encoding="base64">XDxzaGFkb3dKYXJcPg==</entry>
@@ -23,10 +21,12 @@
         <entry encoding="base64">XDxJbmRleGVzXD4=</entry>
         <entry>status</entry>
         <entry>database</entry>
-        <entry>passport_reser</entry>
-        <entry encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</entry>
         <entry>passport_reservations_iss</entry>
         <entry>reservation_spot</entry>
+        <entry encoding="base64">XDxSRVNFUlZBVElPTl9TUE9UXD4=</entry>
+        <entry>databasecha</entry>
+        <entry>passport_reser</entry>
+        <entry encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>68</entry>
@@ -137,15 +137,18 @@
         <mark key="]" line="25" column="7" />
         <mark key="." line="22" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" timestamp="1595449899089">
-        <mark key="'" line="18" column="0" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" timestamp="1595451444860">
+        <mark key="'" line="18" column="50" />
+        <mark key="[" line="19" column="6722" />
+        <mark key="]" line="19" column="6722" />
+        <mark key="." line="19" column="6722" />
         <mark key="^" line="19" column="6392" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/CuratedPlaylist.java" timestamp="1595447285375">
         <mark key="'" line="7" column="42" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" timestamp="1595450114295">
+        <mark key="'" line="57" column="14" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PartnerAttribute.kt" timestamp="1595443823209">
         <mark key="'" line="29" column="0" />
@@ -181,13 +184,6 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" timestamp="1595445689325">
         <mark key="'" line="64" column="55" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" timestamp="1595353142931">
-        <mark key="'" line="4" column="49" />
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="21" column="0" />
-        <mark key="." line="21" column="0" />
-        <mark key="^" line="147" column="65" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/VenueControllerTest.kt" timestamp="1595439222886">
         <mark key="'" line="90" column="25" />
@@ -229,8 +225,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="12" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
-      <jump line="83" column="9" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
       <jump line="84" column="12" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
       <jump line="85" column="11" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
       <jump line="86" column="19" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
@@ -327,8 +321,10 @@
       <jump line="10" column="68" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/PassportReservations.java" />
       <jump line="19" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
       <jump line="44" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="42" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="18" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
+      <jump line="24" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
+      <jump line="57" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
+      <jump line="42" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
+      <jump line="18" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -354,8 +350,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIGluY2x1ZGVzID0gIkFERE9OX0FVRElUX0xPR3xBRERPTl9DT1ZJRF9ET05BVElPTlN8QURET05fUEFSVE5FUl9EQVNIQk9BUkR8QVBJX1JFU0VSVkFUSU9OfEFUVEVOREFOQ0VfU1VSVkVZX0ZJTFRFUkVEfENMQVNTVElWSVRZX0FERFJFU1NFU3xDTEFTU1RJVklUWV9DTEFTU0VTfENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFfENMQVNTVElWSVRZX01TQXxDTEFTU1RJVklUWV9QSE9ORV9OVU1CRVJTfENMQVNTVElWSVRZX1RFQUNIRVJTfENMQVNTVElWSVRZX1VTRVJTfENMQVNTVElWSVRZX1ZFTlVFU3xDTEFTU1RJVklUWV9WRU5VRVNfQU1FTklUSUVTfENMQVNTVElWSVRZX1ZFTlVFX09WRVJSSURFU3xDTEFTU1RJVklUWV9WSURFT1N8Q0xBU1NUSVZJVFlfV0VCU0lURVN8Q09VTlRSWXxDT1ZJRF9DVVJSRU5UX01BUktFVF9TRVZFUklUWXxESVNBQkxFRF9DTEFTU19MT0d8RElTQUJMRURfU0NIRURVTEVfTE9HfE9SR0FOSVpBVElPTnxQQVJUTkVSX0FUVFJJQlVURVN8UEFSVE5FUl9BVFRSSUJVVEVTX0NPTlRFTlR8UEFSVE5FUl9DQU1QQUlHTlN8UEFSVE5FUl9ERVRBSUxTfFBBUlRORVJfSU5TSUdIVFNfQUdHUkVHQVRFRHxQQVJUTkVSX0lOU0lHSFRTX0RBSUxZfFBBUlRORVJfSU5TSUdIVFNfUEVSTUlTU0lPTlN8UEFTU1BPUlRfQ0xBU1NFU3xQQVNTUE9SVF9SQVRJTkdTfFBBU1NQT1JUX1JFU0VSVkFUSU9OU3xQQVNTUE9SVF9TQ0hFRFVMRVN8UEFTU1BPUlRfVkVOVUVTfFJFUE9SVFNfU0NIRURVTEVTfFJFU0VSVkFUSU9OX1BVUkNIQVNFfFJFU19QUklDSU5HX0hJU1RPUll8UkVWRU5VRV9SRVZFTlVFQUdHUkVHQVRJT05MT0d8UkVWRU5VRV9SRVZFTlVFSVRFTUxPR3xTRFBfQ0FNUEFJR05fUkVTRVJWQVRJT05TfFNEUF9QQVJUTkVSX0NBTVBBSUdOX1NVTU1BUll8VVNFUl9BVFRFTkRBTkNFfFVTRVJfTUVUQURBVEF8VkVOVUVVU0VSX1BFUk1JU1NJT058VkVOVUVVU0VSX1BFUk1JU1NJT05fWFJFRnxWRU5VRV9BVURJVF9MT0d8VkVOVUVfQVVUSF9VU0VSfFZFTlVFX01FU1NBR0VfTE9HfFZFTlVFX1VTRVJfRkVFREJBQ0t8VkVOVUVfVVNFUl9NQU5BR0VNRU5UX0xPR3xWRU5VRV9VU0VSX1NFVFRJTkdTfFZFTlVFX1VTRVJfU0VUVElOR19PUFRJT05TfFZQX1VTRVJfVkVOVUVfWFJFRiIK</text>
+      <register name="*" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -730,7 +726,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>n</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -766,7 +762,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>reservation_spot</text>
+        <text encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -3843,9 +3839,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>reservation_spot</last-search>
+      <last-search encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</last-search>
       <last-offset />
-      <last-pattern>reservation_spot</last-pattern>
+      <last-pattern encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</last-pattern>
       <last-replace encoding="base64">ID0gZmFsc2U=</last-replace>
       <last-substitute>? = null</last-substitute>
       <last-dir>1</last-dir>
