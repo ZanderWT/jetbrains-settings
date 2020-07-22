@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>attrib</entry>
         <entry>attri</entry>
         <entry>social</entry>
         <entry>venue</entry>
@@ -26,6 +25,7 @@
         <entry encoding="base64">XDxzaGFkb3dKYXJcPg==</entry>
         <entry>compose</entry>
         <entry encoding="base64">XDxjb21wb3NlVXBcPg==</entry>
+        <entry>swagger</entry>
         <entry>jooq</entry>
       </history-search>
       <history-cmd>
@@ -141,12 +141,12 @@
       <file name="/a.dummy" timestamp="1595353265072">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1595442529390">
-        <mark key="'" line="128" column="48" />
-        <mark key="[" line="62" column="0" />
-        <mark key="]" line="62" column="0" />
-        <mark key="." line="62" column="0" />
-        <mark key="^" line="30" column="65" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1595444606193">
+        <mark key="'" line="198" column="24" />
+        <mark key="[" line="15" column="34" />
+        <mark key="]" line="15" column="37" />
+        <mark key="." line="15" column="36" />
+        <mark key="^" line="15" column="37" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" timestamp="1595444148854">
         <mark key="'" line="57" column="27" />
@@ -189,12 +189,12 @@
         <mark key="]" line="25" column="7" />
         <mark key="." line="22" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" timestamp="1595444167213">
-        <mark key="'" line="51" column="64" />
-        <mark key="[" line="54" column="0" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
-        <mark key="^" line="54" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" timestamp="1595444611168">
+        <mark key="'" line="0" column="5" />
+        <mark key="[" line="1" column="15" />
+        <mark key="]" line="1" column="18" />
+        <mark key="." line="1" column="17" />
+        <mark key="^" line="1" column="18" />
       </file>
       <file name="/Dummy.txt" timestamp="1595443575330">
         <mark key="[" line="0" column="0" />
@@ -242,15 +242,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
-      <jump line="44" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/Venue.kt" />
-      <jump line="7" column="4" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Venue.kt" />
-      <jump line="53" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
-      <jump line="72" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
-      <jump line="75" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
-      <jump line="352" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
-      <jump line="327" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
-      <jump line="365" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
       <jump line="330" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
       <jump line="373" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
       <jump line="20" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/VenueAmenities.kt" />
@@ -322,9 +313,7 @@
       <jump line="59" column="15" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/CampaignDao.kt" />
       <jump line="62" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="107" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="157" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="150" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="156" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="195" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="13" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="110" column="9" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
@@ -342,6 +331,17 @@
       <jump line="29" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PartnerAttribute.kt" />
       <jump line="51" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
       <jump line="57" column="27" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" />
+      <jump line="39" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="69" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="70" column="39" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="71" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="155" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="156" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="157" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="158" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="55" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
+      <jump line="0" column="5" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
+      <jump line="198" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -367,8 +367,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Ly8K</text>
+      <register name="*" type="4">
+        <text>3.11.11</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -743,7 +743,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>{ companion object }</text>
+        <text>3.11.11</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -791,31 +791,31 @@
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZm9vOiBCdW4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9vOiBTdHJpbmcsCg==</text>
+        <text encoding="base64">Ly8K</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGFvCg==</text>
+        <text encoding="base64">ICAgICAgICB2YWwgZm9vOiBCdW4K</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB2ZW4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9vOiBTdHJpbmcsCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3826,25 +3826,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkYXMgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGFvCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkYXMK</text>
+        <text encoding="base64">ICAgICAgICB2ZW4K</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdmVudWUgPSB2ZW51ZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICBkYXMgCg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgdXNlciA9IGRhc2hib2FyZFVzZXIobGlua2VkVmVudWVJZHMgPSBsaXN0T2YodmVudWUudmVudWVJZCkpCg==</text>
+        <text encoding="base64">ICAgICAgICBkYXMK</text>
       </register>
       <register name=":" type="4">
         <text>action VcsShowNextChangeMarker</text>
