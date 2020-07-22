@@ -7,10 +7,7 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxkb3dubG9hZFN3YWdnZXJVSVw+</entry>
-        <entry encoding="base64">XDx1bnBhY2tTd2FnZ2VyVUlGaWxlc1w+</entry>
         <entry encoding="base64">XDxzaGFkb3dKYXJcPg==</entry>
-        <entry>compose</entry>
         <entry encoding="base64">XDxjb21wb3NlVXBcPg==</entry>
         <entry>jooq</entry>
         <entry>swagger</entry>
@@ -27,6 +24,9 @@
         <entry>databasecha</entry>
         <entry>passport_reser</entry>
         <entry encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</entry>
+        <entry>docker</entry>
+        <entry>compose</entry>
+        <entry>stopcont</entry>
       </history-search>
       <history-cmd>
         <entry>68</entry>
@@ -42,13 +42,13 @@
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry encoding="base64">JzwsJz5zOz86IGZhbHNlOzs=</entry>
         <entry>action ShowBookmarks</entry>
-        <entry>bnext</entry>
         <entry encoding="base64">JzwsJz5zOz8gPSBudWxsOyA9IGZhbHNlO2c=</entry>
         <entry>505</entry>
         <entry>action ReformatCode</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
+        <entry>bnext</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -168,12 +168,12 @@
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1595445254894">
-        <mark key="'" line="1" column="34" />
-        <mark key="[" line="154" column="8" />
-        <mark key="]" line="154" column="8" />
-        <mark key="." line="154" column="8" />
-        <mark key="^" line="154" column="24" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1595452586140">
+        <mark key="'" line="13" column="56" />
+        <mark key="[" line="116" column="21" />
+        <mark key="]" line="116" column="25" />
+        <mark key="." line="116" column="21" />
+        <mark key="^" line="116" column="21" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" timestamp="1595444918089">
         <mark key="'" line="47" column="35" />
@@ -225,9 +225,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="12" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
-      <jump line="85" column="11" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
-      <jump line="86" column="19" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
       <jump line="87" column="12" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
       <jump line="88" column="14" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
       <jump line="89" column="14" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/request/PatchVenueRequest.kt" />
@@ -280,7 +277,6 @@
       <jump line="107" column="63" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="150" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="195" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="13" column="32" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="110" column="9" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="166" column="51" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="192" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
@@ -309,7 +305,6 @@
       <jump line="70" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="71" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="152" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="14" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="151" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="158" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
@@ -325,6 +320,11 @@
       <jump line="57" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
       <jump line="42" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
       <jump line="18" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
+      <jump line="154" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="167" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="116" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="13" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -351,7 +351,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text encoding="base64">IA==</text>
+        <text>()</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -762,7 +762,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</text>
+        <text>stopcont</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -773,32 +773,32 @@
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIGluY2x1ZGVzID0gIkFERE9OX0FVRElUX0xPR3xBRERPTl9DT1ZJRF9ET05BVElPTlN8QURET05fUEFSVE5FUl9EQVNIQk9BUkR8QVBJX1JFU0VSVkFUSU9OfEFUVEVOREFOQ0VfU1VSVkVZX0ZJTFRFUkVEfENMQVNTVElWSVRZX0FERFJFU1NFU3xDTEFTU1RJVklUWV9DTEFTU0VTfENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFfENMQVNTVElWSVRZX01TQXxDTEFTU1RJVklUWV9QSE9ORV9OVU1CRVJTfENMQVNTVElWSVRZX1RFQUNIRVJTfENMQVNTVElWSVRZX1VTRVJTfENMQVNTVElWSVRZX1ZFTlVFU3xDTEFTU1RJVklUWV9WRU5VRVNfQU1FTklUSUVTfENMQVNTVElWSVRZX1ZFTlVFX09WRVJSSURFU3xDTEFTU1RJVklUWV9WSURFT1N8Q0xBU1NUSVZJVFlfV0VCU0lURVN8Q09VTlRSWXxDT1ZJRF9DVVJSRU5UX01BUktFVF9TRVZFUklUWXxESVNBQkxFRF9DTEFTU19MT0d8RElTQUJMRURfU0NIRURVTEVfTE9HfE9SR0FOSVpBVElPTnxQQVJUTkVSX0FUVFJJQlVURVN8UEFSVE5FUl9BVFRSSUJVVEVTX0NPTlRFTlR8UEFSVE5FUl9DQU1QQUlHTlN8UEFSVE5FUl9ERVRBSUxTfFBBUlRORVJfSU5TSUdIVFNfQUdHUkVHQVRFRHxQQVJUTkVSX0lOU0lHSFRTX0RBSUxZfFBBUlRORVJfSU5TSUdIVFNfUEVSTUlTU0lPTlN8UEFTU1BPUlRfQ0xBU1NFU3xQQVNTUE9SVF9SQVRJTkdTfFBBU1NQT1JUX1JFU0VSVkFUSU9OU3xQQVNTUE9SVF9TQ0hFRFVMRVN8UEFTU1BPUlRfVkVOVUVTfFJFUE9SVFNfU0NIRURVTEVTfFJFU0VSVkFUSU9OX1BVUkNIQVNFfFJFU19QUklDSU5HX0hJU1RPUll8UkVWRU5VRV9SRVZFTlVFQUdHUkVHQVRJT05MT0d8UkVWRU5VRV9SRVZFTlVFSVRFTUxPR3xTRFBfQ0FNUEFJR05fUkVTRVJWQVRJT05TfFNEUF9QQVJUTkVSX0NBTVBBSUdOX1NVTU1BUll8VVNFUl9BVFRFTkRBTkNFfFVTRVJfTUVUQURBVEF8VkVOVUVVU0VSX1BFUk1JU1NJT058VkVOVUVVU0VSX1BFUk1JU1NJT05fWFJFRnxWRU5VRV9BVURJVF9MT0d8VkVOVUVfQVVUSF9VU0VSfFZFTlVFX01FU1NBR0VfTE9HfFZFTlVFX1VTRVJfRkVFREJBQ0t8VkVOVUVfVVNFUl9NQU5BR0VNRU5UX0xPR3xWRU5VRV9VU0VSX1NFVFRJTkdTfFZFTlVFX1VTRVJfU0VUVElOR19PUFRJT05TfFZQX1VTRVJfVkVOVUVfWFJFRiIK</text>
+      <register name="1" type="4">
+        <text>()</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGluY2x1Cg==</text>
+      <register name="2" type="4">
+        <text>true</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2x1ZGVzID0gImRhdGFiYXNlY2hhbmdlbG9nLip8cGFzc3BvcnRfcmVzZXJ2YXRpb25zX2lzc3VlcyIK</text>
+        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgIGluY2x1ZGVzID0gIkFERE9OX0FVRElUX0xPR3xBRERPTl9DT1ZJRF9ET05BVElPTlN8QURET05fUEFSVE5FUl9EQVNIQk9BUkR8QVBJX1JFU0VSVkFUSU9OfEFUVEVOREFOQ0VfU1VSVkVZX0ZJTFRFUkVEfENMQVNTVElWSVRZX0FERFJFU1NFU3xDTEFTU1RJVklUWV9DTEFTU0VTfENMQVNTVElWSVRZX0NMQVNTRVNfVElNRVRBQkxFfENMQVNTVElWSVRZX01TQXxDTEFTU1RJVklUWV9QSE9ORV9OVU1CRVJTfENMQVNTVElWSVRZX1RFQUNIRVJTfENMQVNTVElWSVRZX1VTRVJTfENMQVNTVElWSVRZX1ZFTlVFU3xDTEFTU1RJVklUWV9WRU5VRVNfQU1FTklUSUVTfENMQVNTVElWSVRZX1ZFTlVFX09WRVJSSURFU3xDTEFTU1RJVklUWV9WSURFT1N8Q0xBU1NUSVZJVFlfV0VCU0lURVN8Q09VTlRSWXxDT1ZJRF9DVVJSRU5UX01BUktFVF9TRVZFUklUWXxESVNBQkxFRF9DTEFTU19MT0d8RElTQUJMRURfU0NIRURVTEVfTE9HfE9SR0FOSVpBVElPTnxQQVJUTkVSX0FUVFJJQlVURVN8UEFSVE5FUl9BVFRSSUJVVEVTX0NPTlRFTlR8UEFSVE5FUl9DQU1QQUlHTlN8UEFSVE5FUl9ERVRBSUxTfFBBUlRORVJfSU5TSUdIVFNfQUdHUkVHQVRFRHxQQVJUTkVSX0lOU0lHSFRTX0RBSUxZfFBBUlRORVJfSU5TSUdIVFNfUEVSTUlTU0lPTlN8UEFTU1BPUlRfQ0xBU1NFU3xQQVNTUE9SVF9SQVRJTkdTfFBBU1NQT1JUX1JFU0VSVkFUSU9OU3xQQVNTUE9SVF9TQ0hFRFVMRVN8UEFTU1BPUlRfVkVOVUVTfFJFUE9SVFNfU0NIRURVTEVTfFJFU0VSVkFUSU9OX1BVUkNIQVNFfFJFU19QUklDSU5HX0hJU1RPUll8UkVWRU5VRV9SRVZFTlVFQUdHUkVHQVRJT05MT0d8UkVWRU5VRV9SRVZFTlVFSVRFTUxPR3xTRFBfQ0FNUEFJR05fUkVTRVJWQVRJT05TfFNEUF9QQVJUTkVSX0NBTVBBSUdOX1NVTU1BUll8VVNFUl9BVFRFTkRBTkNFfFVTRVJfTUVUQURBVEF8VkVOVUVVU0VSX1BFUk1JU1NJT058VkVOVUVVU0VSX1BFUk1JU1NJT05fWFJFRnxWRU5VRV9BVURJVF9MT0d8VkVOVUVfQVVUSF9VU0VSfFZFTlVFX01FU1NBR0VfTE9HfFZFTlVFX1VTRVJfRkVFREJBQ0t8VkVOVUVfVVNFUl9NQU5BR0VNRU5UX0xPR3xWRU5VRV9VU0VSX1NFVFRJTkdTfFZFTlVFX1VTRVJfU0VUVElOR19PUFRJT05TfFZQX1VTRVJfVkVOVUVfWFJFRiIK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLndoZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGluY2x1Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLndoZXIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2x1ZGVzID0gImRhdGFiYXNlY2hhbmdlbG9nLip8cGFzc3BvcnRfcmVzZXJ2YXRpb25zX2lzc3VlcyIK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3809,25 +3809,25 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLndoZQo=</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLndoZXIK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgZm9vOiBCdW4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>action VcsShowPrevChangeMarker</text>
@@ -3839,9 +3839,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</last-search>
+      <last-search>stopcont</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwYXNzcG9ydF9yZXNlcnZhdGlvbnNfaXNzdWVzXD4=</last-pattern>
+      <last-pattern>stopcont</last-pattern>
       <last-replace encoding="base64">ID0gZmFsc2U=</last-replace>
       <last-substitute>? = null</last-substitute>
       <last-dir>1</last-dir>
