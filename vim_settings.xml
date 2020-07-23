@@ -44,11 +44,11 @@
         <entry>action ShowBookmarks</entry>
         <entry encoding="base64">JzwsJz5zOz8gPSBudWxsOyA9IGZhbHNlO2c=</entry>
         <entry>505</entry>
-        <entry>action ReformatCode</entry>
         <entry>action QuickJavaDoc</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>bnext</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -178,12 +178,12 @@
         <mark key="]" line="25" column="7" />
         <mark key="." line="22" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" timestamp="1595547133357">
-        <mark key="'" line="8" column="36" />
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
-        <mark key="^" line="3" column="38" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" timestamp="1595548104927">
+        <mark key="'" line="42" column="21" />
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="0" />
+        <mark key="." line="60" column="0" />
+        <mark key="^" line="61" column="51" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/CuratedPlaylist.java" timestamp="1595447285375">
         <mark key="'" line="7" column="42" />
@@ -306,7 +306,6 @@
       <jump line="44" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
       <jump line="24" column="65" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
       <jump line="57" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" />
-      <jump line="42" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
       <jump line="154" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="167" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="55" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
@@ -331,6 +330,7 @@
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
       <jump line="18" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
       <jump line="8" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
+      <jump line="42" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -357,7 +357,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">cHJpbnRsbiAnbG9va3MgbGlrZSBmb28gaXMgJyArIGZvby5pbi50ZXh0Cg==</text>
+        <text encoding="base64">dGFza3MuZ2VuZXJhdGVEb2NrZXJWZW51ZVBvcnRhbERiSm9vcVNjaGVtYVNvdXJjZS53aXRoIHsKICAgIGNvbmZpZ3VyZSB7am9vcSB7ZG9ja2VyTGVnYWN5RGJ9fQp9Cg==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -732,7 +732,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>(sourceSets.main)</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -774,37 +774,37 @@
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
       <register name="0" type="4">
-        <text>generateJooq</text>
+        <text>database</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">cHJpbnRsbiAnbG9va3MgbGlrZSBmb28gaXMgJyArIGZvby5pbi50ZXh0Cg==</text>
+        <text encoding="base64">dGFza3MuZ2VuZXJhdGVEb2NrZXJWZW51ZVBvcnRhbERiSm9vcVNjaGVtYVNvdXJjZS53aXRoIHsKICAgIGNvbmZpZ3VyZSB7am9vcSB7ZG9ja2VyTGVnYWN5RGJ9fQp9Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">cHJpbnRsbiAndGhlIGV4aXQgdmFsdWUgd2FzICcgKyBmb28uZXhpdFZhbHVlKCkK</text>
+        <text encoding="base64">ICAgIGRvY2tlckxlZ2FjeURiIHsKICAgICAgICBnZW5lcmF0b3IgewogICAgICAgICAgICBkYXRhYmFzZSB7CgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQo=</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">cHJpbnRsbgo=</text>
+        <text encoding="base64">ICAgIGNvbmZpZ3VyZSB7CiAgICAgICAgam9vcSB7CiAgICAgICAgICAgIGdlbmVyYXRvciB7CiAgICAgICAgICAgICAgICBkYXRhYmFzZSB7CiAgICAgICAgICAgICAgICAgICAgaW5jbHVkZXMgPSAiLioiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="4">
-        <text>{}</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBqb29xIHt9Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
-      <register name="5" type="4">
-        <text>foo.text</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3815,32 +3815,28 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGVmIGZvbyA9IGV4ZWMgewogICAgCn0K</text>
+        <text encoding="base64">ICAgIGV4ZWNSCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="4">
-        <text>{
-    val foo = 5
-}</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG11c3RSdW5BZnRlcihjbGVhbikK</text>
+        <text encoding="base64">ICAgIGpvb3Egewo=</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text>{
-
-    }</text>
+        <text encoding="base64">cHJpbnRsbiAnbG9va3MgbGlrZSBmb28gaXMgJyArIGZvby5pbi50ZXh0Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowPrevChangeMarker</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
