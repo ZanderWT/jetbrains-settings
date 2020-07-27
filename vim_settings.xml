@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>title</entry>
         <entry>and</entry>
         <entry>val</entry>
         <entry>temp</entry>
@@ -27,6 +26,7 @@
         <entry>Rank\(\d\)8w</entry>
         <entry>Rank\(\d\)12w</entry>
         <entry>jooq</entry>
+        <entry>insightsdail</entry>
       </history-search>
       <history-cmd>
         <entry>505</entry>
@@ -153,10 +153,11 @@
         <mark key="." line="35" column="0" />
         <mark key="^" line="35" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" timestamp="1595881217337">
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" timestamp="1595882074206">
         <mark key="[" line="25" column="79" />
-        <mark key="]" line="25" column="79" />
-        <mark key="." line="25" column="79" />
+        <mark key="]" line="26" column="73" />
+        <mark key="." line="26" column="72" />
+        <mark key="^" line="26" column="73" />
       </file>
       <file name="/a.dummy" timestamp="1595876411265">
         <mark key="[" line="0" column="0" />
@@ -225,8 +226,8 @@
         <mark key="^" line="139" column="50" />
         <mark key="." line="139" column="49" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" timestamp="1595875619569">
-        <mark key="'" line="317" column="8" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" timestamp="1595883835003">
+        <mark key="'" line="4" column="41" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/013_partner_insights_aggregated.sql" timestamp="1595879672979">
         <mark key="'" line="13" column="52" />
@@ -240,9 +241,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="116" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="114" column="17" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="169" column="51" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportRequest.json" />
       <jump line="105" column="1" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
@@ -340,6 +338,9 @@
       <jump line="117" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="14" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="21" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
+      <jump line="318" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="3" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="4" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -777,7 +778,7 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>jooq</text>
+        <text>insightsdail</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
@@ -3854,9 +3855,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>jooq</last-search>
+      <last-search>insightsdail</last-search>
       <last-offset />
-      <last-pattern>jooq</last-pattern>
+      <last-pattern>insightsdail</last-pattern>
       <last-replace>12wRank\1</last-replace>
       <last-substitute>Rank\(\d\)12w</last-substitute>
       <last-dir>1</last-dir>
