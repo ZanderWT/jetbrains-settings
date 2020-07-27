@@ -7,12 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>country</entry>
-        <entry>COUNTR</entry>
-        <entry>createmod</entry>
-        <entry>insight</entry>
-        <entry>corp</entry>
-        <entry>titl</entry>
         <entry>instr</entry>
         <entry>percent of your</entry>
         <entry>utiliza</entry>
@@ -27,13 +21,14 @@
         <entry encoding="base64">XDxnZXREYWlseUluc2lnaHRBZ2dyZWdhdGVkTWV0cmljXD4=</entry>
         <entry>todo</entry>
         <entry>alter table</entry>
+        <entry>^$</entry>
+        <entry>;</entry>
+        <entry>add column \(\w\+\) json</entry>
+        <entry>,,</entry>
+        <entry encoding="base64">IFN0cmluZw==</entry>
+        <entry>xxx</entry>
       </history-search>
       <history-cmd>
-        <entry>45</entry>
-        <entry>q</entry>
-        <entry>701</entry>
-        <entry>49</entry>
-        <entry>61</entry>
         <entry>action MethodUp</entry>
         <entry>action MethodDown</entry>
         <entry encoding="base64">JzwsJz5zOz86IGZhbHNlOzs=</entry>
@@ -42,13 +37,18 @@
         <entry>action QuickJavaDoc</entry>
         <entry>action VcsShowNextChangeMarker</entry>
         <entry>bnext</entry>
-        <entry>action ReformatCode</entry>
         <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ShowBookmarks</entry>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
         <entry>%s;{rank, number}. ;;</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>%g;alter table;d</entry>
+        <entry>%s/;/,/</entry>
+        <entry encoding="base64">JzwsJz5zO2FkZCBjb2x1bW4gXChcd1wrXCkganNvbjtASnNvblByb3BlcnR5KCJcMSIpIHZhbCB4eHhcMSBTdHJpbmcsOw==</entry>
+        <entry encoding="base64">JzwsJz5zOywsOyw7</entry>
+        <entry encoding="base64">JzwsJz5zOyBTdHJpbmc7OiBTdHJpbmc7Zw==</entry>
+        <entry encoding="base64">JzwsJz5zO3h4eDs7</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -136,6 +136,13 @@
         <mark key="." line="324" column="23" />
         <mark key="^" line="324" column="24" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" timestamp="1595880646433">
+        <mark key="'" line="33" column="0" />
+        <mark key="[" line="33" column="100" />
+        <mark key="]" line="33" column="100" />
+        <mark key="^" line="18" column="123" />
+        <mark key="." line="33" column="100" />
+      </file>
       <file name="/a.dummy" timestamp="1595876411265">
         <mark key="[" line="0" column="0" />
       </file>
@@ -187,9 +194,6 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="61" column="51" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/CuratedPlaylist.java" timestamp="1595447285375">
-        <mark key="'" line="7" column="42" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" timestamp="1595450114295">
         <mark key="'" line="57" column="14" />
       </file>
@@ -198,12 +202,12 @@
         <mark key="]" line="15" column="2" />
         <mark key="." line="15" column="2" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" timestamp="1595879817161">
-        <mark key="'" line="27" column="0" />
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="^" line="0" column="0" />
-        <mark key="." line="29" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" timestamp="1595880438805">
+        <mark key="'" line="1" column="52" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="15" column="54" />
+        <mark key="^" line="1" column="15" />
+        <mark key="." line="15" column="54" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/StatsReportDao.kt" timestamp="1595457808882">
         <mark key="[" line="39" column="0" />
@@ -234,19 +238,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="35" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/AddOnControllerTest.kt" />
-      <jump line="16" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="70" column="23" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="71" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="152" column="13" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="14" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="151" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="158" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="1" column="34" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="64" column="55" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/generators/AddonPurchaseGenerator.kt" />
-      <jump line="27" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/AddOnAuditLogDao.kt" />
-      <jump line="7" column="42" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/CuratedPlaylist.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/PassportReservations.java" />
       <jump line="10" column="68" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerLegacyDb/com/classpass/partners/jooq/legacy/tables/PassportReservations.java" />
       <jump line="19" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
       <jump line="44" column="28" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
@@ -320,13 +311,6 @@
       <jump line="238" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" />
       <jump line="13" column="52" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/013_partner_insights_aggregated.sql" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
-      <jump line="1" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
-      <jump line="3" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
-      <jump line="5" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
-      <jump line="7" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
-      <jump line="9" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
-      <jump line="11" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
-      <jump line="13" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
       <jump line="15" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
       <jump line="19" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
@@ -334,6 +318,26 @@
       <jump line="23" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
       <jump line="25" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
       <jump line="27" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="29" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="3" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="4" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="5" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="6" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="7" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="8" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="9" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="10" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="11" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="12" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="13" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="14" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="1" column="52" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
+      <jump line="16" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" />
+      <jump line="20" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" />
+      <jump line="34" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" />
+      <jump line="19" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" />
+      <jump line="33" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -359,8 +363,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+      <register name="*" type="4">
+        <text>;</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -735,7 +739,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>span.toString()</text>
+        <text>;</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -771,43 +775,43 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>alter table</text>
+        <text>xxx</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
-      <register name="0" type="4">
-        <text>partner_insights_aggregated</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzFfNHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzJfNHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzNfNHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzRfNHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzVfNHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzFfOHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzJfOHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzNfOHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzRfOHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzVfOHcganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzFfMTJ3IGpzb24sCiAgICBhZGQgY29sdW1uIHBhcnRuZXJfc2FmZXR5X21lYXN1cmVfcmFua18yXzEydyBqc29uLAogICAgYWRkIGNvbHVtbiBwYXJ0bmVyX3NhZmV0eV9tZWFzdXJlX3JhbmtfM18xMncganNvbiwKICAgIGFkZCBjb2x1bW4gcGFydG5lcl9zYWZldHlfbWVhc3VyZV9yYW5rXzRfMTJ3IGpzb24sCiAgICBhZGQgY29sdW1uIHBhcnRuZXJfc2FmZXR5X21lYXN1cmVfcmFua181XzEydyBqc29uOwo=</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="2">
         <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text>REVENUE_REVENUEITEMLOG</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3818,28 +3822,28 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="x" type="4">
         <text>VP_USER_VENUE_XREF</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">YWx0ZXIgdGFibGUgZGF0YXBpcGVsaW5lLnBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowPrevChangeMarker</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3848,11 +3852,11 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>alter table</last-search>
+      <last-search>xxx</last-search>
       <last-offset />
-      <last-pattern>alter table</last-pattern>
+      <last-pattern>xxx</last-pattern>
       <last-replace />
-      <last-substitute encoding="base64">e3JhbmssIG51bWJlcn0uIA==</last-substitute>
+      <last-substitute>xxx</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
