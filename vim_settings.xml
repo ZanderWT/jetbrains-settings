@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>and</entry>
-        <entry>val</entry>
-        <entry>temp</entry>
-        <entry>measure\.\zs&quot;</entry>
-        <entry encoding="base64">e3JhbmssIG51bWJlcn0uIA==</entry>
         <entry>classes</entry>
         <entry encoding="base64">XDxnZXREYWlseUluc2lnaHRBZ2dyZWdhdGVkTWV0cmljXD4=</entry>
         <entry>todo</entry>
@@ -27,6 +22,11 @@
         <entry>Rank\(\d\)12w</entry>
         <entry>jooq</entry>
         <entry>insightsdail</entry>
+        <entry encoding="base64">XDxQYXJ0bmVySW5zaWdodHNEYWlseU1ldHJpY1w+</entry>
+        <entry>1_</entry>
+        <entry>12</entry>
+        <entry>1</entry>
+        <entry>1\ze,</entry>
       </history-search>
       <history-cmd>
         <entry>505</entry>
@@ -44,11 +44,11 @@
         <entry encoding="base64">JzwsJz5zOywsOyw7</entry>
         <entry encoding="base64">JzwsJz5zOyBTdHJpbmc7OiBTdHJpbmc7Zw==</entry>
         <entry encoding="base64">JzwsJz5zO3h4eDs7</entry>
-        <entry>action ReformatCode</entry>
         <entry>action MethodUp</entry>
         <entry encoding="base64">JzwsJz5zO1JhbmtcKFxkXCk0dzs0d1JhbmtcMTs=</entry>
         <entry encoding="base64">JzwsJz5zO1JhbmtcKFxkXCk4dzs4d1JhbmtcMTs=</entry>
         <entry encoding="base64">JzwsJz5zO1JhbmtcKFxkXCkxMnc7MTJ3UmFua1wxOw==</entry>
+        <entry>action ReformatCode</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -131,9 +131,6 @@
         <mark key="." line="1" column="20" />
         <mark key="^" line="1" column="21" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/ReservationLegacyDao.kt" timestamp="1595450114295">
-        <mark key="'" line="57" column="14" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportRequest.json" timestamp="1595530080688">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -153,11 +150,12 @@
         <mark key="." line="35" column="0" />
         <mark key="^" line="35" column="0" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" timestamp="1595882074206">
-        <mark key="[" line="25" column="79" />
-        <mark key="]" line="26" column="73" />
-        <mark key="." line="26" column="72" />
-        <mark key="^" line="26" column="73" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" timestamp="1595885134927">
+        <mark key="'" line="73" column="4" />
+        <mark key="[" line="72" column="0" />
+        <mark key="]" line="72" column="8" />
+        <mark key="." line="13" column="2755" />
+        <mark key="^" line="69" column="17" />
       </file>
       <file name="/a.dummy" timestamp="1595876411265">
         <mark key="[" line="0" column="0" />
@@ -229,6 +227,9 @@
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" timestamp="1595883835003">
         <mark key="'" line="4" column="41" />
       </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PartnerInsightsDaily.kt" timestamp="1595883944035">
+        <mark key="'" line="31" column="11" />
+      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/013_partner_insights_aggregated.sql" timestamp="1595879672979">
         <mark key="'" line="13" column="52" />
         <mark key="[" line="0" column="13" />
@@ -241,36 +242,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="169" column="51" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/resources/fixtures/ClassesReportRequest.json" />
-      <jump line="105" column="1" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="2" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="54" column="0" filename="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" />
-      <jump line="29" column="66" filename="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" />
-      <jump line="50" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="13" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
-      <jump line="49" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="58" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="56" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="4" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="51" column="37" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="17" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="18" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="8" column="36" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="42" column="21" filename="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" />
-      <jump line="570" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
-      <jump line="91" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
-      <jump line="22" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="23" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="28" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="35" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="43" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="45" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="49" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="53" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="55" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="58" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
       <jump line="64" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Constants.kt" />
       <jump line="65" column="18" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Constants.kt" />
@@ -333,7 +304,6 @@
       <jump line="33" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" />
       <jump line="34" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" />
       <jump line="35" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dto/PartnerInsightsAggregated.kt" />
-      <jump line="25" column="79" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
       <jump line="91" column="29" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="117" column="48" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
       <jump line="14" column="18" filename="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" />
@@ -341,6 +311,37 @@
       <jump line="318" column="24" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
       <jump line="3" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
       <jump line="4" column="41" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="31" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PartnerInsightsDaily.kt" />
+      <jump line="25" column="76" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="26" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="29" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="32" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="35" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="38" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="49" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="47" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="40" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="39" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="27" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="28" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="30" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="31" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="33" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="34" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="36" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="37" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="55" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="59" column="53" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="68" column="20" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="67" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="66" column="47" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="65" column="54" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="64" column="54" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="70" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="42" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="71" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="41" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
+      <jump line="73" column="4" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -366,8 +367,8 @@
       <register name="i" type="4">
         <text>RES_PRICING_HISTORY</text>
       </register>
-      <register name="*" type="4">
-        <text>11</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApCg==</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -742,7 +743,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>11</text>
+        <text>,</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -778,43 +779,72 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>insightsdail</text>
+        <text>1\ze,</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
-      <register name="0" type="4">
-        <text>PARTNER_INSIGHTS_AGGREGATED</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbnRpdHkucGFydG5lclNhZmV0eU1lYXN1cmUxMndSYW5rMSwK</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgUEFSVE5FUl9JTlNJR0hUU19BR0dSRUdBVEVELlBBUlRORVJfU0FGRVRZX01FQVNVUkVfUkFOS18xXzEyVwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApCg==</text>
       </register>
-      <register name="q" type="2">
-        <text encoding="base64">ICAgICAgICB2YWwgYWRkb25QdXJjaGFzZXMgPSBuYW1lKCJhZGRvblB1cmNoYXNlcyIpLmBhc2Aoc2VsZWN0RGlzdGluY3QoCiAgICAgICAgICAgIEFERE9OX1BBUlRORVJfREFTSEJPQVJELlBVUkNIQVNFX0lELAogICAgICAgICAgICBBRERPTl9QQVJUTkVSX0RBU0hCT0FSRC5QQVJUTkVSX1BBWU9VVCwKICAgICAgICAgICAgQURET05fUEFSVE5FUl9EQVNIQk9BUkQuUFVSQ0hBU0VfREFURQogICAgICAgICkuZnJvbShBRERPTl9QQVJUTkVSX0RBU0hCT0FSRCkKICAgICAgICAgICAgLndoZXJlKEFERE9OX1BBUlRORVJfREFTSEJPQVJELlZFTlVFX0lELmBpbmAodmVudWVJZHMpKQogICAgICAgICkK</text>
+      <register name="q" type="4">
+        <keys>
+          <key char="65535" code="65" mods="130" />
+          <key char="121" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="113" code="0" mods="0" />
+        </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="8">
+        <text>12
+12
+12
+12
+12</text>
       </register>
       <register name="r" type="4">
-        <text>REVENUE_REVENUEITEMLOG</text>
+        <keys>
+          <key char="49" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="49" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="65535" code="114" mods="0" />
+          <key char="65535" code="65" mods="130" />
+          <key char="121" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="113" code="0" mods="0" />
+        </keys>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="8">
+        <text>12
+12</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="8">
+        <text>12
+12</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgUEFSVE5FUl9JTlNJR0hUU19BR0dSRUdBVEVELlBBUlRORVJfU0FGRVRZX01FQVNVUkVfUkFOS18xXzEyVwo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3846,7 +3876,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz5zO1JhbmtcKFxkXCkxMnc7MTJ3UmFua1wxOw==</text>
+        <text>action ReformatCode</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -3855,9 +3885,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>insightsdail</last-search>
+      <last-search>1\ze,</last-search>
       <last-offset />
-      <last-pattern>insightsdail</last-pattern>
+      <last-pattern>1\ze,</last-pattern>
       <last-replace>12wRank\1</last-replace>
       <last-substitute>Rank\(\d\)12w</last-substitute>
       <last-dir>1</last-dir>
