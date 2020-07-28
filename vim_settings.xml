@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>12</entry>
-        <entry>1</entry>
-        <entry>1\ze,</entry>
-        <entry encoding="base64">XDxiYXRjaFw+</entry>
-        <entry>aggreg</entry>
         <entry encoding="base64">XDxlbnRpdHlQYXJzZXJcPg==</entry>
         <entry>string</entry>
         <entry>String</entry>
@@ -19,7 +14,6 @@
         <entry>asdf</entry>
         <entry>PartnerSafetyMeasure</entry>
         <entry>tostring</entry>
-        <entry>corp</entry>
         <entry>okhttp</entry>
         <entry>jade</entry>
         <entry encoding="base64">XDx2ZW51ZVw+</entry>
@@ -27,6 +21,12 @@
         <entry encoding="base64">XDxnZXRDb3Jwb3JhdGVSZXZlbnVlXD4=</entry>
         <entry>=</entry>
         <entry>aggregated</entry>
+        <entry>cor</entry>
+        <entry>corporaterev</entry>
+        <entry>corp</entry>
+        <entry>getaggregated</entry>
+        <entry>span: Strin</entry>
+        <entry encoding="base64">XDxpbnNpZ2h0c0NvbnRyb2xsZXJNb2NrZWRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>call search('[&quot;'']\zs.\{-0,}[&quot;'']','')</entry>
@@ -45,10 +45,10 @@
         <entry encoding="base64">JzwsJz5zO1N0cmluZztQYXJ0bmVyU2FmZXR5TWVhc3VyZTtn</entry>
         <entry encoding="base64">JzwsJz5zOyw7Pyw7Zw==</entry>
         <entry encoding="base64">JzwsJz5zO1BhcnRuZXJTYWZldHlNZWFzdXJlO0pzb25Ob2RlOw==</entry>
-        <entry>action ToggleBookmarkWithMnemonic</entry>
         <entry>action ReformatCode</entry>
         <entry>action VcsShowPrevChangeMarker</entry>
         <entry>action VcsShowNextChangeMarker</entry>
+        <entry>action ToggleBookmarkWithMnemonic</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -124,13 +124,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" timestamp="1595877105961">
-        <mark key="'" line="238" column="26" />
-        <mark key="[" line="324" column="19" />
-        <mark key="]" line="324" column="24" />
-        <mark key="." line="324" column="23" />
-        <mark key="^" line="324" column="24" />
-      </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" timestamp="1595890750506">
         <mark key="'" line="54" column="27" />
         <mark key="[" line="64" column="55" />
@@ -138,8 +131,12 @@
         <mark key="." line="64" column="55" />
         <mark key="^" line="64" column="66" />
       </file>
-      <file name="/a.dummy" timestamp="1595876411265">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/InsightsControllerTest.kt" timestamp="1595962690424">
+        <mark key="'" line="1116" column="12" />
+        <mark key="[" line="1163" column="66" />
+        <mark key="]" line="1163" column="66" />
+        <mark key="." line="1163" column="66" />
+        <mark key="^" line="1163" column="54" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1595891079225">
         <mark key="'" line="91" column="4" />
@@ -154,11 +151,12 @@
         <mark key="." line="353" column="13" />
         <mark key="^" line="353" column="14" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" timestamp="1595961068495">
-        <mark key="[" line="682" column="41" />
-        <mark key="]" line="682" column="105" />
-        <mark key="." line="713" column="78" />
-        <mark key="^" line="713" column="77" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" timestamp="1595962507043">
+        <mark key="'" line="701" column="12" />
+        <mark key="[" line="702" column="0" />
+        <mark key="]" line="702" column="65" />
+        <mark key="." line="702" column="0" />
+        <mark key="^" line="701" column="81" />
       </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.11.1/d004e9fc776bb13c7a9ef552df383994d8dd8be5/jackson-databind-2.11.1-sources.jar!/com/fasterxml/jackson/databind/JsonNode.java" timestamp="1595890242918">
         <mark key="'" line="38" column="22" />
@@ -199,8 +197,10 @@
         <mark key="^" line="20" column="23" />
         <mark key="." line="20" column="22" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Enums.kt" timestamp="1595961350473">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Enums.kt" timestamp="1595961555949">
+        <mark key="[" line="270" column="0" />
+        <mark key="]" line="270" column="0" />
+        <mark key="." line="270" column="0" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/build.gradle.kts" timestamp="1595891088389">
         <mark key="'" line="55" column="17" />
@@ -218,22 +218,18 @@
         <mark key="^" line="48" column="27" />
         <mark key="." line="48" column="26" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" timestamp="1595961265218" />
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" timestamp="1595962545661">
+        <mark key="'" line="324" column="46" />
+        <mark key="[" line="335" column="14" />
+        <mark key="]" line="335" column="47" />
+        <mark key="^" line="332" column="12" />
+        <mark key="." line="335" column="14" />
+      </file>
+      <file name="/fragment.java" timestamp="1595961538867">
+        <mark key="[" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="89" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="76" column="111" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="77" column="97" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="78" column="115" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="79" column="107" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="72" column="67" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/translations/default.json" />
-      <jump line="320" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" />
-      <jump line="632" column="19" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
-      <jump line="317" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
-      <jump line="643" column="53" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
-      <jump line="719" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
-      <jump line="238" column="26" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/resource/InsightsResource.kt" />
-      <jump line="13" column="52" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/013_partner_insights_aggregated.sql" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
       <jump line="15" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
       <jump line="17" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/018_safety_measures_columns.sql" />
@@ -317,16 +313,29 @@
       <jump line="89" column="64" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/VenueController.kt" />
       <jump line="318" column="30" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
       <jump line="328" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
-      <jump line="324" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
-      <jump line="325" column="6" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
       <jump line="283" column="11" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Enums.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Enums.kt" />
+      <jump line="271" column="0" filename="$USER_HOME$/cp-projects/partners-service/model/src/main/java/com/classpass/partners/model/Enums.kt" />
+      <jump line="320" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="326" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="327" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="322" column="31" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="325" column="62" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="563" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
+      <jump line="581" column="8" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
+      <jump line="701" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" />
+      <jump line="329" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="417" column="11" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="319" column="14" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="324" column="46" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="1116" column="12" filename="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/InsightsControllerTest.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="a" type="4">
-        <text>{ TODO()}</text>
+        <text>PartnerInsightsAggregatedTimeSpan</text>
       </register>
       <register name="&quot;" type="4">
         <text>&quot;</text>
@@ -347,7 +356,7 @@
         <text>RES_PRICING_HISTORY</text>
       </register>
       <register name="*" type="4">
-        <text>= TODO()</text>
+        <text>, any()</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -722,7 +731,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>= TODO()</text>
+        <text>, any()</text>
       </register>
       <register name="n" type="4">
         <keys>
@@ -758,19 +767,19 @@
         </keys>
       </register>
       <register name="/" type="4">
-        <text>aggregated</text>
+        <text encoding="base64">XDxpbnNpZ2h0c0NvbnRyb2xsZXJNb2NrZWRcPg==</text>
       </register>
       <register name="o" type="4">
         <text>CLASSTIVITY_VENUE_OVERRIDES</text>
       </register>
       <register name="0" type="4">
-        <text>{ TODO()}</text>
+        <text>PartnerInsightsAggregatedTimeSpan</text>
       </register>
       <register name="p" type="4">
         <text>PASSPORT_VENUES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">PSBUT0RPKCkgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmVudWVJZCwgc3RhcnREYXRlLCBlbmREYXRlLCBQYXJ0bmVySW5zaWdodHNBZ2dyZWdhdGVkTWV0cmljLlBBUlRORVJfQ09SUF9DQUxMT1VUX0NPUlBfUkVTRVJWQVRJT05TCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -784,7 +793,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBtZXRyaWM6IFN0cmluZywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdmVudWVJZCwgc3RhcnREYXRlLCBlbmREYXRlLCBQYXJ0bmVySW5zaWdodHNBZ2dyZWdhdGVkTWV0cmljLlBBUlRORVJfQ09SUF9DQUxMT1VUX0NPUlBfUkVWRU5VRQo=</text>
       </register>
       <register name="r" type="4">
         <keys>
@@ -805,19 +814,19 @@
         </keys>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIC8vIFRPRE8gWmFuZGVyIHJlZmFjdG9yIHRoaXMgdG8gc3R1ZmYgdGhlIFBhcnRuZXJJbnNpZ2h0c0FnZ3JlZ2F0ZWQgc3R1ZmYgaW50byB0aGUgZGFvIHdoZXJlIGl0IGJlbG9uZ3MKICAgIHByaXZhdGUgZnVuIGdldEFnZ3JlZ2F0ZWRNZXRyaWNGb3JTcGFuKAogICAgICAgIHZlbnVlSWQ6IFZlbnVlSWQsCiAgICAgICAgc3RhcnREYXRlOiBMb2NhbERhdGUsCiAgICAgICAgZW5kRGF0ZTogTG9jYWxEYXRlLAogICAgICAgIG1ldHJpYzogUGFydG5lckluc2lnaHRzQWdncmVnYXRlZE1ldHJpYwogICAgKTogQmlnRGVjaW1hbD8gewogICAgICAgIC8vIEdldCB0aGUgYXBwcm9wcmlhdGUgbWV0cmljCiAgICAgICAgcmV0dXJuIGluc2lnaHRzRGFvLmdldERhaWx5SW5zaWdodEFnZ3JlZ2F0ZWRNZXRyaWMoCiAgICAgICAgICAgIHZlbnVlSWQsCiAgICAgICAgICAgIG1ldHJpYy50b1N0cmluZygpLAogICAgICAgICAgICAoc3RhcnREYXRlLi5lbmREYXRlKS5nZXRBZ2dyZWdhdGVkVGltZVNwYW4oKS50b1N0cmluZygpCiAgICAgICAgKQogICAgfQoK</text>
       </register>
       <register name="s" type="4">
         <text>CLASSTIVITY_CLASSES_TIMETABLE</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuU29jaWFsTWVkaWEKaW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuVmVudWUKaW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuVmVudWVBbWVuaXRpZXMK</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuUGFydG5lckluc2lnaHRzQWdncmVnYXRlZE1ldHJpYwppbXBvcnQgY29tLmNsYXNzcGFzcy5wYXJ0bmVycy5tb2RlbC5QYXJ0bmVySW5zaWdodHNBZ2dyZWdhdGVkVGltZVNwYW4K</text>
       </register>
       <register name="t" type="4">
         <text>CLASSTIVITY_TEACHERS</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAogICAgLy8gV2UgZGVzZXJpYWxpemUgdGhlIHBhcnRuZXJfc2FmZXR5X21lYXN1cmUgdmFsdWVzIGFzIEpzb25Ob2RlIGJlY2F1c2UgdGhlaXIgY29sdW1uIHR5cGVzIGluIHRoZSBkYiBhcmUganNvbi4K</text>
+        <text encoding="base64">ZW51bSBjbGFzcyBQYXJ0bmVySW5zaWdodHNBZ2dyZWdhdGVkTWV0cmljKHZhbCB2YWx1ZTogU3RyaW5nKSB7CiAgICAvLyBOb3RlOiB0aGVzZSBzaG91bGQgY29ycmVzcG9uZCB0byB0aGUgbmFtZSBvZiBjb2x1bW5zIGluIHBhcnRuZXJfaW5zaWdodHNfYWdncmVnYXRlZAogICAgLy8gbWludXMgdGhlIHBhcnQgdGhhdCBkZW5vdGVzIHRoZSBzcGFuICg0dywgOHcsIDEydykKICAgIFBBUlRORVJfVVNFUl9GUkVRX0NBTExPVVQoInBhcnRuZXJfdXNlcl9mcmVxX2NhbGxvdXRfbGVzc19lcV8zIiksCiAgICBQQVJUTkVSX0NPUlBfQ0FMTE9VVF9DT1JQX1JFVkVOVUUoInBhcnRuZXJfY29ycF9jYWxsb3V0X2NvcnBfcmV2ZW51ZSIpLAogICAgUEFSVE5FUl9DT1JQX0NBTExPVVRfQ09SUF9SRVNFUlZBVElPTlMoInBhcnRuZXJfY29ycF9jYWxsb3V0X2NvcnBfcmVzZXJ2YXRpb25zIik7CgogICAgb3ZlcnJpZGUgZnVuIHRvU3RyaW5nKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRoaXMudmFsdWUKICAgIH0KfQoKZW51bSBjbGFzcyBQYXJ0bmVySW5zaWdodHNBZ2dyZWdhdGVkVGltZVNwYW4odmFsIHZhbHVlOiBTdHJpbmcpIHsKICAgIEZPVVJfV0VFS1MoIjR3IiksCiAgICBFSUdIVF9XRUVLUygiOHciKSwKICAgIFRXRUxWRV9XRUVLUygiMTJ3Iik7CgogICAgb3ZlcnJpZGUgZnVuIHRvU3RyaW5nKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRoaXMudmFsdWUKICAgIH0KfQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -3828,21 +3837,19 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">PSBUT0RPKCkgICAgCg==</text>
       </register>
       <register name="v" type="4">
         <text>CLASSTIVITY_VENUES</text>
       </register>
-      <register name="7" type="4">
-        <text>{
-    data class PartnerSafetyMeasure(val measure: String, val percentage: BigDecimal, val responses: Int)
-}</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBtZXRyaWM6IFN0cmluZywK</text>
       </register>
       <register name="w" type="4">
         <text>venuePassportRecord.spots?.toInt()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="x" type="4">
         <keys>
@@ -4349,10 +4356,10 @@
         </keys>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZGF0YSBjbGFzcyBQYXJ0bmVyU2FmZXR5TWVhc3VyZSh2YWwgbWVhc3VyZTogU3RyaW5nLCB2YWwgcGVyY2VudGFnZTogQmlnRGVjaW1hbCwgdmFsIHJlc3BvbnNlczogSW50KQo=</text>
+        <text encoding="base64">aW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuU29jaWFsTWVkaWEKaW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuVmVudWUKaW1wb3J0IGNvbS5jbGFzc3Bhc3MucGFydG5lcnMubW9kZWwuVmVudWVBbWVuaXRpZXMK</text>
       </register>
       <register name=":" type="4">
-        <text>action VcsShowNextChangeMarker</text>
+        <text>action ToggleBookmarkWithMnemonic</text>
       </register>
       <register name="z" type="2">
         <text encoding="base64">ICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgdXNlckRhbzogRGFzaGJvYXJkVXNlckxlZ2FjeURhbwogICAgQE1vY2sKICAgIGxhdGVpbml0IHZhciB2ZW51ZURhbzogVmVudWVMZWdhY3lEYW8KICAgIEBNb2NrCiAgICBsYXRlaW5pdCB2YXIgcmV2ZW51ZUFnZ3JlZ2F0aW9uTG9nRGFvOiBSZXZlbnVlQWdncmVnYXRpb25Mb2dWZW51ZVBvcnRhbERhbwogICAgQEluamVjdE1vY2tzCiAgICBsYXRlaW5pdCB2YXIgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXI6IFN1bW1hcnlSZXBvcnRDb250cm9sbGVyCgogICAgQEJlZm9yZQogICAgZnVuIGluaXQoKSB7CiAgICAgICAgTW9ja2l0b0Fubm90YXRpb25zLmluaXRNb2Nrcyh0aGlzKTsKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHZXRTdW1tYXJ5UmVwb3J0KCkgewogICAgICAgIHZhbCB1c2VySWQgPSA5CiAgICAgICAgdmFsIHZlbnVlSWRzID0gbGlzdE9mKDQsIDUsIDYpCiAgICAgICAgdmFsIHVzZXJWZW51ZUlkcyA9IGxpc3RPZig0LCA1KQogICAgICAgIHdoZW5ldmVyKHVzZXJEYW8uZ2V0TGlua2VkVmVudWVJZHMoZXEodXNlcklkKSkpLnRoZW5SZXR1cm4odXNlclZlbnVlSWRzKQoKICAgICAgICB2YWwgdXNhID0gQ291bnRyeSgwLCAiVVNBIiwgIlVTQSIpCiAgICAgICAgdmFsIHZlbnVlcyA9IHVzZXJWZW51ZUlkcy5tYXAge3ZlbnVlSWQgLT4KICAgICAgICAgICAgVmVudWUoCiAgICAgICAgICAgICAgICB2ZW51ZUlkID0gdmVudWVJZCwKICAgICAgICAgICAgICAgIHZlbnVlTmFtZSA9ICJ2ZW51ZSAkdmVudWVJZCIsCiAgICAgICAgICAgICAgICB2ZW51ZVN1YnRpdGxlID0gbnVsbCwKICAgICAgICAgICAgICAgIHZlbnVlQWxpYXMgPSAiIiwKICAgICAgICAgICAgICAgIG9yZ2FuaXphdGlvbklkID0gMCwKICAgICAgICAgICAgICAgIGNvdW50cnkgPXVzYSwKICAgICAgICAgICAgICAgIHRpbWVab25lID0gbnVsbAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB3aGVuZXZlcgoKICAgICAgICB2YWwgcmVxdWVzdCA9IFN1bW1hcnlSZXBvcnRSZXF1ZXN0KHZpZXdCeVVuaXRQYXJhbSA9IFZpZXdCeVVuaXQuTU9OVEhMWSwgdmlld0J5UmFuZ2VQYXJhbSA9IDMpCiAgICAgICAgc3VtbWFyeVJlcG9ydENvbnRyb2xsZXIuZ2V0U3VtbWFyeVJlcG9ydCh1c2VySWQsIHJlcXVlc3QpCiAgICB9Cg==</text>
@@ -4361,9 +4368,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>aggregated</last-search>
+      <last-search encoding="base64">XDxpbnNpZ2h0c0NvbnRyb2xsZXJNb2NrZWRcPg==</last-search>
       <last-offset />
-      <last-pattern>aggregated</last-pattern>
+      <last-pattern encoding="base64">XDxpbnNpZ2h0c0NvbnRyb2xsZXJNb2NrZWRcPg==</last-pattern>
       <last-replace>JsonNode</last-replace>
       <last-substitute>PartnerSafetyMeasure</last-substitute>
       <last-dir>1</last-dir>
