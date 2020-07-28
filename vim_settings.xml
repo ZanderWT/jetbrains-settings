@@ -133,10 +133,10 @@
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/test/kotlin/com/classpass/partners/business/InsightsControllerTest.kt" timestamp="1595962690424">
         <mark key="'" line="1116" column="12" />
-        <mark key="[" line="1163" column="66" />
-        <mark key="]" line="1163" column="66" />
-        <mark key="." line="1163" column="66" />
-        <mark key="^" line="1163" column="54" />
+        <mark key="[" line="1121" column="66" />
+        <mark key="]" line="1121" column="66" />
+        <mark key="." line="1121" column="66" />
+        <mark key="^" line="1121" column="54" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/build.gradle.kts" timestamp="1595891079225">
         <mark key="'" line="91" column="4" />
@@ -151,23 +151,11 @@
         <mark key="." line="353" column="13" />
         <mark key="^" line="353" column="14" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/business/InsightsController.kt" timestamp="1595962916476">
-        <mark key="'" line="680" column="47" />
-        <mark key="[" line="701" column="0" />
-        <mark key="]" line="701" column="65" />
-        <mark key="." line="701" column="0" />
-        <mark key="^" line="700" column="81" />
-      </file>
       <file name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.11.1/d004e9fc776bb13c7a9ef552df383994d8dd8be5/jackson-databind-2.11.1-sources.jar!/com/fasterxml/jackson/databind/JsonNode.java" timestamp="1595890242918">
         <mark key="'" line="38" column="22" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dto/PartnerInsightsDaily.kt" timestamp="1595883944035">
         <mark key="'" line="31" column="11" />
-      </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/resources/migrations/013_partner_insights_aggregated.sql" timestamp="1595879672979">
-        <mark key="'" line="13" column="52" />
-        <mark key="[" line="0" column="13" />
-        <mark key="]" line="0" column="39" />
       </file>
       <file name="$USER_HOME$/cp-projects/partners-service/api/jooq.gradle" timestamp="1595881432687">
         <mark key="'" line="42" column="21" />
@@ -175,6 +163,9 @@
         <mark key="]" line="1" column="21" />
         <mark key="." line="1" column="20" />
         <mark key="^" line="1" column="21" />
+      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/PartnerInsightsAggregated.java" timestamp="1595970725696">
+        <mark key="'" line="170" column="0" />
       </file>
       <file name="/fragment.kt" timestamp="1595888945272">
         <mark key="[" line="0" column="0" />
@@ -218,20 +209,12 @@
         <mark key="^" line="48" column="27" />
         <mark key="." line="48" column="26" />
       </file>
-      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" timestamp="1595969878300">
-        <mark key="'" line="455" column="44" />
-        <mark key="[" line="357" column="35" />
-        <mark key="]" line="357" column="35" />
-        <mark key="." line="357" column="35" />
-        <mark key="^" line="455" column="47" />
-      </file>
+      <file name="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" timestamp="1595970355345" />
       <file name="/fragment.java" timestamp="1595961538867">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="38" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
-      <jump line="49" column="56" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
       <jump line="47" column="61" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
       <jump line="40" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
       <jump line="39" column="70" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dataimporter/dao/PartnerInsightsAggregatedDao.kt" />
@@ -330,6 +313,8 @@
       <jump line="429" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
       <jump line="415" column="16" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
       <jump line="455" column="44" filename="$USER_HOME$/cp-projects/partners-service/api/src/main/java/com/classpass/partners/dao/InsightsDao.kt" />
+      <jump line="39" column="50" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/PartnerInsightsAggregated.java" />
+      <jump line="170" column="0" filename="$USER_HOME$/cp-projects/partners-service/api/build/generated-src/jooq/dockerVenuePortalDb/com/classpass/partners/jooq/venue_portal/tables/PartnerInsightsAggregated.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
